@@ -1,0 +1,32 @@
+.layer
+{
+
+    width:100%;
+    height:100%;
+    position:absolute
+    
+}
+
+.button
+{
+    
+    position:absolute;
+    right:0;
+}
+
+.uiContainer
+{
+    position:absolute
+}
+
+.controls
+{
+    width: 16px;
+    height: 16px;
+    border-radius: 50% 50%;
+    border: 4px solid red
+}
+
+#thirdControl
+{
+}
