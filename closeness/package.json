@@ -1,0 +1,30 @@
+{
+  "name": "closeness",
+  "version": "1.0.0",
+  "description": "test proximal range of number values",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "testling" : {
+		"files" : "test.js",
+		"browsers" : [
+	            "ie/6..latest",
+	            "chrome/20..latest",
+	            "firefox/10..latest",
+	            "safari/latest",
+	            "opera/11.0..latest",
+	            "iphone/6", "ipad/6"
+	        ]
+  }, 
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/NHQ/closeness.git"
+  },
+	"devDependencies" : {
+	"tape" : ""
+	},
+  "author": "johnnyscript.us",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
