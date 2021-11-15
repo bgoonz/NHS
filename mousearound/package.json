@@ -1,0 +1,20 @@
+{
+  "name": "mouse-around",
+  "version": "1.1.0",
+  "description": "mouse hover event for elements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git@gtihub.com:NHQ/mousearound.git",
+  "keywords": [
+    "mouse",
+    "events",
+    "browserify"
+  ],
+  "author": "johnnyscriptus",
+  "license": "MIT",
+  "dependencies": {
+    "closeness": "^1.0.0"
+  }
+}
