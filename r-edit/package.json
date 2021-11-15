@@ -7,11 +7,11 @@
     "url": "git://github.com/dominictarr/r-edit.git"
   },
   "dependencies": {
-    "adiff": "~0.2.7",
-    "r-array": "~0.5"
+    "adiff": "0.2.13",
+    "r-array": "0.5.3"
   },
   "devDependencies": {
-    "hash-change": "~0.1.0"
+    "hash-change": "0.1.0"
   },
   "scripts": {
     "test": "set -e; for t in test/*.js; do node $t; done"

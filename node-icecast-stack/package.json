@@ -17,8 +17,8 @@
     "http-stack": ">= 0.1.1"
   },
   "devDependencies": {
-    "colors": ">= 0.3.0",
-    "expresso": "0.8.x"
+    "colors": "1.4.0",
+    "expresso": "0.8.1"
   },
   "main": "./icecast-stack.js",
   "scripts": {

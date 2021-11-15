@@ -8,8 +8,8 @@
     "gamma": ""
   },
   "devDependencies": {
-    "gamma": "~0.1.0",
-    "tape": "~1.0.4"
+    "gamma": "0.1.0",
+    "tape": "1.0.4"
   },
   "scripts": {
     "test": "tape test/*.js"

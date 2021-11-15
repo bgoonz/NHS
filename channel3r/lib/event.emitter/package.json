@@ -54,7 +54,7 @@
   ],
   "devDependencies": {
     "nodeunit": "*",
-    "benchmark": ">= 0.2.2"
+    "benchmark": "2.1.4"
   },
   "engines": [
     "node"

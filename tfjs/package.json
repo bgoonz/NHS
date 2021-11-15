@@ -24,6 +24,6 @@
     "math-random": "^1.0.1"
   },
   "devDependencies": {
-    "browserify-shim": "^3.8.14"
+    "browserify-shim": "3.8.14"
   }
 }

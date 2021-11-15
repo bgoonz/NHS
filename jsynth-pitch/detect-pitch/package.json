@@ -14,7 +14,7 @@
     "typedarray-pool": "~0.1.1"
   },
   "devDependencies": {
-    "tape": "~1.0.4"
+    "tape": "1.0.4"
   },
   "scripts": {
     "test": "tap test/*.js"
