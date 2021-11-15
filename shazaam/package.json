@@ -1,0 +1,23 @@
+{
+  "name": "swurve",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "bin" : {
+    "swurve" : "cmd.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Johnny Honestly <mostmodernist@gmail.com> (http://johnnyscript.us/)",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "answerver": "~0.2.0",
+    "minimist": "~0.2.0",
+    "ls-stream": "~1.0.0",
+    "optimist": "~0.6.1",
+    "ecstatic": "~0.5.3",
+    "sesame-stream": "~0.6.0"
+  }
+}
