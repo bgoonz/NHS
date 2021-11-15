@@ -1,0 +1,66 @@
+#controls{
+    
+    width:100%;
+    height:100%;
+    border: 3px solid rgba(111,111,111,.5);
+    margin: 10px;
+    padding: 10px;
+}
+
+.dialBox{
+    height:450px;
+    width:310px;
+    padding:20px;
+    margin:10px;
+    border: 3px solid purple;
+    border-radius: 5px;
+    display:inline-block;
+    position:relative;
+
+}
+.knob:hover, .knob:active{
+  cursor: pointer
+}
+.pname, .pvalue{
+  text-align:center;
+  width:100%;
+}
+.switchBox{
+  height:70px;
+  width:70px;
+  display:inline;
+  position:relative;
+  margin:7px;
+}
+.switch{
+    height:100%;
+    width:100%;
+    border-radius:50%;
+    box-shadow:  3px 3px 7px white inset, -3px -3px 7px black inset;
+    box-sizing: border-box;
+    filter: drop-shadow(1px 1px 2px black);
+    -webkit-filter: drop-shadow(1px 1px 2px black);
+}
+.switch.active{
+  filter: saturate(167%) drop-shadow(1px 1px 2px black);
+  -webkit-filter: saturate(167% ) drop-shadow(1px 1px 2px black);
+}
+.switch.off{
+  background-color: rgba(220, 53, 87, 1);
+  box-shadow:  3px 3px 7px rgba(220, 213, 247, 1)inset, -3px -3px 7px rgba(80,13,37,1) inset;
+}
+.switch.on{
+  background-color: rgba(30, 153, 87, 1);
+  box-shadow:  3px 3px 7px rgba(213, 253, 247, 1)inset, -3px -3px 7px rgba(8,80,37,1) inset;
+}
+.knob{
+background-image: radial-gradient(center, ellipse cover, #e4f5fc 0%, #00b3f9 24%, #bfe8f9 41%, #9fd8ef 58%, #e4f5fc 79%, #2ab0ed 100%); /* FF3.6+ */
+background-image: -webkit-linear-gradient(45deg, rgba(230,287,153,0.6) 0%,rgba(30,87,153,0.6) 15%,rgba(30,87,153,0.6) 20%,rgba(41,137,216,0.6) 50%,rgba(30,87,153,0.6) 80%,rgba(30,87,153,0.6) 85%,rgba(30,87,153,0.6) 100%), -webkit-linear-gradient(55deg, rgba(30,87,153,1) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,0.8) 20%,rgba(41,137,216,0.8) 50%,rgba(30,87,153,0.8) 80%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,1) 100%); 
+
+    height:310px;
+    width:310px;
+    border-radius: 50%;
+    border: 11px solid black;
+    box-shadow:  0 0 33px black inset;
+    box-sizing: border-box;
+}
