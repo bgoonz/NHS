@@ -1,0 +1,34 @@
+{
+  "name": "jmao",
+  "version": "1.3.0",
+  "description": "JS to ArrayBuffer to JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "js-base64": "2.1.5",
+    "ndarray": ""
+  },
+  "dev-dependencies": {
+    "tape": ""
+  },
+  "testling": {
+    "files": "test.js",
+    "browsers": [
+      "chrome/latest",
+      "firefox/latest",
+      "ipad/6.0",
+      "ipad/7.1",
+      "opera/latest"
+    ]
+  },
+  "keywords": [
+    "ArrayBuffer",
+    "Buffer",
+    "JSON",
+    "binary"
+  ],
+  "author": "Johnny Honestly <mostmodernist@gmail.com> (http://johnnyscript.us/)",
+  "license": "CC"
+}
