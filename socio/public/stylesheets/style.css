@@ -1,0 +1,36 @@
+/* mostly all admin this 
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	-webkit-margin-before:0;-webkit-margin-after:0webkit-margin-end:0webkit-margin-start:0;}
+ul{list-style-type:none}
+body {
+		width:960px;
+	background-size: auto;
+	margin:0 auto;
+  	font-family: 'Terminal Dosis Light', arial, serif;
+}
+a {
+  color: #00B7FF;
+}
+
+#subject {display:block}
+#console{width:300px;float:left}
+#content{margin-left:450px}

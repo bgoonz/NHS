@@ -1,0 +1,57 @@
+- if (!session)
+  h1= title
+  h2 Create New User
+  br
+  br
+  form(method = 'post', action = '/login')
+    span email :
+      input(type = 'text', name = 'email', id = 'email')
+      span password :
+      input(type = 'password', name = 'password', id = 'password')
+    input(type = 'submit', value = 'Send')
+- if (session)
+  div#admin
+    ul
+      li 
+        a(href='#edit') edit this page
+div#console
+  div#menu
+    img#subject(src='../../'+person.facts.portrait)
+    =person.facts.fname+' '+person.facts.lname
+    div#menu 
+      ul.picker Testimonials
+      ul.picker Profile
+        li#bio Bio
+        li#work Work
+        li#learning Learning
+        li#contact Contact
+      ul.picker Projects
+        - if (stuff.projects)
+          -each p in stuff.projects
+            li(id=p)= p
+      ul.picker Portfolio
+        - if (stuff.articles)
+          -each a in stuff.articles
+            li(id=a)= a
+  form#recommend(action='/profile/id/' + person._id, method='post')
+    input(type='text', name='title', value='optional title')
+    textarea(name='quote') text goes here
+    input(type='submit', value='submit')
+
+div#content  
+  - if (blurbs.length)
+  ul#sortable  
+    - each a in blurbs
+      li.ui-state-default(id=a._id)
+        div.admin
+          form(action='/delete-blurb', method='post')
+            input(type="hidden", name="id", value=a._id) 
+            input(type="checkbox", ,value=a._id, class="published", checked=a.published, id="a"+a._id, name="published")
+            <label for=!{'a'+ a._id}>Publish?</label>
+            input(type='submit', value='delete this blurb')
+        =a._id
+        br
+        =a.owner.facts.fname+' '+a.owner.facts.lname
+
+  
+script(type='text/javascript', src='../../js/omegawd.js')
