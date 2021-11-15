@@ -1,0 +1,14 @@
+var win = require('./screen')()
+  , gridLayer = require('gridLayer')
+  ;
+
+module.exports = function(id, resx, resy){
+
+  if(!resx) resx = 10;
+  if(!resy) resy = resx;
+
+  var grid = gridLayer(win.x / resx, win.y / resy)
+
+  return grid
+
+}

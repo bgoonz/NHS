@@ -1,0 +1,20 @@
+module.exports = function(propValue){
+	var valueType = propValue.__proto__.constructor.name
+	;
+	switch(valueType.toLowerCase()){
+		case 'cssvalue':
+			return {type: 'cssValue', value : {unit: '', type: propValue.cssValueType, val: propValue.cssText}};
+		break;
+		case 'cssvaluelist':
+			var l = propValue.length;
+			return {type: 'cssPrimitiveValue', value : exports.CSSGetPrimitiveValue(propValue[0])};
+		break;
+		case 'cssprimitivevalue':
+			return {type: 'cssPrimitiveValue', value : exports.CSSGetPrimitiveValue(propValue)};
+		break;
+		case 'svgpaint':
+			return {type: 'SVGPaint', value : exports.CSSGetPrimitiveValue(propValue)};
+		break;
+	}
+
+};
