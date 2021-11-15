@@ -1,0 +1,192 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Extempore's data types library
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(bind-alias bool i1)
+
+;;;;;;;;;;;;;;;;;;;;
+;; pairs
+
+(bind-type xpair_t <!first,!second>)
+
+(bind-func xpair:[xpair_t*,!first,!second]*
+  (lambda (a b)
+    (let ((ppair (halloc)))
+      (tset! ppair 0 a)
+      (tset! ppair 1 b)
+      ppair)))    
+
+(bind-func xfirst:[!first,xpair_t*]*	   
+  (lambda (a)
+    (tref a 0)))
+
+(bind-func xsecond:[!second,xpair_t*]*	   
+  (lambda (a)
+    (tref a 1)))
+
+
+;;;;;;;;;;;;;;;;;;;;
+;;
+;; lists
+;;
+
+(bind-type xlist_t <!head,xlist_t*>)
+
+(bind-func xjoin:[xlist_t*,!head,xlist_t*]*
+  (lambda (a b)
+    (let ((joinpair (halloc)))
+      (tset! joinpair 0 a)
+      (tset! joinpair 1 b)
+      joinpair)))
+
+(bind-func xhead:[!head,xlist_t*]*
+  (lambda (a)
+    (tref a 0)))
+
+(bind-func xtail:[xlist_t*,xlist_t*]*
+  (lambda (a)
+    (tref a 1)))
+
+;; macro list builder
+(define-macro (xlist . args)
+  (let loop ((lst args))
+    (if (null? lst)
+	'null
+	`(xjoin ,(car lst) ,(loop (cdr lst))))))
+
+(bind-func xlength:[i64,xlist_t*]*
+  (lambda (a)    
+    (if (null? a)
+	0
+	(+ 1 (xlength (xtail a))))))
+
+(bind-func xnth_tail_:[xlist_t*,xlist_t*,i64,i64]*
+  (lambda (lst idx cnt)
+    (if (or (= cnt idx) (> cnt idx))
+        lst
+        (xnth_tail_ (xtail lst)
+               idx
+               (+ cnt 1)))))
+
+(bind-func xnth_tail:[xlist_t*,xlist_t*,i64]*
+  (lambda (lst idx)
+    (xnth_tail_ lst idx 0)))
+
+(bind-func xnth:[!a,xlist_t*,i64]*
+  (lambda (lst idx)
+    (xhead (xnth_tail lst idx))))
+
+;; insert val into list at idx 
+
+(bind-func xinsert:[xlist_t*,xlist_t*,i64,!a]*
+  (lambda (lst idx value)
+    (if (= idx 0)
+        (xjoin value lst)
+        (let ((pre_cell (xnth_tail lst (- idx 1)))
+              (new_cell (xjoin value (xtail pre_cell))))
+          (tset! pre_cell 1 new_cell)
+          lst))))
+
+;; ;; a macro for printing lists
+;; (bind-func print_xlist:[i32,xlist_t*,i8*]*
+;;   (lambda (lst format)
+;;     (printf "%\n" )))
+
+(bind-func xmap:[xlist_t%a*,[!head%a,!head%b]*,xlist_t%b*]*
+  (lambda (func lst)
+    (let ((f (lambda (l)
+	       (if (null? l)
+		   null
+		   (xjoin (func (xhead l)) (f (xtail l)))))))
+      (f lst))))
+
+(bind-func xlast:[xlist_t*,xlist_t*]*
+  (lambda (a)
+    (if (null? (xtail a))
+	a
+	(xlast (xtail a)))))
+
+
+(bind-func xappend:[xlist_t*,xlist_t*,xlist_t*]*
+  (lambda (a b)
+    (let ((p (xlast a)))
+      (tset! p 1 b)
+      a)))
+
+(bind-func xempty_p:[bool,xlist_t*]
+  (lambda (a)
+    (if (null? a) #t #f)))
+
+;; (bind-func xreverse:[xlist_t*,xlist_t*]
+;;   (lambda (a)
+;;     (let ((rlist:xlist_t* (halloc)))
+;;       ())))
+
+;; xposition (nth)
+;; xinsert
+;; xsort
+;; xsortedp
+;; xdelete
+;; xmember
+
+;;;;;;;;;;;
+;; TREES ;;
+;;;;;;;;;;;
+
+(bind-type xtree_t <!a>)
+
+(bind-func xtree:[xlist_t*,!a]*
+  (lambda (a)
+    (xlist a)))
+
+(bind-func xleaf:[xlist_t*,!a]*
+  (lambda (a)
+    (xlist a)))
+
+(bind-func xnode:[xlist_t*,xlist_t*]*
+  (lambda (a)
+    (let ((b (xlist a)))
+      (xtree b))))
+
+(bind-func xvalue:[!head,xlist_t*]*
+  (lambda (node)
+    (tref node 0)))
+
+(bind-func xdescendants:[!a,xtree_t*]*
+  (lambda (node)
+    (xtail (tref node 0))))
+
+(bind-func xleaf_p:[bool,xtree_t*]*
+  (lambda (node)
+    (xempty_p (get_descendants node))))
+
+(bind-func xadd_child:[xtree_t*,xtree_t*,xtree_t*]*
+  (lambda (parent child)
+    (let ((par_list (tref parent 0))
+          (child_list (tref child 0)))
+      (xtree (xinsert par_list 1 child_list)))))
+
+(bind-func xadd_child:[xlist_t*,xlist_t*,!a]*
+           (lambda (parent child)
+             (xappend parent (xlist child))))
+
+(bind-func xprint_node:[i32,xlist_t*,i64]*
+  (lambda (node depth)
+    (printf "value = %lld:%lld\n" depth (xhead node))))
+
+(bind-func xprint_tree:[i64,xlist_t*,i64]*
+  (lambda (tree depth)
+    (if (null? tree)
+        1
+        (begin (xprint_node (xhead tree) depth)
+               (xmap (lambda (n)
+                       (xprint_tree (xlist n) (+ depth 1)))
+                     (xtail tree))
+               1))))
+
+
+;;;;;;;;;;;;;
+;; STRINGS ;;
+;;;;;;;;;;;;;
