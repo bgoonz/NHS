@@ -1,0 +1,27 @@
+{
+  "name": "jtype",
+  "version": "0.2.0",
+  "description": "measures word and font widths and heights",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:NHQ/jtype.git"
+  },
+  "keywords": [
+    "css",
+    "html",
+    "browserify",
+    "font",
+    "text",
+    "letters"
+  ],
+  "author": "Johnny Honestly <mostmodernist@gmail.com> (http://johnnyscript.us/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NHQ/jtype/issues"
+  },
+  "homepage": "https://github.com/NHQ/jtype"
+}
