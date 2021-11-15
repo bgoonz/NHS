@@ -1,0 +1,11 @@
+{
+    "name": "opjs-demo-client",
+    "version": "0.0.0",
+    "private": true,
+    "pm": "npm",
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-jshint": "~0.7.1",
+        "grunt-requirejs": "~0.4.0"
+    }
+}

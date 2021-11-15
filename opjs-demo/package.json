@@ -1,0 +1,19 @@
+{
+    "name": "opjs-demo",
+    "version": "0.1.0",
+    "license": "BSD-2-Clause",
+    "private": true,
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/openpeer/opjs-demo.git"
+    },
+    "pm": "npm",
+    "scripts": {
+    	"install": "make install"
+    },
+    "config": {
+        "run": {
+            "packagePath": "server"
+        }
+    }
+}
