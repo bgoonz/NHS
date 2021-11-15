@@ -1,0 +1,19 @@
+{
+  "name": "scrypt-kid",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "js-scrypt": "^0.2.0",
+    "scrypt": "^3.0.1",
+    "stratum": "^0.2.2"
+  },
+  "devDependencies": {
+    "since-when": "^3.2.0"
+  }
+}
