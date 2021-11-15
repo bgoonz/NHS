@@ -18,8 +18,8 @@
     "typedarray-pool": "^1.1.0"
   },
   "devDependencies": {
-    "detect-pitch": "^0.1.2",
-    "jsynth": "^2.4.0",
-    "jsynth-mic": "^0.4.0"
+    "detect-pitch": "0.1.2",
+    "jsynth": "2.8.0",
+    "jsynth-mic": "0.4.0"
   }
 }

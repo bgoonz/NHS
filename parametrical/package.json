@@ -30,10 +30,10 @@
     "uxer": "^4.3.0"
   },
   "devDependencies": {
-    "amod": "^2.0.0",
-    "clone": "^0.1.18",
-    "jdelay": "^9.0.0",
-    "jsynth": "^2.2.0",
-    "oscillators": "^1.0.0"
+    "amod": "2.0.0",
+    "clone": "0.1.19",
+    "jdelay": "9.1.0",
+    "jsynth": "2.8.0",
+    "oscillators": "1.0.0"
   }
 }

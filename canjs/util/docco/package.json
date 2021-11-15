@@ -2,7 +2,7 @@
   "name": "docco-generator",
   "version" : "0.0.1",
   "dependencies": {
-    "docco": ">= 0.1.x"
+    "docco": "0.8.1"
   },
   "engine": "node >= 0.6.x"
 }

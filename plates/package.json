@@ -24,9 +24,9 @@
     }
   ],
   "devDependencies": {
-    "vows": "0.6.x",
+    "vows": "0.6.4",
     "mustache": "0.3.x",
-    "benchmark": "0.2.x"
+    "benchmark": "0.2.2"
   },
   "scripts": {
     "test": "vows --spec test/api-test.js"

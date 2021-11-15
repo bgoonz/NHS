@@ -7,13 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "baudio": "^2.1.2",
-    "beatmath": "^0.3.0",
-    "jigger": "^1.0.0",
-    "jmod": "^0.4.0",
+    "baudio": "2.1.4",
+    "beatmath": "0.3.0",
+    "jigger": "1.0.0",
+    "jmod": "0.4.0",
     "jsynth": "",
-    "nvelope": "^0.11.0",
-    "oscillators": "^1.0.0"
+    "nvelope": "0.11.0",
+    "oscillators": "1.0.0"
   },
   "repository": {
     "type": "git",

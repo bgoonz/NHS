@@ -14,7 +14,7 @@
     "trumpet": "~1.6.2"
   },
   "devDependencies": {
-    "tape": "~2.1.0"
+    "tape": "2.1.1"
   },
   "scripts": {
     "test": "tape test/*.js"

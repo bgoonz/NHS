@@ -4,6 +4,6 @@
     "pm": "npm",
     "private": true,
     "dependencies": {
-        "request": "~2.21.0"
+        "request": "2.21.0"
     }
 }
