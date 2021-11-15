@@ -1,0 +1,18 @@
+{
+  "name": "jynth",
+  "version": "0.0.6",
+  "description": "chainable synth with smattering of effects",
+  "main": "synth.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies" : {
+    "since-when" : ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nhq/jynth.git"
+  },
+  "author": "Johnny Honestly <mostmodernist@gmail.com> (http://johnnyscript.us/)",
+  "license": "MIT"
+}
