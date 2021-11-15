@@ -1,0 +1,43 @@
+{
+  "name": "hyperlog-sodium",
+  "version": "2.0.0",
+  "description": "configure hyperlog with verify and signing using sodium",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "dependencies": {
+    "buffer-equals": "^1.0.3",
+    "defined": "^1.0.0",
+    "isarray": "0.0.1",
+    "xtend": "^4.0.0"
+  },
+  "devDependencies": {
+    "hyperlog": "^4.5.0",
+    "memdb": "^1.0.1",
+    "sodium": "^1.0.21",
+    "sodium-browserify": "0.0.0",
+    "sodium-signatures": "^1.0.1",
+    "tape": "^4.2.0"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/substack/hyperlog-sodium.git"
+  },
+  "keywords": [
+    "hyperlog",
+    "sodium",
+    "sign",
+    "verify"
+  ],
+  "author": "substack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/substack/hyperlog-sodium/issues"
+  },
+  "homepage": "https://github.com/substack/hyperlog-sodium#readme"
+}
