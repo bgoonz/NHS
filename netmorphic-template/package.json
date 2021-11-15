@@ -1,0 +1,25 @@
+{
+  "name": "netmorphic-template",
+  "version": "0.2.2",
+  "description": "ERROR: No README.md file found!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+	"cluster2": "",
+	"pause-stream":"",
+	"through":"",
+	"since-when":"",
+	"netmorphic":"",
+	"scuttlebutt":"",
+	"ecstatic":"",
+	"http-proxy":""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/NHQ/netmorphic-template.git"
+  },
+  "author": "",
+  "license": "BSD"
+}
