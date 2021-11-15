@@ -1,0 +1,8 @@
+{
+	"10001" : {
+		"host" : null,
+		"port" : null,
+		"type" : "file distro",
+		"latency" : 3000
+	}
+}

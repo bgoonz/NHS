@@ -1,0 +1,10 @@
+ {
+	"*":{
+		"host": "host",
+        "port": 80,
+        "type":"internet",
+		"method":"ALL",
+        "latency":2500
+	},
+	"addresses" : []
+}
