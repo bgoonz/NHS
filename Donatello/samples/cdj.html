@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+	<script src="../donatello.js" type="text/javascript"></script>
+	<script src="../circle.js" type="text/javascript"></script>
+	<script src="../ellipse.js" type="text/javascript"></script>
+	<script>
+		var offset = 0;
+		function draw() {
+			document.getElementById('paper-div').innerHTML = "";
+			var paper = Donatello.paper('paper-div', 20, 20, 800, 500 );
+			paper.attr( {fill:'black'} );
+			main( paper, 200, 250 );
+			main( paper, 600, 250 );
+			offset += 5;
+		}
+		function main( paper, centerx, centery ) {
+			
+			var offsetRad = offset*Math.PI/180;
+			var colors = [ 
+				'#717171', '#A71717', '#8AA717', '#34A717', '#17A751', '#17A7A7', '#1751A7', '#3417A7' 
+			];
+			paper.circle( centerx, centery, 125, { 
+				stroke:'gray', 
+				'stroke-width': 1, 
+				// 'fill': '#c1c1c1',
+				'backgroundImage': Donatello.createLinearGradient( 90, '#000000', '#FFFFFF' ),
+			} );
+
+			paper.circle( centerx, centery, 120, { stroke:'#9f9f9f', 'stroke-width': 1, 'fill': '#c1c1c1' } );
+			paper.circle( centerx, centery, 100, { stroke:'white', 'stroke-width': 1, 'fill': 'grey' } );
+			var r = 110;
+			for( var i=0; i < 16; i ++ ) {
+				var x = Math.cos( i*Math.PI/8+offsetRad )*r;
+				var y = Math.sin( i*Math.PI/8+offsetRad )*r;
+				var circle = paper.ellipse( centerx + x, centery + y, 9, 7, { 
+					'stroke-width': 0,
+					'stroke': 'grey',
+					'stroke-style': 'solid',
+					'backgroundImage': Donatello.createLinearGradient( (i*Math.PI/8+offsetRad)*180/Math.PI, '#000000', '#FFFFFF' ),
+				});
+				// circle.rotate( (i*Math.PI/4)*180/Math.PI );
+				circle.rotate( (i*Math.PI/8+offsetRad)*180/Math.PI+90 );
+			}
+		}
+	</script>
+	<style>
+		#paper-div {
+			border: 1px solid black
+		}
+	</style>
+
+</head>
+<body onload='setInterval( draw, 40 ) ;'>
+	<div id="paper-div">
+	</div>
+</body>
+</html>

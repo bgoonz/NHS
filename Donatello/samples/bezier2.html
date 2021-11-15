@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+	<script src="../donatello.js" type="text/javascript"></script>
+	<script src="../line.js" type="text/javascript"></script>
+	<script>
+		function main() {
+			var colors = [ 
+				'#717171', '#A71717', '#8AA717', '#34A717', '#17A751', '#17A7A7', '#1751A7', '#3417A7' 
+			];
+			var paper = Donatello.paper('paper-div', 20, 20, 500, 500 );
+			
+			// endpoints and control point
+			var p1 = { x: 50, y: 300 };
+			var p2 = { x: 300, y: 150 };
+			var cp1 = { x: 50, y: 75 };
+			var cp2 = { x: 200, y: 50 };
+			paper.rect( p1.x, p1.y, 3, 3 );
+			paper.rect( p2.x, p2.y, 3, 3 );
+			paper.rect( cp1.x, cp1.y, 3, 3 );
+			paper.rect( cp2.x, cp2.y, 3, 3 );
+
+			var points = [];
+			points.push( p1 );
+
+			// resolution determines number of line semgents used 
+			// to approximate the curve
+			var res = 10;
+
+			for( var i=0; i < res; i++ ) {
+				// points on the polygon 
+				var p1i = { x: ((cp1.x-p1.x)/res*i)+p1.x, y: ((cp1.y-p1.y)/res*i)+p1.y };
+				var p2i = { x: ((p2.x-cp2.x)/res*i)+cp2.x, y: ((p2.y-cp2.y)/res*i)+cp2.y };
+
+				paper.rect( p1i.x, p1i.y, 1, 1, {stroke:'red'} );
+				paper.rect( p2i.x, p2i.y, 1, 1, {stroke:'yellow'} );
+
+				// points on the curve
+				var pc = { 
+					x: p1i.x+((p2i.x-p1i.x)/res*i), 
+					y: p1i.y-((p1i.y-p2i.y)/res*i) 
+				}; 
+				// paper.rect( pc.x, pc.y, 1, 1, {stroke:'green'} );
+				points.push( pc );
+
+			}
+			points.push( p2 );
+
+			// draw line segments between points on the curve
+			for( var i=0; i < points.length-1; i ++ ) {
+				var line = paper.line( 
+					points[i].x, points[i].y, 
+					points[i+1].x - points[i].x, 
+					points[i+1].y - points[i].y, 
+				 { 
+					'stroke-width': 3,
+					'stroke': colors[i%8],
+					'stroke-style': 'solid'
+				});
+			}
+		}
+	</script>
+	<style>
+		#paper-div {
+			border: 1px solid black
+		}
+	</style>
+
+</head>
+<body onload='main();'>
+	<div id="paper-div">
+	</div>
+</body>
+</html>
