@@ -1,0 +1,53 @@
+<%- include('header.ejs', locals) %>
+<h1><%= title %></h1>
+
+<p>An error occurred.  If you feel this is a bug (which is likely),
+  you are encouraged to
+  <a href="https://github.com/isaacs/npm-www/issues/new?title=<%=
+  encodeURIComponent('Error ' + statusCode + ' at ' + url)
+  %>&body=<%=
+  encodeURIComponent((locals.stack ? 'Stack:\n```\n' + stack +
+                      '\n```\n\n'
+                      : '') +
+                     (locals.headers ? 'Headers:\n```\n' +
+                      JSON.stringify(headers,null,2) +
+                      '\n```\n\n'
+                      : '') +
+                     (locals.error ? 'Error:\n```\n' +
+                      JSON.stringify(error,function(k,v) {
+                        if (k.match(/^domain/) && typeof v === 'object')
+                          return '[object ' + v.constructor.name + ']'
+                        return v
+                      },2) +
+                      '\n```\n\n'
+                      : '') +
+                     (message ? 'Message:\n```\n' +
+                      message + '\n```\n\n'
+                      : '') +
+                     (locals.profile ? 'User: ' + profile.name + '\n'
+                      : '') +
+                     ('Stamp: ' + stamp + '\n')
+                    )
+  %>">submit an issue</a> so that it can be addressed.</p>
+
+<p>If you have ideas about how this could have been handled better,
+  please share those as well.</p>
+
+<h2>Additional Debug Information</h2>
+
+<pre><%= locals.stack %>
+
+headers = <%= JSON.stringify(locals.headers, null, 2) %>
+
+error = <%= JSON.stringify(error,function(k,v) {
+              if (k.match(/^domain/) && typeof v === 'object')
+                return '[object ' + v.constructor.name + ']'
+              return v
+            },2) %>
+
+statusCode = <%= statusCode %>
+
+stamp = <%= stamp %>
+</pre>
+
+<%- include('footer.ejs', locals) %>
