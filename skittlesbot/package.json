@@ -1,0 +1,17 @@
+{
+  "name": "skittlesbot",
+  "version": "0.0.0",
+  "description": "command line server + browserify",
+  "main": "index.js",
+  "scripts": {
+    "test": "rm -rf ./data/* && node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hyperlog": "^4.7.0",
+    "level": "^1.4.0",
+    "level-sublevel": "^6.5.2"
+  },
+  "devDependencies": {}
+}
