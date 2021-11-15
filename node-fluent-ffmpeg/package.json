@@ -1,0 +1,19 @@
+{
+  "name": "fluent-ffmpeg",
+  "version": "1.0.0",
+  "description": "A fluent API to FFMPEG (http://www.ffmpeg.org)",
+  "keywords": [ "ffmpeg" ],
+  "author": "Stefan Schaermeli <schaermu@gmail.com>",
+  "bugs": {
+      "mail": "schaermu@gmail.com",
+      "url": "http://github.com/schaermu/node-fluent-ffmpeg/issues"
+  },
+  "repository": "git://github.com/schaermu/node-fluent-ffmpeg.git",
+  "devDependencies": { "nodeunit": ">= 0.6.4" },
+  "dependencies": { "winston": ">=0.5.10" },
+  "engines" : { "node" : ">=0.4.0" },
+  "main": "./lib/fluent-ffmpeg",
+  "scripts": {
+    "test": "nodeunit test"
+  }
+}
