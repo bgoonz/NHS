@@ -1,0 +1,30 @@
+{
+  "name": "mnist10k",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim",
+      "ascjsify"
+    ]
+  },
+  "browserify-shim": {
+    "@tensorflow/tfjs": "tensorflow"
+  },
+  "author": "",
+  "license": "see LICENSE",
+  "dependencies": {
+    "@tensorflow/tfjs": "^0.11.6",
+    "@tensorflow/tfjs-node-gpu": "^0.1.14",
+    "ascjsify": "^1.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-node6": "^11.0.0",
+    "browserify-shim": "^3.8.14",
+    "math-random": "^1.0.1"
+  },
+  "devDependencies": {}
+}
