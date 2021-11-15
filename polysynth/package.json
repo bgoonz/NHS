@@ -1,0 +1,45 @@
+{
+  "name": "polysynth",
+  "version": "0.0.0",
+  "description": "command line server + browserify",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "node-sass sass/ -o public/style",
+    "watch:css": "nodemon -e scss -x \"npm run build:css\"",
+    "prefix": "postcss --use autoprefixer -o public/style/main.css public/style/main.css",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "bundle": "browserify entry.js -o public/scripts/bundle.js -t brfs -d",
+    "watch:js": "watchify entry.js -o public/scripts/bundle.js -t brfs -d",
+    "watch": "npm run watch:js & npm run watch:css",
+    "build": "npm run prefix",
+    "develop": "parallelshell 'npm run start' 'npm run watch'",
+    "dev-start": "nodemon server.js"
+  },
+  "repository": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "amod": "^2.0.0",
+    "amplitude-viewer": "0.0.2",
+    "beatmath": "^0.4.0",
+    "brfs": "^1.4.3",
+    "inherits": "^2.0.1",
+    "jbuffers": "^1.3.0",
+    "jdelay": "^9.1.0",
+    "jigger": "^1.0.0",
+    "jsynth-sync": "^0.14.0",
+    "jsynth-waveform": "^1.1.0",
+    "keycode": "^2.1.0",
+    "meffisto": "^0.2.0",
+    "nvelope": "^0.12.0",
+    "oscillators": "^1.0.0",
+    "since-when": "^3.6.0",
+    "teoria": "^2.2.0",
+    "uuid": "^2.0.1",
+    "westerns": "^0.2.0"
+  },
+  "devDependencies": {
+    "xhr": "^2.2.0"
+  }
+}

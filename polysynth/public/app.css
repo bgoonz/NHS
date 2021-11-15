@@ -1,0 +1,68 @@
+body{
+  overflow:hidden
+}
+
+#ascope{
+  position: absolute;
+  top: 78%;
+  right: 0;
+  width: 100%;
+  height: 22%;
+}
+
+textarea#texted{
+  width: 100%;
+  height: 96%;
+  overflow-y: scroll;
+  box-sizing:border-box;
+  color: white;
+  background-color: #111;
+}
+input[type=text]{
+  width: 66%;
+  height: 4%;
+}
+.fetch{
+  float:right;
+  height:4%;
+  width:33%;
+  margin:2px;
+}
+#viewer{
+  margin:0;
+  padding:0;
+  width: 66%;
+  height:100%;
+  border: 7px solid grey;
+  position: absolute;
+  border-bottom: none;
+  left:0;
+  top:0;
+  box-sizing: border-box;
+  z-index:2;
+  background-color:#111; 
+}
+#editor{
+  margin:0;
+  padding:0;
+  width: 66%;
+  height:100%;
+  border: 7px solid grey;
+  position: absolute;
+  border-bottom: none;
+  left:0;
+  top:0;
+  box-sizing: border-box;
+  z-index:999;
+}
+#controls{
+  width: 34%;
+  height:100%;
+  overflow-y: scroll;
+  border: 7px solid grey;
+  border-bottom: none;
+  position: absolute;
+  top:0;
+  right:0;
+  box-sizing: border-box
+}
