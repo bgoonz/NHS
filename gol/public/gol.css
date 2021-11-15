@@ -1,0 +1,46 @@
+body{
+  overflow:auto;
+  width:2000px;
+  height:2000px;
+}
+#board{
+  position:absolute;
+  left:0;
+  top:0;
+  margin:0;
+  padding:0;
+}
+
+#controls{
+  position:absolute;
+  top: 20px;
+  right: 20px;
+  width: 123px;
+  height:267px;
+  background-color: rgba(67,67,136,1);
+  z-index:10;
+}
+
+#controls > button{
+  display:block;
+}
+#stempBox{
+  position:absolute;
+  right:0px;
+  top:350px;
+  margin:0;
+  padding:0;
+  width:200px;
+  height:200px;
+  background-color: rgba(67,67,136,1);
+}
+
+#stemps{
+  width:200px;
+  height:200px;
+  position:absolute;
+  top:350px;
+  right:0;
+  border:0;
+  margin:0;
+}
