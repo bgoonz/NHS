@@ -1,0 +1,32 @@
+[
+  { "type": "put", "key": "cat-sparks", "value": {
+    "name": "Sparks", "owner": "owner-sarah-west"
+  } },
+  { "type": "put", "key": "cat-capn-salty", "value": {
+    "name": "Cap'n Salty", "owner": "owner-sir-edmund-theodore-heathcliff-iv"
+  } },
+  { "type": "put", "key": "cat-whiskers", "value": {
+    "name": "Whiskers", "owner": "owner-ryan-jenkins"
+  } },
+  { "type": "put", "key": "cat-mr-biscuit", "value": {
+    "name": "Mr. Biscuit", "owner": "owner-sir-edmund-theodore-heathcliff-iv"
+  } },
+  { "type": "put", "key": "cat-jingle", "value": {
+    "name": "Jingle", "owner": "owner-sarah-west"
+  } },
+  { "type": "put", "key": "cat-squeak", "value": {
+    "name": "Squeak", "owner": "owner-ryan-jenkins"
+  } },
+  { "type": "put", "key": "owner-ryan-jenkins", "value": {
+    "name": "Ryan Jenkins", 
+    "location": "Brooklyn"
+  } },
+  { "type": "put", "key": "owner-sir-edmund-theodore-heathcliff-iv", "value": {
+    "name": "Sir Edmund Theodore Heathcliff IV",
+    "location": "Newcastle"
+  } },
+  { "type": "put", "key": "owner-sarah-west", "value": {
+    "name": "Sarah West", 
+    "location": "Kansas"
+  } }
+]

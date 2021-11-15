@@ -1,0 +1,42 @@
+{
+  "name": "tabby",
+  "version": "0.0.1",
+  "description": "create tabbed web apps with progressive enhancement",
+  "main": "index.js",
+  "browser": "browser.js",
+  "dependencies": {
+    "ent": "~0.1.0",
+    "inherits": "~2.0.1",
+    "quotemeta": "~0.0.0",
+    "split": "~0.2.10",
+    "stream-combiner": "~0.0.2",
+    "through": "~2.3.4",
+    "trumpet": "~1.6.2"
+  },
+  "devDependencies": {
+    "tape": "~2.1.0"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/substack/tabby.git"
+  },
+  "homepage": "https://github.com/substack/tabby",
+  "keywords": [
+    "tab",
+    "browser",
+    "server",
+    "streaming",
+    "html",
+    "interface",
+    "web"
+  ],
+  "author": {
+    "name": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net"
+  },
+  "license": "MIT"
+}
