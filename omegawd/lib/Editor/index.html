@@ -1,0 +1,122 @@
+<!doctype html>
+<head>
+<title>OMEGAWD</title>
+<link rel=stylsheet media=screen href=normalize.css>
+<link type="text/css" href="../../../lib/jScrollPane/style/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+<script type=text/javascript src="../jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="../../../lib/jScrollPane/script/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="../../../lib/jScrollPane/script/mwheelIntent.js"></script>
+<script type="text/javascript" src="../../../lib/jScrollPane/script/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="../html2text.js"></script>
+
+<script type="text/javascript">
+  function handlePaste(elem, e){
+    e.preventDefault();
+    $this = $(elem)
+    if (/text\/html/.test(e.clipboardData.types)) {
+        var x = e.clipboardData.getData('text/html');
+    }
+    else if (/text\/plain/.test(e.clipboardData.types)) {
+        var x = e.clipboardData.getData('text/plain');
+    }
+    var text = htmlToText(x);
+    var range = window.getSelection().getRangeAt(0)
+    console.log($('.writer').height())
+    
+    range.insertNode(document.createTextNode(text))
+    console.log($('.writer').height())
+    $('.writer').width(420)
+    
+        /*
+        $('#tarea').val('').focus();
+        
+    setTimeout(function() //then this will be executed immediately after the paste actually occurs
+    {
+        $this.focus();
+        document.execCommand('insertHTML', true, $('#tarea').val());
+    });
+    
+
+    if (/text\/html/.test(e.clipboardData.types)) {
+                x = e.clipboardData.getData('text/html');
+            }
+            else if (/text\/plain/.test(e.clipboardData.types)) {
+                x = e.clipboardData.getData('text/plain');
+            }
+    // x or x.toString()?
+    var range = window.getSelection().getRangeAt(0)
+    console.log(x)
+    var x = htmlToText(x)
+    console.log(x)
+    */
+//    x=x.replace(/<br>/gi, "\n");
+//    x=x.replace(/<p.*>/gi, "\n");
+//    x=x.replace(/<a.*href="(.*?)".*>(.*?)<\/a>/gi, " $2 (Link->$1) ");
+//    x=x.replace(/<(?:.|\s)*?>/g, "");
+    
+//    range.insertNode(document.createTextNode(x))    
+
+  }
+
+</script>
+<style>
+	body {
+		background-color: hsla(100, 30%, 95%, 1);
+		padding:0;
+		margin:0;
+		
+	}
+	#container {
+		padding:0;
+		margin:0;
+		margin:0 auto; 
+		background-color:hsla(100, 30%, 95%, 1);
+	}
+  .writer {
+    max-width:420px;
+    height:90%;
+		font-size:22px;
+		font-family:Courier;
+		background-color:hsla(100, 30%, 95%, 1);
+		border:none;
+		padding-top:300px;
+	}
+	.writer:hover {
+	  cursor:pointer;
+	}
+	.writer:focus {
+	  border:none;
+	  outline:none;
+	  box-shadow:none;	  
+	}
+	.title {
+	  text-align:center;
+	}
+	#text_box {
+	  max-width:500px;
+	  height:400px;
+    margin: 0 auto;
+	  overflow:auto;
+	}
+</style>
+<script type="text/javascript" id="sourcecode">
+			$(function()
+			{
+        jsp = $('#text_box').jScrollPane({maintainPosition:true})  
+        $('.writer').focus()
+			});
+</script>
+</head>
+<body>
+	<div id="container">
+	  <div id="text_box">
+		  <pre class="writer" onpaste="handlePaste(this, event)" contenteditable="true"></div>
+		</pre>
+		<textarea id="tarea" style="height:300;width:100;"></textarea>
+	  
+	</div>
+</body>
+
+<script type=text/javascript src=../../../lib/transformjs.js></script>
+<script type=text/javascript src=./editor.js></script>
+</html>

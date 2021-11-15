@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset='utf-8' />
+	<link rel='stylesheet' href='sites/live/public/stylesheets/interface.style.css'>
+</head>	
+<body>
+	<div id='console'>
+	</div>
+	<div id='remote'>
+		<ul id='channel'>
+			<li class='channels'>Text</li>
+			<li class='channels'>Images</li>
+			<li class='channels'>Audio</li>
+			<li class='channels'>Video</li>
+			<li class='channels'>Meta</li>
+		</ul>
+		<div id='dropFile'></div>
+	</div>
+</body>
+<script type='text/javascript' src='lib/jquery-1.6.2.min.js'></script>
+<script type='text/javascript'>
+	var ui = {}
+	ui.readFile = function (file) {
+    console.log(file);
+    var reader = new FileReader();
+     var blob = file.mozSlice(0, 140);
+    reader.onload = function(event) {
+//      document.getElementById('console').textContent = event.target.result;
+        $('#console').html(event.target.result)
+        
+    };
+
+    reader.onerror = function(x) {
+//      document.getElementById('console').innerHTML = 'Unable to read ' + file.fileName;
+      console.log(x, 'error summin abt', file.fileName)
+    };
+
+    reader.readAsArrayBuffer(blob);
+  }
+	ui.cancel = function (e) {
+	  e.preventDefault()
+	  return false
+	};
+	ui.drop = function (e) {
+	  e.preventDefault();
+	  var dt = e.dataTransfer;
+	  var files = dt.files;
+  	  var File = files[0];
+  	  ui.readFile(File);
+  	  return false
+	  var fileReader = new FileReader();
+        if (File.webkitSlice) {
+		  var blob = File.webkitSlice(0, 12);
+		} else if (theFile.mozSlice) {
+		  var blob = File.mozSlice(0, 13277);
+		}
+	  
+	fileReader.onloadend = function(evt){
+		if (evt.target.readyState == FileReader.DONE) { // DONE == 2
+		        $('#console').html(evt.target.result);
+		      }	}
+//	  fileReader.readAsText(blob)
+}
+	ui.init = function(){
+		
+		var dropFile;
+
+		dropFile = document.getElementById("dropFile");
+		dropFile.addEventListener("dragenter", ui.cancel, false);
+		dropFile.addEventListener("dragover", ui.cancel, false);
+		dropFile.addEventListener("drop", ui.drop, false);
+		
+		this.x = window.innerHeight,
+		this.y = window.innerWidth;
+		$('#console').css({
+			left : ( ui.y - 667 ) / 2
+		})
+		$(window).one('resize', function(e){	ui.init()})
+	};
+	ui.init()
+</script>
+</html>
