@@ -1,0 +1,11 @@
+{
+  "name": "fakefix",
+  "version": "0.0.0",
+  "description": "turn absolute elements into fixed ones, relatively (not actually)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "CC"
+}
