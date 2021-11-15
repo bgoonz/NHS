@@ -1,0 +1,17 @@
+{
+  "name": "jmao",
+  "version": "1.1.0",
+  "description": "JS to ArrayBuffer to JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "ArrayBuffer",
+    "Buffer",
+    "JSON",
+    "binary"
+  ],
+  "author": "Johnny Honestly <mostmodernist@gmail.com> (http://johnnyscript.us/)",
+  "license": "CC"
+}
