@@ -1,0 +1,21 @@
+body{
+  height:5000px;
+  width:100%;
+  background:
+  -webkit-linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
+  -webkit-linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
+  -webkit-linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 14px -30px,
+  -webkit-linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 14px -30px, #36c;
+  background-size: 30px 60px;
+  background:
+  linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
+  linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
+  linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 14px -30px,
+  linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 14px -30px, #36c;
+  background-size: 30px 60px
+}
+
+body, div, p, h1, h2, h3, h4, a, form, input {
+  margin: 0,
+  padding: 0
+}
