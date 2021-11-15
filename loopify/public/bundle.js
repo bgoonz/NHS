@@ -1,0 +1,1 @@
+console.error("Error: Parsing file /home/johnny/projects/loopify/index.js: Unexpected token (45:20)");
