@@ -1,0 +1,112 @@
+The parser knows a relatively small language:
+
+  string   A string of ascii characters
+  name     <string>
+
+  value    An integer number
+           | <type>.<name>
+           | <value> [+-*] <value>
+           | HERE
+           | START
+           | REMAINDER
+
+      The value HERE represents the current absolute offset in the file.
+
+      The value START represents the absolute offset (in bytes) of the
+      start of the collection it is used in.
+
+      The value REMAINDER represents the unknown quantity that takes
+      up the rest of the data in the datafile (GLOBAL) or collection (LOCAL)
+      as of this point in the file. It can be used in arrays to indicate
+      "as many as fit the rest of the file or collection".
+
+  type     BYTE               8 bit value
+           | ASCII            8 bit ascii value (expressly not called a 'char')
+           | SHORT            16 bit signed integer
+           | USHORT           16 bit unsigned integer
+           | UINT24           24 bit unsigned integer
+           | LONG             32 bit signed integer
+           | ULONG            32 bit unsigned integer
+           | <type>[<value>]  array notation
+           | <collection name>  custom type (think "struct")
+           | COLLECTION<<name>
+
+      The COLLECTION<<name>> type indicates a block of data that conforms
+      to the collection indicated by the value of <name>. For instance:
+
+        ASCII[4] name
+        COLLECTION<name> ihdr
+
+      marks the ihdr record as being of a type indicated by the value of "name";
+      if name is "IHDR" then ihdr will be a data block that should be interpreted
+      using the Collection IHDR. This allows for specifications in which blocks
+      are self-descriptive.
+
+
+  record   RESERVED <type>
+           | <type> <name>
+           | (GLOBAL|LOCAL|IMMEDIATE)? <type> OFFSET <name> (TO <collection name>)? (RELATIVE TO <name>)?
+
+      Sometimes specs have "reserved" data, which is a byte, short, etc. that
+      basically acts as a spacer. These will be read and then discarded
+
+      For offsets, we need an indicator that tells us whether it's:
+
+        GLOBAL      relative to the start of this file
+        LOCAL       relative to the start of this collection
+        IMMEDIATE   relative to the next byte's position
+
+      Or, if the offset is relative to another record, RELATIVE TO <name of that
+      record, within scope>.
+
+  comparator    any language-supported numerical comparator
+  conditional   (<name> <comparator> <value>)
+  conditioned   <conditional> { <collection body> }
+
+      conditioned collection blocks let us generate parsers that can deal with
+      multiple versions of data blocks (since specs tend to change over the years).
+
+  collection name: <name>
+  collection identifier: [Defining] Collection <collection name>
+
+      There can only be one collection marked "Defining". This is the
+      collection that is treated as the master collection representing
+      the start of the binary data file, and its parse function will be
+      bound to the Parser.parse(data) function for starting a parse run.
+
+  collection: <collection identifier> { <collection body> }
+
+  collection body: (record | collection | conditioned)*
+
+      Collections can be empty, but if not they list records and possible "private"
+      collections for use as "structs" in that collection. Any parent collection
+      won't see it.
+
+It has an even smaller set of functions and macros:
+
+  VALUE(<name>)    Returns the value of the passed record
+  TERMINATE        Will cause the generated parser to print the termination message, and
+                   cancel the parsing process.
+  WARN             Will cause a message to be generated, without terminating the parsing process.
+
+
+The language also supports /* block comments */ as well as // line comments.
+
+It'll generate JavaScript, for now, because it's a stupidly simple language to generate
+code for. I'm sure any number of other target languages can be added later, because
+honestly, it's not rocket science =)
+
+This library will simply map the binary data to unpacked (as far as it knows how to)
+data in memory, but without any traversal logic; it's simply a data unpacker. This
+allows for data->XML or data->JSON unpacking, and probably also the reverse, provided
+the information from the .spec file is kept ... somewhere...
+
+The generated code operates on a data object that looks like this:
+
+  {
+    pointer: <number>   // should default to 0, indicates the current offset in the data
+    marks: []           // an array for pointer save/restores
+    bytecode: arraybuffer   // the data array
+  }
+
+For an example of a .spec file, have a look at "OpenType.spec"
