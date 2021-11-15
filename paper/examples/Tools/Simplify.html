@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Simplify</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<script type="text/javascript" src="../../dist/paper.js"></script>
+	<script type="text/paperscript" canvas="canvas">
+		var line;
+
+		var textItem = new PointText(new Point(20, 30));
+		textItem.fillColor = 'black';
+		textItem.content = 'Click and drag to draw a line.';
+
+		function onMouseDown(event) {
+			// If we produced a line before, deselect it:
+			if (line) {
+				line.selected = false;
+			}
+
+			// Create a new line and set its stroke color to black:
+			line = new Path();
+			line.add(event.point);
+			line.strokeColor = 'black';
+			line.strokeWidth = 7;
+
+			// Select the line, so we can see its segment points:
+			line.fullySelected = false;
+		}
+
+		// While the user drags the mouse, points are added to the line
+		// at the position of the mouse:
+		function onMouseDrag(event) {
+			line.add(event.point);
+
+			// Update the content of the text item to show how many
+			// segments it has:
+			textItem.content = 'Segment count: ' + line.segments.length;
+		}
+
+		// When the mouse is released, we simplify the line:
+		function onMouseUp(event) {
+			var segmentCount = line.segments.length;
+
+			// When the mouse is released, simplify it:
+			line.simplify(10);
+			//line.smooth();
+
+			// Select the line, so we can see its segments:
+			line.fullySelected = false;
+
+			var newSegmentCount = line.segments.length;
+			var difference = segmentCount - newSegmentCount;
+			var percentage = 100 - Math.round(newSegmentCount / segmentCount * 100);
+			textItem.content = difference + ' of the ' + segmentCount + ' segments were removed. Saving ' + percentage + '%\n meanwhile, here is your line data: '+line.segments;
+
+		}
+	</script>
+</head>
+<body>
+	<canvas id="canvas" resize></canvas>
+</body>
+</html>
