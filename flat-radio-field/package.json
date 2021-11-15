@@ -1,0 +1,26 @@
+{
+  "name": "flat-radio-field",
+  "version": "1.0.0",
+  "description": "flat ui radio select field builder",
+  "main": "flatradio.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:NHQ/flat-radio-field"
+  },
+  "browserify": {
+    "transform" : "brfs"
+  },
+  "keywords": [
+    "flat",
+    "ui",
+    "browserify",
+    "radio",
+    "select"
+  ],
+  "author": "johnnyscript.us",
+  "license": "MOUSE",
+  "readmeFilename": "README.md"
+}

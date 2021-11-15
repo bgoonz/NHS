@@ -1,0 +1,95 @@
+p {
+display: block;
+-webkit-margin-before: 0;
+-webkit-margin-after: 0;
+-webkit-margin-start: 0;
+-webkit-margin-end: 0;
+}
+
+.uxer-fieldset {
+        color:OrangeRed;
+	border-radius:5px;
+	padding:10px;
+	margin:10px auto;
+	width:90%;
+	border: 2px solid OrangeRed;
+	border-radius: 4px;
+	border-top-left-radius: 0 0;
+}
+
+.uxer-legend {
+        font-weight: 900;
+	padding:0 7px;
+	font-size:16px;
+	font-style: italic;
+}
+
+.uxer-label {
+	display:block;
+	padding:6px;
+	border: inherit;
+	border-radius: 4px;
+	margin:8px 0;
+}
+
+.uxer-label:hover, p.uxer-radio-name:hover {
+	cursor:pointer;
+}
+
+.uxer-input[type=checkbox], .uxer-input[type=radio], .uxer-input[type=file]  {
+	display:none;
+}
+
+.uxer-input[type=text], .uxer-input[type=number], .uxer-input[type=url]{
+    width: 100%;
+    color: OrangeRed;
+    font-size:16px;
+    font-weight:500;
+    border:none;
+    text-decoration:uppercase;
+    line-height:22px;
+}
+
+.uxer-input[type=text]:focus, .uxer-input[type=number]:focus, .uxer-input[type=url]:focus{
+   outline:none
+}
+
+::-webkit-input-placeholder{
+    color: OrangeRed;
+    opacity: .78
+}
+
+.uxer-flat-button{
+  width:40%;
+  color: inherit;
+  outline:none;
+  border: 1px solid OrangeRed;
+  background: inherit;
+
+  border-radius: 3px;
+}
+.uxer-flat-button:active{
+  background: OrangeRed;
+  color: #eee;
+}
+.uxer-radio-value, .uxer-file-value {
+	font-size:16px;
+	font-weight:900;
+	line-height:22px;
+	text-indent: 10px;
+}
+
+.uxer-input[type=radio]:checked  + .uxer-radio, .uxer-input[type=radio]:checked ~ label{
+	background:LimeGreen;
+}
+
+.uxer-radio {
+	width:16px;
+	height:16px;
+	background:inherit;
+	float:left;
+	border-radius:50%;
+	border:2px solid OrangeRed;
+}
+
+
