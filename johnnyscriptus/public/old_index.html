@@ -1,0 +1,169 @@
+
+<!doctype html>
+<head>
+  <title>
+    Hacker Johnny
+  </title>
+<link href='http://fonts.googleapis.com/css?family=Electrolize|IM+Fell+Double+Pica:400,400italic' rel='stylesheet' type='text/css' />
+  <link rel='stylesheet' href='css/reset.css' />
+  <link rel='stylesheet' href='css/old_style.css' />
+  <link rel='stylesheet' href='css/style.css' />
+  <script type='text/javascript' src='js/prefixfree.js'></script>
+</head>
+<body id='top'>
+<div class='bar'></div>
+<div class='strings'>
+  <div class='navi' id='navi'>
+		<ol class='nav' id='nav'>
+	    <li id='' class=''>
+	      <a href='#greetings' class='menu' id=''>
+	        Greetings
+	      </a>
+	    </li>
+	    <li id=''>
+	      <a href='#Code' class='menu' id=''>
+	        Codes, Apps & Experiments
+	      </a>
+	    </li>
+	    <li id=''>
+	      <a href='#Poetry' class='menu' id=''>
+	        Poetry & Verse
+	      </a>
+	    </li>
+	    <li id=''>
+	      <a href='#Fiction' class='menu' id=''>
+	        Fiction & Scripts
+	      </a>
+	    </li>   
+		<li id=''>
+	      <a href='#Essays' class='menu' id=''>
+	        Essays & Ideas
+	      </a>
+	    </li>
+	  </ol>
+	</div>
+	<div class='bust' >
+		<img class='hidden' src='http://distilleryimage11.instagram.com/d84e9138de7011e1ba8122000a1e878c_7.jpg'></img>
+
+		<img class='showen' src='http://distilleryimage11.instagram.com/d84e9138de7011e1ba8122000a1e878c_7.jpg'></img>
+	</div>
+</div>
+<div class='profile' id='profile'>
+  <div class='slide' id='greetings'>
+		<div class='content' id='brief'>
+		</div>
+  </div>
+  <div class='slide' id='Code'>
+	<div class='content' id='code'>
+    </div>
+  </div>
+  <div id='Poetry' class='slide'>
+      <div class='content' id='poetry'>
+    	</div>
+   </div>
+  <div id='Fiction' class='slide'>
+	<div class='content' id='fiction'>
+	</div>
+  </div>
+
+  <div class='slide' id='Essays'>
+	<div class='content' id='essay'>
+	  </div>
+ </div>
+</div>
+<script type='text/javascript'>
+	var nav = document.getElementById('nav')
+	  , send = document.getElementById('sendtxt')
+	, textbox = document.getElementById('textbox')
+	  , winx = window.innerWidth
+	  ,	winy = window.innerHeight
+	  ,	c = [winx/2, winy/2]
+	  , ssid = undefined
+	;
+	
+	var nav2nav = (function(){
+		return [].slice.call(nav.getElementsByClassName('menu'))
+	}());
+	
+	var getParent = function(elem){
+	  try {
+		if (elem.classList[0] !== 'slide') return getParent(elem.parentNode);
+		else return elem.id;
+	  }
+	  catch (err){return false}
+	}
+	
+	var s = window.location.hash || '#greetings';
+	
+	var selected;
+	
+	var select = function(a, id){
+		selected.parentNode.classList.remove('selected');
+		a.parentNode.classList.add('selected');
+		selected = a;
+	};
+	
+  	nav2nav.forEach(function(a){
+		
+		a.onclick = function(){
+			select(a)
+		};
+		
+		if (a.href.match(s)){
+			selected = a;
+			select(a)
+	}});
+	
+	window.onscroll = function(e){
+		var id = getParent(document.elementFromPoint(c[0], c[1]));
+		if(id) {
+		  nav2nav.forEach(function(a){
+			if (a.href.match('#' + id)){
+				select(a, id)
+			}
+		})
+		}
+	}
+	
+	var xhr = new XMLHttpRequest()
+	xhr.open('GET', '/session', true);
+	xhr.responseType = 'text';
+	xhr.onload = function(e){
+		if (this.status == 200) {
+			ssid = this.responseText;
+		}
+	}
+	xhr.send();
+	
+	function sendText(){
+	  var msg = textbox.textContent;
+		var xhr = new XMLHttpRequest()
+		xhr.open('GET', '/txt?ssid='+ssid+'&msg=' + encodeURIComponent(msg), true);
+		xhr.responseType = 'text';
+		xhr.onload = function(e){
+      console.log(this.status);
+  		if (this.status == 200) {
+  			if(this.status === 200 && this.responseText === 'true'){
+  			  alert('text sent and probably received!')
+  			}
+  			else {
+    		  alert('An error occurred, please try again');
+    		}
+  		}
+  	}
+		xhr.send();
+	};
+	
+	send.addEventListener('click', sendText, false)
+
+</script>
+</body>
+
+
+
+
+
+
+
+
+
