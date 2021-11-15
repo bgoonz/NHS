@@ -1,0 +1,19 @@
+{
+  "name": "jsynth-jack",
+  "version": "0.0.0",
+  "description": "notice:  this has been tested with node 0.10.3.  later version have node-gygp issues.",
+  "main": "entry.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "jack-connector": "^0.1.4",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
