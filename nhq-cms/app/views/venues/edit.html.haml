@@ -1,0 +1,12 @@
+- content_for :title, 'Edit Venue'
+
+%h1
+  Editing venue
+  - if @event
+    for 
+    = link_to @event.title, @event
+  - else
+    %span.admin
+      = link_to 'View Venue', @venue
+
+= render 'form'

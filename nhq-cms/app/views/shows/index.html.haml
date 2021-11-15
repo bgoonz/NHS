@@ -1,0 +1,15 @@
+- content_for :title, "Shows - 500 Clown"
+- body_id('shows')
+- content_for :jstemplates do
+  jQuery(function() { app.setupShowList(); });
+
+#main
+  %ul.show_list
+    - @shows.each do |show|
+      %li.showblock
+        - if show.image?
+          .photo.left= link_to image_tag(show.image.url(:showblock)), show
+        .title
+          .show= link_to show.title, show
+  #wrapper
+    = RedCloth.new(@show_page.body).to_html.html_safe

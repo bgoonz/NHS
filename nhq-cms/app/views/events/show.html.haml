@@ -1,0 +1,116 @@
+- content_for :title, @event.title + " - 500 Clown"
+- body_id('events')
+- content_for :head do
+  = stylesheet_link_tag "calendrical"
+  = stylesheet_link_tag "gmaps"
+  = stylesheet_link_tag "colorbox"
+  = javascript_include_tag "jquery.colorbox"
+- content_for :javascripts do
+  = javascript_include_tag "http://maps.google.com/maps/api/js?sensor=true"
+  = javascript_include_tag "jquery.calendrical"
+- content_for :jstemplates do
+  jQuery(function() { app.setupShowdates();  app.setupVideos(); });
+
+
+#sidebar
+  - if @event.event_type?
+    %span.event_type 
+      #{@event.event_type} Date(s)
+
+  - unless @showdates.empty? 
+    - date_fmt = '%a, %b %d, %Y'
+    - date_parse_fmt = '%Y-%m-%d'
+    - time_fmt = '%I:%M%P'
+    - time_parse_fmt = '%H:%M:00'
+    %ul.date_list
+      - @showdates.each do |d|
+        %li.dates
+          %span.date= Date.strptime(d.start_date, date_parse_fmt).strftime(date_fmt)
+          %span.time= Time.strptime(d.start_time, time_parse_fmt).strftime(time_fmt)
+          / %span.date= d.start_date.to_s(:long)
+          / %span.time= d.start_time.to_s(:time_short)
+          / \ - 
+          / = d.end_time.to_s(:time)
+          - if user_signed_in?
+            %span.tk-poster= link_to(image_tag('trash.png', :alt => 'Remove', :title => 'Remove Date'), event_showdate_path(@event, d), :confirm => "Are you sure you want to remove this date?", :method => :delete)
+    - if @event.ticket_price
+      .price Admission: $#{@event.ticket_price}
+  .flickrs
+    - if @event.flickrs.first
+      %ul{:class => 'flickr_list'}
+        - @event.flickrs.each do |fset|
+          = render(:partial => "flickrs/photoset", :locals => {:fset => fset})
+    - else
+      .flickr_list
+
+#main
+  - if user_signed_in?
+    .admin-bar
+      %span.admin= link_to(image_tag('trash.png', :alt => 'Destroy', :title => 'Delete Event') + 'Delete Event', @event, :confirm => 'Are you sure you want to delete the event "' + @event.title + '"?', :method => :delete)
+      %span.admin= link_to(image_tag('pencil.gif', :alt => 'Edit', :title => 'Edit Event') + 'Edit Event', edit_event_path(@event))
+      #add_showdate.admin + Add a Date
+      #new_showdate{:style => "display: none;"}= render 'showdate'
+
+  .videos
+    - if @event.videos.first
+      %ul{:class => 'video_list'}
+        - @event.videos.each do |video|
+          = render(:partial => "videos/video", :locals => {:video => video})
+    - else
+      %ul.video_list
+
+
+  - if @venue
+    - content_for :jstemplates do
+      jQuery(function() { app.codeAddress(); });
+    - unless(@venue.map_string.length < 5)
+      %div#map_canvas
+      %span.where
+        %span.venue_title
+          = link_to @venue.venue_name, @venue
+          - if user_signed_in?
+            %span.admin.venue-admin
+              %span.tk-poster= link_to("Edit Venue".html_safe, edit_event_venue_path(@event, @venue))
+              %span.tk-poster= link_to(image_tag('trash.png', :alt => 'Remove', :title => 'Remove Venue') + "remove venue", "/events/#{@event.slug}/venues/#{@venue.id}/remove", :confirm => 'Are you sure you want to remove this Venue?')
+        %span.address
+          %span= @venue.street
+          %br
+          - if @venue.city?
+            %span= @venue.city.to_s + ', ' + @venue.state.to_s + ' ' + @venue.zip.to_s
+            %input#address{ :name => "address", :type => "hidden", :value => @venue.map_string}/
+          - if @venue.phone?
+            .phone Box Office: #{@venue.phone}
+  - elsif user_signed_in?
+    .where
+      .admin-bar= link_to('+ Add New Venue', new_event_venue_path(@event))
+      - available_venues = Venue.not_in(:_id => @event.venue_ids)
+      - if available_venues.count
+        = form_for @event do |f|
+          %select{:id => "venue_id", :name => "venue_id"}
+            - venues_array = available_venues.map { |venue| [truncate(venue.venue_name), venue.id] }
+            = options_for_select(venues_array)
+          = f.submit "Add Existing Venue"
+          
+  #wrapper
+    %span.description.redcloth
+      %h1= @event.title
+      = RedCloth.new(@event.description).to_html.html_safe
+    - if @event.ticket_url?
+      .ticket_url= link_to("Buy Tickets", @event.ticket_url)
+
+
+    - if user_signed_in?
+      #add_video.tk-poster + Add a Video
+      #new_video{:style => "display: none;"}= render '/videos/video-form'
+
+
+    - unless @event.tags_array.empty?
+      .tags
+        %h3 Tags:
+        = ('<span>' + @event.tags.gsub(/,/, "</span><span>") + '</span>').html_safe
+
+    - if user_signed_in?
+      %span.add
+        .tk-poster + Add a Photoset
+        = render 'flickrs/flickr-form'
+

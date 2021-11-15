@@ -1,0 +1,20 @@
+.videos
+  - if promotion.videos.first
+    %ul{:class => 'video_list'}
+      - promotion.videos.each do |video|
+        %li= video.code.html_safe
+
+- if user_signed_in?
+  #add_video
+    %span.admin + Add a Video
+  #new_video{:style => "display: none;"}= render '/videos/video-form'
+
+- if promotion.title?
+  %h2.title= promotion.title
+= RedCloth.new(promotion.body).to_html.html_safe
+- if promotion.image?
+  = image_tag(promotion.image.url(:large))
+- if user_signed_in?
+  %span.admin= link_to(image_tag('pencil.gif', :alt => 'Edit', :title => 'Edit Event') + 'Edit Promo', edit_promotion_path(promotion))
+  %span.admin= link_to(image_tag('trash.png', :alt => 'Destroy', :title => 'Delete Promo') + 'Delete Promo', promotion, :confirm => 'Are you sure you want to delete this Promo?', :method => :delete)
+    

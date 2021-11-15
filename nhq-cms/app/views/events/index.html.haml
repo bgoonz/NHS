@@ -1,0 +1,15 @@
+- content_for :title, "Upcoming Events - 500 Clown"
+- body_id('events')
+- content_for :jstemplates do
+  jQuery(function() { app.setupShowList(); });
+  
+#main
+  %ul.show_list
+    - @events.each do |event|
+      %li.showblock
+        - if event.image?
+          .photo.left= link_to(image_tag(event.image.url(:showblock)), event)
+        .title
+          .show= link_to event.title, event 
+  #wrapper
+    = RedCloth.new(@upcoming_page.body).to_html.html_safe

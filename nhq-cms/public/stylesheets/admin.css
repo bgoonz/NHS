@@ -1,0 +1,194 @@
+#flash_notice, #flash_error, #flash_alert {
+  padding: 5px 8px;
+  margin: 10px 0;
+  width: 500px;
+}
+#ajax-status, #flash_notice, #flash_error, #flash_alert  {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding: 5px 10px;
+  margin: 4px;
+  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, sans-serif;
+}
+#ajax-status {
+  position: fixed;
+  bottom: 0;
+  right: 100px;
+	display: none;
+  background-color: #DDD;
+	font-size: 1.5em;
+}
+
+#flash_notice {
+  background-color: #CFC;
+  border: solid 1px #6C6;
+}
+
+#flash_error, #flash_alert {
+  background-color: #FCC;
+  border: solid 1px #C66;
+}
+
+li.page {
+  margin-top: 0;
+  padding-top: 25px;
+}
+#main form ol li {
+  list-style: none;
+}
+#main.edit form {
+  padding-left: 0;
+}
+#main-content #main.edit {
+  padding-right: 36px;
+  width: 553px;
+}
+fieldset {
+	border: none;
+}
+fieldset, ol {
+	margin: 0;
+	padding: 0;
+}
+textarea {
+	width: 480px;
+}
+ol li {
+	list-style: none;
+	padding: 10px 0;
+}
+.inline-errors,
+.error_messages {
+	color: #900;
+}
+.inline-hints {
+	font-size: 0.8em;
+	color: #333;
+}
+label {
+	display: block;
+}
+.label {
+	color: #333;
+}
+.inputs input {
+	display: inline;
+}
+div.ui-datepicker {
+	font-size: 12px;
+}
+li .edit,
+li .destroy {
+	display: inline;
+}
+.timestamps {
+	padding-bottom: .8em;
+	color: #666;
+}
+.created,
+.updated {
+	display: inline;
+	color: #333;
+}
+.welcome {
+	text-align: right;
+}
+.inline {
+	display: inline;
+}
+.admin {
+	font-weight: normal;
+	font-size: 14px;
+	float: right;
+	padding: 0 0 0 1em;
+}
+.admin-bar {
+  position: absolute;
+  top: 10px;
+  width: 500px;
+  background: white;
+}
+#add_review,
+#add_flickr {
+	margin: 2em 0 0 0;
+	background: white;
+}
+#add_showdate:hover,
+#add_video:hover,
+#add_credit:hover {
+	color: #DB0000;
+	cursor: pointer;
+}
+#menu .admin {
+	padding-right: 15px;
+	float: none;
+}
+span.add {
+	display: block;
+	padding-top: 1em;
+}
+.venue-admin {
+	font-size: 0.7em;
+}
+.tk-poster img,
+.date_list img,
+.admin img {
+	vertical-align: middle;
+	padding: 0 4px;
+}
+#redcloth {
+	position: fixed;
+	top: 290px;
+	right: 0;
+}
+
+#credit_new .role,
+#credit_new .name {
+	float: left;
+	width: 50px;	
+}
+#credit_new input {
+	float: right;
+}
+#credit_new .name {
+	clear: both;
+}
+
+#promotion_title_input input {
+  width: 90%;
+}
+form {
+  background-color: #fff;
+}
+form#user_new  {
+  background-color: transparent;
+}
+.when form .label {
+	width: 75px;
+	text-align: right;
+	padding: 0 0.3em 0.5em 0;
+	font-weight: bold;
+	color: #999;
+}
+.when form .label img {
+	vertical-align: bottom;
+}
+form.showdate .start,
+form.showdate .end {
+	clear: left;
+}
+form.showdate {
+	padding-bottom: 2em;
+}
+#add_video {
+  padding: 0;
+  width: 500px;
+  overflow: auto;
+  margin: 2em 0 1em 0;
+}
+#add_video .admin {
+  display: inline;
+}
+#new_video {
+  width: 500px;
+}

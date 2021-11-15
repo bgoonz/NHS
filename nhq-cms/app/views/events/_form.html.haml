@@ -1,0 +1,18 @@
+= render(:partial => "layouts/redcloth")
+
+= semantic_form_for @event, :html => { :multipart => true, :id => "eventform" } do |form|
+
+  = form.inputs do 
+    = form.input :title, :required => true, :label => "Event Title" 
+    = form.input :description, :as => :text
+    = form.input :event_type, :as => :select, :collection => ["Performance", "Workshop", "Fundraiser"] 
+    = form.input :tags, :hint => "(e.g. comedy, tragedy, classic)" 
+    - if @event.image?
+      = image_tag(@event.image.url(:thumb))
+      = form.input :remove_image, :as => :boolean
+    = form.input :image 
+    = form.input :ticket_price
+    = form.input :ticket_url
+
+  = form.buttons do
+    = form.commit_button

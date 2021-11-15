@@ -1,0 +1,16 @@
+- content_for :title, 'New Review'
+
+#main.edit
+  %h1
+    New review
+  - if @show
+    .admin
+      for 
+      = link_to @show.title, @show
+  - if @workshop
+    .admin
+      for 
+      = link_to @workshop.title, @workshop
+
+
+  = render 'form'

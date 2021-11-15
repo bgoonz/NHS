@@ -1,0 +1,11 @@
+= content_for :title, "Editing " + @show.title
+- body_id('shows')
+%span.admin= link_to 'View Show', @show
+
+%h1
+  Editing Show
+  %span.admin
+    = link_to 'View Show', @show
+
+
+= render 'form'

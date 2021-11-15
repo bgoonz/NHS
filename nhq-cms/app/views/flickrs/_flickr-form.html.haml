@@ -1,0 +1,16 @@
+= form_for @flickr, :remote => true do |r|
+  - if @show
+    %input{:type => "hidden", :name => "show_id", :value => @show.slug}
+  - elsif @workshop
+    %input{:type => "hidden", :name => "workshop_id", :value => @workshop.slug}
+  - elsif @event
+    %input{:type => "hidden", :name => "event_id", :value => @event.slug}
+  - elsif @page
+    %input{:type => "hidden", :name => "page_id", :value => @page.slug}
+
+  %select{:id => "photoset_id", :name => "photoset_id"}
+    - photosets_list = flickr.photosets.getList(:user_id => '49951737@N02').to_a
+    - flickr_array = photosets_list.map { |photoset| [truncate(photoset.title, :length => 75), photoset.id] }
+    = options_for_select(flickr_array)
+
+  = r.submit "Add Photoset"

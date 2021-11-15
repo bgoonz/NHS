@@ -1,0 +1,87 @@
+- content_for :title, @show.title + " - 500 Clown"
+- body_id('shows')
+- content_for :head do
+  = stylesheet_link_tag "colorbox"
+  = javascript_include_tag "jquery.colorbox"
+- content_for :jstemplates do
+  jQuery(function() { app.setupVideos(); app.setupCredits(); });
+  
+
+
+#main    
+  - if user_signed_in?
+    .admin-bar
+      %span.admin= link_to(image_tag('trash.png', :alt => 'Destroy', :title => 'Delete Show') + 'Delete Show', @show, :confirm => 'Are you sure you want to delete the show "' + @show.title + '"?', :method => :delete)
+      %span.admin= link_to(image_tag('pencil.gif', :alt => 'Edit', :title => 'Edit Show') + 'Edit Show', edit_show_path(@show))
+
+  .videos
+    %ul{:class => 'video_list'}
+      - if @show.videos.first
+        - @show.videos.each do |video|
+          %li= render(:partial => "videos/video", :locals => {:video => video})
+
+  #wrapper
+    - if user_signed_in?
+      #add_video
+        .admin + Add a Video
+      #new_video{:style => "display: none;"}= render '/videos/video-form'
+  
+    %h1.title
+      = @show.title
+    = RedCloth.new(@show.description).to_html.html_safe
+
+    - unless @show.tags_array.empty?
+      .tags
+        %h3 Tags:
+        = ('<span>' + @show.tags.gsub(/,/, "</span><span>") + '</span>').html_safe
+
+    .flickrs
+      - if @show.flickrs.first
+        %h3 Photos
+        %ul.flickr_list
+          - @show.flickrs.each do |fset|
+            = render(:partial => "flickrs/photoset", :locals => {:fset => fset})
+      - else
+        %ul.flickr_list
+
+      - if user_signed_in?
+        #add_flickr 
+          + Add a Photoset
+          = render 'flickrs/flickr-form'
+
+    - if @show.reviews.first
+      .reviews
+        %h3 Press
+        %ul.review_list
+          - @show.reviews.each do |review|
+            = render(:partial => "reviews/review", :locals => {:review => review})
+
+    - if user_signed_in?
+      #add_review
+        = link_to('+ Add New Review', new_show_review_path(@show))
+        - available_reviews = Review.not_in(:_id => @show.review_ids)
+        - if available_reviews.count
+          = form_for @show do |r|
+            %select{:id => "review_id", :name => "review_id"}
+              - reviews_array = available_reviews.map { |review| [truncate(review.description), review.id] }
+              = options_for_select(reviews_array)
+            = r.submit "Add Existing Review"
+
+    - if @show.additional_info?  
+      .additional_info.redcloth
+        %h3 Additional Info:
+        = RedCloth.new(@show.additional_info).to_html.html_safe
+  
+#sidebar
+  .credits
+    - if @show.credits.first
+      %p.SB_credits Credits
+      %ul.credit_list
+        - @show.credits.each do |credit|
+          = render(:partial => 'credits/credit', :locals => {:credit => credit})
+    - else
+      %ul.credit_list
+
+    - if user_signed_in?
+      #add_credit.tk-poster + Add a Credit
+      #new_credit{:style => "display: none;"}= render 'credits/credit-form'

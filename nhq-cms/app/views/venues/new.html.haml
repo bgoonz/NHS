@@ -1,0 +1,10 @@
+- content_for :title, 'New Venue'
+
+%h1 
+  New venue
+  - if @event
+    .admin
+      for 
+      = link_to @event.title, @event
+
+= render 'form'

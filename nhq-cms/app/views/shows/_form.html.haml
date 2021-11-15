@@ -1,0 +1,16 @@
+= render(:partial => "layouts/redcloth")
+
+= semantic_form_for @show, :html => { :multipart => true } do |form|
+
+  = form.inputs do
+    = form.input :title, :required => true, :label => "Show Title"
+    = form.input :description, :as => :text
+    = form.input :tags, :hint => "I.e. people, places and things"
+    = form.input :additional_info, :as => :text
+    - if @show.image?
+      = image_tag(@show.image.url(:thumb))
+      = form.input :remove_image, :as => :boolean
+    = form.input :image
+
+  = form.buttons do
+    = form.commit_button

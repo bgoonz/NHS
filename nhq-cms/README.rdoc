@@ -1,0 +1,37 @@
+== NHQ-CMS
+
+NHQ-CMS is a Rails3-MongoDB-Mongoid event management system.
+
+
+===It uses:
+
+==== Inherited Resources for DRY restful controllers
+Inherited Resources speeds up development by making your controllers inherit
+all restful actions so you just have to focus on what is important. It makes
+your controllers more powerful and cleaner at the same time.
+http://github.com/josevalim/inherited_resources
+
+==== Devise for user authentication
+Devise is a flexible authentication solution for Rails based on Warden.
+http://github.com/plataformatec/devise
+
+
+===Other current features include:
+
+* Events with multiple show dates (embedded in the MongoDB "event" collection)
+* Page model for dynamic pages with slugs ( e.g. home, about, contact, booking ) { mongoid_slug }
+* Tagging and tag index { mongoid_taggable }
+* Image uploading / processing { carrier_wave }
+			
+			
+==Planning to add:
+
+* more robust "show date" information
+* models/collections for Shows, Workshops, Press
+* xml views
+* full conversion from .erb to .haml
+* flickr API integration
+* facebook API integration
+
+
+Copyright (c) 2010 National Headquarters, LLC & Waking Web, LLC

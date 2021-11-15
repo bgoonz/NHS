@@ -1,0 +1,802 @@
+/* application */
+
+html,body,div{border:0;margin:0;padding:0;color:#000;}
+body {background:url(../images/background.jpg) left top repeat;}
+a {text-decoration:none;color:#DB0000;}
+a:hover{color:#900;text-decoration:none;}
+.hover .show a {color:#900;text-decoration:none;}
+#container{width:1050px;padding-top:10px;margin:0 auto;}
+.clear{clear:both;}
+.clearfix:after,#container:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
+.clearfix,.main{display:block;}
+
+h1 {
+  font-size: 32px;
+  clear: both;
+}
+h2 {
+  font-weight: normal;
+}
+h3 {
+  padding: 0.5em 0 0 0.6em;
+  background-color: #FFF;
+}
+
+#paper {
+  background: #fff;
+  margin-left: 20px;
+  padding: 0 1em;
+}
+#menu {
+	background: url(../images/sidebar.png) left top no-repeat;
+	background-size:100% 100%;
+	position:fixed;
+	float:left;
+	width: 180px;
+	height: 439px;
+	overflow:visible;
+	margin-top:22px; 
+	margin-left: -20px;
+}
+#menu ul {
+  list-style:none;
+  padding: 2em 0 0 1em;
+}
+#menu li {
+	margin-left: 7px;
+	font-size: 22px;
+  font-weight: normal;
+	display: block;
+	text-transform: uppercase;
+	padding: 0.45em 0;
+	color: #222;
+}
+#menu li a {
+	color:	#222;
+}
+#menu li a:hover {
+	color:	#900;
+}
+
+#menu li.admin {
+	font-size: 1em;
+}
+#menu li.admin a {
+	color:#000;
+}
+#menu li.admin a:visited {
+	color:#000
+}
+/* YOU ARE HERE */
+#menu li.admin a:hover,
+#home a.home,
+#shows a.shows,
+#events a.events,
+#workshops a.workshops,
+#reviews a.mreviews,
+#about a.about,
+#contact a.contact
+ {
+	color:#000;
+}
+
+#menu li.admin a,
+#menu li.admin a:hover,
+#menu li.admin a:visited {
+	padding: 0;
+	color: #fff;
+}
+#menu #admin {
+  position: fixed;
+  top: 0;
+  right: 0;
+	background-color: rgba(0, 0, 0, .5);  
+	margin: 0;
+	padding: 0;
+	z-index: 55;
+}
+
+#menu .admin {
+	padding: 0.5em 0 0.2em 0.5em;
+
+}
+#logo {
+  position: absolute;
+  top: 100px;
+  margin-left: 40px;
+  width: 531px;
+  height: 145px;
+  background: transparent url(../images/500clown.png) no-repeat top center;
+}
+#main-content{
+  width: 888px;
+  float: right;
+  background-color: transparent;
+  padding: 15px 0 0 0;
+  margin-top: 1em;
+}
+#main-content #main {
+  float: left;
+/*  padding: 15px 20px 15px 20px;*/
+  padding: 0 14px 35px 30px;
+  width: 575px;
+  margin-bottom: 25px;
+}
+#main-content #main p {
+  padding-bottom: 2em;
+}
+#main form,
+#main .timestamps
+{
+  padding-left: 10px;
+}
+#main {
+  background: url(../images/main_div.png) repeat-y;
+  background-position: 0 -20px;
+  min-height: 645px;
+}
+#main-content #main h1,
+#main-content #main h2,
+#main-content #main p,
+#main-content #main div p {
+  padding: 10px 15px 0 15px;
+  background-color: #fff;
+  display: block;
+}
+#main-content #main h1 {
+  padding-bottom: 0;
+  margin-top: 20px;
+}
+#main-content #main #wrapper p {
+  padding-bottom: 1em;
+}
+/*#main-content #main #wrapper form {
+  margin-left: 20px;
+}*/
+#main-content #main #wrapper form li {
+  list-style-type: none;
+}
+#main-content #main #wrapper .created {
+  margin-left: 25px;
+}
+/*#main .flickrs{
+  margin-left: 20px;
+}
+*/
+#main ol li {
+  list-style-type: decimal;
+}
+#main p ul li {
+  list-style-type: disc;
+  padding: 0.5em 0;
+}
+#main .show_list {
+  overflow: auto;
+  padding-bottom: 2em;
+}
+#main #wrapper {
+  margin: 0 24px 0 3px;
+}
+#reviews #main li {
+  list-style-type: none;
+}
+#home #main-content #main {
+  padding-top: 215px;
+}
+
+#home #sidebar {
+  padding-top: 50px;
+}
+#main,
+#shows #main,
+#events #main,
+#workshops #main,
+#contact #main,
+#about #main,
+#reviews #main,
+#pages #main,
+#people #main {
+  padding-top: 215px;
+}
+
+.nav a,
+.nav a:visited,
+.nav a:hover
+  {
+	padding: 0 0.5em;
+	color: #DB0000;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.nav a:hover { color: #FFF }
+
+.hmenu {float: right;position:fixed;padding: 0;}
+.hmenu li {list-style: none;}
+
+#sidebar {
+	font-size: 20px;
+	float: right;
+	width: 269px;
+	padding:0px;
+  margin: 100px 0 0 0;
+	text-align:left;
+	z-index: 5;
+}
+#sidebar h3 {
+	text-align:left;
+}
+.date_list {
+  margin-bottom: 0.5em;
+}
+.date_list li span {
+  padding: 4px;
+  line-height: 28px;
+}
+.date_list li {
+  display: block;
+  padding: 2px 0;
+  font-size: 0.8em;
+}
+/*#shows #sidebar {
+  margin-top: -200px;
+}
+#events #sidebar {
+  margin-top: -200px;
+}*/
+#sidebar ul li{
+	padding-top:7px;
+}
+.date, .time{
+	background-color:#fff;
+}
+.time {color:#000;}
+
+/*.video_list{
+  margin-left:60px;
+}
+*/
+.video_list li {
+  padding: 0.5em 0 0.5em 0;
+  width: 520px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+#workshops #main #wrapper ul,
+#workshops #main #wrapper ol {
+  padding-left: 50px;
+  padding-bottom: 0.5em;
+  background-color: #fff;
+}
+#workshops #main #wrapper li {
+  padding: 0.5em 0;
+}
+#workshops #main #wrapper ul li {
+  list-style-type: disc;
+}
+.video_list li object {
+  display: block;
+  margin: 0 5px;
+}
+iframe, object {
+	max-width:525px;
+}
+.page {
+  margin-top:25px;
+}
+#footer {
+	font-size:17px;
+	text-shadow:1px 1px 3px #fff;
+	margin: 0 auto 50px;
+	width: 500px;
+	text-align: center;
+	clear: both;
+}
+#footer hr {
+	color:#111;
+	background-color:#111;
+	height:1px;
+	border:none;
+}
+#credit {
+	padding: 3px;
+	font-style: italic;
+}
+
+/* LAYOUT */
+#home #eventsTab {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 280px;
+	background: transparent url(../images/upcoming-events.png) no-repeat top right;
+	z-index: 1;
+}
+#home #sidebar {
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 5;
+  font-size: 20px;
+  line-height: 1.1em;
+}
+.tag_title {
+	font-weight: bold;
+	padding-right: 0.5em;
+}
+.event_title {
+  text-transform: uppercase;
+}
+.tags {
+	background:#fff;
+	color: #000;
+	overflow: auto;
+	font-size: 0.9em;
+	padding-bottom: 0.6em;
+}
+.tags h3 {
+  font-size: 1.2em;
+  float: left;
+  padding-right: 1em;
+}
+.tags span {
+  display: block;
+  float: left;
+  padding: 0.5em 1em;
+  margin: 0 1em 0.5em 0;
+  font-size: 9px;
+  text-transform: uppercase;
+  font-family: Verdana, Helvetica, sans-serif;
+  background-color: #666;
+  color: #fff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.reference {
+	padding-bottom: 0.5em;
+}
+.left { 
+  float: left; 
+  margin: 0 1em 1em 0; 
+  padding: 0; 
+}
+.right { 
+  float: right; 
+  margin: 0 0 1em 1em;  
+}
+
+/* HOME */
+#home .home_description { 
+display:none;
+}
+.upcoming {
+  padding: .2em 0;
+  display: block;
+}
+.upcoming h3 {
+  background:#FFF;
+}
+.upcoming li {
+  margin: 5px 0;
+}
+.upcoming li.title a {
+  color:#000;
+  background:#fff;
+  padding: 4px;
+  font-size: 16px;
+}
+.upcoming li.title a span {
+  font-size: 20px;
+}
+.promotions div.title {
+  font-family: rosewood-std-fill-1,rosewood-std-fill-2,sans-serif;
+  font-size: 28px;
+	margin: 15px 0;
+	text-align: left;
+}
+/*#feedTitle{
+  font-size:150%;
+  margin-top: 5px;
+  padding:3px 0 7px 0;
+  clear:left;
+}
+
+.facebookfeed {
+  padding: 0;
+  margin: 0;
+}
+.facebookfeed li {
+  width:480px;
+  padding: 0 0 0.5em 0;
+  margin: 0;
+  clear: left;
+  border-top: 1px solid #eee;
+}
+.facebookfeed a{
+  color:red;
+}
+.facebookfeed .name {
+  font-weight: bold;
+  clear: both;
+}
+.facebookfeed .date {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.7em;
+  padding: 0.5em 0;
+  color: #999;
+  display: block;
+}*/
+
+/* LISTS */
+.page_list, .venue_list {
+  padding-left: 18px;
+  background: white;
+}
+
+.event_list,
+.show_list,
+.workshop_list,
+.review_list,
+.upcoming_events,
+{
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+}
+.credit_list {
+	margin:1em 0;
+}
+.show_list li .title a {
+	color:#fff;
+}
+.event_list li,
+.show_list li,
+.workshop_list li,
+.review_list li,
+.upcoming_events li {
+	list-style: none;
+	padding-top: 0.2em;
+	padding-bottom: 0.5em;
+}
+.event_list li,
+.workshop_list li,
+.review_list li,
+.upcoming_events li {
+	clear: both;
+}
+.credit_list li {
+	padding: 0.15em 0;
+}
+.review_list .title,
+.review_list .source {
+	font-family: "Baskerville", 'Times New Roman', Times, serif; 
+}
+
+/* EVENTS */
+.event_type {
+	background:#fff;
+	padding-bottom: 0.175em;
+	text-align:left;
+	font-weight: bold;
+}
+.event_type .label {
+	font-weight: bold;
+}
+.event_list {
+	padding-top: 1em;
+}
+.description
+{
+	background:#fff;
+/*  width:525px;
+  margin-left:40px;
+  margin-top: 25px;
+  text-align:left;*/
+}
+.description h1 {
+  font-size: 24px;
+  color: #333;
+  padding: 0.5em 0 0 0.5em;
+}
+.description h2{
+	padding:1ex 0 0 1ex;
+}
+.description p {
+	padding:1em;
+}
+.SB_credits {
+	padding:0;
+	background:#fff;
+	width: 100px;
+}
+.SB_ticket_url {
+	font-size:36px;
+	background:#fff;
+/*  width:175px;*/
+	margin-left:0;
+	margin-top: 15px;
+	margin-bottom:;
+	text-align:center;
+}
+.ticket_url {
+	font-size: 36px;
+	background: #fff;
+	margin: 20px;
+	padding: 0 0.2em;
+	text-align:center;
+	text-transform: uppercase;
+	display: inline;
+}
+.price {
+	background:#fff;
+	margin:10px 0;
+	padding:4px;
+	text-align:left;
+	display: inline;
+}
+/* VENUE */
+.where {
+	background:#fff;
+	margin: 25px 24px;
+	padding:5px 6px;
+	font-size: 1em;
+	width: 250px;
+	float: right;
+	line-height: 22px;
+}
+.venue_title {
+	font-weight: bold;
+}
+.address {
+	margin: 0;
+	padding: 0;
+}
+
+#venue_state {
+	display: inline;
+}
+.venue_list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.venue_list li {
+	padding: 1em 0;
+}
+
+#workshops #main-content {
+  min-height: 400px;
+}
+
+/* SHOWS */
+/*#shows .videos, #workshops .videos {margin-top:225px;}*/
+.show_list {
+  width: 575px;
+}
+.show_list .showblock {
+	background:#000;
+	padding:0;
+	float: left;
+	border: 5px solid #fff;
+}
+.showblock .show img {
+	padding: 0;
+	width: 175px;
+	height: 175px;
+}
+.showblock {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-bottom: 0.2em;
+  width: 175px;
+  height: 175px;
+  display: block;
+}
+/* jQuery hover */
+.showblock.hover .photo img {
+  display: none;
+}
+.showblock .show {
+  display: none;
+} 
+.showblock .show a {
+  vertical-align: middle;
+  width: 155px;
+  height: 75px;
+  display: block;
+  margin: 0;
+  padding: 50px 10px;
+}
+.showblock.hover .show {
+  display: block;
+}
+.showblock.hover .photo {
+  display: none;
+}
+.showblock .title {
+  text-transform: uppercase; 
+  text-align: center;
+  text-indent: 0px; 
+  position: relative;
+}
+.showblock .title .show {
+  position: relative;
+  padding: 0;
+  width: 175px;
+  height: 175px;
+  font-size:22px;
+  font-family: rosewood-std-fill-1,rosewood-std-fill-2,sans-serif;
+  font-weight: normal;
+}
+/*.showblock .title {display:none;}*/
+.flickrs,
+.reviews,
+.credits,
+.additional_info {
+	padding-top: 1em;
+	clear: right;
+}
+.reviews{
+	width:500px;
+	margin-left:50px;
+}
+.credits li{
+	text-align:left;
+	padding: 6px 0;
+}
+.info_title {
+	padding: 1em 0 0 0;
+}
+form.credit {
+	padding-top: 1em;
+}
+.credit {
+	font-size: 16px	;
+	color: #000;
+	background:#fff;
+}
+.name{
+	font-size: 20px	;
+	color: #000;
+	background:#fff;
+}
+
+
+/* WORKSHOPS */
+
+
+
+
+/* PRESS */
+.review_list span {
+	font-size: 0.8em;
+}
+.review_list .source {
+	text-align: left;
+	padding-left: 2em;
+}
+.review_list {
+	background: #fff;
+	padding-bottom:1em;
+}
+.review_list li {
+	padding: 0.1em 2em 1em 1em;
+}
+
+
+/* FLICKR */
+.tk-poster{background:#fff;}
+/*.flickrs {margin-left:40px;width:525px;}
+*/
+.flickrs .title {
+	background:#fff;
+	display: block;
+	padding: 0 0 0.5em 0.2em;
+	margin: 0;
+}
+.flickrs .slideshow {
+	clear: left;
+}
+.flickrs li {
+	background:#fff;
+	display: block;
+	padding: 1em;
+	margin-left:0 auto;
+	list-style: none;
+}
+.flickrs a {
+	padding:0;
+}
+.flickrs img {
+	padding:0;
+	margin:0px;
+	border:5px solid #fff;
+}
+#sidebar .flickrs {margin-left:0;}
+#sidebar .flickrs a {
+	padding:0;
+}
+#sidebar .flickrs img {
+	border:none;
+}
+#sidebar .flickrs li .title {
+	display:none;
+}
+#sidebar .flickrs li {
+	width:182px;
+	background:#fff;
+	display: block;
+	padding: 0.5em 0 0.5em 0.3em;
+	margin: 0;
+	list-style: none;
+}
+#sidebar .flickrs a {
+	padding:0;
+}
+#sidebar .flickrs img {
+	padding:0;
+	margin:6px 0px 6px 7px;
+	background:#fff;
+}
+
+.flickrs li .title {
+	display:block;
+}
+
+#events .flickrs li .title {
+	text-align: center;
+	padding-left: 0.5em;
+}
+#events .description {
+  clear: both;
+}
+#events .flickrs .flickr_list li.flickr {
+
+}
+
+#venues h1 {
+  font-size: 28px;
+  color: #333;
+}
+#venues .event_list {
+  margin-left: 1em;
+}
+#venues .event_list li {
+  background-color: #fff;
+  padding-left: 0.5em;
+  margin-bottom: 1em;
+}
+.event_list .title {
+  padding-right: 1em;
+}
+
+
+
+
+
+
+/* jquery faded pagination */
+ul.pagination { list-style:none; padding:0; margin: 0 0 2em 0; }
+ul.pagination li { float:left; line-height: 1.3em;}
+ul.pagination li a { padding:2px 4px; }
+ul.pagination li.current a { background:#DB0000; color:white; }
+
+/* redcloth basic formatting */
+.redcloth ul {
+	list-style: disc inside none;
+}
+.redcloth ol li {
+	list-style: decimal inside none;
+}
+.redcloth li {
+	padding: 0.2em 0;
+}
+.redcloth ul,
+.redcloth ol {
+	padding: 0.2em 0 0.9em 1.5em;
+	margin: 0;
+	color: #900;
+	background: white;
+}

@@ -1,0 +1,34 @@
+!!!
+%html
+  %head
+    %title= yield_for(:title, '500 Clown')
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="description" content="#{yield_for(:description, 'Life is worth the risk')}" />
+    <meta name="keywords" content="#{yield_for(:keywords, 'audience, risk, action, humor, chicago, theater')}" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta name="google-site-verification" content="QHvidvMNTVC0WsUeC958qsgqygS3yeqprCs56-3TFhg" />
+    = csrf_meta_tag
+    = stylesheet_link_tag "reset", "type", "nhq", "admin"
+    %script{:type => "text/javascript", :src => "http://use.typekit.com/uyx6uqn.js"}
+    %script{:type => "text/javascript"} try{Typekit.load();}catch(e){}
+    = javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"
+    / = javascript_include_tag "/javascripts/jquery.min.js"
+    = yield(:head)
+
+  %body{:id => yield_for(:body_id, 'home')}
+    #container
+      #menu
+        = render 'navigation/menu'
+
+      #main-content
+        #logo
+        - flash.each do |name, msg|
+          = content_tag :div, msg, :id => "flash_#{name}"
+        = yield
+        
+      #ajax-status
+
+    = javascript_include_tag "jquery-ui", "jquery.strings", "jquery.utils", "ui.timepickr", "jquery.wysiwyg", "wysiwyg", "rails", "application"
+    = yield(:javascripts)
+    = javascript_tag do
+      = yield(:jstemplates)
