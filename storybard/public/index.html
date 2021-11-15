@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>OPA!</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="flatfield.css" />
+    <link rel="stylesheet" href="storybard.css" />
+    <meta name="viewport" content="user-scalable=no"></meta>
+  </head>
+  <body>
+    <div class="w350">
+      <fieldset>
+	<legend>Create New Persona</legend>
+	<div class=" m5">
+	  <input tpye="text" id="charName" placeholder="Full Name"></input>
+	</div>
+	<div class=" m5">
+	  <input tpye="text" id="charAlias" placeholder="Display Alias, if not Full Name"></input>
+	</div>
+	<div class=" h400 m5">
+	  <label for="charBio">
+	    <textarea id="charBio" placeholder="Biography"></textarea>
+	  </label>
+	</div>
+	<div class="piclist" id="avatars">
+	  
+	</div>
+	<div class=" m5">
+	  <label for="charPicker">
+	    <input type="file" class="uxer-flatfield-input" id="charPicker" accept="image/*" multiple></input>
+	    <button class="uxer-flat-button">ADD AVATARS</button>
+	  </label>
+	</div>
+	<div class=" m5">
+	  <label for="charSave">
+	    <button class="uxer-flat-button" id="charSave">SAVE</button>
+	  </label>
+	</div>
+      </fieldset>
+    </div>
+    <div class="w350">
+      <fieldset>
+	<legend>Write</legend>
+	<div class=" m5">
+	  <select id="author">
+	    <option value="Abe Lincoln0">Abe Lincoln 0</option>
+	    <option value="Abe Lincoln1">Abe Lincoln 1</option>
+	    <option value="Abe Lincoln2">Abe Lincoln 2</option>
+	  </select>
+	</div>
+	<div class=" m5">
+	  <input tpye="text" id="charAlias" placeholder="Display Alias, if not Full Name"></input>
+	</div>
+	<div class=" h400 m5">
+	  <label for="charBio">
+	    <textarea id="charBio" placeholder="Biography"></textarea>
+	  </label>
+	</div>
+	<div class="piclist" id="avatars">
+	  
+	</div>
+	<div class=" m5">
+	  <label for="charPicker">
+	    <input type="file" class="uxer-flatfield-input" id="charPicker" accept="image/*" multiple></input>
+	    <button class="uxer-flat-button">ADD AVATARS</button>
+	  </label>
+	</div>
+	<div class=" m5">
+	  <label for="enter">
+	    <button class="uxer-flat-button" id="enter">SAVE</button>
+	  </label>
+	</div>
+      </fieldset>
+    </div>
+    <div id="story"></div>
+    <script type="text/javascript" src="modernizr.js"></script>
+    <script type="text/javascript" src="bundle.js"></script>
+  </body>
+</html>
