@@ -1,0 +1,72 @@
+html, body {
+  height: 100%;
+}
+
+body{
+  display: flex;
+  width:100%;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding:0;
+}
+
+#display{
+  display: flex;
+  flex-direction: column;
+}
+
+
+#controls, #controls .select{
+  display: flex;
+  flex-direction: column;
+}
+
+#source {
+  width: 640px;
+  height: 480px;
+}
+
+#mirror{
+  display:none;
+  width: 640px;
+  height: 480px;
+  z-index:2;
+}
+
+#snap{
+  border-radius: 50% 50%;
+  width: 150px;
+  height: 150px;
+  outline:none;
+  background: red;
+  margin: 0 auto;
+}
+
+@media all and (orientation: landscape){
+
+  #source{
+    width: 640px;
+    height: 480px;
+  }
+
+}
+
+@media all and (orientation: portrait){
+
+  #source{
+    height: 640px;
+    width: 480px;
+  }
+
+  #snap{
+    margin: 0 auto;
+    top: 80%;
+  }
+
+}
+
+
+
+
