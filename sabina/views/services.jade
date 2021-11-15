@@ -1,0 +1,34 @@
+!!!
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(href='http://fonts.googleapis.com/css?family=Raleway:100', rel='stylesheet', type='text/css')
+  body#portfolio
+    #menu
+      h1 PLD Construction + Development
+      ul
+        li 
+          a(href="/") Home
+        li 
+          a(href="/about") About
+        li 
+          a(href="/gallery") Gallery
+        li 
+          a(href="/services", class="active") Services
+        li 
+          a(href="/portfolio") Portfolio
+        li 
+          a(href="/contact") Contact
+    #sidebar
+      a(href="#design", id="design", class="active") DESIGN
+      br
+      a(href="#build", id="build") BUILD
+    #content    
+      p#design!=services.services.design
+      p#build!=services.services.build
+    #foot
+      p © 2011 Promised Land Developmet
+
+  script(type='text/javascript', src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js')
+  script(type="text/javascript", src="/js/services.js")

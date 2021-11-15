@@ -1,0 +1,30 @@
+!!!
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(href='http://fonts.googleapis.com/css?family=Raleway:100', rel='stylesheet', type='text/css')
+  body#portfolio
+    #menu
+      h1 PLD Construction + Development
+      ul
+        li 
+          a(href="/") Home
+        li 
+          a(href="/about") About
+        li 
+          a(href="/gallery") Gallery
+        li 
+          a(href="/services") Services
+        li 
+          a(href="/portfolio") Portfolio
+        li 
+          a(href="/contact") Contact
+    form.cmxform(action="/new/cli", method="post")
+      fieldset
+        legend ENTER CLIENT OR PROJECT NAME
+        ol
+          li
+            label Name:
+            input(type="text", name="name")
+        input(type="submit", id="submit", value="Next")

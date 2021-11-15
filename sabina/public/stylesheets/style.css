@@ -1,0 +1,135 @@
+body {
+  font: 16px 'Raleway', Helvetica, Arial, sans-serif;
+  width:1150px;
+  margin:0 auto;
+
+}
+p {width:57ex;margin:0;-webkit-margin-before: 0;
+-webkit-margin-after: 0;line-height:30px}
+p#build{display:none}
+a {
+  color: #aaa;
+  text-transform:uppercase;
+  text-decoration:none;
+  line-height:35px
+}
+a:hover{border-bottom:1px dotted}
+.active {color:#000;border:none}
+h1{font-size:28px;margin-top:23px}
+.right{float:right}
+.m200{margin-left:130px;}
+h3{border-top:1px solid #ddd;padding-top:15px;margin-top:5px}
+#content {
+	width:800px;
+    margin-left:300px;
+    margin-right:40px;
+    margin-top:27px;
+    margin-bottom: 150px;
+}
+#thumbs a:hover{border:none}
+#admin_submit{float:right}
+#menu {
+    height:90px;
+    margin:0 auto;
+    border-bottom: 1px solid #aaa 
+}
+#menu h1 {display:inline;float:left;margin-left:27px}
+
+#menu ul {float:right;margin-top:24px}
+#menu ul li {margin: 0 9px; display:inline;}
+#portfolio
+{
+    margin-top:27px;
+    padding-bottom:200px;
+
+}
+
+#portfolio #bldg {float:left; border-bottom:1px solid #AAA;margin-bottom:2em}
+#portfolio #bldg img {float:left;margin-left:27px;padding-bottom:2em}
+#portfolio #bldg p {margin-left:400px}
+#sidebar{
+    width:270px;
+    float:left;
+    font-size:18px;
+    margin-top:27px;
+    margin-left:27px
+}
+#sidebar ul {
+    list-style-type:none;
+}
+#foot {background: #fff;bottom:0;left:0; position:fixed; width:300px;text-align:left;padding:13px 0}
+#foot p {margin-left:27px;font-size:12px}
+#sidebar fieldset{max-width:225px;margin-left:0}
+
+#thumbs{}
+ul.thumbs{list-style-type:none; }
+ul.thumbs li {   display:inline; width:167px;
+    height:167px; overflow:hidden}
+p.note{width:225px}
+.thumb{display:inline;float:left;margin:5px;height:210px;width:180px}
+.thumb img{
+    display:inline;
+max-height:167px
+}
+.preview, .#uploaded {width:500px;
+height:500px}
+#admin{}
+#pip{margin:0 auto; width:800px}
+p.descript{text-indent:3ex}
+form.cmxform{
+	width:700px;
+	margin:0 auto;
+}
+form.cmxform textarea {
+	width: 400px;
+	height:250px;
+}
+form.cmxform #submit{
+	float:right;
+}
+form.cmxform fieldset {
+  margin-bottom: 10px;
+}
+form.cmxform legend {
+  padding: 0 2px;
+  font-weight: bold;
+}
+form.cmxform label {
+  display: inline-block;
+  line-height: 1.8;
+  vertical-align: top;
+}
+form.cmxform fieldset ol {
+  margin: 0;
+  padding: 0;
+}
+form.cmxform fieldset li {
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+}
+form.cmxform fieldset fieldset {
+  border: none;
+  margin: 3px 0 0;
+}
+form.cmxform fieldset fieldset legend {
+  padding: 0 0 5px;
+  font-weight: normal;
+}
+form.cmxform fieldset fieldset label {
+  display: block;
+  width: auto;
+}
+form.cmxform em {
+  font-weight: bold;
+  font-style: normal;
+  color: #f00;
+}
+form.cmxform label {
+  width: 120px; /* Width of labels */
+}
+form.cmxform fieldset fieldset label {
+  margin-left: 123px; /* Width plus 3 (html space) */
+}
+
+
