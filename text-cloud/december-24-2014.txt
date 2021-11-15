@@ -1,0 +1,1048 @@
+          [Ping timeout: 240 seconds]
+23:29 -!- Maciek416 [~Maciek@2601:7:2100:2c1:473:c68a:1f71:dc51] has quit
+          [Remote host closed the connection]
+23:42 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          quit [Quit: thealphanerd]
+23:48 -!- collypops [~collypops@202.6.74.6] has quit [Quit: Bye]
+Day changed to 24 Dec 2014
+00:06 -!- nickleefly [uid21582@gateway/web/irccloud.com/x-vyvjbamyqyzhmcgp] has
+          joined #stackvm
+00:15 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has joined
+          #stackvm
+00:20 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has quit
+          [Ping timeout: 256 seconds]
+00:41 -!- rockbo___ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has joined
+          #stackvm
+00:41 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #stackvm
+00:44 -!- knownasilya [uid22190@gateway/web/irccloud.com/x-dhnncullarosqzwh]
+          has quit [Quit: Connection closed for inactivity]
+00:49 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has quit [Remote
+          host closed the connection]
+00:50 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has joined #stackvm
+00:54 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has quit [Ping
+          timeout: 244 seconds]
+01:02 -!- pfraze [~pfraze@65.161.245.231] has joined #stackvm
+01:03 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has joined #stackvm
+01:10 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has quit [Remote
+          host closed the connection]
+01:16 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has joined
+          #stackvm
+01:20 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has quit
+          [Ping timeout: 240 seconds]
+01:34 -!- Maciek416 [~Maciek@2601:7:2100:2c1:e0d2:827a:4635:b218] has joined
+          #stackvm
+01:35 -!- pfraze [~pfraze@65.161.245.231] has quit [Remote host closed the
+          connection]
+01:41 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has joined #stackvm
+01:43 -!- dguttman [~david@104.236.156.156] has quit [Ping timeout: 264 seconds
+]
+01:48 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has quit [Ping
+          timeout: 252 seconds]
+02:02 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has joined #stackvm
+02:03 -!- anandthakker [~anonymous@235.Red-2-138-214.dynamicIP.rima-tde.net]
+          has joined #stackvm
+02:08 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has quit [Ping
+          timeout: 244 seconds]
+02:13 -!- Maciek416 [~Maciek@2601:7:2100:2c1:e0d2:827a:4635:b218] has quit
+          [Remote host closed the connection]
+02:17 -!- jxson [~jxson@c-98-210-181-134.hsd1.ca.comcast.net] has joined
+          #stackvm
+02:17 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has joined
+          #stackvm
+02:18 < owen1> no more JS frameworks -
+               https://news.ycombinator.com/item?id=8791401
+02:21 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has quit
+          [Ping timeout: 252 seconds]
+02:22 -!- CoderPuppy [~cpup@32.218.114.86] has joined #stackvm
+02:25 -!- cpup [~cpup@32.218.119.36] has quit [Ping timeout: 258 seconds]
+02:37 -!- rockbo___ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has quit
+          [Remote host closed the connection]
+02:42 -!- ins0mnia [~smuxi@81-234-249-196-no52.tbcn.telia.com] has quit [Ping
+          timeout: 252 seconds]
+02:53 -!- domanic [~domanic@118.82.172.47] has quit [Ping timeout: 252 seconds]
+03:01 -!- jxson [~jxson@c-98-210-181-134.hsd1.ca.comcast.net] has quit [Remote
+          host closed the connection]
+03:02 -!- jxson [~jxson@c-98-210-181-134.hsd1.ca.comcast.net] has joined
+          #stackvm
+03:06 -!- aulait [~irenacob@li629-190.members.linode.com] has quit [Ping
+          timeout: 258 seconds]
+03:07 -!- jxson [~jxson@c-98-210-181-134.hsd1.ca.comcast.net] has quit [Ping
+          timeout: 250 seconds]
+03:07 -!- domanic [~domanic@118.82.172.47] has joined #stackvm
+03:11 -!- aulait [~irenacob@li629-190.members.linode.com] has joined #stackvm
+03:18 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has joined
+          #stackvm
+03:22 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has quit
+          [Ping timeout: 252 seconds]
+03:34 -!- Mso150_f [~ctlM@80.83.238.72] has joined #stackvm
+03:38 < feross> police killed someone else tonight, two miles from ferguson
+                http://www.ustream.tv/channel/stackizshort
+03:43 < karissa> +1 feross
+03:43 < karissa> thx for the link
+03:48 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has joined
+          #stackvm
+04:00 -!- nickleefly [uid21582@gateway/web/irccloud.com/x-vyvjbamyqyzhmcgp] has
+          quit [Quit: Connection closed for inactivity]
+04:07 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has joined #stackvm
+04:08 -!- michaelrhodes [~michaelrh@14-203-124-14.tpgi.com.au] has quit [Quit:
+          Leaving.]
+04:11 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has quit [Ping
+          timeout: 240 seconds]
+04:18 -!- Guest91429 is now known as sindresorhu
+04:18 -!- sindresorhu is now known as sindresorhus
+04:23 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has quit
+          [Ping timeout: 250 seconds]
+04:24 -!- devhoag [~willhoag@205.204.85.12] has joined #stackvm
+04:25 -!- devhoag [~willhoag@205.204.85.12] has quit [Client Quit]
+04:28 -!- darvon [~darvon@107.191.100.185] has quit [Ping timeout: 244 seconds]
+04:30 -!- darvon [~darvon@107.191.100.185] has joined #stackvm
+04:36 -!- pfraze [~pfraze@65.161.245.231] has joined #stackvm
+04:40 -!- pfraze [~pfraze@65.161.245.231] has quit [Ping timeout: 240 seconds]
+04:49 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has joined
+          #stackvm
+04:57 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          quit [Quit: thealphanerd]
+04:59 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has joined #stackvm
+05:01 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has quit
+          [Quit: fotoverite]
+05:03 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has quit [Read error:
+          Connection reset by peer]
+05:04 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has joined #stackvm
+05:07 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has quit
+          [Read error: Connection reset by peer]
+05:08 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has joined
+          #stackvm
+05:08 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has quit [Ping timeout:
+          240 seconds]
+05:09 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has joined
+          #stackvm
+05:09 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has joined #stackvm
+05:13 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has quit [Ping
+          timeout: 244 seconds]
+05:28 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has quit
+          [Quit: fotoverite]
+05:37 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has quit
+          [Ping timeout: 265 seconds]
+05:44 < feross> buffer 3.0.0 is out! now the whole node buffer test suite
+                passes!
+05:45 < feross> PR out to browserify here:
+                https://github.com/substack/node-browserify/pull/1040
+05:46 < substack> probably I can just bump the minor then
+05:48 < feross> substack: yeah, i think so
+05:48 < substack> 7.1.0
+05:49 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has joined
+          #stackvm
+05:49 < feross> thanks substack
+06:00 -!- Mso150_f [~ctlM@80.83.238.72] has quit [Ping timeout: 272 seconds]
+03:06 -!- aulait [~irenacob@li629-190.members.linode.com] has quit [Ping
+          timeout: 258 seconds]
+03:07 -!- jxson [~jxson@c-98-210-181-134.hsd1.ca.comcast.net] has quit [Ping
+          timeout: 250 seconds]
+03:07 -!- domanic [~domanic@118.82.172.47] has joined #stackvm
+03:11 -!- aulait [~irenacob@li629-190.members.linode.com] has joined #stackvm
+03:18 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has joined
+          #stackvm
+03:22 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has quit
+          [Ping timeout: 252 seconds]
+03:34 -!- Mso150_f [~ctlM@80.83.238.72] has joined #stackvm
+03:38 < feross> police killed someone else tonight, two miles from ferguson
+                http://www.ustream.tv/channel/stackizshort
+03:43 < karissa> +1 feross
+03:43 < karissa> thx for the link
+03:48 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has joined
+          #stackvm
+04:00 -!- nickleefly [uid21582@gateway/web/irccloud.com/x-vyvjbamyqyzhmcgp] has
+          quit [Quit: Connection closed for inactivity]
+04:07 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has joined #stackvm
+04:08 -!- michaelrhodes [~michaelrh@14-203-124-14.tpgi.com.au] has quit [Quit:
+          Leaving.]
+04:11 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has quit [Ping
+          timeout: 240 seconds]
+04:18 -!- Guest91429 is now known as sindresorhu
+04:18 -!- sindresorhu is now known as sindresorhus
+04:23 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has quit
+          [Ping timeout: 250 seconds]
+04:24 -!- devhoag [~willhoag@205.204.85.12] has joined #stackvm
+04:25 -!- devhoag [~willhoag@205.204.85.12] has quit [Client Quit]
+04:28 -!- darvon [~darvon@107.191.100.185] has quit [Ping timeout: 244 seconds]
+04:30 -!- darvon [~darvon@107.191.100.185] has joined #stackvm
+04:36 -!- pfraze [~pfraze@65.161.245.231] has joined #stackvm
+04:40 -!- pfraze [~pfraze@65.161.245.231] has quit [Ping timeout: 240 seconds]
+04:49 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has joined
+          #stackvm
+04:57 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          quit [Quit: thealphanerd]
+04:59 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has joined #stackvm
+05:01 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has quit
+          [Quit: fotoverite]
+05:03 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has quit [Read error:
+          Connection reset by peer]
+05:04 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has joined #stackvm
+05:07 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has quit
+          [Read error: Connection reset by peer]
+05:08 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has joined
+          #stackvm
+05:08 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has quit [Ping timeout:
+          240 seconds]
+05:09 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has joined
+          #stackvm
+05:09 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has joined #stackvm
+05:13 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has quit [Ping
+          timeout: 244 seconds]
+05:28 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has quit
+          [Quit: fotoverite]
+05:37 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has quit
+          [Ping timeout: 265 seconds]
+05:44 < feross> buffer 3.0.0 is out! now the whole node buffer test suite
+                passes!
+05:45 < feross> PR out to browserify here:
+                https://github.com/substack/node-browserify/pull/1040
+05:46 < substack> probably I can just bump the minor then
+05:48 < feross> substack: yeah, i think so
+05:48 < substack> 7.1.0
+05:49 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has joined
+          #stackvm
+05:49 < feross> thanks substack
+06:00 -!- Mso150_f [~ctlM@80.83.238.72] has quit [Ping timeout: 272 seconds]
+06:11 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has quit
+          quit [Quit: thealphanerd]
+16:43 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #cyberwizard
+17:38 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          quit [Quit: thealphanerd]
+17:43 <@mk30> also if you don't already know what the omni is, that message
+              doesn't mean much to you
+17:46 <@mk30> woops wrong window
+18:55 -!- treeherder [~hive_quee@veles.packetfire.org] has quit [Ping timeout:
+          252 seconds]
+          joined #cyberwizard
+03:01 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          quit [Client Quit]
+03:41 -!- treant [~hive_quee@veles.packetfire.org] has joined #cyberwizard
+03:49 -!- morenoh149
+          [~morenoh14@173-228-123-243.dsl.dynamic.fusionbroadband.com] has quit
+          [Ping timeout: 250 seconds]
+04:49 -!- yar [~yar@gateway/tor-sasl/yar] has quit [Ping timeout: 250 seconds]
+04:55 -!- yar [~yar@gateway/tor-sasl/yar] has joined #cyberwizard
+05:16 -!- yar [~yar@gateway/tor-sasl/yar] has quit [Excess Flood]
+05:18 -!- yar [~yar@gateway/tor-sasl/yar] has joined #cyberwizard
+08:09 -!- yar [~yar@gateway/tor-sasl/yar] has quit [Excess Flood]
+08:13 -!- yar [~yar@gateway/tor-sasl/yar] has joined #cyberwizard
+12:58 -!- morenoh149
+          [~morenoh14@173-228-123-243.dsl.dynamic.fusionbroadband.com] has
+          joined #cyberwizard
+13:16 -!- morenoh149
+          [~morenoh14@173-228-123-243.dsl.dynamic.fusionbroadband.com] has quit
+          [Ping timeout: 265 seconds]
+13:33 -!- morenoh149
+          [~morenoh14@173-228-123-243.dsl.dynamic.fusionbroadband.com] has
+          joined #cyberwizard
+13:38 -!- morenoh149
+          [~morenoh14@173-228-123-243.dsl.dynamic.fusionbroadband.com] has quit
+          [Ping timeout: 252 seconds]
+14:03 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #cyberwizard
+14:38 -!- morenoh149 [~morenoh14@172.56.38.58] has joined #cyberwizard
+16:49 -!- morenoh149 [~morenoh14@172.56.38.58] has quit [Ping timeout: 245
+          seconds]
+17:20 -!- morenoh149 [~morenoh14@199-83-220-245.PUBLIC.monkeybrains.net] has
+          joined #cyberwizard
+19:36 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          quit [Quit: thealphanerd]
+20:28 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #cyberwizard
+20:33 -!- morenoh149 [~morenoh14@199-83-220-245.PUBLIC.monkeybrains.net] has
+          quit [Ping timeout: 244 seconds]
+21:15 -!- treant is now known as treeherder
+21:39 -!- morenoh149
+          [~morenoh14@173-228-123-243.dsl.dynamic.fusionbroadband.com] has
+          joined #cyberwizard
+Day changed to 23 Dec 2014
+00:29 -!- feross_ is now known as feross
+04:33 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          quit [Quit: thealphanerd]
+07:25 -!- Netsplit *.net <-> *.split quits: stevegill_, n4l_, wao, treeherder,
+          feross, tunabananas
+07:26 -!- wao [~wao@v6.syx.sk] has joined #cyberwizard
+07:26 -!- stevegill_ [sid12010@gateway/web/irccloud.com/x-bsgzdxczppalhlcv] has
+          joined #cyberwizard
+07:26 -!- feross [sid31814@gateway/web/irccloud.com/x-koxheujantimfynj] has
+          joined #cyberwizard
+07:26 -!- tunabananas [~jnny@107.170.252.19] has joined #cyberwizard
+07:27 -!- n4l_ [~ron@ec2-54-187-91-254.us-west-2.compute.amazonaws.com] has
+          joined #cyberwizard
+07:28 -!- treeherder [~hive_quee@veles.packetfire.org] has joined #cyberwizard
+12:16 -!- bloodyKnuckles [d8b7cd8b@gateway/web/freenode/ip.216.183.205.139] has
+          joined #cyberwizard
+12:28 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #cyberwizard
+14:23 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          quit [Quit: thealphanerd]
+14:54 -!- morenoh149
+          [~morenoh14@173-228-123-243.dsl.dynamic.fusionbroadband.com] has quit
+          [Ping timeout: 256 seconds]
+15:13 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #cyberwizard
+15:24 -!- morenoh149 [~morenoh14@162.217.75.34] has joined #cyberwizard
+16:43 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          quit [Quit: thealphanerd]
+16:43 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #cyberwizard
+17:38 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          quit [Quit: thealphanerd]
+17:43 <@mk30> also if you don't already know what the omni is, that message
+              doesn't mean much to you
+17:46 <@mk30> woops wrong window
+18:55 -!- treeherder [~hive_quee@veles.packetfire.org] has quit [Ping timeout:
+          252 seconds]
+19:28 -!- bloodyKnuckles [d8b7cd8b@gateway/web/freenode/ip.216.183.205.139] has
+          quit [Quit: Page closed]
+20:23 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #cyberwizard
+20:25 -!- morenoh149 [~morenoh14@162.217.75.34] has quit [Ping timeout: 265
+          seconds]
+21:37 <@mk30> glossary:
+              https://github.com/cyberwizardinstitute/course-map/wiki/Glossary
+21:37 <@mk30> substack ^
+21:54 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+ http://cyber.wizard.institute/
+19:28 -!- bloodyKnuckles [d8b7cd8b@gateway/web/freenode/ip.216.183.205.139] has
+          quit [Quit: Page closed]
+20:23 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #cyberwizard
+20:25 -!- morenoh149 [~morenoh14@162.217.75.34] has quit [Ping timeout: 265
+          seconds]
+21:37 <@mk30> glossary:
+              https://github.com/cyberwizardinstitute/course-map/wiki/Glossary
+21:37 <@mk30> substack ^
+21:54 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          quit [Quit: thealphanerd]
+22:42 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #cyberwizard
+23:42 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          quit [Quit: thealphanerd]
+Day changed to 24 Dec 2014
+00:41 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #cyberwizard
+03:35 -!- treeherder [~hive_quee@veles.packetfire.org] has joined #cyberwizard
+04:57 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+ [15:31] [jjjohnny_(+i)] [10:freenode/#cyberwizard(+ns)] [Act: 3,5,6,11,12,13]-
+[#cyberwizard]
+19:28 -!- bloodyKnuckles [d8b7cd8b@gateway/web/freenode/ip.216.183.205.139]
+          has quit [Quit: Page closed]
+20:23 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #cyberwizard
+20:25 -!- morenoh149 [~morenoh14@162.217.75.34] has quit [Ping timeout: 265
+          seconds]
+21:37 <@mk30> glossary:
+              https://github.com/cyberwizardinstitute/course-map/wiki/Glossary
+21:37 <@mk30> substack ^
+21:54 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          quit [Quit: thealphanerd]
+22:42 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #cyberwizard
+23:42 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          quit [Quit: thealphanerd]
+Day changed to 24 Dec 2014
+00:41 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #cyberwizard
+03:35 -!- treeherder [~hive_quee@veles.packetfire.org] has joined #cyberwizard
+11:24 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has joined #stackvm
+11:31 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has quit [Ping
+          timeout: 250 seconds]
+11:32 -!- pfraze [~pfraze@65.161.245.231] has quit [Remote host closed the
+          connection]
+11:34 -!- Maciek416 [~Maciek@2601:7:2100:2c1:754e:6bd3:636:bced] has joined
+          #stackvm
+11:37 -!- pfraze [~pfraze@65.161.245.231] has joined #stackvm
+11:40 -!- Maciek416 [~Maciek@2601:7:2100:2c1:754e:6bd3:636:bced] has quit
+          [Remote host closed the connection]
+11:41 -!- Maciek416 [~Maciek@c-71-193-203-43.hsd1.or.comcast.net] has joined
+          #stackvm
+11:44 -!- timaschew [~timaschew@cable-stb-89-145-14-3.telta.net] has joined
+          #stackvm
+12:11 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #stackvm
+12:18 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has
+          joined #stackvm
+12:22 -!- contrahax [~contrahax@ip68-2-155-186.ph.ph.cox.net] has joined
+          #stackvm
+12:22 -!- contrahax is now known as _contrahax
+12:22 -!- _contrahax is now known as contrahax
+12:22 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has quit
+          [Ping timeout: 240 seconds]
+12:36 -!- contrahax is now known as _contrahax
+12:37 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has joined
+          #stackvm
+12:41 -!- anandthakker [~anonymous@235.Red-2-138-214.dynamicIP.rima-tde.net]
+          has quit [Quit: anandthakker]
+12:48 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has
+          joined #stackvm
+12:53 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has quit
+          [Ping timeout: 245 seconds]
+13:26 -!- kumavis_ is now known as kumavis
+13:26 -!- ednapiranha [~ednapiran@2601:7:2100:2c1:8638:35ff:fe60:82cc] has
+          joined #stackvm
+13:29 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has joined #stackvm
+13:32 -!- warbrett [~warbrett@wsip-70-166-103-182.ph.ph.cox.net] has joined
+          #stackvm
+13:33 < mikolalysenko_> does anyone have any good tips on figuring out why v8
+                        is deoptimizing a function?
+13:33 -!- warbrett [~warbrett@wsip-70-166-103-182.ph.ph.cox.net] has quit
+          [Read error: Connection reset by peer]
+13:33 < mikolalysenko_> the messages from --trace-deopt are not really clear
+13:33 -!- warbrett [~warbrett@wsip-70-166-103-182.ph.ph.cox.net] has joined
+          #stackvm
+13:34 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has quit [Ping
+          timeout: 250 seconds]
+13:37 -!- phated [~phated@wsip-70-166-103-182.ph.ph.cox.net] has joined
+          #stackvm
+13:40 -!- Mso150_f [~ctlM@80.83.239.123] has joined #stackvm
+13:49 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has
+          joined #stackvm
+13:53 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has quit
+          [Ping timeout: 245 seconds]
+14:07 -!- anandthakker [~anonymous@235.Red-2-138-214.dynamicIP.rima-tde.net]
+          has joined #stackvm
+14:21 -!- anandthakker [~anonymous@235.Red-2-138-214.dynamicIP.rima-tde.net]
+          has quit [Quit: anandthakker]
+14:27 -!- Mso150_f [~ctlM@80.83.239.123] has quit [Ping timeout: 246 seconds]
+14:28 -!- Mso150_f [~ctlM@80.83.239.69] has joined #stackvm
+14:37 -!- pfraze [~pfraze@65.161.245.231] has quit [Remote host closed the
+          connection]
+14:50 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has
+          joined #stackvm
+14:53 -!- _contrahax [~contrahax@ip68-2-155-186.ph.ph.cox.net] has quit [Quit:
+ Unofficial browserling/testling mad science channel. For official help /join #
+          Sleeping]
+14:54 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has quit
+          [Ping timeout: 240 seconds]
+14:56 < ogd> mikolalysenko_: have you use ir hydra?
+14:56 < ogd> chrisdickinson: FYI i NIH'd this today to see how simple i could
+             make my personally preferred workflow
+             https://github.com/maxogden/wzrd
+15:05 < mikolalysenko_> ogd: yeah, I gave it a shot and seems to be working
+15:09 < mikolalysenko_> trying to figure out what is going on still, but
+                        getting closer
+15:14 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has
+          joined #stackvm
+15:29 -!- anandthakker [~anonymous@235.Red-2-138-214.dynamicIP.rima-tde.net]
+ [15:33] [jjjohnny_(+i)] [3:freenode/#stackvm(+cnt)] [Act: 5,6,11,12,13]-- mor
+[#stackvm]
+          Sleeping]
+          240 seconds]
+05:09 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has joined
+          #stackvm
+05:09 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has joined #stackvm
+05:13 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has quit [Ping
+          timeout: 244 seconds]
+05:28 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has quit
+          [Quit: fotoverite]
+05:37 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has quit
+          [Ping timeout: 265 seconds]
+05:44 < feross> buffer 3.0.0 is out! now the whole node buffer test suite
+                passes!
+05:45 < feross> PR out to browserify here:
+                https://github.com/substack/node-browserify/pull/1040
+05:46 < substack> probably I can just bump the minor then
+05:48 < feross> substack: yeah, i think so
+05:48 < substack> 7.1.0
+05:49 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has
+          joined #stackvm
+05:49 < feross> thanks substack
+06:00 -!- Mso150_f [~ctlM@80.83.238.72] has quit [Ping timeout: 272 seconds]
+06:11 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has quit
+          [Ping timeout: 240 seconds]
+06:11 -!- domanic [~domanic@118.82.172.47] has quit [Ping timeout: 244 seconds]
+06:12 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has joined #stackvm
+06:16 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has quit [Ping
+          timeout: 240 seconds]
+06:43 -!- gozala [uid5923@gateway/web/irccloud.com/x-aapcwutnuwxfvjeh] has
+          quit [Quit: Connection closed for inactivity]
+06:45 -!- stagas [~stagas@athedsl-4425892.home.otenet.gr] has joined #stackvm
+06:46 < substack> and now, 8.0.0
+06:48 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has
+          joined #stackvm
+06:53 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has quit
+          [Ping timeout: 250 seconds]
+07:44 -!- anandthakker [~anonymous@235.Red-2-138-214.dynamicIP.rima-tde.net]
+          has quit [Quit: anandthakker]
+07:49 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has
+          joined #stackvm
+07:53 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has quit
+          [Ping timeout: 250 seconds]
+08:15 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has joined #stackvm
+08:18 -!- hemanth [~hemanth@122.167.123.113] has joined #stackvm
+08:21 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has quit [Ping
+          timeout: 265 seconds]
+08:23 -!- hemanth [~hemanth@122.167.123.113] has quit [Client Quit]
+08:42 -!- anandthakker [~anonymous@235.Red-2-138-214.dynamicIP.rima-tde.net]
+          has joined #stackvm
+08:42 -!- hemanth [~hemanth@122.167.123.113] has joined #stackvm
+08:45 -!- maxgfeller [uid53017@gateway/web/irccloud.com/x-zptmmdnlbjnljgjf]
+          has joined #stackvm
+08:50 -!- anvaka [~anvaka@2601:8:ac80:3f9:96d8:439b:b4c2:e03] has quit [Read
+          error: Connection reset by peer]
+08:50 -!- anvaka [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has joined
+          #stackvm
+08:50 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has
+          joined #stackvm
+08:54 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has quit
+          [Ping timeout: 240 seconds]
+09:20 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has joined #stackvm
+09:23 -!- hemanth [~hemanth@122.167.123.113] has quit [Quit: This computer has
+          gone to sleep]
+09:26 -!- hemanth [~hemanth@122.167.123.113] has joined #stackvm
+09:26 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has quit [Ping
+          timeout: 255 seconds]
+09:36 -!- hemanth [~hemanth@122.167.123.113] has quit [Quit: This computer has
+          gone to sleep]
+09:50 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has
+          joined #stackvm
+09:55 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has quit
+          [Ping timeout: 258 seconds]
+10:22 -!- hemanth [~hemanth@122.167.123.113] has joined #stackvm
+10:29 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has
+          joined #stackvm
+10:56 -!- anandthakker [~anonymous@235.Red-2-138-214.dynamicIP.rima-tde.net]
+          has quit [Quit: anandthakker]
+10:57 -!- pfraze [~pfraze@65.161.245.231] has joined #stackvm
+10:57 -!- anandthakker [~anonymous@235.Red-2-138-214.dynamicIP.rima-tde.net]
+          has joined #stackvm
+11:07 -!- hemanth [~hemanth@122.167.123.113] has quit [Quit: This computer has
+          gone to sleep]
+11:20 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has quit
+          [Ping timeout: 265 seconds]
+11:24 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has joined #stackvm
+11:31 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has quit [Ping
+          timeout: 250 seconds]
+11:32 -!- pfraze [~pfraze@65.161.245.231] has quit [Remote host closed the
+          connection]
+11:34 -!- Maciek416 [~Maciek@2601:7:2100:2c1:754e:6bd3:636:bced] has joined
+          #stackvm
+11:37 -!- pfraze [~pfraze@65.161.245.231] has joined #stackvm
+11:40 -!- Maciek416 [~Maciek@2601:7:2100:2c1:754e:6bd3:636:bced] has quit
+          [Remote host closed the connection]
+11:41 -!- Maciek416 [~Maciek@c-71-193-203-43.hsd1.or.comcast.net] has joined
+          #stackvm
+11:44 -!- timaschew [~timaschew@cable-stb-89-145-14-3.telta.net] has joined
+          #stackvm
+12:11 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #stackvm
+12:18 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has
+          joined #stackvm
+12:22 -!- contrahax [~contrahax@ip68-2-155-186.ph.ph.cox.net] has joined
+          #stackvm
+12:22 -!- contrahax is now known as _contrahax
+12:22 -!- _contrahax is now known as contrahax
+12:22 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has quit
+          [Ping timeout: 240 seconds]
+12:36 -!- contrahax is now known as _contrahax
+12:37 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has joined
+          #stackvm
+12:41 -!- anandthakker [~anonymous@235.Red-2-138-214.dynamicIP.rima-tde.net]
+          has quit [Quit: anandthakker]
+12:48 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has
+          joined #stackvm
+12:53 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has quit
+          [Ping timeout: 245 seconds]
+13:26 -!- kumavis_ is now known as kumavis
+13:26 -!- ednapiranha [~ednapiran@2601:7:2100:2c1:8638:35ff:fe60:82cc] has
+          joined #stackvm
+13:29 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has joined #stackvm
+13:32 -!- warbrett [~warbrett@wsip-70-166-103-182.ph.ph.cox.net] has joined
+          #stackvm
+13:33 < mikolalysenko_> does anyone have any good tips on figuring out why v8
+                        is deoptimizing a function?
+13:33 -!- warbrett [~warbrett@wsip-70-166-103-182.ph.ph.cox.net] has quit
+          [Read error: Connection reset by peer]
+13:33 < mikolalysenko_> the messages from --trace-deopt are not really clear
+13:33 -!- warbrett [~warbrett@wsip-70-166-103-182.ph.ph.cox.net] has joined
+          #stackvm
+13:34 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has quit [Ping
+          timeout: 250 seconds]
+13:37 -!- phated [~phated@wsip-70-166-103-182.ph.ph.cox.net] has joined
+          #stackvm
+13:40 -!- Mso150_f [~ctlM@80.83.239.123] has joined #stackvm
+13:49 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has
+          joined #stackvm
+13:53 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has quit
+          [Ping timeout: 245 seconds]
+14:07 -!- anandthakker [~anonymous@235.Red-2-138-214.dynamicIP.rima-tde.net]
+          has joined #stackvm
+14:21 -!- anandthakker [~anonymous@235.Red-2-138-214.dynamicIP.rima-tde.net]
+          has quit [Quit: anandthakker]
+14:27 -!- Mso150_f [~ctlM@80.83.239.123] has quit [Ping timeout: 246 seconds]
+14:28 -!- Mso150_f [~ctlM@80.83.239.69] has joined #stackvm
+14:37 -!- pfraze [~pfraze@65.161.245.231] has quit [Remote host closed the
+          connection]
+14:50 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has
+          joined #stackvm
+14:53 -!- _contrahax [~contrahax@ip68-2-155-186.ph.ph.cox.net] has quit [Quit:
+          Sleeping]
+          host closed the connection]
+10:20 -!- tictacjoe [~JohnDotAw@ppp-70-253-132-59.dsl.rcsntx.swbell.net] has
+          joined #scuttlebutt
+10:57 -!- pfraze [~pfraze@65.161.245.231] has joined #scuttlebutt
+11:32 -!- pfraze [~pfraze@65.161.245.231] has quit [Remote host closed the
+          connection]
+11:37 -!- pfraze [~pfraze@65.161.245.231] has joined #scuttlebutt
+11:42 -!- tictacjoe [~JohnDotAw@ppp-70-253-132-59.dsl.rcsntx.swbell.net] has
+          quit [Quit: Leaving...]
+12:43 < kumavis_> pfraze: hey, was just catching up on phoenix news, you said
+                  you were moving away from Mercury.. what are you moving
+                  towards?
+12:44 < pfraze> kumavis_: just using hyperscript for templating and everything
+                else custom
+12:46 < kumavis_> I'm starting on ui for the multiplayer programming
+                  environment, and would like to stay in a relatively
+                  compatible+reuseable ecosystem with everyone, but not sure
+                  what to pick
+12:49 < pfraze> mercury has some really neat features, so if you like reactive
+                programming I'd still recommend it
+12:52 < pfraze> I've done a lot of work with native web apis so I'm more
+                comfortable there
+12:54 < pfraze> and that works pretty well for an ecosystem - functions that
+                return element objects or take in selectors and bind events to
+                them
+12:56 < kumavis_> our common type is the element object, makes sense
+12:56 < pfraze> here's an example of how I do gui modules with just dom apis:
+                https://github.com/ssbc/phoenix/blob/v1/src/lib/suggest-box.js
+12:56 < pfraze> eyah
+12:56 < pfraze> yeah*
+12:57 < pfraze> I do really enjoy hyperscript. I didnt like it when I first
+                saw it, but, after using it, I cant really imagine a better
+                templater
+13:11 < kumavis_> not having to reimplement js in your templating language is
+                  nice : P
+13:12 < kumavis_> I imagine I would keep the templates segregated to their own
+                  file, but I can see myself using hyperscript
+13:16 < pfraze> yeah, and that's actually what I do. All of my templates live
+                in the "com" directory, which stands for components
+13:17 < pfraze> they are only allowed to take params and return a generated
+                element
+13:17 < pfraze> (hyperscript gives you element objects - so nice!)
+13:19 < pfraze> mercury has a "partial" concept, which is basically a
+                memoization of templates. I bet the same could be done with
+                hyperscript...
+13:22 < kumavis_> so I generally liked your component, until I saw the browser
+                  compat you were doing
+13:22 < kumavis_> i mean of course thats necesary, but I'd rather not think
+                  about it
+13:23 < pfraze> I think you're referring to the big function at the bottom,
+                yeah?
+13:24 < kumavis_> yes
+13:24 < kumavis_> yeah i guess thats a special case
+13:24 < pfraze> yeah, that's actually a copy+paste from something that wasnt
+                published as a node module
+13:24 < kumavis_> ok
+13:24 < pfraze> I know what you mean though
+13:24 < pfraze> I generally dont build for compat
+13:25 < pfraze> I consider my target platforms to be latest browsers, and if
+                that ever changes we'll have to retrofit
+                element
+13:17 < pfraze> (hyperscript gives you element objects - so nice!)
+13:19 < pfraze> mercury has a "partial" concept, which is basically a
+                memoization of templates. I bet the same could be done with
+                hyperscript...
+13:22 < kumavis_> so I generally liked your component, until I saw the browser
+                  compat you were doing
+13:22 < kumavis_> i mean of course thats necesary, but I'd rather not think
+                  about it
+13:23 < pfraze> I think you're referring to the big function at the bottom,
+                yeah?
+13:24 < kumavis_> yes
+13:24 < kumavis_> yeah i guess thats a special case
+13:24 < pfraze> yeah, that's actually a copy+paste from something that wasnt
+                published as a node module
+13:24 < kumavis_> ok
+13:24 < pfraze> I know what you mean though
+13:24 < pfraze> I generally dont build for compat
+13:25 < pfraze> I consider my target platforms to be latest browsers, and if
+                that ever changes we'll have to retrofit
+13:25 < kumavis_> my other question is: why are you just appending to the
+                  body? is it b/c its an element that floats over another?
+https://github.com/ssbc/phoenix/blob/v1/src/lib/suggest-box.js#L46
+13:25 < pfraze> yes
+13:25 < kumavis_> ok
+13:26 -!- kumavis_ is now known as kumavis
+13:26 -!- ednapiranha [~ednapiran@2601:7:2100:2c1:8638:35ff:fe60:82cc] has
+          joined #scuttlebutt
+13:26 < kumavis> pfraze: ok thanks for the suggestions, ill play with these
+13:27 < pfraze> kumavis: cool np
+14:10 -!- williamcotton [~williamco@c-76-118-150-177.hsd1.nh.comcast.net] has
+          joined #scuttlebutt
+14:37 -!- pfraze [~pfraze@65.161.245.231] has quit [Remote host closed the
+          connection]
+14:46 -!- williamcotton [~williamco@c-76-118-150-177.hsd1.nh.comcast.net] has
+          quit [Ping timeout: 240 seconds]
+15:19 -!- phpnode_ [~charles@host86-176-139-100.range86-176.btcentralplus.com]
+          has quit [Ping timeout: 252 seconds]
+15:23 -!- omni [~omni@ip68-4-111-228.oc.oc.cox.net] has joined #scuttlebutt
+15:23 -!- omni is now known as Guest20795
+15:24 -!- Guest20795 [~omni@ip68-4-111-228.oc.oc.cox.net] has quit [Read
+          error: Connection reset by peer]
+15:29 -!- ednapiranha [~ednapiran@2601:7:2100:2c1:8638:35ff:fe60:82cc] has
+          quit [Quit: Leaving...]
+15:31 -!- pfraze [~pfraze@65.161.245.231] has joined #scuttlebutt
+15:32 -!- pfraze [~pfraze@65.161.245.231] has quit [Remote host closed the
+          connection]
+15:32 -!- phpnode_ [~charles@host86-176-139-168.range86-176.btcentralplus.com]
+          has joined #scuttlebutt
+15:33 -!- williamcotton [~williamco@c-76-118-150-177.hsd1.nh.comcast.net] has
+          joined #scuttlebutt
+15:59 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has quit
+          [Remote host closed the connection]
+16:00 < chrisdickinson> mikolalysenko_: irhydra is the best way to figure out
+                        deopts, i've found
+16:01 < chrisdickinson> the most common one i've seen is if you've got a hot
+                        loop, it'll osr the loop body, and put a deopt after
+                        the loop
+16:02 < chrisdickinson> ogd: neat! what magic is omitted from beefy?
+16:05 < chrisdickinson> ah! it's using spawn
+16:05 < chrisdickinson> nice.
+16:06 < chrisdickinson> mikolalysenko_: if you run it with `--trace-osr` that
+                        might illuminate things a bit,
+ Unofficial browserling/testling mad science channel. For official help /join #
+16:06 < chrisdickinson> otherwise if you rebuild the node v0.10 branche with
+                        `export GYP_DEFINES="v8_enable_disassembler=1";
+                        ./configure; make`,
+16:07 < chrisdickinson> (well, `make -j<number of cores you have>`)
+16:08 < chrisdickinson> then you can `node --trace-hydrogen --trace-phase=Z
+                        --trace-deopt --code-comments
+                        --hydrogen-track-positions --redirect-code-traces
+                        --redirect-code-traces-to=code.asm --print-opt-code
+                        <your-file.js>`,
+16:09 < chrisdickinson> (catalogued in this helpful guide:
+                        https://gist.github.com/trevnorris/7712539)
+16:09 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has
+          joined #stackvm
+16:09 < chrisdickinson> then open mrale.ph/irhydra/2/, and upload `code.asm`
+                        and `hydrogen.cfg` using shift select
+16:12 -!- oldskirt_ [~oldskirt@unaffiliated/frodenius] has joined #stackvm
+16:14 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has quit
+          [Ping timeout: 264 seconds]
+16:15 -!- pfraze [~pfraze@65.161.245.231] has joined #stackvm
+16:17 < jjjohnny_> my personal wrapped browserify framework has websocket API
+                   for sharing, pingponging, heartbeats, and other other things
+ [16:19] [jjjohnny_(+i)] [3:freenode/#stackvm(+cnt)] [Act: 6,11,12,13]
+[#stackvm]
+ Unofficial browserling/testling mad science channel. For official help /join #
+browserling
+16:05 < chrisdickinson> nice.
+16:06 < chrisdickinson> mikolalysenko_: if you run it with `--trace-osr` that m
+ight
+                        illuminate things a bit,
+16:06 < chrisdickinson> otherwise if you rebuild the node v0.10 branche with `e
+xport
+                        GYP_DEFINES="v8_enable_disassembler=1"; ./configure; ma
+ke`,
+16:07 < chrisdickinson> (well, `make -j<number of cores you have>`)
+16:08 < chrisdickinson> then you can `node --trace-hydrogen --trace-phase=Z --t
+race-deopt
+                        --code-comments --hydrogen-track-positions --redirect-c
+ode-traces
+                        --redirect-code-traces-to=code.asm --print-opt-code
+                        <your-file.js>`,
+16:09 < chrisdickinson> (catalogued in this helpful guide:
+                        https://gist.github.com/trevnorris/7712539)
+16:09 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has joined
+ #stackvm
+16:09 < chrisdickinson> then open mrale.ph/irhydra/2/, and upload `code.asm` an
+d
+                        `hydrogen.cfg` using shift select
+16:12 -!- oldskirt_ [~oldskirt@unaffiliated/frodenius] has joined #stackvm
+16:14 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has quit [
+Ping
+          timeout: 264 seconds]
+16:15 -!- pfraze [~pfraze@65.161.245.231] has joined #stackvm
+16:17 < jjjohnny_> my personal wrapped browserify framework has websocket API f
+or sharing,
+                   pingponging, heartbeats, and other other things
+ [16:19] [jjjohnny_(+i)] [3:freenode/#stackvm(+cnt)] [Act: 6,11,12,13]
+[#stackvm]
+ Unofficial browserling/testling mad science channel. For official help /join #
+b
+16:06 < chrisdickinson> otherwise if you rebuild the node v0.10 branche with
+                        `export GYP_DEFINES="v8_enable_disassembler=1";
+                        ./configure; make`,
+16:07 < chrisdickinson> (well, `make -j<number of cores you have>`)
+16:08 < chrisdickinson> then you can `node --trace-hydrogen --trace-phase=Z
+                        --trace-deopt --code-comments
+                        --hydrogen-track-positions --redirect-code-traces
+                        --redirect-code-traces-to=code.asm --print-opt-code
+                        <your-file.js>`,
+16:09 < chrisdickinson> (catalogued in this helpful guide:
+                        https://gist.github.com/trevnorris/7712539)
+16:09 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has joined
+          #stackvm
+16:09 < chrisdickinson> then open mrale.ph/irhydra/2/, and upload `code.asm`
+                        and `hydrogen.cfg` using shift select
+16:12 -!- oldskirt_ [~oldskirt@unaffiliated/frodenius] has joined #stackvm
+16:14 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has quit
+          [Ping timeout: 264 seconds]
+16:15 -!- pfraze [~pfraze@65.161.245.231] has joined #stackvm
+16:17 < jjjohnny_> my personal wrapped browserify framework has websocket API
+                   for sharing, pingponging, heartbeats, and other other things
+ [16:19] [jjjohnny_(+i)] [3:freenode/#stackvm(+cnt)] [Act: 6,11,12,13]
+[#stackvm]
+16:05 < chrisdickinson> nice.
+16:06 < chrisdickinson> mikolalysenko_: if you run it with `--trace-osr` that m
+ight
+                        illuminate things a bit,
+16:06 < chrisdickinson> otherwise if you rebuild the node v0.10 branche with `e
+xport
+                        GYP_DEFINES="v8_enable_disassembler=1"; ./configure; ma
+ke`,
+16:07 < chrisdickinson> (well, `make -j<number of cores you have>`)
+16:08 < chrisdickinson> then you can `node --trace-hydrogen --trace-phase=Z --t
+race-deopt
+                        --code-comments --hydrogen-track-positions --redirect-c
+ode-traces
+                        --redirect-code-traces-to=code.asm --print-opt-code
+                        <your-file.js>`,
+16:09 < chrisdickinson> (catalogued in this helpful guide:
+                        https://gist.github.com/trevnorris/7712539)
+16:09 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has joined
+ #stackvm
+16:09 < chrisdickinson> then open mrale.ph/irhydra/2/, and upload `code.asm` an
+d
+                        `hydrogen.cfg` using shift select
+16:12 -!- oldskirt_ [~oldskirt@unaffiliated/frodenius] has joined #stackvm
+16:14 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has quit [
+Ping
+          timeout: 264 seconds]
+16:15 -!- pfraze [~pfraze@65.161.245.231] has joined #stackvm
+16:17 < jjjohnny_> my personal wrapped browserify framework has websocket API f
+or sharing,
+                   pingponging, heartbeats, and other other things
+16:20 -!- pfraze [~pfraze@65.161.245.231] has quit [Ping timeout: 255 seconds]
+16:29 < mikolalysenko_> chrisdickinson: do you know why v8 might keep lazy deop
+timizing a
+                        thing?
+16:29 < mikolalysenko_> it seems like this hot chunk of code keeps getting lazy
+                        deoptimized again and again
+16:29 < chrisdickinson> mikolalysenko_: either the type of thing its dealing wi
+th keeps
+ Unofficial browserling/testling mad science channel. For official help /join #
+browserling
+                        changing or there's a lazy deopt there because of osr
+16:29 < chrisdickinson> or some weird combination of osr + inlining
+16:30 < chrisdickinson> is the code in a gist someplace?
+16:30 < mikolalysenko_> chrisdickinson: no, it is due to ndarray-sort
+16:30 < mikolalysenko_> for some reason it keeps deoptimizing ndarray sort, eve
+n though
+                        the code isn't changing
+16:31 -!- timaschew [~timaschew@cable-stb-89-145-14-3.telta.net] has quit [Quit
+: My Mac
+          has gone to sleep. ZZZzzz&]
+16:34 < chrisdickinson> (also: --code-comments will give you a string you can s
+earch for
+                        in v8 for the deopt reason -- though occasionally it ca
+n be
+                        cryptic / not super useful)
+16:34 < mikolalysenko_> chrisdickinson: yeah, that is kind of where I am stuck
+16:34 < mikolalysenko_> I have a random idea but maybe it won't work
+16:35 < chrisdickinson> do you have a reduced benchmark for it (is it as simple
+ as "create
+                        ndarray of size N, pass it to ndarray-sort"?)
+16:36 < chrisdickinson> (rather, "pass it to ndarray-sort repeatedly")
+16:38 < mikolalysenko_> chrisdickinson: not yet, working on it
+16:38 < mikolalysenko_> basically I am working on box-intersect and troubleshoo
+ting v8
+                        deoptimizations
+16:51 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has joined
+ #stackvm
+16:52 < chrisdickinson> ooh, replicated the deopt
+ [16:52] [jjjohnny_(+i)] [3:freenode/#stackvm(+cnt)] [Act: 5,6,11,12,13]
+[#stackvm]
+16:06 < chrisdickinson> otherwise if you rebuild the node v0.10 branche with
+                        `export GYP_DEFINES="v8_enable_disassembler=1";
+                        ./configure; make`,
+16:07 < chrisdickinson> (well, `make -j<number of cores you have>`)
+16:08 < chrisdickinson> then you can `node --trace-hydrogen --trace-phase=Z
+                        --trace-deopt --code-comments
+                        --hydrogen-track-positions --redirect-code-traces
+                        --redirect-code-traces-to=code.asm --print-opt-code
+                        <your-file.js>`,
+16:09 < chrisdickinson> (catalogued in this helpful guide:
+                        https://gist.github.com/trevnorris/7712539)
+16:09 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has
+          joined #stackvm
+16:09 < chrisdickinson> then open mrale.ph/irhydra/2/, and upload `code.asm`
+                        and `hydrogen.cfg` using shift select
+16:12 -!- oldskirt_ [~oldskirt@unaffiliated/frodenius] has joined #stackvm
+16:14 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has quit
+          [Ping timeout: 264 seconds]
+16:15 -!- pfraze [~pfraze@65.161.245.231] has joined #stackvm
+16:17 < jjjohnny_> my personal wrapped browserify framework has websocket API
+                   for sharing, pingponging, heartbeats, and other other things
+16:20 -!- pfraze [~pfraze@65.161.245.231] has quit [Ping timeout: 255 seconds]
+16:29 < mikolalysenko_> chrisdickinson: do you know why v8 might keep lazy
+                        deoptimizing a thing?
+16:29 < mikolalysenko_> it seems like this hot chunk of code keeps getting
+                        lazy deoptimized again and again
+16:29 < chrisdickinson> mikolalysenko_: either the type of thing its dealing
+                        with keeps changing or there's a lazy deopt there
+                        because of osr
+16:29 < chrisdickinson> or some weird combination of osr + inlining
+                   for sharing, pingponging, heartbeats, and other other things
+16:20 -!- pfraze [~pfraze@65.161.245.231] has quit [Ping timeout: 255 seconds]
+16:29 < mikolalysenko_> chrisdickinson: do you know why v8 might keep lazy
+                        deoptimizing a thing?
+16:29 < mikolalysenko_> it seems like this hot chunk of code keeps getting
+                        lazy deoptimized again and again
+16:29 < chrisdickinson> mikolalysenko_: either the type of thing its dealing
+                        with keeps changing or there's a lazy deopt there
+                        because of osr
+16:29 < chrisdickinson> or some weird combination of osr + inlining
+16:30 < chrisdickinson> is the code in a gist someplace?
+16:30 < mikolalysenko_> chrisdickinson: no, it is due to ndarray-sort
+16:30 < mikolalysenko_> for some reason it keeps deoptimizing ndarray sort,
+                        even though the code isn't changing
+16:31 -!- timaschew [~timaschew@cable-stb-89-145-14-3.telta.net] has quit
+          [Quit: My Mac has gone to sleep. ZZZzzz&]
+16:34 < chrisdickinson> (also: --code-comments will give you a string you can
+                        search for in v8 for the deopt reason -- though
+                        occasionally it can be cryptic / not super useful)
+16:34 < mikolalysenko_> chrisdickinson: yeah, that is kind of where I am stuck
+16:34 < mikolalysenko_> I have a random idea but maybe it won't work
+16:35 < chrisdickinson> do you have a reduced benchmark for it (is it as
+                        simple as "create ndarray of size N, pass it to
+                        ndarray-sort"?)
+16:36 < chrisdickinson> (rather, "pass it to ndarray-sort repeatedly")
+16:38 < mikolalysenko_> chrisdickinson: not yet, working on it
+16:38 < mikolalysenko_> basically I am working on box-intersect and
+                        troubleshooting v8 deoptimizations
+16:51 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has
+          joined #stackvm
+16:52 < chrisdickinson> ooh, replicated the deopt
+16:52 < chrisdickinson> or, "a deopt"
+16:52 < chrisdickinson> "ndarrayQuickSort1d0float32"
+16:53  * jjjohnny_ pops popcorns
+16:53 < mikolalysenko_> chrisdickinson: yeah, that is it
+16:53 < chrisdickinson> sweet!
+16:53 < mikolalysenko_> trying to figure out what the hell is happening, it
+                        keeps deoptimizing
+16:56 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has quit
+          [Ping timeout: 244 seconds]
+16:56 < chrisdickinson> oh wow, that graph is *intense*
+16:58 < mikolalysenko_> yeah...
+16:59 < mikolalysenko_> this is not my greatest code...
+16:59 < mikolalysenko_> (slightly embarrassed about it)
+17:00 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has
+          joined #stackvm
+17:01 < chrisdickinson> hah :) i might need a bit more time to dissect, but it
+                        looks like there's lots of soft deopts after loops /
+                        or where the block is changing a value but doing so in
+                        a "generic" fashion
+17:02 < chrisdickinson> (which I think deopts because {Load,Store}KeyedGeneric
+                        calls back into JS elsewhere in the runtime)
+17:02 < mikolalysenko_> hmm
+17:02 < mikolalysenko_> what does that mean?
+17:04 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has quit
+          [Ping timeout: 240 seconds]
+15:37 < jjjohnny_> hyperscript is kewl, but you would be advised to leave out
+                   as much as can, or your template will become a monster
+15:37 < jjjohnny_> in my experience anyway
+15:38 -!- williamcotton [~williamco@c-76-118-150-177.hsd1.nh.comcast.net] has
+          quit [Ping timeout: 250 seconds]
+15:38 < jjjohnny_> hyperscript beckons you to do get fncy w ith styles and
+                   event listeners, but a template is not the place for that
+15:40 < kumavis> good points, ill tread carefully
+16:09 -!- williamcotton [~williamco@c-76-118-150-177.hsd1.nh.comcast.net] has
+          joined #scuttlebutt
+16:11 -!- omni [~omni@ip68-4-111-228.oc.oc.cox.net] has joined #scuttlebutt
+16:11 -!- omni is now known as Guest98788
+16:15 -!- pfraze [~pfraze@65.161.245.231] has joined #scuttlebutt
+16:20 -!- pfraze [~pfraze@65.161.245.231] has quit [Ping timeout: 255 seconds]
+16:57 -!- williamcotton [~williamco@c-76-118-150-177.hsd1.nh.comcast.net] has
+          quit [Ping timeout: 264 seconds]
+17:15 -!- pfraze [~pfraze@2605:6000:e900:d200:a8ca:ed40:4e87:f1c2] has joined
+          #scuttlebutt
+17:19 -!- williamcotton [~williamco@c-76-118-150-177.hsd1.nh.comcast.net] has
+          joined #scuttlebutt
+17:31 -!- phpnode_ is now known as phpnode
+17:33 < jjjohnny_> note
+17:34 < jjjohnny_> if twitter turned off replies, subtweeting would be kinda
+                   useful
+17:34 < jjjohnny_> more of a hint really
+17:34 < jjjohnny_> it is important that we are all making apps for the same
+                   network
+17:34 < jjjohnny_> to begin with
+17:35 < jjjohnny_> like if twitter had been open protocol, plus the one thing
+                   it never could do with businessman, and have no central auth
+17:36 < jjjohnny_> if that means SSO is its own app, or its owb ssb app, idgaf
+17:36 -!- williamcotton [~williamco@c-76-118-150-177.hsd1.nh.comcast.net] has
+          quit [Ping timeout: 258 seconds]
+17:13 -!- timaschew [~timaschew@cable-stb-89-145-14-3.telta.net] has joined
+          #stackvm
+17:13 < mikolalysenko_> hmm
+17:13 < mikolalysenko_> I don't think ndarray-sort mutates anything though
+17:13 < chrisdickinson> i'll brb in a few minutes, I have to go feed some cats
+                        we're watching some cat food
+17:13 < mikolalysenko_> except that it does call typedarray-pool
+17:13 < mikolalysenko_> ok
+17:15 -!- pfraze [~pfraze@2605:6000:e900:d200:a8ca:ed40:4e87:f1c2] has joined
+          #stackvm
+17:25 -!- Mso150_f_x [~ctlM@80.83.239.92] has quit [Ping timeout: 255 seconds]
+17:36 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has joined #stackvm
+17:41 -!- h0ke [~h0ke@c-24-23-240-231.hsd1.ca.comcast.net] has quit [Ping
+          timeout: 250 seconds]
+17:42 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has quit
+          [Remote host closed the connection]
+17:43 < feross> domanic and I were talking on #webtorrent yesterday about how
+                browserify doesn't have a wikipedia article
+17:43 < feross> well, i just fixed that:
+                https://en.wikipedia.org/wiki/Browserify
+17:43 < feross> please edit it and make it better!
+17:49  * jjjohnny_ ADDS "YOU ARE A STUPIOD IDJIOT OF YOU FRONT END 'LIB' NOT
+          COMPAT WIFF BROWSERIFYYYYY"
+17:49 < LOUDBOT> RING THE BELLS THAT STILL CAN RING
+17:50 < jjjohnny_> I WAS RINGING MY OWN ALGORITHMICALLY PRODUCED BELLS
+                   YESTERDAY WHY
+17:50 < LOUDBOT> AND THEY RIDE OFF INTO THE NIGHT
+17:50 < jjjohnny_> AS ANY PLANGENT WAVELIKE PROPERTY OF THE UNIVERSAL ARDOR
+17:50 < LOUDBOT> DO THINGS JUST RUN AROUND WILLY NILLY WHERE ARE THE
+                 CONTROLLERS?!
+17:51 < jjjohnny_> THAT KIND OF THING LOST FAVOR RIGHT ALONG WITH PATRIARCHY
+                   AMONGS USER INTERFACE API DESIGNERS
+17:51 < LOUDBOT> SLOW DOWN BRO, DONT GET STRESSED
+17:52 < jjjohnny_> YOU ARE MISTAKING MY STYLE HOMIE.  THIS IS THE ONLY WAY TO
+                   GET THROUGH TO YOU.
+17:52 < LOUDBOT> THAT EXPLAINS WHAT HAPPENED TO THE GLOBE THEATRE
+17:52 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has
+          joined #stackvm
+17:52 < jjjohnny_> YES THE WORLD WAS THEIR STAGE AND THEY ENACTED A TRAGEDY SMH
+17:52 < LOUDBOT> STOP IT I CANNOT TRANSMIT WHILE YOU ARE MONITORING
+17:53 < jjjohnny_> WE STOPPED LISTENING BEFORE I WAS BORN IMHEXP
+17:53 < LOUDBOT> I'M GONNA TAKE BOUDOIR PHOTOS OF MY SELF FOR 4CHAN! NOW WHERE
+                 CAN I FIND A TEDDY IN MY SIZE
+17:54 < jjjohnny_> THERE IS A DISTRICT CALLED STANLEY DISCO...
+17:54 < LOUDBOT> SIMCOP2387 SHOULD TAKE BUU AND LEWELLYN TO THE GAY BAR
+17:56 < jjjohnny_> ALL ENCODED IN ASTHCII
+ Unofficial browserling/testling mad science channel. For official help /join #
+17:56 < LOUDBOT> OH MAN THIS POOR FAMILY ON EXTREME MAKEOVER HOUSE EDITION
+17:57 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has quit
+          [Ping timeout: 258 seconds]
+17:57 < jjjohnny_> LOUDBOUT ARE YOU TRYNNA SLIP INTO MY DIMMIES?
+17:57 < LOUDBOT> NEVER QUESTION MY LOUDS
+17:59 < jjjohnny_> M'LOUD HAVE NO MERCY
+17:59 < LOUDBOT> BABY LOOK PRETTY NOW MOMMY
+18:00 < jjjohnny_> IF YOU HAVE SEEN THE WORD "THOT" ON TWITTER IT IS HOW YOU
+                   SAY THE WORD "SLUT" INHALING A MOUTHFUL OF BLUNT
+18:00 < LOUDBOT> TWENTYNIII-IIIINE IN THA HIZZOOOOOUSE
+18:00 < jjjohnny_> I KNEW I'D CATCH YOU WITH THEM SIPPIN THAT LEAN
+18:00 < LOUDBOT> HMM ONE THOUSAND DOLLAR HOOKER OR A THOUSAND ONE DOLLAR
+                 HOOKERS
+18:02 < jjjohnny_> HAVE BOTH.  YOU COULD CATCH THE THOUSAND NIBBLERS FROM THE
+                   ONE HOOK.
+18:02 < LOUDBOT> SERIALIZED TO THE DATABASE EVEN
+18:03 < jjjohnny_> BOUGHT AND PAID FOR WITH PHRASES
+18:03 < LOUDBOT> GET BETTER HARDWARE. AND STOP SELLING OUT. TARD.
+18:04 < jjjohnny_> TARD.  YOUR LETTERS ARE ALWAYS SO BRUSQUE.  GET A BETTER
+                   CONNECTION SO WE CAN WEB RTC.
+18:04 < LOUDBOT> HAI JUPI: IS IT ON THE FLOOR. THREE YEARS AGO
+ [18:06] [jjjohnny_(+i)] [3:freenode/#stackvm(+cnt)] [Act: 6,11,12,13]
+[#stackvm]

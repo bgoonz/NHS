@@ -1,0 +1,1062 @@
+21:11 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Remote host closed the connection]
+21:11 -!- Domenic___ [sid10976@gateway/web/irccloud.com/x-zecjwcizkbkksyzd] has quit [Ping timeout: 246 seconds]
+21:11 -!- sindresorhus [sid7424@gateway/web/irccloud.com/x-vkxxpkkenfnkamua] has quit [Ping timeout: 246 seconds]
+21:11 -!- gozala [uid5923@gateway/web/irccloud.com/x-djgfngtlatovabzn] has quit [Ping timeout: 255 seconds]
+21:11 -!- taterbase [uid17123@gateway/web/irccloud.com/x-pwebcofvpnzagpoc] has quit [Ping timeout: 246 seconds]
+21:11 -!- parshap [sid18846@gateway/web/irccloud.com/x-xladkrpcrcttewtw] has quit [Ping timeout: 246 seconds]
+21:11 -!- ELLIOTTCABLE__ [sid1544@gateway/web/irccloud.com/x-venetwqqzeyhunhn] has quit [Ping timeout: 264 seconds]
+21:11 -!- tobie_ [sid5692@gateway/web/irccloud.com/x-lctrpwrvqvzjpiyc] has quit [Ping timeout: 264 seconds]
+21:11 -!- fent [sid17969@gateway/web/irccloud.com/x-uzrchuimiedcmiev] has quit [Ping timeout: 246 seconds]
+21:12 -!- ehd [sid1451@gateway/web/irccloud.com/x-fwppgxemiljyidxz] has quit [Ping timeout: 255 seconds]
+21:12 -!- rakm [uid23430@gateway/web/irccloud.com/x-wfdkajwlxfwrtftb] has quit [Ping timeout: 240 seconds]
+17:06 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has quit [Quit: thealphanerd]
+17:13  * isaacs is at npm, also on the npm inc wifi w00t
+17:13 < ogd> im in ur region stealin ur wavez
+17:29 -!- fauntle [~fauntle@ec2-54-208-92-74.compute-1.amazonaws.com] has joined #nerdtracker
+17:40 < nerdtracker50001> Monika just checked in at Hawker Fare (2300 Webster St, Oakland)
+17:58 -!- azerishere [~textual@50-0-164-3.dsl.dynamic.sonic.net] has joined #nerdtracker
+18:07 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #nerdtracker
+18:15 -!- scrivy [~scrivy@128.120.151.95] has joined #nerdtracker
+18:31 < nerdtracker50001> Jessica just checked in at Happy Donuts (761 3rd  St, San Francisco): Getting happy.
+18:33 < nerdtracker50001> Jessica just checked in at Happy Donuts (761 3rd  St, San Francisco): Such happy!
+18:34 < fauntle> WHAT
+18:34 < fauntle> YOU CANNOT DOUBLE CHECK
+18:41 < jo> haha
+18:41 < jo> so much happy that she checked in twice
+18:49 < fauntle> ugh
+18:49 < fauntle> intolerable
+18:50 < fauntle> why does she get double happy and I get stuck with a donut place that isn't open on mondays?
+21:12 -!- calvinmetcalf [uid25915@gateway/web/irccloud.com/x-gqgbblaryvzqogxq] has quit [Ping timeout: 240 seconds]
+21:12 -!- johnkpaul [sid26049@gateway/web/irccloud.com/x-ulhzrohkndpqyvml] has quit [Ping timeout: 240 seconds]
+21:12 -!- jcrugzz_ [uid14478@gateway/web/irccloud.com/x-bphhmpxdkbizpgqq] has quit [Ping timeout: 246 seconds]
+21:12 -!- stagas [~stagas@ppp-94-66-101-222.home.otenet.gr] has quit [Ping timeout: 264 seconds]
+21:12 -!- dubroy_____ [sid2856@gateway/web/irccloud.com/x-vkfyedjzplnjwety] has quit [Ping timeout: 255 seconds]
+21:13 -!- greweb [sid21616@gateway/web/irccloud.com/x-dxdogvcptlaxgtbw] has quit [Ping timeout: 246 seconds]
+21:13 -!- monteslu [uid26442@gateway/web/irccloud.com/x-uhtiosphezdjffjm] has quit [Ping timeout: 240 seconds]
+21:13 -!- daleharvey [sid513@gateway/web/irccloud.com/x-gmdqcxbhlbvuniht] has quit [Ping timeout: 255 seconds]
+21:13 -!- sindresorhus [sid7424@gateway/web/irccloud.com/x-chxjtwbqiuiuiicq] has joined #stackvm
+21:13 -!- ehd [sid1451@gateway/web/irccloud.com/x-nlhgcayjwjiwfusl] has joined #stackvm
+21:13 -!- gozala [uid5923@gateway/web/irccloud.com/x-hcalnelnxuphetqs] has joined #stackvm
+21:14 -!- fent [sid17969@gateway/web/irccloud.com/x-qxvuuttvggkyjmko] has joined #stackvm
+21:14 -!- rakm [uid23430@gateway/web/irccloud.com/x-fadhvtoaqvsbtton] has joined #stackvm
+21:14 -!- calvinmetcalf [uid25915@gateway/web/irccloud.com/x-lyyjaybjwbfsacts] has joined #stackvm
+21:14 -!- jcrugzz_ [uid14478@gateway/web/irccloud.com/x-tqycmteghixywpwh] has joined #stackvm
+21:14 -!- dubroy_____ [sid2856@gateway/web/irccloud.com/x-tngjqhayupujitvr] has joined #stackvm
+21:14 -!- parshap [sid18846@gateway/web/irccloud.com/x-uzxeqzjfcghlazcv] has joined #stackvm
+21:14 -!- monteslu [uid26442@gateway/web/irccloud.com/x-fnbqnewxqnyeallr] has joined #stackvm
+21:15 -!- greweb [sid21616@gateway/web/irccloud.com/x-szkzaegbjpojshyj] has joined #stackvm
+21:15 -!- taterbase [uid17123@gateway/web/irccloud.com/x-jighwvpzpgabcpru] has joined #stackvm
+21:15 -!- ELLIOTTCABLE__ [sid1544@gateway/web/irccloud.com/x-ryajmvvrxtwarezt] has joined #stackvm
+21:16 -!- johnkpaul [sid26049@gateway/web/irccloud.com/x-vhbdzqnpdzkyawvl] has joined #stackvm
+21:16 -!- Domenic___ [sid10976@gateway/web/irccloud.com/x-zvnkowwuvcwlopiv] has joined #stackvm
+21:16 -!- tobie_ [sid5692@gateway/web/irccloud.com/x-tkeltduakjhwdnfn] has joined #stackvm
+21:16 -!- daleharvey [sid513@gateway/web/irccloud.com/x-kyazmirfwnxsveeg] has joined #stackvm
+21:18 -!- phated [~phated@wsip-70-184-107-214.ph.ph.cox.net] has quit [Remote host closed the connection]
+21:26 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has quit [Ping timeout: 246 seconds]
+21:27 < jjjohhny> how new is stream.unpipe?
+21:29 -!- defunctzombie_zz is now known as defunctzombie
+21:35 -!- parsons [uid18778@gateway/web/irccloud.com/x-czwezqofxbsijwnk] has quit [Quit: Connection closed for inactivity]
+18:52 < fauntle> Donut Savant
+21:38 < jjjohhny> guess the timestamp
+21:38 -!- ELLIOTTCABLE__ is now known as ELLIOTTCABLE
+21:40 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+21:40 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has quit [Remote host closed the connection]
+21:47 < rowbit1> Hourly usage stats: [developer: 0, free: 30]
+21:47 < substack> jjjohhny: http://studio.substack.net/
+21:15 -!- ELLIOTTCABLE__ [sid1544@gateway/web/irccloud.com/x-ryajmvvrxtwarezt] has joined #stackvm
+21:16 -!- johnkpaul [sid26049@gateway/web/irccloud.com/x-vhbdzqnpdzkyawvl] has joined #stackvm
+21:16 -!- Domenic___ [sid10976@gateway/web/irccloud.com/x-zvnkowwuvcwlopiv] has joined #stackvm
+21:16 -!- tobie_ [sid5692@gateway/web/irccloud.com/x-tkeltduakjhwdnfn] has joined #stackvm
+21:16 -!- daleharvey [sid513@gateway/web/irccloud.com/x-kyazmirfwnxsveeg] has joined #stackvm
+21:18 -!- phated [~phated@wsip-70-184-107-214.ph.ph.cox.net] has quit [Remote host closed the connection]
+21:26 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has quit [Ping timeout: 246 seconds]
+21:27 < jjjohhny> how new is stream.unpipe?
+21:29 -!- defunctzombie_zz is now known as defunctzombie
+21:35 -!- parsons [uid18778@gateway/web/irccloud.com/x-czwezqofxbsijwnk] has quit [Quit: Connection closed for inactivity]
+21:36 < jjjohhny> npm will become fully 16 bit within 24 hours
+21:38 < jjjohhny> guess the timestamp
+21:38 -!- ELLIOTTCABLE__ is now known as ELLIOTTCABLE
+21:40 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+21:40 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has quit [Remote host closed the connection]
+21:47 < rowbit1> Hourly usage stats: [developer: 0, free: 30]
+21:47 < substack> jjjohhny: http://studio.substack.net/
+21:54 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Remote host closed the connection]
+21:56 -!- phated [~phated@199.254.116.104] has joined #stackvm
+21:57 < jjjohhny> wavvy
+21:58 -!- DTrejo [~dtrejo@198.0.222.198] has quit [Remote host closed the connection]
+21:59 -!- anoemi [~anoemi@mobile-198-228-193-174.mycingular.net] has quit [Remote host closed the connection]
+21:59 < substack> the visualization pieces are split out into https://www.npmjs.org/package/amplitude-viewer and
+                  https://www.npmjs.org/package/frequency-viewer
+22:05 < jjjohhny> substack: when is the high school thing
+22:06 < jjjohhny> err, library thing
+22:08 < substack> march 25
+22:08 < substack> I could always use more helpers
+22:08 < jjjohhny> i was thinking about it today
+22:09 < jjjohhny> the timeliner
+22:09 < jjjohhny> script sequencer
+22:09 < jjjohhny> sequenseer
+22:10 < jjjohhny> i will help thee
+22:11 < substack> cool
+22:11 < jjjohhny> should use max's js-editor like http://secret.synth.fm (and that requireBin site)
+22:12 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has joined #stackvm
+22:14 -!- phated [~phated@199.254.116.104] has quit [Remote host closed the connection]
+22:16 -!- phated [~phated@199.254.116.104] has joined #stackvm
+22:16 < jjjohhny> why cant this get to run in requirebin https://gist.github.com/NHQ/7216101
+22:16 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has joined #stackvm
+22:16 < jjjohhny> ogd: getting 404s from gitub trynna get minified gists
+22:16 < jjjohhny> on requirebin
+22:17 < jjjohhny> http://requirebin.com/?gist=NHQ/7216101
+22:17 -!- rakm [uid23430@gateway/web/irccloud.com/x-fadhvtoaqvsbtton] has quit [Quit: Connection closed for inactivity]
+22:17 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has joined #stackvm
+22:26 -!- feross_ [~feross@nat/yahoo/x-zsxphqnrgellafzz] has quit [Quit: feross_]
+22:31 -!- DTrejo [~dtrejo@198.0.222.198] has joined #stackvm
+22:34 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has quit [Ping timeout: 264 seconds]
+22:36 -!- yorick [~yorick@oftn/member/yorick] has quit [Remote host closed the connection]
+22:37 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has quit [Remote host closed the connection]
+22:46 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+22:47 < rowbit1> Hourly usage stats: [developer: 0, free: 16]
+22:51 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Ping timeout: 246 seconds]
+22:52 -!- eugeneware [~eugenewar@173-164-137-114-SFBA.hfc.comcastbusiness.net] has quit [Remote host closed the connection]
+22:52 -!- Raynos [sid3611@gateway/web/irccloud.com/x-tlywdhmcqvcwnxsr] has quit [Ping timeout: 252 seconds]
+22:53 -!- Raynos_ [sid3611@gateway/web/irccloud.com/x-gslykrceyqyomnkp] has joined #stackvm
+23:11 < jjjohhny> how do you keep a stream from writing to a dead stream?
+23:25 -!- DTrejo [~dtrejo@198.0.222.198] has quit [Remote host closed the connection]
+23:30 -!- DTrejo [~dtrejo@198.0.222.198] has joined #stackvm
+23:30 -!- DTrejo [~dtrejo@198.0.222.198] has quit [Remote host closed the connection]
+23:31 -!- naneau [~naneau@unaffiliated/naneau] has quit [Quit: Part.]
+23:33 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has joined #stackvm
+23:39 -!- eugeneware [~eugenewar@173-164-137-114-SFBA.hfc.comcastbusiness.net] has joined #stackvm
+23:44 -!- eugeneware [~eugenewar@173-164-137-114-SFBA.hfc.comcastbusiness.net] has quit [Ping timeout: 264 seconds]
+23:47 < rowbit1> Daily usage stats: []
+23:47 < rowbit1> Hourly usage stats: []
+23:47 -!- gozala [uid5923@gateway/web/irccloud.com/x-hcalnelnxuphetqs] has quit [Quit: Connection closed for inactivity]
+23:48 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has quit [Remote host closed the connection]
+Day changed to 18 Mar 2014
+00:08 -!- phated [~phated@199.254.116.104] has quit [Remote host closed the connection]
+00:25 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has quit []
+00:25 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has joined #stackvm
+00:30 -!- eugeneware [~eugenewar@173-164-137-114-SFBA.hfc.comcastbusiness.net] has joined #stackvm
+00:36 -!- eugeneware [~eugenewar@173-164-137-114-SFBA.hfc.comcastbusiness.net] has quit [Ping timeout: 246 seconds]
+00:37 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has joined #stackvm
+00:39 -!- pfraze [~unsafe@cpe-70-113-196-4.austin.res.rr.com] has quit [Ping timeout: 255 seconds]
+00:41 -!- dguttman [~david@cpe-142-129-79-131.socal.res.rr.com] has quit [Quit: dguttman]
+00:41 -!- eugeneware [~eugenewar@173-164-137-114-SFBA.hfc.comcastbusiness.net] has joined #stackvm
+00:45 -!- eugeneware [~eugenewar@173-164-137-114-SFBA.hfc.comcastbusiness.net] has quit [Ping timeout: 255 seconds]
+00:47 < rowbit1> Hourly usage stats: [free: 17]
+00:53 -!- eugeneware [~eugenewar@173-164-137-114-SFBA.hfc.comcastbusiness.net] has joined #stackvm
+00:54 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has quit [Remote host closed the connection]
+01:06 < rowbit1> substack, pkrumins: These encoders are STILL down: 50.56.32.168(dev4)
+01:07 -!- Maciek416_ is now known as Maciek416
+01:13 -!- fotoverite [~fotoverit@cpe-24-90-104-159.nyc.res.rr.com] has quit [Quit: fotoverite]
+01:19 -!- phated [~phated@199.254.116.104] has joined #stackvm
+01:19 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has joined #stackvm
+01:22 -!- dguttman [~david@cpe-142-129-79-131.socal.res.rr.com] has joined #stackvm
+01:23 -!- phated [~phated@199.254.116.104] has quit [Ping timeout: 246 seconds]
+01:35 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has quit [Remote host closed the connection]
+01:47 < rowbit1> Hourly usage stats: [developer: 1, free: 19]
+01:51 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has quit []
+01:55 < ogd> jjjohhny: add a newline somewhere before you hit run and it will work
+01:56 < ogd> jjjohhny: it expects to load gists that it saved, which would have a minified.js
+01:56 < ogd> jjjohhny: but it only loads minified.js if you havent edited the code since you ran it
+01:56 < ogd> jjjohhny: but if you do edit the code it will rebuild when you hit run
+02:00 -!- h0ke [~hoke@c-50-150-106-4.hsd1.ca.comcast.net] has joined #stackvm
+02:02 -!- eugeneware [~eugenewar@173-164-137-114-SFBA.hfc.comcastbusiness.net] has quit [Remote host closed the connection]
+02:02 -!- dguttman [~david@cpe-142-129-79-131.socal.res.rr.com] has quit [Quit: dguttman]
+02:06 -!- nfroidure [~nfroidure@ALille-256-1-41-113.w90-18.abo.wanadoo.fr] has quit [Quit: Ex-Chat]
+02:06 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has joined #stackvm
+02:13 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has quit [Quit: thealphanerd]
+02:23 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has quit [Quit: Leaving...]
+02:26 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has quit [Remote host closed the connection]
+02:29 -!- ins0mnia [~smuxi@host-95-192-57-168.mobileonline.telia.com] has quit [Ping timeout: 264 seconds]
+02:32 -!- kriskowal [~kriskowal@66-215-92-194.dhcp.psdn.ca.charter.com] has joined #stackvm
+02:33 -!- eugeneware [~eugenewar@173-164-137-114-SFBA.hfc.comcastbusiness.net] has joined #stackvm
+02:33 -!- ins0mnia [~smuxi@81-234-249-46-no52.tbcn.telia.com] has joined #stackvm
+02:39 -!- eugeneware [~eugenewar@173-164-137-114-SFBA.hfc.comcastbusiness.net] has quit [Ping timeout: 255 seconds]
+02:47 < rowbit1> Hourly usage stats: [developer: 0, free: 26]
+02:55 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #stackvm
+03:02 -!- h0ke [~hoke@c-50-150-106-4.hsd1.ca.comcast.net] has quit [Ping timeout: 252 seconds]
+03:05 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+03:07 -!- Maciek416 [~Maciek@2601:7:780:520:ad9b:f476:187e:63bb] has quit [Remote host closed the connection]
+03:13 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Ping timeout: 255 seconds]
+03:19 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has joined #stackvm
+03:32 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has joined #stackvm
+03:38 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has quit [Remote host closed the connection]
+03:40 -!- eugeneware [~eugenewar@173-164-137-114-SFBA.hfc.comcastbusiness.net] has joined #stackvm
+03:45 -!- eugeneware [~eugenewar@173-164-137-114-SFBA.hfc.comcastbusiness.net] has quit [Ping timeout: 264 seconds]
+03:45 -!- funkytek [~textual@67.136.61.2] has joined #stackvm
+03:47 < rowbit1> Hourly usage stats: [developer: 0, free: 36]
+03:48 -!- funkytek [~textual@67.136.61.2] has quit [Client Quit]
+04:13 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has joined #stackvm
+04:22 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+04:23 -!- djcoin [~djcoin@glo44-4-82-239-70-48.fbx.proxad.net] has joined #stackvm
+04:27 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Ping timeout: 255 seconds]
+04:27 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has quit []
+04:33 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has quit [Remote host closed the connection]
+04:40 -!- eugeneware [~eugenewar@173-164-137-114-SFBA.hfc.comcastbusiness.net] has joined #stackvm
+04:45 -!- funkytek [~textual@50-200-245-132-static.hfc.comcastbusiness.net] has joined #stackvm
+04:46 -!- eugeneware [~eugenewar@173-164-137-114-SFBA.hfc.comcastbusiness.net] has quit [Ping timeout: 246 seconds]
+04:47 < rowbit1> Hourly usage stats: [developer: 5, free: 35]
+04:56 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has joined #stackvm
+05:02 -!- peutetre [~peutetre@24-134-25-128-dynip.superkabel.de] has joined #stackvm
+05:11 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has quit [Remote host closed the connection]
+05:11 -!- funkytek [~textual@50-200-245-132-static.hfc.comcastbusiness.net] has quit [Quit: My MacBook Pro has gone to sleep. ZZZzzz&]
+05:33 -!- maksimlin [~chatzilla@ppp118-209-178-148.lns20.mel6.internode.on.net] has quit [Quit: ChatZilla 0.9.90.1 [Firefox
+          27.0.1/20140218140359]]
+05:40 -!- eugeneware [~eugenewar@173-164-137-114-SFBA.hfc.comcastbusiness.net] has joined #stackvm
+05:45 -!- jiangplus [~jiang@223.27.37.241] has joined #stackvm
+05:45 -!- eugeneware [~eugenewar@173-164-137-114-SFBA.hfc.comcastbusiness.net] has quit [Ping timeout: 264 seconds]
+05:47 < rowbit1> Hourly usage stats: [developer: 0, free: 40]
+05:57 -!- rsole [~Thunderbi@69.Red-83-34-22.dynamicIP.rima-tde.net] has joined #stackvm
+05:57 -!- rsole [~Thunderbi@69.Red-83-34-22.dynamicIP.rima-tde.net] has quit [Client Quit]
+05:58 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has joined #stackvm
+05:58 -!- rsole [~Thunderbi@69.Red-83-34-22.dynamicIP.rima-tde.net] has joined #stackvm
+06:02 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has quit [Ping timeout: 246 seconds]
+06:14 < jiangplus> \q
+06:14 < jiangplus> \quit
+06:14 -!- jiangplus [~jiang@223.27.37.241] has quit [Quit: leaving]
+06:43 < juliangruber> ogd: omg lebron wad is dis
+06:47 < rowbit1> Hourly usage stats: [free: 30]
+06:51 < rowbit1> substack, pkrumins: Encoders down: 50.56.32.168 (dev4)
+06:56 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has quit [Quit: thealphanerd]
+06:58 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has joined #stackvm
+06:58 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #stackvm
+06:58 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has quit [Client Quit]
+07:22 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has quit [Remote host closed the connection]
+07:47 < rowbit1> Hourly usage stats: [free: 41]
+07:53 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has joined #stackvm
+07:57 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has quit [Ping timeout: 246 seconds]
+08:06 -!- mmalecki [~maciej@95.85.31.158] has quit [Read error: Operation timed out]
+08:07 -!- rsole [~Thunderbi@69.Red-83-34-22.dynamicIP.rima-tde.net] has quit [Ping timeout: 264 seconds]
+08:09 -!- cpup [~cpup@69.177.224.46] has quit [Ping timeout: 264 seconds]
+08:09 -!- rsole [~Thunderbi@69.Red-83-34-22.dynamicIP.rima-tde.net] has joined #stackvm
+08:10 -!- isaacs [~isaacs@173.203.97.118] has quit [Ping timeout: 264 seconds]
+08:10 -!- Altreus [~altreus@unaffiliated/altreus] has quit [Ping timeout: 264 seconds]
+08:14 -!- mmalecki [~maciej@95.85.31.158] has joined #stackvm
+08:20 -!- cpup [~cpup@69.177.224.46] has joined #stackvm
+08:21 -!- isaacs [~isaacs@173.203.97.118] has joined #stackvm
+08:22 -!- Altreus [~altreus@188.226.160.112] has joined #stackvm
+08:25 -!- rsole [~Thunderbi@69.Red-83-34-22.dynamicIP.rima-tde.net] has quit [Ping timeout: 240 seconds]
+08:47 < rowbit1> Hourly usage stats: [developer: 18, free: 33]
+08:54 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has joined #stackvm
+08:58 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has quit [Ping timeout: 246 seconds]
+08:59 -!- yorick [~yorick@oftn/member/yorick] has joined #stackvm
+09:08 < rowbit1> substack, pkrumins: Encoders down: 184.106.106.46 (dev-ie8-1)
+09:08 -!- Altreus [~altreus@188.226.160.112] has quit [Changing host]
+09:08 -!- Altreus [~altreus@unaffiliated/altreus] has joined #stackvm
+09:10 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+09:11 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Remote host closed the connection]
+09:30 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+09:35 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has joined #stackvm
+09:42 -!- thlorenz_ [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+09:43 -!- naneau [~naneau@unaffiliated/naneau] has joined #stackvm
+09:43 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Read error: Connection reset by peer]
+09:47 < rowbit1> Hourly usage stats: [developer: 1, free: 27]
+09:48 -!- AvianFlu [~avianflu@198.199.82.25] has joined #stackvm
+09:54 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has joined #stackvm
+09:59 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has quit [Ping timeout: 240 seconds]
+10:10 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has quit [Ping timeout: 252 seconds]
+10:13 -!- kevino80 [~kevino80@199.16.190.194] has joined #stackvm
+10:19 < rowbit1> substack, pkrumins: seaport services down: stripe
+10:29 -!- funkytek [~textual@67.136.61.2] has joined #stackvm
+10:42 -!- kenperkins_ [~textual@c-67-160-41-4.hsd1.wa.comcast.net] has quit [Remote host closed the connection]
+10:43 -!- kenperkins [textual@nat/rackspace/x-jrukfjpdtlcvlgwj] has joined #stackvm
+10:47 < rowbit1> Hourly usage stats: [developer: 11, free: 49]
+10:54 -!- pfraze [~unsafe@cpe-70-113-196-4.austin.res.rr.com] has joined #stackvm
+10:55 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has joined #stackvm
+10:57 -!- parsons [~parsons@gw.hq.meetup.com] has joined #stackvm
+10:59 -!- funkytek [~textual@67.136.61.2] has quit [Quit: My MacBook Pro has gone to sleep. ZZZzzz&]
+10:59 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has quit [Ping timeout: 240 seconds]
+11:00 -!- svnlto [sid4766@gateway/web/irccloud.com/x-ypcaqvbhxmdrtfoq] has joined #stackvm
+11:06 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has joined #stackvm
+11:12 -!- kevino80 [~kevino80@199.16.190.194] has quit [Remote host closed the connection]
+11:18 -!- thlorenz_ is now known as thlorenz
+11:19 -!- kevino80 [~kevino80@199.16.190.194] has joined #stackvm
+11:22 -!- jaclar [~jaclar@200.59.172.46] has joined #stackvm
+11:25 -!- rakm [uid23430@gateway/web/irccloud.com/x-dkswdxmyvwvqqddm] has joined #stackvm
+11:33 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has joined #stackvm
+11:34 -!- dguttman [~david@cpe-142-129-79-131.socal.res.rr.com] has joined #stackvm
+11:39 -!- ednapiranha [~ednapiran@206.169.237.178] has joined #stackvm
+11:47 < rowbit1> Hourly usage stats: [developer: 0, free: 40]
+11:49 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+11:50 -!- pfraze [~unsafe@cpe-70-113-196-4.austin.res.rr.com] has quit [Ping timeout: 240 seconds]
+11:54 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Remote host closed the connection]
+11:56 -!- jaclar [~jaclar@200.59.172.46] has quit [Read error: Connection reset by peer]
+11:57 -!- funkytek [~textual@library-dhcp.xmission.net] has joined #stackvm
+11:58 -!- h0ke [~hoke@c-50-150-106-4.hsd1.ca.comcast.net] has joined #stackvm
+11:58 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has quit [Ping timeout: 264 seconds]
+12:01 -!- pfraze [~unsafe@cpe-70-113-196-4.austin.res.rr.com] has joined #stackvm
+12:04 -!- jaclar [~jaclar@200.59.172.46] has joined #stackvm
+12:05 -!- indexzero [~indexzero@cpe-67-244-20-250.nyc.res.rr.com] has joined #stackvm
+12:11 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+12:12 -!- contrahax [~contrahax@50-200-245-132-static.hfc.comcastbusiness.net] has joined #stackvm
+12:12 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Remote host closed the connection]
+12:25 -!- Maciek416 [~Maciek@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+12:27 -!- contrahax [~contrahax@50-200-245-132-static.hfc.comcastbusiness.net] has quit [Quit: Sleeping]
+12:28 -!- funkytek [~textual@library-dhcp.xmission.net] has quit [Ping timeout: 252 seconds]
+12:32 -!- defunctzombie is now known as defunctzombie_zz
+12:33 -!- defunctzombie_zz is now known as defunctzombie
+12:36 -!- defunctzombie is now known as defunctzombie_zz
+09:35 < nerdtracker50001> C J just checked in at Unity Community Church (3391 Middlefield Rd, Palo Alto)
+10:45 -!- jessepollak [~jessepoll@204.28.115.126] has joined #nerdtracker
+12:46 < rowbit1> substack, pkrumins: These encoders are STILL down: 50.56.32.168(dev4)
+12:47 < rowbit1> Hourly usage stats: [developer: 1, free: 49]
+12:58 -!- djcoin [~djcoin@glo44-4-82-239-70-48.fbx.proxad.net] has quit [Ping timeout: 255 seconds]
+13:01 -!- gozala [uid5923@gateway/web/irccloud.com/x-ibzcqyrdojglrzpg] has joined #stackvm
+12:32 < nerdtracker50001> Jessica just checked in at GitHub HQ 3.0 (88 Colin P Kelly Jr St, San Francisco): Errday!
+12:36 < ogd> substack: haha yesss
+12:49 < nerdtracker50001> Isaac just checked in at npm: Makin techs and techin makes
+13:58 < ogd> naked programming machines
+14:00 < fauntle> ogd: A+
+14:01 < ogd> substack: im at cafe 3016 in case you'e on the east sieeeddeee
+14:01 -!- azerishere [~textual@50-0-164-3.dsl.dynamic.sonic.net] has joined #nerdtracker
+14:21 < nerdtracker50001> Max just checked in at Cafe 3016 (3016 MacArthur Blvd, Oakland)
+14:27 < ogd> OK im resetting all the nerds!
+14:27 < nerdtracker50001> a new person just registered!
+14:28 < fauntle> what
+14:28 < fauntle> no
+14:28 < fauntle> do i have to re-nerd?
+14:28 < ogd> yep
+14:28 < fauntle> why... why max :(
+14:28 < fauntle> can't you import the nerds
+14:28 < ogd> even though my https cert expired it still works
+14:28 < ogd> :P
+14:28 < ogd> maybe
+14:23 -!- fotoverite [~fotoverit@cpe-24-90-104-159.nyc.res.rr.com] has joined #stackvm
+14:26 -!- simpleirc1 [~fabiosant@61.60.103.87.rev.vodafone.pt] has joined #stackvm
+14:31 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Remote host closed the connection]
+14:31 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+14:31 < simpleirc1> is Dominic around? I came here from dominictarr/cyphernet#18
+14:32 -!- simpleirc1 is now known as fabiosantoscode
+14:32 -!- fabiosantoscode [~fabiosant@61.60.103.87.rev.vodafone.pt] has quit [Read error: Connection reset by peer]
+14:34 -!- kriskowal [~kriskowal@66-215-92-194.dhcp.psdn.ca.charter.com] has quit [Read error: Connection reset by peer]
+14:35 -!- kriskowal [~kriskowal@66-215-92-194.dhcp.psdn.ca.charter.com] has joined #stackvm
+14:38 -!- h0ke [~hoke@c-50-150-106-4.hsd1.ca.comcast.net] has quit [Ping timeout: 264 seconds]
+14:41 -!- eugeneware [~eugenewar@173-164-137-114-SFBA.hfc.comcastbusiness.net] has quit [Remote host closed the connection]
+14:43 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has joined #stackvm
+14:45 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #stackvm
+14:45 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Remote host closed the connection]
+14:47 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has quit [Client Quit]
+14:47 < rowbit1> Hourly usage stats: [developer: 1, free: 35]
+14:47 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has quit [Ping timeout: 252 seconds]
+14:47 -!- parsons [~parsons@gw.hq.meetup.com] has joined #stackvm
+14:54 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Remote host closed the connection]
+15:01 < guybrush> gdc google-track http://www.youtube.com/watch?v=5oWojM7X0ao
+15:03 < rowbit1> substack, pkrumins: These encoders are STILL down: 184.106.106.46(dev-ie8-1)
+15:07 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+15:08 -!- h0ke [~hoke@70-36-227-210.dsl.dynamic.sonic.net] has joined #stackvm
+15:17 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has joined #stackvm
+15:20 -!- navaru_ [~navaru@5-14-175-82.residential.rdsnet.ro] has joined #stackvm
+15:20 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has quit [Read error: Connection reset by peer]
+15:22 -!- naneau [~naneau@unaffiliated/naneau] has quit [Quit: Quit.]
+15:25 -!- chapel [~chapel@2607:f0d0:1103:106:21::12c] has quit [Quit: ZNC - http://znc.sourceforge.net]
+15:27 -!- chapel [~chapel@2607:f0d0:1103:106:21::12c] has joined #stackvm
+15:31 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has joined #stackvm
+15:31 -!- h0ke [~hoke@70-36-227-210.dsl.dynamic.sonic.net] has quit [Ping timeout: 255 seconds]
+15:45 -!- AvianFlu [~avianflu@198.199.82.25] has quit [Remote host closed the connection]
+15:46 -!- AvianFlu [~avianflu@198.199.82.25] has joined #stackvm
+15:47 < rowbit1> Hourly usage stats: [developer: 1, free: 26]
+15:47 -!- kenperkins [~textual@12.10.76.2] has joined #stackvm
+15:51 -!- AvianFlu [~avianflu@198.199.82.25] has quit [Ping timeout: 255 seconds]
+15:51 < jjjohhny> the N in LEBRON is rightfully NPM
+15:52 < jjjohhny> as level and browserify and npm all run on node
+15:57 < ogd> jjjohhny: good point
+15:59 -!- AvianPhone [~AvianPhon@198.199.82.25] has joined #stackvm
+16:05 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+16:06 -!- AvianPhone [~AvianPhon@198.199.82.25] has quit [Ping timeout: 240 seconds]
+16:21 -!- navaru_ [~navaru@5-14-175-82.residential.rdsnet.ro] has quit [Remote host closed the connection]
+16:21 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has joined #stackvm
+16:25 < ogd> substack: im goin to hack outside at http://www.yelp.com/biz/akat-cafe-kalli-oakland, they have wifi
+16:25 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has quit [Ping timeout: 255 seconds]
+16:26 -!- contrahax [~contrahax@67.136.61.2] has joined #stackvm
+16:29 -!- ralphtheninja [~ralphthen@c-f5dfe555.03-11-6c6b7012.cust.bredbandsbolaget.se] has joined #stackvm
+16:31 -!- mrmrs [~mrmrs@nat-204-14-239-176-sfo.net.salesforce.com] has joined #stackvm
+16:31 -!- contrahax [~contrahax@67.136.61.2] has quit [Quit: Sleeping]
+16:33 -!- kenperkins [~textual@12.10.76.2] has quit [Read error: Connection reset by peer]
+16:34 -!- kenperkins [~textual@12.10.76.2] has joined #stackvm
+16:40 -!- feross [~feross@nat/yahoo/x-bepdpkcarujstlsh] has joined #stackvm
+16:40 -!- pfraze [~unsafe@cpe-70-113-196-4.austin.res.rr.com] has quit [Ping timeout: 246 seconds]
+16:42 -!- defunctzombie_zz is now known as defunctzombie
+16:47 -!- pfraze [~unsafe@cpe-70-113-196-4.austin.res.rr.com] has joined #stackvm
+16:47 < rowbit1> Hourly usage stats: [developer: 0, free: 40]
+16:47 -!- contrahax [~contrahax@50-200-245-132-static.hfc.comcastbusiness.net] has joined #stackvm
+16:55 < jesusabdullah> https://github.com/nslater/DAMAIL lolol
+16:56 -!- ralphtheninja [~ralphthen@c-f5dfe555.03-11-6c6b7012.cust.bredbandsbolaget.se] has quit [Ping timeout: 246 seconds]
+16:58 -!- ralphtheninja [~ralphthen@c-f5dfe555.03-11-6c6b7012.cust.bredbandsbolaget.se] has joined #stackvm
+16:59 -!- contrahax [~contrahax@50-200-245-132-static.hfc.comcastbusiness.net] has quit []
+17:05 -!- fotoverite [~fotoverit@cpe-24-90-104-159.nyc.res.rr.com] has quit [Read error: Connection reset by peer]
+17:12 -!- AvianFlu [~avianflu@198.199.82.25] has joined #stackvm
+17:14 -!- naneau [~naneau@unaffiliated/naneau] has joined #stackvm
+17:14 < hoobdeebla> LOL
+17:15 -!- fotoverite [~fotoverit@cpe-24-90-104-159.nyc.res.rr.com] has joined #stackvm
+17:17 -!- kevino80 [~kevino80@199.16.190.194] has quit [Remote host closed the connection]
+17:17 -!- ralphtheninja [~ralphthen@c-f5dfe555.03-11-6c6b7012.cust.bredbandsbolaget.se] has quit [Ping timeout: 264 seconds]
+17:27 -!- feross [~feross@nat/yahoo/x-bepdpkcarujstlsh] has quit [Quit: feross]
+17:31 -!- funkytek [~textual@library-dhcp.xmission.net] has joined #stackvm
+17:43 -!- feross [~feross@nat/yahoo/x-jpmaskxmxdfvhsnl] has joined #stackvm
+17:47 < rowbit1> Hourly usage stats: [developer: 2, free: 40]
+17:51 -!- cpup [~cpup@69.177.224.46] has quit [Ping timeout: 252 seconds]
+17:51 -!- ryan_ramage [~eckoit@couchdb/committer/ryanramage] has joined #stackvm
+17:53 -!- h0ke [~hoke@2602:306:ce41:dca0:58b0:6713:116d:bac5] has joined #stackvm
+17:56 -!- kevino80 [~kevino80@199.16.190.194] has joined #stackvm
+17:57 -!- dominictarr [~dominicta@203.89.166.232] has joined #stackvm
+17:59 -!- jaclar [~jaclar@200.59.172.46] has quit [Ping timeout: 264 seconds]
+18:01 -!- ralphtheninja [~ralphthen@c-f5dfe555.03-11-6c6b7012.cust.bredbandsbolaget.se] has joined #stackvm
+18:02 < dominictarr> pfraze, hey - sorry for my abrupt departure yesterday - by battery ran flat
+18:03 < pfraze> dominictarr, no worries
+18:03 < dominictarr> but indeed - we are thinking along quite similar lines with nquery and duplex graphics protocols
+18:03 < dominictarr> but I also think there is quite an oportunity here
+18:04 < dominictarr> the problem with nquery is that it says "you can still do familiar jquery stuff"
+18:04 < dominictarr> so "this new architecture is ALMOST AS GOOD as normal web"
+18:04 < pfraze> haha, true
+18:04 < dominictarr> but what you really want to say is "this new architecture is BETTER"
+18:05 < dominictarr> I think there is loads of wonky shit about HTML, etc
+18:06 < dominictarr> like, it's oriented towards laying out text
+18:06 < dominictarr> because that was what it was for in 1990
+18:06 < dominictarr> but now, everyone wants to use it for laying out widgets, and doing "design"
+18:06 < dominictarr> which is way different
+18:06 < pfraze> yeah
+18:07 -!- defunctzombie is now known as defunctzombie_zz
+18:07 -!- kevino80 [~kevino80@199.16.190.194] has quit [Remote host closed the connection]
+18:07 < dominictarr> Instead, we should ask our selves: how would we do it if we could start the web over?
+18:07 < dominictarr> given what we know now?
+18:07 < pfraze> I agree - and if we're being really forward thinking, there's also VRUIs to consider
+18:08 < dominictarr> yeah - if you make it about manipulating shapes
+18:08 < dominictarr> you could do 2d and 3d easily enough
+18:08 < pfraze> mhmm
+18:08 -!- defunctzombie_zz is now known as defunctzombie
+18:09 < dominictarr> make a protocol that could be rendered to html and canvas and svg and webgl
+18:09 < dominictarr> or at least, target a reasonable overlap.
+18:10 < dominictarr> and use a decent point/box model that is less quirky than clientInner/Outer/getBoundingClientRect/etc
+18:10 -!- kenperkins [~textual@12.10.76.2] has quit [Quit: Computer has gone to sleep.]
+18:11 < dominictarr> hmm... I should make a prototype of what I'm thinking
+18:11 < pfraze> yeah. One thing I'm currently exploring, and which is perhaps more abstracted than is necessary for what you're suggesting,
+                is how to compose layout between complex visual elements
+18:12 < dominictarr> but the most important thing is that is has enough merit to stand on it's own... and then you add your secure VM stuff
+                     after so their powers combine - not just catch up to the old tech
+18:12 < dominictarr> YES
+18:12 < dominictarr> a pattern that I have seen in successful module systems is nesting
+18:13 -!- contrahax [~contrahax@library-dhcp.xmission.net] has joined #stackvm
+18:13 < dominictarr> each module should be able to have it's own deps, which should never interfere with it's dependant's deps
+18:13 < dominictarr> (this is also a key part of the VM idea)
+18:13 < dominictarr> (successful module systems: node.js, level-sublevel)
+18:14 < pfraze> yes. You know, I expected nesting to be a part of web components, but I've heard that's not the case
+18:14 < dominictarr> oh, I thought that too.
+18:14 < dominictarr> hmm
+18:14 < pfraze> I may be (hope I am) wrong about that
+18:14 < dominictarr> maybe I should look into that
+18:15 < dominictarr> you should be able to connect a stream from a "server" to a single element
+18:15 < pfraze> mhmm
+18:15 < dominictarr> and that "server" should not necessarily know that it's not the whole screen
+18:16 < dominictarr> ... making it more like a window manager than an app
+18:16 < pfraze> yeah, like process virtualization
+18:16 < dominictarr> EXACTLY
+18:16 < dominictarr> all the things need to be nestable
+18:21 < pfraze> so let's keep in touch on this. What I'm testing out right now is an idea I've wanted to try a while - again, may be too
+                abstract / not yield - which is to build a visual engine that behaves like a game engine and applies 1) world-space rules
+                and physics, and 2) entity behaviors
+18:22 -!- contrahax [~contrahax@library-dhcp.xmission.net] has quit [Read error: No route to host]
+18:22 -!- contraha_ [~contrahax@library-dhcp.xmission.net] has joined #stackvm
+18:22 < pfraze> it's geared more toward realtime visual generation, but, depending on how effective the rules and entities are at creating
+                behaviors, might be purposed toward GUIs
+18:26 -!- contrahax [~contrahax@library-dhcp.xmission.net] has joined #stackvm
+18:26 -!- contraha_ [~contrahax@library-dhcp.xmission.net] has quit [Read error: No route to host]
+18:27 < pfraze> so that's what I'm working on next. I'll let you know if anything comes out of it, and, in the meantime, I'm open to helping
+                with more traditional approaches if you draw up any docs
+18:32 -!- contraha_ [~contrahax@library-dhcp.xmission.net] has joined #stackvm
+18:32 -!- contrahax [~contrahax@library-dhcp.xmission.net] has quit [Read error: No route to host]
+18:34 -!- contrahax [~contrahax@205.127.250.158] has joined #stackvm
+18:35 < pfraze> dominictarr, one thing I will need is a way to specify rendering primitives, and that might be a good place to start
+18:35 -!- contrah__ [~contrahax@library-dhcp.xmission.net] has joined #stackvm
+18:37 -!- contraha_ [~contrahax@library-dhcp.xmission.net] has quit [Read error: No route to host]
+18:37 < ralphtheninja> dominictarr: this is scary, I've been thinking about these things today but I was just pondering drawing on the
+                       <canvas> element
+18:38 -!- contraha_ [~contrahax@205.127.250.158] has joined #stackvm
+18:39 -!- contra___ [~contrahax@library-dhcp.xmission.net] has joined #stackvm
+18:39 -!- contrah__ [~contrahax@library-dhcp.xmission.net] has quit [Read error: Connection reset by peer]
+18:39 -!- contrahax [~contrahax@205.127.250.158] has quit [Ping timeout: 264 seconds]
+18:42 -!- contraha_ [~contrahax@205.127.250.158] has quit [Read error: Connection reset by peer]
+18:43 -!- contra___ [~contrahax@library-dhcp.xmission.net] has quit [Read error: Connection reset by peer]
+18:43 -!- contrahax [~contrahax@library-dhcp.xmission.net] has joined #stackvm
+18:44 < dominictarr> pfraze, what is a "rendering primitive" you you mean pixels in graphics memory?
+18:44 < pfraze> dominictarr, more like shapes and materials
+18:44 -!- feross [~feross@nat/yahoo/x-jpmaskxmxdfvhsnl] has quit [Quit: feross]
+18:44 < dominictarr> pfraze, right - but will the shapes be built in? or will there be a way that a module can create them?
+18:45 < dominictarr> (if it's the latter, I think it would need access to a buffer)
+18:45 < pfraze> dominictarr, both, probably
+18:46 -!- calvinmetcalf [uid25915@gateway/web/irccloud.com/x-lyyjaybjwbfsacts] has quit [Quit: Connection closed for inactivity]
+18:46 < dominictarr> ralphtheninja, yes - it would be best to have something that you could implement directly, but would also be feasible
+                     to do on top of canvas
+18:46 < pfraze> I'm currently looking at three.js to think that part out
+18:46 < rowbit1> substack, pkrumins: These encoders are STILL down: 50.56.32.168(dev4)
+18:46 -!- naneau [~naneau@unaffiliated/naneau] has quit [Quit: Quit.]
+18:46 < dominictarr> then you could have a polyfil that made it work on the web, but you could also move past the web
+18:47 < rowbit1> Hourly usage stats: [developer: 1, free: 24]
+18:48 -!- naneau [~naneau@unaffiliated/naneau] has joined #stackvm
+18:50 -!- naneau [~naneau@unaffiliated/naneau] has quit [Client Quit]
+18:53 < ralphtheninja> dominictarr: 'the web' as in html?
+18:54 -!- parsons [~parsons@gw.hq.meetup.com] has quit [Remote host closed the connection]
+18:54 -!- funkytek [~textual@library-dhcp.xmission.net] has quit [Quit: My MacBook Pro has gone to sleep. ZZZzzz&]
+18:54 < dominictarr> ralphtheninja, yeah. browsers.
+18:59 -!- mrmrs [~mrmrs@nat-204-14-239-176-sfo.net.salesforce.com] has quit [Ping timeout: 240 seconds]
+19:00 -!- ryan_ramage [~eckoit@couchdb/committer/ryanramage] has quit [Quit: ryan_ramage]
+19:02 -!- indexzero [~indexzero@cpe-67-244-20-250.nyc.res.rr.com] has quit [Quit: indexzero]
+19:02 < ralphtheninja> dominictarr: what are you envisioning instead?
+19:05 -!- feross [~feross@nat/yahoo/x-plnfqtdjzjnvesqe] has joined #stackvm
+19:07 < dominictarr> ANARCHY OS
+19:07 < LOUDBOT> THERE WILL BE NONE OF THAT YOUNG MAN
+19:07 < dominictarr> the web gets the right things right by accident, but is clunky
+19:08 < dominictarr> the most important thing is to run programs in secure VMs, and really, to be able to nest those
+19:08 < dominictarr> then you can download and run programs over the network securely
+19:08 < dominictarr> pfraze, is working on a polyfil that suppiles that on top of web stuff
+19:08 -!- contrahax [~contrahax@library-dhcp.xmission.net] has quit [Quit: Sleeping]
+19:09 < dominictarr> but you could build that from scratch with tech like pnacl too
+19:09 < dominictarr> which would be good, because really, you want every program to be that secure
+19:10 < dominictarr> but also - the web is not as composable as unix
+19:10 < dominictarr> everything is hidden behind a bullshit UI
+19:10 -!- feross [~feross@nat/yahoo/x-plnfqtdjzjnvesqe] has quit [Ping timeout: 264 seconds]
+19:11 < pfraze> somehow the hypermedia system got hidden inside html
+19:12 -!- feross [~feross@nat/yahoo/x-wylyvetbngxlujgj] has joined #stackvm
+19:13 < pfraze> I was looking back at some of the early Berners Lee stuff, and anchors all had numeric ids, while other entities didnt. May
+                have been a bigger idea there that got lost
+19:15 < ralphtheninja> dominictarr: aye, you're right
+19:18 < dominictarr> alan kay put it well when he said that the builders of the web where actually building an operating system but didn't
+                     realize that
+19:19 -!- cpup [~cpup@69.177.224.46] has joined #stackvm
+19:20 < substack> Those who do not learn from Unix are doomed to reimplement it... poorly
+19:20 < defunctzombie> haha
+19:21 < ralphtheninja> we're doomed :/
+19:22 < dominictarr> substack, though, the problem with unix is that it doesn't do duplex streams very well
+19:22 < dominictarr> it's not easy to create servers
+19:22 < ralphtheninja> the single problem with unix :)
+19:22 < dominictarr> that is the most significant thing
+19:23 < dominictarr> in that way, I think node.js is a prototype for unix2
+19:23 < dominictarr> (an unfinished prototype)
+19:24 -!- ednapiranha [~ednapiran@206.169.237.178] has quit [Quit: Leaving...]
+19:26 < pfraze> plan9's papers are an interesting read in the vein of unix2
+19:27 < dominictarr> I think plan9 was a mistake - they just tried to push the basic metaphore of unix "everything is a file" too far
+19:27 < pfraze> where do you feel like it broke down?
+19:27 < dominictarr> everything is a file made sense for a single computer with many users
+19:27 < dominictarr> but I don't think that makes sense for distributed computing
+19:28 < pfraze> arguably the mounting processes was more overhead than they needed
+19:29 < dominictarr> treating another computer as a book on my shelf (i.e. a file) doesn't make sense
+19:29 < dominictarr> better to treat that as a telephone
+19:29 < dominictarr> i.e. natively support duplex streams
+19:29 < dominictarr> & servers
+19:30 < dominictarr> it would be easier to force files into a telephone shape, since there are actually not that many files.
+19:30 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has quit []
+19:31 < dominictarr> your hard drive space is much more limited than the total number of addressable computers in the world
+19:31 < dominictarr> an now, we even run simulated computers within a single computer
+19:32 < dominictarr> "everything is a server" I think is the right metaphor for the 21st century
+19:33 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Remote host closed the connection]
+19:35 < pfraze> I agree. The fault that stands out to me was manually configuring the local namespace instead of automating configuration,
+                which, for consumers, Web and mobile both did by simplifying and SaaSing, while Unix moved toward package management and
+                containerization
+19:35 -!- phated [~phated@72.44.240.228] has quit [Remote host closed the connection]
+19:37 < pfraze> the structured access to I/O points is interesting, but not so interesting or useful that you want to do it frequently
+19:37 < dominictarr> what do you mean by 'configuring the local namespace?'
+19:38 < dominictarr> are you talking about $PATH? or structuring resources into a heirachical FS?
+19:38 < pfraze> I'm referring to the way they would layer folder structures on top of each other to create "views" of the filesystem
+19:40 < pfraze> each process would have its own "view," but write to the same paths, making the path (eg /dev/cons) a sort of universal
+                identifier (the console) which may or may not refer to the same actual interface from one view to another
+15:47 < rowbit1> Hourly usage stats: [developer: 1, free: 26]
+15:47 -!- kenperkins [~textual@12.10.76.2] has joined #stackvm
+15:51 -!- AvianFlu [~avianflu@198.199.82.25] has quit [Ping timeout: 255 seconds]
+15:51 < jjjohhny> the N in LEBRON is rightfully NPM
+15:52 < jjjohhny> as level and browserify and npm all run on node
+15:57 < ogd> jjjohhny: good point
+15:59 -!- AvianPhone [~AvianPhon@198.199.82.25] has joined #stackvm
+16:05 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+16:06 -!- AvianPhone [~AvianPhon@198.199.82.25] has quit [Ping timeout: 240 seconds]
+16:21 -!- navaru_ [~navaru@5-14-175-82.residential.rdsnet.ro] has quit [Remote host closed the connection]
+16:21 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has joined #stackvm
+16:25 < ogd> substack: im goin to hack outside at http://www.yelp.com/biz/akat-cafe-kalli-oakland, they have wifi
+16:25 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has quit [Ping timeout: 255 seconds]
+16:26 -!- contrahax [~contrahax@67.136.61.2] has joined #stackvm
+16:29 -!- ralphtheninja [~ralphthen@c-f5dfe555.03-11-6c6b7012.cust.bredbandsbolaget.se] has joined #stackvm
+16:31 -!- mrmrs [~mrmrs@nat-204-14-239-176-sfo.net.salesforce.com] has joined #stackvm
+16:31 -!- contrahax [~contrahax@67.136.61.2] has quit [Quit: Sleeping]
+15:47 < rowbit1> Hourly usage stats: [developer: 1, free: 26]
+15:47 -!- kenperkins [~textual@12.10.76.2] has joined #stackvm
+15:51 -!- AvianFlu [~avianflu@198.199.82.25] has quit [Ping timeout: 255 seconds]
+15:51 < jjjohhny> the N in LEBRON is rightfully NPM
+15:52 < jjjohhny> as level and browserify and npm all run on node
+15:57 < ogd> jjjohhny: good point
+15:59 -!- AvianPhone [~AvianPhon@198.199.82.25] has joined #stackvm
+16:05 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+16:06 -!- AvianPhone [~AvianPhon@198.199.82.25] has quit [Ping timeout: 240 seconds]
+16:21 -!- navaru_ [~navaru@5-14-175-82.residential.rdsnet.ro] has quit [Remote host closed the connection]
+16:21 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has joined #stackvm
+16:25 < ogd> substack: im goin to hack outside at http://www.yelp.com/biz/akat-cafe-kalli-oakland, they have wifi
+16:25 -!- navaru [~navaru@5-14-175-82.residential.rdsnet.ro] has quit [Ping timeout: 255 seconds]
+16:26 -!- contrahax [~contrahax@67.136.61.2] has joined #stackvm
+16:29 -!- ralphtheninja [~ralphthen@c-f5dfe555.03-11-6c6b7012.cust.bredbandsbolaget.se] has joined #stackvm
+16:31 -!- mrmrs [~mrmrs@nat-204-14-239-176-sfo.net.salesforce.com] has joined #stackvm
+16:31 -!- contrahax [~contrahax@67.136.61.2] has quit [Quit: Sleeping]
+16:33 -!- kenperkins [~textual@12.10.76.2] has quit [Read error: Connection reset by peer]
+16:34 -!- kenperkins [~textual@12.10.76.2] has joined #stackvm
+16:40 -!- feross [~feross@nat/yahoo/x-bepdpkcarujstlsh] has joined #stackvm
+16:40 -!- pfraze [~unsafe@cpe-70-113-196-4.austin.res.rr.com] has quit [Ping timeout: 246 seconds]
+16:42 -!- defunctzombie_zz is now known as defunctzombie
+16:47 -!- pfraze [~unsafe@cpe-70-113-196-4.austin.res.rr.com] has joined #stackvm
+16:47 < rowbit1> Hourly usage stats: [developer: 0, free: 40]
+16:47 -!- contrahax [~contrahax@50-200-245-132-static.hfc.comcastbusiness.net] has joined #stackvm
+16:55 < jesusabdullah> https://github.com/nslater/DAMAIL lolol
+16:56 -!- ralphtheninja [~ralphthen@c-f5dfe555.03-11-6c6b7012.cust.bredbandsbolaget.se] has quit [Ping timeout: 246 seconds]
+16:58 -!- ralphtheninja [~ralphthen@c-f5dfe555.03-11-6c6b7012.cust.bredbandsbolaget.se] has joined #stackvm
+16:59 -!- contrahax [~contrahax@50-200-245-132-static.hfc.comcastbusiness.net] has quit []
+17:05 -!- fotoverite [~fotoverit@cpe-24-90-104-159.nyc.res.rr.com] has quit [Read error: Connection reset by peer]
+17:12 -!- AvianFlu [~avianflu@198.199.82.25] has joined #stackvm
+17:14 -!- naneau [~naneau@unaffiliated/naneau] has joined #stackvm
+17:14 < hoobdeebla> LOL
+17:15 -!- fotoverite [~fotoverit@cpe-24-90-104-159.nyc.res.rr.com] has joined #stackvm
+17:17 -!- kevino80 [~kevino80@199.16.190.194] has quit [Remote host closed the connection]
+17:17 -!- ralphtheninja [~ralphthen@c-f5dfe555.03-11-6c6b7012.cust.bredbandsbolaget.se] has quit [Ping timeout: 264 seconds]
+17:27 -!- feross [~feross@nat/yahoo/x-bepdpkcarujstlsh] has quit [Quit: feross]
+17:31 -!- funkytek [~textual@library-dhcp.xmission.net] has joined #stackvm
+17:43 -!- feross [~feross@nat/yahoo/x-jpmaskxmxdfvhsnl] has joined #stackvm
+17:47 < rowbit1> Hourly usage stats: [developer: 2, free: 40]
+17:51 -!- cpup [~cpup@69.177.224.46] has quit [Ping timeout: 252 seconds]
+17:51 -!- ryan_ramage [~eckoit@couchdb/committer/ryanramage] has joined #stackvm
+17:53 -!- h0ke [~hoke@2602:306:ce41:dca0:58b0:6713:116d:bac5] has joined #stackvm
+17:56 -!- kevino80 [~kevino80@199.16.190.194] has joined #stackvm
+17:57 -!- dominictarr [~dominicta@203.89.166.232] has joined #stackvm
+17:59 -!- jaclar [~jaclar@200.59.172.46] has quit [Ping timeout: 264 seconds]
+18:01 -!- ralphtheninja [~ralphthen@c-f5dfe555.03-11-6c6b7012.cust.bredbandsbolaget.se] has joined #stackvm
+18:02 < dominictarr> pfraze, hey - sorry for my abrupt departure yesterday - by battery ran flat
+18:03 < pfraze> dominictarr, no worries
+18:03 < dominictarr> but indeed - we are thinking along quite similar lines with nquery and duplex graphics protocols
+18:03 < dominictarr> but I also think there is quite an oportunity here
+18:04 < dominictarr> the problem with nquery is that it says "you can still do familiar jquery stuff"
+18:04 < dominictarr> so "this new architecture is ALMOST AS GOOD as normal web"
+18:04 < pfraze> haha, true
+18:04 < dominictarr> but what you really want to say is "this new architecture is BETTER"
+18:05 < dominictarr> I think there is loads of wonky shit about HTML, etc
+18:06 < dominictarr> like, it's oriented towards laying out text
+18:06 < dominictarr> because that was what it was for in 1990
+18:06 < dominictarr> but now, everyone wants to use it for laying out widgets, and doing "design"
+18:06 < dominictarr> which is way different
+18:06 < pfraze> yeah
+18:07 -!- defunctzombie is now known as defunctzombie_zz
+18:07 -!- kevino80 [~kevino80@199.16.190.194] has quit [Remote host closed the connection]
+18:07 < dominictarr> Instead, we should ask our selves: how would we do it if we could start the web over?
+18:07 < dominictarr> given what we know now?
+18:07 < pfraze> I agree - and if we're being really forward thinking, there's also VRUIs to consider
+18:08 < dominictarr> yeah - if you make it about manipulating shapes
+18:08 < dominictarr> you could do 2d and 3d easily enough
+18:04 < dominictarr> the problem with nquery is that it says "you can still do familiar jquery stuff"
+18:04 < dominictarr> so "this new architecture is ALMOST AS GOOD as normal web"
+18:04 < pfraze> haha, true
+18:04 < dominictarr> but what you really want to say is "this new architecture is BETTER"
+18:05 < dominictarr> I think there is loads of wonky shit about HTML, etc
+18:06 < dominictarr> like, it's oriented towards laying out text
+18:06 < dominictarr> because that was what it was for in 1990
+18:06 < dominictarr> but now, everyone wants to use it for laying out widgets, and doing "design"
+18:06 < dominictarr> which is way different
+18:06 < pfraze> yeah
+18:07 -!- defunctzombie is now known as defunctzombie_zz
+18:07 -!- kevino80 [~kevino80@199.16.190.194] has quit [Remote host closed the connection]
+18:07 < dominictarr> Instead, we should ask our selves: how would we do it if we could start the web over?
+18:07 < dominictarr> given what we know now?
+18:07 < pfraze> I agree - and if we're being really forward thinking, there's also VRUIs to consider
+18:08 < dominictarr> yeah - if you make it about manipulating shapes
+18:08 < dominictarr> you could do 2d and 3d easily enough
+18:08 < pfraze> mhmm
+18:08 -!- defunctzombie_zz is now known as defunctzombie
+18:09 < dominictarr> make a protocol that could be rendered to html and canvas and svg and webgl
+18:09 < dominictarr> or at least, target a reasonable overlap.
+18:10 < dominictarr> and use a decent point/box model that is less quirky than clientInner/Outer/getBoundingClientRect/etc
+18:10 -!- kenperkins [~textual@12.10.76.2] has quit [Quit: Computer has gone to sleep.]
+18:11 < dominictarr> hmm... I should make a prototype of what I'm thinking
+18:11 < pfraze> yeah. One thing I'm currently exploring, and which is perhaps more abstracted than is necessary for what you're suggesting,
+                is how to compose layout between complex visual elements
+18:12 < dominictarr> but the most important thing is that is has enough merit to stand on it's own... and then you add your secure VM stuff
+                     after so their powers combine - not just catch up to the old tech
+18:12 < dominictarr> YES
+18:12 < dominictarr> a pattern that I have seen in successful module systems is nesting
+18:13 -!- contrahax [~contrahax@library-dhcp.xmission.net] has joined #stackvm
+18:13 < dominictarr> each module should be able to have it's own deps, which should never interfere with it's dependant's deps
+18:13 < dominictarr> (this is also a key part of the VM idea)
+18:13 < dominictarr> (successful module systems: node.js, level-sublevel)
+18:14 < pfraze> yes. You know, I expected nesting to be a part of web components, but I've heard that's not the case
+18:14 < dominictarr> oh, I thought that too.
+18:14 < dominictarr> hmm
+18:14 < pfraze> I may be (hope I am) wrong about that
+18:14 < dominictarr> maybe I should look into that
+18:15 < dominictarr> you should be able to connect a stream from a "server" to a single element
+18:15 < pfraze> mhmm
+18:15 < dominictarr> and that "server" should not necessarily know that it's not the whole screen
+18:16 < dominictarr> ... making it more like a window manager than an app
+18:16 < pfraze> yeah, like process virtualization
+18:16 < dominictarr> EXACTLY
+18:16 < dominictarr> all the things need to be nestable
+18:21 < pfraze> so let's keep in touch on this. What I'm testing out right now is an idea I've wanted to try a while - again, may be too
+                abstract / not yield - which is to build a visual engine that behaves like a game engine and applies 1) world-space rules
+                and physics, and 2) entity behaviors
+18:22 -!- contrahax [~contrahax@library-dhcp.xmission.net] has quit [Read error: No route to host]
+18:22 -!- contraha_ [~contrahax@library-dhcp.xmission.net] has joined #stackvm
+18:22 < pfraze> it's geared more toward realtime visual generation, but, depending on how effective the rules and entities are at creating
+                behaviors, might be purposed toward GUIs
+18:26 -!- contrahax [~contrahax@library-dhcp.xmission.net] has joined #stackvm
+18:26 -!- contraha_ [~contrahax@library-dhcp.xmission.net] has quit [Read error: No route to host]
+18:27 < pfraze> so that's what I'm working on next. I'll let you know if anything comes out of it, and, in the meantime, I'm open to helping
+                with more traditional approaches if you draw up any docs
+18:32 -!- contraha_ [~contrahax@library-dhcp.xmission.net] has joined #stackvm
+18:32 -!- contrahax [~contrahax@library-dhcp.xmission.net] has quit [Read error: No route to host]
+18:34 -!- contrahax [~contrahax@205.127.250.158] has joined #stackvm
+18:35 < pfraze> dominictarr, one thing I will need is a way to specify rendering primitives, and that might be a good place to start
+18:35 -!- contrah__ [~contrahax@library-dhcp.xmission.net] has joined #stackvm
+18:37 -!- contraha_ [~contrahax@library-dhcp.xmission.net] has quit [Read error: No route to host]
+18:37 < ralphtheninja> dominictarr: this is scary, I've been thinking about these things today but I was just pondering drawing on the
+                       <canvas> element
+18:38 -!- contraha_ [~contrahax@205.127.250.158] has joined #stackvm
+18:39 -!- contra___ [~contrahax@library-dhcp.xmission.net] has joined #stackvm
+18:39 -!- contrah__ [~contrahax@library-dhcp.xmission.net] has quit [Read error: Connection reset by peer]
+18:39 -!- contrahax [~contrahax@205.127.250.158] has quit [Ping timeout: 264 seconds]
+18:42 -!- contraha_ [~contrahax@205.127.250.158] has quit [Read error: Connection reset by peer]
+18:43 -!- contra___ [~contrahax@library-dhcp.xmission.net] has quit [Read error: Connection reset by peer]
+18:43 -!- contrahax [~contrahax@library-dhcp.xmission.net] has joined #stackvm
+18:44 < dominictarr> pfraze, what is a "rendering primitive" you you mean pixels in graphics memory?
+18:44 < pfraze> dominictarr, more like shapes and materials
+18:44 -!- feross [~feross@nat/yahoo/x-jpmaskxmxdfvhsnl] has quit [Quit: feross]
+18:44 < dominictarr> pfraze, right - but will the shapes be built in? or will there be a way that a module can create them?
+18:45 < dominictarr> (if it's the latter, I think it would need access to a buffer)
+18:45 < pfraze> dominictarr, both, probably
+18:46 -!- calvinmetcalf [uid25915@gateway/web/irccloud.com/x-lyyjaybjwbfsacts] has quit [Quit: Connection closed for inactivity]
+18:46 < dominictarr> ralphtheninja, yes - it would be best to have something that you could implement directly, but would also be feasible
+                     to do on top of canvas
+18:46 < pfraze> I'm currently looking at three.js to think that part out
+18:46 < rowbit1> substack, pkrumins: These encoders are STILL down: 50.56.32.168(dev4)
+18:46 -!- naneau [~naneau@unaffiliated/naneau] has quit [Quit: Quit.]
+18:46 < dominictarr> then you could have a polyfil that made it work on the web, but you could also move past the web
+18:47 < rowbit1> Hourly usage stats: [developer: 1, free: 24]
+18:48 -!- naneau [~naneau@unaffiliated/naneau] has joined #stackvm
+18:50 -!- naneau [~naneau@unaffiliated/naneau] has quit [Client Quit]
+18:53 < ralphtheninja> dominictarr: 'the web' as in html?
+18:54 -!- parsons [~parsons@gw.hq.meetup.com] has quit [Remote host closed the connection]
+18:54 -!- funkytek [~textual@library-dhcp.xmission.net] has quit [Quit: My MacBook Pro has gone to sleep. ZZZzzz&]
+18:54 < dominictarr> ralphtheninja, yeah. browsers.
+18:59 -!- mrmrs [~mrmrs@nat-204-14-239-176-sfo.net.salesforce.com] has quit [Ping timeout: 240 seconds]
+19:00 -!- ryan_ramage [~eckoit@couchdb/committer/ryanramage] has quit [Quit: ryan_ramage]
+19:02 -!- indexzero [~indexzero@cpe-67-244-20-250.nyc.res.rr.com] has quit [Quit: indexzero]
+19:02 < ralphtheninja> dominictarr: what are you envisioning instead?
+19:05 -!- feross [~feross@nat/yahoo/x-plnfqtdjzjnvesqe] has joined #stackvm
+19:07 < dominictarr> ANARCHY OS
+19:07 < LOUDBOT> THERE WILL BE NONE OF THAT YOUNG MAN
+19:07 < dominictarr> the web gets the right things right by accident, but is clunky
+19:08 < dominictarr> the most important thing is to run programs in secure VMs, and really, to be able to nest those
+19:08 < dominictarr> then you can download and run programs over the network securely
+19:08 < dominictarr> pfraze, is working on a polyfil that suppiles that on top of web stuff
+19:08 -!- contrahax [~contrahax@library-dhcp.xmission.net] has quit [Quit: Sleeping]
+19:09 < dominictarr> but you could build that from scratch with tech like pnacl too
+19:09 < dominictarr> which would be good, because really, you want every program to be that secure
+19:10 < dominictarr> but also - the web is not as composable as unix
+19:10 < dominictarr> everything is hidden behind a bullshit UI
+19:10 -!- feross [~feross@nat/yahoo/x-plnfqtdjzjnvesqe] has quit [Ping timeout: 264 seconds]
+19:11 < pfraze> somehow the hypermedia system got hidden inside html
+19:12 -!- feross [~feross@nat/yahoo/x-wylyvetbngxlujgj] has joined #stackvm
+19:13 < pfraze> I was looking back at some of the early Berners Lee stuff, and anchors all had numeric ids, while other entities didnt. May
+                have been a bigger idea there that got lost
+19:15 < ralphtheninja> dominictarr: aye, you're right
+19:18 < dominictarr> alan kay put it well when he said that the builders of the web where actually building an operating system but didn't
+                     realize that
+19:19 -!- cpup [~cpup@69.177.224.46] has joined #stackvm
+19:20 < substack> Those who do not learn from Unix are doomed to reimplement it... poorly
+19:20 < defunctzombie> haha
+18:47 < rowbit1> Hourly usage stats: [developer: 1, free: 24]
+18:48 -!- naneau [~naneau@unaffiliated/naneau] has joined #stackvm
+18:50 -!- naneau [~naneau@unaffiliated/naneau] has quit [Client Quit]
+18:53 < ralphtheninja> dominictarr: 'the web' as in html?
+18:54 -!- parsons [~parsons@gw.hq.meetup.com] has quit [Remote host closed the connection]
+18:54 -!- funkytek [~textual@library-dhcp.xmission.net] has quit [Quit: My MacBook Pro has gone to sleep. ZZZzzz&]
+18:54 < dominictarr> ralphtheninja, yeah. browsers.
+18:59 -!- mrmrs [~mrmrs@nat-204-14-239-176-sfo.net.salesforce.com] has quit [Ping timeout: 240 seconds]
+19:00 -!- ryan_ramage [~eckoit@couchdb/committer/ryanramage] has quit [Quit: ryan_ramage]
+19:02 -!- indexzero [~indexzero@cpe-67-244-20-250.nyc.res.rr.com] has quit [Quit: indexzero]
+19:02 < ralphtheninja> dominictarr: what are you envisioning instead?
+19:05 -!- feross [~feross@nat/yahoo/x-plnfqtdjzjnvesqe] has joined #stackvm
+19:07 < dominictarr> ANARCHY OS
+19:07 < LOUDBOT> THERE WILL BE NONE OF THAT YOUNG MAN
+19:07 < dominictarr> the web gets the right things right by accident, but is clunky
+19:08 < dominictarr> the most important thing is to run programs in secure VMs, and really, to be able to nest those
+19:08 < dominictarr> then you can download and run programs over the network securely
+19:08 < dominictarr> pfraze, is working on a polyfil that suppiles that on top of web stuff
+19:08 -!- contrahax [~contrahax@library-dhcp.xmission.net] has quit [Quit: Sleeping]
+19:09 < dominictarr> but you could build that from scratch with tech like pnacl too
+19:09 < dominictarr> which would be good, because really, you want every program to be that secure
+19:10 < dominictarr> but also - the web is not as composable as unix
+19:10 < dominictarr> everything is hidden behind a bullshit UI
+19:10 -!- feross [~feross@nat/yahoo/x-plnfqtdjzjnvesqe] has quit [Ping timeout: 264 seconds]
+19:11 < pfraze> somehow the hypermedia system got hidden inside html
+19:12 -!- feross [~feross@nat/yahoo/x-wylyvetbngxlujgj] has joined #stackvm
+19:13 < pfraze> I was looking back at some of the early Berners Lee stuff, and anchors all had numeric ids, while other entities didnt. May
+                have been a bigger idea there that got lost
+19:15 < ralphtheninja> dominictarr: aye, you're right
+19:18 < dominictarr> alan kay put it well when he said that the builders of the web where actually building an operating system but didn't
+                     realize that
+19:19 -!- cpup [~cpup@69.177.224.46] has joined #stackvm
+19:20 < substack> Those who do not learn from Unix are doomed to reimplement it... poorly
+19:20 < defunctzombie> haha
+19:21 < ralphtheninja> we're doomed :/
+19:22 < dominictarr> substack, though, the problem with unix is that it doesn't do duplex streams very well
+19:22 < dominictarr> it's not easy to create servers
+19:22 < ralphtheninja> the single problem with unix :)
+19:22 < dominictarr> that is the most significant thing
+19:23 < dominictarr> in that way, I think node.js is a prototype for unix2
+19:23 < dominictarr> (an unfinished prototype)
+19:24 -!- ednapiranha [~ednapiran@206.169.237.178] has quit [Quit: Leaving...]
+19:26 < pfraze> plan9's papers are an interesting read in the vein of unix2
+19:27 < dominictarr> I think plan9 was a mistake - they just tried to push the basic metaphore of unix "everything is a file" too far
+19:27 < pfraze> where do you feel like it broke down?
+19:27 < dominictarr> everything is a file made sense for a single computer with many users
+19:27 < dominictarr> but I don't think that makes sense for distributed computing
+19:28 < pfraze> arguably the mounting processes was more overhead than they needed
+19:29 < dominictarr> treating another computer as a book on my shelf (i.e. a file) doesn't make sense
+19:29 < dominictarr> better to treat that as a telephone
+19:29 < dominictarr> i.e. natively support duplex streams
+19:21 < ralphtheninja> we're doomed :/
+19:22 < dominictarr> substack, though, the problem with unix is that it doesn't do duplex streams very well
+19:22 < dominictarr> it's not easy to create servers
+19:22 < ralphtheninja> the single problem with unix :)
+19:22 < dominictarr> that is the most significant thing
+19:23 < dominictarr> in that way, I think node.js is a prototype for unix2
+19:23 < dominictarr> (an unfinished prototype)
+19:24 -!- ednapiranha [~ednapiran@206.169.237.178] has quit [Quit: Leaving...]
+19:26 < pfraze> plan9's papers are an interesting read in the vein of unix2
+19:27 < dominictarr> I think plan9 was a mistake - they just tried to push the basic metaphore of unix "everything is a file" too far
+19:27 < pfraze> where do you feel like it broke down?
+19:27 < dominictarr> everything is a file made sense for a single computer with many users
+19:27 < dominictarr> but I don't think that makes sense for distributed computing
+19:28 < pfraze> arguably the mounting processes was more overhead than they needed
+19:29 < dominictarr> treating another computer as a book on my shelf (i.e. a file) doesn't make sense
+19:29 < dominictarr> better to treat that as a telephone
+19:29 < dominictarr> i.e. natively support duplex streams
+19:29 < dominictarr> & servers
+19:30 < dominictarr> it would be easier to force files into a telephone shape, since there are actually not that many files.
+19:30 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has quit []
+19:31 < dominictarr> your hard drive space is much more limited than the total number of addressable computers in the world
+19:31 < dominictarr> an now, we even run simulated computers within a single computer
+19:32 < dominictarr> "everything is a server" I think is the right metaphor for the 21st century
+19:33 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Remote host closed the connection]
+19:35 < pfraze> I agree. The fault that stands out to me was manually configuring the local namespace instead of automating configuration,
+                which, for consumers, Web and mobile both did by simplifying and SaaSing, while Unix moved toward package management and
+                containerization
+19:35 -!- phated [~phated@72.44.240.228] has quit [Remote host closed the connection]
+19:37 < pfraze> the structured access to I/O points is interesting, but not so interesting or useful that you want to do it frequently
+19:37 < dominictarr> what do you mean by 'configuring the local namespace?'
+19:38 < dominictarr> are you talking about $PATH? or structuring resources into a heirachical FS?
+19:38 < pfraze> I'm referring to the way they would layer folder structures on top of each other to create "views" of the filesystem
+19:40 < pfraze> each process would have its own "view," but write to the same paths, making the path (eg /dev/cons) a sort of universal
+                identifier (the console) which may or may not refer to the same actual interface from one view to another
+19:40 < dominictarr> pfraze, ah - right - that is kind of an interesting idea
+19:41 < ogd> jesusabdullah: can you add me as an owner to npmjs.org/browserify-cdn
+19:41 < jesusabdullah> how do you do that again? And yes, yes I will
+19:41 < jesusabdullah> Man I'm glad to have help
+19:31 < dominictarr> an now, we even run simulated computers within a single computer
+19:32 < dominictarr> "everything is a server" I think is the right metaphor for the 21st century
+19:33 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Remote host closed the connection]
+19:35 < pfraze> I agree. The fault that stands out to me was manually configuring the local namespace instead of automating configuration,
+                which, for consumers, Web and mobile both did by simplifying and SaaSing, while Unix moved toward package management and
+                containerization
+19:35 -!- phated [~phated@72.44.240.228] has quit [Remote host closed the connection]
+19:37 < pfraze> the structured access to I/O points is interesting, but not so interesting or useful that you want to do it frequently
+19:37 < dominictarr> what do you mean by 'configuring the local namespace?'
+19:38 < dominictarr> are you talking about $PATH? or structuring resources into a heirachical FS?
+19:38 < pfraze> I'm referring to the way they would layer folder structures on top of each other to create "views" of the filesystem
+19:40 < pfraze> each process would have its own "view," but write to the same paths, making the path (eg /dev/cons) a sort of universal
+                identifier (the console) which may or may not refer to the same actual interface from one view to another
+19:40 < dominictarr> pfraze, ah - right - that is kind of an interesting idea
+19:41 < ogd> jesusabdullah: can you add me as an owner to npmjs.org/browserify-cdn
+19:41 < jesusabdullah> how do you do that again? And yes, yes I will
+19:41 < jesusabdullah> Man I'm glad to have help
+19:31 < dominictarr> an now, we even run simulated computers within a single computer
+19:32 < dominictarr> "everything is a server" I think is the right metaphor for the 21st century
+19:33 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Remote host closed the connection]
+19:35 < pfraze> I agree. The fault that stands out to me was manually configuring the local namespace instead of automating configuration,
+                which, for consumers, Web and mobile both did by simplifying and SaaSing, while Unix moved toward package management and
+                containerization
+19:35 -!- phated [~phated@72.44.240.228] has quit [Remote host closed the connection]
+19:37 < pfraze> the structured access to I/O points is interesting, but not so interesting or useful that you want to do it frequently
+19:37 < dominictarr> what do you mean by 'configuring the local namespace?'
+19:38 < dominictarr> are you talking about $PATH? or structuring resources into a heirachical FS?
+19:38 < pfraze> I'm referring to the way they would layer folder structures on top of each other to create "views" of the filesystem
+19:40 < pfraze> each process would have its own "view," but write to the same paths, making the path (eg /dev/cons) a sort of universal
+                identifier (the console) which may or may not refer to the same actual interface from one view to another
+19:40 < dominictarr> pfraze, ah - right - that is kind of an interesting idea
+19:41 < ogd> jesusabdullah: can you add me as an owner to npmjs.org/browserify-cdn
+19:41 < jesusabdullah> how do you do that again? And yes, yes I will
+19:41 < jesusabdullah> Man I'm glad to have help
+19:43 < dominictarr> brb, eats
+19:44 < jesusabdullah> ogd: done
+19:47 < rowbit1> Hourly usage stats: [developer: 0, free: 14]
+19:49 -!- dominictarr [~dominicta@203.89.166.232] has quit [Ping timeout: 240 seconds]
+19:50 -!- ralphtheninja [~ralphthen@c-f5dfe555.03-11-6c6b7012.cust.bredbandsbolaget.se] has quit [Ping timeout: 255 seconds]
+20:00 -!- ircretary [~ircretary@165.225.132.207] has quit [Remote host closed the connection]
+20:00 -!- ircretary [~ircretary@165.225.132.207] has joined #stackvm
+20:04 -!- h0ke [~hoke@2602:306:ce41:dca0:58b0:6713:116d:bac5] has quit [Ping timeout: 240 seconds]
+20:07 -!- naneau [~naneau@unaffiliated/naneau] has joined #stackvm
+20:08 -!- tilgovi_ [~randall@couchdb/committer/tilgovi] has joined #stackvm
+20:08 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Remote host closed the connection]
+20:09 -!- occamshatchet [~occamshat@c-69-253-73-241.hsd1.nj.comcast.net] has quit [Ping timeout: 265 seconds]
+20:09 -!- occamshatchet [~occamshat@69.253.73.241] has joined #stackvm
+20:10 -!- tilgovi_ is now known as tilgovi
+20:17 -!- cpup_ [~cpup@69.183.23.150] has joined #stackvm
+20:17 -!- cpup [~cpup@69.177.224.46] has quit [Ping timeout: 264 seconds]
+20:25 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Remote host closed the connection]
+20:34 -!- dominictarr [~dominicta@port165-5.ubs.maxnet.co.nz] has joined #stackvm
+20:37 -!- phated [~phated@wsip-70-184-107-214.ph.ph.cox.net] has joined #stackvm
+20:40 -!- h0ke [~hoke@99-42-140-206.lightspeed.sntcca.sbcglobal.net] has joined #stackvm
+20:40 -!- addisonj [uid18502@gateway/web/irccloud.com/x-gbkohagoqslcffwi] has quit [Quit: Connection closed for inactivity]
+20:42 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+                containerization
+19:35 -!- phated [~phated@72.44.240.228] has quit [Remote host closed the connection]
+19:37 < pfraze> the structured access to I/O points is interesting, but not so interesting or useful that you want to do it frequently
+19:37 < dominictarr> what do you mean by 'configuring the local namespace?'
+19:38 < dominictarr> are you talking about $PATH? or structuring resources into a heirachical FS?
+19:38 < pfraze> I'm referring to the way they would layer folder structures on top of each other to create "views" of the filesystem
+19:40 < pfraze> each process would have its own "view," but write to the same paths, making the path (eg /dev/cons) a sort of universal
+                identifier (the console) which may or may not refer to the same actual interface from one view to another
+19:40 < dominictarr> pfraze, ah - right - that is kind of an interesting idea
+19:41 < ogd> jesusabdullah: can you add me as an owner to npmjs.org/browserify-cdn
+19:41 < jesusabdullah> how do you do that again? And yes, yes I will
+19:41 < jesusabdullah> Man I'm glad to have help
+19:43 < dominictarr> brb, eats
+19:44 < jesusabdullah> ogd: done
+19:47 < rowbit1> Hourly usage stats: [developer: 0, free: 14]
+19:49 -!- dominictarr [~dominicta@203.89.166.232] has quit [Ping timeout: 240 seconds]
+19:50 -!- ralphtheninja [~ralphthen@c-f5dfe555.03-11-6c6b7012.cust.bredbandsbolaget.se] has quit [Ping timeout: 255 seconds]
+20:00 -!- ircretary [~ircretary@165.225.132.207] has quit [Remote host closed the connection]
+20:00 -!- ircretary [~ircretary@165.225.132.207] has joined #stackvm
+20:04 -!- h0ke [~hoke@2602:306:ce41:dca0:58b0:6713:116d:bac5] has quit [Ping timeout: 240 seconds]
+20:07 -!- naneau [~naneau@unaffiliated/naneau] has joined #stackvm
+20:08 -!- tilgovi_ [~randall@couchdb/committer/tilgovi] has joined #stackvm
+20:08 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Remote host closed the connection]
+20:09 -!- occamshatchet [~occamshat@c-69-253-73-241.hsd1.nj.comcast.net] has quit [Ping timeout: 265 seconds]
+20:09 -!- occamshatchet [~occamshat@69.253.73.241] has joined #stackvm
+20:10 -!- tilgovi_ is now known as tilgovi
+20:17 -!- cpup_ [~cpup@69.183.23.150] has joined #stackvm
+20:17 -!- cpup [~cpup@69.177.224.46] has quit [Ping timeout: 264 seconds]
+20:25 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Remote host closed the connection]
+20:34 -!- dominictarr [~dominicta@port165-5.ubs.maxnet.co.nz] has joined #stackvm
+20:37 -!- phated [~phated@wsip-70-184-107-214.ph.ph.cox.net] has joined #stackvm
+20:40 -!- h0ke [~hoke@99-42-140-206.lightspeed.sntcca.sbcglobal.net] has joined #stackvm
+20:40 -!- addisonj [uid18502@gateway/web/irccloud.com/x-gbkohagoqslcffwi] has quit [Quit: Connection closed for inactivity]
+20:42 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+20:47 < rowbit1> Hourly usage stats: [developer: 0, free: 17]
+20:56 < rowbit1> /!\ ATTENTION: (default-local) finance@... successfully signed up for team_2 browserling plan ($30). Cash money! /!\
+20:56 < rowbit1> /!\ ATTENTION: (default-local) paid account successfully upgraded /!\
+21:02 -!- kevino80 [~kevino80@c-68-40-202-126.hsd1.mi.comcast.net] has joined #stackvm
+21:03 < rowbit1> substack, pkrumins: These encoders are STILL down: 184.106.106.46(dev-ie8-1)
+21:04 -!- pfraze [~unsafe@cpe-70-113-196-4.austin.res.rr.com] has quit [Ping timeout: 252 seconds]
+21:06 -!- ednapiranha [~ednapiran@2601:7:780:520:8d39:7f3e:da6b:d4ba] has joined #stackvm
+15:13 -!- ryanj_partyhat is now known as ryanj
+15:21 -!- jessepollak [~jessepoll@204.28.115.126] has quit [Quit: My MacBook Pro has gone to sleep. ZZZzzz&]
+15:38 < nerdtracker5000> Max just checked in at The Laurel Neighborhood
+15:38 < ogd> w00t nerdtracker5000 you are back <3
+15:39 < fauntle> is it work now
+15:39 < ogd> i also jsut wrote https://github.com/maxogden/ssid-checkin
+15:39 < fauntle> are there any sweet new features
+15:39 -!- jessepollak [~jessepoll@204.28.115.126] has joined #nerdtracker
+15:40 < nerdtracker5000> Max just checked in at Cafe 3016 (3016 MacArthur Boulevard, Oakland)
+15:40 < ogd> w00t it works
+15:44 -!- tar_ [~tar_@li603-192.members.linode.com] has joined #nerdtracker
+15:52 < substack> ogd: cool
+16:05 < jo> yelp flag army
+16:05 < jo> http://www.yelp.com/biz/table-4-one-massage-therapy-alameda?hrid=wZ_eLQMo5o_MLD9_9btRwA
+16:05 < jo> have at it
+16:32 -!- bsdguru [~jacques@105-236-93-221.access.mtnbusiness.co.za] has quit [Read error: Connection reset by peer]
+16:32 -!- bsdguru_ [~jacques@105-236-93-221.access.mtnbusiness.co.za] has joined #nerdtracker
+15:13 -!- ryanj_partyhat is now known as ryanj
+15:21 -!- jessepollak [~jessepoll@204.28.115.126] has quit [Quit: My MacBook Pro has gone to sleep. ZZZzzz&]
+15:38 < nerdtracker5000> Max just checked in at The Laurel Neighborhood
+15:38 < ogd> w00t nerdtracker5000 you are back <3
+15:39 < fauntle> is it work now
+15:39 < ogd> i also jsut wrote https://github.com/maxogden/ssid-checkin
+15:39 < fauntle> are there any sweet new features
+15:39 -!- jessepollak [~jessepoll@204.28.115.126] has joined #nerdtracker
+15:40 < nerdtracker5000> Max just checked in at Cafe 3016 (3016 MacArthur Boulevard, Oakland)
+15:40 < ogd> w00t it works
+15:44 -!- tar_ [~tar_@li603-192.members.linode.com] has joined #nerdtracker
+15:52 < substack> ogd: cool
+16:05 < jo> yelp flag army
+16:05 < jo> http://www.yelp.com/biz/table-4-one-massage-therapy-alameda?hrid=wZ_eLQMo5o_MLD9_9btRwA
+16:05 < jo> have at it
+16:32 -!- bsdguru [~jacques@105-236-93-221.access.mtnbusiness.co.za] has quit [Read error: Connection reset by peer]
+16:32 -!- bsdguru_ [~jacques@105-236-93-221.access.mtnbusiness.co.za] has joined #nerdtracker
+21:14 -!- addisonj [uid18502@gateway/web/irccloud.com/x-sjejscofjdmfhxso] has joined #stackvm
+21:16 -!- eugeneware [~eugenewar@2600:1010:b004:8819:edeb:e3ed:acec:ec67] has joined #stackvm
+21:20 -!- h0ke [~hoke@99-42-140-206.lightspeed.sntcca.sbcglobal.net] has quit [Ping timeout: 246 seconds]
+21:22 -!- h0ke [~hoke@99-42-140-206.lightspeed.sntcca.sbcglobal.net] has joined #stackvm
+21:26 -!- yorick [~yorick@oftn/member/yorick] has quit [Remote host closed the connection]
+21:27 -!- h0ke [~hoke@99-42-140-206.lightspeed.sntcca.sbcglobal.net] has quit [Ping timeout: 252 seconds]
+21:34 -!- phated [~phated@wsip-70-184-107-214.ph.ph.cox.net] has quit [Remote host closed the connection]
+21:35 < dominictarr> hmm - just thinking about css style inheritence
+21:36 < dominictarr> has anyone ever made a language where instead of adding extending things by hanging them off a prototype or subclass
+21:36 < dominictarr> instead you just specified modifications like in css?
+21:37 < dominictarr> it would be kinda like monkey patching everything, but declaring the objects to be patched with selectors
+21:37 < jjjohhny> dominictarr: i love CSS
+21:37 < jjjohhny> but i also hate it
+21:38 < jjjohhny> thats that ambivalence
+21:38 < jjjohhny> neat idea, as alternative to inheritance
+21:38 < dominictarr> you could do things like Element > Array > Object (it) { assert (it.id) }
+21:39 < jjjohhny> i never do inheritance any more, cuz everything I need is already an object
+21:39 < dominictarr> to assert that everything inside an array inside element must have an id property
+21:39 -!- h0ke [~hoke@12.250.181.178] has joined #stackvm
+21:39 < dominictarr> jjjohhny, that doesn't mean you aren't doing inheritance. you are probably still doing it, but informally.
+21:40 < dominictarr> the nice thing about css style inheritence is that you do not have to have control of the thing to change
+21:41 < jjjohhny> it speaks to level i tend to code atwhat would happen if the assert id fails?
+21:41 < jjjohhny> split
+21:41 < dominictarr> the program would crash
+21:41 < jjjohhny> thats not very CSS
+21:42 < jjjohhny> the right answer is, you would be at pains to understand or know what happened
+21:42 < dominictarr> yeah - or where in the code that behavior was added
+21:42 < dominictarr> that is the problem with monkey patches.
+21:45 < dominictarr> but, if it's really such a good idea to style things that way, why shouldn't it be a good idea to extend objects in a
+                     programming language that way?
+21:47 < rowbit1> Hourly usage stats: [developer: 0, free: 23]
+21:47 < jjjohhny> dominictarr: possibly b/c as the needs of the language become more complex, that style breaks down?
+21:47 < jjjohhny> or, what is keeping CSS frmo having real function, iterators, etc
+21:48 < jjjohhny> like, im pretty sure that 'translateX(200px)' is not a function, but a declaration written in the style of a function
+21:49 -!- h0ke [~hoke@12.250.181.178] has quit [Ping timeout: 246 seconds]
+21:51 < jjjohhny> that would be weird wouldnt it?
+21:54 -!- eugeneware [~eugenewar@2600:1010:b004:8819:edeb:e3ed:acec:ec67] has quit [Read error: No route to host]
+21:57 -!- eugeneware [~eugenewar@4.sub-70-197-10.myvzw.com] has joined #stackvm
+22:04 < dominictarr> jjjohhny, maybe the reason is just that no body has tried to make a CSS-like programming language
+22:05 < jjjohhny> dominictarr: maybe it is more interesting to analyze why interators and such are not needed
+ Unofficial browserling/testling mad science channel. For official help /join #browserling
+22:06 < jjjohhny> CSS is a programming language that is sort of fed a really important part of what makes it do its thing
+22:06 < jjjohhny> div.class > img {} is actually an iterator
+22:07 < jjjohhny> because the html provides the structure
+22:09 < jjjohhny> interesting that CSS and HTML work together, where otherwise programming languages rely on APIs to bridge twixt each other
+22:10 < jjjohhny> other languages are not really meant to be combined with another one
+22:11 -!- h0ke [~hoke@12.250.181.178] has joined #stackvm
+22:12 < jjjohhny> CSS is nothing by itself.  it is the monkey patch.
+22:12 < dominictarr> yeah - but what if you could add functions to things with css?
+22:12 < dominictarr> oh - that is like if JQUERY was a language
+22:13 < jjjohhny> would those function need to be defined in CSS or in the lingo of the "other"
+22:13 < dominictarr> jjjohhny, this is a totally new language we are talking about
+22:13 < dominictarr> a cascading-sheet langage
+22:13 < jjjohhny> somebody take a picture of this moment!
+22:14 < dominictarr> it's probably a terrible idea, but question is: exactly how terrible?
+22:14 < jjjohhny> i dont think so, the idea of interoperating languages is probably not well treated yet
+22:15 < jjjohhny> what if CSSLike could operate on ANY language
+22:15 < jjjohhny> no, better to think about actual symbiosis
+22:16 -!- eugeneware [~eugenewar@4.sub-70-197-10.myvzw.com] has quit [Remote host closed the connection]
+22:18 < jjjohhny> it would be pretty easy to make CSS and JS monkeypatch, but I dont see whatfor
+22:19 < jjjohhny> stream.readable { font-size: 16px }
+22:21 < jjjohhny> obj.stream > * { end : false }
+22:21 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has joined #stackvm
+22:22 -!- h0ke [~hoke@12.250.181.178] has quit [Ping timeout: 264 seconds]
+22:22 -!- h0ke [~hoke@12.250.181.178] has joined #stackvm
+22:23 < jjjohhny> stream:piped { content: url(...) }
+22:24 < jjjohhny> actually, it is the declaration and indentification of known objects that make CSS/HTML, and imo, JS come together
+22:27 < jjjohhny> stream.stackVM:read { content: url(...) }
+22:28 < jjjohhny> div#module:listening { color: green }
+22:29 < jjjohhny> worker.process:fork { background-repeat: process.cores }  :D
+22:29 < jjjohhny> come on, everybody play!
+22:31 < jjjohhny> utils.merge [].prototype { return: null, alert: 'fuck with my app!' }
+22:35 < jjjohhny> basically you defined behaviours in JS land and then you can declare them
+22:35 < jjjohhny> dominictarr: does this stink of smell?
+22:37 < dominictarr> jjjohhny, it seems like a bad idea, but javascript has a funny way of bad ideas turning out to be good ideas.
+22:39 < jjjohhny> configuration could be the ultimate goal, but only when configuration can handle every possible expression
+ [22:40] [jjjohhny(+i)] [2:freenode/#stackvm(+cnt)]
+[#stackvm]

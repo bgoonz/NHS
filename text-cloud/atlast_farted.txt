@@ -1,0 +1,1062 @@
+00:03 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has joined #modulhaus
+00:06 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has quit [Remote host closed the
+          connection]
+05:50 -!- mak`` [uid83936@gateway/web/irccloud.com/x-nmigtplprlimnkii] has joined #modulhaus
+09:07 -!- mhernandez1 [~mhernande@165.254.84.238] has joined #modulhaus
+23:54 -!- captain_morgan [~morgan@noisebridge130.static.monkeybrains.net] has quit [Ping timeout: 240 seconds]
+04:50 -!- domanic [~domanic@118.148.244.51] has quit [Ping timeout: 255 seconds]
+06:26 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+06:29 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has joined #stackvm
+06:44 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+07:02 -!- AndreasMadsen [~andreasma@82.211.219.202] has quit []
+07:11 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has joined #stackvm
+07:47 -!- AndreasMadsen [~andreasma@82.211.219.202] has joined #stackvm
+08:05 -!- djcoin [~djcoin@122-59-201-20.jetstream.xtra.co.nz] has quit [Quit: WeeChat 1.0.1]
+08:43 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+08:49 -!- pfallenop [~pfallenop@unaffiliated/contempt] has quit [Remote host closed the connection]
+08:50 -!- pfallenop [~pfallenop@unaffiliated/contempt] has joined #stackvm
+08:50 -!- trevnorris [~trevnorri@162.243.211.225] has quit [Quit: quit all you want]
+08:53 -!- pfallenop [~pfallenop@unaffiliated/contempt] has quit [Remote host closed the connection]
+08:54 -!- pfallenop [~pfallenop@unaffiliated/contempt] has joined #stackvm
+08:57 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has joined #stackvm
+09:17 -!- pfraze [~pfraze@99-19-21-63.lightspeed.hstntx.sbcglobal.net] has joined #stackvm
+09:37 -!- AndreasMadsen [~andreasma@82.211.219.202] has quit [Remote host closed the connection]
+09:54 -!- AndreasMadsen [~andreasma@82.211.219.202] has joined #stackvm
+10:35 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+10:37 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has joined #stackvm
+10:47 < jfhbrook> substack: neat, I never saw the fake space needle in person
+10:48 -!- stagas [~stagas@athedsl-4412242.home.otenet.gr] has joined #stackvm
+11:06 -!- pfraze [~pfraze@99-19-21-63.lightspeed.hstntx.sbcglobal.net] has quit [Remote host closed the connection]
+11:13 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+11:29 -!- pfraze [~pfraze@cpe-72-177-70-53.austin.res.rr.com] has joined #stackvm
+11:29 -!- stagas [~stagas@athedsl-4412242.home.otenet.gr] has quit [Ping timeout: 264 seconds]
+11:39 -!- drptbl [~drptbl@213-241-25-178.static.ip.netia.com.pl] has quit [Quit: My MAC has gone to sleep. zZz..]
+11:40 -!- rxgx [uid22483@gateway/web/irccloud.com/x-bongjdtclqaskvhf] has joined #stackvm
+12:02 -!- fotoverite [~fotoverit@cpe-67-244-109-181.nyc.res.rr.com] has joined #stackvm
+12:16 -!- jan____ [~jan@funtime.traeumt.net] has joined #stackvm
+12:17 -!- jan____ [~jan@funtime.traeumt.net] has quit [Changing host]
+12:17 -!- jan____ [~jan@couchdb/committer/jan] has joined #stackvm
+12:18 -!- stagas [~stagas@athedsl-4412242.home.otenet.gr] has joined #stackvm
+13:13 -!- drptbl [~drptbl@78.11.177.5] has joined #stackvm
+13:38 -!- jxson [jxson@nat/google/x-cchmaicoetcixmam] has joined #stackvm
+13:40 -!- AndreasMadsen [~andreasma@82.211.219.202] has quit [Remote host closed the connection]
+13:44 -!- pfraze [~pfraze@cpe-72-177-70-53.austin.res.rr.com] has quit [Remote host closed the connection]
+14:02 -!- pfraze [~pfraze@cpe-72-177-70-53.austin.res.rr.com] has joined #stackvm
+14:05 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has joined #stackvm
+14:12 -!- knownasilya [uid22190@gateway/web/irccloud.com/x-ojegkrevyyhvzqnv] has joined #stackvm
+14:19 -!- AndreasMadsen [~andreasma@82.211.219.202] has joined #stackvm
+14:23 -!- phated [~phated@wsip-70-184-120-71.ph.ph.cox.net] has joined #stackvm
+14:33 -!- drptbl [~drptbl@78.11.177.5] has quit [Quit: My MAC has gone to sleep. zZz..]
+14:48 -!- stagas [~stagas@athedsl-4412242.home.otenet.gr] has quit [Ping timeout: 265 seconds]
+15:34 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+15:43 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has joined #stackvm
+15:53 -!- trevnorris [~trevnorri@162.243.211.225] has joined #stackvm
+15:56 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+15:59 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has joined #stackvm
+16:03 -!- n3b [~n3b@198.167.142.150] has quit [Ping timeout: 240 seconds]
+16:05 -!- n3b [~n3b@198.167.142.150] has joined #stackvm
+16:15 -!- jxson [jxson@nat/google/x-cchmaicoetcixmam] has quit [Quit: Leaving...]
+16:16 -!- n3b [~n3b@198.167.142.150] has quit [Ping timeout: 246 seconds]
+16:17 -!- jxson [jxson@nat/google/x-cpzyupqnactgsmsy] has joined #stackvm
+16:18 -!- jxson [jxson@nat/google/x-cpzyupqnactgsmsy] has quit [Client Quit]
+16:19 -!- n3b [~n3b@198.167.142.150] has joined #stackvm
+16:26 -!- n3b [~n3b@198.167.142.150] has quit [Ping timeout: 268 seconds]
+16:29 -!- AndreasMadsen [~andreasma@82.211.219.202] has quit [Remote host closed the connection]
+16:32 -!- drptbl [~drptbl@78.11.177.5] has joined #stackvm
+16:32 -!- n3b [~n3b@198.167.142.150] has joined #stackvm
+16:45 -!- domanic [~domanic@118.148.244.51] has joined #stackvm
+16:50 -!- jiangplus [~jiang@li493-168.members.linode.com] has quit [Ping timeout: 264 seconds]
+16:50 -!- jiangplus [~jiang@li493-168.members.linode.com] has joined #stackvm
+16:58 -!- jiangplus [~jiang@li493-168.members.linode.com] has quit [Ping timeout: 240 seconds]
+16:59 -!- jiangplus [~jiang@li493-168.members.linode.com] has joined #stackvm
+17:12 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+17:18 -!- pfraze [~pfraze@cpe-72-177-70-53.austin.res.rr.com] has quit [Ping timeout: 265 seconds]
+17:19 -!- pfraze [~pfraze@cpe-72-177-70-53.austin.res.rr.com] has joined #stackvm
+17:22 -!- pfraze_ [~pfraze@cpe-72-177-70-53.austin.res.rr.com] has joined #stackvm
+17:24 -!- pfraze [~pfraze@cpe-72-177-70-53.austin.res.rr.com] has quit [Ping timeout: 265 seconds]
+17:35 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has joined #stackvm
+17:40 -!- pfraze_ [~pfraze@cpe-72-177-70-53.austin.res.rr.com] has quit [Ping timeout: 264 seconds]
+17:58 -!- stagas_ [~stagas@ppp-2-87-0-192.home.otenet.gr] has joined #stackvm
+18:30 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has joined #stackvm
+18:42 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+18:45 -!- knownasilya [uid22190@gateway/web/irccloud.com/x-ojegkrevyyhvzqnv] has quit [Quit: Connection closed for inactivity]
+19:19 -!- stagas_ [~stagas@ppp-2-87-0-192.home.otenet.gr] has quit [Ping timeout: 250 seconds]
+19:39 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit []
+19:57 -!- domanic [~domanic@118.148.244.51] has quit [Read error: Connection reset by peer]
+20:00 -!- ircretary [~ircretary@165.225.132.207] has quit [Remote host closed the connection]
+20:00 -!- ircretary [~ircretary@165.225.132.207] has joined #stackvm
+20:05 < jjjohnny> jfhbrook, substack what is the CORS flag?  I missed it
+20:06 < jfhbrook> jjjohnny: https://github.com/jfhbrook/node-ecstatic/pull/159
+20:10 -!- domanic [~domanic@118.148.141.29] has joined #stackvm
+20:15 -!- pfraze [~pfraze@cpe-72-177-70-53.austin.res.rr.com] has joined #stackvm
+20:30 -!- pfraze [~pfraze@cpe-72-177-70-53.austin.res.rr.com] has quit [Remote host closed the connection]
+20:39 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has joined #stackvm
+20:47 < substack> jjjohnny: it sets up all the cors garbage for serving up assets over xhr across domains
+20:48 -!- rxgx [uid22483@gateway/web/irccloud.com/x-bongjdtclqaskvhf] has quit [Quit: Connection closed for inactivity]
+20:57 < jfhbrook> substack: do you use ecstatic more via the cli or more via the api?
+20:57 < substack> pretty mixed
+20:57 < jfhbrook> interesting
+21:00 -!- domanic [~domanic@118.148.141.29] has quit [Ping timeout: 246 seconds]
+21:13 -!- domanic [~domanic@118.148.204.171] has joined #stackvm
+21:24 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit [Ping timeout: 255 seconds]
+21:34 -!- phated [~phated@wsip-70-184-120-71.ph.ph.cox.net] has quit [Remote host closed the connection]
+21:38 -!- contrahax [~contrahax@199-188-194-147.PUBLIC.monkeybrains.net] has joined #stackvm
+21:39 -!- contrahax [~contrahax@199-188-194-147.PUBLIC.monkeybrains.net] has quit [Client Quit]
+21:40 -!- contrahax [~contrahax@199-188-194-147.PUBLIC.monkeybrains.net] has joined #stackvm
+21:40 -!- contrahax [~contrahax@199-188-194-147.PUBLIC.monkeybrains.net] has quit [Client Quit]
+22:03 -!- contrahax [~contrahax@199-188-194-147.PUBLIC.monkeybrains.net] has joined #stackvm
+22:04 -!- contraha_ [~contrahax@mea5636d0.tmodns.net] has joined #stackvm
+22:08 -!- contrahax [~contrahax@199-188-194-147.PUBLIC.monkeybrains.net] has quit [Ping timeout: 272 seconds]
+18:09 -!- mhernandez1 [~mhernande@165.254.84.238] has quit [Ping timeout: 265 seconds]
+18:09 -!- mhernand_ [~mhernande@165.254.84.238] has quit [Ping timeout: 246 seconds]
+19:13 -!- salmaksim [~salmaksim@c-73-14-175-134.hsd1.co.comcast.net] has quit [Quit: Leaving.]
+19:49 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has joined #modulhaus
+19:55 -!- salmaksim [~salmaksim@c-73-14-175-134.hsd1.co.comcast.net] has joined #modulhaus
+20:17 -!- williamcotton_ is now known as williamcotton
+22:38 -!- domanic [~domanic@118.148.204.171] has quit [Ping timeout: 264 seconds]
+22:52 < jjjohnny> jfhbrook: both, but its my go to on the CLI, so probably more there
+02:53 -!- maraoz [~maraoz@2601:647:4b02:94f1:915e:cb05:e9b7:43f5] has quit [Ping timeout: 240 seconds]
+03:33 -!- maraoz [~maraoz@2601:647:4c01:89ce:7029:d819:5d31:9c7] has joined #cyberwizard
+04:17 -!- captain_morgan [~morgan@2602:306:80dd:1caf:f044:e52c:3757:1478] has quit [Ping timeout: 246 seconds]
+04:34 -!- captain_morgan [~morgan@172.56.32.31] has joined #cyberwizard
+05:30 -!- maraoz [~maraoz@2601:647:4c01:89ce:7029:d819:5d31:9c7] has quit [Ping timeout: 240 seconds]
+06:21 -!- oak_alternate [~Thunderbi@96.90.248.245] has quit [Ping timeout: 264 seconds]
+07:58 -!- captain_morgan [~morgan@172.56.32.31] has quit [Ping timeout: 240 seconds]
+20:47 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has quit [Remote host closed the
+          connection]
+21:08 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has joined #modulhaus
+22:19 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has quit [Remote host closed the
+          connection]
+Day changed to 01 Oct 2015
+02:29 < jjjohnny> we're gonne need email forwarding services
+03:46 < jjjohnny> foreward email to your torrent append only stream, or better, a union of them
+03:49 < jjjohnny> q.v. https://gist.github.com/pfraze/e314196dcecd4c49382d#gistcomment-1586258
+03:49 < jjjohnny> wherein i solve spam filtering
+04:58 -!- mak`` [uid83936@gateway/web/irccloud.com/x-nmyjyqvsvidtosog] has joined #modulhaus
+05:15 -!- queicherius [~queicheri@octans.uberspace.de] has joined #modulhaus
+07:23 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has joined #modulhaus
+07:41 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has quit [Remote host closed the
+          connection]
+09:13 -!- mhernandez1 [~mhernande@165.254.84.238] has joined #modulhaus
+09:13 -!- mhernand_ [~mhernande@165.254.84.238] has joined #modulhaus
+22:55 < jfhbrook> and if there's a 404.html and showdir is on, the 404 wins
+22:55 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has joined #stackvm
+22:56 < jjjohnny> if you scrub over large audio files you may crash ecstatic
+22:56 < jfhbrook> oh ouch
+22:56 < jfhbrook> any meaningful stack traces?
+22:56 < jjjohnny> no
+22:56 < jfhbrook> or is that an issue more with node?
+22:56 < jfhbrook> cause it's mostly just fs.createReadStream(file).pipe(res) at the end of the day
+22:57 < jjjohnny> hm
+22:57 < jjjohnny> you have to scrub hard
+22:57 < jfhbrook> I mostly use ecstatic as a dev server and to serve up sidecar content like with wzrd.in
+22:57 < jfhbrook> for legit prod static file serving the right thing is probably nginx
+22:57 < jfhbrook> even if that's a little harder to deploy
+22:58 < jfhbrook> which reminds me, I've heard of people fronting ecstatic with nginx, cause I got weak ETAG support to make
+                  nginx and gzipped content behave well together
+23:00 < jfhbrook> I'm kinda trying to gauge how people use it cause that to an extent drives features---like you wouldn't need
+                  baked-in support for the trappings of CORS if you were using ecstatic as a middleware
+23:04 < jfhbrook> I should rewrite the README
+23:07 -!- shama [~shama@c-73-11-44-74.hsd1.or.comcast.net] has joined #stackvm
+23:10 -!- pfraze [~pfraze@99-19-21-63.lightspeed.hstntx.sbcglobal.net] has joined #stackvm
+23:26 -!- pfraze [~pfraze@99-19-21-63.lightspeed.hstntx.sbcglobal.net] has quit [Remote host closed the connection]
+23:29 -!- pfraze [~pfraze@99-19-21-63.lightspeed.hstntx.sbcglobal.net] has joined #stackvm
+Day changed to 02 Oct 2015
+00:21 -!- pfraze [~pfraze@99-19-21-63.lightspeed.hstntx.sbcglobal.net] has quit [Remote host closed the connection]
+01:14 -!- shama [~shama@c-73-11-44-74.hsd1.or.comcast.net] has quit [Quit: (o°¡°	ÿo5ÿPoPes]
+01:53 -!- stagas_ [~stagas@ppp-2-87-0-192.home.otenet.gr] has joined #stackvm
+02:13 -!- stagas_ [~stagas@ppp-2-87-0-192.home.otenet.gr] has quit [Ping timeout: 240 seconds]
+02:54 -!- stagas_ [~stagas@athedsl-4419379.home.otenet.gr] has joined #stackvm
+02:55 -!- stagas [~stagas@ppp-2-84-86-216.home.otenet.gr] has joined #stackvm
+02:58 -!- stagas_ [~stagas@athedsl-4419379.home.otenet.gr] has quit [Ping timeout: 240 seconds]
+03:03 -!- stagas [~stagas@ppp-2-84-86-216.home.otenet.gr] has quit [Remote host closed the connection]
+03:08 -!- domanic [~domanic@118.148.204.171] has joined #stackvm
+04:07 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has joined #stackvm
+04:09 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit [Quit: Sleeping]
+04:23 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has joined #stackvm
+04:27 < jjjohnny> https://gist.github.com/pfraze/e314196dcecd4c49382d
+04:30 < jjjohnny> stack poetry night https://gist.github.com/NHQ/9d7bade5a2a4083e9477
+04:31 < jjjohnny> I MISS YOU LOUDBOT
+04:33 -!- AndreasMadsen [~andreasma@82.211.219.202] has joined #stackvm
+04:36 -!- fotoverite [~fotoverit@cpe-67-244-109-181.nyc.res.rr.com] has quit [Quit: fotoverite]
+05:14 -!- gausby [~gausby@141.255.189.138] has quit [Ping timeout: 265 seconds]
+05:15 -!- noffle_ [~noffle@198.199.97.80] has joined #stackvm
+05:15 -!- {slurp}1 [~nodebot@107.170.199.52] has joined #stackvm
+22:57 < jjjohnny> you have to scrub hard
+22:57 < jfhbrook> I mostly use ecstatic as a dev server and to serve up sidecar content like with wzrd.in
+22:57 < jfhbrook> for legit prod static file serving the right thing is probably nginx
+22:57 < jfhbrook> even if that's a little harder to deploy
+22:58 < jfhbrook> which reminds me, I've heard of people fronting ecstatic with nginx, cause I got weak ETAG support to make
+                  nginx and gzipped content behave well together
+23:00 < jfhbrook> I'm kinda trying to gauge how people use it cause that to an extent drives features---like you wouldn't need
+                  baked-in support for the trappings of CORS if you were using ecstatic as a middleware
+23:04 < jfhbrook> I should rewrite the README
+23:07 -!- shama [~shama@c-73-11-44-74.hsd1.or.comcast.net] has joined #stackvm
+23:10 -!- pfraze [~pfraze@99-19-21-63.lightspeed.hstntx.sbcglobal.net] has joined #stackvm
+23:26 -!- pfraze [~pfraze@99-19-21-63.lightspeed.hstntx.sbcglobal.net] has quit [Remote host closed the connection]
+23:29 -!- pfraze [~pfraze@99-19-21-63.lightspeed.hstntx.sbcglobal.net] has joined #stackvm
+Day changed to 02 Oct 2015
+00:21 -!- pfraze [~pfraze@99-19-21-63.lightspeed.hstntx.sbcglobal.net] has quit [Remote host closed the connection]
+01:14 -!- shama [~shama@c-73-11-44-74.hsd1.or.comcast.net] has quit [Quit: (o°¡°	ÿo5ÿPoPes]
+01:53 -!- stagas_ [~stagas@ppp-2-87-0-192.home.otenet.gr] has joined #stackvm
+02:13 -!- stagas_ [~stagas@ppp-2-87-0-192.home.otenet.gr] has quit [Ping timeout: 240 seconds]
+02:54 -!- stagas_ [~stagas@athedsl-4419379.home.otenet.gr] has joined #stackvm
+02:55 -!- stagas [~stagas@ppp-2-84-86-216.home.otenet.gr] has joined #stackvm
+02:58 -!- stagas_ [~stagas@athedsl-4419379.home.otenet.gr] has quit [Ping timeout: 240 seconds]
+03:03 -!- stagas [~stagas@ppp-2-84-86-216.home.otenet.gr] has quit [Remote host closed the connection]
+03:08 -!- domanic [~domanic@118.148.204.171] has joined #stackvm
+04:07 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has joined #stackvm
+04:09 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit [Quit: Sleeping]
+04:23 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has joined #stackvm
+04:27 < jjjohnny> https://gist.github.com/pfraze/e314196dcecd4c49382d
+04:30 < jjjohnny> stack poetry night https://gist.github.com/NHQ/9d7bade5a2a4083e9477
+04:31 < jjjohnny> I MISS YOU LOUDBOT
+04:33 -!- AndreasMadsen [~andreasma@82.211.219.202] has joined #stackvm
+04:36 -!- fotoverite [~fotoverit@cpe-67-244-109-181.nyc.res.rr.com] has quit [Quit: fotoverite]
+05:14 -!- gausby [~gausby@141.255.189.138] has quit [Ping timeout: 265 seconds]
+05:15 -!- noffle_ [~noffle@198.199.97.80] has joined #stackvm
+05:15 -!- {slurp}1 [~nodebot@107.170.199.52] has joined #stackvm
+05:15 -!- hij1nx_ [~hij1nx@72.2.124.239] has joined #stackvm
+05:17 -!- timoxley [~timoxley@128.199.65.199] has quit [Ping timeout: 250 seconds]
+03:08 -!- domanic [~domanic@118.148.204.171] has joined #stackvm
+04:07 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has joined #stackvm
+04:09 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit [Quit: Sleeping]
+04:23 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has joined #stackvm
+04:27 < jjjohnny> https://gist.github.com/pfraze/e314196dcecd4c49382d
+04:30 < jjjohnny> stack poetry night https://gist.github.com/NHQ/9d7bade5a2a4083e9477
+04:31 < jjjohnny> I MISS YOU LOUDBOT
+04:33 -!- AndreasMadsen [~andreasma@82.211.219.202] has joined #stackvm
+04:36 -!- fotoverite [~fotoverit@cpe-67-244-109-181.nyc.res.rr.com] has quit [Quit: fotoverite]
+05:14 -!- gausby [~gausby@141.255.189.138] has quit [Ping timeout: 265 seconds]
+05:15 -!- noffle_ [~noffle@198.199.97.80] has joined #stackvm
+05:15 -!- {slurp}1 [~nodebot@107.170.199.52] has joined #stackvm
+05:15 -!- hij1nx_ [~hij1nx@72.2.124.239] has joined #stackvm
+05:17 -!- timoxley [~timoxley@128.199.65.199] has quit [Ping timeout: 250 seconds]
+05:17 -!- noffle [~noffle@198.199.97.80] has quit [Ping timeout: 250 seconds]
+05:17 -!- {slurp} [~nodebot@107.170.199.52] has quit [Ping timeout: 250 seconds]
+05:17 -!- hij1nx [~hij1nx@72.2.124.239] has quit [Ping timeout: 250 seconds]
+05:20 -!- timoxley [~timoxley@128.199.65.199] has joined #stackvm
+05:32 -!- domanic [~domanic@118.148.204.171] has quit [Ping timeout: 264 seconds]
+05:35 -!- gausby [~gausby@2a00:16d8:2:300:216:eff:fe44:704b] has joined #stackvm
+05:36 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+06:22 -!- AndreasMadsen [~andreasma@82.211.219.202] has quit []
+06:46 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has joined #stackvm
+06:53 -!- djcoin [~djcoin@122-59-201-20.jetstream.xtra.co.nz] has joined #stackvm
+07:18 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit [Quit: Sleeping]
+07:49 -!- n3b [~n3b@198.167.142.150] has left #stackvm []
+07:55 -!- AndreasMadsen [~andreasma@130.225.93.170] has joined #stackvm
+07:57 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+07:57 -!- AndreasMadsen [~andreasma@130.225.93.170] has quit [Remote host closed the connection]
+08:01 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has joined #stackvm
+08:02 -!- djcoin [~djcoin@122-59-201-20.jetstream.xtra.co.nz] has quit [Quit: WeeChat 1.0.1]
+08:30 -!- AndreasMadsen [~andreasma@2001:878:200:1053:4887:dff7:b467:6b74] has joined #stackvm
+08:30 -!- knownasilya [uid22190@gateway/web/irccloud.com/x-mvloepgvvanhhrus] has joined #stackvm
+08:30 -!- AndreasMadsen [~andreasma@2001:878:200:1053:4887:dff7:b467:6b74] has quit [Remote host closed the connection]
+08:53 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+09:07 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has joined #stackvm
+09:09 -!- pfraze [~pfraze@99-19-21-63.lightspeed.hstntx.sbcglobal.net] has joined #stackvm
+09:17 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+09:23 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has joined #stackvm
+11:59 -!- Niftylettuce123 [a2e07651@gateway/web/freenode/ip.162.224.118.81] has joined #stackvm
+12:02 -!- niftylettuce [uid2733@gateway/web/irccloud.com/x-ljsdqwjvvijtaqri] has joined #stackvm
+12:16 -!- pfraze [~pfraze@99-19-21-63.lightspeed.hstntx.sbcglobal.net] has quit [Remote host closed the connection]
+12:24 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+12:26 -!- pfraze [~pfraze@99-19-21-63.lightspeed.hstntx.sbcglobal.net] has joined #stackvm
+12:29 -!- yorick [~yorick@oftn/member/yorick] has quit [Ping timeout: 260 seconds]
+12:30 -!- pfraze [~pfraze@99-19-21-63.lightspeed.hstntx.sbcglobal.net] has quit [Remote host closed the connection]
+12:30 -!- yorick [~yorick@oftn/member/yorick] has joined #stackvm
+12:43 -!- pfraze [~pfraze@99-19-21-63.lightspeed.hstntx.sbcglobal.net] has joined #stackvm
+12:47 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has joined #stackvm
+13:25 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+13:35 -!- eyeforeigneye [~yana@flat.jof.io] has joined #stackvm
+13:39 -!- pfraze [~pfraze@99-19-21-63.lightspeed.hstntx.sbcglobal.net] has quit [Remote host closed the connection]
+14:12 < substack> Raynos: what should semver do for that tape patch for skipping?
+14:13 < jfhbrook> substack: can you give me an idea as to what the `weak` module actually does in dnode? basic ctrl-f-ing for
+                  require('weak') doesn't seem to yield anything interesting
+14:13 < jfhbrook> substack: loosely thinking about revisiting dnode-python *maybe*
+14:13 -!- phated [~phated@wsip-70-184-120-71.ph.ph.cox.net] has joined #stackvm
+14:14 < substack> jfhbrook: it helps with garbage collection
+14:14 < jfhbrook> but how?
+14:15 < jfhbrook> like the docs talk about how it allows you to get an event for when the thing is GC'd but doesn't really talk
+                  about, say, explicitly triggering GC or making it more aggressive
+14:18 < substack> I don't remember exactly, but I measured it
+14:26 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has joined #stackvm
+14:27 < jfhbrook> interesting
+14:35 -!- pfallenop [~pfallenop@unaffiliated/contempt] has quit [Remote host closed the connection]
+14:36 -!- pfallenop [~pfallenop@188.164.131.220] has joined #stackvm
+14:36 -!- pfallenop [~pfallenop@188.164.131.220] has quit [Changing host]
+14:36 -!- pfallenop [~pfallenop@unaffiliated/contempt] has joined #stackvm
+14:36 -!- drptbl [~drptbl@78.11.177.5] has joined #stackvm
+15:28 -!- noffle_ is now known as nofflle
+15:28 -!- nofflle is now known as noffle
+15:30 -!- fotoverite [~fotoverit@cpe-67-244-109-181.nyc.res.rr.com] has joined #stackvm
+15:40 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has joined #stackvm
+15:50 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+15:59 -!- phated [~phated@wsip-70-184-120-71.ph.ph.cox.net] has quit [Remote host closed the connection]
+16:05 -!- Niftylettuce123 [a2e07651@gateway/web/freenode/ip.162.224.118.81] has quit [Ping timeout: 246 seconds]
+16:28 -!- phated [~phated@wsip-70-184-120-71.ph.ph.cox.net] has joined #stackvm
+16:41 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has joined #stackvm
+16:41 -!- drptbl [~drptbl@78.11.177.5] has quit [Ping timeout: 240 seconds]
+16:49 -!- drptbl [~drptbl@78.11.177.5] has joined #stackvm
+17:11 -!- eyeforeigneye [~yana@flat.jof.io] has quit [Ping timeout: 240 seconds]
+17:45 < substack> ogd: wizard robe+hat station too
+17:51 -!- domanic [~domanic@203.176.188.17] has joined #stackvm
+17:53 < substack> domanic: forest hax in july on the oregon coast activities include wizard gear, slow computing
+17:55 < domanic> substack, what scale of happening is this?
+17:57 < substack> not sure yet, but perhaps no more than 100?
+17:57  * substack is very nearby right now
+18:05 -!- pfallenop [~pfallenop@unaffiliated/contempt] has quit [Quit: leaving]
+18:07 -!- pfallenop [~pfallenop@unaffiliated/contempt] has joined #stackvm
+18:07 -!- rwaldron [rwaldron@gateway/shell/jquery.com/x-julskvlpancobglb] has quit [Remote host closed the connection]
+18:09 -!- domanic [~domanic@203.176.188.17] has quit [Ping timeout: 250 seconds]
+18:16 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has joined #stackvm
+18:31 -!- niftylettuce [uid2733@gateway/web/irccloud.com/x-ljsdqwjvvijtaqri] has quit [Quit: Connection closed for inactivity]
+19:04 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+19:50 < substack> jfhbrook: whoops, that patch introduces some issues, updated in a second patch
+19:50 < jfhbrook> oh?
+19:50 < jfhbrook> daang
+19:50 < jfhbrook> patch releases left and right
+19:50 < jfhbrook> oh, substack if you're talking about the boolean flags stuff I already merged/released as 1.1.1
+19:50 < jfhbrook> cause good catch
+19:52 < substack> I would just wait like 15 minutes
+19:53 < substack> there's some issues because the opts thing clashes with how minimist works
+19:57 < jfhbrook> are you waying 1.1.1 doesn't fix it?
+19:58 < substack> all good in the latest substack boolean branch now
+19:58 < jfhbrook> well like I said I merged and released https://github.com/jfhbrook/node-ecstatic/pull/160 so
+19:58 < jfhbrook> if it's not that...
+19:58 -!- domanic [~domanic@210.54.39.51] has joined #stackvm
+19:58 < substack> there are some more commits since then
+19:59 < substack> the issue is: setting opts as boolean in minimist defaults their value to false
+19:59 < substack> which was tripping up the opts.js handler, so I had to also set defaults and I factored that into one place
+                  (defaults.json)
+19:59 < jfhbrook> ohhh
+19:59 < jfhbrook> okay I see
+19:59 < substack> and I also factored the alias handling, because those integrate with the booleanness
+                  on it
+04:16 < jjjohnny> idk if that makes sense
+04:17 < jjjohnny> possibly, same as bitcoin, we could aggregate the namecoin blockchain into the p2p nets
+04:19 < jjjohnny> dig into the blockchain
+04:19 < jjjohnny> anyway, so there's that
+04:19 < jjjohnny> namecoin api in the peernet
+16:36 -!- AndreasMadsen [~andreasma@82.211.219.202] has joined #stackvm
+04:20 < jjjohnny> a cheap secure key value pair tree
+04:21 < jjjohnny> but srsly, dex apis
+04:24 < jjjohnny> i like it because it employs crypto, and seems to be a slept-on, yet fairly powerful, already-ready network
+04:24 < jjjohnny> crypto currencies, i mean
+04:25 < jjjohnny> i can get some namecoin, fwiw
+04:25 < jjjohnny> which is more than I can say about dollar store devops
+07:13 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has joined #modulhaus
+07:35 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has quit [Remote host closed the
+          connection]
+08:52 -!- mhernandez1 [~mhernande@165.254.84.238] has joined #modulhaus
+09:03 -!- mhernandez1 [~mhernande@165.254.84.238] has quit [Remote host closed the connection]
+09:04 -!- mhernandez1 [~mhernande@165.254.84.238] has joined #modulhaus
+09:14 -!- mhernandez1 [~mhernande@165.254.84.238] has quit [Remote host closed the connection]
+09:14 -!- mhernandez1 [~mhernande@165.254.84.238] has joined #modulhaus
+10:19 -!- mak`` [uid83936@gateway/web/irccloud.com/x-kunnvfeudgmicgzz] has joined #modulhaus
+13:17 -!- mhernandez1 [~mhernande@165.254.84.238] has quit [Remote host closed the connection]
+19:47 -!- domanic_ [~domanic@203.176.188.17] has quit [Ping timeout: 250 seconds]
+13:17 -!- mhernandez1 [~mhernande@165.254.84.238] has joined #modulhaus
+14:14 -!- mhernandez1 [~mhernande@165.254.84.238] has quit [Remote host closed the connection]
+14:14 -!- mhernandez1 [~mhernande@165.254.84.238] has joined #modulhaus
+14:43 -!- mhernandez1 [~mhernande@165.254.84.238] has quit [Remote host closed the connection]
+15:17 -!- mak`` [uid83936@gateway/web/irccloud.com/x-kunnvfeudgmicgzz] has quit [Quit: Connection closed for inactivity]
+20:59 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has joined #modulhaus
+21:20 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has quit [Remote host closed the
+          connection]
+Day changed to 03 Oct 2015
+02:12 < substack> a demo of the hyperboot reader is nearly ready
+02:45 < jjjohnny> whats that?
+02:45 < jjjohnny> im in the middle of packing out, so I am begind on developments
+02:45 < jjjohnny> soon as I am out tho its on
+15:26 < substack> jjjohnny: https://github.com/substack/hyperboot-reader
+21:08 < jjjohnny> substack: what version node you using?
+21:08 < substack> 4
+21:20 < substack> jjjohnny: htmlb.in now gives back proper cors headers
+21:23 < substack> https://d7ed40c692677ed6580f6738c2ffbf7782e49993.htmlb.in/add/https://558216f77feb3a95ee4a3df3259029cff3154d24
+.htmlb.in
+21:24 < jjjohnny> sweet
+21:25 < jjjohnny> wow
+21:25 < jjjohnny> awesome
+21:29 < jjjohnny> apatasaur.svg NOT FOUND
+21:30 < jjjohnny> so reader can read any app from any hyperboot server?
+21:51 < substack> oh whoops I didn't inline the app
+21:51 < substack> any server that sends cors headers
+22:02 < substack> https://d7ed40c692677ed6580f6738c2ffbf7782e49993.htmlb.in/add/https://273212fe65205e46f326541b4b8afde20df2e280
+.htmlb.in/
+23:19 -!- juliangruber [~juliangru@37.153.99.230] has quit [Ping timeout: 244 seconds]
+23:19 -!- juliangruber [~juliangru@37.153.99.230] has joined #modulhaus
+Day changed to 04 Oct 2015
+00:56 < jjjohnny> substack: i still get the svg get error, on the reader homepage
+00:57 < jjjohnny> maybe i need to update my local copy of reader
+00:57 < jjjohnny> i cloned it
+00:58 < jjjohnny> on the web version i see dino
+02:27 < jjjohnny> local version didnt fix
+03:02 < substack> jjjohnny: did you click +app?
+03:02 < substack> it's going to show the old version forever
+03:02 < substack> there is no way to delete items from the ui
+03:48 < jjjohnny> ohk got it
+09:27 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has joined #modulhaus
+09:34 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has quit [Remote host closed the
+          connection]
+11:15 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has joined #modulhaus
+11:41 < salmaksim> did you guys try mithiljs?
+11:41 < salmaksim> mithril js
+12:20 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has quit [Remote host closed the
+          connection]
+12:37 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has joined #modulhaus
+12:51 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has quit [Remote host closed the
+          connection]
+12:51 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has joined #modulhaus
+12:52 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has quit [Remote host closed the
+          connection]
+13:45 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has joined #modulhaus
+13:48 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has quit [Remote host closed the
+          connection]
+14:47 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has joined #modulhaus
+14:55 < substack> salmaksim: I prefer to pick and choose smaller libs to handle routing, rendering, and external requests
+14:55 < substack> especially since what I do tends to be quite experimental
+15:04 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has quit [Remote host closed the
+          connection]
+15:26 -!- jjjohnny [~root@li88-247.members.linode.com] has quit [Ping timeout: 240 seconds]
+15:26 -!- jjjohnny_ [~root@li88-247.members.linode.com] has joined #modulhaus
+15:26 [Users #modulhaus]
+15:26 [ jjjohnny ] [ juliangruber] [ pguth2     ] [ raboof   ] [ substack     ]
+15:26 [ jjjohnny_] [ owen1       ] [ queicherius] [ salmaksim] [ williamcotton]
+15:26 -!- Irssi: #modulhaus: Total of 10 nicks [0 ops, 0 halfops, 0 voices, 10 normal]
+15:26 -!- Channel #modulhaus created Fri Feb 27 16:44:05 2015
+15:27 -!- Irssi: Join to #modulhaus was synced in 51 secs
+15:32 -!- jjjohnny [~root@li88-247.members.linode.com] has quit [Ping timeout: 240 seconds]
+15:51 < salmaksim> substack: i can appreciate that approach. do you have an example i can look at?
+15:59 < substack> https://github.com/substack/virtual-dom-universal-starter
+16:00 < substack> https://github.com/substack/hyperboot-reader is built the same way
+16:01 < salmaksim> yay thanks :D
+16:13 < salmaksim> i think that approach accords more with what i'm looking for.
+16:20 < substack> here's how I've been wiring up an events system lately
+                  https://github.com/substack/hyperboot-reader/blob/master/lib/bus_loop.js
+16:20 < substack> then the render() function gets render(state, emit) and the view/html generation code can emit() events to be
+                  handled elsewhere
+16:21 < substack> like this: loop.bus.on('whatever', function (x) { loop.extend({ x: x }) })
+16:32 < salmaksim> it's nice to see someone using a different technique for making a front-end app. i got shouted down so many
+                   times by programmers if i ever deviated from the their acceptable technologies.
+16:39 < salmaksim> but it wasn't really shouting, it was more like passive aggressive thwarting.
+16:41 < substack> there are so many ways to build an app and there is no one-size-fits-all answer
+16:41 < substack> I like building apps this way because I fully understand each piece and can swap them out easily for
+                  something different
+16:42 < substack> especially if I need to change the architecture as the app gets more complicated
+16:51 < salmaksim> ya it does look flexible that way
+16:52 < substack> I'm going to write an article for folkstack about this stuff ^_^
+16:53 < substack> I think a large factor in the proliferation of these large clunky frameworks is related to how people are
+                  organized to work in big teams on projects
+16:54 < substack> conway's law
+16:55 < salmaksim> people don't even learn the framework's api and they pull in other modules with duplicate functionality
+                   anyway
+.htmlb.in/
+23:19 -!- juliangruber [~juliangru@37.153.99.230] has quit [Ping timeout: 244 seconds]
+23:19 -!- juliangruber [~juliangru@37.153.99.230] has joined #modulhaus
+Day changed to 04 Oct 2015
+00:56 < jjjohnny> substack: i still get the svg get error, on the reader homepage
+00:57 < jjjohnny> maybe i need to update my local copy of reader
+00:57 < jjjohnny> i cloned it
+00:58 < jjjohnny> on the web version i see dino
+02:27 < jjjohnny> local version didnt fix
+03:02 < substack> jjjohnny: did you click +app?
+03:02 < substack> it's going to show the old version forever
+03:02 < substack> there is no way to delete items from the ui
+03:48 < jjjohnny> ohk got it
+09:27 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has joined #modulhaus
+09:34 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has quit [Remote host closed the
+          connection]
+11:15 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has joined #modulhaus
+11:41 < salmaksim> did you guys try mithiljs?
+11:41 < salmaksim> mithril js
+12:20 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has quit [Remote host closed the
+          connection]
+12:37 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has joined #modulhaus
+12:51 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has quit [Remote host closed the
+          connection]
+12:51 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has joined #modulhaus
+12:52 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has quit [Remote host closed the
+          connection]
+13:45 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has joined #modulhaus
+13:48 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has quit [Remote host closed the
+          connection]
+14:47 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has joined #modulhaus
+14:55 < substack> salmaksim: I prefer to pick and choose smaller libs to handle routing, rendering, and external requests
+14:55 < substack> especially since what I do tends to be quite experimental
+15:04 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has quit [Remote host closed the
+          connection]
+15:26 -!- jjjohnny [~root@li88-247.members.linode.com] has quit [Ping timeout: 240 seconds]
+15:26 -!- jjjohnny_ [~root@li88-247.members.linode.com] has joined #modulhaus
+15:26 [Users #modulhaus]
+15:26 [ jjjohnny ] [ juliangruber] [ pguth2     ] [ raboof   ] [ substack     ]
+15:26 [ jjjohnny_] [ owen1       ] [ queicherius] [ salmaksim] [ williamcotton]
+15:26 -!- Irssi: #modulhaus: Total of 10 nicks [0 ops, 0 halfops, 0 voices, 10 normal]
+15:26 -!- Channel #modulhaus created Fri Feb 27 16:44:05 2015
+15:27 -!- Irssi: Join to #modulhaus was synced in 51 secs
+15:32 -!- jjjohnny [~root@li88-247.members.linode.com] has quit [Ping timeout: 240 seconds]
+15:51 < salmaksim> substack: i can appreciate that approach. do you have an example i can look at?
+15:59 < substack> https://github.com/substack/virtual-dom-universal-starter
+16:00 < substack> https://github.com/substack/hyperboot-reader is built the same way
+16:01 < salmaksim> yay thanks :D
+16:13 < salmaksim> i think that approach accords more with what i'm looking for.
+16:20 < substack> here's how I've been wiring up an events system lately
+                  https://github.com/substack/hyperboot-reader/blob/master/lib/bus_loop.js
+16:20 < substack> then the render() function gets render(state, emit) and the view/html generation code can emit() events to be
+                  handled elsewhere
+16:21 < substack> like this: loop.bus.on('whatever', function (x) { loop.extend({ x: x }) })
+16:32 < salmaksim> it's nice to see someone using a different technique for making a front-end app. i got shouted down so many
+                   times by programmers if i ever deviated from the their acceptable technologies.
+16:39 < salmaksim> but it wasn't really shouting, it was more like passive aggressive thwarting.
+16:41 < substack> there are so many ways to build an app and there is no one-size-fits-all answer
+16:41 < substack> I like building apps this way because I fully understand each piece and can swap them out easily for
+                  something different
+16:42 < substack> especially if I need to change the architecture as the app gets more complicated
+16:51 < salmaksim> ya it does look flexible that way
+16:52 < substack> I'm going to write an article for folkstack about this stuff ^_^
+16:53 < substack> I think a large factor in the proliferation of these large clunky frameworks is related to how people are
+                  organized to work in big teams on projects
+16:54 < substack> conway's law
+16:55 < salmaksim> people don't even learn the framework's api and they pull in other modules with duplicate functionality
+                   anyway
+16:55 < salmaksim> i think it has to do with courage, integrity, and intelligence
+16:56 < substack> companies organize tech labor to work in top-down command hierarchies with replacable workers using commodity
+                  skills at the leaf nodes
+16:56 < salmaksim> ya, i think that is so
+16:57 < salmaksim> if you're smart it's miserable to work in those environments
+16:57 < substack> I think it has more to do with how the tech industry systematically disempowers its workers, especially as
+                  the scale of an organization grows
+16:57 < substack> versus a vibrant open source ecosystem that maximizes empowerment where coordination is voluntary and ad-hoc
+15:27 -!- Irssi: Join to #modulhaus was synced in 51 secs
+15:32 -!- jjjohnny [~root@li88-247.members.linode.com] has quit [Ping timeout: 240 seconds]
+15:51 < salmaksim> substack: i can appreciate that approach. do you have an example i can look at?
+15:59 < substack> https://github.com/substack/virtual-dom-universal-starter
+16:00 < substack> https://github.com/substack/hyperboot-reader is built the same way
+16:01 < salmaksim> yay thanks :D
+16:13 < salmaksim> i think that approach accords more with what i'm looking for.
+16:20 < substack> here's how I've been wiring up an events system lately
+                  https://github.com/substack/hyperboot-reader/blob/master/lib/bus_loop.js
+16:20 < substack> then the render() function gets render(state, emit) and the view/html generation code can emit() events to be
+                  handled elsewhere
+16:21 < substack> like this: loop.bus.on('whatever', function (x) { loop.extend({ x: x }) })
+16:32 < salmaksim> it's nice to see someone using a different technique for making a front-end app. i got shouted down so many
+                   times by programmers if i ever deviated from the their acceptable technologies.
+16:39 < salmaksim> but it wasn't really shouting, it was more like passive aggressive thwarting.
+16:41 < substack> there are so many ways to build an app and there is no one-size-fits-all answer
+16:41 < substack> I like building apps this way because I fully understand each piece and can swap them out easily for
+                  something different
+16:42 < substack> especially if I need to change the architecture as the app gets more complicated
+16:51 < salmaksim> ya it does look flexible that way
+16:52 < substack> I'm going to write an article for folkstack about this stuff ^_^
+16:53 < substack> I think a large factor in the proliferation of these large clunky frameworks is related to how people are
+                  organized to work in big teams on projects
+16:54 < substack> conway's law
+16:55 < salmaksim> people don't even learn the framework's api and they pull in other modules with duplicate functionality
+                   anyway
+16:55 < salmaksim> i think it has to do with courage, integrity, and intelligence
+16:56 < substack> companies organize tech labor to work in top-down command hierarchies with replacable workers using commodity
+                  skills at the leaf nodes
+16:56 < salmaksim> ya, i think that is so
+16:57 < salmaksim> if you're smart it's miserable to work in those environments
+16:57 < substack> I think it has more to do with how the tech industry systematically disempowers its workers, especially as
+                  the scale of an organization grows
+16:57 < substack> versus a vibrant open source ecosystem that maximizes empowerment where coordination is voluntary and ad-hoc
+16:58 < salmaksim> i concur, and i just left a position where i was helping big orgs with their js front-ends
+16:59 < salmaksim> their strategy was to put these guys into a room and try to get a consensus on tech decisions
+16:59 < substack> jjjohnny_ and I have been going over some alternative economic systems that will work for decentralized,
+                  distributed, peer to peer work
+16:59 < salmaksim> when someone came up with a good idea it was demonstrated and then ignored
+17:00 < salmaksim> i think it is to try to enforce low self esteem
+17:01 < substack> I hate it when everybody gets into a room like that and "decides something"
+17:01 < substack> https://en.wikipedia.org/wiki/Marx%27s_theory_of_alienation
+17:02 < salmaksim> i told their guys who had good ideas "hey man, that was really interesting and powerful. i would follow you
+                   on that idea and get behind it all the way"
+17:02 < salmaksim> they were shocked that i would say that
+17:02 < salmaksim> i don't think anyone had ever said an encouraging thing to them before
+17:04 < salmaksim> i can read more into that but it's not the class structure which separates the person from their true self.
+                   it is their parents and community who traumatize them into being weak.
+17:04 < substack> at the end of the day, if you work for a company then they "own" anything you make for that job and will make
+                  demands on how it gets done
+17:05 < substack> some people will always be at the shit end of that kind of dynamic
+17:05 < salmaksim> not some, most
+17:05 < substack> salmaksim: the class structure is about the means of production
+17:05 < substack> the people who control production call the shots
+17:06 < salmaksim> that is a symptom of people who have been psychologically traumatized earlier in life.
+17:06 < substack> I don't think that follows
+17:07 < salmaksim> it does
+17:07 < salmaksim> the child who is harmed grows up to be very slavish
+17:07 < salmaksim> which is most
+17:08 < salmaksim> childhood trauma is the dynamic which enables Statism
+17:08 < salmaksim> Statism enables class hierarchy
+17:09 < substack> capitalism is the trauma that enables and enforces class hierarchy, inequality
+17:10 < salmaksim> no, Statism enforces class hierarchy
+17:10 < salmaksim> capitalism is the voluntary free trade among individuals
+16:57 < salmaksim> if you're smart it's miserable to work in those environments
+16:57 < substack> I think it has more to do with how the tech industry systematically disempowers its workers, especially as
+                  the scale of an organization grows
+16:57 < substack> versus a vibrant open source ecosystem that maximizes empowerment where coordination is voluntary and ad-hoc
+16:58 < salmaksim> i concur, and i just left a position where i was helping big orgs with their js front-ends
+16:59 < salmaksim> their strategy was to put these guys into a room and try to get a consensus on tech decisions
+16:59 < substack> jjjohnny_ and I have been going over some alternative economic systems that will work for decentralized,
+                  distributed, peer to peer work
+16:59 < salmaksim> when someone came up with a good idea it was demonstrated and then ignored
+17:00 < salmaksim> i think it is to try to enforce low self esteem
+17:01 < substack> I hate it when everybody gets into a room like that and "decides something"
+17:01 < substack> https://en.wikipedia.org/wiki/Marx%27s_theory_of_alienation
+17:02 < salmaksim> i told their guys who had good ideas "hey man, that was really interesting and powerful. i would follow you
+                   on that idea and get behind it all the way"
+17:02 < salmaksim> they were shocked that i would say that
+17:02 < salmaksim> i don't think anyone had ever said an encouraging thing to them before
+17:04 < salmaksim> i can read more into that but it's not the class structure which separates the person from their true self.
+                   it is their parents and community who traumatize them into being weak.
+17:04 < substack> at the end of the day, if you work for a company then they "own" anything you make for that job and will make
+                  demands on how it gets done
+17:05 < substack> some people will always be at the shit end of that kind of dynamic
+17:05 < salmaksim> not some, most
+17:05 < substack> salmaksim: the class structure is about the means of production
+17:05 < substack> the people who control production call the shots
+17:06 < salmaksim> that is a symptom of people who have been psychologically traumatized earlier in life.
+17:06 < substack> I don't think that follows
+17:07 < salmaksim> it does
+17:07 < salmaksim> the child who is harmed grows up to be very slavish
+17:07 < salmaksim> which is most
+17:08 < salmaksim> childhood trauma is the dynamic which enables Statism
+17:08 < salmaksim> Statism enables class hierarchy
+17:09 < substack> capitalism is the trauma that enables and enforces class hierarchy, inequality
+17:10 < salmaksim> no, Statism enforces class hierarchy
+17:10 < salmaksim> capitalism is the voluntary free trade among individuals
+17:11 < jjjohnny_> programmers are workers, same as factory workers, same class
+17:11 < jjjohnny_> which are the horse of capitalism
+17:11 < salmaksim> it's very egalitarian to have that choice and freedom. it is Statism and the traumatization of children
+                   which is the source of the injustice.
+17:11 < jjjohnny_> so max extraction is as work
+17:13 < substack> we've got to shut down the digital factories, run the bosses out of town
+17:14 < substack> it's not even like there is anything physical to take over, it's all ephemeral
+17:14 < jjjohnny_> there will always be people willing to level up their economic state as long as there is stable pay, ergo
+                   tech workers.
+17:14 < jjjohnny_> but if we make a viable means of dropping out
+17:15 < jjjohnny_> you know how so many young people be like, im considering grad school
+17:15 < salmaksim> hehe but you're talking about breaking a massive addiction to hierarchical dominance
+17:15 < jjjohnny_> its escapism
+17:15 < salmaksim> lording over others is like their way of life
+17:15 < jjjohnny_> what if they truly could consider dropping out
+17:15 < jjjohnny_> i could go to grad school, or I could drop out
+17:16 < jjjohnny_> salmaksim: i agree about kids and parenting
+17:16 < jjjohnny_> its practically a crime against humanity in the USA
+17:16 < jjjohnny_> epidemic
+17:17 < jjjohnny_> it goes right along with the destructuring of society into supposedly self sufficient families
+17:17 < jjjohnny_> patriarchy + the nuclear family is a bad mox
+17:17 < jjjohnny_> mix
+17:18 < jjjohnny_> no village to raise the children, parents are the gods, forced to be "right" all the time, and seek cheap
+                   consumer answers to everything
+17:18 < jjjohnny_> that is why culture in the 80s and 90s went to mass tweenage
+17:19 < jjjohnny_> cuz you cant do nothing with that age of child but give them something to interest their boredom
+17:19 < salmaksim> the people have already destroyed the family and it has given way to massive single-motherhood. they are now
+                   a huge government dependent population. it was a huge victory for the government.
+17:19 < jjjohnny_> and the parents are too self centered and into conveniences to give them something meaningful
+17:19 < jjjohnny_> so instead its glossy pop and cheap baubles
+17:20 < salmaksim> jjjohnny: yes, a good reference is "The Society of the Spectacle"
+17:20 < salmaksim> cheap shit, entertainment, and drugs
+17:20 < jjjohnny_> single motherhood and multiple dads is the natural order taking it back some
+17:21 < jjjohnny_> but existing in a bad framework of total patriarchy
+17:21 < salmaksim> they are now the matriarchy
+17:21 < salmaksim> they have no fathers around to stop the women from abusing the children
+17:21 < jjjohnny_> substack: write up the economic system stuff you refer to
+17:22 < jjjohnny_> salmaksim: i would say that is women behaving patriarchically
+17:22 < jjjohnny_> like, hillary clinton is as patriarchal as any man
+17:22 < salmaksim> no, that is their own female nature we are witnessing
+17:23 < jjjohnny_> its not necessarily cut along sex or gender
+Day changed to 20 Sep 2015
+17:23 < salmaksim> raw, unchallenged, female nature
+17:24 < salmaksim> women are just as capable of violence and evil as men, if you deny them responsibility for their actions you
+                   are the patriarchy
+17:24 < jjjohnny_> I defintely see single moms using their kids for all kinds of shit
+17:25 < salmaksim> infantilization of women and denying them responsibility for their poor decisions is a big problem
+17:25 < jjjohnny_> yet it probably aint easy for them to survive, ergo a very lopsided co-dependence
+17:26 < jjjohnny_> tbh calling out punishment for poor people on the edge is a little too much of that ugly side of
+                   libertarianism
+17:27 < salmaksim> people want punishment for poor people?
+17:27 < jjjohnny_> "denying them responsibility"
+17:27 < salmaksim> that is not punishment
+17:28 < jjjohnny_> no it sounds like it is asking for it tho
+17:28 < salmaksim> punishment is when you apply force or other discipline to someone for a wrongdoing
+17:28 < jjjohnny_> so how would you not deny them responsibility?
+17:28 < salmaksim> allowing someone the natural consequences for being an idiot is not the same as a punishment
+17:29 < salmaksim> giving treats and benefits for being a fool is infantilization
+17:29 < jjjohnny_> it migt be if your hegemony doesn't give a rats nest for them
+17:29 < jjjohnny_> are you masking an anti-welfare argument?
+17:30 < jjjohnny_> cuz thats not cool when the hegemons  are hording every possible resource under the sun
+17:30 < salmaksim> welfare is free stuff for being immature and having children without the means to provide for them
+17:30 < jjjohnny_> righy ok, you clearly need some real world experience with which you criticize
+17:30 < salmaksim> it's asking everyone else to bare the burden for their poor decisions.
+17:31 < jjjohnny_> corproate welfare is like 1000x as much money and more dangerous to the world
+15:26 !asimov.freenode.net [freenode-info] why register and identify? your IRC nick is how people know you.
+11:24 -!- oak_alternate [~Thunderbi@96.90.248.245] has joined #cyberwizard
+18:14 -!- oak_alternate [~Thunderbi@96.90.248.245] has quit [Remote host closed the connection]
+Day changed to 21 Sep 2015
+Day changed to 22 Sep 2015
+18:23 -!- oak_alternate [~Thunderbi@96.90.248.245] has joined #cyberwizard
+23:19 -!- juliangruber [~juliangru@37.153.99.230] has quit [Ping timeout: 244 seconds]
+23:19 -!- juliangruber [~juliangru@37.153.99.230] has joined #cyberwizard
+23:49 -!- oak_alternate [~Thunderbi@96.90.248.245] has quit [Remote host closed the connection]
+23:53 -!- oak_alternate [~Thunderbi@96.90.248.245] has joined #cyberwizard
+Day changed to 04 Oct 2015
+15:47 -!- Tristit1a is now known as Tristitia
+16:17 -!- robertko1alski is now known as robertkowalski
+16:25 -!- pfraze [~pfraze@2602:306:30bf:87e0:1823:c0cc:95b4:736e] has joined #stackvm
+16:30 -!- ralphthe1inja is now known as ralphtheninja
+16:31 -!- pfraze [~pfraze@2602:306:30bf:87e0:1823:c0cc:95b4:736e] has quit [Remote host closed the connection]
+16:44 -!- phated [~phated@ip72-201-17-75.ph.ph.cox.net] has joined #stackvm
+17:03 -!- jfhbrook_ is now known as jfhbrook
+17:03 -!- phated [~phated@ip72-201-17-75.ph.ph.cox.net] has quit [Remote host closed the connection]
+17:46 < jjjohnny_> WHOA THERE BUDDY
+18:16 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has joined #stackvm
+18:25 -!- contrahax [~contrahax@172.56.13.139] has joined #stackvm
+18:25 -!- stagas [~stagas@athedsl-4416938.home.otenet.gr] has joined #stackvm
+18:39 < ogd> https://www.irccloud.com/pastebin/Pz6u06MJ/
+18:39 < ogd> mikolalysenko: mafintosh and i are trying to figure out an approach to o/
+18:40 < ogd> mikolalysenko: i should mention also: the graph is append-only and stored on disk so we are trying to figure out a
+             path indexing scheme we can store on disk to make these lookups fast
+18:41 < mikolalysenko> ogd: what operations does your dag need to support?
+18:42 < ogd> mikolalysenko: .put([array of parent nodes, 1 parent node, or 0 parent nodes for a new head], buffer)
+18:43 < ogd> mikolalysenko: and then this proposed .getPathSegments(node) that does whats in the gist
+18:43 < mikolalysenko> so:  create node, and link node are your two update operations
+18:43 < mikolalysenko> do you ever have to do cut an edge?
+18:44 < ogd> mikolalysenko: whats that mean?
+18:44 < mikolalysenko> like a -> b at time 0, then later on you cut the graph so a and b are not connected directly
+18:44 < mafintosh> mikolalysenko: no the graph is append only
+18:45 < mikolalysenko> ok, so this is an incremental problem
+18:45 < mafintosh> mikolalysenko: yes
+18:46 < ogd> mikolalysenko: yea we wanna avoid traversals on get/put
+18:46 < mikolalysenko> right
+18:46 -!- freeman-lab [uid115416@gateway/web/irccloud.com/x-tefbtapglwpixlnt] has joined #stackvm
+18:47 < mikolalysenko> so one screwy way to do this is you could use demaine's functional link cut tree data structure
+18:47 < mikolalysenko> but that has some drawbacks
+18:48 < mafintosh> mikolalysenko: we need a way to find all the paths from a given node to any root reachable from that node
+                   (and we want to have the paths deduplicated if that makes sense)
+18:48 < mikolalysenko> like you can only have a finite number of iterators into the tree at any given moment
+18:48 < mikolalysenko> mafintosh: there could be an exponential number of such paths though
+18:50 < mikolalysenko> think about a sequence of diamonds:
+18:50 < mikolalysenko> /\
+18:50 < mikolalysenko> \/
+18:50 < mikolalysenko> /\
+18:50 < mikolalysenko> \/
+18:50 < mikolalysenko> ...
+18:50 < mafintosh> mikolalysenko: i should correct my self - we only needs as many paths needed to cover all nodes in the
+                   subtree
+18:51 < mikolalysenko> mafintosh: why not just report the whole subgraph?
+18:52 < mikolalysenko> you could do that in linear time in the size of the result by just doing a boring old bfs traversal
+18:53 < mafintosh> mikolalysenko: yes but is there a good way to index that?
+18:53 -!- contrahax [~contrahax@172.56.13.139] has quit [Ping timeout: 250 seconds]
+18:53 < mikolalysenko> that is basically optimal
+18:53 < mikolalysenko> if you have an output of size O(n), you can't process it faster than O(n)
+18:54 < mikolalysenko> unless you return references or evaluate it lazily
+18:54 < mikolalysenko> then you can amortize a bit by streaming, but that is it
+18:54 < mafintosh> mikolalysenko: but can we index that on insert time somehow?
+18:54 < mikolalysenko> wouldn't matter
+18:54 < mikolalysenko> even if you indexed it, just reading out the index would take as long
+18:55 < mafintosh> i'm not sure i follow :)
+18:55 < mikolalysenko> I can write some psuedo code
+18:56 < mikolalysenko> but before I do that, can you answer me a question:
+18:56 < mikolalysenko> what do you do in the diamond path case?
+18:56 < mafintosh> mikolalysenko: yes 2 sec - let me gist it
+18:58 < mafintosh> mikolalysenko: https://gist.github.com/mafintosh/5357d2c64d4bb918878f
+18:58 -!- stagas [~stagas@athedsl-4416938.home.otenet.gr] has quit [Read error: Connection reset by peer]
+18:58 -!- stagas [~stagas@athedsl-4416938.home.otenet.gr] has joined #stackvm
+18:58 < mikolalysenko> mafintosh: but fc isn't a path
+18:59 < mikolalysenko> you could do acdfg maybe
+18:59 < mafintosh> mikolalysenko: thats what i meant by "deduplicated" path
+18:59 < mafintosh> mikolalysenko: i'm not sure i know the right terminology
+19:00 < mikolalysenko> hmm
+19:00 < mikolalysenko> what about this:  maybe you want to decompose the dag rooted at a into a collection of paths where the
+                       length of each path is as long as possible
+19:00 < mafintosh> mikolalysenko: so in that graph the two paths, abdeg and acdfg would cover all nodes
+19:01 < ogd> mikolalysenko: yea that sounds accurate
+19:01 < mafintosh> mikolalysenko: but i only writes nodes once to a path
+19:01 -!- contrahax [~contrahax@172.56.13.139] has joined #stackvm
+19:01 -!- stagas [~stagas@athedsl-4416938.home.otenet.gr] has quit [Client Quit]
+19:01 -!- stagas [~stagas@athedsl-4416938.home.otenet.gr] has joined #stackvm
+19:01 < mikolalysenko> well, why bother with paths then.  why not just write all the nodes?
+19:01 < ogd> s/make/decompose
+19:03 < mikolalysenko> or how about this:  maybe you want to cover the dag rooted at a with a tree?
+19:03 -!- stagas [~stagas@athedsl-4416938.home.otenet.gr] has quit [Read error: Connection reset by peer]
+19:03 < mikolalysenko> and then take that tree and compute a heavy-light decomposition
+19:03 -!- stagas [~stagas@athedsl-4416938.home.otenet.gr] has joined #stackvm
+19:04 -!- phated [~phated@ip72-201-17-75.ph.ph.cox.net] has joined #stackvm
+19:04 < ogd> mikolalysenko: ah this is cool https://en.wikipedia.org/wiki/Heavy_path_decomposition
+19:05 < mikolalysenko> yeah, but it only works for trees
+19:05 < mikolalysenko> though you could tree-ify this dag and then run heavy-light on the result
+19:05 < mikolalysenko> (or at least I've never heard of a way to do heavy-light decomposition on a dag)
+19:06 < ogd> treeifying would just involve denormalizing (for lack of a better word) all subtrees?
+19:06 < mafintosh> mikolalysenko: i wanna get  the "paths" to be able to perform a binary search on each path against another
+                   dag to figure out which nodes they share
+19:06 < ogd> subgraphs*
+19:06 < mafintosh> mikolalysenko: because our dag is a merkle dag we know that if you have a node on a path you'll have
+                   everything before that node as well
+19:07 < mafintosh> mikolalysenko: so fx in the diamond gist graph if you have d we know you have abc also
+19:07 < ogd> the binary search is to find the latest common ancestor node
+19:07 < ogd> latest/most recent
+19:08 < mikolalysenko> ok, so you want to diff two dags quickly?
+19:09 < mafintosh> mikolalysenko: thats what we end up doing
+19:09 -!- phated [~phated@ip72-201-17-75.ph.ph.cox.net] has quit [Ping timeout: 246 seconds]
+19:09 < mafintosh> mikolalysenko: after we have the paths
+19:11 < mikolalysenko> hmm
+19:11 < mikolalysenko> I don't quite get why they need to be paths
+19:11 < ogd> mikolalysenko: the network api between the two graphs is: do you have these nodes [array of nodes]. other side
+             responds by telling you which of the nodes it has
+19:13 < ogd> mikolalysenko: the paths just give us an order we can use in our binary search to find the common ancestor
+19:13 < ogd> mikolalysenko: but if the nodes were ordered in some other way that would work too i guess
+19:13 < mafintosh> mikolalysenko: so we can do it in log(n) network roundtrips
+19:13 < mikolalysenko> hmm
+19:13 < mikolalysenko> how does lca help here?
+19:14 < mikolalysenko> or what is the lca computing?
+19:14 < ogd> mikolalysenko: then we know everything thats in common between the graphs since its a merkle graph and all nodes
+             older than lca are already in sync
+19:14 < ogd> mikolalysenko: then we can just request the data for all nodes after that point
+19:14 < mikolalysenko> ok
+19:19 < mikolalysenko> so I've been reading about communication complexity lately, but it seems to me that this problem is at
+                       least as hard as solving disjointness
+19:19 < mikolalysenko> or basically you are computing the set difference of two sets of nodes
+19:19 < ogd> brb this cafe is closing
+19:19 < mikolalysenko> it doesn't seem like the fact that the nodes are in a dag helps much, since at least in theory you could
+                       get  a bunch of nodes with a common parent
+19:20 -!- stagas [~stagas@athedsl-4416938.home.otenet.gr] has quit [Ping timeout: 250 seconds]
+19:20 < mikolalysenko> I'm not sure what the multiround complexity of disjointness is, but I do know that in 1 round the best
+                       you can do is transmit the whole set or all O(n) nodes
+19:22 < mikolalysenko> and I think this also holds for multiple rounds, even probabilistically
+19:24 < mikolalysenko> what is less clear to me is how you can do it in less than O(n) bits, even using multiple rounds
+19:34 < ogd> mikolalysenko: ok back on wifi
+19:35 < mikolalysenko> so, I guess what I am saying first is that I don't get how it being a dag helps much.  what if you have
+                       one node with a ton of children?
+19:36 < ogd> mikolalysenko: our use case is kinda like the linux kernel git repo
+19:36 < ogd> mikolalysenko: we have a bunch of nodes in a dag, at any time you might create new branches in the dag, when you
+             push or pull with someone we want to establish which parts of the dag are already replicated so we can skip them
+             and only send the new stuff
+19:37 < ogd> mikolalysenko: its not very common that someone would create a million new branches, but they might have a million
+15:26 [ creationix      ] [ guybrush    ] [ joepie91      ] [ myf          ] [ simalexan_    ] [ YsenGrimm   ]
+15:26 [ cubert          ] [ hackygolucky] [ JSON_voorhees ] [ ngoldman     ] [ simcop2387    ] [ zu_         ]
+15:26 [ daleharvey      ] [ HannahWolfe ] [ juliangruber  ] [ noffle       ] [ sindresorhus  ] [ {slurp}1    ]
+15:26 [ darvon          ] [ harrow      ] [ kanzure       ] [ nrw          ] [ sorribas      ]
+15:26 [ dawuud          ] [ hij1nx_     ] [ karissa       ] [ null_radix   ] [ substack      ]
+15:26 [ dlmanning       ] [ hughsk      ] [ kirjs_________] [ ogd          ] [ tanepiper     ]
+15:26 [ Domenic         ] [ indexzero   ] [ kumavis       ] [ owen1        ] [ taterbase     ]
+15:26 [ dubroy__________] [ ircretary   ] [ machty        ] [ owenb_____   ] [ terinjokes    ]
+15:26 -!- Irssi: #stackvm: Total of 121 nicks [0 ops, 0 halfops, 0 voices, 121 normal]
+15:26 !asimov.freenode.net [freenode-info] why register and identify? your IRC nick is how people know you.
+          http://freenode.net/faq.shtml#nicksetup
+15:26 -!- Channel #stackvm created Wed Mar 17 20:02:18 2010
+15:27 -!- Irssi: Join to #stackvm was synced in 53 secs
+15:27 -!- mollerse_ [~mollerse@188.226.247.139] has joined #stackvm
+15:28 -!- jfhbrook_ [~jfhbrook@104.236.46.211] has joined #stackvm
+15:28 -!- robertko1alski [robert@apache/committer/robertkowalski] has joined #stackvm
+15:28 -!- hij1nx [~hij1nx@72.2.124.239] has joined #stackvm
+15:28 -!- ralphthe1inja [~lms@c-ecdae555.03-11-6c6b7012.cust.bredbandsbolaget.se] has joined #stackvm
+15:29 -!- greweb_ [~gre@ns318436.ip-91-121-165.eu] has joined #stackvm
+15:30 -!- timoxley [~timoxley@128.199.65.199] has quit [Ping timeout: 260 seconds]
+15:30 -!- Tristitia [~tristitia@178.18.241.185] has quit [Ping timeout: 260 seconds]
+15:30 -!- jfhbrook [~jfhbrook@104.236.46.211] has quit [Ping timeout: 260 seconds]
+15:32 -!- timoxley [~timoxley@128.199.65.199] has joined #stackvm
+15:32 -!- paul_irish [~paul_iris@ve.hsh6wjwx.vesrv.com] has quit [Ping timeout: 240 seconds]
+15:32 -!- jjjohnny [~root@li88-247.members.linode.com] has quit [Ping timeout: 240 seconds]
+15:32 -!- bengl [~bengl@91.219.238.88] has quit [Ping timeout: 240 seconds]
+15:32 -!- ralphtheninja [~lms@c-ecdae555.03-11-6c6b7012.cust.bredbandsbolaget.se] has quit [Ping timeout: 240 seconds]
+15:32 -!- greweb [~gre@ns318436.ip-91-121-165.eu] has quit [Ping timeout: 240 seconds]
+15:32 -!- mollerse [~mollerse@188.226.247.139] has quit [Ping timeout: 240 seconds]
+15:32 -!- robertkowalski [robert@apache/committer/robertkowalski] has quit [Ping timeout: 240 seconds]
+15:32 -!- hij1nx_ [~hij1nx@72.2.124.239] has quit [Ping timeout: 240 seconds]
+15:32 -!- bengl [~bengl@91.219.238.88] has joined #stackvm
+15:32 -!- paul_irish_ [~paul_iris@ve.hsh6wjwx.vesrv.com] has joined #stackvm
+15:32 -!- bengl is now known as Guest80443
+15:33 -!- Tristit1a [~tristitia@178.18.241.185] has joined #stackvm
+15:40 -!- mollerse_ is now known as mollerse
+15:47 -!- Tristit1a is now known as Tristitia
+16:17 -!- robertko1alski is now known as robertkowalski
+16:25 -!- pfraze [~pfraze@2602:306:30bf:87e0:1823:c0cc:95b4:736e] has joined #stackvm
+16:30 -!- ralphthe1inja is now known as ralphtheninja
+16:31 -!- pfraze [~pfraze@2602:306:30bf:87e0:1823:c0cc:95b4:736e] has quit [Remote host closed the connection]
+16:44 -!- phated [~phated@ip72-201-17-75.ph.ph.cox.net] has joined #stackvm
+17:03 -!- jfhbrook_ is now known as jfhbrook
+17:03 -!- phated [~phated@ip72-201-17-75.ph.ph.cox.net] has quit [Remote host closed the connection]
+17:46 < jjjohnny_> WHOA THERE BUDDY
+18:16 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has joined #stackvm
+18:25 -!- contrahax [~contrahax@172.56.13.139] has joined #stackvm
+18:25 -!- stagas [~stagas@athedsl-4416938.home.otenet.gr] has joined #stackvm
+18:39 < ogd> https://www.irccloud.com/pastebin/Pz6u06MJ/
+18:39 < ogd> mikolalysenko: mafintosh and i are trying to figure out an approach to o/
+18:40 < ogd> mikolalysenko: i should mention also: the graph is append-only and stored on disk so we are trying to figure out a
+             path indexing scheme we can store on disk to make these lookups fast
+18:41 < mikolalysenko> ogd: what operations does your dag need to support?
+18:42 < ogd> mikolalysenko: .put([array of parent nodes, 1 parent node, or 0 parent nodes for a new head], buffer)
+18:43 < ogd> mikolalysenko: and then this proposed .getPathSegments(node) that does whats in the gist
+18:43 < mikolalysenko> so:  create node, and link node are your two update operations
+18:43 < mikolalysenko> do you ever have to do cut an edge?
+18:44 < ogd> mikolalysenko: whats that mean?
+18:44 < mikolalysenko> like a -> b at time 0, then later on you cut the graph so a and b are not connected directly
+18:44 < mafintosh> mikolalysenko: no the graph is append only
+18:45 < mikolalysenko> ok, so this is an incremental problem
+18:45 < mafintosh> mikolalysenko: yes
+18:46 < ogd> mikolalysenko: yea we wanna avoid traversals on get/put
+18:46 < mikolalysenko> right
+18:46 -!- freeman-lab [uid115416@gateway/web/irccloud.com/x-tefbtapglwpixlnt] has joined #stackvm
+18:47 < mikolalysenko> so one screwy way to do this is you could use demaine's functional link cut tree data structure
+18:47 < mikolalysenko> but that has some drawbacks
+18:48 < mafintosh> mikolalysenko: we need a way to find all the paths from a given node to any root reachable from that node
+                   (and we want to have the paths deduplicated if that makes sense)
+18:48 < mikolalysenko> like you can only have a finite number of iterators into the tree at any given moment
+18:48 < mikolalysenko> mafintosh: there could be an exponential number of such paths though
+18:50 < mikolalysenko> think about a sequence of diamonds:
+18:50 < mikolalysenko> /\
+18:50 < mikolalysenko> \/
+18:50 < mikolalysenko> /\
+18:50 < mikolalysenko> \/
+18:50 < mikolalysenko> ...
+18:50 < mafintosh> mikolalysenko: i should correct my self - we only needs as many paths needed to cover all nodes in the
+                   subtree
+18:51 < mikolalysenko> mafintosh: why not just report the whole subgraph?
+18:52 < mikolalysenko> you could do that in linear time in the size of the result by just doing a boring old bfs traversal
+18:53 < mafintosh> mikolalysenko: yes but is there a good way to index that?
+18:53 -!- contrahax [~contrahax@172.56.13.139] has quit [Ping timeout: 250 seconds]
+18:53 < mikolalysenko> that is basically optimal
+18:53 < mikolalysenko> if you have an output of size O(n), you can't process it faster than O(n)
+18:54 < mikolalysenko> unless you return references or evaluate it lazily
+18:54 < mikolalysenko> then you can amortize a bit by streaming, but that is it
+18:54 < mafintosh> mikolalysenko: but can we index that on insert time somehow?
+18:54 < mikolalysenko> wouldn't matter
+18:54 < mikolalysenko> even if you indexed it, just reading out the index would take as long
+18:55 < mafintosh> i'm not sure i follow :)
+18:55 < mikolalysenko> I can write some psuedo code
+18:56 < mikolalysenko> but before I do that, can you answer me a question:
+18:56 < mikolalysenko> what do you do in the diamond path case?
+18:56 < mafintosh> mikolalysenko: yes 2 sec - let me gist it
+18:58 < mafintosh> mikolalysenko: https://gist.github.com/mafintosh/5357d2c64d4bb918878f
+18:58 -!- stagas [~stagas@athedsl-4416938.home.otenet.gr] has quit [Read error: Connection reset by peer]
+18:58 -!- stagas [~stagas@athedsl-4416938.home.otenet.gr] has joined #stackvm
+18:58 < mikolalysenko> mafintosh: but fc isn't a path
+18:59 < mikolalysenko> you could do acdfg maybe
+18:59 < mafintosh> mikolalysenko: thats what i meant by "deduplicated" path
+18:59 < mafintosh> mikolalysenko: i'm not sure i know the right terminology
+19:00 < mikolalysenko> hmm
+19:00 < mikolalysenko> what about this:  maybe you want to decompose the dag rooted at a into a collection of paths where the
+                       length of each path is as long as possible
+19:00 < mafintosh> mikolalysenko: so in that graph the two paths, abdeg and acdfg would cover all nodes
+19:01 < ogd> mikolalysenko: yea that sounds accurate
+19:01 < mafintosh> mikolalysenko: but i only writes nodes once to a path
+19:01 -!- contrahax [~contrahax@172.56.13.139] has joined #stackvm
+19:01 -!- stagas [~stagas@athedsl-4416938.home.otenet.gr] has quit [Client Quit]
+19:01 < ogd> mikolalysenko: we want to make the graph into a series of paths, but we wont need to be able to do graph queries
+             against the output
+19:01 -!- stagas [~stagas@athedsl-4416938.home.otenet.gr] has joined #stackvm
+19:01 < mikolalysenko> well, why bother with paths then.  why not just write all the nodes?
+19:01 < ogd> s/make/decompose
+19:03 < mikolalysenko> or how about this:  maybe you want to cover the dag rooted at a with a tree?
+19:03 -!- stagas [~stagas@athedsl-4416938.home.otenet.gr] has quit [Read error: Connection reset by peer]
+19:03 < mikolalysenko> and then take that tree and compute a heavy-light decomposition
+19:03 -!- stagas [~stagas@athedsl-4416938.home.otenet.gr] has joined #stackvm
+19:04 -!- phated [~phated@ip72-201-17-75.ph.ph.cox.net] has joined #stackvm
+19:04 < ogd> mikolalysenko: ah this is cool https://en.wikipedia.org/wiki/Heavy_path_decomposition
+19:05 < mikolalysenko> yeah, but it only works for trees
+19:05 < mikolalysenko> though you could tree-ify this dag and then run heavy-light on the result
+19:05 < mikolalysenko> (or at least I've never heard of a way to do heavy-light decomposition on a dag)
+19:06 < ogd> treeifying would just involve denormalizing (for lack of a better word) all subtrees?
+19:06 < mafintosh> mikolalysenko: i wanna get  the "paths" to be able to perform a binary search on each path against another
+                   dag to figure out which nodes they share
+19:06 < ogd> subgraphs*
+19:06 < mafintosh> mikolalysenko: because our dag is a merkle dag we know that if you have a node on a path you'll have
+                   everything before that node as well
+19:07 < mafintosh> mikolalysenko: so fx in the diamond gist graph if you have d we know you have abc also
+19:07 < ogd> the binary search is to find the latest common ancestor node
+19:07 < ogd> latest/most recent
+19:08 < mikolalysenko> ok, so you want to diff two dags quickly?
+19:09 < mafintosh> mikolalysenko: thats what we end up doing
+19:09 -!- phated [~phated@ip72-201-17-75.ph.ph.cox.net] has quit [Ping timeout: 246 seconds]
+19:09 < mafintosh> mikolalysenko: after we have the paths
+19:11 < mikolalysenko> hmm
+19:11 < mikolalysenko> I don't quite get why they need to be paths
+19:11 < ogd> mikolalysenko: the network api between the two graphs is: do you have these nodes [array of nodes]. other side
+             responds by telling you which of the nodes it has
+19:13 < ogd> mikolalysenko: the paths just give us an order we can use in our binary search to find the common ancestor
+19:13 < ogd> mikolalysenko: but if the nodes were ordered in some other way that would work too i guess
+19:13 < mafintosh> mikolalysenko: so we can do it in log(n) network roundtrips
+19:13 < mikolalysenko> hmm
+19:13 < mikolalysenko> how does lca help here?
+19:14 < mikolalysenko> or what is the lca computing?
+19:14 < ogd> mikolalysenko: then we know everything thats in common between the graphs since its a merkle graph and all nodes
+             older than lca are already in sync
+19:14 < ogd> mikolalysenko: then we can just request the data for all nodes after that point
+19:14 < mikolalysenko> ok
+19:19 < mikolalysenko> so I've been reading about communication complexity lately, but it seems to me that this problem is at
+                       least as hard as solving disjointness
+19:19 < mikolalysenko> or basically you are computing the set difference of two sets of nodes
+19:19 < ogd> brb this cafe is closing
+19:19 < mikolalysenko> it doesn't seem like the fact that the nodes are in a dag helps much, since at least in theory you could
+                       get  a bunch of nodes with a common parent
+19:20 -!- stagas [~stagas@athedsl-4416938.home.otenet.gr] has quit [Ping timeout: 250 seconds]
+19:20 < mikolalysenko> I'm not sure what the multiround complexity of disjointness is, but I do know that in 1 round the best
+                       you can do is transmit the whole set or all O(n) nodes
+19:22 < mikolalysenko> and I think this also holds for multiple rounds, even probabilistically
+19:24 < mikolalysenko> what is less clear to me is how you can do it in less than O(n) bits, even using multiple rounds
+19:34 < ogd> mikolalysenko: ok back on wifi
+19:35 < mikolalysenko> so, I guess what I am saying first is that I don't get how it being a dag helps much.  what if you have
+                       one node with a ton of children?
+19:36 < ogd> mikolalysenko: our use case is kinda like the linux kernel git repo
+19:36 < ogd> mikolalysenko: we have a bunch of nodes in a dag, at any time you might create new branches in the dag, when you
+             push or pull with someone we want to establish which parts of the dag are already replicated so we can skip them
+             and only send the new stuff
+19:37 < ogd> mikolalysenko: its not very common that someone would create a million new branches, but they might have a million
+             nodes in 1 new branch
+19:37 -!- contrahax [~contrahax@172.56.13.139] has quit [Quit: Sleeping]
+19:40 < mikolalysenko> how does git do this?
+19:40 < mikolalysenko> do you just send a timestamp or something, and then the server sends you everything after that time?
+19:41 < ogd> mikolalysenko: mafintosh' current approach is to store a bunch of what he calls 'deduplicated paths' which means
+             taking a dag and representing it as a bunch of paths, where each vertex is only a member of a single path. that
+             way we can binary search each path to figure out if theres a point in that path that is already in sync. once we
+             find the last node in
+19:41 < ogd> a path that exists on the other side we know all nodes before that path are in sync. then we can request the data
+             for the nodes that are missing
+19:47 < mikolalysenko> hmm
+19:48 < mikolalysenko> I think I could construct the paths, but I'm still not quite sure how this speeds things up
+19:50 < mikolalysenko> as a sketch of how you could build this, you could just keep iteratively removing the longest path from
+                       the dag until you are done
+19:50 < mikolalysenko> and because it is a dag, you can do that in linear time
+19:50 < mafintosh> mikolalysenko: yea thats basically what we're doing now
+19:52 < ogd> mikolalysenko: our problem is basically: given two graphs that no nothing about each other, how do you figure out
+             what nodes in graph A are missing from graph B. minimizing for number of round trips, and allowing for new nodes
+             to be appended without expensive traversals on each insert
+
+17:37 < jjjohnny_> i have not put forwar a narrative, I have rebuked your argument that welfare moms are the problem lol
+17:37 < jjjohnny_> i dont watch tv
+17:37 < jjjohnny_> i havent watched tv for over a decade
+17:37 < salmaksim> they are a problem, for sure
+17:37 < jjjohnny_> never in my adult life owned a television
+17:37 < salmaksim> who do you think votes for the enlargement of state power?
+17:38 < jjjohnny_> uhm hardly anybody votes
+17:38 < jjjohnny_> the only people who vote are the ones who have a stake
+17:38 < jjjohnny_> and poor people do not have much of a stake
+17:38 < jjjohnny_> but srsly, the number dont lie.  ppl aint voting
+17:40 < jjjohnny_> serisouly tho, do us all a ssolid and turn your anti-welfare ire against corporations, not single moms
+17:41 < salmaksim> single moms and corporations are both government programs
+17:42 < jjjohnny_> sure, but one recieves practically nothing, and the other trillions
+17:42 < salmaksim> do not divorce yourself from cause and effect
+17:42 < jjjohnny_> do you know which one is which?
+17:42 < salmaksim> who raises the children? who teaches the children?
+17:42 < salmaksim> who beats the children 900x times per year?
+17:43 < salmaksim> start getting some facts straight about how the world works, johnny
+17:43 < jjjohnny_> try helping somebody you think is your enemy
+17:44 < salmaksim> who begs the state for more money and benefits?
+17:53 < substack> oh man MRA and a libertarian anti-welfare stooge, keep digging
+17:53 < substack> jjjohnny_: did you reg this place with chanserv?
+17:55 < salmaksim> guys, thanks for the wisdom of your code work. i hope one day we can reunite without the hostility and
+                   illusions.
+17:56 < salmaksim> is there anything else you want to say before i go?
+18:01 < salmaksim> if there is just msg me
+18:01 -!- salmaksim [~salmaksim@c-73-14-175-134.hsd1.co.comcast.net] has left #modulhaus []
+20:13 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has joined #modulhaus
+20:13 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has quit [Remote host closed the
+          connection]
+22:20 < substack> jjjohnny_: hyperboot-reader updated with the start of the application settings ui
+22:34 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has joined #modulhaus
+22:53 -!- mhernandez1 [~mhernande@207-172-163-183.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com] has quit [Remote host closed the
+          connection]
+Day changed to 05 Oct 2015
+ [00:56] [jjjohnny_(+i)] [3:freenode/#modulhaus(+ns)] [Act: 1,4,5,6,7,10,11,12,15,16,17,18,20,22,23]
+[#modulhaus]

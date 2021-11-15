@@ -1,0 +1,1062 @@
+12:26 < defunctzombie> this is more typical than a path
+12:26 < rowbit1> Hourly usage stats: [developer: 0, free: 66, node10: 0]
+12:27 < defunctzombie> airportyh: also, putting in "reactive" as a search term doesn't return reactive :)
+12:27 < airportyh> defunctzombie: that's messed up
+12:27 < airportyh> defunctzombie: but react does
+12:28 < defunctzombie> airportyh: I agree it is messed up
+12:28 < airportyh> must be the way they tokenize it in mongo
+12:28 < defunctzombie> you are the keeper of the logic so I pass the baton to you :)
+12:28 -!- intabulas [~intabulas@c-24-6-169-141.hsd1.ca.comcast.net] has quit [Quit: Leaving...]
+12:28 < defunctzombie> I think we should open links in an iframe on the right
+12:28 < airportyh> no it's there, just way down in the page
+12:29 < airportyh> it's getting a bad score because it doesn't have github url linked
+12:29 < defunctzombie> airportyh: I think we should give higher prority to exact module name matches
+12:29 < defunctzombie> ah
+12:29 < defunctzombie> for example a search for "array"
+12:29 < defunctzombie> returns eventemitter2 as the first result
+12:30 < defunctzombie> which seems to have nothing to do with array
+12:30 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Ping timeout: 245 seconds]
+12:31 < airportyh> yeah, eventemitter2 also ranks high for test
+12:31 -!- jxson [jxson@nat/google/x-nppzocxklclupxds] has joined #stackvm
+12:31 -!- kenperkins [~textual@8.26.155.10] has joined #stackvm
+12:31 < airportyh> I guess their readme just has lots of content about everything
+12:31 < defunctzombie> heh
+12:32 < airportyh> I guess a more sophisticated approach would be a page-rank like thing
+12:32 < defunctzombie> we should weigh the keywords and module description higher than the readme
+12:32 < airportyh> it already does that
+12:32 < airportyh> by having those higher in the search body
+12:32 < airportyh> but not enough
+12:32 < defunctzombie> ah
+12:33 < airportyh> the thing is some readmes talk endlessly about how good their tests are
+12:33 < airportyh> and so end up getting ranked for test
+12:33 < defunctzombie> rofl
+12:33 < defunctzombie> maybe we should only grab the first N words of the readme
+12:33 -!- kriskowal [~kriskowal@98.234.185.126] has joined #stackvm
+12:34 < defunctzombie> good readmes generally have a description first
+12:34 < defunctzombie> and a few other details
+12:34 < defunctzombie> test stuff comes later
+12:34 < airportyh> yeah we could try that
+12:34 < dguttman> and then there was the rise of module SEO
+12:34 < defunctzombie> :D
+12:34 < airportyh> :) page rank could weed these out too
+12:35 < airportyh> like if it's dependent on by other test related modules?
+12:35 < defunctzombie> I have a friend who use to work for google
+12:35 < defunctzombie> doing machine learning
+12:35 < dguttman> Sample TODO mvc framework. Tests, browserify, level, tests, tape, dat, test
+12:35 < defunctzombie> I might be able to convince him to take a look at some things
+12:35 < airportyh> that would be great
+12:36 < airportyh> I have the python "collective intelligence" book next to me
+12:37 < airportyh> I am happy that superagent gets rank 2nd for ajax
+12:38 < airportyh> but jquery is like 15th for dom
+12:39 < defunctzombie> haha
+12:39 < defunctzombie> airportyh: I think a heart is misleading for dependencies
+12:39 < defunctzombie> makes me think likes
+12:39 < defunctzombie> airportyh: maybe use a chain icon
+12:39 < defunctzombie> airportyh: search for "link" on icomoon
+12:42 -!- mikeal [~mikeal@c-24-6-19-200.hsd1.ca.comcast.net] has joined #stackvm
+12:46 -!- mikeal [~mikeal@c-24-6-19-200.hsd1.ca.comcast.net] has quit [Ping timeout: 245 seconds]
+12:47 -!- ednapiranha [~ednapiran@guest-nat.p2p.sfo1.mozilla.com] has quit [Remote host closed the connection]
+12:49 -!- kevino80 [~kevino80@66.90.98.50] has quit [Remote host closed the connection]
+12:50 -!- ednapiranha [~ednapiran@guest-nat.p2p.sfo1.mozilla.com] has joined #stackvm
+12:55 -!- addisonj [uid18502@gateway/web/irccloud.com/x-acjlpehvkimxzdbu] has joined #stackvm
+12:58 -!- ralphtheninja [~ralphthen@c-f5dfe555.03-11-6c6b7012.cust.bredbandsbolaget.se] has joined #stackvm
+13:04 -!- kumavis [~kumavis@107-219-148-42.lightspeed.sntcca.sbcglobal.net] has joined #stackvm
+13:05 -!- wolfeida_ [~wolfeidau@2001:44b8:4101:f900:87c:3c46:d6db:7ec5] has joined #stackvm
+13:07 -!- wolfeidau [~wolfeidau@ppp118-209-62-26.lns20.mel4.internode.on.net] has quit [Ping timeout: 252 seconds]
+13:09 -!- phated [~phated@72.44.240.228] has joined #stackvm
+13:10 < ogd> irc is where hackers talk when they don't want to be overheard https://www.youtube.com/watch?v=O2rGTXHvPCQ&feature=youtu.be
+13:10 -!- brianloveswords [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has joined #stackvm
+13:11 < pfraze> speaking of has anybody decoded the backdoor yet?
+13:11 < defunctzombie> ogd: YES
+13:11 < defunctzombie> pfraze: yea
+13:11 < defunctzombie> yesterday
+13:11 < defunctzombie> it was finally decoded
+13:12 < defunctzombie> I was alerted by my IRC bot that speaks leet
+13:12 < defunctzombie> ok... we need a bot here that will turn everything we write into leet
+13:13 < pfraze> I'd feel safer if we did
+13:15 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has joined #stackvm
+13:18 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+13:26 < rowbit1> Hourly usage stats: [developer: 6, free: 57, node10: 0]
+13:26 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has quit [Ping timeout: 240 seconds]
+13:29 -!- ralphtheninja [~ralphthen@c-f5dfe555.03-11-6c6b7012.cust.bredbandsbolaget.se] has quit [Quit: leaving]
+13:30 -!- jxson_ [jxson@nat/google/x-gyuutirgkjuzjruz] has joined #stackvm
+13:31 -!- kenperkins [~textual@8.26.155.10] has quit [Quit: Computer has gone to sleep.]
+13:31 -!- jxson [jxson@nat/google/x-nppzocxklclupxds] has quit [Ping timeout: 240 seconds]
+13:32 -!- kenperkins [~textual@8.26.155.10] has joined #stackvm
+13:33 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has joined #stackvm
+13:36 -!- kevino80 [~kevino80@199.16.190.194] has joined #stackvm
+13:41 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has quit [Ping timeout: 240 seconds]
+13:42 -!- phated [~phated@72.44.240.228] has quit [Remote host closed the connection]
+13:45 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+13:45 -!- phated_ [~phated@72.44.240.228] has joined #stackvm
+13:46 -!- kenperkins [~textual@8.26.155.10] has quit [Quit: Computer has gone to sleep.]
+13:47 -!- kriskowal [~kriskowal@98.234.185.126] has quit [Quit: kriskowal]
+13:50 -!- kenperkins [~textual@8.26.155.10] has joined #stackvm
+13:51 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #stackvm
+13:51 -!- phated_ is now known as phated
+13:55 -!- ednapiranha [~ednapiran@guest-nat.p2p.sfo1.mozilla.com] has quit [Remote host closed the connection]
+13:59 -!- ednapiranha [~ednapiran@guest-nat.p2p.sfo1.mozilla.com] has joined #stackvm
+14:00 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Remote host closed the connection]
+14:03 -!- kenperkins [~textual@8.26.155.10] has quit [Quit: Computer has gone to sleep.]
+14:04 -!- airportyh [~airportyh@c-98-192-75-66.hsd1.ga.comcast.net] has quit [Quit: airportyh]
+14:09 -!- AvianFlu [~avianflu@198.199.82.25] has quit [Remote host closed the connection]
+14:17 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+14:20 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Remote host closed the connection]
+14:26 < rowbit1> Hourly usage stats: [developer: 3, free: 25, node10: 0]
+14:31 -!- taterbase [uid17123@gateway/web/irccloud.com/x-spudhfddlxdogmqi] has joined #stackvm
+14:46 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Quit: No Ping reply in 180 seconds.]
+14:46 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+14:49 -!- heath [quassel@unaffiliated/ybit] has joined #stackvm
+14:57 -!- feross_ [~feross@nat/yahoo/x-rguwnpjqognkbyie] has joined #stackvm
+15:03 -!- AvianFlu [~avianflu@198.199.82.25] has joined #stackvm
+15:04 -!- brianloveswords [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has quit [Quit: Computer has gone to sleep.]
+15:10 < isaacs> ircretary: tell dominictarr pong2. maybe use email?
+15:10 < ircretary> isaacs: I'll be sure to tell dominictarr
+15:12 -!- brianloveswords [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has joined #stackvm
+15:13 -!- ednapiranha [~ednapiran@guest-nat.p2p.sfo1.mozilla.com] has quit [Remote host closed the connection]
+15:23 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+15:26 < rowbit1> Hourly usage stats: [developer: 0, free: 32, node10: 0]
+15:30 -!- kevino80 [~kevino80@199.16.190.194] has quit [Remote host closed the connection]
+15:36 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Remote host closed the connection]
+15:38 -!- phated [~phated@72.44.240.228] has quit [Ping timeout: 276 seconds]
+15:43 -!- kevino80 [~kevino80@199.16.190.194] has joined #stackvm
+15:43 -!- phated [~phated@72.44.240.228] has joined #stackvm
+15:53 < rowbit1> /!\ ATTENTION: (default-local) jasonparekh@... successfully signed up for developer browserling plan ($20). Cash money! /!\
+15:53 < rowbit1> /!\ ATTENTION: (default-local) paid account successfully upgraded /!\
+15:54 -!- rannmann [~rez@pdpc/supporter/student/rannmann] has quit [Remote host closed the connection]
+15:58 < ogd> jlord: you should write a thing for github that lets me clone issues as a repository of markdown files from a github hosted
+             repo url
+15:58 -!- kevino80 [~kevino80@199.16.190.194] has quit [Remote host closed the connection]
+16:04 -!- fotoverite [~fotoverit@cpe-24-90-104-159.nyc.res.rr.com] has quit [Quit: fotoverite]
+16:04 -!- kevino80 [~kevino80@199.16.190.194] has joined #stackvm
+16:08 -!- kumavis_ [~textual@107-219-148-42.lightspeed.sntcca.sbcglobal.net] has joined #stackvm
+16:17 -!- naneau [~naneau@unaffiliated/naneau] has quit [Quit: Quit.]
+16:25 -!- rannmann [~rez@pdpc/supporter/student/rannmann] has joined #stackvm
+16:26 < rowbit1> Hourly usage stats: [developer: 7, free: 28, node10: 0]
+16:32 -!- ins0mnia [~smuxi@81-234-249-46-no52.tbcn.telia.com] has quit [Ping timeout: 276 seconds]
+16:35 -!- airportyh [~airportyh@c-98-192-75-66.hsd1.ga.comcast.net] has joined #stackvm
+16:38 < airportyh> defunctzombie: so trying to browserify the github module will hang indefinitely
+16:38 < defunctzombie> airportyh: ?
+16:39 < airportyh> defunctzombie: https://gist.github.com/airportyh/10930576
+16:39 < airportyh> :)
+16:40 < defunctzombie> sounds like a browserify bug
+16:40 < defunctzombie> probably something with streams
+16:40 < defunctzombie> I blame all problems on streams
+16:40 < airportyh> defunctzombie: if we spawn browserify then we can timeout and kill it
+16:40 < airportyh> harder with in-process js
+16:40 < defunctzombie> airportyh: yea, that might be smart
+16:40 -!- taterbase [uid17123@gateway/web/irccloud.com/x-spudhfddlxdogmqi] has quit [Quit: Connection closed for inactivity]
+16:40 < defunctzombie> make an issue about it on the tester
+16:41 < defunctzombie> I want to move to spawning for some things anyway so this might be a good defensive reason to do so
+16:41 < defunctzombie> substack: ^
+16:41 < defunctzombie> substack: browserify hangs
+16:42 -!- fotoverite [~fotoverit@cpe-24-90-104-159.nyc.res.rr.com] has joined #stackvm
+16:46 < airportyh> https://github.com/substack/node-browserify/issues/732
+16:46 < airportyh> or I could just try to fix that :P
+16:49 < substack> confirmed
+16:53 < substack> airportyh: browser-resolve isn't calling its callback in require
+16:54 < airportyh> substack: this one? https://github.com/defunctzombie/node-browser-resolve/blob/master/index.js#L109
+ Unofficial browserling/testling mad science channel. For official help /join #browserling
+16:56 < substack> packageFilter is stuck in a loop
+16:56 < rowbit1> /!\ ATTENTION: (default-local) shannonm@... successfully signed up for developer browserling plan ($20). Cash money! /!\
+16:56 < rowbit1> /!\ ATTENTION: (default-local) paid account successfully upgraded /!\
+17:03 < airportyh> substack: narrowed to infinitely in this vicinity
+                   https://github.com/substack/node-resolve/blob/master/lib/async.js#L65-L106
+17:06 < airportyh> so github's "main" is set to "."
+17:19 < airportyh> substack: possibly fix is just remove this block
+                   https://github.com/substack/node-resolve/blob/master/lib/async.js#L94-L98 and replace with just line 97
+17:22 < defunctzombie> possible fix is for that module's main to be fixed
+17:22 < defunctzombie> and for npm to not allow such tom foolery
+17:24 < airportyh> defunctzombie: but npm allows such tom foolery it seems
+17:24 < defunctzombie> yes
+17:24 < airportyh> defunctzombie: either it maps . to ./index, or it just fell back to ./index
+17:24 < defunctzombie> tragically things are too lenient
+17:25 -!- kevino80 [~kevino80@199.16.190.194] has quit [Remote host closed the connection]
+17:26 < rowbit1> Hourly usage stats: [developer: 1, free: 32, node10: 0]
+17:28 -!- kevino80 [~kevino80@199.16.190.194] has joined #stackvm
+17:49 -!- ednapiranha [~ednapiran@216.9.110.11] has joined #stackvm
+17:52 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+17:54 -!- ednapiranha [~ednapiran@216.9.110.11] has quit [Remote host closed the connection]
+17:54 -!- airportyh [~airportyh@c-98-192-75-66.hsd1.ga.comcast.net] has quit [Quit: airportyh]
+17:57 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Remote host closed the connection]
+18:00 -!- airportyh [~airportyh@c-98-192-75-66.hsd1.ga.comcast.net] has joined #stackvm
+18:02 -!- kumavis_ [~textual@107-219-148-42.lightspeed.sntcca.sbcglobal.net] has quit [Quit: Computer has gone to sleep.]
+18:05 < airportyh> substack: https://github.com/substack/node-resolve/pull/41
+18:05 -!- airportyh [~airportyh@c-98-192-75-66.hsd1.ga.comcast.net] has quit [Quit: airportyh]
+18:05 -!- feross__ [~feross@nat/yahoo/x-pyeetvmvkyiqbobh] has joined #stackvm
+18:06 -!- feross_ [~feross@nat/yahoo/x-rguwnpjqognkbyie] has quit [Ping timeout: 258 seconds]
+18:06 -!- kevino80 [~kevino80@199.16.190.194] has quit [Remote host closed the connection]
+18:09 -!- contrahax [~contrahax@ip24-251-13-101.ph.ph.cox.net] has joined #stackvm
+18:22 -!- wolfeida_ is now known as wolfeidau
+18:26 < rowbit1> Hourly usage stats: [developer: 4, free: 24, node10: 0]
+18:30 -!- contrahax [~contrahax@ip24-251-13-101.ph.ph.cox.net] has quit [Quit: Sleeping]
+18:43 -!- yorick [~yorick@oftn/member/yorick] has quit [Remote host closed the connection]
+18:54 -!- contrahax [~contrahax@wsip-70-166-121-220.ph.ph.cox.net] has joined #stackvm
+ [18:54] [jjjohnny(+i)] [2:freenode/#stackvm(+cnt)] [Act: 3,5,6]
+[#stackvm]
+11:25 -!- _matt [~matthewbo@110.174.82.95] has quit [Ping timeout: 276 seconds]
+11:26 < rowbit1> Hourly usage stats: [developer: 0, free: 41, node10: 0]
+11:36 -!- djcoin [~djcoin@glo44-4-82-239-70-48.fbx.proxad.net] has quit [Quit:
+          WeeChat 0.4.2]
+11:36 < juliangruber> is there a way to asynchronously write to stdout in node?
+11:38 -!- intabulas [~intabulas@c-24-6-169-141.hsd1.ca.comcast.net] has joined
+          #stackvm
+11:39 -!- shama [~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net] has
+          joined #stackvm
+11:46 -!- ins0mnia [~smuxi@81-234-249-46-no52.tbcn.telia.com] has quit [Remote
+          host closed the connection]
+11:48 -!- ins0mnia [~smuxi@81-234-249-46-no52.tbcn.telia.com] has joined
+          #stackvm
+11:48 -!- fotoverite [~fotoverit@cpe-24-90-104-159.nyc.res.rr.com] has joined
+          #stackvm
+11:50 -!- Maciek416_
+          [~Maciek@173-160-221-203-Washington.hfc.comcastbusiness.net] has quit
+          [Remote host closed the connection]
+11:53 -!- kriskowal [~kriskowal@70-90-167-33-CA.hfc.comcastbusiness.net] has
+          quit [Quit: kriskowal]
+02:03 < substack> but iso8601 dates are sortable
+02:03 < substack> and you can inspect them too
+02:04 < substack> but it gets tricky with timezones
+02:05 < dominictarr> JSON.stringify(date) is sortable
+02:05 < substack> yes it's iso8601 or thereabouts
+02:06 < dominictarr> this all gets bytewise encoded so unix or iso are both
+                     sortable
+02:06 < substack> oh!
+02:06 < substack> if it's encoded with bytewise then I would actually lean
+                  toward integers
+02:06 < substack> but I'm not sure why
+02:07 < substack> that's just what my fast heuristic brain that can't explain
+                  itself is telling me
+02:07 < dominictarr> yeah - it's less bytes and that is better for indexes.
+02:08 < dominictarr> since bytewise is not human readable anyway, then there is
+                     no advantage to putting a human readable encoding inside
+                     of it.
+02:08 < dominictarr> okay cool.
+02:09 < dominictarr> in both ways you loose the timezone... but I don't want to
+                     get into that mess...
+02:10 -!- ralphtheninja
+          [~ralphthen@c-f5dfe555.03-11-6c6b7012.cust.bredbandsbolaget.se] has
+          joined #stackvm
+02:10 < dominictarr> ralphtheninja: yo!
+02:21 < dominictarr> substack: hmm, no I think it should be indexed as json -
+                     because that is what it will become when it's saved
+02:21 < dominictarr> so if it was reindexed it would become strings so it would
+                     be wrong.
+02:26 < rowbit1> Daily usage stats: [developer: 5, free: 42]
+02:26 < rowbit1> Hourly usage stats: [developer: 0, free: 20]
+02:29 -!- ralphtheninja
+          [~ralphthen@c-f5dfe555.03-11-6c6b7012.cust.bredbandsbolaget.se] has
+          quit [Ping timeout: 252 seconds]
+02:30 -!- addisonj [uid18502@gateway/web/irccloud.com/x-phxjqoklirelyvbg] has
+          quit [Quit: Connection closed for inactivity]
+02:44 -!- jxson [~jxson@ip-64-134-228-2.public.wayport.net] has quit [Remote
+          host closed the connection]
+02:52 -!- maksimlin [~chatzilla@eth223.vic.adsl.internode.on.net] has quit
+          [Quit: ChatZilla 0.9.90.1 [Firefox 28.0/20140317233623]]
+02:58 -!- rakm [uid23430@gateway/web/irccloud.com/x-pbmckekvzyoqxevd] has
+          joined #stackvm
+03:07 -!- feross [~feross@c-98-248-36-96.hsd1.ca.comcast.net] has quit [Quit:
+          feross]
+03:09 -!- feross [~feross@c-98-248-36-96.hsd1.ca.comcast.net] has joined
+          #stackvm
+03:14 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #stackvm
+03:16 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Remote host
+          closed the connection]
+03:18 -!- djcoin [~djcoin@glo44-4-82-239-70-48.fbx.proxad.net] has joined
+          #stackvm
+03:22 -!- peutetre [~peutetre@24-134-25-128-dynip.superkabel.de] has quit [Ping
+          timeout: 252 seconds]
+03:24 -!- nickleefly [uid21582@gateway/web/irccloud.com/x-zahtvcagrgwipjaa] has
+          joined #stackvm
+03:26 < rowbit1> Hourly usage stats: [developer: 0, free: 33]
+03:41 -!- Maciek416
+          [~Maciek@173-160-221-203-Washington.hfc.comcastbusiness.net] has quit
+          [Remote host closed the connection]
+03:46 -!- ednapiranha [~ednapiran@173-167-127-66-sfba.hfc.comcastbusiness.net]
+          has joined #stackvm
+03:48 -!- ednapiranha [~ednapiran@173-167-127-66-sfba.hfc.comcastbusiness.net]
+          has quit [Client Quit]
+03:50 -!- ednapiranha [~ednapiran@173-167-127-66-sfba.hfc.comcastbusiness.net]
+          has joined #stackvm
+04:05 < rowbit1> substack, pkrumins: A developer is waiting in the queue for
+                 undefined/undefined
+04:07 < wolfeidau> lol
+04:08 -!- dominictarr [~dominic@125.253.110.136] has quit [Ping timeout: 258
+          seconds]
+04:10 -!- feross [~feross@c-98-248-36-96.hsd1.ca.comcast.net] has quit [Quit:
+          feross]
+04:25 -!- feross [~feross@c-98-248-36-96.hsd1.ca.comcast.net] has joined
+          #stackvm
+04:26 < rowbit1> Hourly usage stats: [developer: 14, free: 43]
+04:38 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          quit [Quit: thealphanerd]
+04:41 -!- ilteris [~ilteris@ec2-174-129-28-153.compute-1.amazonaws.com] has
+          quit [Read error: Operation timed out]
+04:41 -!- ednapiranha [~ednapiran@173-167-127-66-sfba.hfc.comcastbusiness.net]
+          has quit [Quit: Leaving...]
+04:44 -!- ednapiranha [~ednapiran@173-167-127-66-sfba.hfc.comcastbusiness.net]
+          has joined #stackvm
+04:44 -!- ilteris [~ilteris@ec2-174-129-28-153.compute-1.amazonaws.com] has
+          joined #stackvm
+04:53 -!- ednapiranha [~ednapiran@173-167-127-66-sfba.hfc.comcastbusiness.net]
+          has quit [Quit: Leaving...]
+05:18 < mmalecki> substack: *loving* clocker
+05:18 < mmalecki> substack: I can work with no internet access, which wasn't
+                  possible with harvest
+05:18 < mmalecki> substack: and it's CLI
+05:26 < rowbit1> Hourly usage stats: [developer: 8, free: 53]
+05:35 -!- dominictarr [~dominic@1.154.3.85] has joined #stackvm
+05:43 < substack> mmalecki: excellent!
+05:44 < substack> and it's like, hardly any code
+05:45 < mmalecki> yeah, that's the best thing about it
+05:45 < mmalecki> it's really UNIX :)
+05:46 -!- rakm [uid23430@gateway/web/irccloud.com/x-pbmckekvzyoqxevd] has quit
+          [Quit: Connection closed for inactivity]
+05:48 -!- nickleefly [uid21582@gateway/web/irccloud.com/x-zahtvcagrgwipjaa] has
+          quit [Quit: Connection closed for inactivity]
+05:52 -!- contraha_ [~contrahax@ip24-251-13-101.ph.ph.cox.net] has joined
+          #stackvm
+05:53 -!- contrahax [~contrahax@ip24-251-13-101.ph.ph.cox.net] has quit [Ping
+          timeout: 276 seconds]
+06:02 -!- contraha_ [~contrahax@ip24-251-13-101.ph.ph.cox.net] has quit [Quit:
+          Sleeping]
+06:16 < dominictarr> TODO: make npmd-build cache builds, so you only have to
+                     compile once per module@version/node@version
+06:16 -!- yorick [~yorick@oftn/member/yorick] has joined #stackvm
+06:26 < rowbit1> Hourly usage stats: [developer: 0, free: 65, node10: 1]
+06:35 -!- dlmanning [~david@c-24-22-14-106.hsd1.or.comcast.net] has quit [Ping
+          timeout: 250 seconds]
+06:36 -!- dlmanning [~david@c-24-22-14-106.hsd1.or.comcast.net] has joined
+          #stackvm
+06:47 < dominictarr> substack: json-stable-stringify doesn't handle Date
+                     correctly.
+06:47 < dominictarr> pull request coming...
+06:51 < dominictarr> substack: on no... maybe it does.
+06:51 < dominictarr> turns out it does...
+07:14 -!- contrahax [~contrahax@ip24-251-13-101.ph.ph.cox.net] has joined
+          #stackvm
+07:17 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+07:21 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Ping
+          timeout: 252 seconds]
+07:26 < rowbit1> Hourly usage stats: [developer: 5, free: 42, node10: 0]
+07:38 -!- contrahax [~contrahax@ip24-251-13-101.ph.ph.cox.net] has quit [Quit:
+          Sleeping]
+07:40 -!- contrahax [~contrahax@ip24-251-13-101.ph.ph.cox.net] has joined
+          #stackvm
+08:19 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined
+          #stackvm
+08:26 < rowbit1> Hourly usage stats: [developer: 10, free: 52, node10: 0]
+08:34 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit
+          [Remote host closed the connection]
+08:34 -!- airportyh [~airportyh@c-98-192-75-66.hsd1.ga.comcast.net] has joined
+          #stackvm
+08:36 -!- floby [~floby@LPuteaux-656-01-230-200.w80-12.abo.wanadoo.fr] has
+          joined #stackvm
+08:54 -!- AvianFlu [~avianflu@198.199.82.25] has joined #stackvm
+08:58 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined
+          #stackvm
+09:00 -!- contrahax [~contrahax@ip24-251-13-101.ph.ph.cox.net] has quit [Quit:
+          Sleeping]
+09:06 -!- AvianFlu [~avianflu@198.199.82.25] has quit [Remote host closed the
+          connection]
+09:08 < ins0mnia> ogd: is it possible for you to bump version
+                  filereader-stream? npm for some weird reason still fetches
+                  the "old" 0.0.1 version
+09:22 -!- kevino80 [~kevino80@66.90.98.50] has joined #stackvm
+09:26 < rowbit1> Hourly usage stats: [developer: 8, free: 70, node10: 0]
+09:51 -!- navaru [~navaru@5-14-185-145.residential.rdsnet.ro] has joined
+          #stackvm
+09:56 -!- pfraze [~unsafe@cpe-70-113-196-4.austin.res.rr.com] has joined
+          #stackvm
+09:58 < airportyh> defunctzombie_zz: fyi I am working on browserify search today
+10:06 -!- AvianFlu [~avianflu@198.199.82.25] has joined #stackvm
+10:17 -!- naneau [~naneau@unaffiliated/naneau] has joined #stackvm
+10:22 -!- AvianFlu [~avianflu@198.199.82.25] has quit [Remote host closed the
+          connection]
+10:26 < rowbit1> Hourly usage stats: [developer: 0, free: 65, node10: 0]
+10:32 -!- defunctzombie_zz is now known as defunctzombie
+10:45 < defunctzombie> airportyh: cool
+10:45 < defunctzombie> airportyh: I got in to NYC yesterday very late
+10:45 < defunctzombie> so I am all over the place today
+10:45 < defunctzombie> but might hop on and do some work soon
+10:45 < airportyh> alright
+10:45 < airportyh> I enhanced the www a little
+10:46 < airportyh> added bootstrap buttons and icons
+10:46 < airportyh> and client-side routing
+10:48 < defunctzombie> cool
+10:48 < defunctzombie> for icons I typically use icomoon cause you can build
+                       whatever icon set you want
+10:48 < defunctzombie> less limiting than using the predefined sets people like
+                       to pimp out
+10:50 -!- cpup_ [~cpup@69.183.22.69] has quit [Ping timeout: 240 seconds]
+10:52 < airportyh> defunctzombie: cool didn't know about that
+10:52 -!- dominictarr [~dominic@1.154.3.85] has quit [Ping timeout: 252 seconds]
+10:52 < airportyh> defunctzombie: I didn't know what icon to use for dependents
+                   count, so I just used a heart
+10:52 < defunctzombie> haha
+10:57 -!- ralphtheninja [~ralphthen@194-17-162-163.customer.telia.com] has
+          joined #stackvm
+11:00 < airportyh> defunctzombie: btw I forked queue to make it start by itself
+                   https://github.com/airportyh/queue
+11:00 < defunctzombie> cool
+11:00 < airportyh> so you can keep pushing jobs to it after it has stopped
+11:06 -!- cpup_ [~cpup@69.183.22.69] has joined #stackvm
+11:06 -!- AvianFlu [~avianflu@198.199.82.25] has joined #stackvm
+11:10 -!- ralphtheninja [~ralphthen@194-17-162-163.customer.telia.com] has quit
+          [Quit: leaving]
+11:20 -!- Maciek416
+          [~Maciek@173-160-221-203-Washington.hfc.comcastbusiness.net] has
+          joined #stackvm
+11:20 -!- Maciek416_
+          [~Maciek@173-160-221-203-Washington.hfc.comcastbusiness.net] has
+          joined #stackvm
+11:25 -!- Maciek416
+          [~Maciek@173-160-221-203-Washington.hfc.comcastbusiness.net] has quit
+          [Ping timeout: 276 seconds]
+11:25 -!- _matt [~matthewbo@110.174.82.95] has quit [Ping timeout: 276 seconds]
+11:26 < rowbit1> Hourly usage stats: [developer: 0, free: 41, node10: 0]
+11:36 -!- djcoin [~djcoin@glo44-4-82-239-70-48.fbx.proxad.net] has quit [Quit:
+          WeeChat 0.4.2]
+11:36 < juliangruber> is there a way to asynchronously write to stdout in node?
+11:38 -!- intabulas [~intabulas@c-24-6-169-141.hsd1.ca.comcast.net] has joined
+          #stackvm
+11:39 -!- shama [~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net] has
+          joined #stackvm
+11:46 -!- ins0mnia [~smuxi@81-234-249-46-no52.tbcn.telia.com] has quit [Remote
+          host closed the connection]
+11:48 -!- ins0mnia [~smuxi@81-234-249-46-no52.tbcn.telia.com] has joined
+          #stackvm
+11:48 -!- fotoverite [~fotoverit@cpe-24-90-104-159.nyc.res.rr.com] has joined
+          #stackvm
+11:50 -!- Maciek416_
+          [~Maciek@173-160-221-203-Washington.hfc.comcastbusiness.net] has quit
+          [Remote host closed the connection]
+11:53 -!- kriskowal [~kriskowal@70-90-167-33-CA.hfc.comcastbusiness.net] has
+          quit [Quit: kriskowal]
+12:03 < airportyh> defunctzombie: how do you feel about using npmd to speed up
+                   testing?
+12:03 < defunctzombie> airportyh: how does that speed it up?
+12:04 < ogd> ins0mnia: done
+12:04 < airportyh> defunctzombie: smarter caching
+12:04 < defunctzombie> airportyh: does npmd actually work?
+12:04 < airportyh> defunctzombie: I guess I'll have to try to find out
+12:04 < defunctzombie> airportyh: also, check out npm-install
+12:05 < defunctzombie> which iirc I added caching
+12:05 < defunctzombie> airportyh: I am good with using anything that works and
+                       helps
+12:05 < defunctzombie> once we get things running
+12:07 < airportyh> npm-install is just docs right?
+12:08 < airportyh> or a module?
+12:08 -!- floby [~floby@LPuteaux-656-01-230-200.w80-12.abo.wanadoo.fr] has left
+          #stackvm []
+12:10 -!- taterbase [uid17123@gateway/web/irccloud.com/x-hhnuhitxrabxkmim] has
+          quit [Quit: Connection closed for inactivity]
+12:13 < defunctzombie> airportyh: module
+12:13 < defunctzombie> airportyh: a module I wrote to do non-deduped npm
+                       installs
+12:13 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+12:13 < defunctzombie> and it has a caching layer
+12:13 < defunctzombie> airportyh: also.. did I give you access to the heroku
+                       deploy?
+12:14 < airportyh> nope
+12:16 < defunctzombie> airportyh: ok, I added you. I think you will get an email
+12:16 < airportyh> cool
+12:19 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Ping
+          timeout: 258 seconds]
+12:19 < thlorenz> juliangruber: probably should ask in libuv if they do async
+                  IO for stdout/stderr like with any other file or if something
+                  is special
+12:20 < thlorenz> juliangruber: remember from C that stdout stuff gets buffered
+                  and flushed later, while fprintf(stderr) gets flushed right
+                  away
+12:20 < defunctzombie> iirc stdout is async but stderr is not.. but I could be
+                       wrong
+12:20 < thlorenz> defunctzombie: cuz it gets buffered and flushed later right?
+12:20 < defunctzombie> yea
+12:21 < thlorenz> I mean in the end stdout goes to tty, so I don't know if it
+                  can really be non blocking
+12:24 -!- ednapiranha [~ednapiran@guest-nat.p2p.sfo1.mozilla.com] has joined
+          #stackvm
+12:25 < airportyh> defunctzombie: ah yes! my changes are live
+                   http://browserify-search.herokuapp.com/
+12:25 -!- mikeal [~mikeal@c-24-6-19-200.hsd1.ca.comcast.net] has quit [Quit:
+          Leaving.]
+12:25 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit
+          [Remote host closed the connection]
+12:26 < defunctzombie> airportyh: nice
+12:26 < defunctzombie> airportyh: tho I would make the search term a query arg
+12:26 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined
+          #stackvm
+12:26 < defunctzombie> q=search+terms+here
+12:26 < defunctzombie> this is more typical than a path
+12:26 < rowbit1> Hourly usage stats: [developer: 0, free: 66, node10: 0]
+12:27 < defunctzombie> airportyh: also, putting in "reactive" as a search term
+                       doesn't return reactive :)
+12:27 < airportyh> defunctzombie: that's messed up
+12:27 < airportyh> defunctzombie: but react does
+12:28 < defunctzombie> airportyh: I agree it is messed up
+12:28 < airportyh> must be the way they tokenize it in mongo
+12:28 < defunctzombie> you are the keeper of the logic so I pass the baton to
+                       you :)
+12:28 -!- intabulas [~intabulas@c-24-6-169-141.hsd1.ca.comcast.net] has quit
+          [Quit: Leaving...]
+12:28 < defunctzombie> I think we should open links in an iframe on the right
+12:28 < airportyh> no it's there, just way down in the page
+12:29 < airportyh> it's getting a bad score because it doesn't have github url
+                   linked
+12:29 < defunctzombie> airportyh: I think we should give higher prority to
+                       exact module name matches
+12:29 < defunctzombie> ah
+12:29 < defunctzombie> for example a search for "array"
+12:29 < defunctzombie> returns eventemitter2 as the first result
+12:30 < defunctzombie> which seems to have nothing to do with array
+12:30 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Ping
+          timeout: 245 seconds]
+12:31 < airportyh> yeah, eventemitter2 also ranks high for test
+12:31 -!- jxson [jxson@nat/google/x-nppzocxklclupxds] has joined #stackvm
+12:31 -!- kenperkins [~textual@8.26.155.10] has joined #stackvm
+12:31 < airportyh> I guess their readme just has lots of content about
+                   everything
+12:31 < defunctzombie> heh
+12:32 < airportyh> I guess a more sophisticated approach would be a page-rank
+                   like thing
+12:32 < defunctzombie> we should weigh the keywords and module description
+                       higher than the readme
+12:32 < airportyh> it already does that
+12:32 < airportyh> by having those higher in the search body
+12:32 < airportyh> but not enough
+12:32 < defunctzombie> ah
+12:33 < airportyh> the thing is some readmes talk endlessly about how good
+                   their tests are
+12:33 < airportyh> and so end up getting ranked for test
+12:33 < defunctzombie> rofl
+12:33 < defunctzombie> maybe we should only grab the first N words of the readme
+12:33 -!- kriskowal [~kriskowal@98.234.185.126] has joined #stackvm
+12:34 < defunctzombie> good readmes generally have a description first
+12:34 < defunctzombie> and a few other details
+12:34 < defunctzombie> test stuff comes later
+12:34 < airportyh> yeah we could try that
+12:34 < dguttman> and then there was the rise of module SEO
+12:34 < defunctzombie> :D
+12:34 < airportyh> :) page rank could weed these out too
+12:35 < airportyh> like if it's dependent on by other test related modules?
+12:35 < defunctzombie> I have a friend who use to work for google
+12:35 < defunctzombie> doing machine learning
+12:35 < dguttman> Sample TODO mvc framework. Tests, browserify, level, tests,
+                  tape, dat, test
+12:35 < defunctzombie> I might be able to convince him to take a look at some
+                       things
+12:35 < airportyh> that would be great
+12:36 < airportyh> I have the python "collective intelligence" book next to me
+12:37 < airportyh> I am happy that superagent gets rank 2nd for ajax
+12:38 < airportyh> but jquery is like 15th for dom
+12:39 < defunctzombie> haha
+12:39 < defunctzombie> airportyh: I think a heart is misleading for dependencies
+12:39 < defunctzombie> makes me think likes
+12:39 < defunctzombie> airportyh: maybe use a chain icon
+12:39 < defunctzombie> airportyh: search for "link" on icomoon
+12:42 -!- mikeal [~mikeal@c-24-6-19-200.hsd1.ca.comcast.net] has joined #stackvm
+12:46 -!- mikeal [~mikeal@c-24-6-19-200.hsd1.ca.comcast.net] has quit [Ping
+          timeout: 245 seconds]
+12:47 -!- ednapiranha [~ednapiran@guest-nat.p2p.sfo1.mozilla.com] has quit
+          [Remote host closed the connection]
+12:49 -!- kevino80 [~kevino80@66.90.98.50] has quit [Remote host closed the
+          connection]
+12:50 -!- ednapiranha [~ednapiran@guest-nat.p2p.sfo1.mozilla.com] has joined
+          #stackvm
+12:55 -!- addisonj [uid18502@gateway/web/irccloud.com/x-acjlpehvkimxzdbu] has
+          joined #stackvm
+12:58 -!- ralphtheninja
+          [~ralphthen@c-f5dfe555.03-11-6c6b7012.cust.bredbandsbolaget.se] has
+          joined #stackvm
+13:04 -!- kumavis [~kumavis@107-219-148-42.lightspeed.sntcca.sbcglobal.net] has
+          joined #stackvm
+13:05 -!- wolfeida_ [~wolfeidau@2001:44b8:4101:f900:87c:3c46:d6db:7ec5] has
+          joined #stackvm
+13:07 -!- wolfeidau [~wolfeidau@ppp118-209-62-26.lns20.mel4.internode.on.net]
+          has quit [Ping timeout: 252 seconds]
+13:09 -!- phated [~phated@72.44.240.228] has joined #stackvm
+13:10 < ogd> irc is where hackers talk when they don't want to be overheard
+             https://www.youtube.com/watch?v=O2rGTXHvPCQ&feature=youtu.be
+13:10 -!- brianloveswords
+          [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has joined
+          #stackvm
+13:11 < pfraze> speaking of has anybody decoded the backdoor yet?
+13:11 < defunctzombie> ogd: YES
+13:11 < defunctzombie> pfraze: yea
+13:11 < defunctzombie> yesterday
+13:11 < defunctzombie> it was finally decoded
+13:12 < defunctzombie> I was alerted by my IRC bot that speaks leet
+13:12 < defunctzombie> ok... we need a bot here that will turn everything we
+                       write into leet
+13:13 < pfraze> I'd feel safer if we did
+13:15 -!- mikolalysenko
+          [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has joined
+          #stackvm
+13:18 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+13:26 < rowbit1> Hourly usage stats: [developer: 6, free: 57, node10: 0]
+13:26 -!- mikolalysenko
+          [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has quit
+          [Ping timeout: 240 seconds]
+13:29 -!- ralphtheninja
+          [~ralphthen@c-f5dfe555.03-11-6c6b7012.cust.bredbandsbolaget.se] has
+          quit [Quit: leaving]
+13:30 -!- jxson_ [jxson@nat/google/x-gyuutirgkjuzjruz] has joined #stackvm
+13:31 -!- kenperkins [~textual@8.26.155.10] has quit [Quit: Computer has gone
+          to sleep.]
+13:31 -!- jxson [jxson@nat/google/x-nppzocxklclupxds] has quit [Ping timeout:
+          240 seconds]
+13:32 -!- kenperkins [~textual@8.26.155.10] has joined #stackvm
+13:33 -!- mikolalysenko
+          [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has joined
+          #stackvm
+13:36 -!- kevino80 [~kevino80@199.16.190.194] has joined #stackvm
+13:41 -!- mikolalysenko
+          [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has quit
+          [Ping timeout: 240 seconds]
+13:42 -!- phated [~phated@72.44.240.228] has quit [Remote host closed the
+          connection]
+13:45 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined
+          #stackvm
+13:45 -!- phated_ [~phated@72.44.240.228] has joined #stackvm
+13:46 -!- kenperkins [~textual@8.26.155.10] has quit [Quit: Computer has gone
+          to sleep.]
+13:47 -!- kriskowal [~kriskowal@98.234.185.126] has quit [Quit: kriskowal]
+13:50 -!- kenperkins [~textual@8.26.155.10] has joined #stackvm
+13:51 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #stackvm
+13:51 -!- phated_ is now known as phated
+13:55 -!- ednapiranha [~ednapiran@guest-nat.p2p.sfo1.mozilla.com] has quit
+          [Remote host closed the connection]
+13:59 -!- ednapiranha [~ednapiran@guest-nat.p2p.sfo1.mozilla.com] has joined
+          #stackvm
+14:00 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit
+          [Remote host closed the connection]
+14:03 -!- kenperkins [~textual@8.26.155.10] has quit [Quit: Computer has gone
+          to sleep.]
+14:04 -!- airportyh [~airportyh@c-98-192-75-66.hsd1.ga.comcast.net] has quit
+          [Quit: airportyh]
+14:09 -!- AvianFlu [~avianflu@198.199.82.25] has quit [Remote host closed the
+          connection]
+14:17 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined
+          #stackvm
+14:20 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit
+          [Remote host closed the connection]
+14:26 < rowbit1> Hourly usage stats: [developer: 3, free: 25, node10: 0]
+14:31 -!- taterbase [uid17123@gateway/web/irccloud.com/x-spudhfddlxdogmqi] has
+          joined #stackvm
+14:46 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Quit: No Ping
+          reply in 180 seconds.]
+14:46 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+14:49 -!- heath [quassel@unaffiliated/ybit] has joined #stackvm
+14:57 -!- feross_ [~feross@nat/yahoo/x-rguwnpjqognkbyie] has joined #stackvm
+15:03 -!- AvianFlu [~avianflu@198.199.82.25] has joined #stackvm
+15:04 -!- brianloveswords
+          [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has quit
+          [Quit: Computer has gone to sleep.]
+15:10 < isaacs> ircretary: tell dominictarr pong2. maybe use email?
+15:10 < ircretary> isaacs: I'll be sure to tell dominictarr
+15:12 -!- brianloveswords
+          [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has joined
+          #stackvm
+15:13 -!- ednapiranha [~ednapiran@guest-nat.p2p.sfo1.mozilla.com] has quit
+          [Remote host closed the connection]
+15:23 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined
+          #stackvm
+15:26 < rowbit1> Hourly usage stats: [developer: 0, free: 32, node10: 0]
+15:30 -!- kevino80 [~kevino80@199.16.190.194] has quit [Remote host closed the
+          connection]
+15:36 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Remote host
+          closed the connection]
+15:38 -!- phated [~phated@72.44.240.228] has quit [Ping timeout: 276 seconds]
+15:43 -!- kevino80 [~kevino80@199.16.190.194] has joined #stackvm
+15:43 -!- phated [~phated@72.44.240.228] has joined #stackvm
+15:53 < rowbit1> /!\ ATTENTION: (default-local) jasonparekh@... successfully
+                 signed up for developer browserling plan ($20). Cash money! /!\
+15:53 < rowbit1> /!\ ATTENTION: (default-local) paid account successfully
+                 upgraded /!\
+15:54 -!- rannmann [~rez@pdpc/supporter/student/rannmann] has quit [Remote host
+          closed the connection]
+15:58 < ogd> jlord: you should write a thing for github that lets me clone
+             issues as a repository of markdown files from a github hosted repo
+             url
+15:58 -!- kevino80 [~kevino80@199.16.190.194] has quit [Remote host closed the
+          connection]
+16:04 -!- fotoverite [~fotoverit@cpe-24-90-104-159.nyc.res.rr.com] has quit
+          [Quit: fotoverite]
+16:04 -!- kevino80 [~kevino80@199.16.190.194] has joined #stackvm
+16:08 -!- kumavis_ [~textual@107-219-148-42.lightspeed.sntcca.sbcglobal.net]
+          has joined #stackvm
+16:17 -!- naneau [~naneau@unaffiliated/naneau] has quit [Quit: Quit.]
+16:25 -!- rannmann [~rez@pdpc/supporter/student/rannmann] has joined #stackvm
+16:26 < rowbit1> Hourly usage stats: [developer: 7, free: 28, node10: 0]
+16:32 -!- ins0mnia [~smuxi@81-234-249-46-no52.tbcn.telia.com] has quit [Ping
+          timeout: 276 seconds]
+16:35 -!- airportyh [~airportyh@c-98-192-75-66.hsd1.ga.comcast.net] has joined
+          #stackvm
+16:38 < airportyh> defunctzombie: so trying to browserify the github module
+                   will hang indefinitely
+16:38 < defunctzombie> airportyh: ?
+16:39 < airportyh> defunctzombie: https://gist.github.com/airportyh/10930576
+16:39 < airportyh> :)
+16:40 < defunctzombie> sounds like a browserify bug
+16:40 < defunctzombie> probably something with streams
+16:40 < defunctzombie> I blame all problems on streams
+16:40 < airportyh> defunctzombie: if we spawn browserify then we can timeout
+                   and kill it
+16:40 < airportyh> harder with in-process js
+16:40 < defunctzombie> airportyh: yea, that might be smart
+16:40 -!- taterbase [uid17123@gateway/web/irccloud.com/x-spudhfddlxdogmqi] has
+          quit [Quit: Connection closed for inactivity]
+16:40 < defunctzombie> make an issue about it on the tester
+16:41 < defunctzombie> I want to move to spawning for some things anyway so
+                       this might be a good defensive reason to do so
+16:41 < defunctzombie> substack: ^
+16:41 < defunctzombie> substack: browserify hangs
+16:42 -!- fotoverite [~fotoverit@cpe-24-90-104-159.nyc.res.rr.com] has joined
+          #stackvm
+16:46 < airportyh> https://github.com/substack/node-browserify/issues/732
+16:46 < airportyh> or I could just try to fix that :P
+16:49 < substack> confirmed
+16:53 < substack> airportyh: browser-resolve isn't calling its callback in
+                  require
+16:54 < airportyh> substack: this one?
+https://github.com/defunctzombie/node-browser-resolve/blob/master/index.js#L109
+16:56 < substack> packageFilter is stuck in a loop
+16:56 < rowbit1> /!\ ATTENTION: (default-local) shannonm@... successfully
+                 signed up for developer browserling plan ($20). Cash money! /!\
+16:56 < rowbit1> /!\ ATTENTION: (default-local) paid account successfully
+                 upgraded /!\
+17:03 < airportyh> substack: narrowed to infinitely in this vicinity
+https://github.com/substack/node-resolve/blob/master/lib/async.js#L65-L106
+17:06 < airportyh> so github's "main" is set to "."
+17:19 < airportyh> substack: possibly fix is just remove this block
+https://github.com/substack/node-resolve/blob/master/lib/async.js#L94-L98 and
+                   replace with just line 97
+17:22 < defunctzombie> possible fix is for that module's main to be fixed
+17:22 < defunctzombie> and for npm to not allow such tom foolery
+17:24 < airportyh> defunctzombie: but npm allows such tom foolery it seems
+17:24 < defunctzombie> yes
+17:24 < airportyh> defunctzombie: either it maps . to ./index, or it just fell
+                   back to ./index
+17:24 < defunctzombie> tragically things are too lenient
+17:25 -!- kevino80 [~kevino80@199.16.190.194] has quit [Remote host closed the
+          connection]
+17:26 < rowbit1> Hourly usage stats: [developer: 1, free: 32, node10: 0]
+17:28 -!- kevino80 [~kevino80@199.16.190.194] has joined #stackvm
+17:49 -!- ednapiranha [~ednapiran@216.9.110.11] has joined #stackvm
+17:52 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+17:54 -!- ednapiranha [~ednapiran@216.9.110.11] has quit [Remote host closed
+          the connection]
+17:54 -!- airportyh [~airportyh@c-98-192-75-66.hsd1.ga.comcast.net] has quit
+          [Quit: airportyh]
+17:57 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit
+          [Remote host closed the connection]
+18:00 -!- airportyh [~airportyh@c-98-192-75-66.hsd1.ga.comcast.net] has joined
+                         Oakland)
+16:11 -!- sirialize [~fenny@c-98-248-137-81.hsd1.ca.comcast.net] has quit
+          [Quit: Leaving.]
+16:11 -!- sirialize [~fenny@c-98-248-137-81.hsd1.ca.comcast.net] has joined
+          #nerdtracker
+16:24 -!- sirialize [~fenny@c-98-248-137-81.hsd1.ca.comcast.net] has quit
+          [Quit: Leaving.]
+16:56 < substack> packageFilter is stuck in a loop
+16:56 < rowbit1> /!\ ATTENTION: (default-local) shannonm@... successfully
+                 signed up for developer browserling plan ($20). Cash money! /!\
+16:56 < rowbit1> /!\ ATTENTION: (default-local) paid account successfully
+                 upgraded /!\
+17:03 < airportyh> substack: narrowed to infinitely in this vicinity
+https://github.com/substack/node-resolve/blob/master/lib/async.js#L65-L106
+17:06 < airportyh> so github's "main" is set to "."
+17:19 < airportyh> substack: possibly fix is just remove this block
+https://github.com/substack/node-resolve/blob/master/lib/async.js#L94-L98 and
+                   replace with just line 97
+17:22 < defunctzombie> possible fix is for that module's main to be fixed
+17:22 < defunctzombie> and for npm to not allow such tom foolery
+17:24 < airportyh> defunctzombie: but npm allows such tom foolery it seems
+17:24 < defunctzombie> yes
+17:24 < airportyh> defunctzombie: either it maps . to ./index, or it just fell
+                   back to ./index
+17:24 < defunctzombie> tragically things are too lenient
+17:25 -!- kevino80 [~kevino80@199.16.190.194] has quit [Remote host closed the
+          connection]
+16:56 < substack> packageFilter is stuck in a loop
+16:56 < rowbit1> /!\ ATTENTION: (default-local) shannonm@... successfully
+                 signed up for developer browserling plan ($20). Cash money! /!\
+16:56 < rowbit1> /!\ ATTENTION: (default-local) paid account successfully
+                 upgraded /!\
+17:03 < airportyh> substack: narrowed to infinitely in this vicinity
+https://github.com/substack/node-resolve/blob/master/lib/async.js#L65-L106
+17:06 < airportyh> so github's "main" is set to "."
+17:19 < airportyh> substack: possibly fix is just remove this block
+https://github.com/substack/node-resolve/blob/master/lib/async.js#L94-L98 and
+                   replace with just line 97
+17:22 < defunctzombie> possible fix is for that module's main to be fixed
+17:22 < defunctzombie> and for npm to not allow such tom foolery
+17:24 < airportyh> defunctzombie: but npm allows such tom foolery it seems
+17:24 < defunctzombie> yes
+17:24 < airportyh> defunctzombie: either it maps . to ./index, or it just fell
+                   back to ./index
+17:24 < defunctzombie> tragically things are too lenient
+17:25 -!- kevino80 [~kevino80@199.16.190.194] has quit [Remote host closed the
+          connection]
+17:26 < rowbit1> Hourly usage stats: [developer: 1, free: 32, node10: 0]
+17:28 -!- kevino80 [~kevino80@199.16.190.194] has joined #stackvm
+17:49 -!- ednapiranha [~ednapiran@216.9.110.11] has joined #stackvm
+17:52 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+17:54 -!- ednapiranha [~ednapiran@216.9.110.11] has quit [Remote host closed
+          the connection]
+17:54 -!- airportyh [~airportyh@c-98-192-75-66.hsd1.ga.comcast.net] has quit
+          [Quit: airportyh]
+17:57 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit
+          [Remote host closed the connection]
+18:00 -!- airportyh [~airportyh@c-98-192-75-66.hsd1.ga.comcast.net] has joined
+          #stackvm
+18:02 -!- kumavis_ [~textual@107-219-148-42.lightspeed.sntcca.sbcglobal.net]
+          has quit [Quit: Computer has gone to sleep.]
+18:05 < airportyh> substack: https://github.com/substack/node-resolve/pull/41
+18:05 -!- airportyh [~airportyh@c-98-192-75-66.hsd1.ga.comcast.net] has quit
+          [Quit: airportyh]
+18:05 -!- feross__ [~feross@nat/yahoo/x-pyeetvmvkyiqbobh] has joined #stackvm
+18:06 -!- feross_ [~feross@nat/yahoo/x-rguwnpjqognkbyie] has quit [Ping
+          timeout: 258 seconds]
+18:06 -!- kevino80 [~kevino80@199.16.190.194] has quit [Remote host closed the
+          connection]
+18:09 -!- contrahax [~contrahax@ip24-251-13-101.ph.ph.cox.net] has joined
+          #stackvm
+18:22 -!- wolfeida_ is now known as wolfeidau
+18:26 < rowbit1> Hourly usage stats: [developer: 4, free: 24, node10: 0]
+18:30 -!- contrahax [~contrahax@ip24-251-13-101.ph.ph.cox.net] has quit [Quit:
+          Sleeping]
+18:43 -!- yorick [~yorick@oftn/member/yorick] has quit [Remote host closed the
+          connection]
+18:54 -!- contrahax [~contrahax@wsip-70-166-121-220.ph.ph.cox.net] has joined
+          #stackvm
+19:03 -!- rakm [uid23430@gateway/web/irccloud.com/x-qfuxozrygspoaxmf] has
+          joined #stackvm
+19:04 -!- feross__ [~feross@nat/yahoo/x-pyeetvmvkyiqbobh] has quit [Quit:
+          feross__]
+19:05 -!- feross_ [~feross@nat/yahoo/x-lorwszodieovupfs] has joined #stackvm
+19:10 -!- pfraze [~unsafe@cpe-70-113-196-4.austin.res.rr.com] has quit [Ping
+          timeout: 265 seconds]
+19:13 -!- feross_ [~feross@nat/yahoo/x-lorwszodieovupfs] has quit [Ping
+          timeout: 245 seconds]
+19:26 -!- contrahax [~contrahax@wsip-70-166-121-220.ph.ph.cox.net] has quit
+          [Quit: Sleeping]
+19:26 < rowbit1> Hourly usage stats: [developer: 7, free: 26, node10: 0]
+19:36 -!- phated [~phated@72.44.240.228] has quit [Remote host closed the
+          connection]
+19:38 -!- naneau [~naneau@unaffiliated/naneau] has joined #stackvm
+19:38 -!- mikolalysenko
+          [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has joined
+          #stackvm
+19:39 -!- phated [~phated@72.44.240.228] has joined #stackvm
+19:42 -!- Maciek416 [~Maciek@2601:7:780:520:5ab0:35ff:fe74:c6c8] has joined
+          #stackvm
+19:43 -!- taterbase [uid17123@gateway/web/irccloud.com/x-gwfjrrxvdgedaycg] has
+          joined #stackvm
+19:45 < rowbit1> /!\ ATTENTION: (default-local) cdean@... successfully signed
+                 up for developer browserling plan ($20). Cash money! /!\
+19:45 < rowbit1> /!\ ATTENTION: (default-local) paid account successfully
+                 upgraded /!\
+19:53 -!- dybskiy [~dybskiy@12.180.47.153] has joined #stackvm
+19:55 -!- brianloveswords
+          [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has quit
+          [Quit: Computer has gone to sleep.]
+20:00 -!- ircretary [~ircretary@165.225.132.207] has quit [Remote host closed
+          the connection]
+20:00 -!- ircretary [~ircretary@165.225.132.207] has joined #stackvm
+20:08 -!- mikolalysenko
+          [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has quit
+          [Ping timeout: 265 seconds]
+20:26 < rowbit1> Hourly usage stats: [developer: 3, free: 11, node10: 0]
+20:27 -!- _matt__ [~matthewbo@110.174.82.95] has joined #stackvm
+20:29 -!- contrahax [~contrahax@wsip-70-166-121-220.ph.ph.cox.net] has joined
+          #stackvm
+20:29 -!- maksimlin [~chatzilla@168.186.239.130] has joined #stackvm
+20:30 -!- kevino80 [~kevino80@c-68-40-202-126.hsd1.mi.comcast.net] has joined
+          #stackvm
+ Unofficial browserling/testling mad science channel. For official help /join #b
+20:34 -!- kevino80 [~kevino80@c-68-40-202-126.hsd1.mi.comcast.net] has quit
+          [Client Quit]
+20:46 -!- dominictarr [~dominic@125.253.110.136] has joined #stackvm
+20:58 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Remote host
+          closed the connection]
+21:01 -!- kumavis [~kumavis@107-219-148-42.lightspeed.sntcca.sbcglobal.net] has
+          quit [Ping timeout: 245 seconds]
+21:14 -!- mikolalysenko
+          [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has joined
+          #stackvm
+21:16 -!- dybskiy [~dybskiy@12.180.47.153] has quit [Remote host closed the
+          connection]
+21:21 -!- mirkok_ [~mirkok@static.71.238.46.78.clients.your-server.de] has
+          joined #stackvm
+21:21 -!- robertko1alski [leiru@unaffiliated/robinson-k/x-7857253] has joined
+          #stackvm
+21:22 -!- mirkok [~mirkok@static.71.238.46.78.clients.your-server.de] has quit
+          [Ping timeout: 240 seconds]
+21:22 -!- robertkowalski [leiru@unaffiliated/robinson-k/x-7857253] has quit
+          [Ping timeout: 240 seconds]
+21:22 -!- mirkok_ is now known as mirkok
+ [21:25] [jjjohnny(+i)] [2:freenode/#stackvm(+cnt)] [Act: 3,5,6]
+[#stackvm]
+19:04 -!- feross__ [~feross@nat/yahoo/x-pyeetvmvkyiqbobh] has quit [Quit: feross__]
+19:05 -!- feross_ [~feross@nat/yahoo/x-lorwszodieovupfs] has joined #stackvm
+19:10 -!- pfraze [~unsafe@cpe-70-113-196-4.austin.res.rr.com] has quit [Ping timeout: 265 seconds]
+19:13 -!- feross_ [~feross@nat/yahoo/x-lorwszodieovupfs] has quit [Ping timeout: 245 seconds]
+19:26 -!- contrahax [~contrahax@wsip-70-166-121-220.ph.ph.cox.net] has quit [Quit: Sleeping]
+19:26 < rowbit1> Hourly usage stats: [developer: 7, free: 26, node10: 0]
+19:36 -!- phated [~phated@72.44.240.228] has quit [Remote host closed the connection]
+19:38 -!- naneau [~naneau@unaffiliated/naneau] has joined #stackvm
+19:38 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has joined #stackvm
+19:39 -!- phated [~phated@72.44.240.228] has joined #stackvm
+19:42 -!- Maciek416 [~Maciek@2601:7:780:520:5ab0:35ff:fe74:c6c8] has joined #stackvm
+19:43 -!- taterbase [uid17123@gateway/web/irccloud.com/x-gwfjrrxvdgedaycg] has joined #stackvm
+19:45 < rowbit1> /!\ ATTENTION: (default-local) cdean@... successfully signed up for developer browserling plan ($20). Cash
+                 money! /!\
+19:45 < rowbit1> /!\ ATTENTION: (default-local) paid account successfully upgraded /!\
+19:53 -!- dybskiy [~dybskiy@12.180.47.153] has joined #stackvm
+19:55 -!- brianloveswords [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has quit [Quit: Computer has gone to sleep.]
+20:00 -!- ircretary [~ircretary@165.225.132.207] has quit [Remote host closed the connection]
+20:00 -!- ircretary [~ircretary@165.225.132.207] has joined #stackvm
+20:08 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has quit [Ping timeout: 265 seconds]
+20:26 < rowbit1> Hourly usage stats: [developer: 3, free: 11, node10: 0]
+20:27 -!- _matt__ [~matthewbo@110.174.82.95] has joined #stackvm
+20:29 -!- contrahax [~contrahax@wsip-70-166-121-220.ph.ph.cox.net] has joined #stackvm
+20:29 -!- maksimlin [~chatzilla@168.186.239.130] has joined #stackvm
+20:30 -!- kevino80 [~kevino80@c-68-40-202-126.hsd1.mi.comcast.net] has joined #stackvm
+20:34 -!- kevino80 [~kevino80@c-68-40-202-126.hsd1.mi.comcast.net] has quit [Client Quit]
+20:46 -!- dominictarr [~dominic@125.253.110.136] has joined #stackvm
+20:58 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Remote host closed the connection]
+21:01 -!- kumavis [~kumavis@107-219-148-42.lightspeed.sntcca.sbcglobal.net] has quit [Ping timeout: 245 seconds]
+21:14 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has joined #stackvm
+21:16 -!- dybskiy [~dybskiy@12.180.47.153] has quit [Remote host closed the connection]
+21:21 -!- mirkok_ [~mirkok@static.71.238.46.78.clients.your-server.de] has joined #stackvm
+21:21 -!- robertko1alski [leiru@unaffiliated/robinson-k/x-7857253] has joined #stackvm
+ Unofficial browserling/testling mad science channel. For official help /join #browserling
+21:22 -!- mirkok [~mirkok@static.71.238.46.78.clients.your-server.de] has quit [Ping timeout: 240 seconds]
+21:22 -!- robertkowalski [leiru@unaffiliated/robinson-k/x-7857253] has quit [Ping timeout: 240 seconds]
+21:22 -!- mirkok_ is now known as mirkok
+21:26 < rowbit1> Hourly usage stats: [free: 19]
+21:41 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has quit [Quit: thealphanerd]
+21:43 -!- jxson_ [jxson@nat/google/x-gyuutirgkjuzjruz] has quit [Ping timeout: 240 seconds]
+21:44 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has quit [Ping timeout: 265 seconds]
+21:50 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+21:52 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Remote host closed the connection]
+21:56 -!- thlorenz_ [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+22:00 -!- greweb_ [sid21616@gateway/web/irccloud.com/x-vaxounwbhmpmpxwi] has quit [Ping timeout: 252 seconds]
+22:00 -!- mafintosh [uid28509@gateway/web/irccloud.com/x-wipncgijkwaoenwu] has quit [Ping timeout: 252 seconds]
+22:01 -!- gozala [uid5923@gateway/web/irccloud.com/x-fqozhkuvgdrsyzaj] has quit [Ping timeout: 252 seconds]
+22:01 -!- svnlto [sid4766@gateway/web/irccloud.com/x-twenthpysmjxfzwt] has quit [Ping timeout: 252 seconds]
+22:02 -!- mafintosh [uid28509@gateway/web/irccloud.com/x-rwhhjmljuowjxbdv] has joined #stackvm
+22:02 -!- greweb_ [sid21616@gateway/web/irccloud.com/x-yetffdszgwvevmdv] has joined #stackvm
+22:04 -!- gozala [uid5923@gateway/web/irccloud.com/x-dfaioptriwbqwqim] has joined #stackvm
+22:04 -!- svnlto [sid4766@gateway/web/irccloud.com/x-dyqtmxibhvcykflt] has joined #stackvm
+22:10 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+22:12 -!- thlorenz_ [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Ping timeout: 252 seconds]
+22:12 -!- dominictarr [~dominic@125.253.110.136] has quit [Remote host closed the connection]
+22:14 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+22:23 -!- dybskiy [~dybskiy@c-24-21-166-2.hsd1.or.comcast.net] has joined #stackvm
+22:26 < rowbit1> Hourly usage stats: [free: 28]
+22:36 -!- dybskiy_ [~dybskiy@107-1-54-178-ip-static.hfc.comcastbusiness.net] has joined #stackvm
+22:38 -!- dybskiy [~dybskiy@c-24-21-166-2.hsd1.or.comcast.net] has quit [Ping timeout: 240 seconds]
+22:43 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Remote host closed the connection]
+22:44 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+22:46 -!- dybskiy_ [~dybskiy@107-1-54-178-ip-static.hfc.comcastbusiness.net] has quit [Remote host closed the connection]
+22:47 -!- dybskiy [~dybskiy@107-1-54-178-ip-static.hfc.comcastbusiness.net] has joined #stackvm
+22:48 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Ping timeout: 245 seconds]
+22:49 -!- phated [~phated@72.44.240.228] has quit [Remote host closed the connection]
+22:51 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has quit [Remote host closed the connection]
+22:51 -!- phated [~phated@72.44.240.228] has joined #stackvm
+22:55 -!- contrahax [~contrahax@wsip-70-166-121-220.ph.ph.cox.net] has quit [Quit: Sleeping]
+22:58 -!- dybskiy [~dybskiy@107-1-54-178-ip-static.hfc.comcastbusiness.net] has quit [Remote host closed the connection]
+ [23:18] [jjjohnny(+i)] [2:freenode/#stackvm(+cnt)] [Act: 3,5,6]
+[#stackvm]
+21:22 -!- robertkowalski [leiru@unaffiliated/robinson-k/x-7857253] has quit [Ping timeout: 240 seconds]
+21:22 -!- mirkok_ is now known as mirkok
+21:26 < rowbit1> Hourly usage stats: [free: 19]
+21:41 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has quit [Quit: thealphanerd]
+21:43 -!- jxson_ [jxson@nat/google/x-gyuutirgkjuzjruz] has quit [Ping timeout: 240 seconds]
+21:44 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has quit [Ping timeout: 265 seconds]
+21:50 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+21:52 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Remote host closed the connection]
+21:56 -!- thlorenz_ [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+22:00 -!- greweb_ [sid21616@gateway/web/irccloud.com/x-vaxounwbhmpmpxwi] has quit [Ping timeout: 252 seconds]
+22:00 -!- mafintosh [uid28509@gateway/web/irccloud.com/x-wipncgijkwaoenwu] has quit [Ping timeout: 252 seconds]
+22:01 -!- gozala [uid5923@gateway/web/irccloud.com/x-fqozhkuvgdrsyzaj] has quit [Ping timeout: 252 seconds]
+22:01 -!- svnlto [sid4766@gateway/web/irccloud.com/x-twenthpysmjxfzwt] has quit [Ping timeout: 252 seconds]
+22:02 -!- mafintosh [uid28509@gateway/web/irccloud.com/x-rwhhjmljuowjxbdv] has joined #stackvm
+22:02 -!- greweb_ [sid21616@gateway/web/irccloud.com/x-yetffdszgwvevmdv] has joined #stackvm
+22:04 -!- gozala [uid5923@gateway/web/irccloud.com/x-dfaioptriwbqwqim] has joined #stackvm
+22:04 -!- svnlto [sid4766@gateway/web/irccloud.com/x-dyqtmxibhvcykflt] has joined #stackvm
+22:10 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+22:12 -!- thlorenz_ [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Ping timeout: 252 seconds]
+22:12 -!- dominictarr [~dominic@125.253.110.136] has quit [Remote host closed the connection]
+22:14 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+22:23 -!- dybskiy [~dybskiy@c-24-21-166-2.hsd1.or.comcast.net] has joined #stackvm
+22:26 < rowbit1> Hourly usage stats: [free: 28]
+22:36 -!- dybskiy_ [~dybskiy@107-1-54-178-ip-static.hfc.comcastbusiness.net] has joined #stackvm
+22:38 -!- dybskiy [~dybskiy@c-24-21-166-2.hsd1.or.comcast.net] has quit [Ping timeout: 240 seconds]
+22:43 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Remote host closed the connection]
+22:44 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+22:46 -!- dybskiy_ [~dybskiy@107-1-54-178-ip-static.hfc.comcastbusiness.net] has quit [Remote host closed the connection]
+22:47 -!- dybskiy [~dybskiy@107-1-54-178-ip-static.hfc.comcastbusiness.net] has joined #stackvm
+22:48 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Ping timeout: 245 seconds]
+22:49 -!- phated [~phated@72.44.240.228] has quit [Remote host closed the connection]
+22:51 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has quit [Remote host closed the connection]
+22:51 -!- phated [~phated@72.44.240.228] has joined #stackvm
+22:55 -!- contrahax [~contrahax@wsip-70-166-121-220.ph.ph.cox.net] has quit [Quit: Sleeping]
+22:58 -!- dybskiy [~dybskiy@107-1-54-178-ip-static.hfc.comcastbusiness.net] has quit [Remote host closed the connection]
+23:18 < jjjohnny> MOST WAN TED
+23:18 < LOUDBOT> THIS IS WHAT HOMEOPATHS ACTUALLY BELIEVE IS POSSIBLE
+23:19 < jjjohnny> IT WORKS IF WE ALL BELIEVE IT WORKS IF
+23:19 < LOUDBOT> FUCK YOU CALIFORNIA IS THE PLACE OF JESUS AND LARGE BREASTED WOMENFOLK
+23:21 < jjjohnny> ARE WE BEING OVER SCRUTINIZED BY OVERMUCH SCRUTINIZING?
+23:21 < LOUDBOT> I AM JOSEPH RATZINGER AND I APPROVE THIS MESSAGE
+23:22 < jjjohnny> OR I AINT THE POPE
+23:22 < LOUDBOT> I THINK AZN INLCUDES PACIFIC ISLANDER, I CANT BE SURE
+23:22 -!- brianloveswords [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has joined #stackvm
+23:22 < jjjohnny> DEFINE QUEER
+23:22 < LOUDBOT> I WANT TO CRAWL UP INSIDE YOUR VAGINA
+23:23 < jjjohnny> NOW YOU'RE LETTING ON
+23:23 < LOUDBOT> SCP IS A DIRTY LIAR AND A WHORE
+23:25 < jjjohnny> LOL NEWB INSTALLED LINUX PACKAGE VERSION ALL CAPS SUXXA
+ Unofficial browserling/testling mad science channel. For official help /join #browserling
+23:25 < LOUDBOT> DHOSS SHOWERS IN FROZEN TAUNTAUN REMAINS
+23:26 < jjjohnny> THEN BATHES IT WITH THE GODS O CONDENSATE
+23:26 < LOUDBOT> IF I CAN GET HIM TO COME OUT OF THE FUCKING CLOSET
+23:26 < rowbit1> Hourly usage stats: [free: 26]
+23:29 < jjjohnny> O MOCK ME ALL OF YOU BUT YOU ONLY WOCH OUT
+23:29 < LOUDBOT> FOUR MILLION CYBERMEN, NO PROBLEM, BUT DOCTOR AND NOW YOU'RE SCARED
+23:30 < jjjohnny> GENDER TERRORISM
+23:30 < LOUDBOT> AND LOTS OF COOKIES
+23:30 -!- addisonj [uid18502@gateway/web/irccloud.com/x-acjlpehvkimxzdbu] has quit [Quit: Connection closed for inactivity]
+23:30 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #stackvm
+23:31 < jjjohnny> HELPS THE CULTURE GO DOWN
+23:31 < LOUDBOT> THIS IS THE DAY THAT DANAH BOYD HATES MOST
+23:32 < jjjohnny> I AM SUPREMELY INDIFFERENT TO THE METAFACT THAT INFORMATION ON THAT SUBJECT COULD BE DELIVERED TO ME IN MILLISECONDS.
+23:32 < LOUDBOT> BALEOUT FAILED DUMP TEA IN OCEAN
+23:37 < jjjohnny> THINK WITH YOUR TOES
+23:37 < LOUDBOT> ACHIEVEMENT UNLOCKED: ROSETTA STONE
+23:37 -!- maksimlin [~chatzilla@168.186.239.130] has quit [Ping timeout: 276 seconds]
+23:37 < jjjohnny> A CHANCE TO SPOOF HISTORY AND REWRITE THE FUTURE!
+23:37 < LOUDBOT> I'M ONLY RACIST AFTER SUNSET
+23:40 < jjjohnny> ALL YOU NEED TO KNOW ARE THE FEW THINGS
+23:40 < LOUDBOT> WHAT AREN'T YOU TELLING ME
+23:42 < jjjohnny> CALL STACK SIZE LIMIT HELLAXEDED
+23:42 < LOUDBOT> BUT RAILBAIT THE REVOUTION NEEDS A LEADER
+23:42 < jjjohnny> TO MURDER.  IN BED.
+23:42 < LOUDBOT> GUESS I'M NOT A NIGGER
+23:43 < jjjohnny> THE WEATHER AFTER SUNSET.
+23:43 < LOUDBOT> THE CORN CARES ABOUT TIME AND HAS A CLOCK
+23:44 < jjjohnny> GEORGE CAN I PET THE CORN? HUH, CAN I PET THE CORN, GEORGE?
+23:44 < LOUDBOT> GET POE::COMPONENT::IRC WORKING ALREADY
+23:47 < jjjohnny> THAT THING YOU KILLED.  IT IS NOW OF A TIMELESS FORM.
+23:47 < LOUDBOT> KRAFTWERK X RELATIVITY IS MY NEWEST OTP
+23:49 < jjjohnny> RELAXITIVITY AND OTHER FINE SONG TITLES
+23:49 < LOUDBOT> LIKE A JOKE TRYIN' TO MAKE ANOTHER JOKE LAUGH, HA HA
+23:50 < jjjohnny> WHAT IS I DONT GET IT.
+23:50 < LOUDBOT> LET IT GO.. LET IT GO... GO AWAY AND SLAM THE DOOR
+ [23:51] [jjjohnny(+i)] [2:freenode/#stackvm(+cnt)] [Act: 3,5,6]
+[#stackvm]

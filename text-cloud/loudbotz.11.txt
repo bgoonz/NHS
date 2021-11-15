@@ -1,0 +1,1048 @@
+15:24 -!- TooTallNate [~TooTallNa@208.66.31.10] has quit [Quit: Computer has
+          gone to sleep.]
+15:28 -!- redonkulus [~redonkulu@2001:4998:effd:600:646e:84e8:14da:82c4] has
+          joined #npm
+15:28 -!- seanewest [~seanewest@c-24-0-46-236.hsd1.nj.comcast.net] has quit
+          [Quit: seanewest]
+15:29 -!- jaimef [jaimef@166.84.6.60] has quit [Excess Flood]
+15:33 -!- jaimef [jaimef@166.84.6.60] has joined #npm
+15:36 -!- mich-cook1 [~me@208.185.32.14] has joined #npm
+15:37 -!- mich-cook [~me@adsl-76-254-31-83.dsl.pltn13.sbcglobal.net] has quit
+          [Ping timeout: 250 seconds]
+15:38 -!- seanewest [~seanewest@c-24-0-46-236.hsd1.nj.comcast.net] has joined
+          #npm
+15:44 -!- rockbot__ [~rockbot__@50.1.57.188] has quit [Remote host closed the
+          connection]
+15:44 -!- rockbot__ [~rockbot__@50.1.57.188] has joined #npm
+15:48 -!- rockbot__ [~rockbot__@50.1.57.188] has quit [Ping timeout: 250
+          seconds]
+16:21 -!- jaimef [jaimef@166.84.6.60] has quit [Excess Flood]
+          seconds]
+11:51 < jjjohnny> hey lovers at NPM it has come to my attention that the
+                  famo.us brand framework is gonna try to eminent domain my
+                  module named 'famous' even tho I pointed them to module name
+                  'famo.us' and told them 'famous' is for my personal open
+                  source framework, which was open source before theirs
+11:52 < jjjohnny> i wish to go on the record
+11:52  * jjjohnny does not consent
+12:10 -!- demands_ [~demands@173.247.204.122] has joined #npm
+12:12 -!- demands_ [~demands@173.247.204.122] has quit [Read error: Connection
+          reset by peer]
+12:12 -!- demands_ [~demands@173.247.204.122] has joined #npm
+12:14 < chiper> boo
+12:22 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          quit [Remote host closed the connection]
+12:27 -!- mich-cook [~me@adsl-76-254-31-83.dsl.pltn13.sbcglobal.net] has joined
+          #npm
+12:28 -!- matrixdevuk [~matrixdev@unaffiliated/matrixdevuk] has quit [Quit:
+          Lingo - http://www.lingoirc.com]
+12:28 -!- matrixdevuk [~matrixdev@unaffiliated/matrixdevuk] has joined #npm
+12:34 -!- faiqyou [~Faiq@76-218-204-53.lightspeed.sntcca.sbcglobal.net] has
+          joined #npm
+12:36 -!- faiqyou [~Faiq@76-218-204-53.lightspeed.sntcca.sbcglobal.net] has
+          quit [Client Quit]
+12:43 -!- rossk [~rossk@64-142-88-9.dedicated.static.sonic.net] has joined #npm
+13:02 -!- naneau [~naneau@unaffiliated/naneau] has joined #npm
+13:04 -!- SomeKittens [uid27802@gateway/web/irccloud.com/x-bkuumwydvuechvvy]
+          has joined #npm
+13:19 -!- TooTallNate [~TooTallNa@208.66.31.10] has joined #npm
+13:22 -!- seanewest [~seanewest@c-24-0-46-236.hsd1.nj.comcast.net] has joined
+          #npm
+13:26 -!- redonkulus [~redonkulu@nat/yahoo/x-mzsoznreifhqqmyj] has joined #npm
+13:26 -!- demands_ [~demands@173.247.204.122] has quit [Remote host closed the
+          connection]
+13:27 -!- naneau [~naneau@unaffiliated/naneau] has quit [Quit: Part.]
+13:29 -!- demands_ [~demands@173.247.204.122] has joined #npm
+13:31 -!- Gulthor [~speciman@LCaen-156-56-17-8.w80-11.abo.wanadoo.fr] has quit
+          [Quit: Gulthor]
+13:32 -!- seldo [~seldo@76.14.42.166] has joined #npm
+13:37 -!- seldo [~seldo@76.14.42.166] has quit [Ping timeout: 245 seconds]
+13:38 -!- rockbot__ [~rockbot__@50.1.57.188] has joined #npm
+13:42 -!- faiqyou [~Faiq@50.1.57.188] has joined #npm
+13:43 -!- shafox [~quassel@103.16.70.14] has quit [Ping timeout: 256 seconds]
+13:46 -!- ceejbot [~ceejbot@50.1.57.188] has joined #npm
+13:46 -!- mode/#npm [+o ceejbot] by ChanServ
+13:47 -!- jaimef [jaimef@166.84.6.60] has quit [Excess Flood]
+13:50 -!- shafox [~quassel@103.16.70.14] has joined #npm
+13:50 -!- faiqyou [~Faiq@50.1.57.188] has quit [Ping timeout: 245 seconds]
+13:51 -!- jaimef [jaimef@166.84.6.60] has joined #npm
+13:53 -!- ljharb [~ljharb@oftn/member/ljharb] has quit [Quit: ljharb]
+13:58 -!- demands_ [~demands@173.247.204.122] has quit [Remote host closed the
+          connection]
+14:02 -!- redonkulus [~redonkulu@nat/yahoo/x-mzsoznreifhqqmyj] has quit [Read
+          error: Connection reset by peer]
+14:02 -!- redonkulus1 [~redonkulu@2001:4998:effd:600:5028:e6b6:366:2b11] has
+          joined #npm
+14:02 -!- redonkulus1 [~redonkulu@2001:4998:effd:600:5028:e6b6:366:2b11] has
+          quit [Client Quit]
+14:02 -!- redonkulus [~redonkulu@2001:4998:effd:600:5028:e6b6:366:2b11] has
+          joined #npm
+13:58 -!- demands_ [~demands@173.247.204.122] has quit [Remote host closed the
+          connection]
+14:02 -!- redonkulus [~redonkulu@nat/yahoo/x-mzsoznreifhqqmyj] has quit [Read
+          error: Connection reset by peer]
+14:02 -!- redonkulus1 [~redonkulu@2001:4998:effd:600:5028:e6b6:366:2b11] has
+          joined #npm
+14:02 -!- redonkulus1 [~redonkulu@2001:4998:effd:600:5028:e6b6:366:2b11] has
+          quit [Client Quit]
+14:02 -!- redonkulus [~redonkulu@2001:4998:effd:600:5028:e6b6:366:2b11] has
+          joined #npm
+14:04 -!- demands_ [~demands@173.247.204.122] has joined #npm
+14:08 -!- seanewest [~seanewest@c-24-0-46-236.hsd1.nj.comcast.net] has quit
+          [Quit: seanewest]
+14:11 -!- seanewest [~seanewest@c-24-0-46-236.hsd1.nj.comcast.net] has joined
+          #npm
+14:39 -!- shafox [~quassel@103.16.70.14] has quit [Ping timeout: 256 seconds]
+14:40 -!- shafox [~quassel@103.16.70.14] has joined #npm
+14:51 -!- ljharb [~ljharb@oftn/member/ljharb] has joined #npm
+14:57 -!- fiveisprime [~fiveispri@cpe-174-103-139-80.cinci.res.rr.com] has
+          joined #npm
+15:01 -!- redonkulus [~redonkulu@2001:4998:effd:600:5028:e6b6:366:2b11] has
+          quit [Quit: Leaving.]
+15:02 -!- redonkulus [~redonkulu@2001:4998:effd:600:5028:e6b6:366:2b11] has
+          joined #npm
+15:10 -!- shafox [~quassel@103.16.70.14] has quit [Quit: No Ping reply in 180
+          seconds.]
+15:11 -!- shafox [~quassel@103.16.70.14] has joined #npm
+15:12 -!- redonkulus [~redonkulu@2001:4998:effd:600:5028:e6b6:366:2b11] has
+          quit [Quit: Leaving.]
+15:16 -!- motching_ [~motching@catv-89-133-141-143.catv.broadband.hu] has
+          joined #npm
+15:24 -!- TooTallNate [~TooTallNa@208.66.31.10] has quit [Quit: Computer has
+          gone to sleep.]
+15:28 -!- redonkulus [~redonkulu@2001:4998:effd:600:646e:84e8:14da:82c4] has
+          joined #npm
+15:28 -!- seanewest [~seanewest@c-24-0-46-236.hsd1.nj.comcast.net] has quit
+          [Quit: seanewest]
+15:29 -!- jaimef [jaimef@166.84.6.60] has quit [Excess Flood]
+15:33 -!- jaimef [jaimef@166.84.6.60] has joined #npm
+15:36 -!- mich-cook1 [~me@208.185.32.14] has joined #npm
+15:37 -!- mich-cook [~me@adsl-76-254-31-83.dsl.pltn13.sbcglobal.net] has quit
+          [Ping timeout: 250 seconds]
+15:38 -!- seanewest [~seanewest@c-24-0-46-236.hsd1.nj.comcast.net] has joined
+          #npm
+15:44 -!- rockbot__ [~rockbot__@50.1.57.188] has quit [Remote host closed the
+          connection]
+15:44 -!- rockbot__ [~rockbot__@50.1.57.188] has joined #npm
+15:48 -!- rockbot__ [~rockbot__@50.1.57.188] has quit [Ping timeout: 250
+          seconds]
+16:21 -!- jaimef [jaimef@166.84.6.60] has quit [Excess Flood]
+                explorer/8.0
+13:43 -!- domanic [~domanic@75-139-223-120.dhcp.knwc.wa.charter.com] has joined
+          #stackvm
+13:46 -!- ceejbot [~ceejbot@50.1.57.188] has joined #stackvm
+13:52 < isaacs> substack: what is this thing i gave a glance over?
+14:09 < rowbit> substack, pkrumins: A developer is waiting in the queue for
+                explorer/8.0
+14:11 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #stackvm
+14:13 -!- DTrejo [~dtrejo@199.116.72.155] has joined #stackvm
+14:20 < rowbit> substack, pkrumins: Encoders down: 184.106.106.46 (dev-ie8-1)
+14:24 -!- Maciek416 [~Maciek@c-73-37-104-233.hsd1.or.comcast.net] has joined
+          #stackvm
+14:26 -!- jxson [jxson@nat/google/x-hrjhzihvssavhici] has joined #stackvm
+14:28 -!- Maciek416 [~Maciek@c-73-37-104-233.hsd1.or.comcast.net] has quit
+          [Ping timeout: 250 seconds]
+14:29 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout:
+          240 seconds]
+14:31 < rowbit> substack, pkrumins: Encoders down: 50.57.171.229 (dev-ie6-2)
+14:33 < rowbit> Hourly usage stats: [developer: 9, free: 32]
+                explorer/8.0
+13:43 -!- domanic [~domanic@75-139-223-120.dhcp.knwc.wa.charter.com] has joined
+          #stackvm
+13:46 -!- ceejbot [~ceejbot@50.1.57.188] has joined #stackvm
+13:52 < isaacs> substack: what is this thing i gave a glance over?
+14:09 < rowbit> substack, pkrumins: A developer is waiting in the queue for
+                explorer/8.0
+14:11 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #stackvm
+14:13 -!- DTrejo [~dtrejo@199.116.72.155] has joined #stackvm
+14:20 < rowbit> substack, pkrumins: Encoders down: 184.106.106.46 (dev-ie8-1)
+14:24 -!- Maciek416 [~Maciek@c-73-37-104-233.hsd1.or.comcast.net] has joined
+          #stackvm
+14:26 -!- jxson [jxson@nat/google/x-hrjhzihvssavhici] has joined #stackvm
+14:28 -!- Maciek416 [~Maciek@c-73-37-104-233.hsd1.or.comcast.net] has quit
+          [Ping timeout: 250 seconds]
+14:29 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout:
+          240 seconds]
+14:31 < rowbit> substack, pkrumins: Encoders down: 50.57.171.229 (dev-ie6-2)
+14:33 < rowbit> Hourly usage stats: [developer: 9, free: 32]
+14:47 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has
+          joined #stackvm
+14:56 -!- brianloveswords [~brianlove@cpe-108-182-72-2.nyc.res.rr.com] has quit
+          [Ping timeout: 264 seconds]
+14:57 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+15:11 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has quit [Ping
+          timeout: 264 seconds]
+15:15 -!- yorick [~yorick@oftn/member/yorick] has joined #stackvm
+15:32 -!- calvinfo [~Adium@50-0-185-208.dsl.dynamic.sonic.net] has quit [Read
+          error: Connection reset by peer]
+15:33 < rowbit> Hourly usage stats: [developer: 1, free: 42]
+15:35 -!- calvinfo [~Adium@50-0-185-208.dsl.dynamic.sonic.net] has joined
+          #stackvm
+15:40 -!- calvinfo [~Adium@50-0-185-208.dsl.dynamic.sonic.net] has quit [Ping
+          timeout: 256 seconds]
+15:42 < substack> isaacs: the patch I made to node core Readable().wrap()
+15:42 < substack> https://github.com/joyent/node/pull/7758
+15:42 < substack> so that it doesn't eat falsy values
+15:44 -!- calvinfo [~Adium@61.sub-70-211-71.myvzw.com] has joined #stackvm
+16:06 -!- Maciek416 [~Maciek@c-73-37-104-233.hsd1.or.comcast.net] has joined
+          #stackvm
+16:07 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has quit
+          [Quit: peutetre]
+16:09 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has
+          joined #stackvm
+16:16 -!- calvinfo1 [~Adium@50-0-185-208.dsl.dynamic.sonic.net] has joined
+          #stackvm
+16:16 -!- calvinfo [~Adium@61.sub-70-211-71.myvzw.com] has quit [Read error:
+          Connection reset by peer]
+16:17 < Domenic> othiym23: isaacs: would love some help coming up with test
+                 scenarios for the streams perf tester at
+                 https://github.com/whatwg/streams/issues/120
+16:17 < Domenic> see also
+https://github.com/whatwg/streams/blob/perf-test-suite/reference-implementation/
+bench/params.js
+16:19 -!- brianloveswords [~brianlove@cpe-108-182-72-2.nyc.res.rr.com] has
+          joined #stackvm
+16:25 -!- calvinfo1 [~Adium@50-0-185-208.dsl.dynamic.sonic.net] has left
+          #stackvm []
+16:33 < rowbit> Hourly usage stats: [developer: 0, free: 32]
+16:47 -!- tmpvar [uid36802@gateway/web/irccloud.com/x-bqlkxqpfwingkbuu] has
+          joined #stackvm
+16:47 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has quit
+          [Quit: peutetre]
+16:49 -!- domanic [~domanic@75-139-223-120.dhcp.knwc.wa.charter.com] has quit
+          [Ping timeout: 256 seconds]
+16:56 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has
+          joined #stackvm
+16:59 -!- jxson_ [~jxson@216.239.45.91] has joined #stackvm
+17:02 -!- jxson [jxson@nat/google/x-hrjhzihvssavhici] has quit [Ping timeout:
+          240 seconds]
+17:08 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has quit
+          [Quit: peutetre]
+17:13 -!- jxson_ [~jxson@216.239.45.91] has quit [Remote host closed the
+          connection]
+17:21 -!- domanic [~domanic@75-139-223-120.dhcp.knwc.wa.charter.com] has joined
+          #stackvm
+17:22 -!- jxson [~jxson@216.239.45.91] has joined #stackvm
+17:27 -!- jxson [~jxson@216.239.45.91] has quit [Remote host closed the
+          connection]
+17:33 < rowbit> Hourly usage stats: [developer: 0, free: 47]
+17:37 -!- AvianFlu
+          [~AvianFlu@207-38-246-118.c3-0.43d-ubr2.qens-43d.ny.cable.rcn.com]
+          has quit [Ping timeout: 264 seconds]
+17:42 -!- AvianFlu
+          [~AvianFlu@207-38-246-118.c3-0.43d-ubr2.qens-43d.ny.cable.rcn.com]
+          has joined #stackvm
+17:45 < rowbit> substack, pkrumins: These encoders are STILL down:
+                50.57.174.105(dev-ie8-2)
+17:49 -!- yorick [~yorick@oftn/member/yorick] has quit [Remote host closed the
+          connection]
+17:58 -!- jxson [~jxson@216.239.45.91] has joined #stackvm
+18:00 -!- jxson [~jxson@216.239.45.91] has quit [Remote host closed the
+          connection]
+18:01 -!- jxson [~jxson@216.239.45.91] has joined #stackvm
+18:05 -!- jxson [~jxson@216.239.45.91] has quit [Ping timeout: 240 seconds]
+18:10 -!- jxson [~jxson@216.239.45.92] has joined #stackvm
+18:24 < terinjokes> substack: do you have a recommended way of gunzip'ing a
+                    hyperquest?
+18:27 < substack> just pipe to zlib.createGunzip()
+18:27 -!- brianloveswords [~brianlove@cpe-108-182-72-2.nyc.res.rr.com] has quit
+          [Quit: Computer has gone to sleep.]
+18:28 < terinjokes> substack: sometimes the server doesn't send it as gzip
+18:28 < terinjokes> and I can't tell until the response event
+18:28 < substack> ah
+18:29 < terinjokes> and while I understand the reasons why hyperquest won't
+                    want to do that black magic, I've got some interest in
+                    localizing my http code
+18:29 < terinjokes> ;)
+18:30 < substack> could build another module on top to do the fancies
+18:31 < substack> like gunzipping, deflating, and redirects
+18:31 < terinjokes> i'm effectively doing that, but my streamsfoo in this
+                    regard is a bit sad
+18:31 < substack> you could use stream-splicer
+18:31 < terinjokes> zlib.createUnzip will actually handle both gunzipping and
+                    inflating
+18:33 < rowbit> Hourly usage stats: [developer: 0, free: 41]
+18:40 < substack> function hquest () { var hq = hyperquest.apply(null,
+                  arguments); var pipeline = splicer([ hq ]); hq.on('response',
+                  function (res) { if (res.headers['content-encoding'])
+                  pipeline.unshift(zlib.createUnzip()) }); return pipeline }
+18:40 < substack> something like that
+18:51 -!- Netsplit *.net <-> *.split quits: phated, domanic, pfraze
+18:52 -!- Netsplit *.net <-> *.split quits: tilgovi, jxson, taterbase, warbrett
+18:53 -!- Netsplit *.net <-> *.split quits: Sly
+18:53 -!- Netsplit *.net <-> *.split quits: bengl, cpup, kenperkins, mint_xian
+18:53 -!- Netsplit *.net <-> *.split quits: trygve, zu, hij1nx, simcop2387,
+          milkandtang
+18:53 -!- Netsplit *.net <-> *.split quits: rook2pawn
+18:54 -!- Netsplit over, joins: jxson, tilgovi, warbrett, taterbase, Sly, cpup,
+          bengl, mint_xian, kenperkins, simcop2387 (+5 more)
+18:54 -!- Netsplit over, joins: domanic, phated, pfraze
+18:54 -!- yorick [~yorick@oftn/member/yorick] has joined #stackvm
+18:55 -!- Netsplit *.net <-> *.split quits: McJesus
+18:55 -!- Netsplit over, joins: McJesus
+18:55 -!- Netsplit *.net <-> *.split quits: wolfeida_, tmpvar
+18:56 -!- Netsplit *.net <-> *.split quits: andreypopp, nrw
+18:56 -!- Netsplit *.net <-> *.split quits: tobie_, enjawork
+18:56 -!- Netsplit *.net <-> *.split quits: philipn_, ZenWraithBot,
+          sindresorhus, gildean
+18:56 -!- Netsplit *.net <-> *.split quits: rvagg, dubroy______, groundwater,
+          JSON_voorhees, tanepiper, calvinmetcalf, jesusabdullah
+18:57 -!- Netsplit *.net <-> *.split quits: kanzure_, ehd
+18:57 -!- Netsplit *.net <-> *.split quits: monteslu
+18:57 -!- Netsplit *.net <-> *.split quits: cubert, jan____
+18:57 -!- Netsplit *.net <-> *.split quits: othiym23
+18:57 -!- jjjohnny_ [~root@li88-247.members.linode.com] has joined #stackvm
+18:57 -!- Topic for #stackvm: Unofficial browserling/testling mad science
+          channel. For official help /join #browserling
+18:57 -!- Topic set by substack
+          [~substack@ec2-50-17-202-46.compute-1.amazonaws.com] [Wed Dec 12
+          18:05:13 2012]
+18:57 [Users #stackvm]
+18:57 [ _hendrik        ] [ greweb       ] [ LOUDBOT      ] [ rannmann      ]
+18:57 [ ahdinosaur      ] [ grncdr       ] [ machty       ] [ Raynos        ]
+18:57 [ Altreus         ] [ groundwater  ] [ Maciek416    ] [ rch           ]
+18:57 [ andreypopp      ] [ gsf          ] [ mafintosh    ] [ rf            ]
+18:57 [ AvianFlu        ] [ Guest86876   ] [ marcello3d   ] [ robertkowalski]
+18:57 [ bengl           ] [ guybrush     ] [ mawe         ] [ rook2pawn     ]
+18:57 [ brycebaril      ] [ hackygolucky ] [ maxgfeller   ] [ rowbit        ]
+18:57 [ calvinmetcalf   ] [ harrow       ] [ McJesus      ] [ rvagg         ]
+18:57 [ ceejbot         ] [ hij1nx       ] [ mikolalysenko] [ rwaldron      ]
+18:57 [ chapel          ] [ hughsk_      ] [ milkandtang  ] [ scottjab      ]
+18:57 [ chilts          ] [ ilteris      ] [ mint_xian    ] [ shama         ]
+18:57 [ chrisdickinson  ] [ isaacs       ] [ mk30         ] [ simcop2387    ]
+18:57 [ collypops       ] [ jan____      ] [ mmalecki     ] [ sindresorhus  ]
+18:57 [ cpup            ] [ jaz303       ] [ mmalecki_    ] [ slurp         ]
+18:57 [ creationix      ] [ jbenet       ] [ mmckegg      ] [ Sly           ]
+18:57 [ cubert          ] [ jcrugzz      ] [ mollerse     ] [ substack      ]
+18:57 [ daleharvey      ] [ jden         ] [ monteslu     ] [ tanepiper     ]
+18:57 [ defunctzombie_zz] [ jesusabdullah] [ mrb_bk       ] [ taterbase     ]
+18:57 [ dlmanning       ] [ jez0990_     ] [ nathan7      ] [ terinjokes    ]
+18:57 [ domanic         ] [ jirwin       ] [ nlacasse_    ] [ thealphanerd  ]
+18:57 [ Domenic         ] [ jjjohnny     ] [ nrw          ] [ tilgovi       ]
+18:57 [ DTrejo          ] [ jjjohnny_    ] [ ogd          ] [ timoxley      ]
+18:57 [ dubroy______    ] [ johnkpaul    ] [ othiym23     ] [ tmpvar        ]
+18:57 [ ednapiranha     ] [ josephg      ] [ owen1        ] [ tobie_        ]
+18:57 [ ehd             ] [ JSON_voorhees] [ owenb___     ] [ trevnorris    ]
+18:57 [ ELLIOTTCABLE    ] [ juliangruber ] [ parshap      ] [ trodrigues    ]
+18:57 [ emilisto        ] [ jxson        ] [ paul_irish   ] [ trygve        ]
+18:57 [ enjawork        ] [ kanzure_     ] [ pfallenop    ] [ warbrett      ]
+18:57 [ eugeneware      ] [ kenperkins   ] [ pfraze       ] [ wolfeida_     ]
+18:57 [ farnsworth      ] [ Kesla        ] [ phated       ] [ Wraithan      ]
+18:57 [ feross          ] [ kirjs        ] [ philipn_     ] [ yorick        ]
+18:57 [ fotoverite      ] [ kriskowal    ] [ pkrumins     ] [ ZenWraithBot  ]
+18:57 [ gildean         ] [ ladekjaer    ] [ py1hon       ] [ zu            ]
+18:57 -!- Irssi: #stackvm: Total of 132 nicks [0 ops, 0 halfops, 0 voices, 132
+          normal]
+18:57 -!- Channel #stackvm created Wed Mar 17 20:02:18 2010
+18:58 -!- Irssi: Join to #stackvm was synced in 13 secs
+19:00 -!- jjjohnny [~root@li88-247.members.linode.com] has quit [Write error:
+          Broken pipe]
+19:00 -!- mmalecki [~maciej@static.210.114.76.144.clients.your-server.de] has
+          quit [Remote host closed the connection]
+19:04 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Remote host
+          closed the connection]
+19:18 -!- mmalecki_ [~maciej@static.210.114.76.144.clients.your-server.de] has
+          quit [Quit: Reconnecting]
+19:18 -!- mmalecki [~maciej@static.210.114.76.144.clients.your-server.de] has
+          joined #stackvm
+19:18 -!- collypops [~collypops@202.6.74.6] has quit []
+19:23 -!- wolfeida_ is now known as wolfeidau
+19:33 < rowbit> Hourly usage stats: [developer: 0, free: 23]
+19:39 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has joined
+          #stackvm
+19:39 -!- DTrejo [~dtrejo@199.116.72.155] has quit [Remote host closed the
+          connection]
+20:00 -!- ircretary [~ircretary@165.225.132.207] has joined #stackvm
+20:14 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          quit [Quit: thealphanerd]
+20:16 -!- ednapiranha [~ednapiran@2601:7:400:2cd:6472:ccf5:d0e1:e565] has quit
+          [Quit: Leaving...]
+20:26 < rowbit> substack, pkrumins: These encoders are STILL down:
+                50.57.171.229(dev-ie6-2)
+20:26 -!- pfraze [~unsafe@cpe-70-113-196-4.austin.res.rr.com] has quit [Ping
+          timeout: 245 seconds]
+20:33 < rowbit> Hourly usage stats: [developer: 1, free: 19]
+20:36 -!- domanic [~domanic@75-139-223-120.dhcp.knwc.wa.charter.com] has quit
+          [Ping timeout: 245 seconds]
+20:46 -!- yorick [~yorick@oftn/member/yorick] has quit [Remote host closed the
+          connection]
+20:56 -!- DTrejo [~dtrejo@garage-jp.static.monkeybrains.net] has joined #stackvm
+20:57 -!- DTrejo [~dtrejo@garage-jp.static.monkeybrains.net] has quit [Remote
+          host closed the connection]
+21:01 -!- thlorenz [~thlorenz@12.9.178.2] has joined #stackvm
+21:02 -!- phated [~phated@wsip-184-176-136-106.ph.ph.cox.net] has quit [Remote
+          host closed the connection]
+21:05 -!- thlorenz [~thlorenz@12.9.178.2] has quit [Ping timeout: 240 seconds]
+21:09 -!- anvaka [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has joined
+          #stackvm
+21:18 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has quit [Ping
+          timeout: 245 seconds]
+21:19 -!- ceejbot [~ceejbot@50.1.57.188] has quit [Remote host closed the
+          connection]
+21:20 -!- ceejbot [~ceejbot@50.1.57.188] has joined #stackvm
+21:20 -!- thlorenz [~thlorenz@12.9.178.2] has joined #stackvm
+21:23 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has joined
+          #stackvm
+21:24 -!- ceejbot [~ceejbot@50.1.57.188] has quit [Ping timeout: 245 seconds]
+21:27 -!- jxson_ [jxson@nat/google/x-amwwcujpixltskkk] has joined #stackvm
+21:30 -!- thlorenz [~thlorenz@12.9.178.2] has quit [Remote host closed the
+          connection]
+21:30 -!- jxson [~jxson@216.239.45.92] has quit [Ping timeout: 256 seconds]
+21:30 -!- thlorenz [~thlorenz@12.9.178.2] has joined #stackvm
+21:32 -!- jxson_ [jxson@nat/google/x-amwwcujpixltskkk] has quit [Ping timeout:
+          240 seconds]
+21:33 < rowbit> Hourly usage stats: [developer: 0, free: 20]
+21:35 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has quit [Ping
+          timeout: 240 seconds]
+21:35 -!- thlorenz [~thlorenz@12.9.178.2] has quit [Ping timeout: 250 seconds]
+21:37 -!- contrahax [~contrahax@cpe-72-229-164-171.nyc.res.rr.com] has joined
+          #stackvm
+21:38 -!- j0hn [~j0hn@66-90-165-181.dyn.grandenetworks.net] has joined #stackvm
+21:46 -!- contrahax [~contrahax@cpe-72-229-164-171.nyc.res.rr.com] has quit
+          [Quit: Sleeping]
+21:51 -!- warbrett [~warbrett@wsip-184-176-136-106.ph.ph.cox.net] has quit
+          [Remote host closed the connection]
+21:52 -!- warbrett [~warbrett@wsip-184-176-136-106.ph.ph.cox.net] has joined
+          #stackvm
+21:56 -!- j0hn [~j0hn@66-90-165-181.dyn.grandenetworks.net] has quit [Remote
+          host closed the connection]
+21:56 -!- warbrett [~warbrett@wsip-184-176-136-106.ph.ph.cox.net] has quit
+          [Ping timeout: 240 seconds]
+22:04 -!- thlorenz [~thlorenz@12.9.178.2] has joined #stackvm
+          host closed the connection]
+23:10 -!- anvaka [~anvaka@2601:8:ac80:3f9:29df:b713:281e:4a96] has joined
+          #stackvm
+23:10 -!- anvaka_ [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has joined
+          #stackvm
+          quit [Client Quit]
+20:06 -!- crossdiver [~crossdive@66-191-14-77.static.knwc.wa.charter.com] has
+          joined #npm
+20:09 -!- crossdiver [~crossdive@66-191-14-77.static.knwc.wa.charter.com] has
+          quit [Client Quit]
+20:09 -!- thismax [~demands@173.247.204.122] has quit []
+20:10 -!- demands [~demands@173.247.204.122] has joined #npm
+20:10 -!- crossdiver [~crossdive@66-191-14-77.static.knwc.wa.charter.com] has
+          joined #npm
+20:10 -!- axfcampos [~axfcampos@194.210.222.203] has joined #npm
+20:37 -!- redonkulus [~redonkulu@2001:4998:effd:600:f1fd:4167:bf7:675e] has
+          quit [Quit: Leaving.]
+21:16 -!- demands [~demands@173.247.204.122] has quit [Remote host closed the
+          connection]
+21:16 -!- demands [~demands@173.247.204.122] has joined #npm
+21:17 -!- demands [~demands@173.247.204.122] has quit [Remote host closed the
+          connection]
+21:18 -!- demands [~demands@173.247.204.122] has joined #npm
+21:18 -!- kalehv_ [~kalehv@cpe-76-92-190-18.kc.res.rr.com] has joined #npm
+21:18 -!- ljharb [~ljharb@oftn/member/ljharb] has quit [Quit: ljharb]
+21:19 -!- ceejbot [~ceejbot@50.1.57.188] has quit [Remote host closed the
+          connection]
+21:20 -!- ceejbot [~ceejbot@50.1.57.188] has joined #npm
+21:20 -!- mode/#npm [+o ceejbot] by ChanServ
+21:20 -!- kalehv [~kalehv@cpe-76-92-190-18.kc.res.rr.com] has quit [Ping
+          timeout: 245 seconds]
+21:21 -!- rockbot__ [~rockbot__@50.1.57.188] has quit [Remote host closed the
+          connection]
+21:21 -!- rockbot__ [~rockbot__@50.1.57.188] has joined #npm
+21:22 -!- demands [~demands@173.247.204.122] has quit [Ping timeout: 250
+          seconds]
+21:24 -!- jaimef2 [~user@209.49.75.165] has quit [Ping timeout: 250 seconds]
+21:24 -!- ceejbot [~ceejbot@50.1.57.188] has quit [Ping timeout: 245 seconds]
+21:26 -!- rockbot__ [~rockbot__@50.1.57.188] has quit [Ping timeout: 240
+          seconds]
+21:32 -!- michaelchum [uid26679@gateway/web/irccloud.com/x-cgvkdlpbvhiokfsv]
+          has quit [Quit: Connection closed for inactivity]
+21:34 -!- axfcampos [~axfcampos@194.210.222.203] has quit [Remote host closed
+          the connection]
+21:34 -!- Gulthor [~speciman@LCaen-156-56-17-8.w80-11.abo.wanadoo.fr] has
+          joined #npm
+21:40 < knownasilya> is the event-stream package something that should be used,
+                     or is there something that's prefered over it?
+21:40 < knownasilya> just wondering because of this example:
+                     https://github.com/dominictarr/JSONStream
+21:42 < Raynos> I have the pid of an npm process. Is there anyway i can somehow
+                tell it "give me your verbose logs" without killing the npm
+                process
+21:49 -!- TooTallNate [~TooTallNa@208.66.31.10] has quit [Quit: Computer has
+          gone to sleep.]
+14:27 -!- Irssi: Starting query in freenode with isaacs
+14:27 <isaacs> if you want to use the famous name, that's probably fine.  but
+               can you please actually use it?  right now, it's just a copy of
+               opa, down to the documentation and the git repo.
+14:29 <isaacs> the typical way to do this would be to rename the github repo
+               (settings > danger zone > rename), update the docs to be calling
+               it "famous" etc.
+14:29 <isaacs> I suspect that what they'll end up actually wanting is a
+               namespace, rather than a top-level package.  i don't know.
+23:31 <jjjohnny_> thanks, I moved the repo over.
+23:33 <jjjohnny_> are namespaces a new NPM inc offering?
+23:55 <isaacs> they will be
+23:55 <isaacs> you know, it is probably kind of confusing for "famous" to be a
+               static browserify server thing, and not, like, the JavaScript
+               library called "famous"
+23:56 <isaacs> i mean, yes, famo.us is their website.
+23:56 <isaacs> but the lib is called "Famous"
+23:56 <isaacs> it'd be like if Phonegap had the website phoneg.ap, but we'd
+               still all call the lib "phonegap"
+23:59 <jjjohnny_> yes its true, they should have thought of that a long time ago
+Day changed to 18 Jul 2014
+00:00 <jjjohnny_> they kept saying open source without open sourcing.  if they
+                  had been truly open source, they would have had an npm module
+                  from the start
+00:00 <isaacs> that's a valid point
+00:01 <isaacs> in their defense, it was "open source" on github for quite a
+               long time
+00:01 <isaacs> their mistake was not using npm in the first place.
+00:02 <jjjohnny_> and the modular master style
+00:02 <jjjohnny_> i bet their whole lib is loaded with useful functions that
+                  would make a good module
+00:03 <isaacs> so, from where i'm sitting, i'm trying to figure out what's best
+               for the overall functionality of the npm/javascript community
+00:03 <isaacs> right and wrong are vague notions
+00:03 <isaacs> i try to go with pragmatic
+00:03 <jjjohnny_> i'd like to see them mikola lysenko-ify all their math
+00:04 <isaacs> yeah, that'd be rad.
+00:04 <jjjohnny_> i said, why do you need one module name, you should have 300
+00:05 <isaacs> so, right, and they also are trying to figure out how to have
+               require("famous/core/blerg") instead of
+               require("famous/src/core/blerg")
+00:05 <isaacs> the many-vs-framework debate is one where i and npm are firmly
+               agnostic about
+00:05 <isaacs> the whole point of a vibrant module ecosystem is to try out lots
+               of different approaches, including lots of different sizes of
+               thigns
+00:06 <isaacs> anyway...
+00:06 <isaacs> i can see that their negotiation approach with you has not been
+               so productive
+00:07 <jjjohnny_> well i dont want to be a thorn in NPM, but I do want to be a
+                  thorn in famo.us
+00:08 <isaacs> lol
+00:08 <isaacs> see... i'm always looking for the gateway drug
+00:09 <isaacs> i told them a while ago (like, back in february) that they
+               should just use npm, and not do the stupid meteor thing
+00:09 <isaacs> they were building their own module/package thing on github that
+               would work in web browsers
+00:10 <jjjohnny_> ignorance, hubris... fame
+00:11 <isaacs> so, what would you like to see happen here?  i'd like to get
+               some kind of compromise that everyone can feel ok about
+00:12 <isaacs> assuming "famo.us dies in a fire" is off the table
+00:12 <jjjohnny_> i watched steve's show for greater than a year, with hopes
+                  that it would be worthwhile
+00:13 <isaacs> steve's show?
+00:13 <jjjohnny_> newcomb
+00:13 <jjjohnny_> and his megalomamaniacal emails
+00:13 <jjjohnny_> then they finally release after so much stupid blue balling
+00:13 <jjjohnny_> and its a monolith
+00:14 <isaacs> yeah, it's kinda douchey
+00:14 <isaacs> the megalomanical emails, i mean
+00:14 <isaacs> the whole show
+00:15 <jjjohnny_> so but anyway, i told em all they have to do is appease me
+00:15 <jjjohnny_> in terms of negotiations
+00:15 <isaacs> k.  how do they do that?
+00:17 <jjjohnny_> break apart their code into useful, independent modules that
+                  are documented and tested
+00:17 <jjjohnny_> physics!
+00:17 <jjjohnny_> but see, that is against their meteor-like modus
+00:18 <jjjohnny_> they just want a brand name and a centralized community
+00:18 <isaacs> and if they did that, split up famous-this and famous-that,
+               you'd give up the root "famous" name?
+               citizen.  i guess there's already a way to do that now.
+00:19 <isaacs> (not relevant to this topic, of course)
+00:20 <jjjohnny_> this isn't common, is it :
+                  https://github.com/Famous/physics/blob/master/forces/Force.js
+00:22 <isaacs> meh.  i've seen all sorts of javascript.  i think they're using
+               a variation on AMD right now.
+00:23 <isaacs> rjs or somethingorother
+00:23 <isaacs> but i mean, whatever, it has to work on mobile, shit's hostile.
+00:23 <jjjohnny_> haha
+00:24 <isaacs> so, let's say they split it up, would you give up the "famous"
+               name then?
+00:27 <jjjohnny_> my true wish would be for these equations to be modules, like
+https://github.com/Famous/physics/blob/master/forces/Repulsion.js
+00:28 <isaacs> ok
+00:28 <jjjohnny_> with docs for using them
+00:29 <jjjohnny_> that would make a great contributeion to the module
+                  ecossystem and the community
+00:29 <isaacs> so if they split up into modules, with docs, you'd give up the
+               name "famous"?
+00:29 <jjjohnny_> yes
+00:30 <isaacs> ok
+00:31 <isaacs> what if they said this is a plan, etc etc, put someone on it,
+               but like, didn't have it done tomorrow or anything.
+00:31 <isaacs> it sounds like what you're really after is a deeper level of
+               engagement between them and the open source javascript community
+00:31 <isaacs> which i can 100% get behind.
+00:32 <jjjohnny_> i'd like to see them get halfway there before I give into his
+                  promises
+00:32 <isaacs> so, on top of what you'd like to see happen, you don't trust
+               them.
+00:32 <isaacs> and want some kind of tangible action
+00:33 <isaacs> yes?
+00:33 <jjjohnny_> yes
+00:33 <isaacs> ok.  where i'm at, really, is that i'd like to see this not
+               devolve into them trying to flex some legal muscle over
+               copyright or trademark or some shit.
+00:33 <jjjohnny_> yeah
+00:34 <isaacs> i also want more engagement with the community of course, i
+               mean, tha'ts kinda my whole deal.
+00:34 <jjjohnny_> npm escrow services?
+00:34 <isaacs> hahah
+00:34 <jjjohnny_> yeah their engagement was like negative
+00:35 <jjjohnny_> the way they did it, they ways they didnt
+00:35 <isaacs> well, they started out saying that they had to create their own
+               package manager, despite me telling them that's stupid and
+               insane.
+00:36 <isaacs> and they've been struggling to figure out how to convert all
+               their stuff to npm and node-style modules
+00:36 <isaacs> they have a bunch of funding, and steve might be douchey, but
+               he's good at marketing.  (the "but" there is dubious, as those
+               two things often go hand in hand)
+00:37 <isaacs> so there's a lot of momentum already, probably more than is
+               justified by the quality of their code.
+00:37 <isaacs> so, i'm thinking, how do we get that moving in a more npmly
+               direction
+00:40 <jjjohnny_> make steve think the actual best ideas for code and community
+                  were his own
+00:40 <isaacs> yeah, that's probably a good idea.
+00:40 <isaacs> myles is the one engaging on this issue, though
+00:40 <jjjohnny_> i have both on the line
+00:41 <jjjohnny_> myles is using emotional pleas tho
+00:41 <isaacs> ughhh
+00:41 <isaacs> the negotiation tactic of children
+00:41 <jjjohnny_> yeah, he thought i was cool at camp "/
+00:41 <isaacs> well, you were pretty cool at camp.
+00:41 <isaacs> i mean, can't fault him that.
+00:42 <jjjohnny_> hahaha thx
+00:42 <jjjohnny_> but he was like, the thing is, i really thought you were
+                  cool...
+00:42 <isaacs> omg stop
+00:42 <isaacs> douche chills
+00:42 <isaacs> "why can't you just, like, be a bro about this, you know?"
+00:42 <jjjohnny_> yep
+00:43 <isaacs> so, let's focus on myles.
+00:41 <isaacs> well, you were pretty cool at camp.
+00:41 <isaacs> i mean, can't fault him that.
+00:42 <jjjohnny_> hahaha thx
+00:42 <jjjohnny_> but he was like, the thing is, i really thought you were
+                  cool...
+00:42 <isaacs> omg stop
+00:42 <isaacs> douche chills
+00:42 <isaacs> "why can't you just, like, be a bro about this, you know?"
+00:42 <jjjohnny_> yep
+00:43 <isaacs> so, let's focus on myles.
+00:43 <isaacs> steve is kind of a mess on this whole issue.
+00:43 <isaacs> and really, like, let's say that you get what you want, and give
+               up the name.
+00:43 <isaacs> whoever "gets" it from you will be the hero
+00:43 <isaacs> we gain nothing by making steve the hero here.  he's already
+               ceo, nowhere to go but up.
+00:43 <isaacs> er, nowhere to go, because he's already teh top of the
+               organizational pile
+00:44 <jjjohnny_> good thinking
+00:44 <isaacs> i think a reasonable tactic would be to empower myles in this
+               process, and i think he actually does want to do things The npm
+               Way, afaict
+00:45 <jjjohnny_> yeah, he is at least very sincere
+00:45 <isaacs> he's also a long-time node person
+00:46 <isaacs> albeit the source of some kinda oddball ideas at time
+00:46 <isaacs> *times
+00:48 <isaacs> ok, so i think i have a better idea of the shape of this
+               collision.  thanks for the intel and for spelling this out a bit.
+00:49 <isaacs> i need to head off to bed.
+00:49 <jjjohnny_> thx for being cool
+00:49 <isaacs> no problem.
+00:50 <isaacs> i mean, i'm doing it for my own reasons, obviously.  i want to
+               draw famo.us into the npm community.
+00:51 <isaacs> we are like the borg for javascript.  resistance is futile
+00:51 <isaacs> we will assimilate all codes.
+00:51 <jjjohnny_> yeah im with it
+00:51 <jjjohnny_> ive been good to not extort famous in that direction
+00:51 <isaacs> i'll reach out to myles and see how close i can get him to your
+               pov
+00:51 <isaacs> maybe there's some overlap
+00:51 <isaacs> i figured i'd talk to you first because i know you already.
+00:52 <isaacs> in the meantime, please, if you can, do me a favor, and don't
+               respond to steve for now
+00:52 <jjjohnny_> lol ok
+00:53 <jjjohnny_> i wasnt planning on it
+23:29 -!- pfallenop [~pfallenop@unaffiliated/contempt] has quit [Ping timeout:
+          272 seconds]
+23:31 -!- pfallenop [~pfallenop@unaffiliated/contempt] has joined #stackvm
+23:31 < substack> ogd: https://twitter.com/substack/status/489975742629826560
+23:32 < substack> I'm going to be working on an intro to js adventure
+23:33 -!- anvaka [~anvaka@2601:8:ac80:3f9:198f:a06:cfc0:38c4] has quit [Ping
+          timeout: 240 seconds]
+23:33 < rowbit> Hourly usage stats: [developer: 0, free: 17]
+23:45 < rowbit> substack, pkrumins: These encoders are STILL down:
+                50.57.174.105(dev-ie8-2)
+23:54 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          joined #stackvm
+Day changed to 18 Jul 2014
+00:05 -!- j0hn [~j0hn@66-90-165-181.dyn.grandenetworks.net] has left #stackvm
+          ["Leaving..."]
+00:05 -!- anvaka [~anvaka@2601:8:ac80:3f9:c5bc:19b8:2418:d3d4] has joined
+          #stackvm
+00:06 -!- brianloveswords
+          [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has joined
+          #stackvm
+00:10 -!- thlorenz [~thlorenz@12.9.178.2] has joined #stackvm
+00:12 -!- brianloveswords
+          [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has quit
+          [Quit: Computer has gone to sleep.]
+00:20 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+00:29 -!- domanic [~domanic@75-139-223-120.dhcp.knwc.wa.charter.com] has joined
+          #stackvm
+00:33 < rowbit> Hourly usage stats: [developer: 0, free: 31]
+00:43 -!- anvaka [~anvaka@2601:8:ac80:3f9:c5bc:19b8:2418:d3d4] has quit [Remote
+          host closed the connection]
+00:57 -!- j0hn [~j0hn@66-90-165-181.dyn.grandenetworks.net] has joined #stackvm
+01:11 -!- shama [~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net] has
+          quit []
+01:15 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Remote host
+          closed the connection]
+01:17 -!- warbrett [~warbrett@ip68-231-150-170.tc.ph.cox.net] has joined
+          #stackvm
+01:22 -!- warbrett [~warbrett@ip68-231-150-170.tc.ph.cox.net] has quit [Remote
+          host closed the connection]
+01:27 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          quit [Quit: thealphanerd]
+01:29 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          quit [Remote host closed the connection]
+01:33 < rowbit> Hourly usage stats: [developer: 0, free: 48]
+01:53 -!- domanic [~domanic@75-139-223-120.dhcp.knwc.wa.charter.com] has quit
+          [Ping timeout: 250 seconds]
+02:26 < rowbit> substack, pkrumins: These encoders are STILL down:
+                50.57.171.229(dev-ie6-2)
+02:33 < rowbit> Hourly usage stats: [developer: 0, free: 33]
+02:34 -!- thlorenz [~thlorenz@12.9.178.2] has quit [Remote host closed the
+          connection]
+02:34 -!- thlorenz [~thlorenz@12.9.178.2] has joined #stackvm
+02:39 -!- thlorenz [~thlorenz@12.9.178.2] has quit [Ping timeout: 264 seconds]
+02:41 -!- Maciek416 [~Maciek@c-73-37-104-233.hsd1.or.comcast.net] has quit
+          [Remote host closed the connection]
+03:08 -!- j0hn [~j0hn@66-90-165-181.dyn.grandenetworks.net] has quit [Remote
+          host closed the connection]
+03:15 < ogd> substack: had some ideas for that
+             https://github.com/maxogden/javascript-for-cats/issues/25
+03:33 < rowbit> Hourly usage stats: [developer: 0, free: 51]
+03:55 -!- JohnDotAwesome [~JohnDotAw@216.201.168.18] has joined #stackvm
+04:29 -!- Maciek416 [~Maciek@2601:7:400:2cd:ddc9:a8f3:36eb:e95b] has joined
+          #stackvm
+04:32 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has quit
+          [Quit: fotoverite]
+04:33 < rowbit> Hourly usage stats: [developer: 0, free: 47]
+04:34 -!- Maciek416 [~Maciek@2601:7:400:2cd:ddc9:a8f3:36eb:e95b] has quit [Ping
+          timeout: 240 seconds]
+04:36 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has joined
+          #stackvm
+04:50 -!- taterbase [uid17123@gateway/web/irccloud.com/x-oqsikaauqamagujr] has
+          quit [Quit: Connection closed for inactivity]
+05:11 -!- contrahax [~contrahax@cpe-72-229-164-171.nyc.res.rr.com] has joined
+          #stackvm
+05:31 -!- vweevers [~quassel@f192112.upc-f.chello.nl] has joined #stackvm
+05:33 < rowbit> Hourly usage stats: [developer: 1, free: 40]
+05:37 < vweevers> Hi, are the mobile browsers of testling not supported/enabled?
+05:40 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has quit [Ping
+          timeout: 240 seconds]
+05:41 -!- MusachiMiyamotoF [~textual@mek33-4-82-236-45-199.fbx.proxad.net] has
+          joined #stackvm
+05:45 < rowbit> substack, pkrumins: These encoders are STILL down:
+                50.57.174.105(dev-ie8-2)
+05:57 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has joined
+          #stackvm
+06:07 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+06:12 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Ping
+          timeout: 240 seconds]
+06:13 -!- contrahax [~contrahax@cpe-72-229-164-171.nyc.res.rr.com] has quit
+          [Quit: Sleeping]
+06:14 -!- contrahax [~contrahax@cpe-72-229-164-171.nyc.res.rr.com] has joined
+          #stackvm
+06:17 -!- contrahax [~contrahax@cpe-72-229-164-171.nyc.res.rr.com] has quit
+          [Client Quit]
+06:18 -!- contrahax [~contrahax@cpe-72-229-164-171.nyc.res.rr.com] has joined
+          #stackvm
+06:18 -!- Maciek416 [~Maciek@2601:7:400:2cd:f4d7:ebf4:29d4:9c57] has joined
+          #stackvm
+06:23 -!- Maciek416 [~Maciek@2601:7:400:2cd:f4d7:ebf4:29d4:9c57] has quit [Ping
+          timeout: 240 seconds]
+06:31 -!- contrahax [~contrahax@cpe-72-229-164-171.nyc.res.rr.com] has quit
+          [Quit: Sleeping]
+06:32 < mafintosh> hughsk_: i'm sending you a bunch of PRs for from2
+06:33 < rowbit> Hourly usage stats: [developer: 0, free: 42]
+06:43 -!- naneau [~naneau@unaffiliated/naneau] has joined #stackvm
+06:49 -!- tmpvar [uid36802@gateway/web/irccloud.com/x-bqlkxqpfwingkbuu] has
+          quit [Quit: Connection closed for inactivity]
+07:25 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has quit [Ping
+          timeout: 250 seconds]
+07:27 -!- jez0990_ [~quassel@146.185.151.8] has quit [Quit: No Ping reply in
+          180 seconds.]
+07:27 -!- jez0990 [~quassel@146.185.151.8] has joined #stackvm
+07:33 < rowbit> Hourly usage stats: [developer: 0, free: 32]
+07:42 -!- yorick [~yorick@oftn/member/yorick] has joined #stackvm
+08:07 -!- Maciek416 [~Maciek@c-73-37-104-233.hsd1.or.comcast.net] has joined
+          #stackvm
+08:12 -!- Maciek416 [~Maciek@c-73-37-104-233.hsd1.or.comcast.net] has quit
+          [Ping timeout: 240 seconds]
+08:26 < rowbit> substack, pkrumins: These encoders are STILL down:
+                50.57.171.229(dev-ie6-2)
+08:33 < rowbit> Hourly usage stats: [developer: 1, free: 34]
+09:33 < rowbit> Daily usage stats: [developer: 27, free: 888]
+09:33 < rowbit> Hourly usage stats: [developer: 1, free: 45]
+09:34 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          joined #stackvm
+09:40 -!- contrahax [~contrahax@cpe-72-229-164-171.nyc.res.rr.com] has joined
+          #stackvm
+09:56 -!- Maciek416 [~Maciek@2601:7:400:2cd:d0b6:d930:4a8d:c782] has joined
+          #stackvm
+10:00 -!- Maciek416 [~Maciek@2601:7:400:2cd:d0b6:d930:4a8d:c782] has quit [Ping
+          timeout: 240 seconds]
+10:02 -!- contrahax [~contrahax@cpe-72-229-164-171.nyc.res.rr.com] has quit
+          [Quit: Sleeping]
+10:17 -!- kenperkins [~textual@c-24-22-251-201.hsd1.wa.comcast.net] has quit
+          [Remote host closed the connection]
+10:24 -!- kenperkins [~textual@c-24-22-251-201.hsd1.wa.comcast.net] has joined
+          #stackvm
+10:31 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          quit [Remote host closed the connection]
+10:32 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          joined #stackvm
+10:32 -!- j0hn [~j0hn@66-90-217-168.dyn.grandenetworks.net] has joined #stackvm
+10:33 < rowbit> Hourly usage stats: [developer: 2, free: 67]
+10:34 -!- Maciek416 [~Maciek@c-73-37-104-233.hsd1.or.comcast.net] has joined
+          #stackvm
+10:36 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          quit [Ping timeout: 245 seconds]
+10:41 -!- brianloveswords [~brianlove@74.73.227.168] has joined #stackvm
+10:49 -!- j0hn [~j0hn@66-90-217-168.dyn.grandenetworks.net] has left #stackvm
+          ["Leaving..."]
+10:55 -!- brianlov_ [~brianlove@74.73.227.168] has joined #stackvm
+10:58 -!- brianloveswords [~brianlove@74.73.227.168] has quit [Ping timeout:
+          240 seconds]
+11:03 -!- ednapiranha [~ednapiran@c-73-37-104-233.hsd1.or.comcast.net] has
+          joined #stackvm
+11:09 -!- maxgfeller [~Thunderbi@46.140.66.34] has quit [Quit: maxgfeller]
+11:18 -!- shama [~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net] has
+          joined #stackvm
+11:19 -!- kenperkins [~textual@c-24-22-251-201.hsd1.wa.comcast.net] has quit
+          [Remote host closed the connection]
+11:26 -!- naneau [~naneau@unaffiliated/naneau] has quit [Quit: Part.]
+11:30 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has joined
+          #stackvm
+11:30 -!- anvaka [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has joined
+          #stackvm
+11:33 < rowbit> Hourly usage stats: [developer: 1, free: 33]
+11:37 -!- kenperkins [~textual@c-24-22-251-201.hsd1.wa.comcast.net] has joined
+          #stackvm
+11:44 -!- brianlov_ [~brianlove@74.73.227.168] has quit [Quit: Computer has
+          gone to sleep.]
+11:45 < rowbit> substack, pkrumins: These encoders are STILL down:
+                50.57.174.105(dev-ie8-2)
+11:47 -!- kumavis [~kumavis@107-219-148-42.lightspeed.sntcca.sbcglobal.net] has
+          joined #stackvm
+12:05 -!- taterbase [uid17123@gateway/web/irccloud.com/x-tyvstoactukodncw] has
+          joined #stackvm
+12:09 -!- warbrett [~warbrett@wsip-184-176-136-106.ph.ph.cox.net] has joined
+          #stackvm
+12:20 -!- anvaka [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has quit [Remote
+          host closed the connection]
+12:21 -!- anvaka [~anvaka@2601:8:ac80:3f9:25e6:16f0:a1e1:22c6] has joined
+          #stackvm
+12:25 -!- anvaka [~anvaka@2601:8:ac80:3f9:25e6:16f0:a1e1:22c6] has quit [Ping
+          timeout: 240 seconds]
+12:27 -!- domanic [~domanic@75-139-223-120.dhcp.knwc.wa.charter.com] has joined
+          #stackvm
+12:33 < rowbit> Hourly usage stats: [developer: 10, free: 49]
+12:46 -!- brianloveswords [~brianlove@rrcs-50-74-99-190.nyc.biz.rr.com] has
+          joined #stackvm
+12:46 -!- kumavis [~kumavis@107-219-148-42.lightspeed.sntcca.sbcglobal.net] has
+          quit [Ping timeout: 256 seconds]
+12:49 -!- jxson [jxson@nat/google/x-pofnjctfaethjdwu] has joined #stackvm
+12:49 -!- phated [~phated@wsip-184-176-136-106.ph.ph.cox.net] has joined
+          #stackvm
+12:49 -!- DTrejo [~dtrejo@199.116.72.155] has joined #stackvm
+13:07 -!- McJesuso
+          [~McJesus@ec2-54-217-121-105.eu-west-1.compute.amazonaws.com] has
+          joined #stackvm
+13:11 -!- dguttman [~david@cpe-142-129-79-131.socal.res.rr.com] has joined
+          #stackvm
+13:33 < rowbit> Hourly usage stats: [developer: 0, free: 26]
+13:49 -!- kenperkins [~textual@c-24-22-251-201.hsd1.wa.comcast.net] has quit
+          [Remote host closed the connection]
+14:33 < rowbit> Hourly usage stats: [developer: 0, free: 33]
+          quit [Ping timeout: 245 seconds]
+10:41 -!- brianloveswords [~brianlove@74.73.227.168] has joined #stackvm
+10:49 -!- j0hn [~j0hn@66-90-217-168.dyn.grandenetworks.net] has left #stackvm
+          ["Leaving..."]
+10:55 -!- brianlov_ [~brianlove@74.73.227.168] has joined #stackvm
+10:58 -!- brianloveswords [~brianlove@74.73.227.168] has quit [Ping timeout:
+          240 seconds]
+11:03 -!- ednapiranha [~ednapiran@c-73-37-104-233.hsd1.or.comcast.net] has
+          joined #stackvm
+11:09 -!- maxgfeller [~Thunderbi@46.140.66.34] has quit [Quit: maxgfeller]
+11:18 -!- shama [~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net] has
+          joined #stackvm
+11:19 -!- kenperkins [~textual@c-24-22-251-201.hsd1.wa.comcast.net] has quit
+          [Remote host closed the connection]
+11:26 -!- naneau [~naneau@unaffiliated/naneau] has quit [Quit: Part.]
+11:30 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has joined
+          #stackvm
+11:30 -!- anvaka [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has joined
+          #stackvm
+11:33 < rowbit> Hourly usage stats: [developer: 1, free: 33]
+11:37 -!- kenperkins [~textual@c-24-22-251-201.hsd1.wa.comcast.net] has joined
+          #stackvm
+11:44 -!- brianlov_ [~brianlove@74.73.227.168] has quit [Quit: Computer has
+          gone to sleep.]
+11:45 < rowbit> substack, pkrumins: These encoders are STILL down:
+                50.57.174.105(dev-ie8-2)
+11:47 -!- kumavis [~kumavis@107-219-148-42.lightspeed.sntcca.sbcglobal.net] has
+          joined #stackvm
+12:05 -!- taterbase [uid17123@gateway/web/irccloud.com/x-tyvstoactukodncw] has
+          joined #stackvm
+12:09 -!- warbrett [~warbrett@wsip-184-176-136-106.ph.ph.cox.net] has joined
+          #stackvm
+12:20 -!- anvaka [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has quit [Remote
+          host closed the connection]
+12:21 -!- anvaka [~anvaka@2601:8:ac80:3f9:25e6:16f0:a1e1:22c6] has joined
+          #stackvm
+12:25 -!- anvaka [~anvaka@2601:8:ac80:3f9:25e6:16f0:a1e1:22c6] has quit [Ping
+          timeout: 240 seconds]
+12:27 -!- domanic [~domanic@75-139-223-120.dhcp.knwc.wa.charter.com] has joined
+          #stackvm
+12:33 < rowbit> Hourly usage stats: [developer: 10, free: 49]
+12:46 -!- brianloveswords [~brianlove@rrcs-50-74-99-190.nyc.biz.rr.com] has
+          joined #stackvm
+12:46 -!- kumavis [~kumavis@107-219-148-42.lightspeed.sntcca.sbcglobal.net] has
+          quit [Ping timeout: 256 seconds]
+12:49 -!- jxson [jxson@nat/google/x-pofnjctfaethjdwu] has joined #stackvm
+12:49 -!- phated [~phated@wsip-184-176-136-106.ph.ph.cox.net] has joined
+          #stackvm
+12:49 -!- DTrejo [~dtrejo@199.116.72.155] has joined #stackvm
+13:07 -!- McJesuso
+          [~McJesus@ec2-54-217-121-105.eu-west-1.compute.amazonaws.com] has
+          joined #stackvm
+13:11 -!- dguttman [~david@cpe-142-129-79-131.socal.res.rr.com] has joined
+          #stackvm
+13:33 < rowbit> Hourly usage stats: [developer: 0, free: 26]
+13:49 -!- kenperkins [~textual@c-24-22-251-201.hsd1.wa.comcast.net] has quit
+          [Remote host closed the connection]
+13:55 -!- kenperkins [~textual@c-24-22-251-201.hsd1.wa.comcast.net] has joined
+          #stackvm
+14:00 -!- ceejbot [~ceejbot@50.1.57.188] has joined #stackvm
+14:04 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+14:26 < rowbit> substack, pkrumins: These encoders are STILL down:
+                50.57.171.229(dev-ie6-2)
+14:33 < rowbit> Hourly usage stats: [developer: 0, free: 33]
+14:35 -!- defunctzombie_zz is now known as defunctzombie
+14:35 -!- Netsplit *.net <-> *.split quits: McJesus
+14:35 -!- defunctzombie [~defunctzo@198.211.110.17] has quit [Changing host]
+14:35 -!- defunctzombie [~defunctzo@unaffiliated/defunctzombie] has joined
+          #stackvm
+14:36 -!- Netsplit over, joins: McJesus
+14:37 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #stackvm
+14:39 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has joined
+          #stackvm
+14:44 -!- addisonj [uid18502@gateway/web/irccloud.com/x-aaxpsayvwwfkhfdm] has
+          joined #stackvm
+14:50 -!- domanic [~domanic@75-139-223-120.dhcp.knwc.wa.charter.com] has quit
+          [Ping timeout: 255 seconds]
+15:00 -!- gozala [uid5923@gateway/web/irccloud.com/x-plyvuykrlnsqmpzs] has
+          joined #stackvm
+15:03 -!- domanic [~domanic@75-139-223-120.dhcp.knwc.wa.charter.com] has joined
+          #stackvm
+15:04 -!- defunctzombie is now known as defunctzombie_zz
+15:04 < rowbit> substack, pkrumins: Encoders down: 50.57.174.105 (dev-ie8-2)
+15:07 -!- j0hn [~j0hn@66-90-165-181.dyn.grandenetworks.net] has joined #stackvm
+15:11 -!- _4m4deus_ [sid31773@gateway/web/irccloud.com/x-zhztxtvwnxngbcts] has
+          joined #stackvm
+15:15 < _4m4deus_> substack: seeing interesting issue where my bundle contains
+                   different versions (some from current master, some from old
+                   commits) of the same node_module within a single bundle
+15:16 < _4m4deus_> substack: if you have a sec pm me and i can send more info
+15:29 < jjjohnny_> HEY ME HEARD HASKELL NEED PACKAGES MANAGERS
+15:29 < LOUDBOT> AND IT'S A HEAVE-HO HIGH-HO, COMING DOWN THE PLAINS
+15:29 -!- j0hn [~j0hn@66-90-165-181.dyn.grandenetworks.net] has quit [Remote
+          host closed the connection]
+15:29 < othiym23> but cabal
+15:29  * othiym23 pets cabal
+15:30 < jjjohnny_> i heard about that too
+15:30 < jjjohnny_> a package manager would be like a haskellian's favorite
+                   indie band becoming popular
+15:31 < othiym23> pretty sure cabal is a package manager
+15:31 < jjjohnny_> oh i thought you meant the cabal of haskell
+15:31 < othiym23> in that I can run "cabal install shellcheck" and I end up
+                  with a binary of shellcheck in $HOME/.cabal/bin
+15:33 < jjjohnny_> how bower like "\
+15:33 < rowbit> Hourly usage stats: [developer: 3, free: 33]
+15:35 < jjjohnny_> BOWER SMASH!!!
+15:35 < LOUDBOT> I WANT TO FUCK THE LIBRARIAN! WHY CAN'T I FUCK THE LIBRARIAN!
+15:36 < jjjohnny_> OH YOU CAN FUCK THE OPEN SOURCE LIBRARIAN ALL U NEED TO DO
+                   IS COMB THE HALLS OF NPM FOR A MONK MODULE AND APPROACH WITH
+                   A SMILE FOLLOWED BY SOME LIGHT TOUCH
+15:36 < LOUDBOT> WHAT IS THE DEAL WITH THAT PLEASE AND THANK YOU??
+15:37 < jjjohnny_> I KNOW RIGHT OPEN SRCX
+15:37 < LOUDBOT> IT'S BEEN ONE YEAR TODAY SINCE I'VE DONE ANY MAH
+15:38 < jjjohnny_> YOUR CELIBABCY IS RESPECTABLE BUT U DONT NEED TO TELL MAMA
+15:38 < LOUDBOT> NEG. I WOULD HAVE MANEUVERED SO THERE WAS NO WRECK.
+15:39 < jjjohnny_> TOO BAD IT WAS TRYNNA GIT WRECKTIFIED
+15:39 < LOUDBOT> I CAN SEE CLEARLY NOW THE RAIN IS GONE
+15:40 < jjjohnny_> I CAN SEE EVERYTHING IN FRONT ME IS EITHER AN OBSTACLE OR A
+                   PARKOUR RAMP
+15:40 < LOUDBOT> GOOGLE IM HAPPY FOR YOU BUT APPLES ALREADY USING WAY MORE
+                 RENEWABLES FOR THEIR DATA CENTERS
+15:41 < jjjohnny_> THANKS TO JOHNNY APPLEKERNEL
+15:41 < LOUDBOT> WHAT'S WRONG WITH THE DATABASE SERVER
+15:43 < jjjohnny_> WHY DOES THIS DATABASE HAVE A BUILT-IN SERVER AND WHO GETS
+                   MURDERED?
+15:43 < LOUDBOT> SUBNORMALITY IS FUCKING AWESOME FRIJOLE YOU JSUT HAVE NO TASTE
+15:44 < jjjohnny_> FEED THE CHICKENS BEANS AND EAT EGGS PROTEANBRO
+15:44 < LOUDBOT> WE'VE GOT US A MAP TO LEAD US TO A HIDDEN BOX THAT'S ALL
+                 LOCKED UP WITH LOCKS AND BURIED DEEP AWAY WE'LL DIG UP THE BOX
+                 WE KNOW IT'S FULL OF PRECIOUS BOOTY BUST OPEN THE LOCKS AND
+                 THEN WE'LL SAY HURRAY
+15:44 -!- peutetre [~peutetre@p578E7B24.dip0.t-ipconnect.de] has joined #stackvm
+15:48 < jjjohnny_> FIRE IN THEY EYES, WHAT RICHES THEY PERCIEVED.  UNLOCK THE
+                   BOOTY! UNLOCK THE BOOTY! HUZZAH!!!  WHAT'S THE PRIVATE KEY?
+15:48 < LOUDBOT> A TEENAGE WHITE GIRL SITS AT HER LAPTOP. SHE OPENS TUMBLR AND
+                 TYPES A NEW TEXT POST MOST GIRLS LIKE ONE DIRECTION& BUT I
+                 DONT!! PUNK BANDS ARE WAYYYYY BETTER
+15:49 < jjjohnny_> I HAVE TO MEET WITH PEOPLE AGAINST MY WILL
+15:49 < LOUDBOT> OUR INITIAL CONSULTATION ARE ALWAYS FREE OF CHARGE.WE COULD
+                 ALSO DISCUSS THIS OVER A CALL AT ANY TIME YOU CHOOSE.
+15:51 < jjjohnny_> WAIT N SEE ONE DAY ONE OF THESE STARTUPS IS GONNA OFFER TO S
+                   USER D
+15:51 < LOUDBOT> THIS DISCUSSION IS STILL POINTLESS
+15:52 < jjjohnny_> THIS DISCUSSION IS BEAUTIFULLY CURVILINEAR
+15:52 < LOUDBOT> IS THERE FREE FOOD?
+15:52 < jjjohnny_> SHAPED AND TASTING EXACTLY AS YOUR SENSES DESIRE
+15:52 < LOUDBOT> DON'T GIVE US THAT CRAP.  YOU'RE PROBABLY HOSTED FROM LIKE...
+                 SEALAND OR SOMESHIT.
+15:54 < jjjohnny_> NIKOLA TESLA 2.0 SAID THAT THE OCEAN WOULD HOST ALL THE
+                   INTERNETS WE EVER NEED AND AT INFINITE SPEEDS
+15:54 < LOUDBOT> HI STACKVM PEOPLE I HAVEN'T YELLED IN A LONG TIME, SO HI THERE.
+ Unofficial browserling/testling mad science channel. For official help /join #b
+15:55 -!- Netsplit *.net <-> *.split quits: pfallenop, shama, ircretary,
+          warbrett
+15:55 -!- Netsplit over, joins: ircretary, pfallenop
+15:55 -!- Netsplit *.net <-> *.split quits: farnsworth, yorick
+15:55 -!- Netsplit over, joins: yorick
+15:55 -!- Netsplit over, joins: shama
+15:55 < jjjohnny_> LOUDBOT AINT NO IRCRETARY OR LOUDBOT IS ANOTHER KIND OF
+                   IRCRETARY
+15:55 < LOUDBOT> YOUR FACE YOU HOFACE
+15:55 -!- Netsplit over, joins: warbrett
+15:56 -!- Netsplit over, joins: farnsworth
+15:57 < jjjohnny_> THE ROOT WORD OF SECRETARY IS SECRET AND THAT IS THE ROLE OF
+                   SECRTARIES ORIGINALLY
+15:57 < LOUDBOT> WE MUST DO SCIENCE TO FIND OUT THE ANSWER
+16:01 < jjjohnny_> YOU JUST DO SCIENCE N SCIENCE A DO MEEEEE
+16:01 < LOUDBOT> THIS IS MY KIND OF FUCKING WEBSITE
+16:06 < thealphanerd> jjjohnny_ / substack : best practice for streaming mp3
+                      files with node?  I know baudio can take the samples, but
+                      is there something that can take an mp3 / de-encode
+                      easily?
+16:07 < jjjohnny_> use SoX to convert to raw, read raw with fs module
+ [16:10] [jjjohnny_(+i)] [2:freenode/#stackvm(+cnt)] [Act: 3,4,6]
+[#stackvm]

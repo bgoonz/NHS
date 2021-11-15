@@ -1,0 +1,1048 @@
+23:35 -!- TheCthulhu [~Ythogtha@unaffiliated/ythogtha] has quit [Ping timeout:
+          260 seconds]
+23:36 -!- Ythogtha [~Ythogtha@unaffiliated/ythogtha] has joined #sudoroom
+23:37 -!- Ythogtha is now known as Lich_King
+23:44 -!- Lich_King is now known as TheCthulhu
+23:45 -!- TheCthulhu [~Ythogtha@unaffiliated/ythogtha] has quit [Quit: Follow
+          me on Twitter! https://twitter.com/CthulhuSquid]
+23:47 -!- Ythogtha [~Ythogtha@unaffiliated/ythogtha] has joined #sudoroom
+23:53 -!- Aerosonic [uid35782@gateway/web/irccloud.com/x-lxylyikexiwomhun] has
+          joined #sudoroom
+23:55 -!- captain_morgan [~morgan@50.247.108.222] has quit [Ping timeout: 246
+          seconds]
+Day changed to 11 Sep 2015
+00:01 < sudobot> DOOR EVENT: theconstable swiped into the building
+00:03 -!- Gnudnik [~ed@70-36-227-133.dsl.dynamic.fusionbroadband.com] has quit
+          [Quit: Leaving.]
+00:05 -!- Ythogtha [~Ythogtha@unaffiliated/ythogtha] has quit [Quit: Follow me
+          on Twitter! https://twitter.com/CthulhuSquid]
+00:12 < sudobot> DOOR EVENT: muxlux swiped into the building
+01:00 -!- Brendan_ [~Brendan@198.8.80.33] has quit [Ping timeout: 260 seconds]
+01:18 < sudobot> DOOR EVENT: muxlux swiped into the building
+01:54 -!- Brendan_ [~Brendan@198.8.80.33] has joined #sudoroom
+02:11 -!- Brendan__ [~Brendan@198.8.80.33] has joined #sudoroom
+02:11 -!- Brendan__ is now known as Guest75805
+02:11 -!- Ythogtha [~Ythogtha@unaffiliated/ythogtha] has joined #sudoroom
+02:13 -!- Brendan_ [~Brendan@198.8.80.33] has quit [Ping timeout: 240 seconds]
+02:30 -!- Brendan_ [~Brendan@198.8.80.33] has joined #sudoroom
+02:32 -!- Guest75805 [~Brendan@198.8.80.33] has quit [Ping timeout: 244 seconds]
+02:49 -!- Twisted_haywire
+          [~Thunderbi@62-135-143-48-dynamic.dk.customer.tdc.net] has quit [Ping
+          timeout: 272 seconds]
+02:52 -!- stojanovic [~stojanovi@178-221-84-182.dynamic.isp.telekom.rs] has
+          joined #sudoroom
+02:53 -!- Ythogtha [~Ythogtha@unaffiliated/ythogtha] has quit [Quit: Follow me
+          on Twitter! https://twitter.com/CthulhuSquid]
+03:01 -!- stojanovic [~stojanovi@178-221-84-182.dynamic.isp.telekom.rs] has
+          quit [Remote host closed the connection]
+03:01 -!- stojanovic [~stojanovi@178-221-84-182.dynamic.isp.telekom.rs] has
+          joined #sudoroom
+03:09 -!- stojanovic [~stojanovi@178-221-84-182.dynamic.isp.telekom.rs] has
+          quit [Remote host closed the connection]
+03:09 -!- stojanovic [~stojanovi@178-221-84-182.dynamic.isp.telekom.rs] has
+          joined #sudoroom
+03:11 -!- simalexan [~simalexan@109-93-203-17.dynamic.isp.telekom.rs] has
+          joined #sudoroom
+03:12 -!- Twisted_haywire
+          [~Thunderbi@62-135-143-48-dynamic.dk.customer.tdc.net] has joined
+          #sudoroom
+03:12 -!- captain_morgan
+          [~morgan@104-13-209-202.lightspeed.sntcca.sbcglobal.net] has joined
+          #sudoroom
+03:18 < sudobot> DOOR EVENT: muxlux swiped into the building
+03:19 -!- captain_morgan
+          [~morgan@104-13-209-202.lightspeed.sntcca.sbcglobal.net] has quit
+          [Ping timeout: 264 seconds]
+03:25 -!- simalexan [~simalexan@109-93-203-17.dynamic.isp.telekom.rs] has quit
+          [Remote host closed the connection]
+03:44 < Twisted_haywire> goodmorning?
+03:46 -!- Twisted_haywire
+          [~Thunderbi@62-135-143-48-dynamic.dk.customer.tdc.net] has quit
+          [Remote host closed the connection]
+03:46 -!- Twisted_haywire
+          [~Thunderbi@62-135-143-48-dynamic.dk.customer.tdc.net] has joined
+          #sudoroom
+03:52 -!- Brendan_ [~Brendan@198.8.80.33] has quit [Ping timeout: 240 seconds]
+04:04 -!- simalexan [~simalexan@109-93-203-17.dynamic.isp.telekom.rs] has
+          joined #sudoroom
+04:10 -!- Twisted_haywire
+          [~Thunderbi@62-135-143-48-dynamic.dk.customer.tdc.net] has quit [Ping
+          timeout: 256 seconds]
+04:10 -!- Twisted_haywire
+          [~Thunderbi@62-135-143-48-dynamic.dk.customer.tdc.net] has joined
+          #sudoroom
+04:25 < sudobot> DOOR EVENT: muxlux swiped into the building
+04:26 -!- Brendan_ [~Brendan@198.8.80.33] has joined #sudoroom
+04:47 -!- Twisted_haywire
+          [~Thunderbi@62-135-143-48-dynamic.dk.customer.tdc.net] has quit [Ping
+          timeout: 272 seconds]
+04:50 -!- Brendan_ [~Brendan@198.8.80.33] has quit [Ping timeout: 244 seconds]
+05:02 -!- Twisted_haywire
+          [~Thunderbi@62-135-143-48-dynamic.dk.customer.tdc.net] has joined
+          #sudoroom
+05:08 -!- Twisted_haywire
+          [~Thunderbi@62-135-143-48-dynamic.dk.customer.tdc.net] has quit [Ping
+          timeout: 240 seconds]
+05:12 -!- wrought [~wrought@208.87.217.74] has joined #sudoroom
+05:13 -!- stojanovic [~stojanovi@178-221-84-182.dynamic.isp.telekom.rs] has
+          quit [Remote host closed the connection]
+05:17 -!- stojanovic [~stojanovi@178-221-84-182.dynamic.isp.telekom.rs] has
+          joined #sudoroom
+05:21 -!- stojanovic [~stojanovi@178-221-84-182.dynamic.isp.telekom.rs] has
+          quit [Ping timeout: 246 seconds]
+05:24 -!- Twisted_haywire
+          [~Thunderbi@62-135-143-48-dynamic.dk.customer.tdc.net] has joined
+          #sudoroom
+05:38 -!- Twisted_haywire
+          [~Thunderbi@62-135-143-48-dynamic.dk.customer.tdc.net] has quit [Ping
+          timeout: 244 seconds]
+05:50 -!- stojanovic [~stojanovi@cable-94-189-192-91.dynamic.sbb.rs] has joined
+          #sudoroom
+06:35 < sudobot> DOOR EVENT: muxlux swiped into the building
+07:03 -!- Twisted_haywire
+          [~Thunderbi@62-135-143-48-dynamic.dk.customer.tdc.net] has joined
+          #sudoroom
+07:19 -!- wrought [~wrought@208.87.217.74] has quit [Ping timeout: 264 seconds]
+09:06 -!- Twisted_haywire1
+          [~Thunderbi@62-135-143-48-dynamic.dk.customer.tdc.net] has joined
+          #sudoroom
+09:08 -!- Twisted_haywire
+          [~Thunderbi@62-135-143-48-dynamic.dk.customer.tdc.net] has quit [Ping
+          timeout: 246 seconds]
+09:11 -!- Twisted_haywire1
+          [~Thunderbi@62-135-143-48-dynamic.dk.customer.tdc.net] has quit [Ping
+          timeout: 272 seconds]
+09:28 -!- Twisted_haywire
+          [~Thunderbi@62-135-143-48-dynamic.dk.customer.tdc.net] has joined
+          #sudoroom
+09:47 -!- stojanovic [~stojanovi@cable-94-189-192-91.dynamic.sbb.rs] has quit
+          [Remote host closed the connection]
+09:49 -!- csgeek [~csgeek-cl@192.241.211.194] has quit [Ping timeout: 252
+          seconds]
+09:53 -!- stojanovic [~stojanovi@cable-94-189-192-91.dynamic.sbb.rs] has joined
+          #sudoroom
+09:53 -!- csgeek [~csgeek-cl@192.241.211.194] has joined #sudoroom
+10:15 -!- stojanovic [~stojanovi@cable-94-189-192-91.dynamic.sbb.rs] has quit
+          [Remote host closed the connection]
+10:17 -!- stojanovic [~stojanovi@cable-94-189-192-91.dynamic.sbb.rs] has joined
+          #sudoroom
+10:35 -!- stojanovic [~stojanovi@cable-94-189-192-91.dynamic.sbb.rs] has quit
+          [Read error: Connection reset by peer]
+10:36 -!- stojanovic [~stojanovi@cable-94-189-192-91.dynamic.sbb.rs] has joined
+          #sudoroom
+10:38 -!- stojanovic [~stojanovi@cable-94-189-192-91.dynamic.sbb.rs] has quit
+          [Remote host closed the connection]
+10:39 -!- stojanovic [~stojanovi@cable-94-189-192-91.dynamic.sbb.rs] has joined
+          #sudoroom
+11:20 -!- stojanovic [~stojanovi@cable-94-189-192-91.dynamic.sbb.rs] has quit
+          [Read error: Connection reset by peer]
+11:22 -!- stojanovic [~stojanovi@cable-94-189-192-91.dynamic.sbb.rs] has joined
+          #sudoroom
+11:27 < sudobot> DOOR EVENT: muxlux swiped into the building
+11:30 -!- simalexan [~simalexan@109-93-203-17.dynamic.isp.telekom.rs] has quit
+          [Remote host closed the connection]
+11:36 -!- stojanovic [~stojanovi@cable-94-189-192-91.dynamic.sbb.rs] has quit
+          [Remote host closed the connection]
+11:37 -!- Twisted_haywire1
+          [~Thunderbi@62-135-143-48-dynamic.dk.customer.tdc.net] has joined
+          #sudoroom
+11:39 -!- Twisted_haywire
+          [~Thunderbi@62-135-143-48-dynamic.dk.customer.tdc.net] has quit [Ping
+          timeout: 255 seconds]
+11:39 -!- Twisted_haywire1 is now known as Twisted_haywire
+11:43 -!- stojanovic [~stojanovi@cable-94-189-192-91.dynamic.sbb.rs] has joined
+          #sudoroom
+11:59 -!- Twisted_haywire1
+          [~Thunderbi@62-135-143-48-dynamic.dk.customer.tdc.net] has joined
+          #sudoroom
+12:01 -!- Twisted_haywire
+          [~Thunderbi@62-135-143-48-dynamic.dk.customer.tdc.net] has quit [Ping
+          timeout: 250 seconds]
+12:01 -!- Twisted_haywire1 is now known as Twisted_haywire
+12:07 -!- captain_morgan
+          [~morgan@104-13-209-202.lightspeed.sntcca.sbcglobal.net] has joined
+          #sudoroom
+12:24 -!- stojanovic [~stojanovi@cable-94-189-192-91.dynamic.sbb.rs] has quit
+          [Remote host closed the connection]
+12:24 -!- stojanovic [~stojanovi@cable-94-189-192-91.dynamic.sbb.rs] has joined
+          #sudoroom
+12:37 < sudobot> DOOR EVENT: muxlux swiped into the building
+12:43 -!- Demmy [~Demmy@c-50-136-156-146.hsd1.ca.comcast.net] has joined
+          #sudoroom
+12:52 -!- stojanov_ [~stojanovi@cable-94-189-192-91.dynamic.sbb.rs] has joined
+          #sudoroom
+12:52 -!- stojanovic [~stojanovi@cable-94-189-192-91.dynamic.sbb.rs] has quit
+          [Read error: Connection reset by peer]
+13:06 -!- stojanov_ [~stojanovi@cable-94-189-192-91.dynamic.sbb.rs] has quit
+          [Read error: Connection reset by peer]
+13:06 -!- stojanovic [~stojanovi@cable-94-189-192-91.dynamic.sbb.rs] has joined
+          #sudoroom
+13:10 < sudobot> DOOR EVENT: somebody swiped into the building
+13:21 -!- stojanovic [~stojanovi@cable-94-189-192-91.dynamic.sbb.rs] has quit
+          [Read error: Connection reset by peer]
+13:24 -!- stojanovic [~stojanovi@cable-94-189-192-91.dynamic.sbb.rs] has joined
+          #sudoroom
+13:32 -!- DonkeyHotei [CfiWu@april-fools/2014/runnerup/danielg4] has joined
+          #sudoroom
+13:36 -!- stojanovic [~stojanovi@cable-94-189-192-91.dynamic.sbb.rs] has quit
+          [Read error: Connection reset by peer]
+13:39 -!- stojanovic [~stojanovi@cable-94-189-192-91.dynamic.sbb.rs] has joined
+          #sudoroom
+13:40 < sudobot> DOOR EVENT: muxlux swiped into the building
+13:45 -!- Twisted_haywire
+          [~Thunderbi@62-135-143-48-dynamic.dk.customer.tdc.net] has quit [Ping
+          timeout: 268 seconds]
+13:53 -!- stojanov_ [~stojanovi@cable-94-189-192-91.dynamic.sbb.rs] has joined
+          #sudoroom
+13:54 -!- stojanovic [~stojanovi@cable-94-189-192-91.dynamic.sbb.rs] has quit
+          [Read error: Connection reset by peer]
+13:57 -!- Twisted_haywire
+          [~Thunderbi@62-135-143-48-dynamic.dk.customer.tdc.net] has joined
+          #sudoroom
+14:05 -!- WapCapLet [~burp@c-67-170-194-143.hsd1.ca.comcast.net] has joined
+          #sudoroom
+14:06 -!- stojanov_ [~stojanovi@cable-94-189-192-91.dynamic.sbb.rs] has quit
+          [Read error: Connection reset by peer]
+14:08 -!- VonGuard [~burp@c-67-170-194-143.hsd1.ca.comcast.net] has quit [Ping
+          timeout: 272 seconds]
+14:08 -!- stojanovic [~stojanovi@cable-94-189-192-91.dynamic.sbb.rs] has joined
+          #sudoroom
+14:12 -!- Ythogtha [~Ythogtha@2600:1010:b05c:437:ed0f:1697:7179:86ac] has
+          joined #sudoroom
+14:15 -!- Ythogtha [~Ythogtha@2600:1010:b05c:437:ed0f:1697:7179:86ac] has quit
+          [Remote host closed the connection]
+14:31 -!- WapCapLet is now known as VonGuard
+14:42 -!- stojanovic [~stojanovi@cable-94-189-192-91.dynamic.sbb.rs] has quit
+          [Remote host closed the connection]
+14:43 -!- stojanovic [~stojanovi@cable-94-189-192-91.dynamic.sbb.rs] has joined
+          #sudoroom
+14:44 -!- Demmy [~Demmy@c-50-136-156-146.hsd1.ca.comcast.net] has quit [Remote
+          host closed the connection]
+14:50 -!- captain_morgan
+          [~morgan@104-13-209-202.lightspeed.sntcca.sbcglobal.net] has quit
+          [Read error: No route to host]
+14:52 -!- wrought [~wrought@208.87.217.74] has joined #sudoroom
+15:22 -!- stojanovic [~stojanovi@cable-94-189-192-91.dynamic.sbb.rs] has quit
+          [Remote host closed the connection]
+15:22 < sudobot> DOOR EVENT: muxlux swiped into the building
+15:25 -!- simalexan [~simalexan@109-93-203-17.dynamic.isp.telekom.rs] has
+          joined #sudoroom
+15:32 -!- Twisted_haywire1
+          [~Thunderbi@62-135-143-48-dynamic.dk.customer.tdc.net] has joined
+          #sudoroom
+15:33 -!- Twisted_haywire
+          [~Thunderbi@62-135-143-48-dynamic.dk.customer.tdc.net] has quit [Ping
+          timeout: 246 seconds]
+15:37 -!- Twisted_haywire1
+          [~Thunderbi@62-135-143-48-dynamic.dk.customer.tdc.net] has quit [Ping
+          timeout: 272 seconds]
+15:39 < sudobot> DOOR EVENT: jerkey swiped into the building
+15:40 -!- simalexan [~simalexan@109-93-203-17.dynamic.isp.telekom.rs] has quit
+          [Remote host closed the connection]
+15:40 -!- simalexan [~simalexan@109-93-203-17.dynamic.isp.telekom.rs] has
+          joined #sudoroom
+15:45 -!- simalexan [~simalexan@109-93-203-17.dynamic.isp.telekom.rs] has quit
+          [Ping timeout: 250 seconds]
+15:46 -!- wrought [~wrought@208.87.217.74] has quit [Ping timeout: 272 seconds]
+15:48 -!- Brendan_ [~Brendan@198.8.80.33] has joined #sudoroom
+15:53 -!- captain_morgan
+          [~morgan@104-13-209-202.lightspeed.sntcca.sbcglobal.net] has joined
+          #sudoroom
+15:55 -!- Twisted_haywire
+          [~Thunderbi@62-135-143-48-dynamic.dk.customer.tdc.net] has joined
+          #sudoroom
+16:07 -!- Twisted_haywire1
+          [~Thunderbi@62-135-143-48-dynamic.dk.customer.tdc.net] has joined
+          #sudoroom
+16:09 -!- Twisted_haywire
+          [~Thunderbi@62-135-143-48-dynamic.dk.customer.tdc.net] has quit [Ping
+          timeout: 265 seconds]
+16:11 -!- Twisted_haywire1
+          [~Thunderbi@62-135-143-48-dynamic.dk.customer.tdc.net] has quit [Ping
+          timeout: 244 seconds]
+16:11 -!- Twisted_haywire
+          [~Thunderbi@62-135-143-48-dynamic.dk.customer.tdc.net] has joined
+          #sudoroom
+15:23 <jjjohnny> its best asset is really information
+15:23 <jjjohnny> which will pay out logorithmically
+04:27 -!- reqshark [~reqshark@72.235.67.12] has quit [Quit: Be back later ...]
+04:34 -!- peutetre [~peutetre@62.129.1.150] has joined #stackvm
+05:13 -!- stojanovic [~stojanovi@178-221-84-182.dynamic.isp.telekom.rs] has
+          quit [Remote host closed the connection]
+05:13 -!- gildean_ [gildean@salaliitto.com] has joined #stackvm
+05:13 -!- gildean_ [gildean@salaliitto.com] has quit [Client Quit]
+05:17 -!- stojanovic [~stojanovi@178-221-84-182.dynamic.isp.telekom.rs] has
+          joined #stackvm
+05:21 -!- stojanovic [~stojanovi@178-221-84-182.dynamic.isp.telekom.rs] has
+          quit [Ping timeout: 246 seconds]
+00:15 < domanic> having one window is easy to think about
+00:16 < domanic> but i guess that is something the home app can manage. whether
+                 to open something as it's own window.
+00:16 < pfraze> domanic: Ive been thinking we should do each app in its own
+                window by default, rather than in webviews
+00:17 < domanic> if webviews can have webviews and windows don't have special
+                 privlidges... and we can sandbox them the same then it doesn't
+                 really matter
+00:18 < domanic> I think i would prefer a single window, with apps as tabs.
+00:18 < pfraze> we ought to do one or the other
+00:18 < pfraze> there are weird subtle differences
+00:18 < domanic> if it's not a security question, then it's just a ux problem
+00:19 < domanic> if multilpe aspects of the same thing (like inbox vs feed) are
+                 separate windows
+00:19 < domanic> that would be awkward i think... id do those as tabs.
+00:20 < domanic> or like, it ought to be possible to take a tab and make it a
+                 window
+00:20 < pfraze> that's probably possible but it'll take a little work to do
+00:21 < pfraze> the question I have is, what sort of experience we want to give
+00:21 < pfraze> tabs are very browserish
+00:21 < pfraze> windows are desktopish
+00:21 < pfraze> I think I could make a case for either, but atm I was leaning
+                toward the latter
+00:22 < pfraze> if we do tabs, we could also do tabs w/o a navbar... just the
+                tabs
+00:23 < pfraze> no url input
+00:26 -!- reqshark [~reqshark@72.235.67.12] has joined #scuttlebutt
+00:34 < domanic> pfraze, this is a big UX thing, but it's not a big viability
+                 thing
+00:35 < domanic> we should go for something simple and consistent right now.
+00:35 < domanic> I'd rather have tabs. windows would be quite awkward for me.
+00:36 < domanic> I mean, this isn't something we should commit to yet.
+00:36 < pfraze> we've got code for both written already
+00:37 < pfraze> so we can easily switch between either
+00:37 < domanic> yeah. or people can run their own tab/window/tiles/whatever
+                 home app
+00:37 < domanic> pfraze, more important Q rn, how to load default apps?
+00:38 -!- joshbuddy [~josh@wikimedia/Joshbuddy] has joined #scuttlebutt
+00:38 < domanic> I'm guessing that there is a ./defaults/app directory
+00:38 < pfraze> yeah
+00:38 < domanic> and on startup, the root process ensures that they are loaded
+                 into the blobstore
+00:38 < domanic> (that they exist in the blobstore)
+00:39 < pfraze> yeah, and sets the names mapping to them
+00:39 < domanic> ah, only if they arn't set already.
+00:39 -!- joshbuddy [~josh@wikimedia/Joshbuddy] has quit [Client Quit]
+00:40 < domanic> relocating
+00:41 < pfraze> ok
+00:45 -!- domanic [~domanic@101.98.215.54] has quit [Ping timeout: 265 seconds]
+00:49 -!- pfraze [~pfraze@2602:306:30bf:87e0:c0aa:c531:d37d:9582] has quit
+          [Remote host closed the connection]
+00:54 -!- phpnode [~charles@host86-176-139-236.range86-176.btcentralplus.com]
+          has quit [Ping timeout: 250 seconds]
+01:00 -!- joshbuddy [~josh@wikimedia/Joshbuddy] has joined #scuttlebutt
+01:01 -!- joshbuddy [~josh@wikimedia/Joshbuddy] has quit [Client Quit]
+01:07 -!- phpnode [~charles@host86-176-139-236.range86-176.btcentralplus.com]
+          has joined #scuttlebutt
+01:15 -!- domanic [~domanic@116.90.132.105] has joined #scuttlebutt
+01:35 -!- woah [~woah@75-101-96-71.dsl.static.fusionbroadband.com] has quit
+          [Remote host closed the connection]
+02:06 -!- domanic [~domanic@116.90.132.105] has quit [Ping timeout: 244 seconds]
+02:35 -!- woah [~woah@75-101-96-71.dsl.static.fusionbroadband.com] has joined
+          #scuttlebutt
+02:40 -!- woah [~woah@75-101-96-71.dsl.static.fusionbroadband.com] has quit
+          [Ping timeout: 246 seconds]
+03:50 -!- pfraze [~pfraze@2602:306:30bf:87e0:d185:a698:f47f:3bd1] has joined
+          #scuttlebutt
+03:54 -!- pfraze [~pfraze@2602:306:30bf:87e0:d185:a698:f47f:3bd1] has quit
+          [Ping timeout: 246 seconds]
+04:27 -!- reqshark [~reqshark@72.235.67.12] has quit [Quit: Be back later ...]
+04:36 -!- woah [~woah@75-101-96-71.dsl.static.fusionbroadband.com] has joined
+          #scuttlebutt
+04:41 -!- woah [~woah@75-101-96-71.dsl.static.fusionbroadband.com] has quit
+          [Ping timeout: 246 seconds]
+05:37 -!- woah [~woah@75-101-96-71.dsl.static.fusionbroadband.com] has joined
+          #scuttlebutt
+05:41 -!- woah [~woah@75-101-96-71.dsl.static.fusionbroadband.com] has quit
+          [Ping timeout: 244 seconds]
+07:38 -!- woah [~woah@75-101-96-71.dsl.static.fusionbroadband.com] has joined
+          #scuttlebutt
+07:43 -!- woah [~woah@75-101-96-71.dsl.static.fusionbroadband.com] has quit
+          [Ping timeout: 265 seconds]
+09:38 -!- woah [~woah@75-101-96-71.dsl.static.fusionbroadband.com] has joined
+          #scuttlebutt
+09:43 -!- woah [~woah@75-101-96-71.dsl.static.fusionbroadband.com] has quit
+          [Ping timeout: 265 seconds]
+09:47 -!- pfraze [~pfraze@2602:306:30bf:87e0:8ca:eda5:7440:670f] has joined
+          #scuttlebutt
+10:34 -!- null_radix [Elite7851@gateway/shell/elitebnc/x-ybwyrvwcpniyywjj] has
+          quit [Excess Flood]
+10:36 -!- null_radix [Elite7851@gateway/shell/elitebnc/x-dmzryqdkvxguijqg] has
+          joined #scuttlebutt
+10:39 -!- woah [~woah@75-101-96-71.dsl.static.fusionbroadband.com] has joined
+          #scuttlebutt
+10:41 -!- cryptix [~cryptix@178.62.206.163] has left #scuttlebutt []
+10:42 -!- cryptix [~cryptix@178.62.206.163] has joined #scuttlebutt
+10:44 -!- woah [~woah@75-101-96-71.dsl.static.fusionbroadband.com] has quit
+          [Ping timeout: 240 seconds]
+11:00 -!- op-edna [~ednapiran@c-71-193-205-213.hsd1.or.comcast.net] has joined
+          #scuttlebutt
+11:12 -!- pfraze [~pfraze@2602:306:30bf:87e0:8ca:eda5:7440:670f] has quit
+          [Remote host closed the connection]
+11:18 -!- op-edna [~ednapiran@c-71-193-205-213.hsd1.or.comcast.net] has quit
+          [Remote host closed the connection]
+11:37 -!- pfraze [~pfraze@4.15.1.155] has joined #scuttlebutt
+12:15 -!- mdik [~mdik@x5f77e50f.dyn.telefonica.de] has joined #scuttlebutt
+12:41 -!- mdik_ [~mdik@x4d06d4d7.dyn.telefonica.de] has joined #scuttlebutt
+12:43 -!- mdik [~mdik@x5f77e50f.dyn.telefonica.de] has quit [Ping timeout: 265
+          seconds]
+13:01 -!- mdik [~mdik@x4d0308de.dyn.telefonica.de] has joined #scuttlebutt
+13:01 -!- mdik_ [~mdik@x4d06d4d7.dyn.telefonica.de] has quit [Ping timeout: 252
+          seconds]
+13:11 -!- mdik [~mdik@x4d0308de.dyn.telefonica.de] has quit [Quit: leaving]
+14:02 -!- woah [~woah@presence.static.monkeybrains.net] has joined #scuttlebutt
+15:11 -!- woah [~woah@presence.static.monkeybrains.net] has quit [Remote host
+          closed the connection]
+15:31 -!- joshbuddy [~josh@wikimedia/Joshbuddy] has joined #scuttlebutt
+15:47 -!- reqshark [~reqshark@2600:1013:b025:715f:e445:c8d5:98d6:4bc0] has
+          joined #scuttlebutt
+16:03 -!- woah [~woah@presence.static.monkeybrains.net] has joined #scuttlebutt
+16:23 -!- reqshark [~reqshark@2600:1013:b025:715f:e445:c8d5:98d6:4bc0] has quit
+          [Quit: Be back later ...]
+18:00 -!- woah [~woah@presence.static.monkeybrains.net] has quit [Remote host
+          closed the connection]
+18:29 -!- tictacjoe [~JohnDotAw@cpe-24-242-77-166.austin.res.rr.com] has joined
+          #scuttlebutt
+18:44 -!- tictacjoe [~JohnDotAw@cpe-24-242-77-166.austin.res.rr.com] has quit
+          [Remote host closed the connection]
+19:00 -!- domanic [~domanic@101.98.215.54] has joined #scuttlebutt
+19:03 -!- ehd [sid1451@gateway/web/irccloud.com/x-fuhhbmgqoykiulue] has quit
+          [Ping timeout: 252 seconds]
+19:03 -!- yoshuawuyts [sid53400@gateway/web/irccloud.com/x-ystjmwvhjpydcduh]
+          has quit [Ping timeout: 252 seconds]
+19:03 -!- feross [sid31814@gateway/web/irccloud.com/x-ltjqtkkgflcwfonk] has
+          quit [Ping timeout: 252 seconds]
+19:04 -!- Raynos [sid3611@gateway/web/irccloud.com/x-dvmtpnxrfvlqnqyv] has quit
+          [Ping timeout: 252 seconds]
+19:04 -!- andreypopp_ [sid22726@gateway/web/irccloud.com/x-lwxuambhqfwdcygj]
+          has quit [Ping timeout: 252 seconds]
+19:04 -!- mikolalysenko [sid34553@gateway/web/irccloud.com/x-apoculwdfdihfjpf]
+          has quit [Ping timeout: 252 seconds]
+19:04 -!- kumavis [sid13576@gateway/web/irccloud.com/x-rnkpvegkygbdhhit] has
+          quit [Ping timeout: 252 seconds]
+19:06 -!- feross [sid31814@gateway/web/irccloud.com/x-fnoqhyrkrbbdsjbc] has
+          joined #scuttlebutt
+19:07 -!- yoshuawuyts [sid53400@gateway/web/irccloud.com/x-dsfcdzbiqjqvfwat]
+          has joined #scuttlebutt
+19:07 -!- Raynos [sid3611@gateway/web/irccloud.com/x-jpritzptaiybvkpu] has
+          joined #scuttlebutt
+19:07 -!- ehd [sid1451@gateway/web/irccloud.com/x-jsrbljokxermqnlq] has joined
+          #scuttlebutt
+19:08 -!- kumavis [sid13576@gateway/web/irccloud.com/x-cvwqrswlrwjtabry] has
+          joined #scuttlebutt
+19:11 -!- andreypopp_ [sid22726@gateway/web/irccloud.com/x-uuffmzlqbshzwupw]
+          has joined #scuttlebutt
+19:11 -!- mikolalysenko [sid34553@gateway/web/irccloud.com/x-bzlnrwehaaoldjma]
+          has joined #scuttlebutt
+19:26 < pfraze> domanic: hey
+19:26 < domanic> pfraze, houdy
+19:27 < pfraze> domanic: published a few proposals in the issues, and a PR
+                demonstrating a possible tabs solution
+19:29 < pfraze> domanic: also tested, exposing node's `net` module via preload,
+                and found an issue
+19:29 < domanic> what happened?
+19:30 < pfraze> exposed the 'net' module with `window.net = require('net')`,
+                but 'net' does a require('dns') during operation, and 'dns'
+                uses the `process` object... but `process` is not defined
+                anymore outside of preload
+19:30 < domanic> pfraze, this navbar is a separate window?
+19:30 < pfraze> domanic: yeah. If you look at the diff, you'll see this is
+                relatively trivial
+19:31 < domanic> pfraze, what do you mean by "glue the frames into the navbar"?
+19:32 < pfraze> domanic: we could listen to move events and move the other
+                windows in concert, as if theyre glued together
+19:32 < pfraze> same with resize
+19:32 < domanic> oh right. hmm. can you hide and show a window too?
+19:32 < pfraze> yes
+19:32 < domanic> it seems this might work pretty well because then you can
+                 break out a tab into a window without having to restart it.
+19:32 < pfraze> yes
+19:33 < pfraze> and we could also try out some unconventional WM ideas, if we
+                want
+19:42 < domanic> pfraze, yeah. though really, we want to give other people the
+                 tools to hack on this
+19:43 < pfraze> domanic: that's simple enough, just a matter of exposing RPC
+                APIs
+19:45 < pfraze> domanic: could you explain your response to #5 in more detail?
+20:03 < domanic> pfraze, done
+20:03 < pfraze> domanic: cool, reading
+20:04 < pfraze> hmm
+20:04 < pfraze> ok responding
+20:07 < domanic> pfraze, about head off to catch up with a friend, talk to you
+                 later!
+20:07 < pfraze> domanic: ok, are you going to be back on tonight?
+20:09 < domanic> yeah, should be
+20:09 < pfraze> domanic: ok cool, if doing get back on, send me a suggestion of
+                some work I can do during the day, I'm a bit blocked
+20:09 < pfraze> if you dont*
+20:11 < domanic> ahdinosaur wants api documentation!
+20:11 < pfraze> for sbot?
+20:11 < domanic> yeah
+20:12 < domanic> the api methods, cli too
+20:12 < pfraze> ok, that's a good idea
+20:12 < pfraze> ah yeah, I was thinking about working on the cli a bit
+20:12 < pfraze> since it has no live help
+20:16 -!- domanic [~domanic@101.98.215.54] has quit [Ping timeout: 244 seconds]
+20:42 -!- woah [~woah@75-101-96-71.dsl.static.fusionbroadband.com] has joined
+          #scuttlebutt
+20:52 -!- woah [~woah@75-101-96-71.dsl.static.fusionbroadband.com] has quit []
+21:06 -!- pfraze [~pfraze@4.15.1.155] has quit [Remote host closed the
+          connection]
+22:06 -!- joshbuddy [~josh@wikimedia/Joshbuddy] has quit [Quit: joshbuddy]
+23:10 -!- domanic [~domanic@118.149.168.130] has joined #scuttlebutt
+23:17 -!- domanic [~domanic@118.149.168.130] has quit [Ping timeout: 244
+          seconds]
+23:34 -!- pfraze [~pfraze@99-19-21-63.lightspeed.hstntx.sbcglobal.net] has
+          joined #scuttlebutt
+23:54 -!- pfraze [~pfraze@99-19-21-63.lightspeed.hstntx.sbcglobal.net] has quit
+          [Remote host closed the connection]
+Day changed to 12 Sep 2015
+00:47 -!- pfraze [~pfraze@99-19-21-63.lightspeed.hstntx.sbcglobal.net] has
+          joined #scuttlebutt
+00:55 -!- pfraze [~pfraze@99-19-21-63.lightspeed.hstntx.sbcglobal.net] has quit
+          [Remote host closed the connection]
+01:50 -!- joshbuddy [~josh@wikimedia/Joshbuddy] has joined #scuttlebutt
+02:09 -!- joshbuddy [~josh@wikimedia/Joshbuddy] has quit [Ping timeout: 244
+          seconds]
+02:25 -!- joshbuddy [~josh@wikimedia/Joshbuddy] has joined #scuttlebutt
+03:02 -!- joshbuddy [~josh@wikimedia/Joshbuddy] has quit [Quit: joshbuddy]
+03:07 -!- reqshark [~reqshark@2601:646:c380:1101:878:89bb:7644:8ee9] has joined
+          #scuttlebutt
+03:40 < ahdinosaur> :)
+03:56 -!- pfraze [~pfraze@99-19-21-63.lightspeed.hstntx.sbcglobal.net] has
+          joined #scuttlebutt
+04:00 -!- pfraze [~pfraze@99-19-21-63.lightspeed.hstntx.sbcglobal.net] has quit
+          [Ping timeout: 244 seconds]
+05:04 -!- joshbuddy [~josh@wikimedia/Joshbuddy] has joined #scuttlebutt
+06:37 -!- joshbuddy [~josh@wikimedia/Joshbuddy] has quit [Quit: joshbuddy]
+12:31 -!- pfraze [472904c2@gateway/web/freenode/ip.71.41.4.194] has joined
+          #scuttlebutt
+14:44 -!- Mitar [mitar@common.tnode.com] has quit [Ping timeout: 246 seconds]
+14:50 -!- Mitar [~mitar@common.tnode.com] has joined #scuttlebutt
+14:55 -!- Mitar [~mitar@common.tnode.com] has quit [Ping timeout: 246 seconds]
+15:02 -!- Mitar [mitar@common.tnode.com] has joined #scuttlebutt
+15:30 -!- pfraze [472904c2@gateway/web/freenode/ip.71.41.4.194] has quit [Ping
+          timeout: 246 seconds]
+15:39 -!- joshbuddy [~josh@wikimedia/Joshbuddy] has joined #scuttlebutt
+15:43 -!- joshbuddy [~josh@wikimedia/Joshbuddy] has quit [Client Quit]
+16:38 -!- reqshark [~reqshark@2601:646:c380:1101:878:89bb:7644:8ee9] has quit
+          [Ping timeout: 244 seconds]
+16:39 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has
+          joined #scuttlebutt
+16:41 -!- reqshark [~reqshark@c-50-184-252-121.hsd1.ca.comcast.net] has joined
+          #scuttlebutt
+16:48 -!- joshbuddy [~josh@wikimedia/Joshbuddy] has joined #scuttlebutt
+17:09 -!- domanic [~domanic@101.98.215.54] has joined #scuttlebutt
+17:34 < domanic> mafintosh, yo
+17:34 < mafintosh> domanic: ho
+17:35 < mafintosh> hi
+17:35 < mafintosh> lol
+17:35 < domanic> mafintosh, hey what day is it there
+17:35 < mafintosh> domanic: late saturday
+17:35 < domanic> 9:34 am sunday here
+17:35 < mafintosh> domanic: you're 10 hours ahead of me
+17:36 < domanic> i will be flying on tuesday (your monday) but we can do call
+                 right now
+17:37 < mafintosh> domanic: do you have time in 9-10 hours from now? about to
+                   go to bed
+17:37 < mafintosh> i'm pretty flexible tomorrow
+17:38 < domanic> mafintosh, maybe or i can get up early tomorrow
+17:38 < domanic> probably tomorrow morning will be slightly easier for me
+17:38 < mafintosh> domanic: that also works for me. how about 9am tomorrow your
+                   time?
+17:39 < domanic> mafintosh, yup that would be fine.
+17:39 < mafintosh> thats in 23h 20 mins ish
+17:39 < mafintosh> domanic: perfect - shouldn't take long
+17:41 < domanic> mafintosh, sweet as.
+17:43 < substack> does ssb have any URL protocol scheme or a url scheme for the
+                  http relays?
+17:44 < substack> working on a spec for html versioning and I want to make sure
+                  the basic approach will work for ipfs, webtorrent, and ssb if
+                  possible
+17:44 < pfraze> substack: we're sorta figuring that out right now. domanic,
+                that PR youre doing did the blob: scheme, what are you thinking
+                atm?
+17:45 < pfraze> substack: you got a draft?
+17:45 < domanic> substack, pfraze I don't think this applies to anything we are
+                 working on
+17:46 < domanic> we just have <base64 hashes>.sha256
+17:46 < domanic> that is the content. simple to convert to ipfs hashes
+17:46 < pfraze> well, we have the sigils, and we're probably going to have a
+                scheme
+17:47 < substack> ok that will probably work
+17:48 < substack> and the IDs are the hashes of a public key or the public key
+                  itself?
+17:48 < pfraze> yeah
+17:48 < substack> great
+17:50 < domanic> pfraze,
+https://github.com/ssbc/brickhouse/issues/5#issuecomment-139822100
+17:50 < substack> what do you think about putting an ssb:// protocol prefix in
+                  front of those hashes?
+17:50 < substack> (in some contexts)
+17:50 < domanic> substack, ids are <public key>.ed25519
+17:50 < domanic> substack, sorry, ID = "@<public key>.ed25519"
+17:50 < substack> internally yes, but what about externally?
+17:51 < domanic> substack, we don't have an http interface, except locally to
+                 load blobs.
+17:51 < substack> that's fine
+17:51 < substack> I'm making an application loader using service workers to
+                  intercept different protocols
+17:52 < substack> so ipfs: magnet: etc to distinguish the protocols
+17:52 < pfraze> domanic: in the current brickhouse build, we're using ssb:, do
+                you think there's any problem committing to that?
+17:53 < domanic> pfraze, that is only blobs though. lets just make that
+                 blob:<hash>
+17:53 < domanic> I want to decouple ssb from brickhouse
+17:54 < substack> the main purpose of the protocols for my piece will be to
+                  figure out which piece of code should trigger loading the
+                  resource
+17:56 < pfraze> substack: so yeah it looks like we're going to create a blob:
+                scheme, like domanic describes
+17:56 < pfraze> and we use electron's protocol registration api to route that
+                to an http server
+17:56 < pfraze> so that, blob:<hash> -> http://localhost:7777/<hash>
+17:57 < pfraze> do you need more detail about the blob: scheme format?
+17:58 < substack> I guess blob: just might be slightly ambiguous when
+                  encountered in an arbitrary webapp
+17:58 < pfraze> substack: what are you thinking?
+17:59 < substack> there is already one called blob: in
+                  https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml
+17:59 < pfraze> ah, hmm
+17:59 < pfraze> domanic: what are your thoughts on that
+18:02 < domanic> that is a good point
+18:02 < domanic> pfraze, or maybe it should be brkhs
+18:02 < domanic> pfraze,  brkhs:
+18:02 < pfraze> mmm
+18:03 < pfraze> hash: isnt taken yet
+18:03 < substack> it's probably better to have something less generic
+18:03 < substack> something that will turn up a spec when you put it in a
+                  search engine
+18:04 < pfraze> yeah. I like brick: more than brkhs:
+18:04 < substack> brick: sounds cool
+18:04 < pfraze> domanic: ^
+18:05 < domanic> pfraze, brick: is good
+18:05 < pfraze> ok, format is... <base64-hash>.<algo> ?
+18:05 < domanic> yes
+18:06 < pfraze> ok, substack, you need any more info?
+18:06 < substack> nope, that's it
+18:06 < substack> thanks!
+18:06 < pfraze> cool
+18:06 < substack> it can be whatever you want after the protocol part, just
+                  need a good way to namespace these different loaders
+18:06 < pfraze> yeah
+18:30 < pfraze> domanic: my point about the installer/viewer, only makes sense
+                if we're going to make the review/audit network core
+18:31 < pfraze> if we want to back up a little bit, the installer just needs a
+                way to evaluate bundle security
+18:32 < pfraze> or, I guess, not -- we can just show the changes that will
+                occur and let the user decide
+18:32 < domanic> pfraze, sure. but the audit tools we'll need will be a big
+                 deal. lets of wrok there
+18:32 < pfraze> yeah
+18:33 < pfraze> in the short term we can use the sort of "soft" audit network
+                which exists, which is that youre just installing bundles that
+                friends/orgs publish
+18:46 < domanic> pfraze, we should talk about how a robust audit network would
+                 work, and just make sure we *could* build that
+18:46 < domanic> but just build something really simple that we can use just now
+19:20 -!- domanic [~domanic@101.98.215.54] has quit [Ping timeout: 244 seconds]
+19:53 -!- Mitar [mitar@common.tnode.com] has quit [Ping timeout: 260 seconds]
+19:56 -!- Mitar [mitar@common.tnode.com] has joined #scuttlebutt
+20:37 -!- domanic [~domanic@101.98.215.54] has joined #scuttlebutt
+20:51 < pfraze> domanic: hey check this thing out http://webintents.org/
+20:51 < pfraze> this proposal died on the vine
+21:17 < domanic> pfraze, hey, idea: for easy services we can just use
+                 browser-window with show:false option
+21:18 -!- joshbuddy [~josh@wikimedia/Joshbuddy] has quit [Quit: joshbuddy]
+21:21 < pfraze> domanic: ah yeah, that works, then we get the sandbox still
+21:21 -!- joshbuddy [~josh@wikimedia/Joshbuddy] has joined #scuttlebutt
+21:21 < domanic> yeah, and i think we need to seek focus, and simplicity,
+                 otherwise this browser idea will sprawl out of control
+21:22 < pfraze> yeah
+21:22 < domanic> we need to enable anything but not build it if possible
+21:22 < pfraze> yes that's spot on
+21:25 < pfraze> domanic: really the rpc thing is about runtime extensibility
+                that we can build on
+21:25 < pfraze> it's not *plugins*, but it's a similar spirit
+21:27 < pfraze> and it takes decision-making out of core, which is I think your
+                point earlier about installable apps helping with
+                decision-making
+21:28 < domanic> yes yes yes
+21:29 < domanic> then we have less need to agree on direction before hand, and
+                 can experiment and test
+21:29 < pfraze> yeah
+21:29 < domanic> finding agreement is hard enough with just you and I
+21:30 < pfraze> right
+21:33 < pfraze> even something like intents could be done with named apps and
+                rpc
+21:35 < pfraze> domanic: so will an RPC consumer specify a name?
+21:35 < pfraze> rpc('toaster')
+21:35 < pfraze> and then whatever youve got at toaster, that's what it gets?
+21:36 < pfraze> if we have the consumer specify the manifest, we can use that
+                manifest as the permissions request, right?
+21:37 < pfraze> huh, what if we had the rpc provider describe a permissions
+                request?
+21:37 < domanic> pfraze, yeah i think so. and it would be possible to remap
+                 that, so that it's possible to have multiple toaster apps
+21:37 < pfraze> var mytoaster = rpc('toaster', { setToastLevel: 'async',
+                forcePop: 'async' })
+21:37 < pfraze> you do that, the toaster app gets an event, like...
+21:38 < pfraze> rpc.on('requestAccess', function (perms) { /* perms = {
+                setToastLevel, forcePop } */ })
+21:38 < pfraze> and toaster did something like
+21:39 -!- mdik [~mdik@x4d0c6dd2.dyn.telefonica.de] has joined #scuttlebutt
+21:39 < pfraze> if ('forcePop' in perms) rpc.explain("the consumer wants to
+                control the toaster completely") }
+21:40 < pfraze> hm. may not be worth it
+21:41 < pfraze> but.... we *could* put the access-permission decision in the
+                hands of the provider
+21:43 < pfraze> should rpc permissions be enforced in core, or userland?
+22:20 -!- joshbuddy [~josh@wikimedia/Joshbuddy] has quit [Quit: joshbuddy]
+22:31 < substack> https://ipfs.io/ipfs/QmY1sJAqkxfJ6YbMaFBvs15hsmmbeBTKPe6jyd8GS
+ZMtpP
+22:33 < pfraze> substack: I like this
+22:33 < substack> thanks!
+22:34 < pfraze> htmlbin is probably half way there yeah?
+22:34 < substack> somewhat
+22:34 < substack> I'm going to use this spec to implement the next version of
+                  hyperboot
+22:34 < pfraze> domanic: ^ what do you think of using this
+22:37 < pfraze> substack: is there a way we could put the signature inline,
+                instead of as a link?
+22:37 < pfraze> maybe a data-uri
+22:37 < substack> nope!
+22:37 < pfraze> oh right
+22:37 < pfraze> that'd affect the signature
+22:37 < substack> exactly
+22:37 < substack> a bit unfortunate, but the alternatives are crappy
+22:38 < pfraze> hmmmmmm shoot, yeah
+22:38 < pfraze> I mean, you could append the signature to the end in a <!-- -->
+22:38 < pfraze> and strip that to recompute and check the sig...
+22:39 < substack> that's true
+22:39 < substack> also on github if you want to open a thread about that idea
+                  https://github.com/substack/html-version-spec
+22:39 < pfraze> ok
+22:41 < substack> I'm very open to this idea
+22:41 < substack> because that signature is the only piece of non-inline content
+22:42 < pfraze> yeah
+22:55 < pfraze> substack: do you know, is it possible to inline fonts in HTML?
+23:03 < substack> I'm looking
+23:03 < pfraze> yeah Im not seeing that anywhere
+23:04 < substack> probably possible with data uris
+23:04 < pfraze> yeah
+23:04 < substack> yes it looks possible
+23:08 < pfraze> substack: youre going to need to parse the html with your
+                hyperboot tools to read and update the version info, right?
+23:09 -!- joshbuddy [~josh@wikimedia/Joshbuddy] has joined #scuttlebutt
+23:11 < domanic> substack, pfraze would it be easier to put the signature FIRST
+                 instead of last
+23:11 < pfraze> oh yeah?
+23:14 < substack> pfraze: for publishing, yes
+23:15 < substack> domanic: I'm not sure but if the signature is at the end then
+                  you don't need to buffer the entire html doc into memory
+                  first with a streaming signature implementation
+23:16 < substack> but using crypto_sign_detached() it won't matter
+23:16 < domanic> substack, html docs arn't really that big
+23:16 < substack> with all assets inline
+23:17 < substack> I can imagine some html apps getting very big in the future
+23:17 < substack> unity is hundreds of megabytes of js
+23:29 < domanic> substack, it would be better for the index to include deps by
+                 their hash
+23:30 < domanic> the url would include a hash, encoded in some format
+23:30 < domanic> and the signing service worker would check it did have this
+                 hash, or error.
+23:31 < domanic> then the index.html is the only part that actually needs a
+                 signature, provided that every resource is id'd by hash
+23:31 < domanic> then the index.html could be quite small, and that would make
+                 it easy to update the app.
+23:32 < substack> true
+23:34 < substack> domanic: some of that is built into the browser I learned
+                  recently
+http://www.html5rocks.com/en/tutorials/security/content-security-policy/
+23:36 < substack> <meta http-equiv="Content-Security-Policy"
+                  content="script-src
+                  'sha256-qznLcsROx4GACP2dm0UCKCzCG-HiZ1guq6ZZDob_Tng='">
+23:36 < domanic> substack, oh that is great news!
+23:37 < domanic> how does the script tag specify what the hash should be?
+23:37 < substack> you do that in an http header or a meta tag like I just posted
+23:37 < substack> CSP is a white-list
+23:38 < substack> so a script with the hash of
+                  qznLcsROx4GACP2dm0UCKCzCG-HiZ1guq6ZZDob_Tng= is allowed to be
+                  on the page
+23:38 < substack> and all other scripts are not allowed
+23:38 < substack> you can have multiple allowed scripts of course
+23:39 < domanic> oh, but it's not tied to a particular script. ugly but has
+                 what you need basically
+23:55 < domanic> pfraze, substack this is pretty interesting!
+http://www.psmag.com/books-and-culture/the-merry-pranksters-who-hacked-the-afgha
+n-war-60873
+23:58 -!- reqshark [~reqshark@c-50-184-252-121.hsd1.ca.comcast.net] has quit
+          [Quit: Be back later ...]
+Day changed to 13 Sep 2015
+00:03 < pfraze> domanic: thoughts on rpc-names instead of namesdb?
+00:04 < domanic> in my pr it's apps db
+00:04 < pfraze> ok instead of appsdb
+00:04 < substack> that website isn't loading for me, some requirejs timeout
+00:07 < domanic> pfraze, serviceDB?
+00:07 < domanic> i think apps is fine though
+00:08 < pfraze> domanic: no I dont have a problem with the semantic
+00:08 < pfraze> appsdb maps a name -> app hash
+00:08 < domanic> names is too generic, rpc-names is not specific enough
+00:08 < pfraze> ok well so, the point is to figure out what `rpc(name)` maps to
+                right?
+00:10 < domanic> it's not *just* that
+00:12 < pfraze> it also controls the "install" state... yeah?
+00:12 < pfraze> anything else?
+00:14 < domanic> it points to the apps to load first (eg, home)
+00:15 < pfraze> Im just wondering if itd be simpler to keep an in-memory
+                registry of rpc targets that reflects the active scripts
+00:15 < pfraze> and then a script could export multiple different rpc names
+00:15 < domanic> we need ti to be persistent
+00:16 < domanic> pfraze, do we really want a script to have mulitple apis? it
+                 could just use nested objects
+00:17 < pfraze> domanic: well, my thinking is it might be relevant for common
+                apis that the user wants to have multiple providers for
+00:17 < domanic> for example?
+00:18 < pfraze> mm, rpc('files') for instance
+00:20 < domanic> pfraze, what does the freezeSnapshot do? that saves the
+                 current dev version of the files you are editing?
+00:21 < pfraze> domanic: yep, stores it in multiblob and gives you the hash
+00:42 -!- joshbuddy [~josh@wikimedia/Joshbuddy] has quit [Quit: joshbuddy]
+00:52 < pfraze> domanic: ok Im out for the night, make sure you commit whatever
+                you do today, I think Ive got enough of a picture of the plan
+                to write more code
+00:52 < domanic> cool, i should have the app name pr ready
+00:53 < pfraze> good deal
+01:13 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has
+          quit [Remote host closed the connection]
+01:31 -!- domanic [~domanic@101.98.215.54] has quit [Remote host closed the
+          connection]
+09:12 < substack> https://github.com/substack/html-version-spec/issues/1#issueco
+mment-139873099
+10:51 -!- pfraze [~pfraze@2602:306:30bf:87e0:458f:d4c:576e:554d] has joined
+          #scuttlebutt
+11:34 -!- pfraze [~pfraze@2602:306:30bf:87e0:458f:d4c:576e:554d] has quit
+          [Remote host closed the connection]
+12:23 -!- pfraze [~pfraze@4.15.1.155] has joined #scuttlebutt
+14:11 < substack> https://github.com/w3c/webappsec/issues/449#issuecomment-13990
+0404
+14:12 < pfraze> substack: nice
+14:26 -!- pfraze [~pfraze@4.15.1.155] has quit [Remote host closed the
+          connection]
+14:29 -!- pfraze [~pfraze@4.15.1.155] has joined #scuttlebutt
+15:03 -!- pfraze [~pfraze@4.15.1.155] has quit [Remote host closed the
+          connection]
+15:05 -!- pfraze [~pfraze@4.15.1.155] has joined #scuttlebutt
+15:24 -!- pfraze [~pfraze@4.15.1.155] has quit [Remote host closed the
+          connection]
+16:01 -!- pfraze [~pfraze@cpe-72-177-70-53.austin.res.rr.com] has joined
+          #scuttlebutt
+17:10 -!- domanic [~domanic@101.98.215.54] has joined #scuttlebutt
+17:10 < domanic> mafintosh, hey sorry i slept in
+17:11 < mafintosh> domanic: no worries
+17:11 < domanic> mafintosh, just give me 5 minutes
+17:11 < mafintosh> domanic: no rush - just trying to find some good new sci fi
+                   books to read
+17:13 < domanic> mafintosh, actually make that 10 gonna go get a pie
+17:15 < pfraze> mafintosh: you ever read any atwood?
+17:15 < mafintosh> pfraze: no i don't think so. reading books is a pretty new
+                   thing for me
+17:16 < pfraze> mafintosh: yeah I dont do it as much as I used to. I really
+                liked Oryx and Crake, though, and HBO is making it a series
+17:16 < pfraze> so if you like reading things before watching them, there you go
+17:18 < mafintosh> pfraze: thanks! that one looks interesting
+17:18 < mafintosh> gonna give it a shot
+17:18 < pfraze> mafintosh: cool :)
+17:23 < domanic> mafintosh, back
+17:24 < mafintosh> domanic: cool. gonna make a hangout
+17:26 < mafintosh> domanic:
+https://talkgadget.google.com/hangouts/_/fo3nnjkffiyrqbv6cca7xw7ui4a
+17:28 -!- pfraze [~pfraze@cpe-72-177-70-53.austin.res.rr.com] has quit [Remote
+          host closed the connection]
+17:32 -!- pfraze [~pfraze@cpe-72-177-70-53.austin.res.rr.com] has joined
+          #scuttlebutt
+17:32 < pfraze> domanic: mafintosh: ah sorry there
+17:54 -!- reqshark [~reqshark@c-50-184-252-121.hsd1.ca.comcast.net] has joined
+          #scuttlebutt
+18:12 < pfraze> domanic: hey your travel plans in stone?
+18:12 < domanic> pfraze, oh yeah, tickets are confirmed now
+18:12 < pfraze> domanic: ok, when/where should I meet you?
+18:13 < domanic> I'll be in oakland oct12th-nov9
+18:13 < domanic> although, that was longer than i had thought though
+18:13 < pfraze> yeah that's pretty long
+18:13 < pfraze> who are you crashing with?
+18:17 < domanic> pfraze, I'm gonna stay with substack
+18:17 < domanic> I might go for a walkabout at the end of that trip though, I
+                 had thought it was gonna be 3 weeks, with more time in portland
+18:17 < mafintosh> thanks for the feedback - i'll ping you both when i have the
+                   next iteration ready
+18:17 < pfraze> mafintosh: +1
+18:18 < domanic> but somehow when the flights arrived they where not quite the
+                 same. anyway, no matter.
+18:18 < mafintosh> then we can try streaming stuff over the internet \o/
+18:18 < pfraze> domanic: yeah, what dates should I aim for?
+18:18 < domanic> pfraze, go for the start of that range
+18:18 < domanic> oh yeah, there will be a bunch of enspiral people in town at
+                 the 12th
+18:19 < domanic> total coincidence!
+18:19 < domanic> but given they are very enthusiastic about ssb they would be
+                 good for you to meet
+18:20 < pfraze> nice, yeah
+18:23 < domanic> pfraze, in muxrpccli you have the usage command
+18:23 < pfraze> domanic: yeah
+18:23 < domanic> which gives usage per cmd... but would it be easier to just a
+                 {cmd: string} structure?
+18:24 < pfraze> that'd probably work too
+18:25 < domanic> at least, it should automatically combine the lines instead of
+                 requiring the sender to write the code that sends all the
+                 usuage
+18:25 < domanic> because we'll be lazy about that.
+18:25 < pfraze> domanic: v
+18:25 < pfraze> lol
+18:25 < pfraze> https://github.com/ssbc/scuttlebot/pull/234
+18:26 < pfraze> it looks like the usage.js I have in there is going to be
+                pretty common
+18:27 < domanic> we already have much of the information in the usage because
+                 of the manifest
+18:27 < domanic> we just need the descriptions
+18:27 < pfraze> the issue is just where that info comes from, right?
+18:27 < domanic> yeah, and can we write less code
+18:28 < pfraze> yeah, the app needs to provide the descriptions somewhere
+18:28 < pfraze> like, manifests are symmetrically maintained, probably - both
+                rpc client and server have a copy
+18:28 < pfraze> they have been so far
+18:29 < domanic> pfraze, idea: since it's hard to write text in JSON
+18:29 < domanic> what if the manifest are in markdown
+18:29 < domanic> ## command
+18:29 < domanic> explainations....
+18:29 < pfraze> humm
+18:29 < domanic> ## next commend
+18:29 < domanic> etc
+18:29 < pfraze> basically theyre parseable docs
+18:29 < pfraze> I think that's a good idea. We might also look at yaml
+18:30 < pfraze> yaml is very markdown-like, but has clear parsing rules
+18:30 < domanic> yeah. although yaml is actually a massive spec
+18:30 < pfraze> that's true
+18:30 < domanic> (json is a valid subset)
+18:30 < pfraze> heh
+18:30 < domanic> although this is good: https://www.npmjs.com/package/yamlish
+18:31 < domanic> it's just a subset that maps to json
+18:31 < pfraze> that's basically what we need
+18:31 < pfraze> we can expand on the subset a bit
+18:32 < domanic> it would be good to write the document as readable text
+18:32 < domanic> which is why i suggest markdown
+18:32 < domanic> could be:
+18:32 < domanic> # api name
+18:32 < pfraze> yeah, markdown could be regular enough for us
+18:32 < domanic> short api description (first line)
+18:32 < domanic> details....
+18:32 < pfraze> actually I think this is a very good idea
+18:32 < domanic> ## command name
+18:32 < domanic> short description (first line)
+18:33 < domanic> rest of details for command name...
+18:33 < domanic> markdown already has nesting # ## ### #### etc
+18:33 < pfraze> domanic: hey we should also look at how that BEP exchange works
+18:33 < pfraze> at some point, we're going to need to manage compatibility
+                between apps
+18:34 < pfraze> http://www.bittorrent.org/beps/bep_0010.html
+18:34 -!- Netsplit *.net <-> *.split quits: mikolalysenko
+18:35 < pfraze> domanic: I have to go babysit my nieces
+18:35 < pfraze> so I'll be back on... no later than 3 hours from now
+18:35 < domanic> pfraze, muxrpc already handles that more or less
+18:35 < pfraze> domanic: I guess the notfound event
+18:36 < pfraze> error*
+18:36 < pfraze> ok bbl
+18:37 -!- pfraze [~pfraze@cpe-72-177-70-53.austin.res.rr.com] has quit [Remote
+          host closed the connection]
+18:51 < mafintosh> domanic this is the hashing scheme btw used in the streaming
+                   atm, https://gist.github.com/mafintosh/7e8bdde9a51ec6dfd2ab
+                   (forgot to mention that)
+18:52 < domanic> mafintosh, that is the hash for a leaf?
+18:53 < mafintosh> domanic: yea (numeric index is the block index, 1, 2, 3, ...)
+18:53 < mafintosh> i mean 0, 2, 4, 6 ofcourse
+18:53 < mafintosh> since the even numbers are the leaves
+18:56 < mafintosh> domanic: not sure if its needed to have the numeric index in
+                   there
+18:57 < domanic> hmm... i'm not sure if this is the best way
+18:57 < domanic> what about leaf = (sig, seq, hash(previous_hashes....),
+                 hash(data_block))
+18:58 < domanic> sig signs the rest of the object it's in.
+18:58 < domanic> this also means it's always a fixed size
+18:58 < mafintosh> domanic: is that important for hash input?
+18:59 < domanic> it just makes the protocol simpler, and does remove possible
+                 security holes, that can arise from sending an unexpected
+                 amount of data
+19:00 < domanic> it means you can manage memory better, because you can
+                 preallocate n*block_size and you can keep them in flat arrays
+                 etc
+19:01 < domanic> mafintosh, i don't quite understand the thing in your gist. is
+                 this what i get when I ask for a block's hash? is this what
+                 gets signed?
+19:03 < mafintosh> domanic: its the leaf hash currently
+19:03 < mafintosh> domanic: and that gets signed as well
+19:06 < domanic> mafintosh, so the leaf hash contains all the preceding hashes
+                 in it's tree?
+19:06 < mafintosh> domanic: the previous roots needed to verify the entire
+                   previous tree yea
+19:08 < domanic> hmm, so if they are included like this, do you need to request
+                 them too?
+19:10 < mafintosh> domanic: yea i do that as well
+19:10 < mafintosh> if you don't have them already
+19:10 < domanic> right, but if you have this block then you'll ready have them,
+                 obviously
+19:11 < domanic> it also means that these hashes are duplicated in each block
+                 that depends on them.
+19:13 < mafintosh> domanic: hmm how else would you do it?
+19:13 < mafintosh> not sure we're talking about the same thing :)
+19:14 < domanic> not sure either
+             you for letting me know!
+Day changed to 07 Sep 2015
+00:37 -!- mk30 [~mk30@142-254-26-9.dsl.static.fusionbroadband.com] has quit
+20:38 <substack> https://ipfs.io/ipfs/QmNhFJjGcMPqpuYfxL62VVB9528NXqDNMFXiqN5bgF
+YiZ1/its-time-for-the-permanent-web.html
+20:39 <substack> I just had a revelation about how ipfs can fit into the web
+                 publishing picture
+20:39 <substack> or bittorrent under bep44 for that matter, or ordinary http to
+                 some degree
+20:42 <substack> a webapp 1) uses service workers to verify content it has
+                 already received and verified 2) contains the list of all
+                 known versions 3) contains a url (http, ipfs, or magnet) to a
+                 document that is the hash of the new version
+Day changed to 09 Sep 2015
+20:14 <jjjohnny> http is dead!
+20:16 <jjjohnny> makes me wonder if a new browser isn't in order
+20:17 <jjjohnny> and then we make simple content shims for old world http based
+                 browsers
+Day changed to 10 Sep 2015
+Day changed to 11 Sep 2015
+17:39 <jjjohnny> the real question is, what will uploading a file look like
+17:52 <substack> somecommand < yourfile.html
+Day changed to 12 Sep 2015
+Day changed to 13 Sep 2015
+19:49 <jjjohnny> whcich keyboot
+19:49 <jjjohnny> err
+19:49 <jjjohnny> which keyboot
+19:50 <jjjohnny> the app systems needs two key things
+19:50 <jjjohnny> https for pay, and an identy wallet
+ ~substack@104.131.0.235 (freenode)
+19:52 <jjjohnny> the new folkstack site is gonna use keyboot
+19:53 <jjjohnny> needs to show private keys on request
+19:53 <jjjohnny> and have optional passphrase encryption
+19:54 <jjjohnny> long pass phrases
+19:54 <jjjohnny> your favorite lyric, stanza, theorem or some shit
+19:55 <jjjohnny> but passphrase encryption is a must, as is showing / exporting
+                 the private key
+19:55 <jjjohnny> that way I can move my identity from device to device
+19:55 <jjjohnny> download a qr file
+19:56 <jjjohnny> we're gonna distribute free media on our tours, with callbacks
+                 to our web
+19:57 <jjjohnny> qr codes for content, links to various donation platforma,
+                 bitcoin of course
+19:59 <jjjohnny> movement starting
+19:59 <jjjohnny> inertial breakthru detected
+19:59 <jjjohnny> we could make our llaser etched qr code ids for da web
+20:00 <jjjohnny> http://www.offlinewallets.com/images/bitcoin-wood-wallet.jpg
+20:18 <jjjohnny> also, export keyboot identity to a CLI module...
+20:18 <jjjohnny> which see which keyboot
+20:24 <jjjohnny> prototyping browser apps on the CLI will be sweet
+20:25 <jjjohnny> the dream of normalization will have become reality
+ [20:31] [jjjohnny(+i)] [8:freenode/s [Act: 3,4,5,6,12,13,15,16,18,19,20,21,22]
+[substack]

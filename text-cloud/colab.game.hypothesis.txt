@@ -1,0 +1,1047 @@
+              think it's a similar line of thought to why slur wouldn't work
+19:16 < woah> with a reputation system you have something that works better
+              for someone selling lots of data of the same kind
+19:16 < woah> sort of blackmail the entire population at once
+19:16 < woah> scary
+19:17 < woah> gonna happen, then we'll learn to encrypt
+19:17 < nathan7> woah: SR seller accounts cost money
+19:17 < woah> oh i didn't know that
+19:17 < domanic> hmm
+19:17 < nathan7> They're fairly expensive.
+19:18 < woah> but well worth it! :P
+19:18 < nathan7> It's simply not profitable to rip off a few people and get
+                 banned.
+19:18 < domanic> so that the owner of a secret can pay to suppress it is
+                 probably dubious
+19:18 < nathan7> Their supply is also limited.
+19:18 < nathan7> domanic: information is not movable, it is copyable
+19:18 < nathan7> to put it in Rust terms
+19:19 < domanic> exactly
+19:19 < woah> so, you think people would just give up hope of suppresing it?
+19:19 < domanic> so like once you make an add for a zero day exploit
+19:20 < domanic> either the ad is completely vague
+19:20 < domanic> or it gives enough clues for other people to find it
+19:21 < domanic> maybe this could work if you changed some things about it -
+                 like made it more like a prediction market (still have
+                 difficult problems in arbitration)
+19:21 < nathan7> selling ownership of information is silly
+19:22 < nathan7> that only *kind of* works when enforced with courts and a
+              lack of clientside encryption
+18:27 < nathan7> hm
+18:27 < woah> highly publisized leaks of social media and messaging databases
+              would be harmful in the short term, but beneficial in the long
+              term
+18:27 < woah> whereas if it never happens, the government can go on being
+              omicient as long as they are not too blatant
+18:27  * nathan7 will read this stuff when they're feeling better
+18:28 < nathan7> rn my stomach hates me and my brain is jelly
+18:47 < woah> oh man
+18:47 < woah> i'm sorry to hear that nathan7
+18:47 < woah> get well soon
+18:56 < domanic> haha interesting
+18:56 < domanic> I doubt that this slur thing will work though
+18:57 < nathan7> I doubt it. I hope it doesn't.
+18:57 < domanic> selling secrets on a open market place doesn't even make sense
+18:57 < domanic> it much more valuable to sell secrets secretly - if that is
+                 your thing
+18:58 < domanic> otherwise one morning nathan7 wakes up and sees someone
+                 selling "all nathan7's passwords"
+18:58 < domanic> but instead of just buying your own secrets back, you just
+                 change all your passwords
+18:58 < domanic> etc etc
+18:59 < domanic> Also I bet the arbitration system would be vulunerable to
+                 attack
+19:01 < nathan7> yeah, very much so
+19:01 < nathan7> domanic: also, I'd just sell fake sets of my passwords
+19:01 < nathan7> domanic: that would, in fact, be a sensible thing to do
+19:02 < nathan7> domanic: it would ruin the credibility of anyone else
+                 purporting to sell my passwords
+19:02 < nathan7> domanic: and at worst, I get paid for misinformation
+19:02 < domanic> nathan7, yeah just spam it with everything
+19:02 < nathan7> domanic: it's even usable as plausible deniability system
+19:02 < nathan7> domanic: "no, that password was stolen and sold!"
+19:02 < domanic> that is when the arbitration comes into play I guess
+19:02 < nathan7> domanic: "here, check these archive.org pages, that stuff was
+                 for sale!"
+19:03 < nathan7> domanic: "I can't possibly be held culpable for this, it
+                 could've been anyone!"
+19:03 < domanic> then they are gonna be like "hey these weren't really
+                 nathan7's passwords!"
+19:03 < domanic> and the seller is like "they where when I sold them"
+19:04 < domanic> and they refund the sale I guess
+19:04 < domanic> but then you get all this nonsense sales
+19:04 < domanic> and so you have to add a collatoral
+19:04 < nathan7> like, everyone gets fucked with
+19:04 < domanic> sellers have to backup their sale with a security deposit
+19:04 < woah>  is there data that is indepnedently verifiable, and can't be
+              changed like passwords?
+19:04 < nathan7> nobody gains anything
+19:04 < domanic> and then you just attack that via the arbitration system
+19:05 < domanic> woah, I guess there sometimes is
+19:05 < domanic> but it would depend on pervasive digital signatures
+19:06 < domanic> like, suppose someone is planning a bank robbery - and you
+                 sell the powerpoint presentation they used to show the plan
+                 to rest of the gang
+19:06 < domanic> maybe you could sell this to the bank?
+19:07 < woah> might be safer to do that than actually rob the plac
+19:07 < domanic> haha yeah
+19:07 < domanic> so everyone starts doing that
+19:08 < domanic> and bank robbery plans become like nigerian spam
+19:08 < domanic> what about selling hacked nude selfies?
+19:09 < domanic> also, easily photoshoppable
+19:09 < domanic> even if you used a body double to create an original material
+                 that then then put celebrities faces on to
+19:10 < woah> mm
+19:10 < woah> what about selling text messages
+19:10 < domanic> woah, like email dumps?
+19:11 < woah> for 10 btc you can get bob's texts from the last year
+19:11 < woah> maybe they're offering the texts of 1000's of people
+19:12 < woah> would be prohibitively difficult to fake that
+19:12 < domanic> right - this goes back to what nathan7 suggested
+19:12 < woah> drug markets don't work in theory either
+19:12 < domanic> okay so what makes those work is a reputation system
+19:12 < woah> can be easily verified by seeing if it includes a text that you
+              had sent bob
+19:12 < woah> then you post a review or whatever
+19:14 < domanic> woah, what is the theory underwhich silkroad etc do not work?
+19:14 < woah> idunno, that's kind of a generalization, but i can see people
+              sitting around talking about how sellers would just rip people
+              off cause its anonymous
+19:15 < woah> now that they exist it's taken for granted that they work, but i
+              think it's a similar line of thought to why slur wouldn't work
+19:16 < woah> with a reputation system you have something that works better
+              for someone selling lots of data of the same kind
+19:16 < woah> sort of blackmail the entire population at once
+19:16 < woah> scary
+19:17 < woah> gonna happen, then we'll learn to encrypt
+19:17 < nathan7> woah: SR seller accounts cost money
+19:17 < woah> oh i didn't know that
+19:17 < domanic> hmm
+19:17 < nathan7> They're fairly expensive.
+19:18 < woah> but well worth it! :P
+19:18 < nathan7> It's simply not profitable to rip off a few people and get
+                 banned.
+19:18 < domanic> so that the owner of a secret can pay to suppress it is
+                 probably dubious
+19:18 < nathan7> Their supply is also limited.
+19:18 < nathan7> domanic: information is not movable, it is copyable
+19:18 < nathan7> to put it in Rust terms
+19:19 < domanic> exactly
+19:19 < woah> so, you think people would just give up hope of suppresing it?
+19:19 < domanic> so like once you make an add for a zero day exploit
+19:20 < domanic> either the ad is completely vague
+19:20 < domanic> or it gives enough clues for other people to find it
+19:21 < domanic> maybe this could work if you changed some things about it -
+                 like made it more like a prediction market (still have
+                 difficult problems in arbitration)
+19:21 < nathan7> selling ownership of information is silly
+19:22 < nathan7> that only *kind of* works when enforced with courts and a
+                 monopoly of violence
+19:22 < domanic> yeah you can only own something if you can withhold it
+19:22 < nathan7> yeah
+19:22 < nathan7> suppressing information requires violence
+19:22 < domanic> but you could incentivise say, the solution to a problem
+19:23 < nathan7> sure
+19:23 < domanic> which could be finding a zero day in given piece of software
+19:23 < nathan7> but then you have an underground crowdfunding system
+19:23 < nathan7> and you can have consensus about whether that software is
+                 sufficiently pwnt that they should receive the bounty
+19:23 < domanic> which could be verified, and fixed, and then the finder paid
+                 out to incentivise more security research
+19:24 < domanic> this would be more of a wanted-ad than a auction
+19:24 < domanic> it's just crowd funded bug bounties
+19:25 < domanic> but the big question mark here is the verification system
+19:26 < domanic> to verify that it really was a zero day
+19:32 < woah> yea
+19:41 -!- woah [~woah@95.91.228.233] has quit [Quit: My MacBook Pro has gone
+          to sleep. ZZZzzz&]
+20:03 -!- williamcotton [~williamco@c-76-118-150-177.hsd1.nh.comcast.net] has
+          quit [Ping timeout: 240 seconds]
+20:13 < jjjohnny_> the slur people specifically pointed at psychopaths inside
+                   organizations
+20:13 < jjjohnny_> curisouly
+20:15 < jjjohnny_> which is kind of really real
+20:15 < jjjohnny_> disgruntled employees
+20:15 < domanic> substack, is this useful: http://turfjs.org/ modular gis
+                 apparently
+20:15 < jjjohnny_> you know how many people will do stupid shit if they thing
+                   they get away with it, and there is some financial gain?
+20:17 < jjjohnny_> january is special film month on kickstarter
+20:19 < jjjohnny_> domanic: i piqued mikeal's interest in a certain film
+                   production.
+20:19 < jjjohnny_> substack: ^
+20:20 < jjjohnny_> you twos ought to stoke it some
+20:21 < domanic> jjjohnny_, hahaha
+20:22 < jjjohnny_> just tell him you want it to happen
+20:22 < jjjohnny_> and you vouchsafe johnny direct it
+20:23 < jjjohnny_> and then we'll raise money, pay ourselves to live and write
+                   code, and advertise the scuttlebobsquarepants social
+                   network
+20:23 < jjjohnny_> THIS FILM SPONSORED BY OPEN SOURCE SOFTWARE BITCHES
+20:23 -!- woah [~woah@95.91.228.233] has joined #scuttlebutt
+20:25 < jjjohnny_> we'll ride the sony bullshit wave
+20:26 < jjjohnny_> ps new name for the new name
+20:26 < jjjohnny_> passiton
+20:32  * jjjohnny_ writes ssb product placement copy into script
+20:38 < jjjohnny_> domanic: have you tried combing your hair?  good times.
+20:38 < jjjohnny_> i rly like combing my hair now
+20:38 < domanic> jjjohnny_, haha not really
+20:39 < jjjohnny_> yeah I did not know the wonders either
+20:39 < jjjohnny_> my hairdo game is on a another level
+20:39 < domanic> I have dabbled in hair combing but I always loose small items
+                 like that, there must be holes in my backpack
+20:41 < jjjohnny_> domanic: that's cuz you haven't made your own comb yet
+20:41 < jjjohnny_> go big anyway, big teeth, big spaces
+20:41 < jjjohnny_> this is true scuttlebutting
+20:42 < domanic> jjjohnny_, wood? lazer cut or 3d printed?
+20:44 < jjjohnny_> oh wood for sure if you can hack it
+20:45 < jjjohnny_> bones have historically made decent combs
+20:46 < jjjohnny_> i think the only other important factor is the fineness of
+                   the point of each tooth.
+20:50 < jjjohnny_> round, not pointy
+20:52 < nathan7> combing hair is an excellent waste of hair
+20:52 < nathan7> er
+20:52 < nathan7> time
+20:52 < domanic> jjjohnny_, oh so you are saying I should make by own comb and
+                 then i'd be more careful with it?
+20:52 < nathan7> domanic: yes, like bicycles
+20:53 < woah> some sort of retractable bungie
+20:53 < domanic> hahaha you might be surprised
+20:53 < nathan7> pthreads is *weird*
+20:53 < woah> what do you guys usually use for long stack traces?
+20:54 < nathan7> gdb!
+20:55 < nathan7> shtylman's thing, in node
+20:55 < nathan7> https://www.npmjs.com/package/superstack
+20:56 < woah> cool thx
+21:00 < domanic> woah, you might also like my explain-error which allows you
+                 to put a explaination whereever you rethrow/cb errors
+21:01 < woah> cool, looks useful
+21:01 < nathan7> customers who bought this also bought&
+21:01 < nathan7> okay sleepytime, it's 3AM
+21:01 < nathan7> and I gotta CCC tomorrow
+21:01 < nathan7> \o
+21:02 -!- williamcotton [~williamco@c-76-118-150-177.hsd1.nh.comcast.net] has
+          joined #scuttlebutt
+21:13 -!- woah [~woah@95.91.228.233] has quit [Quit: My MacBook Pro has gone
+          to sleep. ZZZzzz&]
+21:28 -!- williamcotton [~williamco@c-76-118-150-177.hsd1.nh.comcast.net] has
+          quit [Ping timeout: 258 seconds]
+21:33 -!- jbenet_ [sid17552@gateway/web/irccloud.com/x-ixasvsdkjdykmwqd] has
+          joined #scuttlebutt
+21:49 -!- Netsplit *.net <-> *.split quits: jbenet
+21:50 < substack> domanic: it's not too useful
+21:51 < substack> in terms of modular GIS, just use static-kdtree to do
+                  nearest neighbor searches
+21:51 -!- jbenet_ is now known as jbenet
+21:51 < domanic> substack, okay cool
+21:52 < substack> and https://www.npmjs.com/package/geodetic-to-ecef
+21:52 < substack> what we really need is a compact, well-specified binary
+                  format for spatial indexes
+21:52 < substack> and tools that can traverse them on disk or over bittorrent,
+                  etc
+21:53 < substack> spatial indexes are the same category of problem as
+                  multidimensional database range queries
+21:53 < substack> select * from employees where age > 30 and salary < 3000
+21:54 < substack> or with even more dimensions
+21:55 < domanic> substack, but we have a way to index it into one dimention
+                 though, right?
+21:55 < substack> yes
+21:55  * jjjohnny_ fractals
+21:55 < substack> 1 dimension is just binary search
+21:55 < substack> and you can use B trees for it
+21:56 < domanic> if age and salary where correlated then you could use a
+                 spatial index thing too
+21:56 < substack> they can be independent
+21:57 < substack> with a kdb or bkd tree you end up with implied clustering
+                  and O(lg n) reads
+21:57 < substack> with bkd trees you even get amortized O(lg n) inserts
+21:57 < domanic> right so we can think of them as a 2d space
+21:57 < domanic> like a map
+21:57 < substack> but bkd trees are very tricky, currently still trying to
+                  make an implementation
+21:58 < substack> r-trees can only get O(n) inserts, but they are easier to
+                  implement and much more popular
+22:09 -!- omni [~omni@75.101.96.71] has joined #scuttlebutt
+22:10 -!- omni is now known as Guest55861
+22:35 < jjjohnny_> what if the tree is the index
+22:37 < jjjohnny_> and you nosql that shit
+22:38 < jjjohnny_> and every insert is a content addressable beotch
+22:38 < jjjohnny_> with n dimensional comments trees
+22:40 < jjjohnny_> then we can all talk about it
+22:41 < jjjohnny_> and this implentation of this index is itself one these
+                   indexes
+22:42 < jjjohnny_> you know where comments go
+22:42  * jjjohnny_ points down below
+22:48 -!- domanic [~domanic@118.82.172.47] has quit [Ping timeout: 240 seconds]
+23:14 -!- domanic [~domanic@118.82.172.47] has joined #scuttlebutt
+23:22 -!- domanic [~domanic@118.82.172.47] has quit [Ping timeout: 252 seconds]
+23:31 -!- domanic [~domanic@118.82.172.47] has joined #scuttlebutt
+Day changed to 26 Dec 2014
+01:13 < substack> domanic: does ssb handle the problem of not knowing which
+                  key to encrypt with?
+01:13 < substack> if each of your devices has a separate key
+01:13 < substack> and somebody wants to send you a message
+01:13 < substack> how do they know which key they should encrypt with?
+01:14 < substack> perhaps a passphrase can be generated and encrypted with
+                  each key one by one and then the rest of the message is
+                  encrypted with a symmetric cipher
+01:20 < domanic> substack, we havn't solved that problem yet
+01:20 < domanic> we don't have any end to end encryption yet
+01:21 < substack> this is similar to
+                  https://www.npmjs.com/package/hybrid-rsa-stream
+01:21 < substack> except that there could be N asymmetric ciphertext blocks
+01:21 < domanic> yes, correct
+01:22 < domanic> we have talked about a way to say "X is also my device"
+01:22 < domanic> and when you follow Y you also follow X
+01:24 < domanic> by the way, you clone
+                 https://github.com/dominictarr/scuttlebot and checkout the
+                 gossip branch you can follow the instructions in the readme
+                 to make my server follow you
+04:23 < domanic> wow just watched movie about this:
+                 http://en.wikipedia.org/wiki/Christmas_truce
+04:23 < domanic> very interesting from game theory perspective
+04:24 < domanic> it's very interesting that cooperation spontaniously arose
+                 BETWEEN warring sides
+04:25 < domanic> but also, there is a second game going on for the soldiers of
+                 each side
+04:25 < domanic> basically, they are trapped in a loosing coordination game.
+                 war is over if you want it.
+04:25 < domanic> but if one person defects they get the firing squad
+04:26 < domanic> if all the soliders refused to fight, then there couldn't be
+                 a war, or even an army
+04:27 < domanic> but there is some game here - which as far as I know has not
+                 been defined - that explains building a coearsive heirachical
+                 structure such as an army
+04:43 < domanic> hmm... to coordinate the truce, all the soliders need to
+                 disobey orders at the same time
+04:44 < domanic> but someone needs to suggest this or there needs to be some
+                 call
+04:45 < domanic> so the authority just punishes the first to speak up (the
+                 trouble maker)... as a consequence everyone is to scared to
+                 do anything but follow orders
+04:45 < domanic> so the question: how do we model this?
+04:46 < domanic> modeling the truce forming thing is probably not the right
+                 starting point
+04:46 < domanic> but how does the first army form?
+04:58 -!- domanic [~domanic@118.82.172.47] has quit [Ping timeout: 244 seconds]
+05:12 -!- domanic [~domanic@118.82.172.47] has joined #scuttlebutt
+05:48 < yuvadm> similar to how forming a workers union goes
+05:48 < yuvadm> i'd model this as a cumulative probability function
+05:48 < yuvadm> 100% of soldiers/workers uniting is 100% success
+05:49 < yuvadm> but perhaps only N/10 actors is good enough to get 50% success?
+05:50 < yuvadm> or, say, in north korea even N/2 actors is still 2% success
+06:05 -!- domanic [~domanic@118.82.172.47] has quit [Ping timeout: 244 seconds]
+10:18 -!- woah [~woah@95.91.229.110] has joined #scuttlebutt
+10:28 -!- williamcotton [~williamco@c-76-118-150-177.hsd1.nh.comcast.net] has
+04:58 -!- domanic [~domanic@118.82.172.47] has quit [Ping timeout: 244 seconds]
+05:12 -!- domanic [~domanic@118.82.172.47] has joined #scuttlebutt
+05:48 < yuvadm> similar to how forming a workers union goes
+05:48 < yuvadm> i'd model this as a cumulative probability function
+05:48 < yuvadm> 100% of soldiers/workers uniting is 100% success
+05:49 < yuvadm> but perhaps only N/10 actors is good enough to get 50% success?
+05:50 < yuvadm> or, say, in north korea even N/2 actors is still 2% success
+06:05 -!- domanic [~domanic@118.82.172.47] has quit [Ping timeout: 244 seconds]
+10:18 -!- woah [~woah@95.91.229.110] has joined #scuttlebutt
+10:28 -!- williamcotton [~williamco@c-76-118-150-177.hsd1.nh.comcast.net] has
+21:51 < domanic> substack, okay cool
+21:52 < substack> and https://www.npmjs.com/package/geodetic-to-ecef
+21:52 < substack> what we really need is a compact, well-specified binary
+                  format for spatial indexes
+21:52 < substack> and tools that can traverse them on disk or over bittorrent,
+                  etc
+21:53 < substack> spatial indexes are the same category of problem as
+                  multidimensional database range queries
+21:53 < substack> select * from employees where age > 30 and salary < 3000
+21:54 < substack> or with even more dimensions
+21:55 < domanic> substack, but we have a way to index it into one dimention
+                 though, right?
+21:55 < substack> yes
+21:55  * jjjohnny_ fractals
+21:55 < substack> 1 dimension is just binary search
+21:55 < substack> and you can use B trees for it
+21:56 < domanic> if age and salary where correlated then you could use a
+                 spatial index thing too
+21:56 < substack> they can be independent
+21:57 < substack> with a kdb or bkd tree you end up with implied clustering
+                  and O(lg n) reads
+21:57 < substack> with bkd trees you even get amortized O(lg n) inserts
+21:57 < domanic> right so we can think of them as a 2d space
+21:57 < domanic> like a map
+21:57 < substack> but bkd trees are very tricky, currently still trying to
+                  make an implementation
+21:58 < substack> r-trees can only get O(n) inserts, but they are easier to
+                  implement and much more popular
+22:09 -!- omni [~omni@75.101.96.71] has joined #scuttlebutt
+22:10 -!- omni is now known as Guest55861
+22:35 < jjjohnny_> what if the tree is the index
+22:37 < jjjohnny_> and you nosql that shit
+22:38 < jjjohnny_> and every insert is a content addressable beotch
+22:38 < jjjohnny_> with n dimensional comments trees
+22:40 < jjjohnny_> then we can all talk about it
+22:41 < jjjohnny_> and this implentation of this index is itself one these
+                   indexes
+22:42 < jjjohnny_> you know where comments go
+22:42  * jjjohnny_ points down below
+22:48 -!- domanic [~domanic@118.82.172.47] has quit [Ping timeout: 240 seconds]
+23:14 -!- domanic [~domanic@118.82.172.47] has joined #scuttlebutt
+23:22 -!- domanic [~domanic@118.82.172.47] has quit [Ping timeout: 252 seconds]
+23:31 -!- domanic [~domanic@118.82.172.47] has joined #scuttlebutt
+Day changed to 26 Dec 2014
+01:13 < substack> domanic: does ssb handle the problem of not knowing which
+                  key to encrypt with?
+01:13 < substack> if each of your devices has a separate key
+01:13 < substack> and somebody wants to send you a message
+01:13 < substack> how do they know which key they should encrypt with?
+01:14 < substack> perhaps a passphrase can be generated and encrypted with
+                  each key one by one and then the rest of the message is
+                  encrypted with a symmetric cipher
+01:20 < domanic> substack, we havn't solved that problem yet
+01:20 < domanic> we don't have any end to end encryption yet
+01:21 < substack> this is similar to
+                  https://www.npmjs.com/package/hybrid-rsa-stream
+01:21 < substack> except that there could be N asymmetric ciphertext blocks
+01:21 < domanic> yes, correct
+01:22 < domanic> we have talked about a way to say "X is also my device"
+01:22 < domanic> and when you follow Y you also follow X
+01:24 < domanic> by the way, you clone
+                 https://github.com/dominictarr/scuttlebot and checkout the
+                 gossip branch you can follow the instructions in the readme
+                 to make my server follow you
+04:23 < domanic> wow just watched movie about this:
+                 http://en.wikipedia.org/wiki/Christmas_truce
+04:23 < domanic> very interesting from game theory perspective
+04:24 < domanic> it's very interesting that cooperation spontaniously arose
+                 BETWEEN warring sides
+04:25 < domanic> but also, there is a second game going on for the soldiers of
+                 each side
+04:25 < domanic> basically, they are trapped in a loosing coordination game.
+                 war is over if you want it.
+04:25 < domanic> but if one person defects they get the firing squad
+04:26 < domanic> if all the soliders refused to fight, then there couldn't be
+                 a war, or even an army
+04:27 < domanic> but there is some game here - which as far as I know has not
+                 been defined - that explains building a coearsive heirachical
+                 structure such as an army
+04:43 < domanic> hmm... to coordinate the truce, all the soliders need to
+                 disobey orders at the same time
+04:44 < domanic> but someone needs to suggest this or there needs to be some
+                 call
+04:45 < domanic> so the authority just punishes the first to speak up (the
+                 trouble maker)... as a consequence everyone is to scared to
+                 do anything but follow orders
+04:45 < domanic> so the question: how do we model this?
+04:46 < domanic> modeling the truce forming thing is probably not the right
+                 starting point
+04:46 < domanic> but how does the first army form?
+04:58 -!- domanic [~domanic@118.82.172.47] has quit [Ping timeout: 244 seconds]
+05:12 -!- domanic [~domanic@118.82.172.47] has joined #scuttlebutt
+05:48 < yuvadm> similar to how forming a workers union goes
+05:48 < yuvadm> i'd model this as a cumulative probability function
+05:48 < yuvadm> 100% of soldiers/workers uniting is 100% success
+05:49 < yuvadm> but perhaps only N/10 actors is good enough to get 50% success?
+05:50 < yuvadm> or, say, in north korea even N/2 actors is still 2% success
+06:05 -!- domanic [~domanic@118.82.172.47] has quit [Ping timeout: 244 seconds]
+10:18 -!- woah [~woah@95.91.229.110] has joined #scuttlebutt
+10:28 -!- williamcotton [~williamco@c-76-118-150-177.hsd1.nh.comcast.net] has
+          joined #scuttlebutt
+10:33 -!- williamcotton [~williamco@c-76-118-150-177.hsd1.nh.comcast.net] has
+          quit [Ping timeout: 240 seconds]
+10:51 -!- woah [~woah@95.91.229.110] has quit [Quit: My MacBook Pro has gone
+          to sleep. ZZZzzz&]
+11:50 -!- ednapiranha [~ednapiran@c-71-193-203-43.hsd1.or.comcast.net] has
+          joined #scuttlebutt
+12:09 -!- tictacjoe [~JohnDotAw@99-47-182-197.lightspeed.austtx.sbcglobal.net]
+          has joined #scuttlebutt
+12:09 -!- tictacjoe is now known as j0hn_
+12:18 -!- williamcotton [~williamco@c-76-118-150-177.hsd1.nh.comcast.net] has
+          joined #scuttlebutt
+12:45 -!- williamcotton [~williamco@c-76-118-150-177.hsd1.nh.comcast.net] has
+          quit [Ping timeout: 240 seconds]
+12:51 -!- williamcotton [~williamco@c-76-118-150-177.hsd1.nh.comcast.net] has
+          joined #scuttlebutt
+12:59 -!- j0hn_ [~JohnDotAw@99-47-182-197.lightspeed.austtx.sbcglobal.net] has
+          quit [Remote host closed the connection]
+12:59 < ednapiranha> hij1nx: hi
+13:00 -!- j0hn_ [~JohnDotAw@99-47-182-197.lightspeed.austtx.sbcglobal.net] has
+          joined #scuttlebutt
+13:08 < jjjohnny_> substack accts should be scuttled manually between devices
+13:08 < jjjohnny_> use the same key
+13:08 < jjjohnny_> like a wallet
+13:08 < jjjohnny_> whatever SSO looks like in the will have to work the same
+                   way
+13:08 < jjjohnny_> in the end
+13:09 < jjjohnny_> you transfer accts between devices manually
+13:09 < jjjohnny_> one day we'll be able to send data between devices much
+                   mroe easily
+13:10 < jjjohnny_> whenever the browsers implement bluetooth
+13:10 < jjjohnny_> fuck these browsrers
+13:11 < jjjohnny_> ednapiranha: u work at a browser?
+13:11 < ednapiranha> jjjohnny_: i work on devtools yes
+13:11 < jjjohnny_> imo firefox is a failure cuz it didn't end up like linux
+13:12 < ednapiranha> lol
+12:59 -!- j0hn_ [~JohnDotAw@99-47-182-197.lightspeed.austtx.sbcglobal.net] has
+          quit [Remote host closed the connection]
+12:59 < ednapiranha> hij1nx: hi
+13:00 -!- j0hn_ [~JohnDotAw@99-47-182-197.lightspeed.austtx.sbcglobal.net] has
+          joined #scuttlebutt
+13:08 < jjjohnny_> substack accts should be scuttled manually between devices
+13:08 < jjjohnny_> use the same key
+13:08 < jjjohnny_> like a wallet
+13:08 < jjjohnny_> whatever SSO looks like in the will have to work the same
+                   way
+13:08 < jjjohnny_> in the end
+13:09 < jjjohnny_> you transfer accts between devices manually
+13:09 < jjjohnny_> one day we'll be able to send data between devices much
+                   mroe easily
+13:10 < jjjohnny_> whenever the browsers implement bluetooth
+13:10 < jjjohnny_> fuck these browsrers
+13:11 < jjjohnny_> ednapiranha: u work at a browser?
+13:11 < ednapiranha> jjjohnny_: i work on devtools yes
+13:11 < jjjohnny_> imo firefox is a failure cuz it didn't end up like linux
+13:12 < ednapiranha> lol
+13:08 < jjjohnny_> in the end
+13:09 < jjjohnny_> you transfer accts between devices manually
+13:09 < jjjohnny_> one day we'll be able to send data between devices much
+                   mroe easily
+13:10 < jjjohnny_> whenever the browsers implement bluetooth
+13:10 < jjjohnny_> fuck these browsrers
+13:11 < jjjohnny_> ednapiranha: u work at a browser?
+13:11 < ednapiranha> jjjohnny_: i work on devtools yes
+13:11 < jjjohnny_> imo firefox is a failure cuz it didn't end up like linux
+13:12 < ednapiranha> lol
+13:08 < jjjohnny_> in the end
+13:09 < jjjohnny_> you transfer accts between devices manually
+13:09 < jjjohnny_> one day we'll be able to send data between devices much
+                   mroe easily
+13:10 < jjjohnny_> whenever the browsers implement bluetooth
+13:10 < jjjohnny_> fuck these browsrers
+13:11 < jjjohnny_> ednapiranha: u work at a browser?
+13:11 < ednapiranha> jjjohnny_: i work on devtools yes
+13:11 < jjjohnny_> imo firefox is a failure cuz it didn't end up like linux
+13:12 < ednapiranha> lol
+13:08 < jjjohnny_> in the end
+13:09 < jjjohnny_> you transfer accts between devices manually
+13:09 < jjjohnny_> one day we'll be able to send data between devices much
+                   mroe easily
+13:10 < jjjohnny_> whenever the browsers implement bluetooth
+13:10 < jjjohnny_> fuck these browsrers
+13:11 < jjjohnny_> ednapiranha: u work at a browser?
+13:11 < ednapiranha> jjjohnny_: i work on devtools yes
+13:11 < jjjohnny_> imo firefox is a failure cuz it didn't end up like linux
+13:12 < ednapiranha> lol
+13:12 < jjjohnny_> menwhile, i have PRAYED for firefox to become good enough I
+                   would use it
+13:12 < ednapiranha> usually people say that having only last used it a few
+                     years ago and pinning it against that older version from
+                     before the dinosaurs :)
+13:13 < ednapiranha> it's easier to criticize based on previous flaws vs
+                     trying it out and contributing to making it better no?
+13:13 < jjjohnny_> nah i test my warez
+13:13 < ednapiranha> i smell troll
+13:13 < jjjohnny_> i wanted to to use asm, to get better js perf
+13:13 < jjjohnny_> but its not for js
+13:13 < ednapiranha> talk to me when your troll hat is off :)
+13:14 < jjjohnny_> ok you try writing asm code
+13:14 < ednapiranha> no i have better things to do
+13:15  * jjjohnny_ touches nose
+13:18 < jjjohnny_> sesrly tho, people like me were glamoured into open
+                   standards, html5, etc
+13:19 < jjjohnny_> and then to see any dinky ass mobile can have access rights
+                   browsers haven't gotten around to
+13:19 < jjjohnny_> mobile app
+13:20 < jjjohnny_> thanks browser genies
+13:27 -!- williamcotton [~williamco@c-76-118-150-177.hsd1.nh.comcast.net] has
+          quit [Ping timeout: 265 seconds]
+13:34 < jjjohnny_> anyhoo, ssb will just work for syncing any new device, if
+                   you have the key, and you connect to one of your relays
+13:36 < jjjohnny_> back to music for mwah
+13:40 < jjjohnny_> ednapiranha: I dont have a phone number can I use my
+                   website?
+                   browsers haven't gotten around to
+13:19 < jjjohnny_> mobile app
+13:20 < jjjohnny_> thanks browser genies
+13:27 -!- williamcotton [~williamco@c-76-118-150-177.hsd1.nh.comcast.net] has
+          quit [Ping timeout: 265 seconds]
+13:34 < jjjohnny_> anyhoo, ssb will just work for syncing any new device, if
+                   you have the key, and you connect to one of your relays
+13:36 < jjjohnny_> back to music for mwah
+13:40 < jjjohnny_> ednapiranha: I dont have a phone number can I use my
+                   website?
+13:49 -!- j0hn_ [~JohnDotAw@99-47-182-197.lightspeed.austtx.sbcglobal.net] has
+          quit [Remote host closed the connection]
+13:49 < hij1nx> ednapiranha: oh hi!
+13:50 -!- j0hn_ [~JohnDotAw@99-47-182-197.lightspeed.austtx.sbcglobal.net] has
+          joined #scuttlebutt
+13:50 < ednapiranha> hij1nx: did it work? the number?
+13:51 < hij1nx> ednapiranha: no :(
+13:51 < hij1nx> brb
+13:51 -!- hij1nx [~admin@72.2.115.64] has quit [Quit: leaving]
+13:52 -!- hij1nx [~admin@72.2.115.64] has joined #scuttlebutt
+13:52 < hij1nx> for some reason irssi on smartos has no idea how to linefeed
+                unless you do `TERM=xterm-color $(which irssi)`
+13:53 < ednapiranha> hij1nx: what's your thai #?
+13:53 < ednapiranha> i'll test locally and see what's up
+13:53 < hij1nx> ednapiranha: ok
+13:55 -!- williamcotton [~williamco@c-76-118-150-177.hsd1.nh.comcast.net] has
+13:51 < hij1nx> ednapiranha: no :(
+13:51 < hij1nx> brb
+13:51 -!- hij1nx [~admin@72.2.115.64] has quit [Quit: leaving]
+13:52 -!- hij1nx [~admin@72.2.115.64] has joined #scuttlebutt
+13:52 < hij1nx> for some reason irssi on smartos has no idea how to linefeed
+                unless you do `TERM=xterm-color $(which irssi)`
+13:53 < ednapiranha> hij1nx: what's your thai #?
+13:53 < ednapiranha> i'll test locally and see what's up
+13:53 < hij1nx> ednapiranha: ok
+13:55 -!- williamcotton [~williamco@c-76-118-150-177.hsd1.nh.comcast.net] has
+          joined #scuttlebutt
+13:59 -!- williamcotton [~williamco@c-76-118-150-177.hsd1.nh.comcast.net] has
+          quit [Ping timeout: 245 seconds]
+14:26 -!- j0hn_ [~JohnDotAw@99-47-182-197.lightspeed.austtx.sbcglobal.net] has
+          quit [Remote host closed the connection]
+14:39 -!- j0hn_ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has joined
+          #scuttlebutt
+14:42 < jjjohnny_> ednapiranha: i sorry i trolled you, excellent defence, im
+                   rly one of you biggest fans, pls dont put me in the technews
+14:42 -!- j0hn__ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has joined
+          #scuttlebutt
+14:44 -!- j0hn_ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has quit
+ https://github.com/dominictarr/secure-scuttlebutt and https://github.com/pfraz
+          [Ping timeout: 258 seconds]
+14:45 -!- j0hn_ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has joined
+          #scuttlebutt
+14:46 -!- domanic [~domanic@118.82.172.47] has joined #scuttlebutt
+14:47 -!- j0hn__ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has quit
+          [Ping timeout: 240 seconds]
+14:53 -!- domanic [~domanic@118.82.172.47] has quit [Ping timeout: 240 seconds]
+14:56 -!- j0hn__ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has joined
+          #scuttlebutt
+14:58 -!- j0hn_ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has quit
+          [Ping timeout: 256 seconds]
+15:05 -!- domanic [~domanic@118.82.172.47] has joined #scuttlebutt
+15:09 -!- chromakode_ [~chromakod@li569-126.members.linode.com] has joined
+          #scuttlebutt
+15:11 -!- j0hn__ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has quit
+          [Remote host closed the connection]
+15:26 -!- chromakode_ [~chromakod@li569-126.members.linode.com] has quit
+          [Quit: Ex-Chat]
+15:30 -!- j0hn_ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has joined
+          #scuttlebutt
+15:44 < domanic> jjjohnny_, not sure what you mean
+ [15:49] [jjjohnny_(+i)] [5:freenode/#scuttlebutt(+ [Act: 1,3,4,6,10,11,12,13]
+[#scuttlebutt]
+13:52 -!- hij1nx [~admin@72.2.115.64] has joined #scuttlebutt
+13:52 < hij1nx> for some reason irssi on smartos has no idea how to linefeed
+                unless you do `TERM=xterm-color $(which irssi)`
+13:53 < ednapiranha> hij1nx: what's your thai #?
+13:53 < ednapiranha> i'll test locally and see what's up
+13:53 < hij1nx> ednapiranha: ok
+13:55 -!- williamcotton [~williamco@c-76-118-150-177.hsd1.nh.comcast.net] has
+          joined #scuttlebutt
+13:59 -!- williamcotton [~williamco@c-76-118-150-177.hsd1.nh.comcast.net] has
+          quit [Ping timeout: 245 seconds]
+14:26 -!- j0hn_ [~JohnDotAw@99-47-182-197.lightspeed.austtx.sbcglobal.net] has
+          quit [Remote host closed the connection]
+14:39 -!- j0hn_ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has joined
+          #scuttlebutt
+14:42 < jjjohnny_> ednapiranha: i sorry i trolled you, excellent defence, im
+                   rly one of you biggest fans, pls dont put me in the technews
+14:42 -!- j0hn__ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has joined
+          #scuttlebutt
+14:44 -!- j0hn_ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has quit
+          [Ping timeout: 258 seconds]
+14:45 -!- j0hn_ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has joined
+          #scuttlebutt
+14:46 -!- domanic [~domanic@118.82.172.47] has joined #scuttlebutt
+14:47 -!- j0hn__ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has quit
+          [Ping timeout: 240 seconds]
+14:53 -!- domanic [~domanic@118.82.172.47] has quit [Ping timeout: 240 seconds]
+14:56 -!- j0hn__ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has joined
+          #scuttlebutt
+14:58 -!- j0hn_ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has quit
+          [Ping timeout: 256 seconds]
+15:05 -!- domanic [~domanic@118.82.172.47] has joined #scuttlebutt
+15:09 -!- chromakode_ [~chromakod@li569-126.members.linode.com] has joined
+          #scuttlebutt
+15:11 -!- j0hn__ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has quit
+          [Remote host closed the connection]
+15:26 -!- chromakode_ [~chromakod@li569-126.members.linode.com] has quit
+          [Quit: Ex-Chat]
+15:30 -!- j0hn_ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has joined
+          #scuttlebutt
+15:44 < domanic> jjjohnny_, not sure what you mean
+15:50 < jjjohnny_> domanic: the wild is a paranoid state
+15:50 < jjjohnny_> pure paranoia
+15:51 < jjjohnny_> animals live in am almost purely trustless env
+15:51 < domanic> jjjohnny_, they can play tit-4-tat
+15:52 < jjjohnny_> and w/o collateral, you can't force trustworthiness on a
+                   potential ally
+15:52 < domanic> correct
+15:52 < jjjohnny_> tit 4 tat reduces badly
+15:52 < domanic> what do you mean?
+15:52 < jjjohnny_> but that was deconstructionista
+15:52 < jjjohnny_> i was about to tweet you the creator gods voice
+15:53 < domanic> tit4tat works fairly well actually, well it works to a degree
+15:53 < domanic> it is enough to get cooperation, even in an enviroment where
+                 you cannot communicate
+15:53 < domanic> though, it's much easier in a two player game
+15:54 < domanic> in an N player game you have a big coordination problem
+15:54 < jjjohnny_> a fight or mating match
+15:54 < jjjohnny_> is tit for tat
+15:55 < jjjohnny_> but that is probably about as far as you can go without
+                   more abstract concepts
+15:55 < domanic> I mean t4t in the context of Iterated Prisoners Delimma
+15:56 < domanic> http://en.wikipedia.org/wiki/Prisoner%27s_dilemma#The_iterated
+_prisoners.27_dilemma
+15:56 < jjjohnny_> hasn't PD been proved to have non combative resolutions tho
+15:57 < domanic> jjjohnny_, yes - t4t. if you start out cooperating, and then
+                 punish them if they defect
+15:57 < domanic> that makes a highly robust strategy, in many cases
+15:58 < jjjohnny_> this shit incenses me rly
+15:58 < jjjohnny_> players will defect in the last, given completely paraniod
+                   schizo premices!
+15:59 < domanic> not if they don't know when the last round will be
+15:59 < jjjohnny_> i see, but i dont like the entire premice of the PD
+15:59 < domanic> if you have a known N turns, then dominant strategy is
+                 defect, but if you don't know N then it's not.
+15:59 < jjjohnny_> premise jjjohnny_
+16:00 < domanic> jjjohnny_, how so?
+16:01 < jjjohnny_> because the premise is you are a prisoner and your actions
+                   are to act solo
+16:01 < jjjohnny_> you can betray, or not betray
+16:02 < jjjohnny_> we are humans, with advanced culture, and ways of
+                   mitigating that premise altogether
+16:04 < jjjohnny_> i mean, we can start from a different premise.  but if we
+                   build a culture on top of those premises, which macro econ
+                   systems have found profitable, then we get stupid people
+                   who don't know how to play this game with positive
+                   consequences, or people who don't care cuz if other people
+                   play positively, they know they can gain by cleverly
+                   betraying the rest
+16:05 < jjjohnny_> paranoid schizo decodes modern economic systems.  modern
+                   economic systems is like, sweet, thanks, here's a prize.
+16:05 < jjjohnny_> im wrong here probably
+16:06 < jjjohnny_> especially since it seems like we have to use the same game
+                   for DEXes
+16:06 < jjjohnny_> DEX = decentralized exchange
+16:06 < jjjohnny_> i think it covers all decentralized systems
+16:07 < domanic> jjjohnny_, yes absolutely
+16:07 < domanic> humans are playing a different game or something
+16:07 < domanic> that classic game theory doesn't quite capture
+16:08 < jjjohnny_> yeah but we seem to be several layers built on top of it
+16:08 < jjjohnny_> our modern economic and political systems
+16:09 < domanic> yeah, I'm looking for the research that models that
+16:09 < jjjohnny_> better jus call me a jerkface and get it over with
+16:09 < domanic> what?
+16:09 < jjjohnny_> i dont have the research to back up muh claims
+16:10 < jjjohnny_> when you said "im looking for the research" i interpretted
+                   that as, where is the research johnny? and then I mixed
+                   that with what you said about jerkfaces
+16:10 < domanic> I'm not even sure if that research exists yet
+16:11 < domanic> oh no, I think you are right
+16:11 < domanic> there has been stuff about how most people don't actually
+                 play PD "optimally"
+16:12 < domanic> the traditional answer is "they are stupid" but it's not
+                 really a solved thing
+16:12 < domanic> "stupid" isn't a scientific theory
+16:12 < domanic> we are past the bounds of the wikipedia article now, into
+                 real science
+16:12 < jjjohnny_> what is the game where you switch the premise?
+16:13 < jjjohnny_> !PD
+16:13 < domanic> I don't know that game
+16:13 < jjjohnny_> its all one, proceed
+16:13 < jjjohnny_> it is possible the corporations are kind of the oppossite
+16:14 < jjjohnny_> they employee loads of dumb people, and let them
+                   haldassedly proceed at doing things that generally work in
+                   the groups favor
+16:14 < jjjohnny_> falfassedly
+16:14 < domanic> yeah
+16:14 < jjjohnny_> halfassedly
+16:15 < domanic> although, they don't really get a fair share
+16:15 < domanic> of the booty
+16:15 < domanic> instead the corp takes most of the profit, and puts it into
+                 growth
+16:15 < jjjohnny_> yeah it lacks democracy
+16:16 < domanic> my new idea: orgs like that, armies etc, are carefully
+                 constructed coordination problems
+16:16 < domanic> it *would* be in the interest of the workers to demand better
+                 terms
+16:16 < domanic> but it's hard for them to rally for that
+16:17 < domanic> because the authorities just punish the first trouble maker
+                 that sticks their head up
+16:18 < domanic> and the trouble makers leave, and eventually end up hanging
+                 out on IRC
+16:18 < domanic> with the other trouble makers
+16:18 < jjjohnny_> an army of troublemakers forms
+16:19 < domanic> jjjohnny_, here is a great description of coordination
+                 problems:
+                 http://raikoth.net/libertarian.html#coordination_problems
+16:20 < domanic> question is: could we solve this with a cryptosystem?
+16:21 -!- j0hn_ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has quit
+          [Remote host closed the connection]
+16:22 -!- j0hn_ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has joined
+          #scuttlebutt
+16:27 -!- j0hn_ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has quit
+          [Ping timeout: 244 seconds]
+16:28 < jjjohnny_> given a group, it is possible to start at a fully
+                   cooperative premise
+16:28 < jjjohnny_> but not if power if unequally distributed amongst the vote
+16:28 < jjjohnny_> is
+16:29 < jjjohnny_> then, cooperative groups use their increased power to
+                   oppress negative non-cooperators, or pay tribute to
+                   positive non-cooperators
+16:31 < jjjohnny_> eventually cooperation replaces competition as the dominant
+                   culture, everybody relaxes, and the tyrants return
+16:32 -!- domanic [~domanic@118.82.172.47] has quit [Ping timeout: 244 seconds]
+16:32 < jjjohnny_> jk i like to end on a stupid note
+16:33 -!- domanic [~domanic@118.82.172.47] has joined #scuttlebutt
+16:36 < domanic> oops, dropped out there
+16:36 < jjjohnny_> domanic: what do you mean by cryptosystem tho?  is
+                   anonymity essential to that
+16:37 < domanic> jjjohnny_, in some cases maybe
+16:38 < domanic> probably you don't want the boss to know you are coordinating
+16:38 -!- j0hn_ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has joined
+          #scuttlebutt
+16:38 < domanic> (in some cases, "the boss" is nature)
+16:38 < domanic> like climate change
+16:39 < jjjohnny_> that redefined boss as an absolute and indsicriinate power
+16:39 < domanic> in other cases, people construct these coordination problems
+                 - and you'd need to by anonymous to them
+16:40 < domanic> only for the purposes of a simplified model
+16:40 < jjjohnny_> you want people in the army to use this to overcome their
+                   bosses?
+16:41 < domanic> haha, lets not go there
+16:41 < jjjohnny_> of course not
+16:41 < domanic> there are many things closer to home though
+16:42 < jjjohnny_> for me, I do not see the need to solve this without a cause
+16:42 < jjjohnny_> and we have many causes
+16:43 < domanic> yes, but it's a general problem, that can be described
+                 abstractly
+16:43 < domanic> it's just a problem that language speaking creatures have
+16:44 < jjjohnny_> i guess it would be something to solve it at a sort of
+                   axiomatic level
+16:44 < domanic> if they are able to perform actions that have positive or
+                 negative effects on other language creatures
+16:44 < jjjohnny_> i just don't know if we are smart enough to do it with user
+                   interfaces
+16:44 < jjjohnny_> without
+16:45 < domanic> that is another couple of layers on top
+16:45 < jjjohnny_> or instruments for to gather evidence
+16:46 < jjjohnny_> incentive is abstract
+16:47 < jjjohnny_> if PD takes the premice of the humans being isolated
+16:47 < jjjohnny_> then !PD must take the premise that the members form a group
+16:47 < jjjohnny_> from now on pumice = premise
+16:48 < jjjohnny_> c is an index finger what
+16:48 < jjjohnny_> so there, you have to begin with the pumice that
+                   coordination happens amongst a group
+16:48 < jjjohnny_> and I am genius
+16:51 < jjjohnny_> now, is the group finite, boundless, static or dyanmic
+16:56 < jjjohnny_> !PD the action is not to betray or !betray
+16:57 < jjjohnny_> or whatever
+16:57 < jjjohnny_> should I continue with this, or write songs of protest?
+16:58 -!- j0hn__ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has joined
+          #scuttlebutt
+16:58 < domanic> jjjohnny_, the underliying game is still PD, except players
+                 can communicate
+16:59 < jjjohnny_> but that makes PD's premise the premise, and so what you
+                   are considering a system for rebelion
+17:00 < jjjohnny_> not but
+17:00 -!- j0hn_ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has quit
+          [Ping timeout: 250 seconds]
+17:03 < jjjohnny_> take a slaves dillemma, where freedom is an option, but you
+                   endanger others if you act badly, and if others don't go
+                   free with you, your chance of survival is much less
+17:05 < jjjohnny_> call that Moses Dilemma
+17:05 < domanic> jjjohnny_, we can model that as a game too
+17:06 < domanic> where the challenge is coordinating acting together
+17:06 -!- j0hn__ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has quit
+          [Remote host closed the connection]
+17:06 -!- j0hn_ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has joined
+          #scuttlebutt
+17:07 < jjjohnny_> im basically saying that we have to change PD to where the
+                   individual outcome is not to be favored over the group's.
+                   the end.
+17:07 -!- j0hn_ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has quit
+          [Read error: Connection reset by peer]
+17:08 -!- j0hn_ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has joined
+          #scuttlebutt
+17:08 < jjjohnny_> i sense a fundamental difference, but if they can be
+                   modeled on PD the so be it
+17:08 < domanic> jjjohnny_, the most important thing is the methodology
+17:09 < domanic> they way different strategies are trailed,
+17:10 < domanic> and in the end, each players success is judged individually
+17:12 -!- j0hn_ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has quit
+          [Ping timeout: 255 seconds]
+17:15 < jjjohnny_> i still have butts
+17:16 < jjjohnny_> domanic: are u telling me PD with communication hasn't been
+                   treated already?
+17:16 < domanic> jjjohnny_, If it has I havn't found that research
+17:17 < jjjohnny_> jesus
+17:18 < jjjohnny_> http://levine.sscnet.ucla.edu/lectures/evolution/bachi.pdf
+17:18 -!- null_radix [Elite7851@gateway/shell/elitebnc/x-gpsawizjjqcnnjbg] has
+          quit [Quit: EliteBNC free bnc service - http://elitebnc.org - be a
+          part of the Elite!]
+17:19 < domanic> there is this field called Agent-based Computational
+                 Economics which is what I'm looking into currently
+17:19 < jjjohnny_> that supposedly treats two players only
+17:19 < jjjohnny_> so ignoring
+17:22 < domanic> it looks like there is a lot of different stuff going on in
+                 here
+17:23 < jjjohnny_> this other one proposes "confirmed proposals"
+17:23 < jjjohnny_> with alternating proposals
+17:23 -!- null_radix [Elite7851@gateway/shell/elitebnc/x-ffyllvsueejvooif] has
+          joined #scuttlebutt
+17:24 < jjjohnny_> hhmm... guilt
+17:24 < jjjohnny_> as in the feeling of
+17:27 < domanic> my talk on these humans playing PD experiments is that it
+                 disproves the model
+17:28 < jjjohnny_> where?
+17:28 < jjjohnny_> video?
+17:28 < domanic> like the paper you linked
+17:28 < domanic> bachi.pdf
+17:29 < jjjohnny_> your talk?
+17:30 < domanic> sorry
+17:30 < domanic> typo
+17:30 < domanic> I meant "take"
+17:31 < domanic> that humans play PD "wrong" *could* be explained that "humans
+                 are stupid"
+17:31 < domanic> but that doesn't really tell us very much
+17:32 < domanic> jjjohnny_, I think we would both agree that the real answer
+                 might be that the model is wrong
+17:32 < domanic> humans actually play a different game
+17:33 < domanic> and like, people don't want to be a douchebag on a gameshow
+                 because they are still humans and being on a gameshow is just
+                 a small part of a larger game called being human
+17:33 < jjjohnny_> the wikipedia page says that ration leads to cooperative
+                   with only an agreed upon forecast by the players
+17:33 < jjjohnny_> rationality*
+17:34 < jjjohnny_> ergo like I said, a premise of cooperation amongst the group
+17:35 < jjjohnny_> the paradox is, if you break with cooperation, you get set
+                   free
+17:35 < domanic> jjjohnny_, can you link me to that bit?
+17:35 < jjjohnny_> but that would lead to a worsened personal brand
+17:36 < jjjohnny_> 3rd to final paragraph in the intro
+17:37 < jjjohnny_> which appears to reference this
+http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0072427
+17:37 < jjjohnny_> [6]
+17:39 < jjjohnny_> domanic: i sense that modeling multiplayer as "two-players
+                   with a positive / negative meter" will work for starters
+17:39 < jjjohnny_> I wonder if my multiplayer game of life game would work for
+                   this simulation
+17:40 < jjjohnny_> cuz it only has two teams, but multi players
+17:40 < jjjohnny_> pronably not, GOL is not a proper model
+17:43 < domanic> bbiab breakfast
+17:43 < jjjohnny_> hm, but a group could use its majority power to defect,
+                   would that be defecting?
+17:44 < jjjohnny_> cooperation must mean it should not be the detriment of any
+                   members
+17:44 < jjjohnny_> rather than
+17:44 < jjjohnny_> the benefit of the group
+17:45 < jjjohnny_> cuz a majority defection is basically a cartel
+17:45 < jjjohnny_> so cartel busting is a crucial tactic
+17:47 < jjjohnny_> i saw some research on cartel busting tactics, which was to
+                   go at the middle men.  same shit i've been divining since I
+                   was 14.
+17:48 < jjjohnny_> but then i realized that middlemanning can be important and
+                   good
+17:48 < jjjohnny_> but it needs to be mitigated
+17:48 < jjjohnny_> perhaps communication is itsef the middle man
+17:57 -!- j0hn_ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has joined
+          #scuttlebutt
+17:57 < jjjohnny_> concensus plays a role or it doesn't
+17:59 < jjjohnny_> i think concensus is the reactor to consequence
+18:00 < jjjohnny_> consensus simply must imply absolute agreement
+18:01 < jjjohnny_> and so can therefor apply to axioms, or modelsm or w.e
+18:02 < jjjohnny_> there must be consequences, good, bad, null, and ugly
+18:11 < jjjohnny_> anaonymously changing your "trust" of another member
+18:11 < jjjohnny_> if u drop below a level...
+18:12 < jjjohnny_> that way, if somebody comes to with a scam, you have
+                   immediate recourse
+18:12 < jjjohnny_> you don't have to agree,disagree, out them or yourself
+18:13 < jjjohnny_> but if he tries to get a bunch of ppl in on the scam, and
+                   they all as a result lower trust for him, poof
+18:14 < jjjohnny_> he was essentially a middle man for a would be scam or
+                   cartel or simply some nonsense that goes against the group
+18:14 < jjjohnny_> we are gonna need hella empjis tho so we don't end up
+                   missing the meaning of our social messages
+18:16 < jjjohnny_> OTOH if u have enough trust, you can do things on behalf of
+                   the group without first getting consensus
+18:18 < jjjohnny_> well I accomplished something today
+18:19 < domanic> jjjohnny_, what is empjis?
+18:22 < jjjohnny_> emojis
+18:23 -!- j0hn__ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has joined
+          #scuttlebutt
+18:26 -!- j0hn_ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has quit
+          [Ping timeout: 244 seconds]
+18:26 < jjjohnny_> cuz ppl dont knew ppl silly and dont mean shit sometimes u
+                   know what I mean that you don't know what I mean bruh?
+18:26 < jjjohnny_> trust is a float value
+18:30 < jjjohnny_> i just want to remind yall that I have already built two
+                   good, fun multi player socket connected games full stack,
+                   and they are both in the trash
+18:31 < jjjohnny_> bring back wizard game
+18:33 -!- j0hn__ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has left
+          #scuttlebutt ["Leaving..."]
+18:46 < domanic> good article:
+                   good
+17:48 < jjjohnny_> but it needs to be mitigated
+17:48 < jjjohnny_> perhaps communication is itsef the middle man
+17:57 -!- j0hn_ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has joined
+          #scuttlebutt
+17:57 < jjjohnny_> concensus plays a role or it doesn't
+17:59 < jjjohnny_> i think concensus is the reactor to consequence
+18:00 < jjjohnny_> consensus simply must imply absolute agreement
+18:01 < jjjohnny_> and so can therefor apply to axioms, or modelsm or w.e
+18:02 < jjjohnny_> there must be consequences, good, bad, null, and ugly
+18:11 < jjjohnny_> anaonymously changing your "trust" of another member
+18:11 < jjjohnny_> if u drop below a level...
+18:12 < jjjohnny_> that way, if somebody comes to with a scam, you have
+                   immediate recourse
+18:12 < jjjohnny_> you don't have to agree,disagree, out them or yourself
+18:13 < jjjohnny_> but if he tries to get a bunch of ppl in on the scam, and
+                   they all as a result lower trust for him, poof
+18:14 < jjjohnny_> he was essentially a middle man for a would be scam or
+                   cartel or simply some nonsense that goes against the group
+18:14 < jjjohnny_> we are gonna need hella empjis tho so we don't end up
+                   missing the meaning of our social messages
+18:16 < jjjohnny_> OTOH if u have enough trust, you can do things on behalf of
+                   the group without first getting consensus
+18:18 < jjjohnny_> well I accomplished something today
+18:19 < domanic> jjjohnny_, what is empjis?
+18:22 < jjjohnny_> emojis
+18:23 -!- j0hn__ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has joined
+          #scuttlebutt
+18:26 -!- j0hn_ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has quit
+          [Ping timeout: 244 seconds]
+18:26 < jjjohnny_> cuz ppl dont knew ppl silly and dont mean shit sometimes u
+                   know what I mean that you don't know what I mean bruh?
+18:26 < jjjohnny_> trust is a float value
+18:30 < jjjohnny_> i just want to remind yall that I have already built two
+                   good, fun multi player socket connected games full stack,
+                   and they are both in the trash
+18:31 < jjjohnny_> bring back wizard game
+18:33 -!- j0hn__ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has left
+          #scuttlebutt ["Leaving..."]
+18:46 < domanic> good article:
+ https://github.com/dominictarr/secure-scuttlebutt and https://github.com/pfraz
+http://www.foreignaffairs.com/articles/142494/nassim-nicholas-taleb-and-gregory
+-f-treverton%E2%80%A8/the-calm-before-the-storm
+19:13 -!- ednapiranha [~ednapiran@c-71-193-203-43.hsd1.or.comcast.net] has
+          quit [Remote host closed the connection]
+19:38 -!- j0hn_ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has joined
+          #scuttlebutt
+20:52 < domanic> what about a model of a community, where each agent gets to
+                 "think" run the model forward (to some degree) and use this
+                 to choose strategy?
+20:54 < domanic> humans have language, so they can do things like suggest
+                 strategies to others, and also declare their own strategies
+                 (i.e. threaten each other - I will cast you out of paradise
+                 if you eat the forbidden fruit)
+22:11 -!- j0hn__ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has joined
+          #scuttlebutt
+22:13 -!- j0hn_ [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has quit
+          [Ping timeout: 240 seconds]
+22:35 < jjjohnny_> domanic: what is the game? deos the model need to be a game?
+22:36 < domanic> jjjohnny_, in this context "game" is just a thing where
+                 multiple parties make decisions and get a score
+ [22:54] [jjjohnny_(+i)] [5:freenode/#scuttlebutt(+ [Act: 1,3,4,6,10,11,12,13]
+[#scuttlebutt]

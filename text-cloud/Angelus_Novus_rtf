@@ -1,0 +1,758 @@
+{\rtf1\ansi\deff1\adeflang1025
+{\fonttbl{\f0\froman\fprq2\fcharset0 Times New Roman;}{\f1\froman\fprq0\fcharset0 Times-Roman{\*\falt Times New Roman};}{\f2\fswiss\fprq2\fcharset0 Arial;}{\f3\froman\fprq0\fcharset0 Times-Roman{\*\falt Times New Roman};}{\f4\froman\fprq2\fcharset0 Palatino Linotype;}{\f5\fswiss\fprq0\fcharset0 Helvetica;}{\f6\froman\fprq0\fcharset0 TimesNewRomanPSMT;}{\f7\fnil\fprq2\fcharset0 MS Mincho;}{\f8\froman\fprq0\fcharset0 Times-Bold;}{\f9\fnil\fprq0\fcharset0 Tahoma;}}
+{\colortbl;\red0\green0\blue0;\red128\green128\blue128;}
+{\stylesheet{\s1\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033\snext1 Normal;}
+{\s2\sb240\sa120\keepn\rtlch\af2\afs28\lang255\ltrch\dbch\af7\langfe255\hich\f2\fs28\lang1033\loch\f2\fs28\lang1033\sbasedon1\snext3 Heading;}
+{\s3\sa120\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033\sbasedon1\snext3 Body Text;}
+{\s4\sa120\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033\sbasedon3\snext4 List;}
+{\s5\sb120\sa120\rtlch\af9\afs24\lang255\ai\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i\sbasedon1\snext5 caption;}
+{\s6\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033\sbasedon1\snext6 Index;}
+{\s7\sb120\sa120\rtlch\afs24\lang255\ai\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i\sbasedon1\snext7 caption;}
+{\s8\sb120\sa120\rtlch\afs24\lang255\ai\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i\sbasedon1\snext8 WW-caption;}
+{\s9\sb120\sa120\rtlch\afs24\lang255\ai\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i\sbasedon1\snext9 WW-caption1;}
+}
+{\info{\creatim\yr0\mo0\dy0\hr0\min0}{\revtim\yr0\mo0\dy0\hr0\min0}{\printim\yr0\mo0\dy0\hr0\min0}{\comment StarWriter}{\vern6800}}\deftab709
+{\*\pgdsctbl
+{\pgdsc0\pgdscuse195\pgwsxn12240\pghsxn15840\marglsxn1134\margrsxn1134\margtsxn1134\margbsxn1134\pgdscnxt0 Standard;}
+{\pgdsc1\pgdscuse195\pgwsxn12240\pghsxn15840\marglsxn1134\margrsxn1134\margtsxn1134\margbsxn1134\pgdscnxt1 Standard;}
+{\pgdsc2\pgdscuse195\pgwsxn12240\pghsxn15840\marglsxn1134\margrsxn567\margtsxn567\margbsxn567\pgdscnxt2 HTML;}}
+{\*\pgdscno0}\paperh15840\paperw12240\margl1134\margr1134\margt1134\margb1134\sectd\sbknone\pgwsxn12240\pghsxn15840\marglsxn1134\margrsxn1134\margtsxn1134\margbsxn1134\ftnbj\ftnstart1\ftnrstcont\ftnnar\aenddoc\aftnrstcont\aftnstart1\aftnnrlc
+\pard\plain \ltrpar\s1\ul\ulc0\ql\rtlch\af4\afs24\lang255\ab\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\b\loch\f4\fs24\lang1033\b{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b\ltrch\dbch SETTING}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0\ltrch\dbch McKraken, IL., is a small town on the verge of bancruptcyl. The time is now. The date is approaching Halloween.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0\ul\ulc0\rtlch\ltrch\dbch\hich\b\loch\b PLAYERS}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0\ltrch\dbch Angel of History }
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0\ltrch\dbch Mayor Minot}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Angie-Lou Lee}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Chief Officer-in-Chief}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Cecil Tazoa, cacedemon esq. }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Chorus of everypeople, sorted by class}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 ORACLE INC.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 A solder}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 A reporter}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 A midget}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 A Bishop}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 old man Coot}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ul\ulc0\ql\rtlch\afs24\lang255\ab\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\b\loch\f4\fs24\lang1033\b {\rtlch \ltrch\loch \'93}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b STORY\'94}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 The Angel of History hits town to investigates a stoppage in the artery of progress, here in the midwest. The people are in the red, but the corn syrup comes in every color. The Mayor is a powerful twit, Baby Boomer Jr. All the money is horded in the canop
+y of the tree of civilization. The fruit at the bottom is rotten, especially to the teeth. The community is in the red; the corn syrup is technicolored. }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Things that happen: speeches, multiple dementia, kidnappings, dance clubbing, mating rituals of the modern American, press conferances, collusion, battle.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Some cues are taken from television. There are commercials. Scenes are episodic.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 The Angel of History is the muse of all processions, and what's more, she's the kind of spirit that wields a weapon. As the townspeople begin acting out, Mayor Minot fears social unrest and loss of power. A pageant is proposed to raise morale. The Pageant 
+is directed by Angie-Lou Lee, the Mayor's speech-writer/sign-linguist/friend of the people/fox. But the Mayor falls under the influence of the Chief-officer-in-chief (aka Cecil), and soon cannot help but dip his smelly fingers in the pageantry\'97an effort to
+ affect popular support for himself, but his bumbling only stirs the pot more. The Angel of History walks the streets preaching conflict and copulation, to get things moving. The pageant scenes depict a profressively disgruntled people, unable to control t
+hemselves. Losing control himseslf, Mayor Minot becomes increasingly desperate. He has Angie-Lou lee Kidnapped, and begins a forceful campaign to portray himself as the one true dear leader, which can only be achieved through a thinning of the population. 
+But by this point, Angel's efforts have raised a pissed off militia, and something something something something something something smoething something}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 the Angel rips off the Mayor's right arm, blue blood everywhere. EXIT MAYOR MINOT.}
+\par \page\pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\b\loch\f4\fs24\lang1033\b 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ul\ulc0\ql\rtlch\af4\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 SPECIAL EFFECTS}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b The Be Little Box}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 \u8213\'2da container (with handles) for a person which renders them a bust and a platform, the  \'93stocks\'94, and a midget, at least until we can get a real one.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ltrch\dbch\af6\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ul\ulc0\ql\rtlch\af4\afs24\lang255\ltrch\dbch\af6\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 SCENES}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\ul\ulc0\rtlch\ltrch\hich\b\loch\b SIGHTING ONE}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0   Angel of History appears. The femininity of the angel may not be drastically apparent yet.}
+\par \pard\plain \ltrpar\s1\ul\ulc0\ql\rtlch\afs24\lang255\ab\ltrch\dbch\langfe255\hich\fs24\lang1033\b\loch\fs24\lang1033\b 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ai\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 ANNOUNCE: H E double L Oh! How ya'll doin'? We're just one (a couple) double-U double-E Kay(s), from halloween. Put on yer constumes congressers and conqueresses. National guidance, beware and hold off, this is one unnatural calamity about to happen. }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Nothing has happened. Nothing has been happening for a long time. Now, something, and it got us all livin' on eerie street. McKraken, Illinois in October. We got in us a little Chicago. A recent storm of sightings, major and minority, evangelical and secul
+ar, everywhere, a spook from every spectre. Jesus, in particular, keeps a living on cameos alone. Comes like the French, leaves the American Way. The virgin is missing, volunteers're searchin the bushes, hopin for any sign.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 CHORUS: }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 I seen Jesus on a cheetoh! Jesus on a cheetoh! Jesus in a cheetoh! }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 I got a letter from Moses, delivered w'tout postage!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 I saw Buddh's full color ad, nude i'th'newspaper!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 I see Muhamed in Bu-rock Obama!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Zeus smote my gorgonzolia garden!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Poseidon flooded my attic!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 There's a nativity in my yard in july!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 And a fire-y cricifix in mine!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 I saw my father in the mirror in my twenties!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 I'm often haunted by pysche-ic demons!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Ali bobs this way, like that.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Unholy poltsersguys keep innerfering with my receptions!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 ANNOUNCE: {\rtlch\ltrch\hich\b\loch\b <to be trasmoved on over to oracle trialogue>}}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 The people was stirring, which ther're apt to do in the twilight season. The astral indexes were all over the place, losing two days, winning the other. Disemployment was arising and the energy-food slump was shortaging every man. The federal and local oth
+ermental agencies and their statusticians agreed it seemed all to be pointing toward some kind of sign. The effects could be seen well enough if you didn't avert yer eyes. This worried many of the burros. The Mayor of McKraken had all these problems, too, 
+as well one more additional to all the rest: A sighting was taking place in what you could call a perpetual state, fir right atop the capital manison sat what looked to be one of our club wielding ancestors, but declared itself to be nothing less than an A
+ngel, and one bred of desctruction. Well, amidst all the sightings being eyed, you can bet the public was primed for a convincing. And wanting what they are, believers will congregate as easy as gossip herd. }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 ANGEL:}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 I am the Angel of what happened. I comb through all the time lines. I'm the rear view, like pilot to bombardier. I monitor Humanhood through a scanner angelic. Through teeth I rake it, with a smile. }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Oh, for a while things were very volcanic. I surfed a manmade tectonic wave for several thousand manyears. Then, like, an hour ago, sixty minutes, my time, I crashed in... it all clogged this traffic stop backed-up smacked nose-butt into the time zone of n
+ow, where the scale of manlihood is measured. All I can say is ouch! I've been at the edge of some hairy history, having watched it already, but I never saw it so fully arrested. I had to wonder what I would do. I'm a quick looky-lou. But, luckily, I don't
+ have patience, or go in for idle waiting. }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 My only option is to take upon myself new perspectives and add it to my own desrciption, the description about me, like so many delcious ingredients in the mouth. Mmm. Maybe get myself a new epithet, like \'93Angel of the Past  n' of what's happenin\'94. I didn'
+t explode when I thought of that, and even though I adore explosions, that was a good sign\'97I take it to mean that I am not so tightly bound. I forgot to warn you: I'm still learning how to be an angel. I am just so pleased to find that it is in my constitu
+tion to make adjustments. }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 But I am still only the Angel of what happened. For now, I can't manifest. Is it true that humans are allowed to become whatever they want, just by thinking about it? I believe I am allowed to inspire. It is my nature to sense, then to feel. My feelings ar
+e of the skyrocketing of   humanliness. It is strong in me. Now to focus whats its use for musement prupsoes only, really stick it to you. }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 I have to admit , I sensed the late progress stoppage very feelingly. I suffered a conchoidal bruise. That's nothing comared to this temporal stirility. How shall I repsond, in the presence of seeming nothing? I tried boredom for a second, but I sensed a t
+inge of very unangelic atrophy, so I quick hunted down a hurricane, and the flush returned. I followed some buses away from there, but soon the winds of revival deadened. No migration. }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 And it become very less clear to me the distinction between the past and the present.  Then I heard of making history, and I think I am permitted to do that. If I do, could I be said to be doing it to ensure a future? That argument is makable. How goes tha
+t saying about cups? Either there is uncertainty about the cup, or it is not a cup? I prefer it is uncertain. Better than nothing. }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 I will play the role of mirror, vigilant glass, I'll be radiant, and everything, the image of timeless virtue juxtaposed to how what happened looked an atomic second ago, after a winkle, a glimmer. Like now. And now. And now. Just there. And th-and-the and
+-the, right there, again. }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Achew!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 With that second image I cast a retrospective present back ahead o' itself at fully twice light.  That it was you call {\rtlch\ltrch\hich\i\loch\i zoom}. }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Personal as the morning do will I mire myself, all up in the closenesses of man alive, grill time, ugly as sin withstanding, enough to go unmistaken, admired for my greatness, all graces, with the beauty of a thousand faces. I'll be somthin else. If the lo
+okers see not themselves, they will turn around, future forward, to a horizon they will coulda swore by, and start promising prospects. That will be good enough, if I have learned anything yet. But shh, I aint sposed to be thinking on my own...}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ai\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 MAYOR: }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Look, we're all seeing things these days, believe you me. In this economy and with the prices and the war and the media and and and the... global! Woosh! You're telling me, of course. Of course, we can be expected to see things\'97see all kinda things\'97but wha
+t you see is what you see, if thats what you want to see. You don't always see something that's there, though, but you know thats one of the side effects of the times with everything ongoing on and when in a world of people you're the one's walking on toes
+ just to survive. That's how I am, so yeah, yeah, I see wh\'97I see that, yeah, I know. Like the back of the dollar bill, it's my job to oversee, and I have seen the plight! That's how I am, that's how I know, that's how, that's... that's... uh,  where am I, 
+hold on a... what was I... where were we ... seeing things? }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 PUBLIC:}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 On yer damn roof, Mayor! }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 MAYOR: }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Oh! Right, and to that I would ask, what are we seeing? }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 PUBLIC:}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Said it was an Angel a long neck out o' heaven.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 MAYOR:}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Call it what it wants to call itself, but I don't see an Angel in that, unless by calling itself what it eats and if that beast dines on Angels wings. In that case, w'ere safe, this aint no place to prey. But I ask you: Where's the divine light beam, the a
+ngel escalator, or the floatin' golden donut? Oughtn't God's humblest lead with a halo? Is that perch'd thing connected heavenly in any way? No. In any shape? In any form? <a cat call whistle from the PUBLIC> No it is not, I can verify that, nothing around
+ here is, nor could be, what with the way things are, you know? I'll.. you know what, I did have see a religious sight like the rest of you, I swear, I saw the Devil himself doing the city's budget in his own ink. Y'all're forewarned on that. Mercy on us! 
+Now go home and shut yourselves up.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 PUBLIC:}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Oh! Look!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 The angel, it can walk!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 While the mayor flies!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ai\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\i\loch\f4\fs24\lang1033\i {\rtlch \ltrch\loch\f4\fs24\lang1033\i\b0 <Angel descends, dusting self. She carries a multi-discplinary tool, which fits in some kind of holster , though it usually drawn. >}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 {\rtlch \ltrch\loch  \'93}{\rtlch \ltrch\loch\f1\fs24\lang1033\i0\b0\ltrch\hich\f4\loch\f4 I've been on duty, babysitting Manhood. So far this is what I've noticed, in my behind, which of progressed has pleaseded me: conflict and copulation. I am to say that one more time. You should write it down. Conflict. And Copulation. But for last hour p
+assed in the Angel Meridian\'97last on 60 minutes--I don't know what I've been watchin'. A collapse in quality control. Things be all holed. Not blocked, more like a milk-gallon shotgunned. Is  it understood? Some distraction drags on time's progress. I heard
+ regular folk were acting fools. Hold on.\'94 She unsheethes her club, raises it, the mayor yelps and dives, she lights the cloth at the top of it and holds it out in front of her. \'93Yep. This' the place.\'94 She sheethes the torch out and off she walks. \'93Im hung
+ry.\'94}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b SCENE: }}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Mayor Minot calls a meeting with the Board of the Community Shareholders--collectively, The Boards. They are aged. They agree something must be done, and almost agree to something nefarious\u8213\'2dlike an end to the moritorium on citizen firings. Nothing s
+cares 'em like citations. \'93There is no moritorium on that you retard!\'94 says Chairman Philanthrobeniezer, one o'the Boards, his last words. The mayor doesn't quite get enough time to grasp the implication that he could begin firing, cuz  immediately in the 
+seat of the dead his widow rises, wearing his photo around her neck on a golden chain. Another matron of the boards congratulates her. They quickly twist the motion to invoke just such a moritorium, convincing the mayor it needs to be there or it can't be 
+revoked. Then the mayor motions to revoke the moritorium, and together the  matrons defeat the proposition. }
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ltrch\dbch\af6\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b SCENE: }}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Mayor Minot and The Boards dismiss in disagreement, except for the new matriarch keeps her seat. She places the necklace around the back of a the chair next to her, so it hangs in stately seat. Angie Lou Lee rises into the chair, eclipsing the photo
+graph. She smiles and listens to Mrs. P., dutifly. \'93Angie Lou Lee, whachta doing?\'94 Then she wonders aloud what she'll do with her statistically predicted twenty more years. She doesn't want to spend all her time on the boards. She considers that she has th
+e span and the resources to usurp the family legacy and grow it into something else. Or better than that. Legacies are for men, I'll have a dynsaty, if I may. Perhaps she outght to retake her maiden name? Her father was a fighter in the wars. She admits sh
+e knows a thing about strategy, having studied it from her husbands side and even effected a couple moves in bed, once or twice. He had to play the the King all the time, she says, but he held onto the purse tight as a lady teenager. She says, so I relaxed
+ for the term. Shouldn't all ladies relax? Don't the men? Hm hmm! I guess time is for the ladies to start bahving  manly. }
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ltrch\dbch\af6\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b SCENE: }}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 The mayor in his office, not making sense of anything, desapring of what to do, including about the angel. Angie Lou Lee is introuced as his speech writer, a worker over-time, who delivers him a new one. Says the angel can be co-opted into a city sp
+onsoered Halloween Pageant. A pageant will boost morale. To be written and directed by Angie Lou Lee. The Mayor dictates off the sheet for a telecomunicated address. Finishing, \'93... I, Mayor Minot, sign this exectuive mandate, effective immediately. Sign y
+our name here.' The mayor looks off-camera. Then he signs it. The Pageant starts.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ltrch\dbch\af6\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b SCENE: }}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 But before the introductory procession, the mayor recieves a secret visit on the order of higher interest. Intro to Chief. The mayor agrees to an agreement about editorial spnosorship of the pegeant. It's a vague thing. }
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ltrch\dbch\af6\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b SCENE: }}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Angie Lou Lee in the process of creation. \'93The Mayor wants history enacted again, so we'll play the mirror, and see how things looked an atomi ago. In that reflection we see the present, only at twice light, and with the allowance of that lesson we 
+people skip ahead.\'94 She does indeed co-opt the angel. The angel becomes more specifically the Angel of History. The mayor intrudes on her, makes her explain some things, which he tends to childishly fear, for he is also weak in hey eyes directly. But he ma
+nages to interlard that he wants to be a player, and that he has cast himself and few others into the pageant. Angie is surprised. She doesn't want his interlard. He demands it. She capitulates, asking him if he wants to play the King. He agrees ecstatical
+ly. But, oh, she says. Let's keep it a democracy and everything, you don't want to be seen like a tyrant moniacial monoman, do you? What should the mayor be in the pageants democratic representations? How about the mayor? The mayor agrees ecstatically.  Sh
+e tells him rehearsal starts very soon, so he leaves, ostensibly on official mayor business of the real kind. }
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ltrch\dbch\af6\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b SCENE: }}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 The look like you're having a good time rehearsal. A hodge podge public assembled, tired, hungover, tense and stressed, unsocial, sunglassed. Angie Lou Lee is stretching and exercising already even while she introduces and explains. She tries to eng
+age them in the healthful motions, in play, dance, exultation, meditation, expression, etcetera. "If it looks like you're having fun, its only cuz you are." The people who try can't keep it up, or blush and quit. Some try to ignore her, but can't. Some tal
+k and titter about it, some gawk, all complain. Lots of cell phone camera pictures taken. Angie Lou Lee leaves. The public wonder about a snack table or a coffee-boy. Coffee and donuts delivered by Mayor. Enter Angel, mumble-preaching about preparedness, c
+ompetition, vitality, fitness. When she walks in, the people would like to flee, but they are strapped to the air. When she passes by a person, acknowledging not, their limbs and bodies contort in abstract stretches, as if suddenly in an uneven vacuum. EXI
+T Angel. }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b SCENE: }}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 The \'93donnybrook scene\'94 of economic cross section. At the end of it, Mayor and Chief are left holding the money rather like a hot potato in the pocket. They discuss the scene that took place and its potential for meanings and messages. They agree it 
+needs a soothing over, and buy drinks for all. That is not original to the intention of the scene, and Angie Lee Lou repudiates the mayor for trying to gett her performers drunk. The scene morphs in the People Complaint, introducing Private O. West, a sold
+eress who suffers from PTSD, and Cooter, a wise drunk, and other inheretants of the lower estate. They gossip about all the present ills and miracles. One major issue is that though they are surrounded by resources and corn, there is a crisis afoot--off al
+l the corn, all they have access to is the cheapest part, corn syrup. A pollster poseur comes by, again not intended. The pollster asks leading questions but is rebuffed by Cooter. Angie Lou Lee comes by to invite the folks to take part in the feast, where
+ they mat have some corn. This is perhaps a way to get them to join the pageant.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b SCENE: }}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Mayor and Chief Officer-in-Chief get together. Things are about to really kick in. They devise to interupt the feast. }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b SCENE: }}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 The Feast is a proto-history scene about food, communion, and the bonds shared by man and nature. Any resemblance to real feasts, past or present, is purely coincidental. Corn shucked. BBQ and fried things. The food attracts ANGEL. Here presence is 
+taken cautiously at first, but as she mostly pays not mind to the any individual thing expcet food, she is welcome. The feast is ruined by COC, upper middle management and private secuirty, who do not have the authority to stop what they're doing, sorry ma
+'am. The sanitation department, too. At firrst they are ostensibly joining in the festivities, in their own way\u8213\'2dhijinks, waterworks. They are disruptive. Then the sanitations department comes in and whitewashes the scene. Then COC sets up sponsorship, and 
+introduces, next, the Mayor...}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ab\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\b\loch\f4\fs24\lang1033\b {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b SCENE:}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b MAYOR}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 : And now, for the viewers at home, who could not come out and be with us, those to whom History is a personal keepsake, and in whose minds like memmorials live times immeorial, a very special retrospective is here presented via live telecast in assoc
+iation with two of our most beloved societies, you know the ones... But what you don't know, is that as of the next business day, the two will merge, to increase purchasing leverage, yes, and forever onward be in unison called the Reagan Preservation Socie
+ty, who, together with the Mayor's Office bring you the following program. We're  sure you'll find this special {\rtlch\ltrch\hich\i\loch\i Reagularity } moving inside you. It is my pleasure Ronald Reagan to present Ronald Reagan to you Ronald Reagan, Ronald Reagan, Ronald Ronald Reag
+an, Ronald,  Reagan, Ronald  Reagan-Reagan, Reagan Reagan Reagan Ronald Reagan, Ronald Ronald Ron Ronny \'93Dutch\'94 Reagan. Ronald. Reagan... Ronald Reagan...}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ab\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\b\loch\f4\fs24\lang1033\b {\rtlch \ltrch\loch  }{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b CHAIRWOMAN & CURATOR:  Thank you Mr. Mayor, and hello viewers in the home. How do you do? I am well, thank you. Now, it is my playsure as Chair and Committee of the Reagan Remembrancehood of McKraken and the Preservation Society of same, to preside over t
+his momentus union of the Reagan Remembrancehood and also the Preservation Society, of same. This merger comes during difficult times for both and for morality, therefore we think it is wise to combine the value represented by the former with the city coun
+cil mandated authority of the latter. And, additionally, we ask you a favor, as a way to take part in the occasion, and in our continued heritage. We ask you that you keep our society in your hopes, in your prayers, and in your wills, for all three\u8213\'2dthats's
+ hopes, prayers, and wills\u8213\'2dall three, properly phrased, can having a lasting and eternal effect. For hope is undying, prayers can be post-marked, and a strong will is the very foundation of the future. }
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Oookay,, now without further ados, we take you to McKraken's most pre-eminent cultural and historical landmark, that's correct, the Boyhood Home of Former President Ronal Reagan, for a breif shake down followed by a lively rendition if the most important e
+vent in that institutions history, it's re-opening and commemoration of the Boyhood Home of Former President Ronald Reagan by the second time coming of his namesake, if you count his 9{{\*\updnprop10000}\up10 th} -12{{\*\updnprop10000}\up10 th} years  living at the site collectively as his first. Welcome. A
+nd Thank You. }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b SCENE:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 ...[That scene cont.]}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b SCENE:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0  Mayor's Office... Angie Lou Lee comes to find out just what the dickens is going on.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b SCENE:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0  Angie Lou Lee gives a speech. She says its time the Angel played a significant part.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b SCENE: }}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 The Mayor, COC, and cronies wonder what that means, and talk about the sex of the Angel, and whether or not they should believe the Angel is real, or what.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b SCENE: }}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0  Kitty's Disco Tent. Incomplete.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ai\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\i\loch\f4\fs24\lang1033\i {\rtlch \ltrch\loch\f4\fs24\lang1033\i\b0 Angel has women show up to berate them about the futue of manhood. It seems not gripped in fitting hands. The  turn-out has been short stifled. What by? }
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Woman's bittersweet enemy, by her own recipe: gossip. It got out.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0  Do you know how to pray in codes?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 No.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 No.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 To whom?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 It was Karen, I bet.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 She's afraid. Karen's afraid. }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 He doesn't let that bird out much, so she prattles in the house when she's all aloon.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 His family got a lot of gravity as well. Poor thing. Makes the best plays she can.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 I wouldn't discount her yet. But no doubtin' it, she gave it to Jeb 'thout him askin'.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 'Course what can you expect of a gal that'll wed that kinda shithead.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Oh she don't even realize he is, that's it <{\rtlch\ltrch\hich\i\loch\i long 'it'>}}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ai\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\i\loch\f4\fs24\lang1033\i 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK} Where, pray-ponderance, are your men? Are they warring?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 No, they get along fine, fer the most part, don't they?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 They play wrestle drunk sometimes.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK2}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK2} I don't like this 'play'. Are they warring or not? Where stand they?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 They're unified in a position against.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK3}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK3} Agaisnt, huh? That's a good beginning. What against?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 The conflict. The War its very self. }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK4}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK4} They do battle! If nothing else, they can be relied on to fight when you need em to. The war itself in-deed! All war is essentially in itself. Your men are in conflict all kinda ways, you say? Embroiled in the very pot, the only reward escape. Don't ge
+t me started on men without a battle to fight. I'l never end. Tell me, what is their battle? Name its noble parts, the forces of honor. Against what? Against what? The what of against touches me in my friction sense, right next to sunlight squeezed in the 
+strong arms of Mars. I feel it hotly. Tell me against! Witholding is infertile. Will spoil  your breasts. Cry the noble campaign your men endure, or their fates if you know them. Curse the viler partner of the present strife. Who in this world are the perp
+s of oppression? Sing the clash, if you have to, not how it's rote, but from uninhibited voice, ladies liberty. Is there is a King who stunts the growth of youngsters, or treats his people as if with ignorance, or forgettness, or usurps their labors to wag
+e gains for others? Or who trammels in sport the weak, the minor, or th'third, the poor. What is it, the enemy of your 'gainst?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 The battle is against the battle. The conflict against's self. The war the war. }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK5}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK5} I don't follow. There is some strife to be had?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Oh yes. There is a strife which as a nation we embrace and hate.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 But that conflict is abroad.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK6}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK6} Where to your men go to be dealt manliness?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Oh no! They're against it!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK7}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK7} Against {\rtlch\ltrch\hich\i\loch\i manliness}?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 No. They act very manly.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK8}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK8} Action is manly. What parts of your men are of action. What are the agents, what goes into their againsts? Legs, shoulders, arms, necks?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 No.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK9}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK9} Heads?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Thats a proxy fight.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK10}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK10} Aye-aye, it is, for captains and generals. Are those your husbands?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Not even close.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK11}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK11} But they are suited in uniform?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 You could say that, but not soldierly.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK12}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK12} Not... soldierly...}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 They ain't soldiers.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK13}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK13} But you said there is strife.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 And there is.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK14}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK14} And in this strife, what is their campaign.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 To end it. They wish it wasn't waged.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK15}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK15} Women beware, that's either a lie, or if it isn't then its th'grandest baby of Pathos, which will with salt-water dillute s' beer, the moreso each beer after beer after\u8213\'2dafter is a weakling. What would they do if it were not waged?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Probably the same. Drink and play cards at the table.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK16}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK16} But your men partake none of the battle?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Not really.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK17}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK17} Are they able?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 I reckon so.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Could use the exercise.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK18}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK18} If the men of a nation do not fight the war, nor fight it with fighting, they do not, as they wisely oughta, choose their battles. Pray tell me, by what is this war hailed, such like a boat with an empty  sail?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Home and abroad laws and economics, respectively speakin'.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 A tax on wallets.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK19}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK19} Meanwhile, your mules  stand-by, and stick out their ass ends?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 It's a war of economy they say, and that we can afford it more.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK20}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK20} I'm bored. Where are your men? What do they do? Your man, what does he do? Give me something noble to work with here. Would you call em philosophers, or pontifs, who expound on moral virtues, and give ammunition to tyrant fighters? Are they tribunes fo
+r the the voices that only can peep?  Arbiters of whats equal? Justice keepers who for the common good are themselves slaves to a thing called liberty? Are they image makers who with a naked eye go at a slow stroke? Or writers who apply their giant pens? A
+re they Rhythmeticians? Do they pluck you good and leave your body a' sonata? Are {\rtlch\ltrch\hich\i\loch\i any} of em soothe-doers, agents of nature, who commit themselves to one thing and apply it masterly well, and that's cultivate the soul? NOOO?!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 No, he just manages is all.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Mine did buy an organic zen garden from a certified department and put in our backyard. But locusts ate it.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Mine has a prety low tolerance for weeds, which spring up all over like those man-baby plants. It's personal.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK21}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK21} What is the point of being human! What are they if they do not lead? and afford not to fight, farm, or profess not to art or god? Where is he now? I'd snack on 'em right now, I would.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Probably getting drunk or at a meeting or watching national sports.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ai\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\i\loch\f4\fs24\lang1033\i {\rtlch \ltrch\loch\f4\fs24\lang1033\i\b0 <ANGEL takes big bite of air>}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b SCENE: }}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 ABOUT THE MEN DRINKING THE DEVIL'S HOT SAUCE>}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ab\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\b\loch\f4\fs24\lang1033\b {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b SCENE: The poor estate ask themselved if they'd like to go to the middle class club and fuck around. Of course they do.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b SCENE: }}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Return to women.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK22}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK22} What are your men doing that irresists you to him? }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 He comes only when he wants it and controls hisself by a pill.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK23}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK23} Did you say a pill?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Yeah. And so their told, its a woman's best friend.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 If that were the case it'd be shaped like a heelspur.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK24}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK24} Your men are on the pill?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Its fer his focus. What's so funny?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK25}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK25} All your men are on pills? <nods> Tell me, where does a pill go?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 In's mouth.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 No, his stomch.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 And God knows from there!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK26}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK26} It circulates to all his parts, by digestion, water goes to all over, and food the body attributes. Protiens and minerals and fibers and roots balance a body politic as nature do herself. The afrther down breakdown is for medications its' very partular
+ly special affectations. Water and food he is given for to sweat and bleed, to fuel humanity. Medicine is for the private, but you say he he privates his own privates, do I have you right? Delight, your men, anybody else by their pill diet privations?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 I- I don't know.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 What do you mean?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK27}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK27} Does the outward result of the swallowed flint stone sparkle for others' benefit?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Oh, no. }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 It's just a fix.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK28}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK28} <aside>Sexual Transmissions are all static.Either they believe to have ataine providence or are no longer of the modd to search.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 What was that?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK29}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK29} Praying.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 All out in the open like that?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 We're not in public.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 I meant in front of the rest of us. }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK30}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK30} I must make an assement. To do that I must dig a starting position. Let us start beforewhich no mortal who seeks kingdom can claim to have come. A beginning, the trinity, the chicken, the egg, and the nest. What I mean is, lets erect a foundation, one 
+to sit on, yes. What ashame that the better use of that sittin stage is not to pulse and spin, but to put to on  that famous ponderer lipstick and a wig, and let us think. Tell me: Do your men for you act in any use to where the future shines?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 where?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK31}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK31} Th human issue...}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 What's that?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK32}AH:{\*\bkmkend DDE_LINK32} }}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Alive inside like a jungle at night.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 The what?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 It's a riddle!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK33}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK33} The darkness that breeds first light.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 I think she means vaginas.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Hughf!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Not my-- }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Shoot!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Hah! }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK34}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK34} The Divine allowance.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Alright now there.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Do you mean vaginas?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Is it about the children? }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK35}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK35} Do they with commitment grease their hands and pave the path one ahead o'th' next step?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 No, that you mention it.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Ah! She means progress. Yeah, no thats done for em by a machine.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK36}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK36} A MACHINE! These are your fathers?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 They themselves are waxing robotic, aren't they gals?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Very robotic.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK37}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK37} And like brakemen in the train yard, you oil it for him, provide the fix, when the robot, gone off on clock, walks upon on you?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 They make us feel's the least we could do.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK38}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK38} They make your do's the least you could feel!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 It's just another one of life's twelve or seven minute segments.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0{\rtlch\ltrch\hich\b\loch\b {\*\bkmkstart DDE_LINK39}AH:}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 {\*\bkmkend DDE_LINK39} They're supposed to deserve it first, you birds, and even beforehand earn it! Whrere are your men! What are they doing? I'ddigest them right now if I saw em!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ab\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\b\loch\f4\fs24\lang1033\b {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b {\*\bkmkstart DDE_LINK40}SCENE: {\*\bkmkend DDE_LINK40}Devil and his men show up. A confratation. Losses to both sides, but the angel works devils pretty good, and he likes it.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ab\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\b\loch\f4\fs24\lang1033\b {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b SCENE: Middle class dance club \'93battles and taps\'94. Angie Lou Lee sings a crunk song. Private O. West conducts a crew of dancers to take over the floor, on which some very ritual mating occurs. The dance confontations are club style dance-offs. (Is one of t
+he dancer's a grease-grunged Paul Bunyan with cement blocks for feet?) The lower class has a a grungy tribal dance which revolts the middle classman, and whenever the former encroaches the latter, he shoves the woman in front and moves over. It is a chess 
+game. When all the wives are captured, Private O. West goes in for the upper-middleman. She thoroughly freaks him out, transcends the club and dances mad. Afterwards she feels much more calm and poised. The Mayor (perhaps) and COC/Devil show up, but cannot
+ get a worthwhile position on the battleground.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ab\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\b\loch\f4\fs24\lang1033\b {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b SCENE: Devil's Labor: Angie Lou Lee gives him a script and brief last minute directions. A day in the life as portrayed by the devil. It is not by the looks of it a healthy life. At the end, the devil looks it. Angel shows up and ask him why he does what h
+e does. He responds that that his is not the worlds most enjoyable work.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 
+\par \pard\plain \ltrpar\s3\sa120\ql\rtlch\af4\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 AFTER THE CLUB PARTY MASSACRE}
+\par \pard\plain \ltrpar\s3\sa120\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Mayor calls Angie Lou Lee into his office to discuss the pageant, it's effects, what's her aim. She explains to him in the true fashion of a pageant the people are depicting their own heritage as it relates to them on a scale of 1-10. He doesn't agree it's
+ "historic" enough to warrant all this pageanteering, and she says all that matters is that once its happened... and he says "don't turn this into a temporal argument"... Mayor demands that all processions come by the mayor's office first, and promises bot
+h ways that there'll be no more butting into each other's drama. She argues that she was to have autonomy to run the pageant, and that he should have stayed out. He says the gov't gets to have a message too, don't it, it's called compromise. }
+\par \pard\plain \ltrpar\s3\sa120\ql\rtlch\af4\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 This goes straight into a surprise press meeting (media undressing), where the mayors forces Angie Lou Lee into a compromising position. He flatters her live, and she can't help but enjoy the attention some, ("My eyes aren't enough for her, she needs a cyc
+lops."--Mayor), and thus the mayor co-opts Angie Lou Lee and the pageant, and on top of it all, the midget butts in and asks a few tough questions on Angie Lou Lee before dropping the big question, "Is it true that your are a feminist and a bitch?" The May
+or acts shocked and repudiates the hell out the comment, but what's done is done. She storms out wearing sunglasses.}
+\par \pard\plain \ltrpar\s3\sa120\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Without leaving the Mayors office, the lower estate comes on as if just then watching the address, and they discuss that she was called a bitch on live tv. The mayor speaks again very briefly, as Angie Lou Lee is making her way away from the Mayor's Mansio
+n. The news comes on and reports that Angie Lou Lee appears to have been abducted after leaving the mayors office, as she is bound in red and white strips and hauled off, but that the police can't say for sure. The lower estate reacts (looks like plan B fe
+llas... Condoms? That's plan C, man.) }
+\par \pard\plain \ltrpar\s3\sa120\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 Next to the radio spectrum scene, in the Mayor's Backyard, A poolparty-like party, playing through an series of songs of disparate emotional wavelengths, juxtaposed rather violently, $2 shots, in the end the public is wasted both ways.}
+\par \pard\plain \ltrpar\s3\sa120\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b0 (Ok fellas, plan C)}
+\par \pard\plain \ltrpar\s3\sa120\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s3\sa120\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s3\sa120\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s3\sa120\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \page\pard\plain \ltrpar\s3\sa120\ql\rtlch\af4\afs24\lang255\ab\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\b\loch\f4\fs24\lang1033\b{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b{\ul\ulc0 SCENE}}{\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b : <Mayor addling his way back to give the state of the city-state speech. His cell phone rings>}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ai\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 MAYOR: }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 God damnit! I'm giving the directions now!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 {\rtlch \ltrch\loch\f1\fs24\lang1033\i0\b0 <He struggles in an ecessive fit to remove the cell phone and immediately throws it to the ground enough to smash. A gun-pop or simarly splosive sound effect, very brief\'97it is less important that the sound correspond to the breaking so long as 1) the sound
+ is louder 2) it corresponds more tightly with a flash of light. Messenger re: Public ENTERS and stands where the phone broke. He wears a mask of cloth.>}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ai\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 MAYOR:}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 AH! What the hecho in mexico! }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Are you a genie, that from a blast takes form?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 I wish you were.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Some scrap of that blast granted.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 But I ain't Alladin.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 I only have time for miracles}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 you understand}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 So implode yourself back again.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 I'm a re public messenger}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 and editor of the laundry list}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 o people aggrieved}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 No, reports follow after the advent,}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 you shit head.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 What you say is unscripted,}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 I won't listen.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 I, mayor minot, }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 have official business}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 you better attend to it tenderly}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 You're not in line}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 You're dismissed!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Didn't mean to offend ye}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 but I got this transmission}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 you can read the public}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 after I've addressed 'em.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Won't need to, you'll hear em}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 all pandemonium, furor}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 This' somethin yer gonne want first for sure.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Against your arm of law}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 there has been published word.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Already?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Too super sonic. Fly it back, you jet.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 tongues go fast, but words aint time trav'lers.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 This isn't happening, this isn't happening yet. }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Retreat, retard. Let me speak first. }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Wait yer turn.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 In the end, there was the absurd.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Stop speaking out of time!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 There were shouts heard}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 When you shot unto the herd}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 White birds emegered}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 like a dirge, from the church pews}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 that scared you to turds}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 eww!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 turned your waywards backwards}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 the passwords yer ass hurt}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 when we sew up yer pasture}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 with reactionary action words}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 n' cast barb planned to cause your plasma barn excrutaiting mental harm.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 What the-- Sound the alarm chairmen!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Relax, and prepare uncle sam}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Too see the hundreds pulling our their public hair}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 in the pubic square, the National Mall}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 what're they doing there?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 All heads burning, declaring depsair}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 demanding repair o'th' states of affair.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Do you know what stats on fear, served,}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 make presently clear, sir,}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 about the synapse fiend}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 once's feelers are fried?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 A few refuse}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 two's run}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 one's hide}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 That's all for flight.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 most e plribus unum Fighters}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 stand in service body-unified}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Ready to abide, in order? There's a surprise.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Aye, aye.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Wait, what do they decide?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 How do I put this:}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 homocide or or \'93the other guys\'94?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 I'ts been prefixed, god picked }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 who the 'cide was}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Presidents, Chief men, war moguels, Reginalds, }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 And what about the lesser general?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 They're in the will o'th' earth to inherit it remember?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Democratic heresy! I'll have your citizenship.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Retreat, you, retard! With words for the city-state!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 This messager, I, mayor Minot, repudiate. }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 When the time comes.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 May God bless the true American Estate.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ul\ulc0\ql\rtlch\afs24\lang255\ab\ltrch\dbch\langfe255\hich\fs24\lang1033\b\loch\fs24\lang1033\b 
+\par \page\pard\plain \ltrpar\s1\ul\ulc0\ql\rtlch\afs24\lang255\ab\ltrch\dbch\langfe255\hich\fs24\lang1033\b\loch\fs24\lang1033\b {\rtlch \ltrch\loch\f1\fs24\lang1033\i0\b SIGHTING TWO}
+\par \pard\plain \ltrpar\s1\ul\ulc0\ql\rtlch\afs24\lang255\ai\ab\ltrch\dbch\langfe255\hich\fs24\lang1033\i\b\loch\fs24\lang1033\i\b 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ai\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Hello, hi, how do you do?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Good too see}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 again and again}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 we've spoken}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 I knew your father}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 on the phone}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 on the subject}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 on the way}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 see how it goes}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 good man, good man}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 better management}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 great investment}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Coin toss to that}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 much obliged}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 what'll you call it?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 We'll call it after you.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 My good name.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Company first.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Hup!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 {\rtlch \ltrch\loch\f1\fs24\lang1033\i0\b0 <A high coin toss, a handshake while it flies. It lands in an open palm. They look inside>}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ai\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 In your palm a tail.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Heads. Heads it is.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Heads it is!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 {\rtlch \ltrch\loch\f1\fs24\lang1033\i0\b0 <Palm finishes the toss by slapping it over on the back of the other hand (still shaking)>}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ai\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Heads it is! }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Heads win, heads win!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Send it to the printers.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 and the great Golden Mint.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Thank you, you contribute. }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Duty, duty.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Now matter how it fliips.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Two sides to the same coin.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 You may also like to try angles.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Ho-ly trin-trinity trin-trinity trin-trinity}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 once twice three alarm'd angels}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 A Patriot.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Patriot. Patriot.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Patriot. Patriot.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Patriot. Patriot.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 First shift.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Take it easy boss}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Hey don't yankee me!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Ser-vice.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Sumbitch!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 all hands heave hauls, bear palls}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 palms up now}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 hope makes a light load}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 pray for grace }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 I did, but the enemy }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 invoked the same}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 right back in my face}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 a host of just gods!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 truth in liberty!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 better judgements }
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 call the police!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 fair policy}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 decence for all}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 a mean media}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 and minimum wage}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 sub prime, flat tax, low bridge, bottom line, cut rates}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 {\rtlch \ltrch\loch \'93}{\rtlch \ltrch\loch\f1\fs24\lang1033\i0\b0\ltrch\hich\i\loch\i Mark 'twain!\'94}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Two meters o'th' people}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Six leagues under!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Spelunk it!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 A mirror at the end of the tunnel.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Mine! Mine! Mine!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 The bird breathes gas!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Hell!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 We better hide hides i'th' high rise}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Exercise}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 The business end}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 A tax hike}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Down with you}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 The southside}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 knuckle sandwich}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 raw hide}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 anthing else?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 French fries.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 An ice pack}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 and six cans}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 A nice pick}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 You get served.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 A law suit.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 a long story}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 scared stiff}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 How do you stand?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 statue-tory}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 arrest his casement}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Purjerer!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Heave, heave}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Purgatory!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 The pleabargain basement.}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 What'll ya have?}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Whatev ya have, i'll take it}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 A little inspiration}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 ahem, a round of drinks on me}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 hurray hurray!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Vacate, vacate}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\i\loch\fs24\lang1033\i {\rtlch \ltrch\loch\f1\fs24\lang1033\i\b0 Vacation!}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ab\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\b\loch\f4\fs24\lang1033\b 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\loch\f4\fs24\lang1033 
+\par \pard\plain \ltrpar\s1\ql\rtlch\af4\afs24\lang255\ab\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\b\loch\f4\fs24\lang1033\b {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b SCENE:  Mayor gives a nervous speech. Despite his own assertions in the last scene, the mayor is overcome with anxiety and fear. He wonders if he should read the speech, for it was written by his speech writer. In th audience are the poor estate, with \'93eye
+s full o terrorism\'94 The Mayor is so nervous he can barely deliver. That's what was in for him. He is muliated and blames Angie Lou Lee and everybody but himself (the mayor is a child). He fits to burst}
+\par \pard\plain \ltrpar\s1\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s3\sa120\ql\rtlch\af4\afs24\lang255\ab\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\b\loch\f4\fs24\lang1033\b {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b The abductors have a short scene with Angie Lou Lee, bounded. She is feeling tired, losing energy at dusk }
+\par \pard\plain \ltrpar\s3\sa120\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\b\loch\f4\fs24\lang1033\b {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b Commerical for the Army's iTeam.}
+\par \pard\plain \ltrpar\s3\sa120\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\b\loch\f4\fs24\lang1033\b {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b The Mayor in his fit declares war-if-they-want-it. He seeks divine resources and is vouchesafed a heavenly message interjected. The Biship is in exchange paid a duffel bag inside which something moves.}
+\par \pard\plain \ltrpar\s3\sa120\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\b\loch\f4\fs24\lang1033\b {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b SCENE: The Angel wrapped in strips, which are ripped, stretched, bulging, turgid but still serving as a cryssalid. Smoking boots litter the ground. The devil enters, with a red hot. Throughout this scene the angel masters him while bound and with almost no
+ range of motion. She demands and devours his red hot, though to get close to her is dangerous. Eventually, hot, he cannot help himself but disrobe her (whoops). They try to make love the human way at first, but each kiss scalds, burns, hurts, is a sensati
+on they can't sustain for long each time. They force themselves apart and crash back together with increasing violence. }
+\par \pard\plain \ltrpar\s3\sa120\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\b\loch\f4\fs24\lang1033\b {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b The low estate hears thunder. They agree that's the signal.}
+\par \pard\plain \ltrpar\s3\sa120\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\b\loch\f4\fs24\lang1033\b {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b SCENE: Re-enactment '69. A farse. Players act like retareded hippies summer of love. Pathetic and wincing scenes try love making, but are left shameful. to placate it all the peace sign lifestyle is pushed prominent. This is a political commerical. A voice
+ over declares that scene as the concept of the Mayor. The mayor knows peace and what it takes to keep it, says the message. Something something something. The mayor is shown to be a mash up hollywood fanstasies. The scene piece by piece equips him idealog
+ically with costume and heroic power conmesnurate. He goes by the name Cool Hand Skywalker and becomes very bombastic and truculent, warning everybody to behave.}
+\par \pard\plain \ltrpar\s3\sa120\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\b\loch\f4\fs24\lang1033\b {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b Mountainous thunder as the devil and angel smash into each other.}
+\par \pard\plain \ltrpar\s3\sa120\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\b\loch\f4\fs24\lang1033\b {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b Cool Hand Skywalker on the mayor's stoop, rending citizens, demons at his side. He swats them down in rhymic procession, each swipe a death, the dead rolling away and getting in line again.}
+\par \pard\plain \ltrpar\s3\sa120\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\b\loch\f4\fs24\lang1033\b {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b The Angel, red and silver in the face, glistening, mustard and relish down her chin, also glistening. She is tasting her mouth contentedly. The low folks arrive and take knees about her. Their costumes have changed little (soldier, hillbilly, rappers, etc)
+. Except for some extra flourish, they are what they were. Private O. West stands, presents herself to the Angel, bid rise the rest of them. They prep talk battle. The Angel's wings open to their uproar. }
+\par \pard\plain \ltrpar\s3\sa120\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\b\loch\f4\fs24\lang1033\b {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b BATTE: The Mayor's Stoop. This battle has a formation at a stand off, rank and file. Angel, Private O. West, the estatesmen v. Cool Hand Skywalker, headless devil, demonarchy. Juke. The low ranks carry guns: a rifleman and a pistolero each side. The riflem
+an do a dance, the pistols tussle. The rifles get too close to have a shot, the barrels protruding through the armits of the enemy and out the other side; they each try backing up for a shot, but it also puts them in danger, so they close in again, like bo
+xers. The pistols are in a constant stand off, always aiming at one another even as they try to free themselvs from the others target. They end up in a grapple, rolling around on the floor, each gun against the other's head. Moans and warcries mingle. The 
+dead are reborn. Devil strikes and kills indiscriminately. Private O. West beguiles and frightens. The Angel and Mayor dance, move and imbue. B/C devil takes from both sides, the GOOD GUYS gain over the course a slight advantage. The Angel encroaches, the 
+Mayor, I mean Cool Hand Skywalker in circled. He is actually very inneffectual, and the ony thing he can do now is put his hands over his face, which is good enough for a sport. Eventuall, however, after getting bandied about the circle by the players, an 
+arm comes lose, the Angel grabs it, sumsumsum, and rips it off. Blue blood everywhere. The mayor runs off crying. War woops and victory yawps.}
+\par \pard\plain \ltrpar\s3\sa120\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\b\loch\f4\fs24\lang1033\b {\rtlch \ltrch\loch\f4\fs24\lang1033\i0\b On the battlefireld. Cooter telling a humorous tale around the fire after dinner to a full and content audience:}
+\par \pard\plain \ltrpar\s3\sa120\ql\rtlch\af5\afs24\lang255\ab\ltrch\dbch\langfe255\hich\f5\fs24\lang1033\b\loch\f5\fs24\lang1033\b {\rtlch \ltrch\loch \'93 }{\rtlch \ltrch\loch\f5\fs24\lang1033\i0\b There was a young soldier there, lying to the side of the road, in the vicinity where a battle was happenin'. What was he doing there, I can't say, cuz i don't know, except I know he was off the road some cuz the foliage was the more comfortable a place 
+to lay, or it might be thats where he flew after his head got blown off--err... wait, no, not like that, that's not how it went, gee whiz I messed up from the beginning. Lemme do that over--he lay to the side of the road cuz he landed there from landmine w
+hat blew his leg off---that's what it was, he lost his leg, and thats why he was lying there, so he could apply unto himself a turn-a-kit.  Guess I did know what he was doing there, I'll hafta 'member that. It's also probly he didn't want to risk his other
+ leg on the road, either, get it run over. Or get run up on by the enemy. And what with land mines and all he was probably a lil road weary, all in all. I can tell ya from firsthand experience that layin in the bushes really ain't that discomforting whethe
+r yer drunk or just got yer leg shot off, in fact can be quite nice except fer spiders and creepers. I said it was shot, but I meant detonated. The soldier, he wasn't dead layin there, but hardly was he moving on what with one's his legs already reporting 
+to the mortuary--there was no saving it. But otherwise he wasn't so bad off, 2 out of 3 healths ain't bad, them being the heart and head. Then again, come to think of it, the soldier who come along and carried him off to safety--I'll be gettin to that part
+ in a sec--he said, maybe, that the wounded one might have been delerious, but you can't blame him if his mind flies off cuz it aint got the stomach to stick around. And yet on the other hand, for mind you he still had both o'those, you'd think having lost
+ a leg he'd assign the remainder of his stock to his noggin. For it stands that a vet whose loss by wound experiences extra wit can take the podium o'politics, a medallion showin all nice for the likes of valiant men, and a crutch can be relied upon to rea
+ch out and touch the women. And plus the liberals will adopt for their causes any blasted victim, you know how they do. Anyway, the young man, whose name I forget--they all look the same to me--likely he suffered himself a little shock and maybe even 'cuss
+ed himself, but he must have worn his wherewithals right enough to ask a soldier passerby for help--the one from earlier whom I mentioned would by and by show up--he yells up at 'em, the wounded one, yells, "Friend!" He yelled it from the bushes, "Friend!"
+ recognizing the passerby, as such, an ally, "Friend!" and the friend all surprised starts and flash draws his rifle n takes aim at the legless one in the twigs twixt 's eyes, who yells again god knows what at the prospect he might incur more metal hotly p
+ropelled, but because he wore camouflage and ambushed his saver with yawps, the latter did fire upon him one burst quickly triggered, and off goes the kids headpiece, finally, which was loosely unbuckled out of comfort. Plunk! It went, and ricocheted off a
+ tree and farther into natureland But the kid remained in the quick, no mortal incursion was made, or else the brave and noble soldier would be the tragic villain of this story, and not the heroic one. He dropped his rifle and scurried to the side of the f
+allen man, all curses and apologies. He couldn't be blamed even if he had kilt em, cuz, you know, one's nerves in battle extend beyond the corpus itself not unlike antennae, so that a breeze from a kiss blowed by a lover afar at safe harbor will jilt a bod
+y something chaotic. Well, like the good book says, all's wells that ends it. Then after that, says on soldier, it will be obvious which, "Can I enlist your service, brother, to bear me back to the tent with a red cross, as you can see I'm too injured to w
+alk." And that too was obvious, for all the blood, rags and the extreme gap in the man's symmetry. The able one 'mediately assented to the duty, no badged man would not. He took care to hoist em up, sort of in a bear hug n sorta slung over like so, and wit
+h a sturdy trot went back the way he came, by and by again, through the melee of combat that still raged, on he went, through automatic rifle firings, led in the air and the chirps of terminal velocity, bursts of bark. While the runner bore down and hunche
+d over, the wounded, unable to bear the commotion from an unkowin' perspective, winks up and the gauge of a howitzer grazes his neck and offs with his head. The load lost, however, went unbeknownst to the other. Until he clears the worst and reaches back o
+f the brigade, all sweat and heart throbbings, when his seargant hails him sayin' "Whoa-ho! heedless horseman! Why heft you that canonized Hessian?" and the soldier stops, as such a one will do by a ranking officer, and says, "I came 'cross him lying in a 
+ditch and if I don't get him to medic shortly, why, his wife's life's insured for sure!" and then patting the dead man on the cheek like so, says "for he's lost a good half his bottom." And the seargant says, "That bottom's for naught, you retard, he's top
+less!" The soldiers is all, what d'ya mean, cuz he hain't noticed, and looks awry his shoulders, like so, at th'other pair he's holding, from which horizon no round thing rises, or bobs for that matter. Then he unloads his burden in surprise, looks again, 
+kicks the dirt and curses, and cries.{\rtlch\ltrch\hich\fs40\loch\fs40 \'94}}
+\par \pard\plain \ltrpar\s3\sa120\ql\rtlch\afs24\lang255\ltrch\dbch\langfe255\hich\fs24\lang1033\loch\fs24\lang1033 
+\par \pard\plain \ltrpar\s3\sa120\ql\rtlch\af5\afs24\lang255\ltrch\dbch\langfe255\hich\f5\fs24\lang1033\loch\f5\fs24\lang1033 {\rtlch \ltrch\loch\f5\fs24\lang1033\i0\b0 Paul Bunyan leans over to Angie Lou Lee and says, \'93hold on, didn't he say it was his leg?\'94}
+\par \pard\plain \ltrpar\s3\sa120\ql\rtlch\af4\afs24\lang255\ab\ltrch\dbch\langfe255\hich\f4\fs24\lang1033\b\loch\f4\fs24\lang1033\b 
+\par }

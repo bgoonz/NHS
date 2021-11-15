@@ -1,0 +1,1048 @@
+          #stackvm
+16:17 -!- Mso150 [~ctlM@80.83.239.38] has quit [Ping timeout: 258 seconds]
+16:17 -!- Mso150 [~ctlM@80.83.238.60] has joined #stackvm
+16:26 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has joined
+          #stackvm
+16:31 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has quit
+          [Ping timeout: 260 seconds]
+16:36 -!- twokul_ is now known as twokul
+16:37 -!- rcsole [~rcsole@vpn1.macnetix.com] has joined #stackvm
+16:52 < ovef> is it duktape?
+16:01 -!- shama [~shama@c-73-164-214-148.hsd1.or.comcast.net] has joined
+          #stackvm
+16:05 < ogd> lol
+16:09 -!- yoshuawuyts [~Lingo@50708AF0.static.ziggozakelijk.nl] has joined
+          #stackvm
+16:14 -!- yoshuawuyts [~Lingo@50708AF0.static.ziggozakelijk.nl] has quit [Ping
+          timeout: 272 seconds]
+16:14 -!- pfraze [~pfraze@2605:6000:e900:d200:e8:f3de:e660:df9c] has quit [Ping
+          timeout: 258 seconds]
+16:17 -!- pfraze [~pfraze@2605:6000:e900:d200:e8:f3de:e660:df9c] has joined
+          #stackvm
+16:17 -!- Mso150 [~ctlM@80.83.239.38] has quit [Ping timeout: 258 seconds]
+16:17 -!- Mso150 [~ctlM@80.83.238.60] has joined #stackvm
+16:26 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has joined
+          #stackvm
+16:31 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has quit
+          [Ping timeout: 260 seconds]
+16:36 -!- twokul_ is now known as twokul
+16:37 -!- rcsole [~rcsole@vpn1.macnetix.com] has joined #stackvm
+16:52 < ovef> is it duktape?
+16:52 < ovef> wow
+16:53 < ovef> looks like you already started writing libuv bindings
+17:02 < ovef> like a year ago
+17:10 < creationix> yep
+17:11 < creationix> project lays dormant for over a year, I tweet about it and
+                    nothing happens
+17:11 < creationix> I mention it to TJ and suddenly its hot stuff
+17:15 < ovef> lol. tj is planet
+17:22 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has joined
+          #stackvm
+17:25 -!- Mso150 [~ctlM@80.83.238.60] has quit [Ping timeout: 245 seconds]
+17:46 -!- kriskowal [~kris@8.26.157.128] has quit [Quit: kriskowal]
+17:47 -!- pfraze [~pfraze@2605:6000:e900:d200:e8:f3de:e660:df9c] has quit
+          [Remote host closed the connection]
+17:51 -!- kriskowal [~kris@8.26.157.128] has joined #stackvm
+17:52 -!- kriskowal [~kris@8.26.157.128] has quit [Client Quit]
+17:52 -!- pfraze [~pfraze@2605:6000:e900:d200:e8:f3de:e660:df9c] has joined
+          #stackvm
+16:17 -!- pfraze [~pfraze@2605:6000:e900:d200:e8:f3de:e660:df9c] has joined
+          #scuttlebutt
+16:17 -!- williamcotton [~williamco@c-24-5-80-236.hsd1.ca.comcast.net] has
+          joined #scuttlebutt
+16:37 -!- rcsole [~rcsole@vpn1.macnetix.com] has joined #scuttlebutt
+16:40 < rcsole> pfraze: thanks for taking the time to explain it!
+16:42 < pfraze> rcsole: no prob
+17:21 -!- tictacjoe [~JohnDotAw@216.201.168.18] has quit [Remote host closed
+          the connection]
+17:44 -!- williamcotton [~williamco@c-24-5-80-236.hsd1.ca.comcast.net] has quit
+          Connection reset by peer]
+18:12 -!- oldskirt_ [~oldskirt@unaffiliated/frodenius] has joined #stackvm
+18:14 -!- pfraze [~pfraze@2605:6000:e900:d200:e8:f3de:e660:df9c] has quit
+          [Remote host closed the connection]
+18:15 -!- contrahax [~contrahax@162.245.23.136] has quit [Quit: Sleeping]
+18:16 < jjjohnny_> mikolalysenko_: http://tobyschachman.com/Shadershop/
+18:16 < jjjohnny_> is that kewl or nah
+18:17 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has quit
+          [Quit: peutetre]
+18:32 -!- toddself is now known as toddself_zz
+18:44 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has quit
+          [Remote host closed the connection]
+18:58 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has joined
+          #stackvm
+18:58 -!- rcsole [~rcsole@vpn1.macnetix.com] has quit [Remote host closed the
+          connection]
+19:00 -!- ircretary [~ircretary@165.225.132.207] has quit [Remote host closed
+          the connection]
+19:00 -!- ircretary [~ircretary@165.225.132.207] has joined #stackvm
+19:09 -!- pfraze [~pfraze@2605:6000:e900:d200:9538:be67:46f5:977b] has joined
+          #stackvm
+19:11 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has joined #stackvm
+19:11 -!- oldskirt_ [~oldskirt@unaffiliated/frodenius] has quit [Ping timeout:
+          260 seconds]
+19:14 -!- pfraze [~pfraze@2605:6000:e900:d200:9538:be67:46f5:977b] has quit
+          [Remote host closed the connection]
+19:24 -!- michaelrhodes [~michaelrh@14-203-124-14.tpgi.com.au] has joined
+          #stackvm
+19:25 -!- reqshark__ [~reqshark@pool-98-113-133-5.nycmny.fios.verizon.net] has
+          joined #stackvm
+19:25 -!- pfraze [~pfraze@2605:6000:e900:d200:403d:2ec6:9da4:55ca] has joined
+          #stackvm
+19:29 -!- reqshark_ [~reqshark@pool-98-113-133-5.nycmny.fios.verizon.net] has
+          quit [Ping timeout: 258 seconds]
+19:29 -!- reqshark__ [~reqshark@pool-98-113-133-5.nycmny.fios.verizon.net] has
+          quit [Ping timeout: 250 seconds]
+19:37 -!- AvianPhone [~AvianPhon@2600:1010:b018:3886:fc11:dbd4:ee35:8ae5] has
+          joined #stackvm
+19:37 -!- warbrett [~warbrett@wsip-70-166-103-182.ph.ph.cox.net] has quit
+          [Remote host closed the connection]
+19:42 -!- toddself [~toddself@pool-173-68-17-221.pghkny.fios.verizon.net] has
+          joined #stackvm
+19:50 -!- toddself [~toddself@pool-173-68-17-221.pghkny.fios.verizon.net] has
+          quit []
+19:54 -!- ovef [~onur@unaffiliated/ovef] has quit [Ping timeout: 252 seconds]
+19:56 -!- domanic [~domanic@dslb-094-223-111-015.094.223.pools.vodafone-ip.de]
+          has joined #stackvm
+19:56 -!- ovef [~onur@95.85.60.29] has joined #stackvm
+19:58 < jden> anyone have a good reco for a module to pipe a blob to s3?
+20:00 < substack> jden: https://www.npmjs.org/package/s3-blob-store
+20:01 -!- CoderPuppy [~cpup@32.218.117.187] has joined #stackvm
+20:01 -!- cpup [~cpup@32.218.115.121] has quit [Ping timeout: 255 seconds]
+20:01 < jden> substack: ty i knew there must be a good one; there are a ton of
+              garbage ones on npm that mess up search
+20:13 -!- Maciek416 [~Maciek@c-71-193-203-43.hsd1.or.comcast.net] has quit
+          [Ping timeout: 240 seconds]
+20:15 -!- Maciek416 [~Maciek@2601:7:2100:2c1:f1f5:90e5:c351:f482] has joined
+          #stackvm
+20:26 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has quit [Ping timeout:
+          260 seconds]
+20:40 -!- pfraze [~pfraze@2605:6000:e900:d200:403d:2ec6:9da4:55ca] has quit
+          [Remote host closed the connection]
+20:46 -!- reqshark__
+          [~reqshark@209-150-46-107.c3-0.wsd-ubr2.qens-wsd.ny.cable.rcn.com]
+          has joined #stackvm
+20:47 -!- reqshark__ is now known as reqshark
+20:55 -!- pfraze [~pfraze@2605:6000:e900:d200:f443:bf82:d4c1:e951] has joined
+          #stackvm
+20:59 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au]
+          has joined #stackvm
+21:10 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has quit
+          [Remote host closed the connection]
+21:15 -!- AvianPhone [~AvianPhon@2600:1010:b018:3886:fc11:dbd4:ee35:8ae5] has
+          quit [Quit: Bye]
+21:15 -!- AvianPhone [~AvianPhon@2600:1010:b018:3886:fc11:dbd4:ee35:8ae5] has
+          joined #stackvm
+21:22 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has joined #stackvm
+21:27 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has quit [Ping timeout:
+          256 seconds]
+21:37 -!- jxson [jxson@nat/google/x-dmvwfeftppppstuu] has quit [Ping timeout:
+          244 seconds]
+21:43 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has joined
+          #stackvm
+21:47 -!- domanic [~domanic@dslb-094-223-111-015.094.223.pools.vodafone-ip.de]
+          has quit [Ping timeout: 264 seconds]
+21:48 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has quit
+          [Ping timeout: 260 seconds]
+21:50 < substack> now running graphical programs from inside docker
+21:50 < pfraze> xwindows?
+21:52 < substack> over ssh -Y
+21:54 < AvianPhone> substack you can do that by mounting the x11 unix socket
+                    inside the container too
+21:54 < AvianPhone> I've run games that way
+21:54 < AvianPhone>  /tmp/.X11-unix/ or whatever
+21:56 < substack> I tried that at first but couldn't get it to work
+21:56 < mikolalysenko_> jjjohnny_: it looks like fun
+21:56 < mikolalysenko_> personally I'm not a huge fan of graphical code
+                        editors, but I like the presentation and the visual
+                        feedback
+21:57 -!- dguttman [~david@cpe-23-243-122-11.socal.res.rr.com] has quit [Quit:
+          dguttman]
+22:04 < AvianPhone> substack did you set up the perms with xhost? I think
+                    that's the other step I needed
+22:04 < AvianPhone> then again docker 1.3 may have just broken that approach
+22:07 -!- contrahax [~contrahax@162.245.23.136] has joined #stackvm
+22:10 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          quit [Quit: thealphanerd]
+22:11 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has joined #stackvm
+22:15 -!- AvianPhone [~AvianPhon@2600:1010:b018:3886:fc11:dbd4:ee35:8ae5] has
+          quit [Quit: Bye]
+22:16 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has quit [Ping timeout:
+          244 seconds]
+22:17 -!- Mso150 [~ctlM@80.83.238.122] has joined #stackvm
+22:22 -!- contrahax is now known as _contrahax
+22:29 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has joined
+          #stackvm
+22:33 -!- ovef [~onur@95.85.60.29] has quit [Changing host]
+22:33 -!- ovef [~onur@unaffiliated/ovef] has joined #stackvm
+22:34 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has quit
+          [Ping timeout: 256 seconds]
+22:38 -!- Mso150 [~ctlM@80.83.238.122] has quit [Ping timeout: 252 seconds]
+22:39 -!- Mso150 [~ctlM@80.83.239.74] has joined #stackvm
+22:49 -!- Mso150 [~ctlM@80.83.239.74] has quit [Ping timeout: 255 seconds]
+22:57 -!- pfraze [~pfraze@2605:6000:e900:d200:f443:bf82:d4c1:e951] has quit
+          [Remote host closed the connection]
+23:12 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has joined #stackvm
+23:17 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has quit [Ping timeout:
+          265 seconds]
+23:21 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has joined
+          #stackvm
+23:45 -!- stagas [~stagas@ppp-2-87-7-16.home.otenet.gr] has quit [Ping timeout:
+          244 seconds]
+23:55 -!- DamonOehlman1 [~Thunderbi@stargate.it.nicta.com.au] has joined
+          #stackvm
+23:56 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au]
+          has quit [Ping timeout: 245 seconds]
+Day changed to 05 Dec 2014
+00:05 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has quit
+          [Remote host closed the connection]
+00:08 -!- tixz [~tixz@ppp118-210-240-171.lns20.adl6.internode.on.net] has
+          joined #stackvm
+00:13 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has joined #stackvm
+00:17 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has quit [Ping timeout:
+          245 seconds]
+00:18 -!- shama [~shama@c-73-164-214-148.hsd1.or.comcast.net] has quit [Remote
+          host closed the connection]
+00:19 -!- anvaka [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has joined
+          #stackvm
+00:25 -!- shama [~shama@c-73-164-214-148.hsd1.or.comcast.net] has joined
+          #stackvm
+00:28 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au]
+          has joined #stackvm
+00:28 -!- DamonOehlman1 [~Thunderbi@stargate.it.nicta.com.au] has quit [Ping
+          [~reqshark@209-150-46-107.c3-0.wsd-ubr2.qens-wsd.ny.cable.rcn.com]
+          has joined #stackvm
+20:47 -!- reqshark__ is now known as reqshark
+20:55 -!- pfraze [~pfraze@2605:6000:e900:d200:f443:bf82:d4c1:e951] has joined
+          #stackvm
+20:59 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au]
+          has joined #stackvm
+21:10 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has quit
+          [Remote host closed the connection]
+21:15 -!- AvianPhone [~AvianPhon@2600:1010:b018:3886:fc11:dbd4:ee35:8ae5] has
+          quit [Quit: Bye]
+21:15 -!- AvianPhone [~AvianPhon@2600:1010:b018:3886:fc11:dbd4:ee35:8ae5] has
+          joined #stackvm
+21:22 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has joined #stackvm
+21:27 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has quit [Ping timeout:
+          256 seconds]
+21:37 -!- jxson [jxson@nat/google/x-dmvwfeftppppstuu] has quit [Ping timeout:
+          244 seconds]
+21:43 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has joined
+          #stackvm
+17:47 -!- pfraze [~pfraze@2605:6000:e900:d200:e8:f3de:e660:df9c] has quit
+          [Remote host closed the connection]
+17:51 -!- kriskowal [~kris@8.26.157.128] has joined #stackvm
+17:52 -!- kriskowal [~kris@8.26.157.128] has quit [Client Quit]
+17:52 -!- pfraze [~pfraze@2605:6000:e900:d200:e8:f3de:e660:df9c] has joined
+          #stackvm
+17:54 -!- kriskowal [~kris@8.26.157.128] has joined #stackvm
+17:59 -!- phated [~phated@wsip-70-166-103-182.ph.ph.cox.net] has quit [Remote
+          host closed the connection]
+18:01 -!- kriskowal [~kris@8.26.157.128] has quit [Quit: kriskowal]
+18:02 -!- phated [~phated@wsip-70-166-103-182.ph.ph.cox.net] has joined #stackv
+m
+18:03 -!- phated [~phated@wsip-70-166-103-182.ph.ph.cox.net] has quit [Remote
+          host closed the connection]
+18:03 < jjjohnny_> creationix: would be neat to see duktape used with levelDB
+                   for scripting like redis/lua
+18:04 < jjjohnny_> probably would make levelDB much the more awesome
+18:12 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has quit [Read error:
+          Connection reset by peer]
+18:12 -!- oldskirt_ [~oldskirt@unaffiliated/frodenius] has joined #stackvm
+18:14 -!- pfraze [~pfraze@2605:6000:e900:d200:e8:f3de:e660:df9c] has quit
+          [Remote host closed the connection]
+18:15 -!- contrahax [~contrahax@162.245.23.136] has quit [Quit: Sleeping]
+18:16 < jjjohnny_> mikolalysenko_: http://tobyschachman.com/Shadershop/
+18:16 < jjjohnny_> is that kewl or nah
+18:17 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has quit
+          [Quit: peutetre]
+18:32 -!- toddself is now known as toddself_zz
+18:44 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has quit
+          [Remote host closed the connection]
+18:58 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has joined
+          #stackvm
+18:58 -!- rcsole [~rcsole@vpn1.macnetix.com] has quit [Remote host closed the
+          connection]
+19:00 -!- ircretary [~ircretary@165.225.132.207] has quit [Remote host closed
+          the connection]
+19:00 -!- ircretary [~ircretary@165.225.132.207] has joined #stackvm
+19:09 -!- pfraze [~pfraze@2605:6000:e900:d200:9538:be67:46f5:977b] has joined
+          #stackvm
+19:11 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has joined #stackvm
+19:11 -!- oldskirt_ [~oldskirt@unaffiliated/frodenius] has quit [Ping timeout:
+          260 seconds]
+19:14 -!- pfraze [~pfraze@2605:6000:e900:d200:9538:be67:46f5:977b] has quit
+          [Remote host closed the connection]
+19:24 -!- michaelrhodes [~michaelrh@14-203-124-14.tpgi.com.au] has joined
+          #stackvm
+19:25 -!- reqshark__ [~reqshark@pool-98-113-133-5.nycmny.fios.verizon.net] has
+          joined #stackvm
+19:25 -!- pfraze [~pfraze@2605:6000:e900:d200:403d:2ec6:9da4:55ca] has joined
+          #stackvm
+19:29 -!- reqshark_ [~reqshark@pool-98-113-133-5.nycmny.fios.verizon.net] has
+          quit [Ping timeout: 258 seconds]
+19:29 -!- reqshark__ [~reqshark@pool-98-113-133-5.nycmny.fios.verizon.net] has
+          quit [Ping timeout: 250 seconds]
+19:37 -!- AvianPhone [~AvianPhon@2600:1010:b018:3886:fc11:dbd4:ee35:8ae5] has
+          joined #stackvm
+19:37 -!- warbrett [~warbrett@wsip-70-166-103-182.ph.ph.cox.net] has quit
+          [Remote host closed the connection]
+19:42 -!- toddself [~toddself@pool-173-68-17-221.pghkny.fios.verizon.net] has
+          joined #stackvm
+19:50 -!- toddself [~toddself@pool-173-68-17-221.pghkny.fios.verizon.net] has
+          quit []
+19:54 -!- ovef [~onur@unaffiliated/ovef] has quit [Ping timeout: 252 seconds]
+19:56 -!- domanic [~domanic@dslb-094-223-111-015.094.223.pools.vodafone-ip.de]
+          has joined #stackvm
+19:56 -!- ovef [~onur@95.85.60.29] has joined #stackvm
+19:58 < jden> anyone have a good reco for a module to pipe a blob to s3?
+20:00 < substack> jden: https://www.npmjs.org/package/s3-blob-store
+20:01 -!- CoderPuppy [~cpup@32.218.117.187] has joined #stackvm
+20:01 -!- cpup [~cpup@32.218.115.121] has quit [Ping timeout: 255 seconds]
+20:01 < jden> substack: ty i knew there must be a good one; there are a ton of
+              garbage ones on npm that mess up search
+20:13 -!- Maciek416 [~Maciek@c-71-193-203-43.hsd1.or.comcast.net] has quit
+          [Ping timeout: 240 seconds]
+20:15 -!- Maciek416 [~Maciek@2601:7:2100:2c1:f1f5:90e5:c351:f482] has joined
+          #stackvm
+20:26 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has quit [Ping timeout:
+          260 seconds]
+20:40 -!- pfraze [~pfraze@2605:6000:e900:d200:403d:2ec6:9da4:55ca] has quit
+          [Remote host closed the connection]
+20:46 -!- reqshark__
+          [~reqshark@209-150-46-107.c3-0.wsd-ubr2.qens-wsd.ny.cable.rcn.com]
+          has joined #stackvm
+20:47 -!- reqshark__ is now known as reqshark
+20:55 -!- pfraze [~pfraze@2605:6000:e900:d200:f443:bf82:d4c1:e951] has joined
+          #stackvm
+20:59 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au]
+          has joined #stackvm
+21:10 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has quit
+          [Remote host closed the connection]
+21:15 -!- AvianPhone [~AvianPhon@2600:1010:b018:3886:fc11:dbd4:ee35:8ae5] has
+          quit [Quit: Bye]
+21:15 -!- AvianPhone [~AvianPhon@2600:1010:b018:3886:fc11:dbd4:ee35:8ae5] has
+          joined #stackvm
+21:22 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has joined #stackvm
+21:27 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has quit [Ping timeout:
+          256 seconds]
+21:37 -!- jxson [jxson@nat/google/x-dmvwfeftppppstuu] has quit [Ping timeout:
+          244 seconds]
+21:43 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has joined
+          #stackvm
+21:47 -!- domanic [~domanic@dslb-094-223-111-015.094.223.pools.vodafone-ip.de]
+          has quit [Ping timeout: 264 seconds]
+21:48 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has quit
+          [Ping timeout: 260 seconds]
+21:50 < substack> now running graphical programs from inside docker
+21:50 < pfraze> xwindows?
+21:52 < substack> over ssh -Y
+21:54 < AvianPhone> substack you can do that by mounting the x11 unix socket
+                    inside the container too
+21:54 < AvianPhone> I've run games that way
+21:54 < AvianPhone>  /tmp/.X11-unix/ or whatever
+21:56 < substack> I tried that at first but couldn't get it to work
+21:56 < mikolalysenko_> jjjohnny_: it looks like fun
+21:56 < mikolalysenko_> personally I'm not a huge fan of graphical code
+                        editors, but I like the presentation and the visual
+                        feedback
+21:57 -!- dguttman [~david@cpe-23-243-122-11.socal.res.rr.com] has quit [Quit:
+          dguttman]
+22:04 < AvianPhone> substack did you set up the perms with xhost? I think
+                    that's the other step I needed
+22:04 < AvianPhone> then again docker 1.3 may have just broken that approach
+22:07 -!- contrahax [~contrahax@162.245.23.136] has joined #stackvm
+22:10 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          quit [Quit: thealphanerd]
+22:11 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has joined #stackvm
+22:15 -!- AvianPhone [~AvianPhon@2600:1010:b018:3886:fc11:dbd4:ee35:8ae5] has
+          quit [Quit: Bye]
+22:16 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has quit [Ping timeout:
+          244 seconds]
+22:17 -!- Mso150 [~ctlM@80.83.238.122] has joined #stackvm
+22:22 -!- contrahax is now known as _contrahax
+22:29 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has joined
+          #stackvm
+22:33 -!- ovef [~onur@95.85.60.29] has quit [Changing host]
+22:33 -!- ovef [~onur@unaffiliated/ovef] has joined #stackvm
+22:34 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has quit
+          [Ping timeout: 256 seconds]
+22:38 -!- Mso150 [~ctlM@80.83.238.122] has quit [Ping timeout: 252 seconds]
+22:39 -!- Mso150 [~ctlM@80.83.239.74] has joined #stackvm
+22:49 -!- Mso150 [~ctlM@80.83.239.74] has quit [Ping timeout: 255 seconds]
+22:57 -!- pfraze [~pfraze@2605:6000:e900:d200:f443:bf82:d4c1:e951] has quit
+          [Remote host closed the connection]
+23:12 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has joined #stackvm
+23:17 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has quit [Ping timeout:
+          265 seconds]
+23:21 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has joined
+          #stackvm
+23:45 -!- stagas [~stagas@ppp-2-87-7-16.home.otenet.gr] has quit [Ping timeout:
+          244 seconds]
+23:55 -!- DamonOehlman1 [~Thunderbi@stargate.it.nicta.com.au] has joined
+          #stackvm
+23:56 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au]
+          has quit [Ping timeout: 245 seconds]
+Day changed to 05 Dec 2014
+00:05 -!- rockbot__ [~rockbot__@c-98-207-60-247.hsd1.ca.comcast.net] has quit
+          [Remote host closed the connection]
+00:08 -!- tixz [~tixz@ppp118-210-240-171.lns20.adl6.internode.on.net] has
+          joined #stackvm
+00:13 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has joined #stackvm
+00:17 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has quit [Ping timeout:
+          245 seconds]
+00:18 -!- shama [~shama@c-73-164-214-148.hsd1.or.comcast.net] has quit [Remote
+          host closed the connection]
+00:19 -!- anvaka [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has joined
+          #stackvm
+00:25 -!- shama [~shama@c-73-164-214-148.hsd1.or.comcast.net] has joined
+          #stackvm
+00:28 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au]
+          has joined #stackvm
+00:28 -!- DamonOehlman1 [~Thunderbi@stargate.it.nicta.com.au] has quit [Ping
+          timeout: 240 seconds]
+00:33 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+00:38 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Ping
+          timeout: 264 seconds]
+00:39 -!- knownasilya [uid22190@gateway/web/irccloud.com/x-zlzuuccwwfsltyya]
+          has quit [Quit: Connection closed for inactivity]
+00:45 -!- dguttman [~david@cpe-23-243-122-11.socal.res.rr.com] has joined
+          #stackvm
+01:13 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has joined #stackvm
+01:14 -!- tixz [~tixz@ppp118-210-240-171.lns20.adl6.internode.on.net] has quit
+          [Remote host closed the connection]
+01:18 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has quit [Ping timeout:
+          240 seconds]
+01:34 -!- dguttman [~david@cpe-23-243-122-11.socal.res.rr.com] has quit [Quit:
+          dguttman]
+23:43 <jjjohnny_> la
+ ~ubuntu@ec2-54-200-37-219.us-west-2.compute.amazonaws.com (freenode)
+23:43 <jjjohnny_> la
+23:43 -!- mk30 is now known as mkitty
+23:43 -!- mkitty is now known as mk30
+23:43 <jjjohnny_> la
+23:43 <jjjohnny_> meow
+23:43 <mk30> cat
+23:43 <mk30> cat
+23:43 <mk30> cat
+Day changed to 02 Dec 2014
+12:57 <mk30> http://www.nytimes.com/2014/12/03/world/europe/tugce-albayrak-deat
+h-rattles-germany.html
+14:01 <jjjohnny_> http://www.theguardian.com/world/2010/oct/17/angela-merkel-ge
+rman-multiculturalism-failed
+14:01 <jjjohnny_> "become german" she says
+14:27 <mk30> oh boy
+Day changed to 03 Dec 2014
+17:55 <mk30> http://www.mosaicartsupply.com/mosaic-frequently-asked-questions.a
+spx#Q9
+Day changed to 04 Dec 2014
+Day changed to 05 Dec 2014
+02:20 <jjjohnny_> hey
+ [02:28] [jjjohnny_(+i)] [7:freenode/mk30] [Act: 1,4,5,6,9,10,11,12]
+[mk30]
+          host closed the connection]
+02:41 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has quit
+          [Ping timeout: 264 seconds]
+02:47 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has
+          joined #stackvm
+02:59 -!- michaelrhodes [~michaelrh@14-203-124-14.tpgi.com.au] has quit [Quit:
+          Leaving.]
+03:09 -!- shama [~shama@2601:7:1b80:397:f4de:4f65:b6db:b53e] has joined
+          #stackvm
+03:13 -!- shama [~shama@2601:7:1b80:397:f4de:4f65:b6db:b53e] has quit [Ping
+          timeout: 258 seconds]
+03:15 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has joined #stackvm
+03:17 -!- _contrahax is now known as contrahax
+03:20 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has quit [Ping timeout:
+          265 seconds]
+03:22 -!- devhoag [~willhoag@li603-192.members.linode.com] has joined #stackvm
+03:27 < substack> jjjohnny_: protestors marched all the way up to fruitvale
+03:29 -!- Maciek416 [~Maciek@2601:7:2100:2c1:f1f5:90e5:c351:f482] has quit
+          [Remote host closed the connection]
+03:35 -!- Mso150 [~ctlM@80.83.239.73] has joined #stackvm
+03:42 -!- domanic [~domanic@dslb-094-223-111-015.094.223.pools.vodafone-ip.de]
+          has joined #stackvm
+03:42 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has joined #stackvm
+03:47 -!- rcsole [~rcsole@office.xing.com] has joined #stackvm
+04:07 -!- contrahax [~contrahax@162.245.23.136] has quit [Quit: Sleeping]
+04:09 -!- djcoin [~djcoin@ip-125.net-89-2-68.rev.numericable.fr] has joined
+          #stackvm
+04:09 -!- shama [~shama@c-73-164-214-148.hsd1.or.comcast.net] has joined
+          #stackvm
+04:09 -!- yoshuawuyts [~Lingo@2001:981:a181:1:5dce:4b92:b91d:d07d] has joined
+          #stackvm
+04:13 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #stackvm
+04:14 -!- shama [~shama@c-73-164-214-148.hsd1.or.comcast.net] has quit [Ping
+          timeout: 272 seconds]
+04:25 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has joined
+          #stackvm
+04:30 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has quit
+          [Ping timeout: 258 seconds]
+04:34 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au]
+          has quit [Remote host closed the connection]
+04:49 -!- domanic [~domanic@dslb-094-223-111-015.094.223.pools.vodafone-ip.de]
+          has quit [Ping timeout: 244 seconds]
+04:55 -!- yoshuawuyts [~Lingo@2001:981:a181:1:5dce:4b92:b91d:d07d] has quit
+          [Remote host closed the connection]
+04:56 -!- yoshuawuyts [~Lingo@2001:981:a181:1:5dce:4b92:b91d:d07d] has joined
+          #stackvm
+05:10 -!- shama [~shama@c-73-164-214-148.hsd1.or.comcast.net] has joined
+          #stackvm
+05:15 -!- shama [~shama@c-73-164-214-148.hsd1.or.comcast.net] has quit [Ping
+          timeout: 258 seconds]
+05:19 -!- domanic [~domanic@82.113.121.31] has joined #stackvm
+05:21 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has
+          quit [Ping timeout: 255 seconds]
+05:26 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has joined
+          #stackvm
+05:35 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          quit [Quit: thealphanerd]
+05:37 -!- djcoin [~djcoin@ip-125.net-89-2-68.rev.numericable.fr] has quit
+          [Quit: WeeChat 1.0.1]
+05:42 -!- Mso150 [~ctlM@80.83.239.73] has quit [Ping timeout: 250 seconds]
+06:10 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+06:11 -!- shama [~shama@c-73-164-214-148.hsd1.or.comcast.net] has joined
+          #stackvm
+06:15 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Ping
+          timeout: 252 seconds]
+06:16 -!- shama [~shama@c-73-164-214-148.hsd1.or.comcast.net] has quit [Ping
+          timeout: 264 seconds]
+06:27 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has quit
+          [Quit: fotoverite]
+06:28 -!- stagas [~stagas@athedsl-4415488.home.otenet.gr] has joined #stackvm
+06:58 -!- gorhgorh [~gorhgorh@175.229.207.77.rev.sfr.net] has quit [Quit:
+          gorhgorh]
+07:12 -!- shama [~shama@c-73-164-214-148.hsd1.or.comcast.net] has joined
+          #stackvm
+07:14 -!- toddself [~toddself@173.68.17.221] has joined #stackvm
+07:15 -!- toddself_zz [~toddself@pool-173-68-17-221.pghkny.fios.verizon.net]
+          has quit [Ping timeout: 244 seconds]
+07:16 -!- shama [~shama@c-73-164-214-148.hsd1.or.comcast.net] has quit [Ping
+          timeout: 245 seconds]
+07:53 -!- phated [~phated@216.3.171.22] has joined #stackvm
+08:12 -!- shama [~shama@2601:7:1b80:397:94b2:8823:d70a:5645] has joined
+          #stackvm
+08:17 -!- shama [~shama@2601:7:1b80:397:94b2:8823:d70a:5645] has quit [Ping
+          timeout: 258 seconds]
+08:18 -!- phated [~phated@216.3.171.22] has quit [Remote host closed the
+          connection]
+08:19 -!- phated [~phated@216.3.171.22] has joined #stackvm
+08:23 -!- phated [~phated@216.3.171.22] has quit [Ping timeout: 240 seconds]
+08:37 -!- peutetre [~peutetre@46.115.171.71] has joined #stackvm
+08:42 -!- peutetre [~peutetre@46.115.171.71] has quit [Ping timeout: 272
+          seconds]
+08:52 -!- tixz [~tixz@ppp118-210-240-171.lns20.adl6.internode.on.net] has
+          joined #stackvm
+09:09 -!- domanic [~domanic@82.113.121.31] has quit [Ping timeout: 265 seconds]
+09:13 -!- shama [~shama@2601:7:1b80:397:1cdb:5cc6:a7ae:81a8] has joined
+          #stackvm
+09:15 -!- domanic [~domanic@82.113.121.31] has joined #stackvm
+09:18 -!- shama [~shama@2601:7:1b80:397:1cdb:5cc6:a7ae:81a8] has quit [Ping
+          timeout: 258 seconds]
+09:19 -!- rcsole [~rcsole@office.xing.com] has quit [Remote host closed the
+          connection]
+09:23 -!- rcsole [~rcsole@office.xing.com] has joined #stackvm
+09:29 -!- rcsole [~rcsole@office.xing.com] has quit [Remote host closed the
+          connection]
+09:38 -!- reqshark
+          [~reqshark@209-150-46-107.c3-0.wsd-ubr2.qens-wsd.ny.cable.rcn.com]
+          has quit [Quit: Be back later ...]
+09:43 -!- tixz [~tixz@ppp118-210-240-171.lns20.adl6.internode.on.net] has quit
+          [Remote host closed the connection]
+09:45 -!- knownasilya [uid22190@gateway/web/irccloud.com/x-tvjxnezesthnlrgq]
+          has joined #stackvm
+09:45 -!- rcsole [~rcsole@office.xing.com] has joined #stackvm
+09:47 -!- ovef [~onur@95.10.113.59] has joined #stackvm
+09:51 -!- domanic [~domanic@82.113.121.31] has quit [Ping timeout: 250 seconds]
+09:57 -!- ovef [~onur@95.10.113.59] has quit [Changing host]
+09:57 -!- ovef [~onur@unaffiliated/ovef] has joined #stackvm
+10:08 -!- ovef [~onur@unaffiliated/ovef] has quit [Ping timeout: 252 seconds]
+10:10 -!- ovef [~onur@95.85.60.29] has joined #stackvm
+10:11 -!- gorhgorh
+          [~gorhgorh@AAubervilliers-152-1-13-184.w82-121.abo.wanadoo.fr] has
+          joined #stackvm
+10:14 -!- shama [~shama@2601:7:1b80:397:3177:3c86:2c06:4375] has joined
+          #stackvm
+10:17 -!- reqshark [~reqshark@pool-98-113-133-5.nycmny.fios.verizon.net] has
+          joined #stackvm
+10:17 -!- reqshark [~reqshark@pool-98-113-133-5.nycmny.fios.verizon.net] has
+          quit [Remote host closed the connection]
+10:18 -!- reqshark [~reqshark@pool-98-113-133-5.nycmny.fios.verizon.net] has
+          joined #stackvm
+10:18 -!- shama [~shama@2601:7:1b80:397:3177:3c86:2c06:4375] has quit [Ping
+          timeout: 258 seconds]
+10:22 -!- dguttman [~david@cpe-23-243-122-11.socal.res.rr.com] has joined
+          #stackvm
+10:26 -!- reqshark [~reqshark@pool-98-113-133-5.nycmny.fios.verizon.net] has
+          quit [Quit: Be back later ...]
+10:26 -!- reqshark [~reqshark@pool-98-113-133-5.nycmny.fios.verizon.net] has
+          joined #stackvm
+10:42 -!- ovef [~onur@95.85.60.29] has quit [Ping timeout: 256 seconds]
+10:42 -!- pfraze [~pfraze@2605:6000:e900:d200:3576:3c1c:7e5a:890d] has joined
+          #stackvm
+10:43 -!- gorhgorh_
+          [~gorhgorh@AAubervilliers-152-1-13-184.w82-121.abo.wanadoo.fr] has
+          joined #stackvm
+10:44 -!- gorhgorh
+          [~gorhgorh@AAubervilliers-152-1-13-184.w82-121.abo.wanadoo.fr] has
+          quit [Ping timeout: 244 seconds]
+10:44 -!- gorhgorh_ is now known as gorhgorh
+10:53 -!- Maciek416 [~Maciek@c-71-193-203-43.hsd1.or.comcast.net] has joined
+          #stackvm
+10:57 -!- rcsole [~rcsole@office.xing.com] has quit [Remote host closed the
+          connection]
+10:58 -!- toddself_ [~toddself@70.42.157.30] has joined #stackvm
+10:58 -!- ovef [~onur@95.10.113.59] has joined #stackvm
+10:59 -!- ovef_ [~onur@95.85.60.29] has joined #stackvm
+11:00 -!- ovef [~onur@95.10.113.59] has quit [Disconnected by services]
+11:00 -!- ovef_ is now known as ovef
+11:00 -!- ovef [~onur@95.85.60.29] has quit [Changing host]
+11:00 -!- ovef [~onur@unaffiliated/ovef] has joined #stackvm
+11:04 -!- ovef [~onur@unaffiliated/ovef] has quit [Quit: leaving]
+11:05 -!- ovef [~onur@unaffiliated/ovef] has joined #stackvm
+11:12 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has
+          joined #stackvm
+11:15 -!- shama [~shama@2601:7:1b80:397:55b2:c11e:ffbb:d0ba] has joined
+          #stackvm
+11:19 -!- shama [~shama@2601:7:1b80:397:55b2:c11e:ffbb:d0ba] has quit [Ping
+          timeout: 258 seconds]
+11:20 -!- reqshark [~reqshark@pool-98-113-133-5.nycmny.fios.verizon.net] has
+          quit [Quit: Be back later ...]
+11:29 -!- ovef [~onur@unaffiliated/ovef] has quit [Disconnected by services]
+11:29 -!- ovef_ [~onur@95.85.60.29] has joined #stackvm
+11:32 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has quit
+          [Ping timeout: 265 seconds]
+11:33 -!- pfraze [~pfraze@2605:6000:e900:d200:3576:3c1c:7e5a:890d] has quit
+          [Remote host closed the connection]
+11:35 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has
+          joined #stackvm
+11:36 -!- gorhgorh
+          [~gorhgorh@AAubervilliers-152-1-13-184.w82-121.abo.wanadoo.fr] has
+          quit [Quit: gorhgorh]
+11:39 -!- devhoag [~willhoag@li603-192.members.linode.com] has quit [Ping
+          timeout: 244 seconds]
+11:49 -!- ovef_ [~onur@95.85.60.29] has quit [Ping timeout: 272 seconds]
+11:54 -!- ednapiranha [~ednapiran@ip-64-134-138-182.public.wayport.net] has
+          joined #stackvm
+11:55 -!- pfraze [~pfraze@2605:6000:e900:d200:517e:cf26:22a2:34d6] has joined
+          #stackvm
+12:04 -!- shama [~shama@2601:7:1b80:397:404d:b1cf:f349:faf6] has joined
+          #stackvm
+12:06 -!- fotoverite [~fotoverit@50-201-41-253-static.hfc.comcastbusiness.net]
+          has joined #stackvm
+12:07 -!- ednapiranha [~ednapiran@ip-64-134-138-182.public.wayport.net] has
+          quit [Remote host closed the connection]
+12:08 -!- reqshark [~reqshark@pool-98-113-133-5.nycmny.fios.verizon.net] has
+          joined #stackvm
+12:09 -!- Maciek416 [~Maciek@c-71-193-203-43.hsd1.or.comcast.net] has quit
+          [Remote host closed the connection]
+12:09 -!- Maciek416 [~Maciek@c-71-193-203-43.hsd1.or.comcast.net] has joined
+          #stackvm
+12:15 -!- ovef_ [~onur@95.85.60.29] has joined #stackvm
+12:22 -!- toddself_ [~toddself@70.42.157.30] has quit []
+12:24 -!- Mso150 [~ctlM@80.83.238.71] has joined #stackvm
+12:25 -!- yoshuawuyts [~Lingo@2001:981:a181:1:5dce:4b92:b91d:d07d] has quit
+          [Quit: Be back later ...]
+12:36 -!- toddself_ [~toddself@70.42.157.30] has joined #stackvm
+12:40 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has quit
+          [Ping timeout: 265 seconds]
+12:43 -!- ednapiranha [~ednapiran@12.216.224.110] has joined #stackvm
+12:43 -!- Mso150 [~ctlM@80.83.238.71] has quit [Ping timeout: 250 seconds]
+12:44 -!- Mso150 [~ctlM@80.83.238.73] has joined #stackvm
+13:00 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has
+          joined #stackvm
+13:04 -!- oldskirt_ [~oldskirt@unaffiliated/frodenius] has joined #stackvm
+13:08 -!- oldskirt [~oldskirt@unaffiliated/frodenius] has quit [Ping timeout:
+          244 seconds]
+13:09 < jjjohnny_> substack: i saw after I got back, I was with another group
+                 cleans up
+09:04 < domanic> if you must destroy it from the outside... you can use this:
+                 github.com/dominictarr/pull-abortable
+09:04 < domanic> (just wrote that an hour ago!)
+09:04 < domanic> brb relocating
+09:04 < mafintosh> lol nice
+09:09 -!- domanic [~domanic@82.113.121.31] has quit [Ping timeout: 265 seconds]
+09:15 -!- domanic [~domanic@82.113.121.31] has joined #scuttlebutt
+09:19 -!- rcsole [~rcsole@office.xing.com] has quit [Remote host closed the
+          connection]
+09:23 -!- tictacjoe [~JohnDotAw@99-47-182-197.lightspeed.austtx.sbcglobal.net]
+          has joined #scuttlebutt
+09:23 -!- rcsole [~rcsole@office.xing.com] has joined #scuttlebutt
+09:29 -!- rcsole [~rcsole@office.xing.com] has quit [Remote host closed the
+          connection]
+09:38 -!- reqshark
+          [~reqshark@209-150-46-107.c3-0.wsd-ubr2.qens-wsd.ny.cable.rcn.com]
+          has quit [Quit: Be back later ...]
+09:43 -!- tixz [~tixz@ppp118-210-240-171.lns20.adl6.internode.on.net] has quit
+          [Remote host closed the connection]
+          has joined #scuttlebutt
+03:47 -!- rcsole [~rcsole@office.xing.com] has joined #scuttlebutt
+04:34 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au]
+          has quit [Remote host closed the connection]
+04:44 < null_radix> anyone know what the "phoenix network" is?
+04:46 < krl> null_radix: https://github.com/pfraze/phoenix
+04:49 -!- domanic [~domanic@dslb-094-223-111-015.094.223.pools.vodafone-ip.de]
+          has quit [Ping timeout: 244 seconds]
+04:59 < null_radix> thanks krl!
+05:01 < krl> i'm
+          quit [Ping timeout: 258 seconds]
+15:38 -!- woah [~woah@75-101-111-82.dedicated.static.sonic.net] has joined
+          #scuttlebutt
+15:42 -!- woah [~woah@75-101-111-82.dedicated.static.sonic.net] has quit
+          [Client Quit]
+15:42 -!- williamcotton [~williamco@c-24-5-80-236.hsd1.ca.comcast.net] has
+          joined #scuttlebutt
+15:50 -!- devhoag [~willhoag@li603-192.members.linode.com] has quit [Ping
+          timeout: 252 seconds]
+15:51 -!- woah [~woah@75-101-111-82.dedicated.static.sonic.net] has joined
+          #scuttlebutt
+16:08 -!- williamcotton [~williamco@c-24-5-80-236.hsd1.ca.comcast.net] has
+          quit [Ping timeout: 264 seconds]
+16:11 < null_radix> what the phoenix network?
+16:11 < null_radix> im looking at scuttlebot
+16:14 -!- pfraze [~pfraze@2605:6000:e900:d200:e8:f3de:e660:df9c] has quit
+          [Ping timeout: 258 seconds]
+16:17 -!- pfraze [~pfraze@2605:6000:e900:d200:e8:f3de:e660:df9c] has joined
+          #scuttlebutt
+16:17 -!- williamcotton [~williamco@c-24-5-80-236.hsd1.ca.comcast.net] has
+          joined #scuttlebutt
+16:37 -!- rcsole [~rcsole@vpn1.macnetix.com] has joined #scuttlebutt
+16:40 < rcsole> pfraze: thanks for taking the time to explain it!
+16:42 < pfraze> rcsole: no prob
+17:21 -!- tictacjoe [~JohnDotAw@216.201.168.18] has quit [Remote host closed
+          the connection]
+17:44 -!- williamcotton [~williamco@c-24-5-80-236.hsd1.ca.comcast.net] has
+          quit [Ping timeout: 260 seconds]
+17:47 -!- pfraze [~pfraze@2605:6000:e900:d200:e8:f3de:e660:df9c] has quit
+          [Remote host closed the connection]
+17:52 -!- pfraze [~pfraze@2605:6000:e900:d200:e8:f3de:e660:df9c] has joined
+          #scuttlebutt
+18:00 -!- tictacjoe [~JohnDotAw@66-90-217-168.dyn.grandenetworks.net] has
+          joined #scuttlebutt
+18:14 -!- pfraze [~pfraze@2605:6000:e900:d200:e8:f3de:e660:df9c] has quit
+          [Remote host closed the connection]
+18:32 -!- tictacjoe [~JohnDotAw@66-90-217-168.dyn.grandenetworks.net] has quit
+          [Remote host closed the connection]
+18:48 -!- tictacjoe [~JohnDotAw@66-90-165-181.dyn.grandenetworks.net] has
+          joined #scuttlebutt
+18:52 -!- williamcotton [~williamco@mobile-166-171-250-249.mycingular.net] has
+          joined #scuttlebutt
+18:52 -!- jaekwon_ [~omni@75-101-96-71.dsl.static.fusionbroadband.com] has
+          joined #scuttlebutt
+18:58 -!- rcsole [~rcsole@vpn1.macnetix.com] has quit [Remote host closed the
+          connection]
+19:09 -!- pfraze [~pfraze@2605:6000:e900:d200:9538:be67:46f5:977b] has joined
+          #scuttlebutt
+19:11 -!- woah [~woah@75-101-111-82.dedicated.static.sonic.net] has quit
+          [Quit: My MacBook Pro has gone to sleep. ZZZzzz&]
+19:14 -!- pfraze [~pfraze@2605:6000:e900:d200:9538:be67:46f5:977b] has quit
+          [Remote host closed the connection]
+19:25 -!- reqshark__ [~reqshark@pool-98-113-133-5.nycmny.fios.verizon.net] has
+          joined #scuttlebutt
+19:25 -!- pfraze [~pfraze@2605:6000:e900:d200:403d:2ec6:9da4:55ca] has joined
+          #scuttlebutt
+19:29 -!- reqshark_ [~reqshark@pool-98-113-133-5.nycmny.fios.verizon.net] has
+          quit [Ping timeout: 258 seconds]
+19:29 -!- reqshark__ [~reqshark@pool-98-113-133-5.nycmny.fios.verizon.net] has
+          quit [Ping timeout: 250 seconds]
+19:42 -!- tictacjoe [~JohnDotAw@66-90-165-181.dyn.grandenetworks.net] has quit
+          [Remote host closed the connection]
+19:45 -!- tictacjoe [~JohnDotAw@66-90-165-181.dyn.grandenetworks.net] has
+          joined #scuttlebutt
+19:56 -!- domanic [~domanic@dslb-094-223-111-015.094.223.pools.vodafone-ip.de]
+          has joined #scuttlebutt
+20:13 -!- woah [~woah@75-101-111-82.dedicated.static.sonic.net] has joined
+          #scuttlebutt
+20:27 -!- williamcotton [~williamco@mobile-166-171-250-249.mycingular.net] has
+          quit [Ping timeout: 252 seconds]
+20:38 -!- woah [~woah@75-101-111-82.dedicated.static.sonic.net] has quit
+          [Quit: Textual IRC Client: www.textualapp.com]
+20:39 -!- woah [~woah@75-101-111-82.dedicated.static.sonic.net] has joined
+          #scuttlebutt
+20:40 -!- pfraze [~pfraze@2605:6000:e900:d200:403d:2ec6:9da4:55ca] has quit
+          [Remote host closed the connection]
+20:46 -!- reqshark__
+          [~reqshark@209-150-46-107.c3-0.wsd-ubr2.qens-wsd.ny.cable.rcn.com]
+          has joined #scuttlebutt
+20:47 -!- reqshark__ is now known as reqshark
+          quit [Ping timeout: 258 seconds]
+15:38 -!- woah [~woah@75-101-111-82.dedicated.static.sonic.net] has joined
+          #scuttlebutt
+15:42 -!- woah [~woah@75-101-111-82.dedicated.static.sonic.net] has quit
+          [Client Quit]
+15:42 -!- williamcotton [~williamco@c-24-5-80-236.hsd1.ca.comcast.net] has
+          joined #scuttlebutt
+15:50 -!- devhoag [~willhoag@li603-192.members.linode.com] has quit [Ping
+          timeout: 252 seconds]
+15:51 -!- woah [~woah@75-101-111-82.dedicated.static.sonic.net] has joined
+          #scuttlebutt
+16:08 -!- williamcotton [~williamco@c-24-5-80-236.hsd1.ca.comcast.net] has
+          quit [Ping timeout: 264 seconds]
+16:11 < null_radix> what the phoenix network?
+16:11 < null_radix> im looking at scuttlebot
+16:14 -!- pfraze [~pfraze@2605:6000:e900:d200:e8:f3de:e660:df9c] has quit
+          [Ping timeout: 258 seconds]
+16:17 -!- pfraze [~pfraze@2605:6000:e900:d200:e8:f3de:e660:df9c] has joined
+          #scuttlebutt
+16:17 -!- williamcotton [~williamco@c-24-5-80-236.hsd1.ca.comcast.net] has
+          joined #scuttlebutt
+16:37 -!- rcsole [~rcsole@vpn1.macnetix.com] has joined #scuttlebutt
+16:40 < rcsole> pfraze: thanks for taking the time to explain it!
+16:42 < pfraze> rcsole: no prob
+17:21 -!- tictacjoe [~JohnDotAw@216.201.168.18] has quit [Remote host closed
+          the connection]
+17:44 -!- williamcotton [~williamco@c-24-5-80-236.hsd1.ca.comcast.net] has
+          quit [Ping timeout: 260 seconds]
+17:47 -!- pfraze [~pfraze@2605:6000:e900:d200:e8:f3de:e660:df9c] has quit
+          [Remote host closed the connection]
+17:52 -!- pfraze [~pfraze@2605:6000:e900:d200:e8:f3de:e660:df9c] has joined
+          #scuttlebutt
+18:00 -!- tictacjoe [~JohnDotAw@66-90-217-168.dyn.grandenetworks.net] has
+          joined #scuttlebutt
+18:14 -!- pfraze [~pfraze@2605:6000:e900:d200:e8:f3de:e660:df9c] has quit
+          [Remote host closed the connection]
+18:32 -!- tictacjoe [~JohnDotAw@66-90-217-168.dyn.grandenetworks.net] has quit
+          [Remote host closed the connection]
+18:48 -!- tictacjoe [~JohnDotAw@66-90-165-181.dyn.grandenetworks.net] has
+          joined #scuttlebutt
+18:52 -!- williamcotton [~williamco@mobile-166-171-250-249.mycingular.net] has
+          joined #scuttlebutt
+18:52 -!- jaekwon_ [~omni@75-101-96-71.dsl.static.fusionbroadband.com] has
+          joined #scuttlebutt
+18:58 -!- rcsole [~rcsole@vpn1.macnetix.com] has quit [Remote host closed the
+          connection]
+19:09 -!- pfraze [~pfraze@2605:6000:e900:d200:9538:be67:46f5:977b] has joined
+          #scuttlebutt
+19:11 -!- woah [~woah@75-101-111-82.dedicated.static.sonic.net] has quit
+          [Quit: My MacBook Pro has gone to sleep. ZZZzzz&]
+19:14 -!- pfraze [~pfraze@2605:6000:e900:d200:9538:be67:46f5:977b] has quit
+          [Remote host closed the connection]
+19:25 -!- reqshark__ [~reqshark@pool-98-113-133-5.nycmny.fios.verizon.net] has
+          joined #scuttlebutt
+19:25 -!- pfraze [~pfraze@2605:6000:e900:d200:403d:2ec6:9da4:55ca] has joined
+          #scuttlebutt
+19:29 -!- reqshark_ [~reqshark@pool-98-113-133-5.nycmny.fios.verizon.net] has
+          quit [Ping timeout: 258 seconds]
+19:29 -!- reqshark__ [~reqshark@pool-98-113-133-5.nycmny.fios.verizon.net] has
+          quit [Ping timeout: 250 seconds]
+19:42 -!- tictacjoe [~JohnDotAw@66-90-165-181.dyn.grandenetworks.net] has quit
+          [Remote host closed the connection]
+19:45 -!- tictacjoe [~JohnDotAw@66-90-165-181.dyn.grandenetworks.net] has
+          joined #scuttlebutt
+19:56 -!- domanic [~domanic@dslb-094-223-111-015.094.223.pools.vodafone-ip.de]
+          has joined #scuttlebutt
+20:13 -!- woah [~woah@75-101-111-82.dedicated.static.sonic.net] has joined
+          #scuttlebutt
+20:27 -!- williamcotton [~williamco@mobile-166-171-250-249.mycingular.net] has
+          quit [Ping timeout: 252 seconds]
+20:38 -!- woah [~woah@75-101-111-82.dedicated.static.sonic.net] has quit
+          [Quit: Textual IRC Client: www.textualapp.com]
+20:39 -!- woah [~woah@75-101-111-82.dedicated.static.sonic.net] has joined
+          #scuttlebutt
+20:40 -!- pfraze [~pfraze@2605:6000:e900:d200:403d:2ec6:9da4:55ca] has quit
+          [Remote host closed the connection]
+20:46 -!- reqshark__
+          [~reqshark@209-150-46-107.c3-0.wsd-ubr2.qens-wsd.ny.cable.rcn.com]
+          has joined #scuttlebutt
+20:47 -!- reqshark__ is now known as reqshark
+20:48 -!- tictacjoe [~JohnDotAw@66-90-165-181.dyn.grandenetworks.net] has quit
+          [Remote host closed the connection]
+20:52 -!- woah [~woah@75-101-111-82.dedicated.static.sonic.net] has quit
+          [Quit: My MacBook Pro has gone to sleep. ZZZzzz&]
+20:55 -!- pfraze [~pfraze@2605:6000:e900:d200:f443:bf82:d4c1:e951] has joined
+          #scuttlebutt
+20:59 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au]
+          has joined #scuttlebutt
+21:14 -!- tictacjoe [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has
+          joined #scuttlebutt
+21:47 -!- domanic [~domanic@dslb-094-223-111-015.094.223.pools.vodafone-ip.de]
+          has quit [Ping timeout: 264 seconds]
+22:57 -!- pfraze [~pfraze@2605:6000:e900:d200:f443:bf82:d4c1:e951] has quit
+          [Remote host closed the connection]
+23:11 -!- tictacjoe [~JohnDotAw@cpe-70-112-230-174.austin.res.rr.com] has quit
+          [Remote host closed the connection]
+23:55 -!- DamonOehlman1 [~Thunderbi@stargate.it.nicta.com.au] has joined
+          #scuttlebutt
+23:56 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au]
+          has quit [Ping timeout: 245 seconds]
+Day changed to 05 Dec 2014
+00:08 -!- tixz [~tixz@ppp118-210-240-171.lns20.adl6.internode.on.net] has
+          joined #scuttlebutt
+00:28 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au]
+          has joined #scuttlebutt
+00:28 -!- DamonOehlman1 [~Thunderbi@stargate.it.nicta.com.au] has quit [Ping
+          timeout: 240 seconds]
+00:56 -!- woah [~woah@199-241-202-232.PUBLIC.monkeybrains.net] has joined
+          #scuttlebutt
+01:14 -!- tixz [~tixz@ppp118-210-240-171.lns20.adl6.internode.on.net] has quit
+          [Remote host closed the connection]
+01:56 -!- tixz [~tixz@ppp118-210-240-171.lns20.adl6.internode.on.net] has
+          joined #scuttlebutt
+02:09 -!- woah [~woah@199-241-202-232.PUBLIC.monkeybrains.net] has quit [Quit:
+          My MacBook Pro has gone to sleep. ZZZzzz&]
+02:19 -!- tixz [~tixz@ppp118-210-240-171.lns20.adl6.internode.on.net] has quit
+          [Remote host closed the connection]
+03:22 -!- devhoag [~willhoag@li603-192.members.linode.com] has joined
+          #scuttlebutt
+03:42 -!- domanic [~domanic@dslb-094-223-111-015.094.223.pools.vodafone-ip.de]
+          has joined #scuttlebutt
+03:47 -!- rcsole [~rcsole@office.xing.com] has joined #scuttlebutt
+04:34 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au]
+          has quit [Remote host closed the connection]
+04:44 < null_radix> anyone know what the "phoenix network" is?
+04:46 < krl> null_radix: https://github.com/pfraze/phoenix
+04:49 -!- domanic [~domanic@dslb-094-223-111-015.094.223.pools.vodafone-ip.de]
+          has quit [Ping timeout: 244 seconds]
+04:59 < null_radix> thanks krl!
+05:01 < krl> i'm
+             a5abd422d456e8a5862af0fcf59c14c73873583b229a5ff6b983725720a8edfe
+05:19 -!- domanic [~domanic@82.113.121.31] has joined #scuttlebutt
+05:19 < domanic> null_radix, phoenix is the UI for secure-scuttlebutt
+05:20 < domanic> https://github.com/pfraze/phoenix
+08:52 -!- tixz [~tixz@ppp118-210-240-171.lns20.adl6.internode.on.net] has
+          joined #scuttlebutt
+09:01 < mafintosh> domanic: how do you "destroy" streams with pull stream?
+                   https://github.com/dominictarr/pull-stream
+09:03 < domanic> mafintosh, you call read(abort=truthy, cb)
+09:03 < domanic> that propagates the error towards the sink, so everything
+                 cleans up
+09:04 < domanic> if you must destroy it from the outside... you can use this:
+                 github.com/dominictarr/pull-abortable
+09:04 < domanic> (just wrote that an hour ago!)
+09:04 < domanic> brb relocating
+09:04 < mafintosh> lol nice
+09:09 -!- domanic [~domanic@82.113.121.31] has quit [Ping timeout: 265 seconds]
+09:15 -!- domanic [~domanic@82.113.121.31] has joined #scuttlebutt
+09:19 -!- rcsole [~rcsole@office.xing.com] has quit [Remote host closed the
+          connection]
+09:23 -!- tictacjoe [~JohnDotAw@99-47-182-197.lightspeed.austtx.sbcglobal.net]
+          has joined #scuttlebutt
+09:23 -!- rcsole [~rcsole@office.xing.com] has joined #scuttlebutt
+09:29 -!- rcsole [~rcsole@office.xing.com] has quit [Remote host closed the
+          connection]
+09:38 -!- reqshark
+          [~reqshark@209-150-46-107.c3-0.wsd-ubr2.qens-wsd.ny.cable.rcn.com]
+          has quit [Quit: Be back later ...]
+09:43 -!- tixz [~tixz@ppp118-210-240-171.lns20.adl6.internode.on.net] has quit
+          [Remote host closed the connection]
+09:45 -!- rcsole [~rcsole@office.xing.com] has joined #scuttlebutt
+09:51 -!- domanic [~domanic@82.113.121.31] has quit [Ping timeout: 250 seconds]
+10:17 -!- reqshark [~reqshark@pool-98-113-133-5.nycmny.fios.verizon.net] has
+          joined #scuttlebutt
+10:17 -!- reqshark [~reqshark@pool-98-113-133-5.nycmny.fios.verizon.net] has
+          quit [Remote host closed the connection]
+10:18 -!- reqshark [~reqshark@pool-98-113-133-5.nycmny.fios.verizon.net] has
+          joined #scuttlebutt
+10:25 < reqshark> Your profile was created, but there are no public bots
+                  following you.
+10:26 -!- williamcotton [~williamco@c-24-5-80-236.hsd1.ca.comcast.net] has
+          joined #scuttlebutt
+10:26 -!- reqshark [~reqshark@pool-98-113-133-5.nycmny.fios.verizon.net] has
+          quit [Quit: Be back later ...]
+10:26 -!- reqshark [~reqshark@pool-98-113-133-5.nycmny.fios.verizon.net] has
+          joined #scuttlebutt
+10:42 -!- pfraze [~pfraze@2605:6000:e900:d200:3576:3c1c:7e5a:890d] has joined
+          #scuttlebutt
+10:52 -!- williamcotton [~williamco@c-24-5-80-236.hsd1.ca.comcast.net] has
+          quit [Ping timeout: 272 seconds]
+10:57 -!- rcsole [~rcsole@office.xing.com] has quit [Remote host closed the
+          connection]
+11:03 -!- tictacjoe [~JohnDotAw@99-47-182-197.lightspeed.austtx.sbcglobal.net]
+          has quit [Remote host closed the connection]
+11:04 -!- williamcotton [~williamco@c-24-5-80-236.hsd1.ca.comcast.net] has
+          joined #scuttlebutt
+11:04 -!- tictacjoe [~JohnDotAw@99-47-182-197.lightspeed.austtx.sbcglobal.net]
+          has joined #scuttlebutt
+11:20 -!- reqshark [~reqshark@pool-98-113-133-5.nycmny.fios.verizon.net] has
+          quit [Quit: Be back later ...]
+11:33 -!- pfraze [~pfraze@2605:6000:e900:d200:3576:3c1c:7e5a:890d] has quit
+          [Remote host closed the connection]
+11:39 -!- devhoag [~willhoag@li603-192.members.linode.com] has quit [Ping
+23:43 -!- mk30 is now known as mkitty
+23:43 -!- mkitty is now known as mk30
+23:43 <jjjohnny_> la
+23:43 <jjjohnny_> meow
+23:43 <mk30> cat
+23:43 <mk30> cat
+14:10 -!- ovef [~onur@unaffiliated/ovef] has joined #stackvm
+14:11 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has
+          joined #stackvm
+14:14 -!- Mso150 [~ctlM@80.83.238.73] has quit [Ping timeout: 256 seconds]
+14:16 -!- Mso150_l_o [~ctlM@80.83.239.62] has joined #stackvm
+14:21 -!- gorhgorh [~gorhgorh@175.229.207.77.rev.sfr.net] has joined #stackvm
+14:22 -!- toddself_ [~toddself@c-24-63-251-162.hsd1.ma.comcast.net] has joined
+          #stackvm
+14:24 -!- domanic [~domanic@89.204.154.185] has joined #stackvm
+14:25 -!- anvaka [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has quit [Remote
+          host closed the connection]
+14:32 -!- contrahax [~contrahax@162.245.23.136] has quit [Quit: Sleeping]
+14:01 <jjjohnny_> http://www.theguardian.com/world/2010/oct/17/angela-merkel-ge
+rman-multiculturalism-failed
+Day changed to 17 Nov 2014
+12:17 <jjjohnny> is that a yes?
+Day changed to 18 Nov 2014
+Day changed to 19 Nov 2014
+15:32 -!- quijote [~quijote@ip1f121d07.dynamic.kabel-deutschland.de] has quit
+          [Ping timeout: 245 seconds]
+15:36 -!- stagas [~stagas@athedsl-4415488.home.otenet.gr] has quit [Ping
+          timeout: 250 seconds]
+15:42 -!- ednapiranha [~ednapiran@12.216.224.110] has joined #stackvm
+15:43 -!- ednapiranha [~ednapiran@12.216.224.110] has quit [Remote host closed
+          the connection]
+15:50 -!- md5sucks [d0421b12@gateway/web/freenode/ip.208.66.27.18] has joined
+          #stackvm
+Day changed to 20 Nov 2014
+Day changed to 21 Nov 2014
+Day changed to 22 Nov 2014
+Day changed to 23 Nov 2014
+17:17 <jjjohnny> landlord wants to come over soon and sign new lease
+Day changed to 24 Nov 2014
+Day changed to 25 Nov 2014
+Day changed to 26 Nov 2014
+Day changed to 27 Nov 2014
+Day changed to 28 Nov 2014
+Day changed to 29 Nov 2014
+Day changed to 30 Nov 2014
+13:19 -!- ednapiranha [~ednapiran@12.216.224.110] has quit [Remote host closed
+          the connection]
+14:08 < jjjohnny_> who here will
+14:08 < jjjohnny_> you there will
+14:24 -!- domanic [~domanic@89.204.154.185] has joined #scuttlebutt
+14:39 -!- tictacjoe [~JohnDotAw@216.201.168.18] has joined #scuttlebutt
+14:51 -!- williamcotton [~williamco@c-24-5-80-236.hsd1.ca.comcast.net] has
+          quit [Ping timeout: 245 seconds]
+14:51 < reqshark> dope! i just set up a new DDR4 Ram server...
+14:52 < reqshark> i mount a username using tmpfs and then install leveldbs on
+Day changed to 01 Dec 2014
+Day changed to 02 Dec 2014
+Day changed to 03 Dec 2014
+Day changed to 04 Dec 2014
+Day changed to 05 Dec 2014
+15:51 <jjjohnny_> thinking about fundraising again
+15:51 <jjjohnny_> one thing seems quite clear, is that we have to present a
+                  competant group of people
+ ~substack@104.131.0.235 (freenode)
+15:52 <jjjohnny_> or a flashy looking product spec, but yuck
+16:30 <jjjohnny_> i see three types of CFs.
+16:31 <jjjohnny_> creative projects, open source projects, and business plans
+16:32 <jjjohnny_> if this is donation money, then the business plan has to be
+                  open source invitable
+16:32 <jjjohnny_> but that is risky
+16:32 <jjjohnny_> thats what that one spinoff failed socail network tried
+16:33 <jjjohnny_> if its a business plan, it could well be financed with some
+                  closed door backing, or limited public crypto financing
+16:33 <jjjohnny_> the bitcoin ppl still trynna get rich off their bitcoins,
+                  i'm never against that approach
+16:34 <jjjohnny_> however
+16:34 <jjjohnny_> no howevers yet
+16:37 <jjjohnny_> doesn't matter what, the people group needs to be conveined
+16:37 <jjjohnny_> for public consumption
+16:38 <jjjohnny_> it doesn't matter how we run things, but if we want to CF,
+                  we should come walking n yalking like kewl and the gang
+16:39 <jjjohnny_> for each hacker, present the group
+16:40 <jjjohnny_> this as well goes with the idea that software should get
+                  built like movies are made.
+16:40 <jjjohnny_> stackVM squads presents
+ [16:40] [jjjohnny_(+i)] [8:freenode/substack] [Act: 4,10,11,12]
+[substack]

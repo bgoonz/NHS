@@ -1,0 +1,1063 @@
+23:18 -!- tictacjoe [~JohnDotAw@cpe-24-242-77-166.austin.res.rr.com] has quit
+          [Remote host closed the connection]
+23:45 < substack> kumavis: yep!
+23:45 < substack> that's why I got an https cert for htmlb.in
+23:45 < substack> fucking cartels
+23:47 < jjjohnny_> so sick of browser specs
+23:48 < jjjohnny_> here's midid, a ancient protocol open source could have done
+                   in 3 hours, took us 15 years
+23:48 < jjjohnny_> *midi
+23:48 < jjjohnny_> "and these are the rules we make to live by"
+23:51 < jjjohnny_> why midi, why now, why not just give you serial access, and
+                   tcp while we're at it.  no, we'll spec out every fucking
+                   tidbit
+Day changed to 21 Mar 2015
+01:33 -!- nwmcsween [~nwmcsween@d162-156-44-200.bchsia.telus.net] has joined
+          #scuttlebutt
+01:35 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au]
+          has joined #scuttlebutt
+02:58 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au]
+          has quit [Ping timeout: 245 seconds]
+ [05:31] [jjjohnny_(+i)] [4:freenode/#scuttlebutt(+ns)] [Act: 1,5,7,10,14,16]
+[#scuttlebutt]
+ https://github.com/dominictarr/secure-scuttlebutt and https://github.com/pfraze
+23:09 -!- woah [~woah@75-101-96-71.dsl.static.fusionbroadband.com] has joined
+          #scuttlebutt
+23:18 -!- tictacjoe [~JohnDotAw@cpe-24-242-77-166.austin.res.rr.com] has quit
+          [Remote host closed the connection]
+23:45 < substack> kumavis: yep!
+23:45 < substack> that's why I got an https cert for htmlb.in
+23:45 < substack> fucking cartels
+23:47 < jjjohnny_> so sick of browser specs
+23:48 < jjjohnny_> here's midid, a ancient protocol open source could have done
+                   in 3 hours, took us 15 years
+23:48 < jjjohnny_> *midi
+23:48 < jjjohnny_> "and these are the rules we make to live by"
+23:51 < jjjohnny_> why midi, why now, why not just give you serial access, and
+                   tcp while we're at it.  no, we'll spec out every fucking
+                   tidbit
+Day changed to 21 Mar 2015
+01:33 -!- nwmcsween [~nwmcsween@d162-156-44-200.bchsia.telus.net] has joined
+          #scuttlebutt
+01:35 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au]
+          has joined #scuttlebutt
+02:58 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au]
+          has quit [Ping timeout: 245 seconds]
+ [05:31] [jjjohnny_(+i)] [4:freenode/#scuttlebutt(+ns)] [Act: 1,5,7,10,14,16]
+[#scuttlebutt]
+22:14 -!- anandthakker [~anonymous@73.213.253.65] has joined #stackvm
+22:24 -!- anandthakker [~anonymous@73.213.253.65] has quit [Quit: anandthakker]
+22:24 -!- anandthakker [~anonymous@73.213.253.65] has joined #stackvm
+22:31 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Remote host closed the connection]
+22:32 -!- shama_ [~shama@c-73-164-214-148.hsd1.or.comcast.net] has quit [Remote host closed the connection]
+22:44 -!- phated [~phated@wsip-70-166-103-182.ph.ph.cox.net] has quit [Remote host closed the connection]
+22:51 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has quit [Quit: fotoverite]
+22:59 -!- anvaka [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has joined #stackvm
+22:59 -!- sz0 [~sz0@94.55.197.185] has joined #stackvm
+23:17 -!- anandthakker [~anonymous@73.213.253.65] has quit [Quit: anandthakker]
+23:21 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has joined #stackvm
+23:32 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+23:37 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Ping timeout: 252 seconds]
+23:50 -!- dguttman [~david@cpe-23-243-122-11.socal.res.rr.com] has quit [Quit: dguttman]
+Day changed to 21 Mar 2015
+00:13 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has quit [Quit: fotoverite]
+00:33 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+00:38 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Ping timeout: 264 seconds]
+00:58 -!- anvaka_ [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has joined #stackvm
+00:58 -!- anvaka [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has quit [Read error: Connection reset by peer]
+01:11 -!- knownasilya [uid22190@gateway/web/irccloud.com/x-ujpwjfjlkszxyhjb] has quit [Quit: Connection closed for inactivity]
+01:35 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au] has joined #stackvm
+02:15 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit [Quit: Sleeping]
+02:22 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+02:27 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Ping timeout: 256 seconds]
+02:58 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au] has quit [Ping timeout: 245 seconds]
+04:10 -!- gozala [uid5923@gateway/web/irccloud.com/x-dbwlghimnndycnfo] has quit [Quit: Connection closed for inactivity]
+04:11 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+04:13 -!- anvaka_ [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has quit [Remote host closed the connection]
+04:15 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Ping timeout: 244 seconds]
+04:18 -!- therealkoopa [~therealko@156.3.5.85.dynamic.wline.res.cust.swisscom.ch] has joined #stackvm
+04:26 -!- therealkoopa [~therealko@156.3.5.85.dynamic.wline.res.cust.swisscom.ch] has quit [Remote host closed the connection]
+05:03 -!- Bsony [~quassel@catv-89-132-88-150.catv.broadband.hu] has joined #stackvm
+05:12 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+05:12 -!- yoshuawuyts [~yoshuawuy@ip4da86f86.direct-adsl.nl] has joined #stackvm
+05:17 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Ping timeout: 264 seconds]
+05:26 -!- freeall [~freeall@0709ds5-by.0.fullrate.dk] has joined #stackvm
+05:31 < jjjohnny_> somebody explain audio here pls https://www.shadertoy.com/view/ltj3zR
+05:33 < jjjohnny_> webgl has its own audio shiz?
+05:42 < jjjohnny_> is glsl converted to js?
+05:44 < substack> it runs on the graphics card
+06:13 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+06:15 -!- sz0 [~sz0@94.55.197.185] has quit [Quit: My computer has gone to sleep. ZZZzzz&]
+06:18 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Ping timeout: 265 seconds]
+06:32 -!- tixz [~tixz@152.115.92.18] has joined #stackvm
+06:40 -!- tixz [~tixz@152.115.92.18] has quit [Remote host closed the connection]
+06:40 -!- tixz [~tixz@152.115.92.18] has joined #stackvm
+06:47 -!- tixz [~tixz@152.115.92.18] has quit [Remote host closed the connection]
+06:48 -!- tixz [~tixz@152.115.92.18] has joined #stackvm
+06:51 -!- tixz [~tixz@152.115.92.18] has quit [Client Quit]
+07:01 -!- freeall [~freeall@0709ds5-by.0.fullrate.dk] has quit [Remote host closed the connection]
+07:36 -!- freeall [~freeall@152.115.92.18] has joined #stackvm
+07:54 -!- yoshuawuyts [~yoshuawuy@ip4da86f86.direct-adsl.nl] has quit [Ping timeout: 244 seconds]
+07:58 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+08:04 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Ping timeout: 272 seconds]
+08:10 -!- yoshuawuyts [~yoshuawuy@2001:981:a181:1:54de:a22e:82fb:a7cb] has joined #stackvm
+08:11 -!- freeall [~freeall@152.115.92.18] has quit [Remote host closed the connection]
+01:35 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au] has joined #stackvm
+02:15 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit [Quit: Sleeping]
+02:22 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+02:27 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Ping timeout: 256 seconds]
+02:58 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au] has quit [Ping timeout: 245 seconds]
+04:10 -!- gozala [uid5923@gateway/web/irccloud.com/x-dbwlghimnndycnfo] has quit [Quit: Connection closed for inactivity]
+04:11 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+04:13 -!- anvaka_ [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has quit [Remote host closed the connection]
+04:15 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Ping timeout: 244 seconds]
+04:18 -!- therealkoopa [~therealko@156.3.5.85.dynamic.wline.res.cust.swisscom.ch] has joined #stackvm
+04:26 -!- therealkoopa [~therealko@156.3.5.85.dynamic.wline.res.cust.swisscom.ch] has quit [Remote host closed the connection]
+05:03 -!- Bsony [~quassel@catv-89-132-88-150.catv.broadband.hu] has joined #stackvm
+05:12 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+05:12 -!- yoshuawuyts [~yoshuawuy@ip4da86f86.direct-adsl.nl] has joined #stackvm
+05:17 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Ping timeout: 264 seconds]
+05:26 -!- freeall [~freeall@0709ds5-by.0.fullrate.dk] has joined #stackvm
+05:31 < jjjohnny_> somebody explain audio here pls https://www.shadertoy.com/view/ltj3zR
+05:33 < jjjohnny_> webgl has its own audio shiz?
+05:42 < jjjohnny_> is glsl converted to js?
+05:44 < substack> it runs on the graphics card
+06:13 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+06:15 -!- sz0 [~sz0@94.55.197.185] has quit [Quit: My computer has gone to sleep. ZZZzzz&]
+06:18 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Ping timeout: 265 seconds]
+06:32 -!- tixz [~tixz@152.115.92.18] has joined #stackvm
+06:40 -!- tixz [~tixz@152.115.92.18] has quit [Remote host closed the connection]
+06:40 -!- tixz [~tixz@152.115.92.18] has joined #stackvm
+06:47 -!- tixz [~tixz@152.115.92.18] has quit [Remote host closed the connection]
+06:48 -!- tixz [~tixz@152.115.92.18] has joined #stackvm
+06:51 -!- tixz [~tixz@152.115.92.18] has quit [Client Quit]
+07:01 -!- freeall [~freeall@0709ds5-by.0.fullrate.dk] has quit [Remote host closed the connection]
+07:36 -!- freeall [~freeall@152.115.92.18] has joined #stackvm
+07:54 -!- yoshuawuyts [~yoshuawuy@ip4da86f86.direct-adsl.nl] has quit [Ping timeout: 244 seconds]
+07:58 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+08:04 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Ping timeout: 272 seconds]
+08:10 -!- yoshuawuyts [~yoshuawuy@2001:981:a181:1:54de:a22e:82fb:a7cb] has joined #stackvm
+08:11 -!- freeall [~freeall@152.115.92.18] has quit [Remote host closed the connection]
+05:42 < jjjohnny_> is glsl converted to js?
+05:44 < substack> it runs on the graphics card
+06:13 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+06:15 -!- sz0 [~sz0@94.55.197.185] has quit [Quit: My computer has gone to sleep. ZZZzzz&]
+06:18 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Ping timeout: 265 seconds]
+06:32 -!- tixz [~tixz@152.115.92.18] has joined #stackvm
+06:40 -!- tixz [~tixz@152.115.92.18] has quit [Remote host closed the connection]
+06:40 -!- tixz [~tixz@152.115.92.18] has joined #stackvm
+06:47 -!- tixz [~tixz@152.115.92.18] has quit [Remote host closed the connection]
+06:48 -!- tixz [~tixz@152.115.92.18] has joined #stackvm
+06:51 -!- tixz [~tixz@152.115.92.18] has quit [Client Quit]
+07:01 -!- freeall [~freeall@0709ds5-by.0.fullrate.dk] has quit [Remote host closed the connection]
+07:36 -!- freeall [~freeall@152.115.92.18] has joined #stackvm
+07:54 -!- yoshuawuyts [~yoshuawuy@ip4da86f86.direct-adsl.nl] has quit [Ping timeout: 244 seconds]
+07:58 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+08:04 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Ping timeout: 272 seconds]
+08:10 -!- yoshuawuyts [~yoshuawuy@2001:981:a181:1:54de:a22e:82fb:a7cb] has joined #stackvm
+08:11 -!- freeall [~freeall@152.115.92.18] has quit [Remote host closed the connection]
+08:19 -!- freeall [~freeall@152.115.92.18] has joined #stackvm
+08:26 -!- freeall [~freeall@152.115.92.18] has quit [Remote host closed the connection]
+08:30 -!- freeall [~freeall@152.115.92.18] has joined #stackvm
+08:59 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+09:00 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has joined #stackvm
+22:59 -!- sz0 [~sz0@94.55.197.185] has joined #stackvm
+23:17 -!- anandthakker [~anonymous@73.213.253.65] has quit [Quit: anandthakker]
+23:21 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has joined #stackvm
+23:32 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+23:37 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Ping timeout: 252 seconds]
+23:50 -!- dguttman [~david@cpe-23-243-122-11.socal.res.rr.com] has quit [Quit: dguttman]
+Day changed to 21 Mar 2015
+00:13 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has quit [Quit: fotoverite]
+00:33 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+00:38 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Ping timeout: 264 seconds]
+00:58 -!- anvaka_ [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has joined #stackvm
+00:58 -!- anvaka [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has quit [Read error: Connection reset by peer]
+01:11 -!- knownasilya [uid22190@gateway/web/irccloud.com/x-ujpwjfjlkszxyhjb] has quit [Quit: Connection closed for inactivity]
+01:35 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au] has joined #stackvm
+02:15 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit [Quit: Sleeping]
+02:22 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+02:27 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Ping timeout: 256 seconds]
+02:58 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au] has quit [Ping timeout: 245 seconds]
+04:10 -!- gozala [uid5923@gateway/web/irccloud.com/x-dbwlghimnndycnfo] has quit [Quit: Connection closed for inactivity]
+04:11 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+04:13 -!- anvaka_ [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has quit [Remote host closed the connection]
+04:15 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Ping timeout: 244 seconds]
+04:18 -!- therealkoopa [~therealko@156.3.5.85.dynamic.wline.res.cust.swisscom.ch] has joined #stackvm
+04:26 -!- therealkoopa [~therealko@156.3.5.85.dynamic.wline.res.cust.swisscom.ch] has quit [Remote host closed the connection]
+05:03 -!- Bsony [~quassel@catv-89-132-88-150.catv.broadband.hu] has joined #stackvm
+05:12 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+05:12 -!- yoshuawuyts [~yoshuawuy@ip4da86f86.direct-adsl.nl] has joined #stackvm
+05:17 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Ping timeout: 264 seconds]
+05:26 -!- freeall [~freeall@0709ds5-by.0.fullrate.dk] has joined #stackvm
+05:31 < jjjohnny_> somebody explain audio here pls https://www.shadertoy.com/view/ltj3zR
+05:33 < jjjohnny_> webgl has its own audio shiz?
+05:42 < jjjohnny_> is glsl converted to js?
+05:44 < substack> it runs on the graphics card
+06:13 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+06:15 -!- sz0 [~sz0@94.55.197.185] has quit [Quit: My computer has gone to sleep. ZZZzzz&]
+06:18 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Ping timeout: 265 seconds]
+06:32 -!- tixz [~tixz@152.115.92.18] has joined #stackvm
+06:40 -!- tixz [~tixz@152.115.92.18] has quit [Remote host closed the connection]
+06:40 -!- tixz [~tixz@152.115.92.18] has joined #stackvm
+06:47 -!- tixz [~tixz@152.115.92.18] has quit [Remote host closed the connection]
+06:48 -!- tixz [~tixz@152.115.92.18] has joined #stackvm
+06:51 -!- tixz [~tixz@152.115.92.18] has quit [Client Quit]
+07:01 -!- freeall [~freeall@0709ds5-by.0.fullrate.dk] has quit [Remote host closed the connection]
+07:36 -!- freeall [~freeall@152.115.92.18] has joined #stackvm
+07:54 -!- yoshuawuyts [~yoshuawuy@ip4da86f86.direct-adsl.nl] has quit [Ping timeout: 244 seconds]
+07:58 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+08:04 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Ping timeout: 272 seconds]
+08:10 -!- yoshuawuyts [~yoshuawuy@2001:981:a181:1:54de:a22e:82fb:a7cb] has joined #stackvm
+08:11 -!- freeall [~freeall@152.115.92.18] has quit [Remote host closed the connection]
+08:19 -!- freeall [~freeall@152.115.92.18] has joined #stackvm
+08:26 -!- freeall [~freeall@152.115.92.18] has quit [Remote host closed the connection]
+08:30 -!- freeall [~freeall@152.115.92.18] has joined #stackvm
+08:59 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+09:00 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has joined #stackvm
+09:04 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Ping timeout: 246 seconds]
+09:38 -!- suA [~suA@152.115.92.18] has joined #stackvm
+09:39 -!- suA [~suA@152.115.92.18] has left #stackvm []
+09:39 -!- suA [~suA@152.115.92.18] has joined #stackvm
+09:39 -!- suA [~suA@152.115.92.18] has quit [Client Quit]
+09:39 -!- tixz [~tixz@152.115.92.18] has joined #stackvm
+09:49 -!- anandthakker [~anonymous@73.213.253.65] has joined #stackvm
+09:54 -!- tixz [~tixz@152.115.92.18] has quit [Remote host closed the connection]
+10:01 -!- tixz [~tixz@152.115.92.18] has joined #stackvm
+10:45 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+10:49 -!- freeall [~freeall@152.115.92.18] has quit [Remote host closed the connection]
+10:50 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Ping timeout: 244 seconds]
+10:51 < mikolalysenko> jjjohnny_: the shader generates a time varying signal, which gets copied to a buffer and pushed out the speaker via web
+                       audio
+10:54 -!- pfraze [~pfraze@2605:6000:e900:d200:2d11:6b5b:fd64:f47c] has joined #stackvm
+11:21 -!- pfraze [~pfraze@2605:6000:e900:d200:2d11:6b5b:fd64:f47c] has quit [Remote host closed the connection]
+11:34 -!- domanic [~domanic@118.148.160.65] has joined #stackvm
+11:50 -!- freeall [~freeall@152.115.92.18] has joined #stackvm
+11:51 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #stackvm
+11:54 -!- freeall [~freeall@152.115.92.18] has quit [Ping timeout: 252 seconds]
+12:02 < mikolalysenko> basically on the gpu you write some function float signal(floa t) { ... } and then the shader toy hooks up the rest of the
+                       plumbing to get it out to webaudio
+12:12 -!- sz0 [~sz0@94.55.197.185] has joined #stackvm
+12:16 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+12:21 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Ping timeout: 246 seconds]
+12:22 -!- pfraze [~pfraze@2605:6000:e900:d200:c025:803d:6840:4ed1] has joined #stackvm
+12:37 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+12:40 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has quit [Quit: thealphanerd]
+12:40 -!- domanic [~domanic@118.148.160.65] has quit [Read error: Connection reset by peer]
+12:41 -!- anandthakker [~anonymous@73.213.253.65] has quit [Quit: anandthakker]
+12:41 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Ping timeout: 245 seconds]
+12:47 -!- yoshuawuyts [~yoshuawuy@2001:981:a181:1:54de:a22e:82fb:a7cb] has quit [Ping timeout: 265 seconds]
+13:10 < jjjohnny_> mikolalysenko: so glsl audio code runs on the GPU, and webGL handles the web audio buffering?
+13:10 < jjjohnny_> and this is all separate from the js thread
+13:12 -!- pfraze_ [~pfraze@cpe-24-242-79-106.austin.res.rr.com] has joined #stackvm
+13:15 -!- pfraze [~pfraze@2605:6000:e900:d200:c025:803d:6840:4ed1] has quit [Ping timeout: 265 seconds]
+13:15 < jjjohnny_> what do I have to do?
+13:16 < jjjohnny_> write a vec2 mainSound function?
+13:19 < mikolalysenko> jjjohnny_: no, webgl just renders triangles
+13:19 -!- Bsony [~quassel@catv-89-132-88-150.catv.broadband.hu] has quit [Ping timeout: 252 seconds]
+13:19 < mikolalysenko> what shader toy does is draw a big triangle to an offscreen frame buffer
+13:20 < mikolalysenko> then it reads the pixels out of that and copies it to a sound buffer
+13:20 < mikolalysenko> so you render a pcm audio signal into a big texture
+13:20 < mikolalysenko> and then shader toy copies the pixels from that and feeds it to webaudio, where it gets interpreted as sound
+13:20 < jjjohnny_> hm
+13:20 < jjjohnny_> is the processing faster than js
+13:20 < jjjohnny_> ?
+13:20 < mikolalysenko> depends
+13:20 < mikolalysenko> it might be way faster, but moving pixels around is slow
+13:21 < mikolalysenko> if the synthesis is sufficiently complex then it will be faster on the gpu
+13:21 < mikolalysenko> but copying data from the gpu to the sound card via js introduces a lot of delay
+13:21 < jjjohnny_> but the buffer must be copied
+13:21 < mikolalysenko> yeah it is true
+13:21 < jjjohnny_> copied into the main js thread no less
+13:21 < mikolalysenko> yep
+13:21 < mikolalysenko> there isn't any way to do it without copying
+13:21 < mikolalysenko> however the data does come to you in a big typed array
+13:22 < mikolalysenko> so if you are a bit smart about how you do it, it might not be a big deal
+13:22 < mikolalysenko> really though this only makes sense if your synthesis and processing are all done on the gpu
+13:22 < mikolalysenko> you don't want to be copying data back and forth all the time, it will be slow
+13:22 < mikolalysenko> but you can make some awesome effects in a shader and the actual compute time is pretty close to free if you are running it
+                       on the gpu
+13:22 < jjjohnny_> who made shadertoy?
+13:22 < mikolalysenko> inigo quilez
+13:23 < mikolalysenko> he is a pretty famous guy in the demoscene
+13:23 < mikolalysenko> there are other audio shader toy things though
+13:23 < mikolalysenko> greweb has something that he made before shader toy
+13:23 < jjjohnny_> im so confuse
+13:24 < jjjohnny_> how would i implement this myself?
+13:24 < mikolalysenko> shouldn't be too hard
+13:24 < jjjohnny_> i see you can script glsl, does the browser handle all that go between with the GPU?
+13:24 < jjjohnny_> and render to a canvas
+13:24 < mikolalysenko> you can look at this demo:  https://github.com/stackgl/gl-fbo
+13:25 < mikolalysenko> that shows how to set up fbos for basic ping pong rendering
+13:25 < mikolalysenko> but it is probably possible to create a more minimal example
+13:25 < greweb> hi guys :-)
+13:26 < mikolalysenko> jjjohnny_: I think this is the demo he made  https://github.com/gre/wavegl
+13:27 < greweb> the idea of audio in GLSL was apparently not new, and shadertoy guys claim to have privately working on it a few months even if I
+                released it before^^. that doesn't really matter anyway
+13:28 < greweb> the audio demos they released was incredible
+13:28 < greweb> ours was just bootstrapped in a day
+13:32 < greweb> btw little anecdote, what's funny is this dsp(double t) function (t is in second) is progressively losing precision because of the
+                nature of floating type
+13:33 < greweb> so after a few minutes the sound quality decrease (slowly moving to 8-bit sound quality^^)
+13:37 -!- tixz [~tixz@152.115.92.18] has quit [Remote host closed the connection]
+13:38 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+13:38 < greweb> web audio api have 44100Hz sample rate, and in t in [0, 1], the floating is enough precise to have distinct time samples, which is
+                not the case when you increment t (per second you can represent less and less numbers. that's half each ^2)
+13:39 < greweb> that's where you can see this is a huge hack and I would recommend to use this hack for serious use-case ;-D
+13:41 -!- tixz [~tixz@152.115.92.18] has joined #stackvm
+13:42 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Ping timeout: 250 seconds]
+13:42 < greweb> I wouldn't*
+13:57 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+13:58 < jjjohnny_> greweb: but is that true of all glsl audio hacks?
+13:59 < greweb> the precision issue?
+13:59 < jjjohnny_> yeah
+13:59 < greweb> I guess it is
+14:00 < greweb> even if you mod() the value, you already have the imprecision
+14:00 < jjjohnny_> hm
+14:00 < jjjohnny_> oh well
+14:00 < greweb> the only solution would be to explode your "time" into multiple doubles. but you can't really easily to dsp then..
+14:00 < greweb> do *
+14:02 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Ping timeout: 272 seconds]
+14:03 < greweb> the idea is quite beautiful but I don't think it is very exploitable to make a serious audio application
+14:04 < greweb> for at least that reason
+14:06 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+14:06 < greweb> another reason is that you can't have any "states" or "memory" in a shader. which means you can't implement audio effects like
+                delay, filters, reverb, ... unless you re-call dsp with all previous time, which will be very intensive
+14:07 < greweb> audio signal processing with a pure function
+14:18 < mikolalysenko> greweb: what you could do is just split buffers in two parts
+14:18 < mikolalysenko> like use two floats to get the time value
+14:20 < greweb> split buffers into 2 parts? for solving the memory thing?
+14:26 < greweb> other subject. I'm considering using WeakMap on one of my lib to hide private properties instead of the '_' prefix function? I
+ Unofficial browserling/testling mad science channel. For official help /join #browserling
+                don't know if that is an anti-pattern or not. what annoying me a bit is that I want my library to have a better experience when
+                playing with Web Console autocomplete. all the '_'-prefixed come first^^
+14:28 < greweb> I'm a bit afraid by the code-complexity and the one-more-indirection it brings
+14:28 < greweb> but at least it hides things^^
+14:29 < greweb> ( related: https://curiosity-driven.org/private-properties-in-javascript )
+14:46 -!- pili [~pili@ip184-186-16-120.no.no.cox.net] has joined #stackvm
+14:46 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #stackvm
+14:47 -!- freeall [~freeall@152.115.92.18] has joined #stackvm
+14:48 -!- freeall [~freeall@152.115.92.18] has quit [Read error: Connection reset by peer]
+14:48 -!- freeall [~freeall@152.115.92.18] has joined #stackvm
+15:00 -!- Guest94221 is now known as ELLIOTTCABLE
+15:01 -!- ELLIOTTCABLE is now known as Guest92206
+15:07 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has quit [Quit: fotoverite]
+15:07 -!- Guest92206 is now known as \ELLIOTTCABLE
+15:36 -!- pelletier [~pelletier@do.inputrc.com] has quit [Ping timeout: 255 seconds]
+15:38 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Remote host closed the connection]
+15:43 < mikolalysenko> greweb: I think weakmap is a good solution, though support is still not 100%
+15:51 -!- sorensen_ [~sorensen@c-67-185-68-85.hsd1.wa.comcast.net] has joined #stackvm
+15:52 -!- sorensen_ [~sorensen@c-67-185-68-85.hsd1.wa.comcast.net] has quit [Client Quit]
+16:15 < greweb> mikolalysenko: ok :-)
+16:24 -!- pili [~pili@ip184-186-16-120.no.no.cox.net] has quit [Read error: Connection reset by peer]
+16:25 -!- pili [~pili@ip184-186-16-120.no.no.cox.net] has joined #stackvm
+16:31 -!- pose [~pose@186.137.226.215] has quit [Remote host closed the connection]
+16:32 -!- Bsony [~quassel@catv-89-132-88-150.catv.broadband.hu] has joined #stackvm
+16:42 -!- anvaka [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has joined #stackvm
+16:49 -!- domanic [~domanic@118.148.160.65] has joined #stackvm
+17:00 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+17:01 -!- domanic [~domanic@118.148.160.65] has quit [Ping timeout: 246 seconds]
+17:08 -!- anvaka [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has quit [Ping timeout: 250 seconds]
+17:11 -!- anvaka [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has joined #stackvm
+17:27 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has joined #stackvm
+17:34 -!- pose [~pose@186.137.226.215] has joined #stackvm
+17:35 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+17:39 -!- thlorenz_ [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+17:40 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Ping timeout: 255 seconds]
+17:44 -!- thlorenz_ [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Ping timeout: 244 seconds]
+17:57 -!- rhiaro [~quassel@amy.so] has quit [Quit: Better things to be doing]
+ [17:57] [jjjohnny_(+i)] [5:freenode/#stackvm(+cnt)] [Act: 1,3,4,7,9,10,14,16]
+[#stackvm]
+20:09 < jjjohnny_> cheap tutoring by johnny
+20:09 < jjjohnny_> with johnny
+20:15 < morenoh151> by johnny with johnny. very personal attentions
+20:17 -!- morenoh151 is now known as morenoh149
+20:23 < jjjohnny_> that is correct
+20:23 < jjjohnny_> intimate learnings with johnny
+20:23 -!- karen_punkpunk [~karen@cpe-158-222-187-87.nyc.res.rr.com] has joined #cyberwizard
+20:24 < jerkey> jjjohnny_ how do you like pam and aj
+20:26 < jjjohnny_> jerkey: they are coming over tomorrow, or pam is
+20:26 < jjjohnny_> do you know em well?
+20:26 < jerkey> great they love chickens
+20:46 < jjjohnny_> jerkey: i cant tell you how many times i've considered an open polling service, people powered polls, etc
+20:46 < jjjohnny_> me hopes you have success
+20:47 < jjjohnny_> and end to pollster politics
+20:48 -!- karen_punkpunk [~karen@cpe-158-222-187-87.nyc.res.rr.com] has quit [Quit: karen_punkpunk]
+22:02 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Remote host closed the connection]
+22:03 < jerkey> i'm just hoping i can do it right, before someone else does it wrong
+22:51 -!- karen_punkpunk [~karen@50.14.167.177] has joined #cyberwizard
+23:39 -!- karen_punkpunk [~karen@50.14.167.177] has quit [Quit: karen_punkpunk]
+Day changed to 21 Mar 2015
+00:07 < jjjohnny_> jerkey: i saw a poll on twitter using twittter cards, which is a way to embed dynamic content from a link
+00:07 < jjjohnny_> could do a thing where somebody tweets a poll, bot creates one, responds with link
+00:09 < jjjohnny_> well that is somewhat naive, but, anyway.
+01:24 < jerkey> many things are possible but i want to make the experience really easy
+18:51 -!- pose [~pose@186.137.226.215] has quit [Remote host closed the connection]
+18:54 -!- freeall [~freeall@0709ds5-by.0.fullrate.dk] has joined #stackvm
+18:55 -!- pose [~pose@186.137.226.215] has joined #stackvm
+18:59 -!- pose [~pose@186.137.226.215] has quit [Client Quit]
+19:11 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au] has joined #stackvm
+19:17 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Remote host closed the connection]
+19:22 -!- domanic [~domanic@118.148.160.65] has quit [Ping timeout: 264 seconds]
+19:26 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+19:27 -!- darvon [~darvon@107.191.100.185] has quit [Ping timeout: 250 seconds]
+19:28 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+19:29 -!- darvon [~darvon@107.191.100.185] has joined #stackvm
+19:30 -!- Bsony [~quassel@catv-89-132-88-150.catv.broadband.hu] has joined #stackvm
+19:30 -!- anandthakker [~anonymous@c-73-213-253-65.hsd1.md.comcast.net] has joined #stackvm
+19:33 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has quit [Ping timeout: 252 seconds]
+19:40 -!- Bsony [~quassel@catv-89-132-88-150.catv.broadband.hu] has quit [Ping timeout: 252 seconds]
+19:40 -!- tixz [~tixz@82.211.209.116] has joined #stackvm
+19:52 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au] has quit [Ping timeout: 252 seconds]
+19:57 -!- thlorenz [~thlorenz@cpe-72-227-186-206.nyc.res.rr.com] has joined #stackvm
+20:00 -!- ircretary [~ircretary@165.225.132.207] has quit [Remote host closed the connection]
+20:00 -!- ircretary [~ircretary@165.225.132.207] has joined #stackvm
+20:13 -!- domanic [~domanic@118.148.160.65] has joined #stackvm
+20:27 -!- tixz [~tixz@82.211.209.116] has quit [Remote host closed the connection]
+20:32 -!- anvaka [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has joined #stackvm
+20:45 -!- Bsony [~quassel@catv-89-132-88-150.catv.broadband.hu] has joined #stackvm
+20:50 -!- Bsony [~quassel@catv-89-132-88-150.catv.broadband.hu] has quit [Ping timeout: 272 seconds]
+20:59 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Remote host closed the connection]
+21:00 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+21:04 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Ping timeout: 246 seconds]
+22:14 -!- anandthakker [~anonymous@c-73-213-253-65.hsd1.md.comcast.net] has quit [Ping timeout: 246 seconds]
+22:20 -!- domanic [~domanic@118.148.160.65] has quit [Ping timeout: 255 seconds]
+22:20 < mikolalysenko> I wonder which of the $+1b start ups are most vulnerable to peer to peer/free replacements
+22:21 < substack> dropbox
+22:21 < mikolalysenko> for sure
+22:22 < mikolalysenko> slack
+22:22 < mikolalysenko> github
+22:22 < mikolalysenko> pinterest
+22:22 < mikolalysenko> spotify
+22:24 < mikolalysenko> the harder ones to replace are the ones which require strict moderation/human management
+22:24 -!- anandthakker [~anonymous@c-73-213-253-65.hsd1.md.comcast.net] has joined #stackvm
+22:24 < mikolalysenko> uber and airbnb would be tough to turn into something distributed
+22:24 < mikolalysenko> also things that require physical infrastructure for shipping and storage of goods
+22:25 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au] has joined #stackvm
+22:25 < mikolalysenko> like amazon or whatever online reatilers
+22:26 < mikolalysenko> biotech/research also don't really scale with p2p infrastructure
+22:27 < mikolalysenko> but pretty much any social media or storage company would get hosed
+22:29 < substack> and things with more regulation, like airbnb and uber
+22:29 < substack> youtube is going to be so dead
+22:29 < substack> I don't think uber would be so hard to make distributed
+22:30 < substack> it's just a reputation/trust network that connects demand with supply
+22:30 < substack> it's just the regulatory side of things that they're better at solving
+22:31 < substack> because they can buy influence in city and regional governments
+22:31 < mikolalysenko> also I wonder if in the limit public transportation/robot cars will just kill them off
+22:31 < substack> hopefully
+22:32 < substack> mikolalysenko: have you ever heard of relational databases using something like multidimensional segment trees?
+22:32 < mikolalysenko> yes
+22:32 < mikolalysenko> segment trees are kind of like range trees
+22:32 < mikolalysenko> but they store intervals, not points
+22:32 < mikolalysenko> basically you take a segment tree and then do the range-tree trick to make it multidimensional
+22:32 < mikolalysenko> but storage costs are expensive
+22:33 < substack> yes, it seems somewhat ideal for the relational use case of select * from users where age < 25 and salary > 2000
+22:33 < mikolalysenko> actually this algorithm uses segment trees (implicitly) https://github.com/mikolalysenko/box-intersect
+22:33 < substack> oh neat
+22:33 < mikolalysenko> for that special case you can even use range trees for that
+22:34 < mikolalysenko> basically range trees ~ points as segment trees ~ intervals
+22:34 < mikolalysenko> but the trick with that algorithm is that it doesn't build the segment tree explicitly
+22:34 < mikolalysenko> it basically recursively sorts the boxes in place to detect all the intersections
+22:35 < mikolalysenko> this saves the extra memory involved in build a full segment tree which is O(n log^d(n))
+22:35 < mikolalysenko> and instead just uses O(n) memory
+22:35 < substack> neat
+22:35 < mikolalysenko> the one draw back though is that it won't work for an index
+22:35 < substack> I'm just thinking of how this approach would serialize on disk
+22:35 < substack> ah yeah :(
+22:36 < mikolalysenko> it might just be r-trees which are the best
+22:36 < mikolalysenko> r-trees seem to be the best in breed of the linear space data structures
+22:36 < substack> is that only for 2d or 3d though?
+22:36 < mikolalysenko> you can use them in whatever dimension you like
+22:37 < mikolalysenko> but the drawback is that they don't have strong theoretical gaurantees
+22:37 < mikolalysenko> and they can fail pretty catastrophically in the worst case
+22:37 < mikolalysenko> also r-tree construction algorithms are a lot of heuristics and bullshit, again because there isn't a good theory for them
+22:38 < mikolalysenko> so it can be hard to sort out what is going on with them
+22:38 < mikolalysenko> I would look at r-bush though, whatever it does seems to work pretty well
+22:38 < substack> thanks, will do
+22:39 < substack> it seems like there should be more overlap with how query planners in relational databases generate indexes and spatial indexes
+22:39 < mikolalysenko> they are closely related problems
+22:40 < mikolalysenko> and there has been a lot of work in studying range searching in the context of query planning
+22:41 < mikolalysenko> I think the best results for range searching use something like O(n log^{d-2} n ) space
+22:41 < mikolalysenko> which is still not great for higher dimensions
+22:42 < mikolalysenko> there is also this lower bound:  https://www.cs.princeton.edu/~chazelle/pubs/LBOrthoRangeSearchReporting.pdf
+22:42 < mikolalysenko> but there are ways to get around it
+22:48 < substack> I think a big problem for these new distributed systems will be how to build indexes
+22:50 < mikolalysenko> in principle you might be able to just reuse current ideas using bittorrent/webtorrent + seeking
+22:50 < mikolalysenko> but there are probably ways that things could be even better
+22:50 < mikolalysenko> since you do have the ability to launch multiple queries in parallel
+22:51 < substack> I think that would be a good place to start
+22:51 -!- anandthakker [~anonymous@c-73-213-253-65.hsd1.md.comcast.net] has quit [Quit: anandthakker]
+22:52 < substack> I haven't seen anything about good ways to serialize these structures that minimize seeks and partial delivery though
+22:53 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+22:54 < mikolalysenko> the correct answer is always use a b-tree
+22:54 < mikolalysenko> but the question is then what value of b do you pick?
+22:54 < substack> hah
+22:54 < mikolalysenko> there are adaptive methods like van emde boas layout that work for any b, but are complicated
+22:54 < mikolalysenko> in practice though you can often do well by just guessing B ~ one page or so
+22:54 < substack> even if the data is higher dimensional?
+22:55 < mikolalysenko> yes
+22:55 < mikolalysenko> you just use b-kdtree or b-r-tree
+22:55 < mikolalysenko> or b-range tree even!
+22:55 < mikolalysenko> it is the same thing
+22:55 < substack> hmm
+20:00 -!- ircretary [~ircretary@165.225.132.207] has quit [Remote host closed the connection]
+20:00 -!- ircretary [~ircretary@165.225.132.207] has joined #stackvm
+20:13 -!- domanic [~domanic@118.148.160.65] has joined #stackvm
+20:27 -!- tixz [~tixz@82.211.209.116] has quit [Remote host closed the connection]
+20:32 -!- anvaka [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has joined #stackvm
+20:45 -!- Bsony [~quassel@catv-89-132-88-150.catv.broadband.hu] has joined #stackvm
+20:50 -!- Bsony [~quassel@catv-89-132-88-150.catv.broadband.hu] has quit [Ping timeout: 272 seconds]
+20:59 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Remote host closed the connection]
+21:00 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+21:04 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Ping timeout: 246 seconds]
+22:14 -!- anandthakker [~anonymous@c-73-213-253-65.hsd1.md.comcast.net] has quit [Ping timeout: 246 seconds]
+22:20 -!- domanic [~domanic@118.148.160.65] has quit [Ping timeout: 255 seconds]
+22:20 < mikolalysenko> I wonder which of the $+1b start ups are most vulnerable to peer to peer/free replacements
+22:21 < substack> dropbox
+22:21 < mikolalysenko> for sure
+22:22 < mikolalysenko> slack
+22:22 < mikolalysenko> github
+22:22 < mikolalysenko> pinterest
+22:22 < mikolalysenko> spotify
+22:24 < mikolalysenko> the harder ones to replace are the ones which require strict moderation/human management
+22:24 -!- anandthakker [~anonymous@c-73-213-253-65.hsd1.md.comcast.net] has joined #stackvm
+22:24 < mikolalysenko> uber and airbnb would be tough to turn into something distributed
+22:24 < mikolalysenko> also things that require physical infrastructure for shipping and storage of goods
+22:25 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au] has joined #stackvm
+22:25 < mikolalysenko> like amazon or whatever online reatilers
+22:26 < mikolalysenko> biotech/research also don't really scale with p2p infrastructure
+22:27 < mikolalysenko> but pretty much any social media or storage company would get hosed
+22:29 < substack> and things with more regulation, like airbnb and uber
+22:29 < substack> youtube is going to be so dead
+22:29 < substack> I don't think uber would be so hard to make distributed
+22:30 < substack> it's just a reputation/trust network that connects demand with supply
+22:30 < substack> it's just the regulatory side of things that they're better at solving
+22:31 < substack> because they can buy influence in city and regional governments
+22:31 < mikolalysenko> also I wonder if in the limit public transportation/robot cars will just kill them off
+22:31 < substack> hopefully
+22:32 < substack> mikolalysenko: have you ever heard of relational databases using something like multidimensional segment trees?
+22:32 < mikolalysenko> yes
+22:32 < mikolalysenko> segment trees are kind of like range trees
+22:32 < mikolalysenko> but they store intervals, not points
+22:32 < mikolalysenko> basically you take a segment tree and then do the range-tree trick to make it multidimensional
+22:32 < mikolalysenko> but storage costs are expensive
+22:33 < substack> yes, it seems somewhat ideal for the relational use case of select * from users where age < 25 and salary > 2000
+22:33 < mikolalysenko> actually this algorithm uses segment trees (implicitly) https://github.com/mikolalysenko/box-intersect
+22:33 < substack> oh neat
+22:33 < mikolalysenko> for that special case you can even use range trees for that
+22:34 < mikolalysenko> basically range trees ~ points as segment trees ~ intervals
+22:34 < mikolalysenko> but the trick with that algorithm is that it doesn't build the segment tree explicitly
+22:34 < mikolalysenko> it basically recursively sorts the boxes in place to detect all the intersections
+22:35 < mikolalysenko> this saves the extra memory involved in build a full segment tree which is O(n log^d(n))
+22:35 < mikolalysenko> and instead just uses O(n) memory
+22:35 < substack> neat
+22:35 < mikolalysenko> the one draw back though is that it won't work for an index
+22:35 < substack> I'm just thinking of how this approach would serialize on disk
+22:35 < substack> ah yeah :(
+22:36 < mikolalysenko> it might just be r-trees which are the best
+22:36 < mikolalysenko> r-trees seem to be the best in breed of the linear space data structures
+22:36 < substack> is that only for 2d or 3d though?
+22:36 < mikolalysenko> you can use them in whatever dimension you like
+22:37 < mikolalysenko> but the drawback is that they don't have strong theoretical gaurantees
+22:37 < mikolalysenko> and they can fail pretty catastrophically in the worst case
+22:37 < mikolalysenko> also r-tree construction algorithms are a lot of heuristics and bullshit, again because there isn't a good theory for them
+22:38 < mikolalysenko> so it can be hard to sort out what is going on with them
+22:38 < mikolalysenko> I would look at r-bush though, whatever it does seems to work pretty well
+22:38 < substack> thanks, will do
+22:39 < substack> it seems like there should be more overlap with how query planners in relational databases generate indexes and spatial indexes
+22:39 < mikolalysenko> they are closely related problems
+22:40 < mikolalysenko> and there has been a lot of work in studying range searching in the context of query planning
+22:41 < mikolalysenko> I think the best results for range searching use something like O(n log^{d-2} n ) space
+22:41 < mikolalysenko> which is still not great for higher dimensions
+22:42 < mikolalysenko> there is also this lower bound:  https://www.cs.princeton.edu/~chazelle/pubs/LBOrthoRangeSearchReporting.pdf
+22:42 < mikolalysenko> but there are ways to get around it
+22:48 < substack> I think a big problem for these new distributed systems will be how to build indexes
+22:50 < mikolalysenko> in principle you might be able to just reuse current ideas using bittorrent/webtorrent + seeking
+22:50 < mikolalysenko> but there are probably ways that things could be even better
+22:50 < mikolalysenko> since you do have the ability to launch multiple queries in parallel
+22:51 < substack> I think that would be a good place to start
+22:51 -!- anandthakker [~anonymous@c-73-213-253-65.hsd1.md.comcast.net] has quit [Quit: anandthakker]
+22:52 < substack> I haven't seen anything about good ways to serialize these structures that minimize seeks and partial delivery though
+22:53 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+22:54 < mikolalysenko> the correct answer is always use a b-tree
+22:54 < mikolalysenko> but the question is then what value of b do you pick?
+22:54 < substack> hah
+22:54 < mikolalysenko> there are adaptive methods like van emde boas layout that work for any b, but are complicated
+22:54 < mikolalysenko> in practice though you can often do well by just guessing B ~ one page or so
+22:54 < substack> even if the data is higher dimensional?
+22:55 < mikolalysenko> yes
+22:55 < mikolalysenko> you just use b-kdtree or b-r-tree
+22:55 < mikolalysenko> or b-range tree even!
+22:55 < mikolalysenko> it is the same thing
+22:55 < substack> hmm
+22:55 < mikolalysenko> all you need to do to make things disk aware is store them in a b-tree, that is it
+22:55 < mikolalysenko> and if you just pick a reasonable size of b, everything should just work
+22:56 < mikolalysenko> the model for disk and network access is blocked transfers
+20:27 -!- tixz [~tixz@82.211.209.116] has quit [Remote host closed the connection]
+20:32 -!- anvaka [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has joined #stackvm
+20:45 -!- Bsony [~quassel@catv-89-132-88-150.catv.broadband.hu] has joined #stackvm
+20:50 -!- Bsony [~quassel@catv-89-132-88-150.catv.broadband.hu] has quit [Ping timeout: 272 seconds]
+20:59 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Remote host closed the connection]
+21:00 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+21:04 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Ping timeout: 246 seconds]
+22:14 -!- anandthakker [~anonymous@c-73-213-253-65.hsd1.md.comcast.net] has quit [Ping timeout: 246 seconds]
+22:20 -!- domanic [~domanic@118.148.160.65] has quit [Ping timeout: 255 seconds]
+22:20 < mikolalysenko> I wonder which of the $+1b start ups are most vulnerable to peer to peer/free replacements
+22:21 < substack> dropbox
+22:21 < mikolalysenko> for sure
+22:22 < mikolalysenko> slack
+22:22 < mikolalysenko> github
+22:22 < mikolalysenko> pinterest
+22:22 < mikolalysenko> spotify
+22:24 < mikolalysenko> the harder ones to replace are the ones which require strict moderation/human management
+22:24 -!- anandthakker [~anonymous@c-73-213-253-65.hsd1.md.comcast.net] has joined #stackvm
+22:24 < mikolalysenko> uber and airbnb would be tough to turn into something distributed
+22:24 < mikolalysenko> also things that require physical infrastructure for shipping and storage of goods
+22:25 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au] has joined #stackvm
+22:25 < mikolalysenko> like amazon or whatever online reatilers
+22:26 < mikolalysenko> biotech/research also don't really scale with p2p infrastructure
+22:27 < mikolalysenko> but pretty much any social media or storage company would get hosed
+22:29 < substack> and things with more regulation, like airbnb and uber
+22:29 < substack> youtube is going to be so dead
+22:29 < substack> I don't think uber would be so hard to make distributed
+22:30 < substack> it's just a reputation/trust network that connects demand with supply
+22:30 < substack> it's just the regulatory side of things that they're better at solving
+22:31 < substack> because they can buy influence in city and regional governments
+22:31 < mikolalysenko> also I wonder if in the limit public transportation/robot cars will just kill them off
+22:31 < substack> hopefully
+22:32 < substack> mikolalysenko: have you ever heard of relational databases using something like multidimensional segment trees?
+22:32 < mikolalysenko> yes
+22:32 < mikolalysenko> segment trees are kind of like range trees
+22:32 < mikolalysenko> but they store intervals, not points
+22:32 < mikolalysenko> basically you take a segment tree and then do the range-tree trick to make it multidimensional
+22:32 < mikolalysenko> but storage costs are expensive
+22:33 < substack> yes, it seems somewhat ideal for the relational use case of select * from users where age < 25 and salary > 2000
+22:33 < mikolalysenko> actually this algorithm uses segment trees (implicitly) https://github.com/mikolalysenko/box-intersect
+22:33 < substack> oh neat
+22:33 < mikolalysenko> for that special case you can even use range trees for that
+22:34 < mikolalysenko> basically range trees ~ points as segment trees ~ intervals
+22:34 < mikolalysenko> but the trick with that algorithm is that it doesn't build the segment tree explicitly
+22:34 < mikolalysenko> it basically recursively sorts the boxes in place to detect all the intersections
+22:35 < mikolalysenko> this saves the extra memory involved in build a full segment tree which is O(n log^d(n))
+22:35 < mikolalysenko> and instead just uses O(n) memory
+22:35 < substack> neat
+22:35 < mikolalysenko> the one draw back though is that it won't work for an index
+22:35 < substack> I'm just thinking of how this approach would serialize on disk
+22:35 < substack> ah yeah :(
+22:36 < mikolalysenko> it might just be r-trees which are the best
+22:36 < mikolalysenko> r-trees seem to be the best in breed of the linear space data structures
+22:36 < substack> is that only for 2d or 3d though?
+22:36 < mikolalysenko> you can use them in whatever dimension you like
+22:37 < mikolalysenko> but the drawback is that they don't have strong theoretical gaurantees
+22:37 < mikolalysenko> and they can fail pretty catastrophically in the worst case
+22:37 < mikolalysenko> also r-tree construction algorithms are a lot of heuristics and bullshit, again because there isn't a good theory for them
+22:38 < mikolalysenko> so it can be hard to sort out what is going on with them
+22:38 < mikolalysenko> I would look at r-bush though, whatever it does seems to work pretty well
+22:38 < substack> thanks, will do
+22:39 < substack> it seems like there should be more overlap with how query planners in relational databases generate indexes and spatial indexes
+22:39 < mikolalysenko> they are closely related problems
+22:40 < mikolalysenko> and there has been a lot of work in studying range searching in the context of query planning
+22:41 < mikolalysenko> I think the best results for range searching use something like O(n log^{d-2} n ) space
+22:41 < mikolalysenko> which is still not great for higher dimensions
+22:42 < mikolalysenko> there is also this lower bound:  https://www.cs.princeton.edu/~chazelle/pubs/LBOrthoRangeSearchReporting.pdf
+22:42 < mikolalysenko> but there are ways to get around it
+22:48 < substack> I think a big problem for these new distributed systems will be how to build indexes
+22:50 < mikolalysenko> in principle you might be able to just reuse current ideas using bittorrent/webtorrent + seeking
+22:50 < mikolalysenko> but there are probably ways that things could be even better
+22:50 < mikolalysenko> since you do have the ability to launch multiple queries in parallel
+22:51 < substack> I think that would be a good place to start
+22:51 -!- anandthakker [~anonymous@c-73-213-253-65.hsd1.md.comcast.net] has quit [Quit: anandthakker]
+22:52 < substack> I haven't seen anything about good ways to serialize these structures that minimize seeks and partial delivery though
+22:53 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+22:54 < mikolalysenko> the correct answer is always use a b-tree
+22:54 < mikolalysenko> but the question is then what value of b do you pick?
+22:54 < substack> hah
+22:54 < mikolalysenko> there are adaptive methods like van emde boas layout that work for any b, but are complicated
+22:54 < mikolalysenko> in practice though you can often do well by just guessing B ~ one page or so
+22:54 < substack> even if the data is higher dimensional?
+22:55 < mikolalysenko> yes
+22:55 < mikolalysenko> you just use b-kdtree or b-r-tree
+22:55 < mikolalysenko> or b-range tree even!
+22:55 < mikolalysenko> it is the same thing
+22:55 < substack> hmm
+22:55 < mikolalysenko> all you need to do to make things disk aware is store them in a b-tree, that is it
+22:55 < mikolalysenko> and if you just pick a reasonable size of b, everything should just work
+22:56 < mikolalysenko> the model for disk and network access is blocked transfers
+22:56 -!- anandthakker [~anonymous@c-73-213-253-65.hsd1.md.comcast.net] has joined #stackvm
+22:56 < mikolalysenko> so you just want to make sure that whenever you read a block you get as much out of it as you possibly can
+22:57 < mikolalysenko> van emde boas is a kind of neat trick since you can think of it as something like an adaptive b tree
+22:57 < substack> reading
+22:57 < mikolalysenko> where you don't need to know b in advance, but it in some sense does a search on b when you read in a block
+13:12 -!- pfraze_ [~pfraze@cpe-24-242-79-106.austin.res.rr.com] has joined #scuttlebutt
+13:15 -!- pfraze [~pfraze@2605:6000:e900:d200:c025:803d:6840:4ed1] has quit [Ping timeout: 265 seconds]
+13:37 -!- tixz [~tixz@152.115.92.18] has quit [Remote host closed the connection]
+13:38 -!- williamcotton [~williamco@c-24-5-80-236.hsd1.ca.comcast.net] has joined #scuttlebutt
+13:41 -!- tixz [~tixz@152.115.92.18] has joined #scuttlebutt
+13:49 -!- williamcotton [~williamco@c-24-5-80-236.hsd1.ca.comcast.net] has quit [Ping timeout: 256 seconds]
+14:04 -!- williamcotton [~williamco@c-24-5-80-236.hsd1.ca.comcast.net] has joined #scuttlebutt
+14:57 -!- williamcotton [~williamco@c-24-5-80-236.hsd1.ca.comcast.net] has quit [Ping timeout: 252 seconds]
+15:08 -!- tictacjoe [~JohnDotAw@cpe-24-242-77-166.austin.res.rr.com] has joined #scuttlebutt
+15:31 -!- tictacjoe [~JohnDotAw@cpe-24-242-77-166.austin.res.rr.com] has quit [Remote host closed the connection]
+15:36 -!- pelletier [~pelletier@do.inputrc.com] has quit [Ping timeout: 255 seconds]
+16:49 -!- domanic [~domanic@118.148.160.65] has joined #scuttlebutt
+17:01 -!- domanic [~domanic@118.148.160.65] has quit [Ping timeout: 246 seconds]
+17:06 -!- phpnode_ [~charles@host86-139-144-208.range86-139.btcentralplus.com] has joined #scuttlebutt
+17:09 -!- phpnode [~charles@host86-162-211-193.range86-162.btcentralplus.com] has quit [Ping timeout: 264 seconds]
+18:12 -!- tixz [~tixz@152.115.92.18] has quit [Remote host closed the connection]
+18:13 -!- woah [~woah@75-101-111-82.dedicated.static.sonic.net] has joined #scuttlebutt
+19:40 -!- tixz [~tixz@82.211.209.116] has joined #scuttlebutt
+19:48 -!- williamcotton [~williamco@c-24-5-80-236.hsd1.ca.comcast.net] has quit [Ping timeout: 245 seconds]
+19:52 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au] has quit [Ping timeout: 252 seconds]
+19:54 -!- williamcotton [~williamco@c-24-5-80-236.hsd1.ca.comcast.net] has joined #scuttlebutt
+20:13 -!- domanic [~domanic@118.148.160.65] has joined #scuttlebutt
+20:27 -!- tixz [~tixz@82.211.209.116] has quit [Remote host closed the connection]
+21:06 -!- williamcotton [~williamco@c-24-5-80-236.hsd1.ca.comcast.net] has quit [Ping timeout: 265 seconds]
+22:16 -!- woah [~woah@75-101-96-71.dsl.static.fusionbroadband.com] has joined #scuttlebutt
+22:20 -!- domanic [~domanic@118.148.160.65] has quit [Ping timeout: 255 seconds]
+22:25 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au] has joined #scuttlebutt
+ https://github.com/dominictarr/secure-scuttlebutt and https://github.com/pfraze/phoenix
+23:16 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au] has quit [Ping timeout: 256 seconds]
+23:45 -!- pfraze_ [~pfraze@cpe-24-242-79-106.austin.res.rr.com] has quit [Remote host closed the connection]
+23:47 -!- pfraze [~pfraze@cpe-24-242-79-106.austin.res.rr.com] has joined #scuttlebutt
+Day changed to 22 Mar 2015
+01:02 < jjjohnny_> pfraze: i just had an epiphany about trust networks
+01:03 < jjjohnny_> which is that they need to be human decipheraable
+01:04 < jjjohnny_> people will have to learn to decipher good networks versus bad ones, with help of courwse
+01:04 < jjjohnny_> but like, if I want to get a ride from the ditributed uber, and If there is no central agency (uber) to manage trust, then I
+                   need to be able to discren if this ride-offer is legit
+01:05 < jjjohnny_> trust statistics
+01:05 < jjjohnny_> trust quotient
+01:06 < pfraze> jjjohnny_: yeah I agree
+01:06 < jjjohnny_> J is trusted by 100 people, but his trustees are a closed circuit, so J's TQ is low
+01:07 < jjjohnny_> ultimately people need to be able to make those judgements, not algorithms
+01:07 < jjjohnny_> algos will help, oc
+01:08 < jjjohnny_> and again I will say that gang/tribal organizations will play a role in all this
+01:09 < jjjohnny_> J is trusted by 90% of the cyberhobo gang, and that means something.
+01:10 < jjjohnny_> or unnoficially gangs, being higher order trusts groups
+01:10 < jjjohnny_> high order trust net algorithm
+01:11 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au] has joined #scuttlebutt
+01:11 < jjjohnny_> J seems to be part of a group of generally trusted people.  that group generally trusts people from another group
+01:13 < pfraze> jjjohnny_: it's largely a ux problem, i think the challenge is making it comprehensible but also more or less enjoyable to deal
+                with
+01:14 < pfraze> there are two steps i'm dealing with now, rating/representing trust and sharing contacts with each other
+01:14 < pfraze> I think I've got something ok for the first part, the latter part I havent figured out yet but Im sure there's a nice way to deal
+                with it
+01:20 < jjjohnny_> is there a particular use case for trust currently?
+01:21 < jjjohnny_> in terms of messaging, we have verification with crypto, what is the case issue?  API level?
+01:23 < jjjohnny_> i need trust fr rides, sex, and politics
+01:23 < jjjohnny_> and movvie reviews
+01:24 < jjjohnny_> there is also probably something in anonymous trust and non
+01:25 < jjjohnny_> private trust and public
+01:26 < jjjohnny_> like, get a trust a report on somebody, its anonymous, and//or cultivate your own thru contacts
+01:26 < jjjohnny_> perhaps training your own trust parameters
+01:31 -!- domanic [~domanic@118.148.160.65] has joined #scuttlebutt
+01:41 -!- pfraze [~pfraze@cpe-24-242-79-106.austin.res.rr.com] has quit [Remote host closed the connection]
+ [01:45] [jjjohnny_(+i)] [4:freenode/#scuttlebutt(+ns)] [Act: 1,3,5,9,10,14,16]
+[#scuttlebutt]
+02:13 -!- morenoh149 [~morenoh14@208-90-214-199.PUBLIC.monkeybrains.net] has quit [Ping timeout: 244 seconds]
+03:12 -!- morenoh149 [~morenoh14@50-0-136-100.dsl.dynamic.fusionbroadband.com] has joined #cyberwizard
+10:48 -!- karen_punkpunk [~karen@50.14.167.177] has joined #cyberwizard
+11:51 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #cyberwizard
+12:40 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has quit [Quit: thealphanerd]
+14:46 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #cyberwizard
+15:54 -!- karen_punkpunk [~karen@50.14.167.177] has quit [Quit: karen_punkpunk]
+15:56 -!- karen_punkpunk [~karen@50.14.167.177] has joined #cyberwizard
+17:54 -!- morenoh150 [~morenoh14@50-0-136-100.dsl.dynamic.fusionbroadband.com] has joined #cyberwizard
+17:55 -!- morenoh149 [~morenoh14@50-0-136-100.dsl.dynamic.fusionbroadband.com] has quit [Ping timeout: 246 seconds]
+17:58 < jjjohnny_> jerkey: what if somebody wants to be eloquent or persuasive in their opinion?
+17:58 < jjjohnny_> im asking for a friend
+17:59 < jerkey> jjjohnny_ you can put whatever you want in an opinion, and if people like it they will copy it into their
+                screed and it will get popular
+18:00 < jjjohnny_> my friend, the pollwright
+18:00 < jerkey> but if your goal is to save the main library in 2016, you should probably copy the most popular phrase that
+                says that.  if you also write a new, unique phrase that says it more eloquently it might get some people liking
+                it but probably nobody who doesn't also rep the popular, simple phrase
+18:01 < jerkey> but at the early stages of an idea, when people search keywords and find multiple competing ways to express
+                something, they will choose whichever ones resonate with them, or maybe just the one they like most, if they
+01:02 < jjjohnny_> pfraze: i just had an epiphany about trust networks
+01:03 < jjjohnny_> which is that they need to be human decipheraable
+01:04 < jjjohnny_> people will have to learn to decipher good networks versus bad ones, with help of courwse
+01:04 < jjjohnny_> but like, if I want to get a ride from the ditributed uber, and If there is no central agency (uber) to
+                   manage trust, then I need to be able to discren if this ride-offer is legit
+01:05 < jjjohnny_> trust statistics
+01:05 < jjjohnny_> trust quotient
+01:06 < pfraze> jjjohnny_: yeah I agree
+01:06 < jjjohnny_> J is trusted by 100 people, but his trustees are a closed circuit, so J's TQ is low
+01:07 < jjjohnny_> ultimately people need to be able to make those judgements, not algorithms
+01:07 < jjjohnny_> algos will help, oc
+01:08 < jjjohnny_> and again I will say that gang/tribal organizations will play a role in all this
+01:09 < jjjohnny_> J is trusted by 90% of the cyberhobo gang, and that means something.
+01:10 < jjjohnny_> or unnoficially gangs, being higher order trusts groups
+01:10 < jjjohnny_> high order trust net algorithm
+01:11 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au] has joined #scuttlebutt
+01:11 < jjjohnny_> J seems to be part of a group of generally trusted people.  that group generally trusts people from another
+                   group
+01:13 < pfraze> jjjohnny_: it's largely a ux problem, i think the challenge is making it comprehensible but also more or less
+                enjoyable to deal with
+01:14 < pfraze> there are two steps i'm dealing with now, rating/representing trust and sharing contacts with each other
+01:14 < pfraze> I think I've got something ok for the first part, the latter part I havent figured out yet but Im sure there's
+                a nice way to deal with it
+01:20 < jjjohnny_> is there a particular use case for trust currently?
+01:21 < jjjohnny_> in terms of messaging, we have verification with crypto, what is the case issue?  API level?
+01:23 < jjjohnny_> i need trust fr rides, sex, and politics
+01:23 < jjjohnny_> and movvie reviews
+01:24 < jjjohnny_> there is also probably something in anonymous trust and non
+01:25 < jjjohnny_> private trust and public
+01:26 < jjjohnny_> like, get a trust a report on somebody, its anonymous, and//or cultivate your own thru contacts
+01:26 < jjjohnny_> perhaps training your own trust parameters
+01:31 -!- domanic [~domanic@118.148.160.65] has joined #scuttlebutt
+01:41 -!- pfraze [~pfraze@cpe-24-242-79-106.austin.res.rr.com] has quit [Remote host closed the connection]
+02:29 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au] has quit [Ping timeout: 264 seconds]
+ https://github.com/dominictarr/secure-scuttlebutt and https://github.com/pfraze/phoenix
+03:05 < woah> jjjohnny_: what are incentives to put trust info into the system?
+03:07 < jjjohnny_> woah: i guess anonymous data would be based on automatic analysis
+03:07 < jjjohnny_> and you wouldn't share your private models
+03:08 < woah> oh so, markers that someone imlicitly trusts someone?
+03:08 < jjjohnny_> or maybe you would but they would anonymized
+03:08 < woah> hmm
+03:08 < woah> you could loan people money
+03:08 < jjjohnny_> and treated sparately from auto analysis, which would be basic degree of separation stats and higher ordered
+                   stuff
+03:08 < woah> get a crypto iou, which is some kind of insurance and also contributes to the trust info in the system
+03:09 < jjjohnny_> woah: yeah so that gets to my point above about use cases
+03:10 < jjjohnny_> a partiuclar network has particular methods
+03:10 < jjjohnny_> and those need to be defined/created according to the needs of that network
+03:10 < woah> yep
+03:10 < jjjohnny_> so a crypto loan network might have different models than a local booty call net
+03:10 < woah> haha
+03:10 < jjjohnny_> which is why I ask what the purpose of modeling them are for ssb/pheonix
+03:11 < jjjohnny_> general purpose, for creating higher order, more specific use cases?
+03:11 < jjjohnny_> or partocularly for a basic social network
+03:11 < woah> well what is the purpose of a basic social network?
+03:12 < woah> maybe pfraze should pivot phoenix to a local booty call net
+03:12 < jjjohnny_> i admit i am somewhat dubious that pheonix/scuttlebot can serve as a basis for any kind of p2p social net
+03:13 < woah> why?
+03:14 < jjjohnny_> it is being designed for a purpose
+03:15 < jjjohnny_> somewhat like an advanced twitter replacement
+03:15 < jjjohnny_> i don't know its exact vector right now, and am waiting to see how it all folds together tho
+03:17 < jjjohnny_> ssb itself is good for all kinds of nets
+03:18 < jjjohnny_> scuttlebot/pheonix is a layer on that, so it seems natural to guess that other nets might be better as their
+                   own tier 2 system
+03:19 < jjjohnny_> for one thing, you want to keep your booty trust separate from other trusts
+03:20 < jjjohnny_> you don't want your different qualifications mixing and generalizing
+03:22 < jjjohnny_> so if pheonix is offering general purpose trust API, then its asking to be the base layer for other networks
+03:22 < jjjohnny_> but we all know how hard low level APIs are
+03:22 < jjjohnny_> to get right
+03:33 -!- woah [~woah@75-101-96-71.dsl.static.fusionbroadband.com] has quit [Remote host closed the connection]
+ [03:41] [jjjohnny_(+i)] [4:freenode/#scuttlebutt(+ns)] [Act: 3,5,7,9,10,14,16]
+[#scuttlebutt]
+ https://github.com/dominictarr/secure-scuttlebutt and https://github.com/pfraze/phoenix
+01:31 -!- domanic [~domanic@118.148.160.65] has joined #scuttlebutt
+01:41 -!- pfraze [~pfraze@cpe-24-242-79-106.austin.res.rr.com] has quit [Remote host closed the connection]
+02:29 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au] has quit [Ping timeout: 264 seconds]
+03:05 < woah> jjjohnny_: what are incentives to put trust info into the system?
+03:07 < jjjohnny_> woah: i guess anonymous data would be based on automatic analysis
+03:07 < jjjohnny_> and you wouldn't share your private models
+03:08 < woah> oh so, markers that someone imlicitly trusts someone?
+03:08 < jjjohnny_> or maybe you would but they would anonymized
+03:08 < woah> hmm
+03:08 < woah> you could loan people money
+03:08 < jjjohnny_> and treated sparately from auto analysis, which would be basic degree of separation stats and higher ordered stuff
+03:08 < woah> get a crypto iou, which is some kind of insurance and also contributes to the trust info in the system
+03:09 < jjjohnny_> woah: yeah so that gets to my point above about use cases
+03:10 < jjjohnny_> a partiuclar network has particular methods
+03:10 < jjjohnny_> and those need to be defined/created according to the needs of that network
+03:10 < woah> yep
+03:10 < jjjohnny_> so a crypto loan network might have different models than a local booty call net
+03:10 < woah> haha
+03:10 < jjjohnny_> which is why I ask what the purpose of modeling them are for ssb/pheonix
+03:11 < jjjohnny_> general purpose, for creating higher order, more specific use cases?
+03:11 < jjjohnny_> or partocularly for a basic social network
+03:11 < woah> well what is the purpose of a basic social network?
+03:12 < woah> maybe pfraze should pivot phoenix to a local booty call net
+03:12 < jjjohnny_> i admit i am somewhat dubious that pheonix/scuttlebot can serve as a basis for any kind of p2p social net
+03:13 < woah> why?
+03:14 < jjjohnny_> it is being designed for a purpose
+03:15 < jjjohnny_> somewhat like an advanced twitter replacement
+03:15 < jjjohnny_> i don't know its exact vector right now, and am waiting to see how it all folds together tho
+03:17 < jjjohnny_> ssb itself is good for all kinds of nets
+03:18 < jjjohnny_> scuttlebot/pheonix is a layer on that, so it seems natural to guess that other nets might be better as their own tier 2 system
+03:19 < jjjohnny_> for one thing, you want to keep your booty trust separate from other trusts
+03:20 < jjjohnny_> you don't want your different qualifications mixing and generalizing
+03:22 < jjjohnny_> so if pheonix is offering general purpose trust API, then its asking to be the base layer for other networks
+03:22 < jjjohnny_> but we all know how hard low level APIs are
+03:22 < jjjohnny_> to get right
+03:33 -!- woah [~woah@75-101-96-71.dsl.static.fusionbroadband.com] has quit [Remote host closed the connection]
+ [03:41] [jjjohnny_(+i)] [4:freenode/#scuttlebutt(+ns)] [Act: 3,5,7,9,10,14,16]
+[#scuttlebutt]
+ https://github.com/dominictarr/secure-scuttlebutt and https://github.com/pfraze/phoenix
+01:41 -!- pfraze [~pfraze@cpe-24-242-79-106.austin.res.rr.com] has quit [Remote host closed the connection]
+02:29 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au] has quit [Ping timeout: 264 seconds]
+03:05 < woah> jjjohnny_: what are incentives to put trust info into the system?
+03:07 < jjjohnny_> woah: i guess anonymous data would be based on automatic analysis
+03:07 < jjjohnny_> and you wouldn't share your private models
+03:08 < woah> oh so, markers that someone imlicitly trusts someone?
+03:08 < jjjohnny_> or maybe you would but they would anonymized
+03:08 < woah> hmm
+03:08 < woah> you could loan people money
+03:08 < jjjohnny_> and treated sparately from auto analysis, which would be basic degree of separation stats and higher ordered stuff
+03:08 < woah> get a crypto iou, which is some kind of insurance and also contributes to the trust info in the system
+03:09 < jjjohnny_> woah: yeah so that gets to my point above about use cases
+03:10 < jjjohnny_> a partiuclar network has particular methods
+03:10 < jjjohnny_> and those need to be defined/created according to the needs of that network
+03:10 < woah> yep
+03:10 < jjjohnny_> so a crypto loan network might have different models than a local booty call net
+03:10 < woah> haha
+03:10 < jjjohnny_> which is why I ask what the purpose of modeling them are for ssb/pheonix
+03:11 < jjjohnny_> general purpose, for creating higher order, more specific use cases?
+03:11 < jjjohnny_> or partocularly for a basic social network
+03:11 < woah> well what is the purpose of a basic social network?
+03:12 < woah> maybe pfraze should pivot phoenix to a local booty call net
+03:12 < jjjohnny_> i admit i am somewhat dubious that pheonix/scuttlebot can serve as a basis for any kind of p2p social net
+03:13 < woah> why?
+03:14 < jjjohnny_> it is being designed for a purpose
+03:15 < jjjohnny_> somewhat like an advanced twitter replacement
+03:15 < jjjohnny_> i don't know its exact vector right now, and am waiting to see how it all folds together tho
+03:17 < jjjohnny_> ssb itself is good for all kinds of nets
+03:18 < jjjohnny_> scuttlebot/pheonix is a layer on that, so it seems natural to guess that other nets might be better as their own tier 2 system
+03:19 < jjjohnny_> for one thing, you want to keep your booty trust separate from other trusts
+03:20 < jjjohnny_> you don't want your different qualifications mixing and generalizing
+03:22 < jjjohnny_> so if pheonix is offering general purpose trust API, then its asking to be the base layer for other networks
+03:22 < jjjohnny_> but we all know how hard low level APIs are
+03:22 < jjjohnny_> to get right
+03:33 -!- woah [~woah@75-101-96-71.dsl.static.fusionbroadband.com] has quit [Remote host closed the connection]
+ [03:41] [jjjohnny_(+i)] [4:freenode/#scuttlebutt(+ns)] [Act: 3,5,7,9,10,14,16]
+[#scuttlebutt]
+01:31 -!- domanic [~domanic@118.148.160.65] has joined #scuttlebutt
+01:41 -!- pfraze [~pfraze@cpe-24-242-79-106.austin.res.rr.com] has quit [Remote host closed the connection]
+02:29 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au] has quit [Ping timeout: 264 seconds]
+03:05 < woah> jjjohnny_: what are incentives to put trust info into the system?
+03:07 < jjjohnny_> woah: i guess anonymous data would be based on automatic analysis
+03:07 < jjjohnny_> and you wouldn't share your private models
+03:08 < woah> oh so, markers that someone imlicitly trusts someone?
+03:08 < jjjohnny_> or maybe you would but they would anonymized
+03:08 < woah> hmm
+03:08 < woah> you could loan people money
+03:08 < jjjohnny_> and treated sparately from auto analysis, which would be basic degree of separation stats and higher ordered stuff
+03:08 < woah> get a crypto iou, which is some kind of insurance and also contributes to the trust info in the system
+03:09 < jjjohnny_> woah: yeah so that gets to my point above about use cases
+03:10 < jjjohnny_> a partiuclar network has particular methods
+03:10 < jjjohnny_> and those need to be defined/created according to the needs of that network
+03:10 < woah> yep
+03:10 < jjjohnny_> so a crypto loan network might have different models than a local booty call net
+03:10 < woah> haha
+03:10 < jjjohnny_> which is why I ask what the purpose of modeling them are for ssb/pheonix
+03:11 < jjjohnny_> general purpose, for creating higher order, more specific use cases?
+03:11 < jjjohnny_> or partocularly for a basic social network
+03:11 < woah> well what is the purpose of a basic social network?
+03:12 < woah> maybe pfraze should pivot phoenix to a local booty call net
+Day changed to 22 Mar 2015
+18:00 < jjjohnny_> my friend, the pollwright
+18:00 < jerkey> but if your goal is to save the main library in 2016, you should probably copy the most popular phrase that says that.  if you
+                also write a new, unique phrase that says it more eloquently it might get some people liking it but probably nobody who doesn't
+                also rep the popular, simple phrase
+18:01 < jerkey> but at the early stages of an idea, when people search keywords and find multiple competing ways to express something, they will
+                choose whichever ones resonate with them, or maybe just the one they like most, if they don't feel like picking multiple ones
+18:03 < jjjohnny_> hai
+18:43 -!- karen_punkpunk [~karen@50.14.167.177] has quit [Quit: karen_punkpunk]
+18:46 < jerkey> and we look forward to supporting UCS-24
+19:31 -!- morenoh150 is now known as morenoh149
+20:15 -!- karen_punkpunk [~karen@50.14.167.177] has joined #cyberwizard
+20:50 -!- karen_punkpunk [~karen@50.14.167.177] has quit [Quit: karen_punkpunk]
+22:16 -!- karen_punkpunk [~karen@50.14.167.177] has joined #cyberwizard
+22:23 -!- karen_punkpunk [~karen@50.14.167.177] has quit [Quit: karen_punkpunk]
+22:33 -!- karen_punkpunk [~karen@50.14.167.177] has joined #cyberwizard
+22:40 -!- uber_hulk [uid59832@gateway/web/irccloud.com/x-kbmiazzjhiltyddy] has joined #cyberwizard
+23:44 -!- karen_punkpunk [~karen@50.14.167.177] has quit [Quit: karen_punkpunk]
+Day changed to 22 Mar 2015
+03:14 < jjjohnny_> it is being designed for a purpose
+01:04 < jjjohnny_> people will have to learn to decipher good networks versus bad ones, with help of courwse
+01:04 < jjjohnny_> but like, if I want to get a ride from the ditributed uber, and If there is no central agency (uber) to manage trust, then I
+                   need to be able to discren if this ride-offer is legit
+01:05 < jjjohnny_> trust statistics
+01:05 < jjjohnny_> trust quotient
+01:06 < pfraze> jjjohnny_: yeah I agree
+01:06 < jjjohnny_> J is trusted by 100 people, but his trustees are a closed circuit, so J's TQ is low
+01:07 < jjjohnny_> ultimately people need to be able to make those judgements, not algorithms
+01:07 < jjjohnny_> algos will help, oc
+01:08 < jjjohnny_> and again I will say that gang/tribal organizations will play a role in all this
+01:09 < jjjohnny_> J is trusted by 90% of the cyberhobo gang, and that means something.
+01:10 < jjjohnny_> or unnoficially gangs, being higher order trusts groups
+01:10 < jjjohnny_> high order trust net algorithm
+01:11 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au] has joined #scuttlebutt
+01:11 < jjjohnny_> J seems to be part of a group of generally trusted people.  that group generally trusts people from another group
+01:13 < pfraze> jjjohnny_: it's largely a ux problem, i think the challenge is making it comprehensible but also more or less enjoyable to deal
+                with
+01:14 < pfraze> there are two steps i'm dealing with now, rating/representing trust and sharing contacts with each other
+01:14 < pfraze> I think I've got something ok for the first part, the latter part I havent figured out yet but Im sure there's a nice way to deal
+                with it
+01:20 < jjjohnny_> is there a particular use case for trust currently?
+01:21 < jjjohnny_> in terms of messaging, we have verification with crypto, what is the case issue?  API level?
+01:23 < jjjohnny_> i need trust fr rides, sex, and politics
+01:23 < jjjohnny_> and movvie reviews
+01:24 < jjjohnny_> there is also probably something in anonymous trust and non
+01:25 < jjjohnny_> private trust and public
+01:26 < jjjohnny_> like, get a trust a report on somebody, its anonymous, and//or cultivate your own thru contacts
+01:26 < jjjohnny_> perhaps training your own trust parameters
+01:31 -!- domanic [~domanic@118.148.160.65] has joined #scuttlebutt
+01:41 -!- pfraze [~pfraze@cpe-24-242-79-106.austin.res.rr.com] has quit [Remote host closed the connection]
+02:29 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au] has quit [Ping timeout: 264 seconds]
+03:05 < woah> jjjohnny_: what are incentives to put trust info into the system?
+03:07 < jjjohnny_> woah: i guess anonymous data would be based on automatic analysis
+03:07 < jjjohnny_> and you wouldn't share your private models
+03:08 < woah> oh so, markers that someone imlicitly trusts someone?
+03:08 < jjjohnny_> or maybe you would but they would anonymized
+03:08 < woah> hmm
+03:08 < woah> you could loan people money
+03:08 < jjjohnny_> and treated sparately from auto analysis, which would be basic degree of separation stats and higher ordered stuff
+03:08 < woah> get a crypto iou, which is some kind of insurance and also contributes to the trust info in the system
+03:09 < jjjohnny_> woah: yeah so that gets to my point above about use cases
+03:10 < jjjohnny_> a partiuclar network has particular methods
+03:10 < jjjohnny_> and those need to be defined/created according to the needs of that network
+03:10 < woah> yep
+03:10 < jjjohnny_> so a crypto loan network might have different models than a local booty call net
+03:10 < woah> haha
+03:10 < jjjohnny_> which is why I ask what the purpose of modeling them are for ssb/pheonix
+03:11 < jjjohnny_> general purpose, for creating higher order, more specific use cases?
+03:11 < jjjohnny_> or partocularly for a basic social network
+03:11 < woah> well what is the purpose of a basic social network?
+03:12 < woah> maybe pfraze should pivot phoenix to a local booty call net
+03:12 < jjjohnny_> i admit i am somewhat dubious that pheonix/scuttlebot can serve as a basis for any kind of p2p social net
+03:13 < woah> why?
+03:14 < jjjohnny_> it is being designed for a purpose
+03:15 < jjjohnny_> somewhat like an advanced twitter replacement
+03:15 < jjjohnny_> i don't know its exact vector right now, and am waiting to see how it all folds together tho
+ https://github.com/dominictarr/secure-scuttlebutt and https://github.com/pfraze/phoenix
+03:17 < jjjohnny_> ssb itself is good for all kinds of nets
+03:18 < jjjohnny_> scuttlebot/pheonix is a layer on that, so it seems natural to guess that other nets might be better as their own tier 2 system
+03:19 < jjjohnny_> for one thing, you want to keep your booty trust separate from other trusts
+03:20 < jjjohnny_> you don't want your different qualifications mixing and generalizing
+03:22 < jjjohnny_> so if pheonix is offering general purpose trust API, then its asking to be the base layer for other networks
+03:22 < jjjohnny_> but we all know how hard low level APIs are
+03:22 < jjjohnny_> to get right
+03:33 -!- woah [~woah@75-101-96-71.dsl.static.fusionbroadband.com] has quit [Remote host closed the connection]
+03:44 < jjjohnny_> the words of a fool
+03:45 -!- woah [~woah@75-101-96-71.dsl.static.fusionbroadband.com] has joined #scuttlebutt
+03:50 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au] has joined #scuttlebutt
+03:50 -!- woah [~woah@75-101-96-71.dsl.static.fusionbroadband.com] has quit [Ping timeout: 255 seconds]
+04:23 -!- domanic [~domanic@118.148.160.65] has quit [Ping timeout: 246 seconds]
+04:42 -!- pfraze [~pfraze@cpe-24-242-79-106.austin.res.rr.com] has joined #scuttlebutt
+04:46 -!- woah [~woah@75-101-96-71.dsl.static.fusionbroadband.com] has joined #scuttlebutt
+04:47 -!- pfraze [~pfraze@cpe-24-242-79-106.austin.res.rr.com] has quit [Ping timeout: 256 seconds]
+04:50 -!- woah [~woah@75-101-96-71.dsl.static.fusionbroadband.com] has quit [Ping timeout: 246 seconds]
+04:55 -!- woah [~woah@75-101-96-71.dsl.static.fusionbroadband.com] has joined #scuttlebutt
+05:00 -!- woah [~woah@75-101-96-71.dsl.static.fusionbroadband.com] has quit [Ping timeout: 264 seconds]
+05:19 -!- tixz [~tixz@82.211.209.116] has joined #scuttlebutt
+05:46 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au] has quit [Ping timeout: 265 seconds]
+07:34 -!- tixz [~tixz@82.211.209.116] has quit []
+07:47 -!- williamcotton [~williamco@c-24-5-80-236.hsd1.ca.comcast.net] has joined #scuttlebutt
+07:52 -!- williamcotton [~williamco@c-24-5-80-236.hsd1.ca.comcast.net] has quit [Ping timeout: 256 seconds]
+10:10 -!- tictacjoe [~JohnDotAw@66-90-217-168.dyn.grandenetworks.net] has joined #scuttlebutt
+10:23 -!- reqshark_ [~reqshark@209-150-46-107.c3-0.wsd-ubr2.qens-wsd.ny.cable.rcn.com] has joined #scuttlebutt
+10:25 -!- reqshark [~reqshark@209-150-46-107.c3-0.wsd-ubr2.qens-wsd.ny.cable.rcn.com] has quit [Read error: Connection reset by peer]
+10:38 -!- pfraze [~pfraze@2605:6000:e900:d200:19ac:dfb8:86a6:e3b3] has joined #scuttlebutt
+10:44 -!- tictacjoe [~JohnDotAw@66-90-217-168.dyn.grandenetworks.net] has quit [Remote host closed the connection]
+10:51 -!- pfraze [~pfraze@2605:6000:e900:d200:19ac:dfb8:86a6:e3b3] has quit [Remote host closed the connection]
+11:00 -!- pfraze [~pfraze@2605:6000:e900:d200:4407:60de:f1a1:5431] has joined #scuttlebutt
+11:05 -!- tictacjoe [~JohnDotAw@cpe-24-242-77-166.austin.res.rr.com] has joined #scuttlebutt
+11:06 < pfraze> jjjohnny_: hey sorry I dropped, got called away for the night
+11:06 < jjjohnny_> sokay i jus rambled bs
+11:06 < pfraze> hah well yeah I think youre right on the trust applications
+11:07 < pfraze> some sites will have stuff like user ratings
+ [11:07] [jjjohnny_(+i)] [4:freenode/#scuttlebutt(+ns)] [Act: 3,9,10,14,16]
+[#scuttlebutt]

@@ -1,0 +1,1061 @@
+05:49 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+06:50 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+06:54 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 240 seconds]
+07:41 -!- uber_hulk [uid59832@gateway/web/irccloud.com/x-mjwmsqywczqiglwb] has quit [Quit: Connection closed for inactivity]
+07:51 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+07:56 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 250 seconds]
+09:30 -!- uber_hulk [uid59832@gateway/web/irccloud.com/x-aghtukudodwiaffd] has joined #cyberwizard
+11:11 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+11:16 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 248 seconds]
+11:33 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #cyberwizard
+11:53 -!- Psykus [null@2400:8900::f03c:91ff:fe69:3998] has joined #cyberwizard
+11:53 -!- Psykus [null@2400:8900::f03c:91ff:fe69:3998] has left #cyberwizard []
+12:24 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+12:30 -!- Meinlein [~Meinlein@24-177-59-178.dhcp.oxfr.ma.charter.com] has joined #cyberwizard
+12:31 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+12:31 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+12:33 < Meinlein> Greetings! Are there any thoughts or plans to facilitate workshops on hangouts or whatever vid-conf tool is
+                  in these days?
+12:47 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has quit [Quit: thealphanerd]
+12:56 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+13:01 -!- uber_hulk [uid59832@gateway/web/irccloud.com/x-aghtukudodwiaffd] has quit [Quit: Connection closed for inactivity]
+13:29 -!- Meinlein [~Meinlein@24-177-59-178.dhcp.oxfr.ma.charter.com] has quit [Quit: Leaving]
+13:53 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #cyberwizard
+14:06 < jerkey> youtube
+14:09 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout: 256 seconds]
+14:09 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has quit [Quit: thealphanerd]
+14:10 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #cyberwizard
+14:10 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+14:14 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has quit [Client Quit]
+14:21 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #cyberwizard
+14:27 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has quit [Quit: thealphanerd]
+14:56 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Read error: No route to host]
+14:57 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+15:06 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+15:25 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+16:11 -!- alexande_ [~alexander@162.222.102.49] has joined #cyberwizard
+16:14 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 255 seconds]
+16:19 < jjjohnny_> if we're thinking about an july start, we must patty may or june
+16:19 < jjjohnny_> partay
+16:57 -!- tlevine_ [~tlevine@193.234.224.151] has joined #cyberwizard
+16:59 -!- tlevine [~tlevine@193.234.224.151] has quit [Ping timeout: 264 seconds]
+20:10 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Read error: Connection reset by peer]
+20:12 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+21:11 -!- alexande_ [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+21:19 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+21:20 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+21:46 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+22:13 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+22:27 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Quit: No Ping reply in 180 seconds.]
+22:28 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+22:30 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+22:33 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+22:34 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Client Quit]
+22:36 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+22:37 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+22:39 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+22:41 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+22:54 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+22:59 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Quit: No Ping reply in 210 seconds.]
+23:00 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+23:01 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+23:04 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+23:07 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+23:16 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+23:20 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Remote host closed the connection]
+23:21 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+Day changed to 18 Apr 2015
+00:15 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+00:16 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+00:17 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+00:17 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+00:31 -!- uber_hulk [uid59832@gateway/web/irccloud.com/x-jsnikqouaugqajvo] has joined #cyberwizard
+00:33 -!- alexande_ [~alexander@162.222.102.49] has joined #cyberwizard
+00:36 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 255 seconds]
+00:38 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+00:39 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Remote host closed the connection]
+01:01 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+01:44 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout: 264 seconds]
+01:52 -!- alexande_ [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+01:56 -!- alexande_ [~alexander@162.222.102.49] has joined #cyberwizard
+02:06 -!- alexande_ [~alexander@162.222.102.49] has quit [Ping timeout: 256 seconds]
+02:07 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+02:10 -!- alexandergugel [~alexander@162.222.102.49] has quit [Read error: No route to host]
+02:11 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+03:31 -!- uber_hulk [uid59832@gateway/web/irccloud.com/x-jsnikqouaugqajvo] has quit [Quit: Connection closed for inactivity]
+03:37 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+03:40 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Remote host closed the connection]
+03:44 -!- alexande_ [~alexander@162.222.102.49] has joined #cyberwizard
+03:48 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 264 seconds]
+05:31 -!- alexande_ [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+05:42 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+06:03 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+06:06 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #cyberwizard
+06:41 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has quit [Quit: thealphanerd]
+07:04 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+07:04 -!- captain_morgan [~morgan@124-149-120-226.dyn.iinet.net.au] has joined #cyberwizard
+07:09 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 244 seconds]
+08:05 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+08:11 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 264 seconds]
+08:56 -!- captain_morgan [~morgan@124-149-120-226.dyn.iinet.net.au] has quit [Ping timeout: 264 seconds]
+09:54 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+09:59 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 250 seconds]
+10:55 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+11:00 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 250 seconds]
+12:44 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+12:49 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 256 seconds]
+12:52 -!- uber_hulk [uid59832@gateway/web/irccloud.com/x-kdpibspivdjqaqmh] has joined #cyberwizard
+14:00 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+14:05 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 265 seconds]
+14:48 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+15:01 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+15:06 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 250 seconds]
+15:21 -!- uber_hulk [uid59832@gateway/web/irccloud.com/x-kdpibspivdjqaqmh] has quit [Quit: Connection closed for inactivity]
+15:52 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout: 250 seconds]
+16:47 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+17:32 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #cyberwizard
+17:36 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has quit [Client Quit]
+18:00 -!- tilgovi_ [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+18:00 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout: 272 seconds]
+18:05 -!- tilgovi_ [~randall@couchdb/committer/tilgovi] has quit [Ping timeout: 264 seconds]
+18:06 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+18:35 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+18:39 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 244 seconds]
+19:21 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+19:22 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+19:55 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+20:24 -!- treeherder [~hive_quee@veles.packetfire.org] has quit [Ping timeout: 245 seconds]
+20:27 -!- treeherder [~hive_quee@veles.packetfire.org] has joined #cyberwizard
+20:48 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+20:49 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+22:06 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+22:07 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+22:59 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Remote host closed the connection]
+23:18 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+23:20 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+23:37 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+23:41 -!- alexandergugel [~alexander@162.222.102.49] has quit [Read error: No route to host]
+23:41 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+Day changed to 19 Apr 2015
+00:09 -!- uber_hulk [uid59832@gateway/web/irccloud.com/x-wludqsidgkeihlts] has joined #cyberwizard
+19:21 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+19:22 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+19:55 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+20:24 -!- treeherder [~hive_quee@veles.packetfire.org] has quit [Ping timeout: 245 seconds]
+20:27 -!- treeherder [~hive_quee@veles.packetfire.org] has joined #cyberwizard
+20:48 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+20:49 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+22:06 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+22:07 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+22:59 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Remote host closed the connection]
+23:18 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+23:20 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+23:37 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+23:41 -!- alexandergugel [~alexander@162.222.102.49] has quit [Read error: No route to host]
+23:41 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+Day changed to 19 Apr 2015
+00:09 -!- uber_hulk [uid59832@gateway/web/irccloud.com/x-wludqsidgkeihlts] has joined #cyberwizard
+00:53 < kaotikus> js method of the day: link() method >
+00:53 < kaotikus> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/link
+00:54 < kaotikus> https://developer.mozilla.org/en-US/docs/Web/API/Document/links
+01:56 -!- captain_morgan [~morgan@124-149-120-226.dyn.iinet.net.au] has joined #cyberwizard
+03:21 -!- uber_hulk [uid59832@gateway/web/irccloud.com/x-wludqsidgkeihlts] has quit [Quit: Connection closed for inactivity]
+03:23 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout: 250 seconds]
+05:23 -!- captain_morgan [~morgan@124-149-120-226.dyn.iinet.net.au] has quit [Read error: Connection reset by peer]
+06:15 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+06:19 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+06:19 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+06:19 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+06:55 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+07:55 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+08:00 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 240 seconds]
+09:55 -!- tlevine_ [~tlevine@193.234.224.151] has quit [Ping timeout: 272 seconds]
+09:55 -!- tlevine [~tlevine@193.234.224.151] has joined #cyberwizard
+10:49 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+10:55 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 250 seconds]
+11:01 -!- karenpunk [~karen@50.14.167.177] has joined #cyberwizard
+12:03 -!- karenpunk [~karen@50.14.167.177] has quit [Quit: karenpunk]
+12:20 -!- karenpunk [~karen@50.14.167.177] has joined #cyberwizard
+12:40 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+12:45 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 256 seconds]
+13:33 < mk30> https://medium.com/@aliciatweet/overcoming-impostor-syndrome-bdae04e46ec5
+13:56 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+14:00 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 245 seconds]
+14:24 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #cyberwizard
+14:33 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has quit [Quit: thealphanerd]
+14:48 -!- karenpunk [~karen@50.14.167.177] has quit [Quit: karenpunk]
+14:49 -!- karenpunk [~karen@50.14.167.177] has joined #cyberwizard
+14:58 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+15:04 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 276 seconds]
+15:05 -!- karenpunk [~karen@50.14.167.177] has quit [Quit: karenpunk]
+15:09 -!- karenpunk [~karen@50.14.167.177] has joined #cyberwizard
+15:56 -!- karenpunk [~karen@50.14.167.177] has quit [Quit: karenpunk]
+15:57 -!- karenpunk [~karen@50.14.167.177] has joined #cyberwizard
+16:05 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+16:09 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 240 seconds]
+16:51 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+16:55 -!- karenpunk [~karen@50.14.167.177] has quit [Quit: karenpunk]
+17:28 -!- karenpunk [~karen@50.14.167.177] has joined #cyberwizard
+17:53 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+17:59 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 264 seconds]
+18:54 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+18:59 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 240 seconds]
+19:23 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+19:28 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 255 seconds]
+19:30 < kaotikus> mk30: medium post: good read!
+19:47 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Quit: No Ping reply in 180 seconds.]
+19:48 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+21:06 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+21:10 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout: 248 seconds]
+21:11 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 244 seconds]
+21:31 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+22:07 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+22:09 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+22:10 -!- alexande_ [~alexander@162.222.102.49] has joined #cyberwizard
+22:13 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 245 seconds]
+23:06 -!- yar [~yar@unaffiliated/yar] has quit [Excess Flood]
+23:18 -!- yar [~yar@unaffiliated/yar] has joined #cyberwizard
+23:32 -!- alexande_ [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+23:35 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+23:40 -!- alexande_ [~alexander@162.222.102.49] has joined #cyberwizard
+23:43 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 250 seconds]
+23:43 -!- captain_morgan [~morgan@203.87.52.142] has joined #cyberwizard
+23:48 -!- alexande_ [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+23:56 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+23:57 -!- alexande_ [~alexander@162.222.102.49] has joined #cyberwizard
+Day changed to 20 Apr 2015
+00:01 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 250 seconds]
+00:34 -!- karenpunk [~karen@50.14.167.177] has quit [Quit: karenpunk]
+00:59 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+01:15 -!- karenpunk [~karen@50.14.167.177] has joined #cyberwizard
+01:34 < mk30> thanks!
+01:34 < mk30> here's another piece (this one just about sf)
+              http://techcrunch.com/2015/01/24/this-industry-is-still-completely-ridiculous/
+01:41 -!- karenpunk [~karen@50.14.167.177] has quit [Quit: karenpunk]
+01:47 -!- alexande_ [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+02:09 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+02:13 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 245 seconds]
+02:20 -!- captain_morgan [~morgan@203.87.52.142] has quit [Ping timeout: 250 seconds]
+02:23 -!- captain_morgan [~morgan@203.87.52.142] has joined #cyberwizard
+02:49 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout: 244 seconds]
+03:09 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+03:15 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 264 seconds]
+03:35 < captain_morgan> I love the Yo's Law concept
+04:59 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+05:04 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 276 seconds]
+05:08 -!- jameskyburz [~jameskybu@213-64-78-153-no57.tbcn.telia.com] has joined #cyberwizard
+05:10 -!- jameskyb1rz [~jameskybu@213-64-78-153-no57.tbcn.telia.com] has quit [Ping timeout: 245 seconds]
+06:01 -!- captain_morgan [~morgan@203.87.52.142] has quit [Ping timeout: 272 seconds]
+06:19 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+06:29 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout: 264 seconds]
+07:05 -!- captain_morgan [~morgan@124-149-120-226.dyn.iinet.net.au] has joined #cyberwizard
+07:45 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+07:50 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 255 seconds]
+07:58 -!- s_kunk [~s_kunk@unaffiliated/s-kunk/x-5139101] has joined #cyberwizard
+07:59 -!- s_kunk [~s_kunk@unaffiliated/s-kunk/x-5139101] has left #cyberwizard ["Leaving"]
+09:33 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+09:39 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 246 seconds]
+10:24 -!- karenpunk [~karen@207.251.103.46] has joined #cyberwizard
+10:51 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+10:56 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 252 seconds]
+10:58 -!- danja [~danja@ip5b41bbcc.dynamic.kabel-deutschland.de] has joined #cyberwizard
+11:07 -!- karenpunk [~karen@207.251.103.46] has quit [Read error: Connection reset by peer]
+11:40 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+12:28 -!- captain_morgan [~morgan@124-149-120-226.dyn.iinet.net.au] has quit [Ping timeout: 272 seconds]
+13:49 -!- uber_hulk [uid59832@gateway/web/irccloud.com/x-tigrwkjbnumwcokt] has joined #cyberwizard
+14:53 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+14:54 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+14:54 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+14:55 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+14:56 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+15:01 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+15:01 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+15:06 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+15:51 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #cyberwizard
+15:53 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+15:53 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has quit [Client Quit]
+15:57 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+16:11 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+16:13 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+16:32 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+16:34 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+16:51 -!- uber_hulk [uid59832@gateway/web/irccloud.com/x-tigrwkjbnumwcokt] has quit [Quit: Connection closed for inactivity]
+17:03 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #cyberwizard
+17:13 -!- danja [~danja@ip5b41bbcc.dynamic.kabel-deutschland.de] has quit [Ping timeout: 276 seconds]
+17:46 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+18:00 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has quit [Quit: thealphanerd]
+18:07 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #cyberwizard
+18:08 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+18:31 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has quit [Quit: thealphanerd]
+18:40 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #cyberwizard
+18:46 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has quit [Quit: thealphanerd]
+19:16 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+19:24 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+19:39 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+19:40 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+20:34 -!- captain_morgan [~morgan@124-149-120-226.dyn.iinet.net.au] has joined #cyberwizard
+20:57 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+21:34 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+21:34 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+21:34 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+21:37 -!- captain_morgan [~morgan@124-149-120-226.dyn.iinet.net.au] has quit [Ping timeout: 272 seconds]
+22:21 -!- captain_morgan [~morgan@203.87.52.142] has joined #cyberwizard
+23:21 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+23:28 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+23:30 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+23:59 -!- alexande_ [~alexander@162.222.102.49] has joined #cyberwizard
+Day changed to 21 Apr 2015
+00:03 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 256 seconds]
+00:14 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout: 256 seconds]
+00:54 -!- alexande_ [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+00:56 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+01:15 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+01:18 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+01:45 -!- alexande_ [~alexander@162.222.102.49] has joined #cyberwizard
+01:48 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 265 seconds]
+02:02 -!- alexande_ [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+02:14 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+02:29 -!- uber_hulk [uid59832@gateway/web/irccloud.com/x-lgewgvmxfkqnpkbm] has joined #cyberwizard
+02:36 -!- treeherder [~hive_quee@veles.packetfire.org] has quit [Max SendQ exceeded]
+02:37 -!- treeherder [~hive_quee@veles.packetfire.org] has joined #cyberwizard
+02:41 -!- captain_morgan [~morgan@203.87.52.142] has quit [Ping timeout: 248 seconds]
+02:43 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+02:44 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+03:42 -!- captain_morgan [~morgan@80.8.214.218.sta.commander.net.au] has joined #cyberwizard
+04:03 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+04:04 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+04:10 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 256 seconds]
+04:31 -!- uber_hulk [uid59832@gateway/web/irccloud.com/x-lgewgvmxfkqnpkbm] has quit [Quit: Connection closed for inactivity]
+04:31 -!- captain_morgan [~morgan@80.8.214.218.sta.commander.net.au] has quit [Ping timeout: 246 seconds]
+05:06 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+05:10 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 245 seconds]
+05:21 -!- captain_morgan [~morgan@pa49-182-151-140.pa.nsw.optusnet.com.au] has joined #cyberwizard
+06:37 -!- captain_morgan [~morgan@pa49-182-151-140.pa.nsw.optusnet.com.au] has quit [Read error: No route to host]
+07:12 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+07:17 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 264 seconds]
+08:50 -!- captain_morgan [~morgan@pa49-182-151-140.pa.nsw.optusnet.com.au] has joined #cyberwizard
+08:56 -!- uber_hulk [uid59832@gateway/web/irccloud.com/x-drbtxgxrbsilrkrk] has joined #cyberwizard
+09:03 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+09:08 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 252 seconds]
+09:30 -!- danja [~danja@ip5b41bbcc.dynamic.kabel-deutschland.de] has joined #cyberwizard
+09:31 -!- danja [~danja@ip5b41bbcc.dynamic.kabel-deutschland.de] has quit [Client Quit]
+09:31 -!- danja [~danja@ip5b41bbcc.dynamic.kabel-deutschland.de] has joined #cyberwizard
+10:01 -!- captain_morgan [~morgan@pa49-182-151-140.pa.nsw.optusnet.com.au] has quit [Read error: Connection reset by peer]
+10:36 -!- captain_morgan [~morgan@pa49-182-151-140.pa.nsw.optusnet.com.au] has joined #cyberwizard
+10:56 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+11:00 -!- captain_morgan [~morgan@pa49-182-151-140.pa.nsw.optusnet.com.au] has quit [Read error: Connection reset by peer]
+11:01 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 256 seconds]
+11:31 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+11:42 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout: 256 seconds]
+12:06 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+13:07 < kaotikus> With Yo's Law, will we find the truth, or will it even matter?
+13:15 -!- alexande_ [~alexander@162.222.102.49] has joined #cyberwizard
+13:19 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 265 seconds]
+13:20 -!- alexande_ [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+13:25 -!- danja [~danja@ip5b41bbcc.dynamic.kabel-deutschland.de] has quit [Quit: Leaving.]
+13:44 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+14:11 -!- tixz [uid75401@gateway/web/irccloud.com/x-khteklzuevdqoddy] has quit [Ping timeout: 256 seconds]
+14:13 -!- tixz [uid75401@gateway/web/irccloud.com/x-ykwihrqvhiqrssyu] has joined #cyberwizard
+14:26 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+14:27 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+15:02 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #cyberwizard
+15:04 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+15:09 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+15:14 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 276 seconds]
+15:18 < kaotikus> peer code review, anybody?
+15:26 -!- danja [~danja@ip5b41bbcc.dynamic.kabel-deutschland.de] has joined #cyberwizard
+15:44 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+15:55 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+15:55 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+16:11 -!- danja [~danja@ip5b41bbcc.dynamic.kabel-deutschland.de] has quit [Ping timeout: 244 seconds]
+16:11 -!- danja [~danja@ip5b41bbcc.dynamic.kabel-deutschland.de] has joined #cyberwizard
+17:34 -!- captain_morgan [~morgan@pa49-182-175-232.pa.nsw.optusnet.com.au] has joined #cyberwizard
+17:36 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+17:44 -!- danja [~danja@ip5b41bbcc.dynamic.kabel-deutschland.de] has quit [Ping timeout: 240 seconds]
+18:02 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+18:14 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+18:43 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+15:02 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #cyberwizard
+15:04 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+15:09 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+15:14 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 276 seconds]
+15:18 < kaotikus> peer code review, anybody?
+15:26 -!- danja [~danja@ip5b41bbcc.dynamic.kabel-deutschland.de] has joined #cyberwizard
+15:44 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+15:55 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+15:55 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+16:11 -!- danja [~danja@ip5b41bbcc.dynamic.kabel-deutschland.de] has quit [Ping timeout: 244 seconds]
+16:11 -!- danja [~danja@ip5b41bbcc.dynamic.kabel-deutschland.de] has joined #cyberwizard
+17:34 -!- captain_morgan [~morgan@pa49-182-175-232.pa.nsw.optusnet.com.au] has joined #cyberwizard
+17:36 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+17:44 -!- danja [~danja@ip5b41bbcc.dynamic.kabel-deutschland.de] has quit [Ping timeout: 240 seconds]
+18:02 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+18:14 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+18:43 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+18:43 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+00:56 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+01:15 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+01:18 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+01:45 -!- alexande_ [~alexander@162.222.102.49] has joined #cyberwizard
+01:48 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 265 seconds]
+02:02 -!- alexande_ [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+02:14 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+02:29 -!- uber_hulk [uid59832@gateway/web/irccloud.com/x-lgewgvmxfkqnpkbm] has joined #cyberwizard
+02:36 -!- treeherder [~hive_quee@veles.packetfire.org] has quit [Max SendQ exceeded]
+02:37 -!- treeherder [~hive_quee@veles.packetfire.org] has joined #cyberwizard
+02:41 -!- captain_morgan [~morgan@203.87.52.142] has quit [Ping timeout: 248 seconds]
+02:43 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+02:44 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+03:42 -!- captain_morgan [~morgan@80.8.214.218.sta.commander.net.au] has joined #cyberwizard
+04:03 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+04:04 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+04:10 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 256 seconds]
+04:31 -!- uber_hulk [uid59832@gateway/web/irccloud.com/x-lgewgvmxfkqnpkbm] has quit [Quit: Connection closed for inactivity]
+04:31 -!- captain_morgan [~morgan@80.8.214.218.sta.commander.net.au] has quit [Ping timeout: 246 seconds]
+05:06 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+05:10 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 245 seconds]
+05:21 -!- captain_morgan [~morgan@pa49-182-151-140.pa.nsw.optusnet.com.au] has joined #cyberwizard
+06:37 -!- captain_morgan [~morgan@pa49-182-151-140.pa.nsw.optusnet.com.au] has quit [Read error: No route to host]
+07:12 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+07:17 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 264 seconds]
+08:50 -!- captain_morgan [~morgan@pa49-182-151-140.pa.nsw.optusnet.com.au] has joined #cyberwizard
+08:56 -!- uber_hulk [uid59832@gateway/web/irccloud.com/x-drbtxgxrbsilrkrk] has joined #cyberwizard
+09:03 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+09:08 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 252 seconds]
+09:30 -!- danja [~danja@ip5b41bbcc.dynamic.kabel-deutschland.de] has joined #cyberwizard
+09:31 -!- danja [~danja@ip5b41bbcc.dynamic.kabel-deutschland.de] has quit [Client Quit]
+09:31 -!- danja [~danja@ip5b41bbcc.dynamic.kabel-deutschland.de] has joined #cyberwizard
+10:01 -!- captain_morgan [~morgan@pa49-182-151-140.pa.nsw.optusnet.com.au] has quit [Read error: Connection reset by peer]
+10:36 -!- captain_morgan [~morgan@pa49-182-151-140.pa.nsw.optusnet.com.au] has joined #cyberwizard
+10:56 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+11:00 -!- captain_morgan [~morgan@pa49-182-151-140.pa.nsw.optusnet.com.au] has quit [Read error: Connection reset by peer]
+11:01 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 256 seconds]
+11:31 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+11:42 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout: 256 seconds]
+12:06 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+13:07 < kaotikus> With Yo's Law, will we find the truth, or will it even matter?
+13:15 -!- alexande_ [~alexander@162.222.102.49] has joined #cyberwizard
+13:19 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 265 seconds]
+13:20 -!- alexande_ [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+13:25 -!- danja [~danja@ip5b41bbcc.dynamic.kabel-deutschland.de] has quit [Quit: Leaving.]
+13:44 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+14:11 -!- tixz [uid75401@gateway/web/irccloud.com/x-khteklzuevdqoddy] has quit [Ping timeout: 256 seconds]
+14:13 -!- tixz [uid75401@gateway/web/irccloud.com/x-ykwihrqvhiqrssyu] has joined #cyberwizard
+14:26 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+14:27 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+15:02 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #cyberwizard
+15:04 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+15:09 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+15:14 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 276 seconds]
+15:18 < kaotikus> peer code review, anybody?
+15:26 -!- danja [~danja@ip5b41bbcc.dynamic.kabel-deutschland.de] has joined #cyberwizard
+15:44 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+15:55 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+15:55 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+16:11 -!- danja [~danja@ip5b41bbcc.dynamic.kabel-deutschland.de] has quit [Ping timeout: 244 seconds]
+16:11 -!- danja [~danja@ip5b41bbcc.dynamic.kabel-deutschland.de] has joined #cyberwizard
+17:34 -!- captain_morgan [~morgan@pa49-182-175-232.pa.nsw.optusnet.com.au] has joined #cyberwizard
+17:36 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+17:44 -!- danja [~danja@ip5b41bbcc.dynamic.kabel-deutschland.de] has quit [Ping timeout: 240 seconds]
+18:02 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+18:14 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+18:43 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+18:43 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+19:10 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+19:13 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+11:01 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 256 seconds]
+11:31 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+11:42 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout: 256 seconds]
+12:06 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+13:07 < kaotikus> With Yo's Law, will we find the truth, or will it even matter?
+13:15 -!- alexande_ [~alexander@162.222.102.49] has joined #cyberwizard
+13:19 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 265 seconds]
+13:20 -!- alexande_ [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+13:25 -!- danja [~danja@ip5b41bbcc.dynamic.kabel-deutschland.de] has quit [Quit: Leaving.]
+13:44 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+14:11 -!- tixz [uid75401@gateway/web/irccloud.com/x-khteklzuevdqoddy] has quit [Ping timeout: 256 seconds]
+14:13 -!- tixz [uid75401@gateway/web/irccloud.com/x-ykwihrqvhiqrssyu] has joined #cyberwizard
+14:26 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+14:27 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+15:02 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #cyberwizard
+15:04 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+15:09 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+15:14 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 276 seconds]
+15:18 < kaotikus> peer code review, anybody?
+15:26 -!- danja [~danja@ip5b41bbcc.dynamic.kabel-deutschland.de] has joined #cyberwizard
+15:44 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+15:55 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+15:55 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+16:11 -!- danja [~danja@ip5b41bbcc.dynamic.kabel-deutschland.de] has quit [Ping timeout: 244 seconds]
+16:11 -!- danja [~danja@ip5b41bbcc.dynamic.kabel-deutschland.de] has joined #cyberwizard
+17:34 -!- captain_morgan [~morgan@pa49-182-175-232.pa.nsw.optusnet.com.au] has joined #cyberwizard
+17:36 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+17:44 -!- danja [~danja@ip5b41bbcc.dynamic.kabel-deutschland.de] has quit [Ping timeout: 240 seconds]
+18:02 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+18:14 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+18:43 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+18:43 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+19:10 -!- alexandergugel [~alexander@162.222.102.49] has joined #cyberwizard
+19:13 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+22:36 < substack> hmmm
+22:37 < jjjohnny_> https://github.com/NHQ/sockethub
+22:37 < jjjohnny_> server.js
+22:39 < jjjohnny_> after i close tab, and open again, plex on the server spits the error
+22:53 < jjjohnny_> you can clone, npm install, npm build, npm start
+22:54 < jjjohnny_> feck i swear this was not the case last night, but I dinna commit
+22:55 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+22:56 -!- jiangplus [~jiang@180.154.16.186] has quit [Ping timeout: 264 seconds]
+22:56 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+23:06 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+23:06 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+23:12 -!- domanic [~domanic@118.148.171.218] has quit [Read error: Connection reset by peer]
+23:12 -!- jiangplus [~jiang@120.204.247.114] has joined #stackvm
+23:16 < jjjohnny_> holy shit unpipe works
+23:19 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+23:21 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+23:24 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+23:26 -!- anvaka [~anvaka@2601:8:ac80:3f9:d9c9:235b:2e05:3e3e] has joined #stackvm
+23:30 -!- collypops [~collypops@203.2.218.145] has quit [Remote host closed the connection]
+23:33 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has quit [Remote host closed the connection]
+23:35 < jjjohnny_> thanks magritte
+23:36 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+23:41 -!- jxson_ [jxson@nat/google/x-chewyjposoktkebj] has joined #stackvm
+23:44 -!- jxson [~jxson@216.239.45.92] has quit [Ping timeout: 240 seconds]
+23:45 -!- jxson_ [jxson@nat/google/x-chewyjposoktkebj] has quit [Ping timeout: 245 seconds]
+23:47 -!- anvaka_ [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has joined #stackvm
+23:50 -!- anvaka [~anvaka@2601:8:ac80:3f9:d9c9:235b:2e05:3e3e] has quit [Ping timeout: 245 seconds]
+23:52 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+23:54 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has quit [Remote host closed the connection]
+23:57 -!- anvaka_ [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has quit [Remote host closed the connection]
+23:57 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+Day changed to 22 Apr 2015
+00:03 -!- kanzure [~kanzure@unaffiliated/kanzure] has quit [Ping timeout: 244 seconds]
+00:05 -!- kanzure [~kanzure@unaffiliated/kanzure] has joined #stackvm
+00:07 < jjjohnny_> THIS IS INDEED UN PIPE
+00:12 -!- akenn_ [~akenn@173.245.57.22] has quit [Quit: My Mac has gone to sleep. ZZZzzz&]
+00:15 -!- domanic [~domanic@118.148.171.218] has joined #stackvm
+00:16 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has quit [Remote host closed the connection]
+00:27 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+00:31 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has quit [Remote host closed the connection]
+00:37 -!- anvaka [~anvaka@2601:8:ac80:3f9:e432:f341:fdc9:5dd6] has joined #stackvm
+01:05 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+01:15 -!- anvaka [~anvaka@2601:8:ac80:3f9:e432:f341:fdc9:5dd6] has quit [Remote host closed the connection]
+01:22 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #stackvm
+01:32 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+01:32 -!- jxson [~jxson@c-98-210-181-134.hsd1.ca.comcast.net] has joined #stackvm
+01:36 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has quit [Ping timeout: 256 seconds]
+01:39 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+01:39 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+01:40 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+01:44 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 255 seconds]
+01:47 -!- domanic [~domanic@118.148.171.218] has quit [Ping timeout: 250 seconds]
+01:51 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+01:57 -!- anvaka [~anvaka@216.243.14.18] has joined #stackvm
+02:04 -!- yoshuawuyts1 [~yoshuawuy@76.102.195.134] has joined #stackvm
+02:08 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+02:11 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Remote host closed the connection]
+02:16 -!- pfraze [~pfraze@2605:6000:e900:d200:199b:48b8:645e:b372] has joined #stackvm
+02:18 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has joined #stackvm
+02:20 -!- pfraze [~pfraze@2605:6000:e900:d200:199b:48b8:645e:b372] has quit [Remote host closed the connection]
+02:21 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has quit [Client Quit]
+02:27 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+02:28 -!- domanic [~domanic@118.148.171.218] has joined #stackvm
+02:28 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Remote host closed the connection]
+02:29 -!- yoshuawuyts1 [~yoshuawuy@76.102.195.134] has quit [Ping timeout: 264 seconds]
+02:34 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+02:35 -!- pfraze [~pfraze@2605:6000:e900:d200:f1c1:61c2:7d32:78f9] has joined #stackvm
+02:40 -!- yoshuawuyts1 [~yoshuawuy@2601:9:980:821:18b8:edc7:89b4:13e2] has joined #stackvm
+02:40 -!- pfraze [~pfraze@2605:6000:e900:d200:f1c1:61c2:7d32:78f9] has quit [Remote host closed the connection]
+02:51 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+02:51 -!- pfraze [~pfraze@cpe-24-242-79-106.austin.res.rr.com] has joined #stackvm
+02:51 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+02:55 -!- pfraze [~pfraze@cpe-24-242-79-106.austin.res.rr.com] has quit [Remote host closed the connection]
+03:06 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has quit [Quit: thealphanerd]
+03:07 -!- fotoverite [~fotoverit@cpe-72-225-216-150.nyc.res.rr.com] has joined #stackvm
+03:12 -!- jxson [~jxson@c-98-210-181-134.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+03:13 -!- stagas [~stagas@77-7-139.static.cyta.gr] has joined #stackvm
+03:19 -!- stagas [~stagas@77-7-139.static.cyta.gr] has quit [Read error: No route to host]
+03:26 -!- zz_thealphanerd [~thealphan@107.170.247.31] has joined #stackvm
+03:26 -!- stagas [~stagas@77-7-139.static.cyta.gr] has joined #stackvm
+03:27 -!- zz_thealphanerd [~thealphan@107.170.247.31] has quit [Changing host]
+03:27 -!- zz_thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #stackvm
+03:30 -!- zz_thealphanerd is now known as something-differ
+03:38 -!- something-differ is now known as thealphanerd
+03:41 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+03:43 -!- fotoverite [~fotoverit@cpe-72-225-216-150.nyc.res.rr.com] has quit [Quit: fotoverite]
+03:46 -!- anvaka [~anvaka@216.243.14.18] has quit [Remote host closed the connection]
+03:54 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has joined #stackvm
+03:55 < domanic> calvinmetcalf, hey are you familiar with CurveCP?
+03:57 -!- yoshuawuyts1 [~yoshuawuy@2601:9:980:821:18b8:edc7:89b4:13e2] has quit [Ping timeout: 245 seconds]
+03:58 -!- contrahax [~contrahax@181.28.99.4] has quit [Quit: Sleeping]
+04:01 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+04:01 -!- freeall [~freeall@94.18.215.178] has joined #stackvm
+04:03 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+04:08 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 276 seconds]
+04:11 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout: 245 seconds]
+04:18 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+04:19 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+04:23 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has quit [Ping timeout: 265 seconds]
+04:31 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+04:43 -!- jiangplus [~jiang@120.204.247.114] has quit [Ping timeout: 255 seconds]
+04:44 -!- jiangplus [~jiang@120.204.247.114] has joined #stackvm
+04:51 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has left #stackvm []
+04:52 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #stackvm
+04:54 -!- pfraze [~pfraze@2605:6000:e900:d200:98ca:9c02:8e30:73a9] has joined #stackvm
+04:58 -!- pfraze [~pfraze@2605:6000:e900:d200:98ca:9c02:8e30:73a9] has quit [Ping timeout: 245 seconds]
+05:01 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+05:08 -!- jiangplus [~jiang@120.204.247.114] has quit [Ping timeout: 255 seconds]
+05:13 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has joined #stackvm
+05:14 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+05:14 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+05:16 < sorribas> domanic what is the window manager you use?
+05:16 < domanic> sorribas, I use "awesome"
+05:16 < sorribas> domanic awesome! thanks!
+05:20 < sorribas> domanic I started trying out i3 a couple of days ago. Have you tried it?
+05:21 < domanic> sorribas, yeah, but I couldn't figure out the key shortcuts or it interfered with my text editor or something
+06:03 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+06:04 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has joined #stackvm
+06:11 -!- emilisto [~emilisto@c83-250-223-116.bredband.comhem.se] has joined #stackvm
+06:14 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+06:19 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 245 seconds]
+07:23 -!- stagas [~stagas@77-7-139.static.cyta.gr] has quit [Remote host closed the connection]
+07:32 -!- sz0 [~sz0@24.133.143.148] has quit [Ping timeout: 252 seconds]
+07:52 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+07:58 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has joined #stackvm
+08:04 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+08:08 -!- domanic [~domanic@118.148.171.218] has quit [Ping timeout: 255 seconds]
+08:09 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 272 seconds]
+08:25 -!- DamonOehlman [~Thunderbi@CPE-121-211-105-224.hhui5.cht.bigpond.net.au] has quit [Remote host closed the connection]
+08:34 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+08:39 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has quit [Ping timeout: 252 seconds]
+08:41 < freeall> sorribas: the answer is "whatever osx ships with" :)
+08:57 -!- jiangplus [~jiang@120.204.247.114] has joined #stackvm
+08:58 -!- toddself [~toddself@pool-72-89-48-46.nycmny.fios.verizon.net] has joined #stackvm
+09:02 -!- jiangplus [~jiang@120.204.247.114] has quit [Remote host closed the connection]
+09:03 -!- jiangplus [~jiang@120.204.247.114] has joined #stackvm
+09:16 -!- contrahax [~contrahax@181.28.99.4] has joined #stackvm
+09:18 -!- contrahax [~contrahax@181.28.99.4] has quit [Client Quit]
+09:26 -!- contrahax [~contrahax@181.28.99.4] has joined #stackvm
+09:30 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+09:31 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+09:32 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has quit [Remote host closed the connection]
+09:35 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has joined #stackvm
+09:50 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:74bd:fc8a:4b11:4518] has joined #stackvm
+09:52 -!- jiangplus [~jiang@120.204.247.114] has quit [Quit: Lost terminal]
+10:03 -!- pelletier [~textual@c-73-170-174-103.hsd1.ca.comcast.net] has joined #stackvm
+10:23 -!- pfraze [~pfraze@2605:6000:e900:d200:c469:dd17:ffdd:b6b1] has joined #stackvm
+05:16 < sorribas> domanic awesome! thanks!
+05:20 < sorribas> domanic I started trying out i3 a couple of days ago. Have you tried it?
+05:21 < domanic> sorribas, yeah, but I couldn't figure out the key shortcuts or it interfered with my text editor or something
+06:03 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+06:04 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has joined #stackvm
+06:11 -!- emilisto [~emilisto@c83-250-223-116.bredband.comhem.se] has joined #stackvm
+06:14 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+06:19 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 245 seconds]
+07:23 -!- stagas [~stagas@77-7-139.static.cyta.gr] has quit [Remote host closed the connection]
+07:32 -!- sz0 [~sz0@24.133.143.148] has quit [Ping timeout: 252 seconds]
+07:52 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+07:58 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has joined #stackvm
+08:04 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+08:08 -!- domanic [~domanic@118.148.171.218] has quit [Ping timeout: 255 seconds]
+08:09 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 272 seconds]
+08:25 -!- DamonOehlman [~Thunderbi@CPE-121-211-105-224.hhui5.cht.bigpond.net.au] has quit [Remote host closed the connection]
+08:34 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+08:39 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has quit [Ping timeout: 252 seconds]
+08:41 < freeall> sorribas: the answer is "whatever osx ships with" :)
+08:57 -!- jiangplus [~jiang@120.204.247.114] has joined #stackvm
+08:58 -!- toddself [~toddself@pool-72-89-48-46.nycmny.fios.verizon.net] has joined #stackvm
+09:02 -!- jiangplus [~jiang@120.204.247.114] has quit [Remote host closed the connection]
+09:03 -!- jiangplus [~jiang@120.204.247.114] has joined #stackvm
+09:16 -!- contrahax [~contrahax@181.28.99.4] has joined #stackvm
+09:18 -!- contrahax [~contrahax@181.28.99.4] has quit [Client Quit]
+09:26 -!- contrahax [~contrahax@181.28.99.4] has joined #stackvm
+09:30 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+09:31 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+09:32 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has quit [Remote host closed the connection]
+09:35 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has joined #stackvm
+09:50 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:74bd:fc8a:4b11:4518] has joined #stackvm
+09:52 -!- jiangplus [~jiang@120.204.247.114] has quit [Quit: Lost terminal]
+10:03 -!- pelletier [~textual@c-73-170-174-103.hsd1.ca.comcast.net] has joined #stackvm
+10:23 -!- pfraze [~pfraze@2605:6000:e900:d200:c469:dd17:ffdd:b6b1] has joined #stackvm
+10:35 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:74bd:fc8a:4b11:4518] has quit [Remote host closed the connection]
+10:37 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+10:45 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+10:49 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 245 seconds]
+22:30 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has quit [Ping timeout: 250 seconds]
+22:36 < jjjohnny_> substack: dataplex, when the client closes, my server kicks out error for "write after end event"
+22:36 < substack> hmmm
+22:37 < jjjohnny_> https://github.com/NHQ/sockethub
+22:37 < jjjohnny_> server.js
+22:39 < jjjohnny_> after i close tab, and open again, plex on the server spits the error
+22:53 < jjjohnny_> you can clone, npm install, npm build, npm start
+22:54 < jjjohnny_> feck i swear this was not the case last night, but I dinna commit
+22:55 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+22:56 -!- jiangplus [~jiang@180.154.16.186] has quit [Ping timeout: 264 seconds]
+22:56 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+23:06 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+23:06 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+23:12 -!- domanic [~domanic@118.148.171.218] has quit [Read error: Connection reset by peer]
+23:12 -!- jiangplus [~jiang@120.204.247.114] has joined #stackvm
+23:16 < jjjohnny_> holy shit unpipe works
+23:19 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+23:21 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+23:24 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+23:26 -!- anvaka [~anvaka@2601:8:ac80:3f9:d9c9:235b:2e05:3e3e] has joined #stackvm
+23:30 -!- collypops [~collypops@203.2.218.145] has quit [Remote host closed the connection]
+23:33 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has quit [Remote host closed the connection]
+23:35 < jjjohnny_> thanks magritte
+23:36 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+23:41 -!- jxson_ [jxson@nat/google/x-chewyjposoktkebj] has joined #stackvm
+23:44 -!- jxson [~jxson@216.239.45.92] has quit [Ping timeout: 240 seconds]
+23:45 -!- jxson_ [jxson@nat/google/x-chewyjposoktkebj] has quit [Ping timeout: 245 seconds]
+23:47 -!- anvaka_ [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has joined #stackvm
+23:50 -!- anvaka [~anvaka@2601:8:ac80:3f9:d9c9:235b:2e05:3e3e] has quit [Ping timeout: 245 seconds]
+23:52 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+23:54 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has quit [Remote host closed the connection]
+23:57 -!- anvaka_ [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has quit [Remote host closed the connection]
+23:57 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+Day changed to 22 Apr 2015
+00:03 -!- kanzure [~kanzure@unaffiliated/kanzure] has quit [Ping timeout: 244 seconds]
+00:05 -!- kanzure [~kanzure@unaffiliated/kanzure] has joined #stackvm
+00:07 < jjjohnny_> THIS IS INDEED UN PIPE
+00:12 -!- akenn_ [~akenn@173.245.57.22] has quit [Quit: My Mac has gone to sleep. ZZZzzz&]
+00:15 -!- domanic [~domanic@118.148.171.218] has joined #stackvm
+00:16 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has quit [Remote host closed the connection]
+00:27 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+00:31 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has quit [Remote host closed the connection]
+00:37 -!- anvaka [~anvaka@2601:8:ac80:3f9:e432:f341:fdc9:5dd6] has joined #stackvm
+01:05 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+01:15 -!- anvaka [~anvaka@2601:8:ac80:3f9:e432:f341:fdc9:5dd6] has quit [Remote host closed the connection]
+01:22 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #stackvm
+01:32 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+01:32 -!- jxson [~jxson@c-98-210-181-134.hsd1.ca.comcast.net] has joined #stackvm
+01:36 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has quit [Ping timeout: 256 seconds]
+01:39 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+01:39 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+01:40 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+01:44 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 255 seconds]
+01:47 -!- domanic [~domanic@118.148.171.218] has quit [Ping timeout: 250 seconds]
+01:51 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+01:57 -!- anvaka [~anvaka@216.243.14.18] has joined #stackvm
+02:04 -!- yoshuawuyts1 [~yoshuawuy@76.102.195.134] has joined #stackvm
+02:08 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+02:11 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Remote host closed the connection]
+02:16 -!- pfraze [~pfraze@2605:6000:e900:d200:199b:48b8:645e:b372] has joined #stackvm
+02:18 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has joined #stackvm
+02:20 -!- pfraze [~pfraze@2605:6000:e900:d200:199b:48b8:645e:b372] has quit [Remote host closed the connection]
+02:21 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has quit [Client Quit]
+02:27 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+02:28 -!- domanic [~domanic@118.148.171.218] has joined #stackvm
+02:28 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Remote host closed the connection]
+02:29 -!- yoshuawuyts1 [~yoshuawuy@76.102.195.134] has quit [Ping timeout: 264 seconds]
+02:34 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+02:35 -!- pfraze [~pfraze@2605:6000:e900:d200:f1c1:61c2:7d32:78f9] has joined #stackvm
+02:40 -!- yoshuawuyts1 [~yoshuawuy@2601:9:980:821:18b8:edc7:89b4:13e2] has joined #stackvm
+02:40 -!- pfraze [~pfraze@2605:6000:e900:d200:f1c1:61c2:7d32:78f9] has quit [Remote host closed the connection]
+02:51 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+02:51 -!- pfraze [~pfraze@cpe-24-242-79-106.austin.res.rr.com] has joined #stackvm
+02:51 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+02:55 -!- pfraze [~pfraze@cpe-24-242-79-106.austin.res.rr.com] has quit [Remote host closed the connection]
+03:06 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has quit [Quit: thealphanerd]
+03:07 -!- fotoverite [~fotoverit@cpe-72-225-216-150.nyc.res.rr.com] has joined #stackvm
+03:12 -!- jxson [~jxson@c-98-210-181-134.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+03:13 -!- stagas [~stagas@77-7-139.static.cyta.gr] has joined #stackvm
+03:19 -!- stagas [~stagas@77-7-139.static.cyta.gr] has quit [Read error: No route to host]
+03:26 -!- zz_thealphanerd [~thealphan@107.170.247.31] has joined #stackvm
+03:26 -!- stagas [~stagas@77-7-139.static.cyta.gr] has joined #stackvm
+03:27 -!- zz_thealphanerd [~thealphan@107.170.247.31] has quit [Changing host]
+03:27 -!- zz_thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #stackvm
+03:30 -!- zz_thealphanerd is now known as something-differ
+03:38 -!- something-differ is now known as thealphanerd
+03:41 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+03:43 -!- fotoverite [~fotoverit@cpe-72-225-216-150.nyc.res.rr.com] has quit [Quit: fotoverite]
+03:46 -!- anvaka [~anvaka@216.243.14.18] has quit [Remote host closed the connection]
+03:54 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has joined #stackvm
+03:55 < domanic> calvinmetcalf, hey are you familiar with CurveCP?
+03:57 -!- yoshuawuyts1 [~yoshuawuy@2601:9:980:821:18b8:edc7:89b4:13e2] has quit [Ping timeout: 245 seconds]
+03:58 -!- contrahax [~contrahax@181.28.99.4] has quit [Quit: Sleeping]
+04:01 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+04:01 -!- freeall [~freeall@94.18.215.178] has joined #stackvm
+04:03 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+04:08 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 276 seconds]
+04:11 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout: 245 seconds]
+04:18 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+04:19 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+04:23 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has quit [Ping timeout: 265 seconds]
+04:31 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+04:43 -!- jiangplus [~jiang@120.204.247.114] has quit [Ping timeout: 255 seconds]
+04:44 -!- jiangplus [~jiang@120.204.247.114] has joined #stackvm
+04:51 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has left #stackvm []
+04:52 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #stackvm
+04:54 -!- pfraze [~pfraze@2605:6000:e900:d200:98ca:9c02:8e30:73a9] has joined #stackvm
+04:58 -!- pfraze [~pfraze@2605:6000:e900:d200:98ca:9c02:8e30:73a9] has quit [Ping timeout: 245 seconds]
+05:01 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+05:08 -!- jiangplus [~jiang@120.204.247.114] has quit [Ping timeout: 255 seconds]
+05:13 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has joined #stackvm
+05:14 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+05:14 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+05:16 < sorribas> domanic what is the window manager you use?
+05:16 < domanic> sorribas, I use "awesome"
+05:16 < sorribas> domanic awesome! thanks!
+05:20 < sorribas> domanic I started trying out i3 a couple of days ago. Have you tried it?
+05:21 < domanic> sorribas, yeah, but I couldn't figure out the key shortcuts or it interfered with my text editor or something
+06:03 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+06:04 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has joined #stackvm
+06:11 -!- emilisto [~emilisto@c83-250-223-116.bredband.comhem.se] has joined #stackvm
+06:14 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+06:19 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 245 seconds]
+07:23 -!- stagas [~stagas@77-7-139.static.cyta.gr] has quit [Remote host closed the connection]
+07:32 -!- sz0 [~sz0@24.133.143.148] has quit [Ping timeout: 252 seconds]
+07:52 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+07:58 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has joined #stackvm
+08:04 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+08:08 -!- domanic [~domanic@118.148.171.218] has quit [Ping timeout: 255 seconds]
+08:09 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 272 seconds]
+08:25 -!- DamonOehlman [~Thunderbi@CPE-121-211-105-224.hhui5.cht.bigpond.net.au] has quit [Remote host closed the connection]
+08:34 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+08:39 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has quit [Ping timeout: 252 seconds]
+08:41 < freeall> sorribas: the answer is "whatever osx ships with" :)
+08:57 -!- jiangplus [~jiang@120.204.247.114] has joined #stackvm
+08:58 -!- toddself [~toddself@pool-72-89-48-46.nycmny.fios.verizon.net] has joined #stackvm
+09:02 -!- jiangplus [~jiang@120.204.247.114] has quit [Remote host closed the connection]
+09:03 -!- jiangplus [~jiang@120.204.247.114] has joined #stackvm
+09:16 -!- contrahax [~contrahax@181.28.99.4] has joined #stackvm
+09:18 -!- contrahax [~contrahax@181.28.99.4] has quit [Client Quit]
+09:26 -!- contrahax [~contrahax@181.28.99.4] has joined #stackvm
+09:30 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+09:31 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+09:32 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has quit [Remote host closed the connection]
+09:35 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has joined #stackvm
+09:50 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:74bd:fc8a:4b11:4518] has joined #stackvm
+09:52 -!- jiangplus [~jiang@120.204.247.114] has quit [Quit: Lost terminal]
+10:03 -!- pelletier [~textual@c-73-170-174-103.hsd1.ca.comcast.net] has joined #stackvm
+10:23 -!- pfraze [~pfraze@2605:6000:e900:d200:c469:dd17:ffdd:b6b1] has joined #stackvm
+10:35 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:74bd:fc8a:4b11:4518] has quit [Remote host closed the connection]
+10:37 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+10:45 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+10:49 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 245 seconds]
+11:32 -!- dguttman [~david@cpe-23-240-221-84.socal.res.rr.com] has joined #stackvm
+11:33 -!- fotoverite [~fotoverit@cpe-72-225-216-150.nyc.res.rr.com] has joined #stackvm
+11:36 -!- toddself is now known as toddself_zz
+11:40 -!- toddself_zz is now known as toddself
+11:43 -!- toddself [~toddself@pool-72-89-48-46.nycmny.fios.verizon.net] has quit []
+11:45 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+11:50 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 264 seconds]
+12:02 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+12:02 -!- pfraze__ [~unsafe@2605:6000:e900:d200:8973:30e3:6cbe:9b07] has joined #stackvm
+12:03 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+12:05 -!- pfraze [~pfraze@2605:6000:e900:d200:c469:dd17:ffdd:b6b1] has quit [Ping timeout: 245 seconds]
+12:09 -!- pfraze__ is now known as pfraze
+12:13 -!- pfraze_ [~pfraze@2605:6000:e900:d200:c469:dd17:ffdd:b6b1] has joined #stackvm
+12:17 -!- pfraze_ [~pfraze@2605:6000:e900:d200:c469:dd17:ffdd:b6b1] has quit [Ping timeout: 245 seconds]
+12:18 -!- sethvincent [~sethvince@c-73-181-159-224.hsd1.wa.comcast.net] has joined #stackvm
+12:22 -!- pfraze_ [~pfraze@cpe-24-242-79-106.austin.res.rr.com] has joined #stackvm
+12:26 -!- pfraze__ [~pfraze@2605:6000:e900:d200:c469:dd17:ffdd:b6b1] has joined #stackvm
+12:26 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+12:27 -!- pfraze__ [~pfraze@2605:6000:e900:d200:c469:dd17:ffdd:b6b1] has quit [Client Quit]
+12:28 -!- pfraze_ [~pfraze@cpe-24-242-79-106.austin.res.rr.com] has quit [Ping timeout: 256 seconds]
+12:28 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has joined #stackvm
+12:38 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+12:40 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+12:43 -!- yoshuawuyts1 [~yoshuawuy@76.102.195.134] has joined #stackvm
+12:45 -!- knownasilya [uid22190@gateway/web/irccloud.com/x-xqblqcforvaabcsy] has joined #stackvm
+12:45 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+12:55 -!- oncenull [~pose@181.30.20.142] has joined #stackvm
+12:57 -!- oncenull [~pose@181.30.20.142] has quit [Client Quit]
+12:59 -!- hoobdeebla [~hoobdeebl@wsip-68-14-248-14.ph.ph.cox.net] has joined #stackvm
+12:59 -!- hoobdeebla [~hoobdeebl@wsip-68-14-248-14.ph.ph.cox.net] has quit [Remote host closed the connection]
+13:05 -!- yoshuawuyts1 [~yoshuawuy@76.102.195.134] has quit [Ping timeout: 276 seconds]
+13:08 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+13:09 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+13:11 -!- contrahax [~contrahax@181.28.99.4] has quit [Quit: Sleeping]
+13:13 -!- stagas [~stagas@178-47-192.dynamic.cyta.gr] has joined #stackvm
+13:21 -!- jxson [jxson@nat/google/x-arxcjltcdccebsvg] has joined #stackvm
+13:29 -!- contrahax [~contrahax@181.28.99.4] has joined #stackvm
+13:29 -!- slurp [~nodebot@37.153.97.9] has joined #stackvm
+13:31 -!- akenn [~akenn@173.245.57.22] has joined #stackvm
+13:32 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has quit [Remote host closed the connection]
+13:37 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:39f0:e650:5cff:7881] has joined #stackvm
+13:38 -!- akenn [~akenn@173.245.57.22] has quit [Ping timeout: 246 seconds]
+13:43 -!- akenn [~akenn@173.245.57.22] has joined #stackvm
+13:46 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+13:46 < jjjohnny_> i published a socket signalhub https://github.com/NHQ/sockethub
+13:47 < jjjohnny_> same API as signalhub by mafintosh and ogd
+13:48 < mafintosh> jjjohnny_: nice!
+13:48 -!- shama [~shama@c-73-164-214-148.hsd1.or.comcast.net] has joined #stackvm
+13:50 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+13:50 < jjjohnny_> uses substack's websocket multiplex router module dataplex
+13:59 -!- yoshuawuyts1 [~yoshuawuy@rackspacesf2-NEW.static.monkeybrains.net] has joined #stackvm
+14:00 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has joined #stackvm
+14:11 < jjjohnny_> renamed to https://github.com/NHQ/signalplex
+14:13 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has joined #stackvm
+14:13 < jjjohnny_> what if open source went of a documentation strike
+14:14 < jjjohnny_> s/of/on
+14:14 < mafintosh> jjjohnny_: maybe add some reconnect logic here as well,
+                   https://github.com/NHQ/signalplex/blob/master/index.js#L12-L14
+14:15 < mafintosh> jjjohnny_: thats basically what all of the c/c++ projects i've been looking at recently did it seems
+14:16 < jjjohnny_> mafintosh: what, strike?
+14:17 < mafintosh> jjjohnny_: yea, in the sense that none of seem seem to have any real documentation :)
+14:19 < jjjohnny_> mafintosh: imagine doing it to npm and github tho.  yall ever stop to think about how much your readme's are
+                   beieng viewed?
+14:19 < jjjohnny_> i look at a repo readme for days until i finish the current project
+14:20 < jjjohnny_> i know, its notnice to think about obfuscating docs.
+14:20 < jjjohnny_> idgaf cuz i'll read the code
+14:21 -!- pelletier [~textual@c-73-170-174-103.hsd1.ca.comcast.net] has quit [Quit: My MacBook Pro has gone to sleep. ZZZzzz&]
+14:21 -!- freeall [~freeall@94.18.215.178] has quit [Remote host closed the connection]
+14:23 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:39f0:e650:5cff:7881] has quit [Remote host closed the connection]
+14:24 < mafintosh> substack: did you get the bittorrent dht working?
+14:24 < mafintosh> ... with userdata support
+14:24 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+14:25 < jjjohnny_> he's getting on a jet to south america
+14:25 < jjjohnny_> who here would sell badge space on their readmes?
+14:25 < jjjohnny_> not to microsoft
+14:26 < jjjohnny_> to modulhaus
+14:26 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+14:26 < substack> mafintosh: I'm going to work on that on the plane
+14:26 < jjjohnny_> or cyberwizard?
+14:27 < mafintosh> substack: nice - let me know if i can help out. need this for a couple of projects as well
+14:27 < jjjohnny_> yeah me too
+14:27 < jjjohnny_> not help, i mean I cud use it
+14:28 < jjjohnny_> think about it yall, readme's > crowdfud badge > crowd funded OSS
+14:28 < jjjohnny_> legit
+14:28 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+14:28 < jjjohnny_> 1000% direct target audience
+14:29 -!- phated [~phated@wsip-70-166-103-182.ph.ph.cox.net] has joined #stackvm
+14:31 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+14:31 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+14:35 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+14:43 -!- pelletier [~textual@c-73-170-174-103.hsd1.ca.comcast.net] has joined #stackvm
+14:55 < jjjohnny_> what if we had a crowdfund site specifically for module project based services, like dat.  as in,  you could
+                   pitch a project basically by making a remarkable requirebin
+14:56 < jjjohnny_> using, if you need them, handy API modules to various larger scope projects
+14:56 < jjjohnny_> like dat, ssb, peer maps, webtorrent
+14:56 < jjjohnny_> then people would use this service to fund project built on top of yalls crazy projects
+14:58 < substack> it requires a lot of expertise to recognize the importance of these things in the first place
+14:59 < substack> it's only after these packages already exist and are proven that people start to care
+15:00 < jjjohnny_> people with money is not the target.  the crowd is different.  they are like bees, not VCs or management
+15:01 < jjjohnny_> client side implementations are where it will be at
+15:02 < jjjohnny_> the backend is gonna be a system of services easily integrated with API modules and keys.  you all ar
+                   ebuilding that exoskeletaon right now
+15:02 -!- freeall [~freeall@0709ds5-by.0.fullrate.dk] has joined #stackvm
+15:03 < jjjohnny_> dat will thrive is a 1000 apps can be built for it, funded by a niche department
+15:03 < jjjohnny_> s/is/if
+15:04 < jjjohnny_> this isn't about boosting themoduar architecture, its about closing the gap between people who need
+                   software, and the development
+15:06 < jjjohnny_> it just so happens tho, that we can pretty much edify an architecture whereby these apps can be designed and
+                   drafted separate from gluing it all together
+15:06 < jjjohnny_> but its about bring software power to the people!
+15:07 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+15:09 -!- sz0 [~sz0@24.133.143.148] has joined #stackvm
+15:09 < jjjohnny_> substack: we can reduce the exp. points needed with examples, APIs, narrowing and enumerating scopes of use
+15:10 < jjjohnny_> this is all future foundation tech yall make
+15:10 < jjjohnny_> substack: we also publish valuable info  ;^\
+15:12 < jjjohnny_> dont be mad at the cottage industry you create.  happily you help them, they gladly help you back.
+15:13 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has joined #stackvm
+15:17 < jjjohnny_> mutually assured construction
+15:17 < substack> jjjohnny_: I'm just skeptical that people will support projects for the public good
+15:18 < substack> without wasting extreme amounts of effort in marketing and fund raising
+15:18 < jjjohnny_> tweens crowdfunding peermap based apps, cuz they can code up a decent example on requirebin.  no
+                   require(fancy videos).
+15:23 < jjjohnny_> substack: you're up to too much good for such skepticism.
+15:25 < jjjohnny_> the sub demographics of wierdoes, do gooders, truth seekers, and of course web developers, is sufficient.
+                   the task it to reach them.
+15:25 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+15:25 < jjjohnny_> reach them through their noses
+15:27 < substack> http://railsbird.tumblr.com/post/117076597115/existential-crisis-at-railsconf
+15:29 < jjjohnny_> gross
+15:30 -!- wao [~wao@v6.syx.sk] has quit [Ping timeout: 272 seconds]
+15:33 -!- jxson__ [~jxson@216.239.45.84] has joined #stackvm
+15:34 -!- jxson [jxson@nat/google/x-arxcjltcdccebsvg] has quit [Ping timeout: 245 seconds]
+15:42 -!- yoshuawuyts1 [~yoshuawuy@rackspacesf2-NEW.static.monkeybrains.net] has quit [Ping timeout: 250 seconds]
+15:45 -!- yoshuawuyts1 [~yoshuawuy@rackspacesf2-NEW.static.monkeybrains.net] has joined #stackvm
+15:51 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+15:53 < jjjohnny_> mafintosh: added reconnecting https://github.com/NHQ/signalplex/blob/master/index.js#L42
+14:29 -!- phated [~phated@wsip-70-166-103-182.ph.ph.cox.net] has joined #stackvm
+14:31 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+14:31 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+14:35 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+14:43 -!- pelletier [~textual@c-73-170-174-103.hsd1.ca.comcast.net] has joined #stackvm
+14:55 < jjjohnny_> what if we had a crowdfund site specifically for module project based services, like dat.  as in,  you could
+                   pitch a project basically by making a remarkable requirebin
+14:56 < jjjohnny_> using, if you need them, handy API modules to various larger scope projects
+14:56 < jjjohnny_> like dat, ssb, peer maps, webtorrent
+14:56 < jjjohnny_> then people would use this service to fund project built on top of yalls crazy projects
+14:58 < substack> problem: I don't think people with money care about tiny foundational modules
+14:58 < substack> it requires a lot of expertise to recognize the importance of these things in the first place
+14:59 < substack> it's only after these packages already exist and are proven that people start to care
+15:00 < jjjohnny_> people with money is not the target.  the crowd is different.  they are like bees, not VCs or management
+15:01 < jjjohnny_> client side implementations are where it will be at
+15:02 < jjjohnny_> the backend is gonna be a system of services easily integrated with API modules and keys.  you all ar
+                   ebuilding that exoskeletaon right now
+15:02 -!- freeall [~freeall@0709ds5-by.0.fullrate.dk] has joined #stackvm
+15:03 < jjjohnny_> dat will thrive is a 1000 apps can be built for it, funded by a niche department
+15:03 < jjjohnny_> s/is/if
+15:04 < jjjohnny_> this isn't about boosting themoduar architecture, its about closing the gap between people who need
+                   software, and the development
+15:06 < jjjohnny_> it just so happens tho, that we can pretty much edify an architecture whereby these apps can be designed and
+                   drafted separate from gluing it all together
+15:06 < jjjohnny_> but its about bring software power to the people!
+15:07 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+15:09 -!- sz0 [~sz0@24.133.143.148] has joined #stackvm
+15:09 < jjjohnny_> substack: we can reduce the exp. points needed with examples, APIs, narrowing and enumerating scopes of use
+15:10 < jjjohnny_> this is all future foundation tech yall make
+15:10 < jjjohnny_> substack: we also publish valuable info  ;^\
+15:12 < jjjohnny_> dont be mad at the cottage industry you create.  happily you help them, they gladly help you back.
+15:13 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has joined #stackvm
+15:17 < jjjohnny_> mutually assured construction
+15:17 < substack> jjjohnny_: I'm just skeptical that people will support projects for the public good
+15:18 < substack> without wasting extreme amounts of effort in marketing and fund raising
+15:18 < jjjohnny_> tweens crowdfunding peermap based apps, cuz they can code up a decent example on requirebin.  no
+                   require(fancy videos).
+15:23 < jjjohnny_> substack: you're up to too much good for such skepticism.
+15:25 < jjjohnny_> the sub demographics of wierdoes, do gooders, truth seekers, and of course web developers, is sufficient.
+                   the task it to reach them.
+15:25 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+15:25 < jjjohnny_> reach them through their noses
+15:27 < substack> http://railsbird.tumblr.com/post/117076597115/existential-crisis-at-railsconf
+15:29 < jjjohnny_> gross
+15:30 -!- wao [~wao@v6.syx.sk] has quit [Ping timeout: 272 seconds]
+15:33 -!- jxson__ [~jxson@216.239.45.84] has joined #stackvm
+15:34 -!- jxson [jxson@nat/google/x-arxcjltcdccebsvg] has quit [Ping timeout: 245 seconds]
+15:42 -!- yoshuawuyts1 [~yoshuawuy@rackspacesf2-NEW.static.monkeybrains.net] has quit [Ping timeout: 250 seconds]
+15:45 -!- yoshuawuyts1 [~yoshuawuy@rackspacesf2-NEW.static.monkeybrains.net] has joined #stackvm
+15:51 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+15:53 < jjjohnny_> mafintosh: added reconnecting https://github.com/NHQ/signalplex/blob/master/index.js#L42
+ Unofficial browserling/testling mad science channel. For official help /join #browserling
+15:53 -!- sethvincent [~sethvince@c-73-181-159-224.hsd1.wa.comcast.net] has quit [Quit: Bye!]
+15:53 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+15:55 -!- sethvincent [~sethvince@c-73-181-159-224.hsd1.wa.comcast.net] has joined #stackvm
+16:18 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+16:19 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has joined #stackvm
+16:26 -!- stagas [~stagas@178-47-192.dynamic.cyta.gr] has quit [Ping timeout: 246 seconds]
+16:42 -!- yoshuawuyts1 is now known as yoshuawuyts
+16:53 -!- wao [~wao@v6.syx.sk] has joined #stackvm
+16:56 -!- yoshuawuyts [~yoshuawuy@rackspacesf2-NEW.static.monkeybrains.net] has quit [Ping timeout: 255 seconds]
+16:57 -!- pfraze_ [~pfraze@2605:6000:e900:d200:c469:dd17:ffdd:b6b1] has joined #stackvm
+17:02 -!- yoshuawuyts [~yoshuawuy@108-241-91-113.lightspeed.sntcca.sbcglobal.net] has joined #stackvm
+17:03 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has quit [Ping timeout: 250 seconds]
+17:13 -!- pfraze [~unsafe@2605:6000:e900:d200:8973:30e3:6cbe:9b07] has quit [Quit: Leaving]
+17:16 -!- contrahax [~contrahax@181.28.99.4] has quit [Quit: Sleeping]
+17:18 -!- contrahax [~contrahax@181.28.99.4] has joined #stackvm
+17:36 -!- pfraze_ [~pfraze@2605:6000:e900:d200:c469:dd17:ffdd:b6b1] has quit [Remote host closed the connection]
+17:39 -!- yoshuawuyts [~yoshuawuy@108-241-91-113.lightspeed.sntcca.sbcglobal.net] has quit [Ping timeout: 272 seconds]
+17:39 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has quit [Remote host closed the connection]
+17:40 -!- jxson__ [~jxson@216.239.45.84] has quit [Remote host closed the connection]
+17:41 -!- sz0 [~sz0@24.133.143.148] has quit [Quit: Bye.]
+17:46 -!- jxson [~jxson@216.239.45.92] has joined #stackvm
+18:05 -!- alexandergugel [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+18:09 -!- domanic [~domanic@118.148.172.173] has joined #stackvm
+18:10 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+18:13 -!- domanic [~domanic@118.148.172.173] has quit [Read error: Connection reset by peer]
+18:15 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has quit [Ping timeout: 264 seconds]
+18:15 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+18:21 -!- alexande_ [~alexander@162.222.102.49] has joined #stackvm
+18:24 -!- alexandergugel [~alexander@162.222.102.49] has quit [Ping timeout: 245 seconds]
+18:32 -!- pfraze [~pfraze@2605:6000:e900:d200:9d1b:4cbc:253d:a2fa] has joined #stackvm
+18:47 -!- alexande_ [~alexander@162.222.102.49] has quit [Remote host closed the connection]
+18:53 -!- alexandergugel [~alexander@162.222.102.49] has joined #stackvm
+19:11 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+19:14 < jjjohnny_> the backend of web apps can be reduced to utilities
+ [19:15] [jjjohnny_(+i)] [5:freenode/#stackvm(+cnt)] [Act: 3,4,6,7,9,10,14,16]
+[#stackvm]

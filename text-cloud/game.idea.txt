@@ -1,0 +1,1048 @@
+15:58 < bradleymeck> DarkGhost: never run that
+15:58 < DarkGhost>  lol I don't think I did
+15:59 < StatelessCat> bradleymeck: thanks, but i got "npm ERR! 404 'rdfrest'
+                      is not in the npm registry."
+15:59 < bradleymeck> DarkGhost: dump npm-debug.log somewhere, but to fix it I
+                     would just reinstall npm
+15:59 < StatelessCat> but it is :)
+15:59 < DarkGhost> how do I uninstall?
+16:00 < bradleymeck> DarkGhost: thats a long and convoluted story, but
+                     installing ontop of npm works fine
+16:00 < bradleymeck> no real need to run uninstall
+16:00 < DarkGhost> lmao everything I type
+16:00 < DarkGhost> is just causing problems now
+16:00 < DarkGhost> ;(
+16:00 < DarkGhost> think I truly messed it up
+16:01 -!- redonkulus [~redonkulu@2001:4998:effd:600:28b0:9a1b:e438:1cbf] has
+          quit [Read error: Connection reset by peer]
+16:01 -!- redonkulus [~redonkulu@2001:4998:effd:600:28b0:9a1b:e438:1cbf] has
+          joined #npm
+16:02 < bradleymeck> StatelessCat: it worked for me T_T
+16:02 < bradleymeck> now I own it
+16:02 < bradleymeck> :O
+16:02 < bradleymeck> and now I don't
+16:02 < bradleymeck> StatelessCat: try `npm owner add $user $pkgname` for your
+                     deal
+16:03 < bradleymeck> also what is your npm version?
+16:03 < StatelessCat> 2.6.1
+16:04 < StatelessCat> https://www.npmjs.com/package/rdfrest -->
+1425589448389:www-5-west.internal.npmjs.com:5486:i6iahm6u:42950
+16:04 < StatelessCat> something wrong happens :/
+16:04 < DarkGhost> http://cl.ly/image/1L3j0B2d032u blah
+16:05 < DarkGhost> after doing sudo npm install npm -g
+16:05 -!- yoshuawuyts1 [~yoshuawuy@ip-213-127-165-154.ip.prioritytelecom.net]
+          has joined #npm
+16:05 < StatelessCat> bradleymeck: if you can own it, it's ok, i can say to
+                      the new maintainer to do `npm owner add $user $pkgname` ?
+16:05 < bradleymeck> if no one owns it yes
+16:05 < StatelessCat> bradleymeck: did you do some magics because your an
+                      admin of NPM or not ?
+16:06 < bradleymeck> no, it was completely unpublished, so I could claim it
+16:06 < bradleymeck> completely unpublishing != unpublishing a single version
+16:06 < StatelessCat> :)
+16:06 < StatelessCat> ok thanks
+16:11 -!- yoshuawuyts1 [~yoshuawuy@ip-213-127-165-154.ip.prioritytelecom.net]
+          has quit [Ping timeout: 252 seconds]
+16:18 < DarkGhost> wtf is this error cb() never called
+16:18 -!- songawee [~songawee@63-158-128-178.dia.static.qwest.net] has quit
+          [Quit: songawee]
+16:18 < DarkGhost> i tried reinstalling
+16:20 -!- songawee [~songawee@63-158-128-178.dia.static.qwest.net] has joined
+          #npm
+16:27 -!- bradleymeck [~bradleyme@70.114.246.88] has quit [Quit: bradleymeck]
+16:28 -!- gigo1980 [~gigo1980@p54855FD9.dip0.t-ipconnect.de] has quit [Quit:
+          Be back later ...]
+16:29 -!- redonkulus [~redonkulu@2001:4998:effd:600:28b0:9a1b:e438:1cbf] has
+          quit [Quit: Leaving.]
+16:30 -!- redonkulus [~redonkulu@2001:4998:effd:600:28b0:9a1b:e438:1cbf] has
+          joined #npm
+16:31 -!- JoshGlzBrk [~textual@c-174-61-211-133.hsd1.wa.comcast.net] has quit
+          [Quit: My MacBook Pro has gone to sleep. ZZZzzz&]
+16:33 -!- jagoda [~jjagoda@216.82.234.65] has quit [Remote host closed the
+          connection]
+16:36 -!- bradleymeck [~bradleyme@70.114.246.88] has joined #npm
+16:37 -!- arjunmehta [~arjunmeht@40.139.249.30] has joined #npm
+16:41 -!- KushS [~kushagra@122.164.200.95] has quit [Remote host closed the
+          connection]
+16:47 -!- seishun [~Kakera@78.84.167.69] has quit [Ping timeout: 244 seconds]
+15:39 -!- legittalon|hidin is now known as legittalon
+18:04 -!- legittalon is now known as legittalon|hidin
+02:49 <substack> $5 for a lifetime license for a crappy but compelling game
+12:03 -!- thlorenz_ [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has quit [Ping
+          timeout: 272 seconds]
+12:05 -!- toddself [~toddself@pool-72-89-48-46.nycmny.fios.verizon.net] has
+          joined #stackvm
+12:15 -!- jxson [~jxson@c-98-210-181-134.hsd1.ca.comcast.net] has joined
+          #stackvm
+12:17 -!- fotoverite [~fotoverit@113.162.114.60] has joined #stackvm
+12:26 -!- pfraze__ [~pfraze@cpe-24-242-79-106.austin.res.rr.com] has quit
+          [Remote host closed the connection]
+12:26 -!- pfraze [~unsafe@mail.wlion.com] has joined #stackvm
+12:28 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #stackvm
+12:35 -!- gozala [uid5923@gateway/web/irccloud.com/x-dxvynztaumcvvjaa] has
+          joined #stackvm
+12:38 -!- phated [~phated@wsip-70-166-103-182.ph.ph.cox.net] has joined
+          #stackvm
+12:40 -!- phated [~phated@wsip-70-166-103-182.ph.ph.cox.net] has quit [Read
+          error: Connection reset by peer]
+12:40 -!- phated [~phated@wsip-70-166-103-182.ph.ph.cox.net] has joined
+          #stackvm
+12:42 -!- toddself_ [~toddself@pool-72-89-48-46.nycmny.fios.verizon.net] has
+          joined #stackvm
+12:42 -!- toddself [~toddself@pool-72-89-48-46.nycmny.fios.verizon.net] has
+          quit [Quit: Sleeping]
+12:48 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has
+          joined #stackvm
+12:48 -!- yoshuawuyts [~yoshuawuy@ip-213-127-165-154.ip.prioritytelecom.net]
+          has joined #stackvm
+12:51 -!- yoshuawuyts [~yoshuawuy@ip-213-127-165-154.ip.prioritytelecom.net]
+          has quit [Read error: Connection reset by peer]
+12:51 -!- yoshuawuyts1 [~yoshuawuy@ip-213-127-165-154.ip.prioritytelecom.net]
+          has joined #stackvm
+12:56 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit
+          [Quit: Sleeping]
+12:58 -!- collypop_ [~collypops@139.218.161.178] has quit [Quit: My MacBook
+          Pro has gone to sleep. ZZZzzz&]
+13:00 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has
+          joined #stackvm
+13:00 -!- ELLIOTTCABLE [sid1544@gateway/web/irccloud.com/x-napziebjvfeejlwp]
+          has quit [Disconnected by services]
+13:04 -!- toddself_ is now known as toddself
+13:09 -!- sorensen_ [~sorensen@c-67-185-68-85.hsd1.wa.comcast.net] has joined
+          #stackvm
+13:12 -!- sorensen_ [~sorensen@c-67-185-68-85.hsd1.wa.comcast.net] has quit
+          [Client Quit]
+13:16 -!- jxson [~jxson@c-98-210-181-134.hsd1.ca.comcast.net] has quit [Remote
+          host closed the connection]
+13:21 -!- toddself is now known as toddself_zz
+13:22 -!- joshhartigan
+          [~joshharti@host86-171-40-152.range86-171.btcentralplus.com] has
+          joined #stackvm
+13:31 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          quit [Quit: thealphanerd]
+13:32 -!- yoshuawuyts1 [~yoshuawuy@ip-213-127-165-154.ip.prioritytelecom.net]
+          has quit [Ping timeout: 252 seconds]
+13:33 -!- reqshark [~reqshark@pool-98-113-133-5.nycmny.fios.verizon.net] has
+          quit [Quit: Be back later ...]
+13:34 -!- pelletie_ [~textual@c-73-170-174-103.hsd1.ca.comcast.net] has joined
+          #stackvm
+13:37 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit
+          [Quit: Sleeping]
+13:45 -!- pfraze_ [~pfraze@2605:6000:e900:d200:3008:88b:b0c1:ab08] has joined
+          #stackvm
+13:49 -!- pfraze_ [~pfraze@2605:6000:e900:d200:3008:88b:b0c1:ab08] has quit
+          [Remote host closed the connection]
+13:54 -!- joshhartigan
+          [~joshharti@host86-171-40-152.range86-171.btcentralplus.com] has
+          quit []
+13:55 -!- toddself_zz is now known as toddself
+13:57 -!- pfraze_ [~unsafe@cpe-24-242-79-106.austin.res.rr.com] has joined
+          #stackvm
+14:00 -!- thlorenz_ [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has joined
+          #stackvm
+14:00 -!- yoshuawuyts1 [~yoshuawuy@ip-213-127-165-154.ip.prioritytelecom.net]
+          has joined #stackvm
+14:01 -!- ELLIOTTCABLE [sid1544@gateway/web/irccloud.com/x-lrjhychfgewqcxgf]
+          has joined #stackvm
+14:01 -!- pfraze [~unsafe@mail.wlion.com] has quit [Ping timeout: 256 seconds]
+14:04 -!- thlorenz_ [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has quit [Ping
+          timeout: 240 seconds]
+14:11 < chrisdickinson> isaacs: belatedly re: tap+streams  seems like a good
+                        case for object mode streams + switching from
+                        `.end`-on-plan-fulfillment to pushing a `{testEnd:
+                        true}` object on plan fulfillment?
+14:12 -!- yoshuawuyts1 [~yoshuawuy@ip-213-127-165-154.ip.prioritytelecom.net]
+          has quit [Ping timeout: 256 seconds]
+14:12 < chrisdickinson> "test" invocation would send a `{testOpen: true}` sort
+                        of object, and the stream itself could keep track of
+                        matching ends to opens, and once all have been ended +
+                        opened, then end the stream?
+14:13 < chrisdickinson> though that means ends would have to be nextTick'd so
+                        that sync tests wouldn't end the stream prematurely.
+14:16 -!- yoshuawuyts1 [~yoshuawuy@ip-213-127-165-154.ip.prioritytelecom.net]
+          has joined #stackvm
+14:41 < kumavis> i want to run my crypto flow past some other eyes
+14:45 < kumavis> https://gist.github.com/kumavis/2a34b865c8ef504f722b
+14:46 -!- jxson [~jxson@216.239.45.92] has joined #stackvm
+14:56 < kumavis> hmmm i kinda wanna drop the secret as soon as possible, and
+                 just keep a hash around, but it means that i need to put the
+                 salt management into the users hands
+14:57 -!- pelletie_ [~textual@c-73-170-174-103.hsd1.ca.comcast.net] has quit
+          [Quit: My MacBook Pro has gone to sleep. ZZZzzz&]
+15:01 -!- thlorenz_ [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has joined
+          #stackvm
+15:05 -!- thlorenz_ [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has quit [Ping
+          timeout: 252 seconds]
+15:12 -!- pelletie_ [~textual@c-73-170-174-103.hsd1.ca.comcast.net] has joined
+          #stackvm
+15:12 < kumavis> module consumer's hands
+15:13 -!- yoshuawuyts1 [~yoshuawuy@ip-213-127-165-154.ip.prioritytelecom.net]
+          has quit [Ping timeout: 256 seconds]
+15:14 -!- yoshuawuyts1 [~yoshuawuy@ip-213-127-165-154.ip.prioritytelecom.net]
+          has joined #stackvm
+15:16 -!- shama [~shama@c-73-164-214-148.hsd1.or.comcast.net] has joined
+          #stackvm
+15:19 -!- yoshuawuyts1 [~yoshuawuy@ip-213-127-165-154.ip.prioritytelecom.net]
+          has quit [Ping timeout: 245 seconds]
+15:40 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au]
+          has joined #stackvm
+15:44 -!- toddself is now known as toddself_zz
+15:44 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au]
+          has quit [Ping timeout: 265 seconds]
+15:46 -!- toddself_zz is now known as toddself
+15:50 -!- contrahax [~contrahax@216.9.110.14] has joined #stackvm
+15:56 -!- sethvincent
+[~sethvince@173-10-73-126-BusName-Washington.hfc.comcastbusiness.net] has
+          joined #stackvm
+16:01 -!- fotoverite_ [~fotoverit@113.162.114.204] has joined #stackvm
+16:02 -!- thlorenz_ [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has joined
+          #stackvm
+                 and then ratchet up the price over time
+          timeout: 255 seconds]
+16:57 -!- oncenull [~pose@186.137.226.215] has quit [Remote host closed the
+          connection]
+17:03 -!- thlorenz_ [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has joined
+          #stackvm
+17:05 -!- pfraze__ [~unsafe@mail.wlion.com] has joined #stackvm
+17:06 -!- pfrazee [~unsafe@cpe-24-242-79-106.austin.res.rr.com] has joined
+          #stackvm
+17:07 -!- pfraze_ [~unsafe@cpe-24-242-79-106.austin.res.rr.com] has quit [Ping
+17:12 -!- gigo1980 [~gigo1980@p54855FD9.dip0.t-ipconnect.de] has quit [Ping
+          timeout: 252 seconds]
+18:20 -!- legittalon|hidin is now known as legittalon
+20:16 -!- williamcotton [~williamco@c-24-5-80-236.hsd1.ca.comcast.net] has
+          quit [Ping timeout: 272 seconds]
+          timeout: 245 seconds]
+18:34 -!- pfraze [~pfraze@cpe-24-242-79-106.austin.res.rr.com] has quit
+          [Remote host closed the connection]
+18:34 -!- toddself_zz is now known as toddself
+18:34 -!- toddself [~toddself@pool-72-89-48-46.nycmny.fios.verizon.net] has
+          quit []
+18:34 -!- pfraze [~pfraze@cpe-24-242-79-106.austin.res.rr.com] has joined
+          #stackvm
+18:42 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #stackvm
+          timeout: 264 seconds]
+17:09 -!- pfraze__ [~unsafe@mail.wlion.com] has quit [Ping timeout: 245
+          seconds]
+17:10 < jjjohnny> mikolalysenko: where ya at?
+17:28 -!- toddself is now known as toddself_zz
+17:35 -!- pelletie_ [~textual@c-73-170-174-103.hsd1.ca.comcast.net] has quit
+          [Quit: My MacBook Pro has gone to sleep. ZZZzzz&]
+17:35 -!- oncenull [~pose@186.137.226.215] has joined #stackvm
+17:36 < mikolalysenko> jjjohnny: right now we are at workshop cafe in sf
+17:44 -!- pelletie_ [~textual@c-73-170-174-103.hsd1.ca.comcast.net] has joined
+          #stackvm
+17:45 < jjjohnny> holler if you go east.  you can stay over in hackistan if
+                  you want.
+17:46 -!- oncenull [~pose@186.137.226.215] has quit [Remote host closed the
+          connection]
+17:47 -!- yoshuawuyts1 [~yoshuawuy@50708A96.static.ziggozakelijk.nl] has
+          joined #stackvm
+18:09 -!- thloren__ [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has joined
+          #stackvm
+18:21 -!- thloren__ [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has quit [Ping
+          timeout: 245 seconds]
+18:34 -!- pfraze [~pfraze@cpe-24-242-79-106.austin.res.rr.com] has quit
+          [Remote host closed the connection]
+18:34 -!- toddself_zz is now known as toddself
+18:34 -!- toddself [~toddself@pool-72-89-48-46.nycmny.fios.verizon.net] has
+          quit []
+18:34 -!- pfraze [~pfraze@cpe-24-242-79-106.austin.res.rr.com] has joined
+          #stackvm
+18:42 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #stackvm
+19:00 -!- ircretary [~ircretary@165.225.132.207] has quit [Remote host closed
+          the connection]
+19:00 -!- ircretary [~ircretary@165.225.132.207] has joined #stackvm
+19:02 -!- domanic [~domanic@118.148.242.111] has joined #stackvm
+19:03 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          quit [Read error: Connection reset by peer]
+19:03 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #stackvm
+19:04 < mikolalysenko> jjjohnny: I'm staying on the east side with hughsk
+19:04 < mikolalysenko> I'm out here for 2 weeks though, so I'll definitely get
+                       over there some time!
+19:04 < mikolalysenko> (hopefully soon)
+19:05 < mikolalysenko> lately I've been a bit preoccupied trying to crash as
+                       many gdc things as I can
+19:18 -!- thlorenz_ [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has joined
+          #stackvm
+19:23 -!- dguttman [~david@65-126-127-28.dia.static.qwest.net] has quit [Quit:
+          dguttman]
+19:23 -!- dguttman [~david@65-126-127-28.dia.static.qwest.net] has joined
+          #stackvm
+19:31 -!- jxson [~jxson@216.239.45.92] has quit [Quit: Leaving...]
+19:34 -!- jxson [jxson@nat/google/x-klpwwnzmbvpppjcl] has joined #stackvm
+19:35 -!- oncenull [~pose@186.137.226.215] has joined #stackvm
+19:36 -!- thlorenz_ [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has quit [Ping
+          timeout: 265 seconds]
+19:39 -!- oncenull [~pose@186.137.226.215] has quit [Ping timeout: 244 seconds]
+19:43 < kumavis> ogd: this is what i ended up doing
+                 https://github.com/kumavis/cryptographer
+19:44 < kumavis> very open to criticism
+19:45 < kumavis> it should be a little more transparent about what it is using
+                 under the hood, I'll get there
+19:47 < domanic> kumavis, quite a bit extra stuff in the example that I don't
+                 need to know
+19:48 < kumavis> yeah prolly
+19:48 < domanic> like, the requirements and flow for the password
+19:48 < kumavis> they do feel a bit bloated
+19:48 < domanic> that code can just be a module, it doesn't need to be typed
+                 out in the example
+19:48 < domanic> I had to read the first example, and didn't learn anything
+                 about your module
+19:49 < kumavis> ok thanks
+19:50 < domanic> what I need is a simple description of how it works, then a
+                 minimal example using it
+19:50 < domanic> you should also say what algorithm it uses.
+19:57 < kumavis> better? https://github.com/kumavis/cryptographer#-localstorage
+19:57 < kumavis> domanic: ^
+19:58 < shama> Does npm i glslify work for anyone else (io.js v1.4.3 and npm
+               v2.6.1)? Or do you get "npm ERR! Failed to check out
+               a41a40b49046747b3af57341cda048bbd3d9df79 error: Your local
+               changes to the following files would be overwritten by
+               checkout:" too?
+19:58 < kumavis> domanic: i really appreciate the feedback btw
+19:59 < kumavis> readme still feels like a wall of text
+19:59 < domanic> kumavis, yes
+20:00 < domanic> kumavis, there are some aes settings you should NOT use
+20:00 < domanic> I forget which, but did you check?
+20:01 < kumavis> crypto friend helped me pick that particular one
+20:01 < kumavis> not set in stone
+20:02 < domanic> kumavis, hey, do you encrypt the keys?
+20:02 < kumavis> domanic: we dont store the keys.. is this what you mean?
+20:02 < kumavis> oh you mean the key-value keys
+20:02 < domanic> yeah, kv keys
+20:02 < kumavis> no, i was considering that
+20:03 < kumavis> the question is then, how do we look them up again?
+20:03 < domanic> you could just hmac them with the salt
+20:03 < domanic> you couldn't iterate over them, but you don't have that api
+                 anyway
+20:04 -!- null_radix [Elite7851@gateway/shell/elitebnc/x-threassioyvpkcmp] has
+          joined #stackvm
+20:04 < kumavis> null_radix: helped here
+20:04 < null_radix> hiya :)
+20:04 < kumavis> null_radix: dominc suggests at least hashing the key-value
+                 keys
+20:04 < kumavis> this is a good idea
+20:05 < null_radix> yep
+20:05 < null_radix> you should just use a fast hash for that
+20:05 < domanic> or the salt & password ... then the keys are as secure as the
+                 messages
+20:06 < null_radix> matter a fact we are goign to hash all the keys in
+                    ethereum's trie for enhanced security has well
+20:06 < null_radix> yeah that a good idea too
+20:08 < null_radix> @kumavis; wdyt of providing an option as how you want to
+                    handle the keys?
+20:09 < kumavis> nah i want it to just be secure by default
+20:09 < null_radix> kk
+20:09 -!- pfrazee [~unsafe@cpe-24-242-79-106.austin.res.rr.com] has quit [Ping
+          timeout: 246 seconds]
+20:10 < null_radix> so an instersting property of the keys is that they never
+                    change
+20:11 < null_radix> AES-GCM mode protects against telling if the encypted data
+                    has changed or not.
+20:12 < null_radix> so you could use something different i suppose
+20:13 < null_radix> not sure yet
+20:18 -!- DamonOehlman1 [~Thunderbi@stargate.it.nicta.com.au] has joined
+          #stackvm
+20:20 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au]
+          has quit [Ping timeout: 252 seconds]
+20:20 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          quit [Quit: thealphanerd]
+20:24 < domanic> null_radix, what is useful about telling if they never change?
+20:29 -!- pelletie_ [~textual@c-73-170-174-103.hsd1.ca.comcast.net] has quit
+          [Quit: My MacBook Pro has gone to sleep. ZZZzzz&]
+20:31 < kumavis> metadata i suppose
+20:31 < kumavis> leaking info
+20:32 -!- anvaka [~anvaka@2601:8:ac80:3f9:d527:32ad:9885:b361] has quit
+          [Remote host closed the connection]
+20:33 < kumavis> ok one problem i ran into with encrypting the keys is that we
+                 generate a bunch of random padding, so encrypting the same
+                 thing twice does not give you the same result
+20:33 < domanic> who is the *threat* that it protects you against or not?
+20:34 < domanic> kumavis, right - this is why i suggested hmac for the keys -
+                 it's only one way, but you can check whether you already have
+                 that value
+20:34 < domanic> otherwise, you'd have to decrypt all the keys to check
+                 whether you have one particular one
+20:36 < null_radix> yeah just metadata
+20:36 < kumavis> yeah, or just encrypt with a set padding
+20:37 < kumavis> any downside to encrypting the keys with a set padding and
+                 iv? does it leak info about the priv key?
+20:37 < kumavis> i guess it could
+20:37 < null_radix> padding doesn't matter
+20:37 < null_radix> iv does
+20:37 < null_radix> at least for AES-GCM
+20:39 < domanic> kumavis, this is symmetrical encryption right? so it's not a
+                 private key, it's just a key.
+20:39 < domanic> null_radix, kumavis is there a problem reusing the same key
+                 over and over?
+20:40 < null_radix> no that should be fine
+20:41 < domanic> null_radix, what about known plaintext attacks?
+20:42 -!- anvaka [~anvaka@216.243.14.92] has joined #stackvm
+20:42 < null_radix> isn't that when the attack konw what the plain text is and
+                    he tries to tell if the encrypted text is the paintext or
+                    not?
+20:45 < domanic> null_radix, yeah, and if you guess that you know the
+                 keystream.
+20:45 < null_radix> rigth
+20:46 < domanic> so if you randomly pad the messages you can't know guess the
+                 plain text (trusting the RNG)
+20:48 -!- AvianPhone [~AvianPhon@2600:1017:b801:1d60:3011:201e:fa5d:8a8e] has
+          joined #stackvm
+20:48 < domanic> hmm, symmetric encryption is much harder to reason about than
+                 hashes
+20:50 < null_radix> just hashes are nice :)
+20:50 < domanic> hmm, retriving a key IS a known plaintext attack
+20:51 < null_radix> oh rigth so i was wrong
+20:51 < domanic> you already know the key, and you just want to check whether
+                 the database has that key in it.
+20:51 -!- shama [~shama@c-73-164-214-148.hsd1.or.comcast.net] has quit [Quit:
+          (o°¡°	ÿo5ÿPoPes]
+20:52 < null_radix> a kpa is where the attack know the plaintext AND the
+                    encrypted text AND he is then able to derive the key
+20:53 < null_radix> for keys wouldn't just be easyest just to hash them?
+20:53 < domanic> null_radix, yes that is what I suggested ;)
+20:53 < null_radix> rad
+20:54 < kumavis> so hmac'ing keys via "SHA-1", "SHA-256", "SHA-384", or
+                 "SHA-512"
+20:54 < kumavis> take your pic
+20:54 < domanic> hash them with salt + password
+20:54 < kumavis> null_radix: you have that compat table?
+20:54 < domanic> kumavis, anything but sha1
+20:55 < domanic> oh, you are bcrypting your password, so you can just hmac the
+                 key with bcrypt(password)
+20:58 < domanic> kumavis, why not sha1:
+https://www.schneier.com/blog/archives/2012/10/when_will_we_se.html
+20:58 < null_radix> foudn it ou have that compat table?
+20:58 < null_radix> https://diafygi.github.io/webcrypto-examples/
+20:58 < null_radix> opps
+20:59 < kumavis> domanic: when you say hmac do you mean hash, or specifically
+                 hmac ?
+20:59 < kumavis> i guess i am not familiar with hmac and what it provides
+                 compared to a generic hash
+17:09 -!- pfraze__ [~unsafe@mail.wlion.com] has quit [Ping timeout: 245
+          seconds]
+17:10 < jjjohnny> mikolalysenko: where ya at?
+17:28 -!- toddself is now known as toddself_zz
+17:35 -!- pelletie_ [~textual@c-73-170-174-103.hsd1.ca.comcast.net] has quit
+          [Quit: My MacBook Pro has gone to sleep. ZZZzzz&]
+17:35 -!- oncenull [~pose@186.137.226.215] has joined #stackvm
+17:36 < mikolalysenko> jjjohnny: right now we are at workshop cafe in sf
+17:44 -!- pelletie_ [~textual@c-73-170-174-103.hsd1.ca.comcast.net] has joined
+          #stackvm
+17:45 < jjjohnny> holler if you go east.  you can stay over in hackistan if
+                  you want.
+17:46 -!- oncenull [~pose@186.137.226.215] has quit [Remote host closed the
+          connection]
+17:47 -!- yoshuawuyts1 [~yoshuawuy@50708A96.static.ziggozakelijk.nl] has
+          joined #stackvm
+18:09 -!- thloren__ [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has joined
+          #stackvm
+18:21 -!- thloren__ [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has quit [Ping
+          timeout: 245 seconds]
+18:34 -!- pfraze [~pfraze@cpe-24-242-79-106.austin.res.rr.com] has quit
+          [Remote host closed the connection]
+18:34 -!- toddself_zz is now known as toddself
+18:34 -!- toddself [~toddself@pool-72-89-48-46.nycmny.fios.verizon.net] has
+          quit []
+18:34 -!- pfraze [~pfraze@cpe-24-242-79-106.austin.res.rr.com] has joined
+          #stackvm
+18:42 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #stackvm
+19:00 -!- ircretary [~ircretary@165.225.132.207] has quit [Remote host closed
+          the connection]
+19:00 -!- ircretary [~ircretary@165.225.132.207] has joined #stackvm
+19:02 -!- domanic [~domanic@118.148.242.111] has joined #stackvm
+19:03 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          quit [Read error: Connection reset by peer]
+19:03 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #stackvm
+19:04 < mikolalysenko> jjjohnny: I'm staying on the east side with hughsk
+19:04 < mikolalysenko> I'm out here for 2 weeks though, so I'll definitely get
+                       over there some time!
+19:04 < mikolalysenko> (hopefully soon)
+19:05 < mikolalysenko> lately I've been a bit preoccupied trying to crash as
+                       many gdc things as I can
+19:18 -!- thlorenz_ [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has joined
+          #stackvm
+19:23 -!- dguttman [~david@65-126-127-28.dia.static.qwest.net] has quit [Quit:
+          dguttman]
+19:23 -!- dguttman [~david@65-126-127-28.dia.static.qwest.net] has joined
+          #stackvm
+19:31 -!- jxson [~jxson@216.239.45.92] has quit [Quit: Leaving...]
+19:34 -!- jxson [jxson@nat/google/x-klpwwnzmbvpppjcl] has joined #stackvm
+19:35 -!- oncenull [~pose@186.137.226.215] has joined #stackvm
+19:36 -!- thlorenz_ [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has quit [Ping
+          timeout: 265 seconds]
+19:39 -!- oncenull [~pose@186.137.226.215] has quit [Ping timeout: 244 seconds]
+19:43 < kumavis> ogd: this is what i ended up doing
+                 https://github.com/kumavis/cryptographer
+19:44 < kumavis> very open to criticism
+19:45 < kumavis> it should be a little more transparent about what it is using
+                 under the hood, I'll get there
+19:47 < domanic> kumavis, quite a bit extra stuff in the example that I don't
+                 need to know
+19:48 < kumavis> yeah prolly
+19:48 < domanic> like, the requirements and flow for the password
+19:48 < kumavis> they do feel a bit bloated
+19:48 < domanic> that code can just be a module, it doesn't need to be typed
+                 out in the example
+19:48 < domanic> I had to read the first example, and didn't learn anything
+                 about your module
+19:49 < kumavis> ok thanks
+19:50 < domanic> what I need is a simple description of how it works, then a
+                 minimal example using it
+19:50 < domanic> you should also say what algorithm it uses.
+19:57 < kumavis> better? https://github.com/kumavis/cryptographer#-localstorage
+19:57 < kumavis> domanic: ^
+19:58 < shama> Does npm i glslify work for anyone else (io.js v1.4.3 and npm
+               v2.6.1)? Or do you get "npm ERR! Failed to check out
+               a41a40b49046747b3af57341cda048bbd3d9df79 error: Your local
+               changes to the following files would be overwritten by
+               checkout:" too?
+19:58 < kumavis> domanic: i really appreciate the feedback btw
+19:59 < kumavis> readme still feels like a wall of text
+19:59 < domanic> kumavis, yes
+20:00 < domanic> kumavis, there are some aes settings you should NOT use
+20:00 < domanic> I forget which, but did you check?
+20:01 < kumavis> crypto friend helped me pick that particular one
+20:01 < kumavis> not set in stone
+20:02 < domanic> kumavis, hey, do you encrypt the keys?
+20:02 < kumavis> domanic: we dont store the keys.. is this what you mean?
+20:02 < kumavis> oh you mean the key-value keys
+20:02 < domanic> yeah, kv keys
+20:02 < kumavis> no, i was considering that
+20:03 < kumavis> the question is then, how do we look them up again?
+20:03 < domanic> you could just hmac them with the salt
+20:03 < domanic> you couldn't iterate over them, but you don't have that api
+                 anyway
+20:04 -!- null_radix [Elite7851@gateway/shell/elitebnc/x-threassioyvpkcmp] has
+          joined #stackvm
+20:04 < kumavis> null_radix: helped here
+20:04 < null_radix> hiya :)
+20:04 < kumavis> null_radix: dominc suggests at least hashing the key-value
+                 keys
+20:04 < kumavis> this is a good idea
+20:05 < null_radix> yep
+20:05 < null_radix> you should just use a fast hash for that
+20:05 < domanic> or the salt & password ... then the keys are as secure as the
+                 messages
+20:06 < null_radix> matter a fact we are goign to hash all the keys in
+                    ethereum's trie for enhanced security has well
+20:06 < null_radix> yeah that a good idea too
+20:08 < null_radix> @kumavis; wdyt of providing an option as how you want to
+                    handle the keys?
+20:09 < kumavis> nah i want it to just be secure by default
+20:09 < null_radix> kk
+20:09 -!- pfrazee [~unsafe@cpe-24-242-79-106.austin.res.rr.com] has quit [Ping
+          timeout: 246 seconds]
+20:10 < null_radix> so an instersting property of the keys is that they never
+                    change
+20:11 < null_radix> AES-GCM mode protects against telling if the encypted data
+                    has changed or not.
+20:12 < null_radix> so you could use something different i suppose
+20:13 < null_radix> not sure yet
+20:18 -!- DamonOehlman1 [~Thunderbi@stargate.it.nicta.com.au] has joined
+          #stackvm
+20:20 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au]
+          has quit [Ping timeout: 252 seconds]
+20:20 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          quit [Quit: thealphanerd]
+20:24 < domanic> null_radix, what is useful about telling if they never change?
+20:29 -!- pelletie_ [~textual@c-73-170-174-103.hsd1.ca.comcast.net] has quit
+          [Quit: My MacBook Pro has gone to sleep. ZZZzzz&]
+20:31 < kumavis> metadata i suppose
+20:31 < kumavis> leaking info
+20:32 -!- anvaka [~anvaka@2601:8:ac80:3f9:d527:32ad:9885:b361] has quit
+          [Remote host closed the connection]
+20:33 < kumavis> ok one problem i ran into with encrypting the keys is that we
+                 generate a bunch of random padding, so encrypting the same
+                 thing twice does not give you the same result
+20:33 < domanic> who is the *threat* that it protects you against or not?
+20:34 < domanic> kumavis, right - this is why i suggested hmac for the keys -
+                 it's only one way, but you can check whether you already have
+                 that value
+20:34 < domanic> otherwise, you'd have to decrypt all the keys to check
+                 whether you have one particular one
+20:36 < null_radix> yeah just metadata
+20:36 < kumavis> yeah, or just encrypt with a set padding
+20:37 < kumavis> any downside to encrypting the keys with a set padding and
+                 iv? does it leak info about the priv key?
+20:37 < kumavis> i guess it could
+20:37 < null_radix> padding doesn't matter
+20:37 < null_radix> iv does
+20:37 < null_radix> at least for AES-GCM
+20:39 < domanic> kumavis, this is symmetrical encryption right? so it's not a
+                 private key, it's just a key.
+20:39 < domanic> null_radix, kumavis is there a problem reusing the same key
+                 over and over?
+20:40 < null_radix> no that should be fine
+20:41 < domanic> null_radix, what about known plaintext attacks?
+20:42 -!- anvaka [~anvaka@216.243.14.92] has joined #stackvm
+20:42 < null_radix> isn't that when the attack konw what the plain text is and
+                    he tries to tell if the encrypted text is the paintext or
+                    not?
+20:45 < domanic> null_radix, yeah, and if you guess that you know the
+                 keystream.
+20:45 < null_radix> rigth
+20:46 < domanic> so if you randomly pad the messages you can't know guess the
+                 plain text (trusting the RNG)
+20:48 -!- AvianPhone [~AvianPhon@2600:1017:b801:1d60:3011:201e:fa5d:8a8e] has
+          joined #stackvm
+20:48 < domanic> hmm, symmetric encryption is much harder to reason about than
+                 hashes
+20:50 < null_radix> just hashes are nice :)
+20:50 < domanic> hmm, retriving a key IS a known plaintext attack
+20:51 < null_radix> oh rigth so i was wrong
+20:51 < domanic> you already know the key, and you just want to check whether
+                 the database has that key in it.
+20:51 -!- shama [~shama@c-73-164-214-148.hsd1.or.comcast.net] has quit [Quit:
+          (o°¡°	ÿo5ÿPoPes]
+20:52 < null_radix> a kpa is where the attack know the plaintext AND the
+                    encrypted text AND he is then able to derive the key
+20:53 < null_radix> for keys wouldn't just be easyest just to hash them?
+20:53 < domanic> null_radix, yes that is what I suggested ;)
+20:53 < null_radix> rad
+20:54 < kumavis> so hmac'ing keys via "SHA-1", "SHA-256", "SHA-384", or
+                 "SHA-512"
+20:54 < kumavis> take your pic
+20:54 < domanic> hash them with salt + password
+20:54 < kumavis> null_radix: you have that compat table?
+20:54 < domanic> kumavis, anything but sha1
+20:55 < domanic> oh, you are bcrypting your password, so you can just hmac the
+                 key with bcrypt(password)
+20:58 < domanic> kumavis, why not sha1:
+https://www.schneier.com/blog/archives/2012/10/when_will_we_se.html
+20:58 < null_radix> foudn it ou have that compat table?
+20:58 < null_radix> https://diafygi.github.io/webcrypto-examples/
+20:58 < null_radix> opps
+20:59 < kumavis> domanic: when you say hmac do you mean hash, or specifically
+                 hmac ?
+20:59 < kumavis> i guess i am not familiar with hmac and what it provides
+                 compared to a generic hash
+19:04 < mikolalysenko> (hopefully soon)
+19:05 < mikolalysenko> lately I've been a bit preoccupied trying to crash as
+                       many gdc things as I can
+19:18 -!- thlorenz_ [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has joined
+          #stackvm
+19:23 -!- dguttman [~david@65-126-127-28.dia.static.qwest.net] has quit [Quit:
+          dguttman]
+19:23 -!- dguttman [~david@65-126-127-28.dia.static.qwest.net] has joined
+          #stackvm
+19:31 -!- jxson [~jxson@216.239.45.92] has quit [Quit: Leaving...]
+19:34 -!- jxson [jxson@nat/google/x-klpwwnzmbvpppjcl] has joined #stackvm
+19:35 -!- oncenull [~pose@186.137.226.215] has joined #stackvm
+19:36 -!- thlorenz_ [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has quit [Ping
+          timeout: 265 seconds]
+19:39 -!- oncenull [~pose@186.137.226.215] has quit [Ping timeout: 244 seconds]
+19:43 < kumavis> ogd: this is what i ended up doing
+                 https://github.com/kumavis/cryptographer
+19:44 < kumavis> very open to criticism
+19:45 < kumavis> it should be a little more transparent about what it is using
+                 under the hood, I'll get there
+19:47 < domanic> kumavis, quite a bit extra stuff in the example that I don't
+                 need to know
+19:48 < kumavis> yeah prolly
+19:48 < domanic> like, the requirements and flow for the password
+19:48 < kumavis> they do feel a bit bloated
+19:48 < domanic> that code can just be a module, it doesn't need to be typed
+                 out in the example
+19:48 < domanic> I had to read the first example, and didn't learn anything
+                 about your module
+19:49 < kumavis> ok thanks
+19:50 < domanic> what I need is a simple description of how it works, then a
+                 minimal example using it
+19:50 < domanic> you should also say what algorithm it uses.
+19:57 < kumavis> better? https://github.com/kumavis/cryptographer#-localstorage
+19:57 < kumavis> domanic: ^
+19:58 < shama> Does npm i glslify work for anyone else (io.js v1.4.3 and npm
+               v2.6.1)? Or do you get "npm ERR! Failed to check out
+               a41a40b49046747b3af57341cda048bbd3d9df79 error: Your local
+               changes to the following files would be overwritten by
+               checkout:" too?
+          the connection]
+19:00 -!- ircretary [~ircretary@165.225.132.207] has joined #stackvm
+19:02 -!- domanic [~domanic@118.148.242.111] has joined #stackvm
+19:03 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          quit [Read error: Connection reset by peer]
+19:03 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #stackvm
+19:04 < mikolalysenko> jjjohnny: I'm staying on the east side with hughsk
+19:04 < mikolalysenko> I'm out here for 2 weeks though, so I'll definitely get
+                       over there some time!
+19:04 < mikolalysenko> (hopefully soon)
+19:05 < mikolalysenko> lately I've been a bit preoccupied trying to crash as
+                       many gdc things as I can
+19:18 -!- thlorenz_ [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has joined
+          #stackvm
+19:23 -!- dguttman [~david@65-126-127-28.dia.static.qwest.net] has quit [Quit:
+          dguttman]
+19:23 -!- dguttman [~david@65-126-127-28.dia.static.qwest.net] has joined
+          #stackvm
+19:31 -!- jxson [~jxson@216.239.45.92] has quit [Quit: Leaving...]
+19:34 -!- jxson [jxson@nat/google/x-klpwwnzmbvpppjcl] has joined #stackvm
+19:35 -!- oncenull [~pose@186.137.226.215] has joined #stackvm
+19:36 -!- thlorenz_ [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has quit [Ping
+          timeout: 265 seconds]
+19:39 -!- oncenull [~pose@186.137.226.215] has quit [Ping timeout: 244 seconds]
+19:43 < kumavis> ogd: this is what i ended up doing
+                 https://github.com/kumavis/cryptographer
+19:44 < kumavis> very open to criticism
+19:45 < kumavis> it should be a little more transparent about what it is using
+                 under the hood, I'll get there
+19:47 < domanic> kumavis, quite a bit extra stuff in the example that I don't
+                 need to know
+19:48 < kumavis> yeah prolly
+19:48 < domanic> like, the requirements and flow for the password
+19:48 < kumavis> they do feel a bit bloated
+19:48 < domanic> that code can just be a module, it doesn't need to be typed
+                 out in the example
+19:48 < domanic> I had to read the first example, and didn't learn anything
+                 about your module
+19:49 < kumavis> ok thanks
+19:34 -!- jxson [jxson@nat/google/x-klpwwnzmbvpppjcl] has joined #stackvm
+19:35 -!- oncenull [~pose@186.137.226.215] has joined #stackvm
+19:36 -!- thlorenz_ [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has quit [Ping
+          timeout: 265 seconds]
+19:39 -!- oncenull [~pose@186.137.226.215] has quit [Ping timeout: 244 seconds]
+19:43 < kumavis> ogd: this is what i ended up doing
+                 https://github.com/kumavis/cryptographer
+19:44 < kumavis> very open to criticism
+19:45 < kumavis> it should be a little more transparent about what it is using
+                 under the hood, I'll get there
+19:47 < domanic> kumavis, quite a bit extra stuff in the example that I don't
+                 need to know
+19:48 < kumavis> yeah prolly
+19:48 < domanic> like, the requirements and flow for the password
+19:48 < kumavis> they do feel a bit bloated
+19:48 < domanic> that code can just be a module, it doesn't need to be typed
+                 out in the example
+19:48 < domanic> I had to read the first example, and didn't learn anything
+                 about your module
+19:49 < kumavis> ok thanks
+19:50 < domanic> what I need is a simple description of how it works, then a
+                 minimal example using it
+19:50 < domanic> you should also say what algorithm it uses.
+19:57 < kumavis> better? https://github.com/kumavis/cryptographer#-localstorage
+19:57 < kumavis> domanic: ^
+19:58 < shama> Does npm i glslify work for anyone else (io.js v1.4.3 and npm
+               v2.6.1)? Or do you get "npm ERR! Failed to check out
+               a41a40b49046747b3af57341cda048bbd3d9df79 error: Your local
+               changes to the following files would be overwritten by
+               checkout:" too?
+19:58 < kumavis> domanic: i really appreciate the feedback btw
+19:59 < kumavis> readme still feels like a wall of text
+19:59 < domanic> kumavis, yes
+20:00 < domanic> kumavis, there are some aes settings you should NOT use
+20:00 < domanic> I forget which, but did you check?
+20:01 < kumavis> crypto friend helped me pick that particular one
+20:01 < kumavis> not set in stone
+20:02 < domanic> kumavis, hey, do you encrypt the keys?
+20:02 < kumavis> domanic: we dont store the keys.. is this what you mean?
+20:02 < kumavis> oh you mean the key-value keys
+20:02 < domanic> yeah, kv keys
+20:02 < kumavis> no, i was considering that
+20:03 < kumavis> the question is then, how do we look them up again?
+20:03 < domanic> you could just hmac them with the salt
+20:03 < domanic> you couldn't iterate over them, but you don't have that api
+                 anyway
+20:04 -!- null_radix [Elite7851@gateway/shell/elitebnc/x-threassioyvpkcmp] has
+          joined #stackvm
+20:04 < kumavis> null_radix: helped here
+20:04 < null_radix> hiya :)
+20:04 < kumavis> null_radix: dominc suggests at least hashing the key-value
+                 keys
+20:04 < kumavis> this is a good idea
+20:05 < null_radix> yep
+20:05 < null_radix> you should just use a fast hash for that
+20:05 < domanic> or the salt & password ... then the keys are as secure as the
+                 messages
+20:06 < null_radix> matter a fact we are goign to hash all the keys in
+                    ethereum's trie for enhanced security has well
+20:06 < null_radix> yeah that a good idea too
+20:08 < null_radix> @kumavis; wdyt of providing an option as how you want to
+                    handle the keys?
+20:09 < kumavis> nah i want it to just be secure by default
+20:09 < null_radix> kk
+20:09 -!- pfrazee [~unsafe@cpe-24-242-79-106.austin.res.rr.com] has quit [Ping
+          timeout: 246 seconds]
+20:10 < null_radix> so an instersting property of the keys is that they never
+                    change
+20:11 < null_radix> AES-GCM mode protects against telling if the encypted data
+                    has changed or not.
+20:12 < null_radix> so you could use something different i suppose
+20:13 < null_radix> not sure yet
+20:18 -!- DamonOehlman1 [~Thunderbi@stargate.it.nicta.com.au] has joined
+          #stackvm
+20:20 -!- DamonOehlman [~Thunderbi@CPE-121-211-68-67.hhui5.cht.bigpond.net.au]
+          has quit [Ping timeout: 252 seconds]
+20:20 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          quit [Quit: thealphanerd]
+20:24 < domanic> null_radix, what is useful about telling if they never change?
+20:29 -!- pelletie_ [~textual@c-73-170-174-103.hsd1.ca.comcast.net] has quit
+          [Quit: My MacBook Pro has gone to sleep. ZZZzzz&]
+20:31 < kumavis> metadata i suppose
+20:31 < kumavis> leaking info
+20:32 -!- anvaka [~anvaka@2601:8:ac80:3f9:d527:32ad:9885:b361] has quit
+          [Remote host closed the connection]
+20:33 < kumavis> ok one problem i ran into with encrypting the keys is that we
+                 generate a bunch of random padding, so encrypting the same
+                 thing twice does not give you the same result
+20:33 < domanic> who is the *threat* that it protects you against or not?
+20:34 < domanic> kumavis, right - this is why i suggested hmac for the keys -
+                 it's only one way, but you can check whether you already have
+                 that value
+20:34 < domanic> otherwise, you'd have to decrypt all the keys to check
+                 whether you have one particular one
+20:36 < null_radix> yeah just metadata
+20:36 < kumavis> yeah, or just encrypt with a set padding
+20:37 < kumavis> any downside to encrypting the keys with a set padding and
+                 iv? does it leak info about the priv key?
+20:37 < kumavis> i guess it could
+20:37 < null_radix> padding doesn't matter
+20:37 < null_radix> iv does
+20:37 < null_radix> at least for AES-GCM
+20:39 < domanic> kumavis, this is symmetrical encryption right? so it's not a
+                 private key, it's just a key.
+20:39 < domanic> null_radix, kumavis is there a problem reusing the same key
+                 over and over?
+20:40 < null_radix> no that should be fine
+20:41 < domanic> null_radix, what about known plaintext attacks?
+20:42 -!- anvaka [~anvaka@216.243.14.92] has joined #stackvm
+20:42 < null_radix> isn't that when the attack konw what the plain text is and
+                    he tries to tell if the encrypted text is the paintext or
+                    not?
+20:45 < domanic> null_radix, yeah, and if you guess that you know the
+                 keystream.
+20:45 < null_radix> rigth
+20:46 < domanic> so if you randomly pad the messages you can't know guess the
+                 plain text (trusting the RNG)
+20:48 -!- AvianPhone [~AvianPhon@2600:1017:b801:1d60:3011:201e:fa5d:8a8e] has
+          joined #stackvm
+20:48 < domanic> hmm, symmetric encryption is much harder to reason about than
+                 hashes
+20:50 < null_radix> just hashes are nice :)
+20:50 < domanic> hmm, retriving a key IS a known plaintext attack
+20:51 < null_radix> oh rigth so i was wrong
+20:51 < domanic> you already know the key, and you just want to check whether
+                 the database has that key in it.
+20:51 -!- shama [~shama@c-73-164-214-148.hsd1.or.comcast.net] has quit [Quit:
+          (o°¡°	ÿo5ÿPoPes]
+20:52 < null_radix> a kpa is where the attack know the plaintext AND the
+                    encrypted text AND he is then able to derive the key
+20:53 < null_radix> for keys wouldn't just be easyest just to hash them?
+20:53 < domanic> null_radix, yes that is what I suggested ;)
+20:53 < null_radix> rad
+20:54 < kumavis> so hmac'ing keys via "SHA-1", "SHA-256", "SHA-384", or
+                 "SHA-512"
+20:54 < kumavis> take your pic
+20:54 < domanic> hash them with salt + password
+20:54 < kumavis> null_radix: you have that compat table?
+20:54 < domanic> kumavis, anything but sha1
+20:55 < domanic> oh, you are bcrypting your password, so you can just hmac the
+                 key with bcrypt(password)
+20:58 < domanic> kumavis, why not sha1:
+https://www.schneier.com/blog/archives/2012/10/when_will_we_se.html
+20:58 < null_radix> foudn it ou have that compat table?
+20:58 < null_radix> https://diafygi.github.io/webcrypto-examples/
+20:58 < null_radix> opps
+20:59 < kumavis> domanic: when you say hmac do you mean hash, or specifically
+                 hmac ?
+20:59 < kumavis> i guess i am not familiar with hmac and what it provides
+                 compared to a generic hash
+21:03 < domanic> kumavis, it's just a way of combining hashes that prevents
+                 length extension attacks
+21:03 < kumavis> gotcha
+21:25 < pfraze> domanic: updated the PR
+21:25 < karissa> rock on!
+21:04 < domanic> for some merkle-damigard constructions (sha) if you have X =
+                 hash(x) you can calculate XY = hash(x + y) if you know X and
+                 y but without x
+21:05 < domanic> this is why bitcoin always uses sha256(sha256(x))
+21:06 < domanic> though it's not that bitcoin is necessarily vunerable to
+                 length extension, it's a belt and suspenders thing
+21:06 -!- ralphthe1inja is now known as ralphtheninja
+21:10 -!- yoshuawuyts1 [~yoshuawuy@50708A96.static.ziggozakelijk.nl] has quit
+          [Ping timeout: 272 seconds]
+21:10 -!- anvaka [~anvaka@216.243.14.92] has quit [Remote host closed the
+          connection]
+21:23 -!- oncenull [~pose@186.137.226.215] has joined #stackvm
+21:28 -!- oncenull [~pose@186.137.226.215] has quit [Ping timeout: 264 seconds]
+21:35 -!- sethvincent [~sethvince@66.171.190.186] has joined #stackvm
+21:55 < jjjohnny> mikolalysenko:  what's the purpose of your visit, if there
+                  is one?
+21:57 < jjjohnny> and where's the party at
+22:00 -!- domanic [~domanic@118.148.242.111] has quit [Ping timeout: 250
+          seconds]
+22:04 -!- pelletie_ [~textual@c-73-170-174-103.hsd1.ca.comcast.net] has quit
+          [Quit: My MacBook Pro has gone to sleep. ZZZzzz&]
+22:05 < jjjohnny> mikolalysenko:  oh GDC is game dev conf?
+22:06 < jjjohnny> if somebody can get me into an event free, i'd love to go
+22:06 < jjjohnny> the masquerade ball, if there is one.
+22:08 < kumavis> god damn arraybuffers
+22:16 -!- sethvincent [~sethvince@66.171.190.186] has quit [Ping timeout: 265
+          seconds]
+22:18 -!- pfraze [~pfraze@cpe-24-242-79-106.austin.res.rr.com] has quit
+          [Remote host closed the connection]
+22:20 -!- simcop2387 [~simcop238@p3m/member/simcop2387] has quit [Ping
+          timeout: 246 seconds]
+22:20 -!- jxson_ [jxson@nat/google/x-fhrrpjpplxuejaup] has joined #stackvm
+22:23 -!- Aviaphone
+          [~AvianPhon@207-38-246-118.c3-0.43d-ubr2.qens-43d.ny.cable.rcn.com]
+          has joined #stackvm
+22:23 -!- jxson [jxson@nat/google/x-klpwwnzmbvpppjcl] has quit [Ping timeout:
+          256 seconds]
+22:23 -!- pfraze [~pfraze@2605:6000:e900:d200:90f1:c712:3937:805a] has joined
+          #stackvm
+22:24 -!- jxson_ [jxson@nat/google/x-fhrrpjpplxuejaup] has quit [Ping timeout:
+          256 seconds]
+22:25 < kumavis> i need to encode an ArrayBuffer into a string, and also
+                 decode a string into an ArrayBuffer
+22:26 < kumavis> i think node peeps usually just work with node Buffers so
+                 there doesn't seem to be a lot of good modules for this
+22:26 -!- AvianPhone [~AvianPhon@2600:1017:b801:1d60:3011:201e:fa5d:8a8e] has
+          quit [Ping timeout: 256 seconds]
+22:26 < kumavis> if anyone has any suggestions
+22:38 -!- Aviaphone
+          [~AvianPhon@207-38-246-118.c3-0.43d-ubr2.qens-43d.ny.cable.rcn.com]
+          has quit [Quit: Bye]
+22:43 -!- oncenull [~pose@186.137.226.215] has joined #stackvm
+22:50 -!- domanic [~domanic@118.148.242.111] has joined #stackvm
+22:50 < jjjohnny> kumavis: in the browser?
+22:50 < kumavis> yessir
+22:50 < kumavis> using browserify
+22:52 -!- anvaka [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has joined
+          #stackvm
+22:53 -!- oncenull [~pose@186.137.226.215] has quit [Remote host closed the
+          connection]
+22:58 < jjjohnny> kumavis: easy peasy
+22:59 < jjjohnny> nodeBuffer = Buffer._augment(new UInt8Array(arrayBuffer))
+22:59 < jjjohnny> free node buffer
+22:59 < kumavis> oo
+23:02 < jjjohnny> browserify automatically packages the excellent 'buffer'
+                  module feross wrote for compatibility and performance
+23:02 < kumavis> that much i knew, but not the _augment
+23:02 < kumavis> handy
+23:02 < jjjohnny> yeah _augment is the fast way if you already have an
+                  arraybuffer
+23:05 < kumavis> jjjohnny: what about the opposite direction?
+23:05 < kumavis> Buffer -> ArrayBuffer
+23:07 < jjjohnny> can't recall offhand but you dig into the buffer, find the
+                  UIntArray.
+23:07 < kumavis> buf.toArrayBuffer()
+23:07 < jjjohnny> and the UIntArray.buffer = AB
+23:07 < jjjohnny> or that
+23:08 < kumavis> jjjohnny: 
+23:09 < jjjohnny> yay!
+23:12 -!- Guest98794 is now known as daynaskully
+23:20 -!- intellix [~intellix@c89-193.i07-23.onvol.net] has joined #npm
+23:23 -!- JoshGlzBrk [~textual@c-174-61-211-133.hsd1.wa.comcast.net] has
+          joined #npm
+23:27 -!- KushS [~kushagra@122.164.26.73] has joined #npm
+23:35 -!- jpuellma [uid32064@gateway/web/irccloud.com/x-rataatidvrfdlsjq] has
+          joined #npm
+23:35 -!- songawee [~songawee@174.51.87.93] has quit [Quit: songawee]
+23:52 < ljharb> how large would a package.json be, do you think, if it had as
+                a dependency every module on npm?
+23:05 < kumavis> jjjohnny: what about the opposite direction?
+23:05 < kumavis> Buffer -> ArrayBuffer
+23:07 < jjjohnny> can't recall offhand but you dig into the buffer, find the
+                  UIntArray.
+23:07 < kumavis> buf.toArrayBuffer()
+23:07 < jjjohnny> and the UIntArray.buffer = AB
+23:07 < jjjohnny> or that
+23:08 < kumavis> jjjohnny: 
+23:09 < jjjohnny> yay!
+23:26 < kumavis> x=Buffer._augment(new Uint8Array(randomTypedArray(16)))
+23:26 < kumavis> console.log(x.byteLength) //=> 16
+23:26 < kumavis> z=Buffer(z.toString('utf-8'), 'utf-8')
+23:26 < kumavis> console.log(z.byteLength) //=> 21
+23:26 < kumavis> o no
+23:27 < kumavis> jjjohnny: whats this magic
+23:30 < kumavis> i must totally not get how buffers work
+23:45 -!- anvaka [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has quit [Read
+          error: Connection reset by peer]
+23:46 -!- anvaka [~anvaka@2601:8:ac80:3f9:29da:ec10:a41f:1b5d] has joined
+          #stackvm
+23:46 < kumavis> hmmm _augment seems to break things...
+Day changed to 06 Mar 2015
+00:05 < jjjohnny> how long is z?
+00:05 < jjjohnny> z.toString
+00:08 -!- pfraze [~pfraze@2605:6000:e900:d200:90f1:c712:3937:805a] has quit
+          [Remote host closed the connection]
+00:15 < jjjohnny> kumavis: from what you wrote, I cant tell if z === x, unless
+                  thats a typo
+00:15 < jjjohnny> z=Buffer(z.toString...)
+00:15 < kumavis> yeah thats a typo
+00:15 < kumavis> z=Buffer(x.toString('utf-8'), 'utf-8')
+00:21 < jjjohnny> same in node, it must be cuz encoding
+00:22 < kumavis> https://www.irccloud.com/pastebin/8Plx4bPb
+00:22 < kumavis> here is the minimal thing im trying to do here
+00:22 < kumavis> im happy to use a different encoding
+00:23 < kumavis> base64 seems to work...
+00:24 -!- dguttman [~david@65-126-127-28.dia.static.qwest.net] has quit [Quit:
+          dguttman]
+00:25 < kumavis> hex is working too
+00:29 < jjjohnny> kumavis: if you want the UintArray, buffer.__proto__ is it
+00:29 < jjjohnny> UInt8Array
+00:29 < kumavis> hmmm ok
+00:29 < jjjohnny> you can just snag that
+00:31 -!- knownasilya [uid22190@gateway/web/irccloud.com/x-ykjargigumxfstik]
+          has quit [Quit: Connection closed for inactivity]
+00:32 < jjjohnny> yeah idk wierd string encoding stuff
+00:33 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+00:33 < kumavis> i have some legit utf8 strings that i need to be able to
+                 round trip... i wonder if i can rencode them a s base64 and
+                 still get them back out
+                 digital/spells/media
+12:37 <jjjohnny> how do we make a world with some limitations that also gives
+                 players unlimited abilities?
+12:38 <jjjohnny> there are lots of game play modes
+12:38 <jjjohnny> the walk around and do things is only one
+13:42 <jjjohnny> i had this idea last night, about a game where you can claim
+                 yur own territory in a private world, and litter it with your
+                 media grafitti, and maybe some physical barriers
+13:42 <jjjohnny> in your world, you dictate which spells can be cast
+13:42 <jjjohnny> but you are alone in your world
+13:43 <jjjohnny> to find new people, learn new spells, you have to merge worlds
+13:44 <jjjohnny> that seems like enough, if we ocnsider building the
+                 constructs of this world to be the esssential game development
+15:13 <jjjohnny> i am drawn to less open-endedness tho
+16:55 <substack> mikola and folks are around today, got a message they'll be
+                 at sudo a few hours ago
+17:01 <jjjohnny> sweet, i was jus think about em
+17:06 <jjjohnny> when?
+17:19 <substack> not sure, I'm at sudo now
+17:19 <substack> I don't see anybody
+Day changed to 06 Mar 2015
+01:38 <jjjohnny> what about these as fundamental game constructs:  various
+                 network streams*, blob storage, API endpoints, and p2p social
+                 networking
+ ~substack@104.131.0.235 (freenode)
+01:39 <jjjohnny> * means, ie socket streams that do a specific thing,  like
+                 anybody who connex to some endpoint will get a share stream
+                 to others connected there
+01:40 <jjjohnny> webRTC streams go in that bucket
+01:40 <jjjohnny> the p2p comes from sucttlebot
+01:42 <jjjohnny> on top of these constructs we build some one game of a
+                 particular style, our own
+01:43 <jjjohnny> we could add multimedia, n dimenisons of virtual space,
+                 spells, in a word:  whatever; we design a game based on the
+                 constructs
+01:49 <jjjohnny> there are many things that make this a great idea
+01:49 <jjjohnny> it plays to our strengths with node/networking
+01:50 <jjjohnny> we build service layers for the future, which may generate
+                 revenue
+01:51 <jjjohnny> the API endpoint thing makes us a target for hundreds of tech
+                 cos with APIs
+01:51 <jjjohnny> which will be a big win for the sponsorship level crowedfund
+01:52 <jjjohnny> we creating a framework, of course, slapping a compelling
+                 initial release title on it, on selling that
+01:54 <jjjohnny> and building a hacker base for SSB nets
+01:55 <jjjohnny> we can add bitcoin to the mix somehow, why not
+ [02:02] [jjjohnny(+i)] [8:freenode/substack] [Act: 4,5,7,10]
+[substack]

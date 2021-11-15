@@ -1,0 +1,1067 @@
+21:24 < aaron1245> ios
+21:34 < aaron1245> i got the devices logs and this popped out at me
+21:34 < aaron1245> SpringBoard[33] <Warning>: Killing com.langrandco.sales for termination assertion
+21:38 -!- pasevin [~pasevin@host86-151-110-124.range86-151.btcentralplus.com] has quit [Quit: My MacBook Pro has gone to sleep.
+          ZZZzzz&]
+21:40 < aaron1245> randomly removing plugins fixed it.  I think it was the splash screen plugin
+21:40 < aaron1245> shooting in the dark for hours on end works sometimes i guess
+21:41 < aaron1245> i havent updated anything else&.it just stopped working.  strange, but oh well
+21:42 -!- Allyz [~Allyz@113x33x180x18.ap113.ftth.ucom.ne.jp] has joined #phonegap
+21:46 -!- torlanco [~torlanco@pppoe.202.195.netband.caribe.net] has joined #phonegap
+21:47 -!- djbutterchicken [~djbutterc@118-92-142-37.dsl.dyn.ihug.co.nz] has joined #phonegap
+21:51 -!- torlanco [~torlanco@pppoe.202.195.netband.caribe.net] has quit [Ping timeout: 255 seconds]
+21:56 -!- BorisKourt [~textual@75-119-226-115.dsl.teksavvy.com] has joined #phonegap
+22:02 -!- djbutterchicken [~djbutterc@118-92-142-37.dsl.dyn.ihug.co.nz] has quit [Ping timeout: 246 seconds]
+22:09 -!- visionary [~visionary@ppp-71-139-168-49.dsl.snfc21.pacbell.net] has joined #phonegap
+22:11 -!- the_dave [dave@unaffiliated/chemicalburn] has quit []
+22:13 < devgeeks> aaron1245: try safari remote debugging... set an alert() really early in the js... that will pause it long
+                  enough for you to start debugging
+22:14 < devgeeks> aaron1245: ooor.. just run it, then in safari remote debugging, reload it using command-r
+22:15 < oniijin> belated happy burfday devgeeks
+22:17 -!- djbutterchicken [~djbutterc@118-92-142-37.dsl.dyn.ihug.co.nz] has joined #phonegap
+22:26 < devgeeks> oniijin: cheers :)
+22:26 < oniijin> how many beers did u end up downing
+22:26 < devgeeks> it's my birthday in the timezone I was born in, if that counts ;)
+22:26 < devgeeks> just 3 :( but they were good ones
+22:26 < oniijin> haha
+22:27 < devgeeks> 2 nice hefs and a pale
+22:27 < devgeeks> all local
+22:28 < MitchW> god I love ES6 sometimes
+22:28 < oniijin> I do like hefs. pales not so much
+22:28 < oniijin> hops arent my thing
+22:37 < MitchW> saved 200-220us per request by using yield/generators (bluebird coroutines) instead of plain old promise
+                chaining - went from being able to do ~30k/req/sec (which does a bunch of websocket/database stuff) to almost
+17:22 -!- jjjohnny_ [~root@li88-247.members.linode.com] has joined #phonegap
+17:22 -!- Topic for #phonegap: PhoneGap | phonegap.com | docs.phonegap.com | build.phonegap.com | PhoneGap is powered by Apache
+          Cordova | IRC Archives workgroup.ca/cordova/irc
+17:22 -!- Topic set by mwbrooks [uid4355@gateway/web/irccloud.com/x-fgxydabjcswjrevh] [Fri Jun 21 13:29:24 2013]
+17:22 [Users #phonegap]
+17:22 [@mwbrooks    ] [ Chillax      ] [ exezic    ] [ jerryitt    ] [ moo-_-       ] [ Sander^home   ]
+17:22 [@shazron     ] [ cjimti       ] [ ff6065515 ] [ jjjohnny_   ] [ morphis      ] [ shaisnir_     ]
+17:22 [@stevegill   ] [ closer       ] [ flowi     ] [ kborchers   ] [ msvb-lab     ] [ shepheb       ]
+17:22 [ _dreamss    ] [ Conti        ] [ Flusher   ] [ kirfu       ] [ muszek       ] [ skroon        ]
+17:22 [ _SjG_       ] [ Cutzenfreund_] [ fn00dle   ] [ kirfu|work  ] [ nuba         ] [ stafamus      ]
+17:22 [ agarzia_____] [ D4RK-PH0ENiX ] [ freeman42 ] [ kkrikk      ] [ Nyanko-sensei] [ stevenola     ]
+17:22 [ ajpiano     ] [ datakurre    ] [ frojnd    ] [ kmiles      ] [ oniijin      ] [ summatusmentis]
+17:22 [ aretecode   ] [ devgeeks     ] [ gaqzi     ] [ Lafi        ] [ pasevin      ] [ the_dave      ]
+17:22 [ Aricwithana ] [ digifiv5e    ] [ grep_away ] [ Lasseee     ] [ Pavlov       ] [ Theowning     ]
+17:22 [ artmann     ] [ djinni       ] [ hexagon51n] [ lassey      ] [ Peeter_      ] [ timeless      ]
+17:22 [ Auctwo      ] [ dmac81       ] [ IcyT      ] [ ldk         ] [ pmarsh       ] [ Tomashe       ]
+17:22 [ beasty      ] [ dpogue       ] [ illmat    ] [ leptonix    ] [ r0ver        ] [ torlanco      ]
+17:22 [ bigx        ] [ drager       ] [ ilmgb     ] [ litenull    ] [ rcs          ] [ unexist       ]
+17:22 [ bionik      ] [ drej         ] [ Inge-     ] [ MacWinner   ] [ rektide      ] [ verdoc        ]
+17:22 [ bitkiller   ] [ dynacker     ] [ insel     ] [ MarisaG_Away] [ remysharp    ] [ williamtdr    ]
+17:22 [ bl4ckdu5t   ] [ dytrivedi    ] [ ironfroggy] [ mdpatrick   ] [ rga_         ] [ x29a          ]
+17:22 [ bmn_        ] [ EionRobb     ] [ jan____   ] [ MisterB     ] [ rook2pawn    ] [ zalun         ]
+17:22 [ bubbajones  ] [ enda         ] [ jaredrhine] [ MitchW      ] [ ryanstewart2 ]
+17:22 -!- Irssi: #phonegap: Total of 107 nicks [3 ops, 0 halfops, 0 voices, 104 normal]
+17:22 -!- Channel #phonegap created Mon Jan 25 12:49:26 2010
+17:22 -!- Irssi: Join to #phonegap was synced in 2 secs
+17:23 < jjjohnny_> suddenly, running phonegap build ios does not do a build process.  any hints?
+17:35 -!- fels_zh [~fels_zh@213.137.8.154] has joined #phonegap
+17:35 -!- djbutterchicken [~djbutterc@118-92-142-37.dsl.dyn.ihug.co.nz] has joined #phonegap
+17:36 < djbutterchicken> Hey can anybody recommend a service to unit test a cordova app (with a custom plugin) on multiple
+                         android devices?
+17:48 -!- neilus [~neilus@apn-94-44-254-64.vodafone.hu] has joined #phonegap
+17:49 -!- rga_ [~rgazeredo@177.97.189.14] has quit [Ping timeout: 255 seconds]
+17:53 -!- shaisnir_ [~shaisnir@bzq-79-176-190-114.red.bezeqint.net] has quit [Remote host closed the connection]
+17:57 -!- Compy [~compy@c-24-99-165-85.hsd1.ga.comcast.net] has joined #phonegap
+17:59 -!- ilmgb [~ilmgb@HSI-KBW-134-3-211-137.hsi14.kabel-badenwuerttemberg.de] has quit [Remote host closed the connection]
+18:13 -!- Nyanko-sensei [~D4RK-PH0E@73.199.192.61.east.global.crust-r.net] has quit [Remote host closed the connection]
+18:16 -!- kanzure [~kanzure@131.252.130.248] has joined #phonegap
+18:29 -!- ilmgb [~ilmgb@HSI-KBW-134-3-211-137.hsi14.kabel-badenwuerttemberg.de] has joined #phonegap
+18:29 -!- fels_zh [~fels_zh@213.137.8.154] has quit [Remote host closed the connection]
+18:30 -!- fels_zh [~fels_zh@213.137.8.154] has joined #phonegap
+18:34 -!- fels_zh [~fels_zh@213.137.8.154] has quit [Ping timeout: 252 seconds]
+18:36 -!- neilus [~neilus@apn-94-44-254-64.vodafone.hu] has quit [Ping timeout: 252 seconds]
+18:37 -!- Nyanko-sensei [~D4RK-PH0E@129.134.232.202.bf.2iij.net] has joined #phonegap
+18:37 -!- ilmgb [~ilmgb@HSI-KBW-134-3-211-137.hsi14.kabel-badenwuerttemberg.de] has quit [Ping timeout: 252 seconds]
+18:38 -!- _dreamss is now known as dreamss
+18:42 -!- Allyz [~Allyz@113x33x180x18.ap113.ftth.ucom.ne.jp] has joined #phonegap
+18:45 -!- kirfu [~kirill@pool-108-41-236-167.nycmny.fios.verizon.net] has quit [Ping timeout: 240 seconds]
+18:47 -!- Allyz [~Allyz@113x33x180x18.ap113.ftth.ucom.ne.jp] has quit [Ping timeout: 255 seconds]
+18:56 < devgeeks> djbutterchicken: sauce labs?
+18:56 < djbutterchicken> I'll check them out cheers
+18:56 < devgeeks> I think they were working on actual device testing, not just emulators, etc
+18:57 < devgeeks> https://saucelabs.com/mobile
+18:57 -!- IcyT is now known as icyt
+18:58 < EionRobb> nokia appears to have some 'real device testing' thing via the web
+18:59 < EionRobb> http://rda.cellulardata.com/
+19:04 -!- ilmgb [~ilmgb@HSI-KBW-134-3-211-137.hsi14.kabel-badenwuerttemberg.de] has joined #phonegap
+19:06 < EionRobb> nokia X looks weird... like a winphone ui on top of android
+19:09 < devgeeks> :/
+19:11 < EionRobb> lol "most apps work" is their big marketing phrase http://developer.nokia.com/nokia-x/analyse/
+19:13 -!- ilmgb [~ilmgb@HSI-KBW-134-3-211-137.hsi14.kabel-badenwuerttemberg.de] has quit [Ping timeout: 252 seconds]
+19:13 < EionRobb> oic "If your app uses Google services for maps, push notifications or in-app payments, you will need to
+                  replace these APIs with Nokia-specific APIs, which have been built to work almost identically to those they
+                  replace"
+19:13 < EionRobb> that's not too bad then
+19:20 < EionRobb> wtf its dualsim
+19:26 -!- ejb [~ejb@unaffiliated/ejb] has joined #phonegap
+19:33 -!- thomaslindstr_m [~thomaslin@c80-216-22-126.bredband.comhem.se] has joined #phonegap
+19:35 -!- ejb [~ejb@unaffiliated/ejb] has quit [Quit: ZZZzzz&]
+19:35 < devgeeks> why do I suddenly get the feeling that I need 3 different versions of a demo app for my talk on friday? What
+                  have I gotten myself into?
+19:36 < devgeeks> Only sposed to be 15 mins long
+19:36 < devgeeks> and I'll end up doing like 2 days work to give it, hah
+19:42 -!- yurisy [~yurisy@91.226.72.111] has joined #phonegap
+19:42 < devgeeks> need a suuuuper simple app idea, but don't wanna do the traditional TODO app
+19:43 < EionRobb> just use screenshots instead
+19:44 < devgeeks> to teach people how to do css page transitions?
+19:44 < devgeeks> :/
+19:44 -!- aaron1245 [~aaron@c-98-199-146-116.hsd1.tx.comcast.net] has joined #phonegap
+19:44 < EionRobb> perfect
+19:44 < devgeeks> s'ok. I have been meaning to make a better Barnivore app anyway
+19:44 < aaron1245> to update a plugin using the cordova CLI, is there any command for it?  Or do you just have to delete and
+                   re-add?
+19:45 < devgeeks> aaron1245: pretty much
+19:45 < aaron1245> ok sounds good
+19:48 < devgeeks> barnivore it is
+19:48 < devgeeks> two itches with one scratch
+19:51 -!- fels_zh [~fels_zh@213.137.8.154] has joined #phonegap
+19:57 -!- torlanco [~torlanco@pppoe.202.195.netband.caribe.net] has quit [Remote host closed the connection]
+19:58 -!- torlanco [~torlanco@pppoe.202.195.netband.caribe.net] has joined #phonegap
+17:22 [ bionik      ] [ drej         ] [ Inge-     ] [ MacWinner   ] [ rektide      ] [ verdoc        ]
+17:22 [ bitkiller   ] [ dynacker     ] [ insel     ] [ MarisaG_Away] [ remysharp    ] [ williamtdr    ]
+17:22 [ bl4ckdu5t   ] [ dytrivedi    ] [ ironfroggy] [ mdpatrick   ] [ rga_         ] [ x29a          ]
+17:22 [ bmn_        ] [ EionRobb     ] [ jan____   ] [ MisterB     ] [ rook2pawn    ] [ zalun         ]
+17:22 [ bubbajones  ] [ enda         ] [ jaredrhine] [ MitchW      ] [ ryanstewart2 ]
+17:22 -!- Irssi: #phonegap: Total of 107 nicks [3 ops, 0 halfops, 0 voices, 104 normal]
+17:22 -!- Channel #phonegap created Mon Jan 25 12:49:26 2010
+17:22 -!- Irssi: Join to #phonegap was synced in 2 secs
+17:23 < jjjohnny_> suddenly, running phonegap build ios does not do a build process.  any hints?
+17:35 -!- fels_zh [~fels_zh@213.137.8.154] has joined #phonegap
+17:35 -!- djbutterchicken [~djbutterc@118-92-142-37.dsl.dyn.ihug.co.nz] has joined #phonegap
+17:36 < djbutterchicken> Hey can anybody recommend a service to unit test a cordova app (with a custom plugin) on multiple
+                         android devices?
+17:48 -!- neilus [~neilus@apn-94-44-254-64.vodafone.hu] has joined #phonegap
+17:49 -!- rga_ [~rgazeredo@177.97.189.14] has quit [Ping timeout: 255 seconds]
+17:53 -!- shaisnir_ [~shaisnir@bzq-79-176-190-114.red.bezeqint.net] has quit [Remote host closed the connection]
+17:57 -!- Compy [~compy@c-24-99-165-85.hsd1.ga.comcast.net] has joined #phonegap
+17:59 -!- ilmgb [~ilmgb@HSI-KBW-134-3-211-137.hsi14.kabel-badenwuerttemberg.de] has quit [Remote host closed the connection]
+18:13 -!- Nyanko-sensei [~D4RK-PH0E@73.199.192.61.east.global.crust-r.net] has quit [Remote host closed the connection]
+18:16 -!- kanzure [~kanzure@131.252.130.248] has joined #phonegap
+18:29 -!- ilmgb [~ilmgb@HSI-KBW-134-3-211-137.hsi14.kabel-badenwuerttemberg.de] has joined #phonegap
+18:29 -!- fels_zh [~fels_zh@213.137.8.154] has quit [Remote host closed the connection]
+18:30 -!- fels_zh [~fels_zh@213.137.8.154] has joined #phonegap
+18:34 -!- fels_zh [~fels_zh@213.137.8.154] has quit [Ping timeout: 252 seconds]
+18:36 -!- neilus [~neilus@apn-94-44-254-64.vodafone.hu] has quit [Ping timeout: 252 seconds]
+18:37 -!- Nyanko-sensei [~D4RK-PH0E@129.134.232.202.bf.2iij.net] has joined #phonegap
+18:37 -!- ilmgb [~ilmgb@HSI-KBW-134-3-211-137.hsi14.kabel-badenwuerttemberg.de] has quit [Ping timeout: 252 seconds]
+18:38 -!- _dreamss is now known as dreamss
+18:42 -!- Allyz [~Allyz@113x33x180x18.ap113.ftth.ucom.ne.jp] has joined #phonegap
+18:45 -!- kirfu [~kirill@pool-108-41-236-167.nycmny.fios.verizon.net] has quit [Ping timeout: 240 seconds]
+18:47 -!- Allyz [~Allyz@113x33x180x18.ap113.ftth.ucom.ne.jp] has quit [Ping timeout: 255 seconds]
+18:56 < devgeeks> djbutterchicken: sauce labs?
+18:56 < djbutterchicken> I'll check them out cheers
+18:56 < devgeeks> I think they were working on actual device testing, not just emulators, etc
+18:57 < devgeeks> https://saucelabs.com/mobile
+18:57 -!- IcyT is now known as icyt
+18:58 < EionRobb> nokia appears to have some 'real device testing' thing via the web
+18:59 < EionRobb> http://rda.cellulardata.com/
+19:04 -!- ilmgb [~ilmgb@HSI-KBW-134-3-211-137.hsi14.kabel-badenwuerttemberg.de] has joined #phonegap
+19:06 < EionRobb> nokia X looks weird... like a winphone ui on top of android
+19:09 < devgeeks> :/
+19:11 < EionRobb> lol "most apps work" is their big marketing phrase http://developer.nokia.com/nokia-x/analyse/
+19:13 -!- ilmgb [~ilmgb@HSI-KBW-134-3-211-137.hsi14.kabel-badenwuerttemberg.de] has quit [Ping timeout: 252 seconds]
+19:13 < EionRobb> oic "If your app uses Google services for maps, push notifications or in-app payments, you will need to
+                  replace these APIs with Nokia-specific APIs, which have been built to work almost identically to those they
+                  replace"
+19:13 < EionRobb> that's not too bad then
+19:20 < EionRobb> wtf its dualsim
+19:26 -!- ejb [~ejb@unaffiliated/ejb] has joined #phonegap
+19:33 -!- thomaslindstr_m [~thomaslin@c80-216-22-126.bredband.comhem.se] has joined #phonegap
+19:35 -!- ejb [~ejb@unaffiliated/ejb] has quit [Quit: ZZZzzz&]
+19:35 < devgeeks> why do I suddenly get the feeling that I need 3 different versions of a demo app for my talk on friday? What
+                  have I gotten myself into?
+19:36 < devgeeks> Only sposed to be 15 mins long
+19:36 < devgeeks> and I'll end up doing like 2 days work to give it, hah
+19:42 -!- yurisy [~yurisy@91.226.72.111] has joined #phonegap
+19:42 < devgeeks> need a suuuuper simple app idea, but don't wanna do the traditional TODO app
+19:43 < EionRobb> just use screenshots instead
+19:44 < devgeeks> to teach people how to do css page transitions?
+19:44 < devgeeks> :/
+19:44 -!- aaron1245 [~aaron@c-98-199-146-116.hsd1.tx.comcast.net] has joined #phonegap
+19:44 < EionRobb> perfect
+19:44 < devgeeks> s'ok. I have been meaning to make a better Barnivore app anyway
+19:44 < aaron1245> to update a plugin using the cordova CLI, is there any command for it?  Or do you just have to delete and
+                   re-add?
+19:45 < devgeeks> aaron1245: pretty much
+19:45 < aaron1245> ok sounds good
+19:48 < devgeeks> barnivore it is
+19:48 < devgeeks> two itches with one scratch
+19:51 -!- fels_zh [~fels_zh@213.137.8.154] has joined #phonegap
+19:57 -!- torlanco [~torlanco@pppoe.202.195.netband.caribe.net] has quit [Remote host closed the connection]
+19:58 -!- torlanco [~torlanco@pppoe.202.195.netband.caribe.net] has joined #phonegap
+20:02 -!- torlanco [~torlanco@pppoe.202.195.netband.caribe.net] has quit [Ping timeout: 246 seconds]
+20:03 -!- thomaslindstr_m [~thomaslin@c80-216-22-126.bredband.comhem.se] has quit [Quit: Leaving...]
+20:09 -!- ilmgb [~ilmgb@HSI-KBW-134-3-211-137.hsi14.kabel-badenwuerttemberg.de] has joined #phonegap
+20:14 -!- ilmgb [~ilmgb@HSI-KBW-134-3-211-137.hsi14.kabel-badenwuerttemberg.de] has quit [Ping timeout: 246 seconds]
+20:15 -!- ejb [~ejb@unaffiliated/ejb] has joined #phonegap
+20:25 -!- ejb [~ejb@unaffiliated/ejb] has quit [Quit: ZZZzzz&]
+20:34 -!- MisterB [~MrB@108.2.123.41] has quit [Remote host closed the connection]
+20:34 -!- kirfu [~kirill@pool-108-41-236-167.nycmny.fios.verizon.net] has joined #phonegap
+20:39 -!- kkrikk [~textual@p5DDC2523.dip0.t-ipconnect.de] has quit []
+20:47 -!- bitkiller [~bitkiller@191.179.230.199] has quit [Quit: Life]
+20:50 -!- djbutterchicken [~djbutterc@118-92-142-37.dsl.dyn.ihug.co.nz] has quit [Remote host closed the connection]
+20:52 -!- fels_zh [~fels_zh@213.137.8.154] has quit [Remote host closed the connection]
+20:53 -!- kirfu [~kirill@pool-108-41-236-167.nycmny.fios.verizon.net] has quit [Ping timeout: 252 seconds]
+21:10 -!- ilmgb [~ilmgb@HSI-KBW-134-3-211-137.hsi14.kabel-badenwuerttemberg.de] has joined #phonegap
+21:14 -!- ilmgb [~ilmgb@HSI-KBW-134-3-211-137.hsi14.kabel-badenwuerttemberg.de] has quit [Ping timeout: 240 seconds]
+21:21 < aaron1245> is there anyway to debug an app that just sits at the splash screen with the loading spinner?  i dont even
+                   know where to start.
+21:23 < EionRobb> on what platform?
+21:24 < aaron1245> ios
+21:34 < aaron1245> i got the devices logs and this popped out at me
+21:34 < aaron1245> SpringBoard[33] <Warning>: Killing com.langrandco.sales for termination assertion
+21:38 -!- pasevin [~pasevin@host86-151-110-124.range86-151.btcentralplus.com] has quit [Quit: My MacBook Pro has gone to sleep.
+          ZZZzzz&]
+21:40 < aaron1245> randomly removing plugins fixed it.  I think it was the splash screen plugin
+21:40 < aaron1245> shooting in the dark for hours on end works sometimes i guess
+21:41 < aaron1245> i havent updated anything else&.it just stopped working.  strange, but oh well
+21:42 -!- Allyz [~Allyz@113x33x180x18.ap113.ftth.ucom.ne.jp] has joined #phonegap
+21:46 -!- torlanco [~torlanco@pppoe.202.195.netband.caribe.net] has joined #phonegap
+21:47 -!- djbutterchicken [~djbutterc@118-92-142-37.dsl.dyn.ihug.co.nz] has joined #phonegap
+21:51 -!- torlanco [~torlanco@pppoe.202.195.netband.caribe.net] has quit [Ping timeout: 255 seconds]
+21:56 -!- BorisKourt [~textual@75-119-226-115.dsl.teksavvy.com] has joined #phonegap
+22:02 -!- djbutterchicken [~djbutterc@118-92-142-37.dsl.dyn.ihug.co.nz] has quit [Ping timeout: 246 seconds]
+22:09 -!- visionary [~visionary@ppp-71-139-168-49.dsl.snfc21.pacbell.net] has joined #phonegap
+22:11 -!- the_dave [dave@unaffiliated/chemicalburn] has quit []
+22:13 < devgeeks> aaron1245: try safari remote debugging... set an alert() really early in the js... that will pause it long
+                  enough for you to start debugging
+22:14 < devgeeks> aaron1245: ooor.. just run it, then in safari remote debugging, reload it using command-r
+22:15 < oniijin> belated happy burfday devgeeks
+22:17 -!- djbutterchicken [~djbutterc@118-92-142-37.dsl.dyn.ihug.co.nz] has joined #phonegap
+22:26 < devgeeks> oniijin: cheers :)
+22:26 < oniijin> how many beers did u end up downing
+22:26 < devgeeks> it's my birthday in the timezone I was born in, if that counts ;)
+22:26 < devgeeks> just 3 :( but they were good ones
+22:26 < oniijin> haha
+22:27 < devgeeks> 2 nice hefs and a pale
+22:27 < devgeeks> all local
+22:28 < MitchW> god I love ES6 sometimes
+22:28 < oniijin> I do like hefs. pales not so much
+22:28 < oniijin> hops arent my thing
+22:37 < MitchW> saved 200-220us per request by using yield/generators (bluebird coroutines) instead of plain old promise
+                chaining - went from being able to do ~30k/req/sec (which does a bunch of websocket/database stuff) to almost
+15:49 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+15:51 -!- occamshatchet [~occamshat@c-69-253-73-241.hsd1.nj.comcast.net] has quit [Ping timeout: 265 seconds]
+16:02 -!- occamshatchet [~occamshat@69.253.73.241] has joined #stackvm
+16:04 < rowbit1> Hourly usage stats: [developer: 1, free: 32]
+16:18 -!- occamshatchet [~occamshat@69.253.73.241] has quit [Ping timeout: 265 seconds]
+16:20 -!- jden is now known as jden_afk
+16:21 -!- occamshatchet [~occamshat@69.253.73.241] has joined #stackvm
+16:39 -!- jxson_ [~jxson@cpe-76-173-251-8.socal.res.rr.com] has joined #stackvm
+16:40 -!- rannmann [~rez@pdpc/supporter/student/rannmann] has quit [Disconnected by services]
+16:40 -!- dsfadf [~rez@c-73-53-122-194.hsd1.wa.comcast.net] has joined #stackvm
+16:44 -!- jesusabd1llah [~jesusabdu@199.180.254.206] has joined #stackvm
+16:45 -!- kenperkins_ [~textual@c-67-160-41-4.hsd1.wa.comcast.net] has joined #stackvm
+16:46 -!- i_m_ca [~kdawes@216-197-138-60.sktn.hsdb.sasknet.sk.ca] has joined #stackvm
+16:47 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has joined #stackvm
+16:47 -!- spader [~terinjoke@wikinews/Terinjokes] has joined #stackvm
+16:48 -!- Netsplit *.net <-> *.split quits: ins0mnia, kenperkins, jesusabdullah, ircretary, jxson, terinjokes
+16:48 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has quit [Quit: Leaving...]
+16:48 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+03:16 -!- kriskowal [~kriskowal@66-215-92-194.dhcp.psdn.ca.charter.com] has joined #stackvm
+03:17 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has quit [Quit: Leaving...]
+03:20 -!- navaru [~navaru@5-14-184-187.residential.rdsnet.ro] has quit [Quit: Leaving...]
+03:24 -!- ins0mnia [~smuxi@host-95-204-229-160.mobileonline.telia.com] has quit [Ping timeout: 252 seconds]
+03:30 -!- kriskowal [~kriskowal@66-215-92-194.dhcp.psdn.ca.charter.com] has quit [Quit: kriskowal]
+04:04 < rowbit1> Hourly usage stats: [developer: 0, free: 0]
+04:10 -!- stagas_ [~stagas@78-79-79.adsl.cyta.gr] has joined #stackvm
+04:11 -!- stagas [~stagas@46-198-73-103.adsl.cyta.gr] has quit [Ping timeout: 252 seconds]
+04:11 -!- stagas_ is now known as stagas
+04:32 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #stackvm
+04:47 -!- jesusabdullah [~jesusabdu@199.180.254.206] has quit [Ping timeout: 240 seconds]
+04:48 -!- dominictarr_ [6562b9fa@gateway/web/freenode/ip.101.98.185.250] has joined #stackvm
+04:50 < substack> dominictarr_: http://studio.substack.net/medical-drama?time=1396767418672
+04:51 < dominictarr_> substack: sounds good!
+04:52 < dominictarr_> drad guessed it was you because he could hear the sound of mathematics
+04:53 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has quit [Quit: thealphanerd]
+04:53 < substack> drad?
+04:54 < substack> oh disasteradio hah
+22:26 -!- calvinfo [~Adium@c-50-174-77-78.hsd1.ca.comcast.net] has quit [Quit: Leaving.]
+22:27 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+22:27 < groundwater> ogd: oh nice, maybe
+22:27 < groundwater> I'll check it out later
+22:28 < groundwater>  I can add streams at any point, dunno if combiner does the same thing
+22:29 < groundwater> You can even read from the combiner before adding a source
+22:30 < substack> http://studio.substack.net/actionwave?time=1396743493702
+22:30 < groundwater> I actually looked for a combiner before writing it lol
+22:39 -!- trevnorris [~trevnorri@162.243.211.225] has quit [Ping timeout: 240 seconds]
+22:39 -!- trevnorris [~trevnorri@162.243.211.225] has joined #stackvm
+22:46 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has quit [Ping timeout: 268 seconds]
+22:47 -!- h0ke [~hoke@c-50-150-106-4.hsd1.ca.comcast.net] has quit [Quit: Konversation terminated!]
+22:48 < Raynos> hughsk: ping
+22:48 < Raynos> would love https://github.com/hughsk/replace-method to be recursive
+23:04 < rowbit1> Hourly usage stats: [developer: 0, free: 12]
+23:08 -!- trevnorris [~trevnorri@162.243.211.225] has quit [Ping timeout: 255 seconds]
+23:08 -!- jiangplus [~jiang@36.250.225.38] has quit [Quit: leaving]
+23:08 -!- trevnorris [~trevnorri@162.243.211.225] has joined #stackvm
+08:00 -!- mafintosh [~mafintosh@94.18.220.22] has quit [Quit: Computer has gone to sleep.]
+08:04 < rowbit1> Hourly usage stats: [developer: 0, free: 8]
+08:04 -!- mafintosh [~mafintosh@94.18.220.22] has joined #stackvm
+08:24 -!- Maciek416 [~Maciek@2601:7:780:520:a541:f9b6:3e1d:d2a0] has joined #stackvm
+08:29 -!- Maciek416 [~Maciek@2601:7:780:520:a541:f9b6:3e1d:d2a0] has quit [Ping timeout: 265 seconds]
+08:32 -!- AndreasMadsen [~andreasma@94.18.220.22] has quit [Remote host closed the connection]
+08:54 -!- AndreasMadsen [~andreasma@94.18.220.22] has joined #stackvm
+09:04 < rowbit1> Hourly usage stats: [developer: 0, free: 34]
+09:04 -!- mafintosh [~mafintosh@94.18.220.22] has quit [Quit: Computer has gone to sleep.]
+09:07 -!- mafintosh [~mafintosh@94.18.220.22] has joined #stackvm
+09:23 -!- mafintosh [~mafintosh@94.18.220.22] has quit [Quit: Computer has gone to sleep.]
+09:27 -!- mafintosh [~mafintosh@94.18.220.22] has joined #stackvm
+09:33 -!- mafintosh [~mafintosh@94.18.220.22] has quit [Quit: Computer has gone to sleep.]
+09:34 -!- mafintosh [~mafintosh@0x3e2c8719.mobile.telia.dk] has joined #stackvm
+09:37 -!- mafintosh_ [~mafintosh@94.18.220.22] has joined #stackvm
+09:37 -!- mafintosh [~mafintosh@0x3e2c8719.mobile.telia.dk] has quit [Read error: Connection reset by peer]
+09:38 -!- AvianFlu [~avianflu@198.199.82.25] has joined #stackvm
+09:46 -!- mafintosh_ [~mafintosh@94.18.220.22] has quit [Quit: Computer has gone to sleep.]
+09:51 -!- mafintosh_ [~mafintosh@94.18.220.22] has joined #stackvm
+10:01 -!- AndreasMadsen [~andreasma@94.18.220.22] has quit [Remote host closed the connection]
+10:04 < rowbit1> Hourly usage stats: [developer: 0, free: 25]
+10:05 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+10:08 -!- mafintosh_ [~mafintosh@94.18.220.22] has quit [Quit: Computer has gone to sleep.]
+10:13 -!- Maciek416 [~Maciek@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+10:16 -!- AndreasMadsen [~andreasma@94.18.220.22] has joined #stackvm
+10:16 -!- mafintosh_ [~mafintosh@94.18.220.22] has joined #stackvm
+10:16 -!- fotoverite [~fotoverit@cpe-24-90-104-159.nyc.res.rr.com] has joined #stackvm
+10:18 -!- Maciek416 [~Maciek@c-50-139-70-246.hsd1.or.comcast.net] has quit [Ping timeout: 252 seconds]
+10:19 -!- mafintosh_ [~mafintosh@94.18.220.22] has quit [Client Quit]
+10:23 -!- mafintosh_ [~mafintosh@94.18.220.22] has joined #stackvm
+10:25 -!- mafintosh_ [~mafintosh@94.18.220.22] has quit [Client Quit]
+10:43 -!- jiangplus [~jiang@116.251.221.250] has joined #stackvm
+10:48 -!- jiangplu1 [~jiang@223.27.37.241] has joined #stackvm
+10:49 -!- jiangplus [~jiang@116.251.221.250] has quit [Ping timeout: 268 seconds]
+10:52 -!- jiangplu1 [~jiang@223.27.37.241] has quit [Ping timeout: 255 seconds]
+10:57 -!- gwenbell [~gwenbell@107.170.110.114] has left #stackvm []
+11:00 -!- taterbase [uid17123@gateway/web/irccloud.com/x-pwfwhnultnvtzgzz] has quit [Quit: Connection closed for inactivity]
+11:03 -!- pfraze [~unsafe@cpe-70-113-196-4.austin.res.rr.com] has joined #stackvm
+11:04 < rowbit1> Hourly usage stats: [developer: 0, free: 25]
+11:04 -!- yorick [~yorick@oftn/member/yorick] has joined #stackvm
+11:08 -!- AndreasMadsen [~andreasma@94.18.220.22] has quit [Remote host closed the connection]
+11:08 -!- AndreasMadsen [~andreasma@94.18.220.22] has joined #stackvm
+11:08 -!- jiangplus [~jiang@223.27.37.241] has joined #stackvm
+11:17 -!- navaru [~navaru@5-14-184-187.residential.rdsnet.ro] has joined #stackvm
+11:18 -!- dguttman [~david@cpe-142-129-79-131.socal.res.rr.com] has joined #stackvm
+11:19 -!- Maciek416 [~Maciek@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+11:25 -!- mafintosh_ [~mafintosh@94.18.220.22] has joined #stackvm
+11:26 -!- AndreasMadsen [~andreasma@94.18.220.22] has quit [Remote host closed the connection]
+11:29 -!- AndreasMadsen [~andreasma@94.18.220.22] has joined #stackvm
+11:30 -!- mafintosh_ [~mafintosh@94.18.220.22] has quit [Ping timeout: 240 seconds]
+11:46 -!- h0ke [~hoke@c-50-150-106-4.hsd1.ca.comcast.net] has joined #stackvm
+11:47 -!- kriskowal [~kriskowal@137.159.213.68] has joined #stackvm
+11:51 -!- jiangplus [~jiang@223.27.37.241] has quit [Ping timeout: 252 seconds]
+11:58 -!- djcoin [~djcoin@ip-203.net-82-216-143.rev.numericable.fr] has joined #stackvm
+12:04 < rowbit1> Hourly usage stats: [developer: 2, free: 21]
+12:07 -!- taterbase [uid17123@gateway/web/irccloud.com/x-qeuxqldmxekqcvws] has joined #stackvm
+12:27 -!- AndreasMadsen [~andreasma@94.18.220.22] has quit [Remote host closed the connection]
+12:31 -!- jiangplus [~jiang@122.13.132.225] has joined #stackvm
+12:42 -!- dguttman [~david@cpe-142-129-79-131.socal.res.rr.com] has quit [Quit: dguttman]
+12:49 -!- ednapiranha [~ednapiran@2601:7:780:520:dc31:fb81:e405:1934] has joined #stackvm
+12:49 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Remote host closed the connection]
+12:50 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+12:51 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+12:54 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Ping timeout: 255 seconds]
+13:04 < rowbit1> Hourly usage stats: [developer: 9, free: 20]
+13:14 -!- naneau [~naneau@unaffiliated/naneau] has quit [Quit: Quit.]
+13:16 -!- jxson [~jxson@200.sub-70-197-79.myvzw.com] has joined #stackvm
+13:21 -!- jxson [~jxson@200.sub-70-197-79.myvzw.com] has quit [Remote host closed the connection]
+13:23 -!- jxson [~jxson@2600:1012:b018:b279:4de8:2acc:4af4:c904] has joined #stackvm
+13:30 -!- jxson [~jxson@2600:1012:b018:b279:4de8:2acc:4af4:c904] has quit [Remote host closed the connection]
+13:39 -!- mafintosh [~mafintosh@94.18.220.22] has joined #stackvm
+13:47 -!- AndreasMadsen [~andreasma@87-60-97-138-dynamic.dk.customer.tdc.net] has joined #stackvm
+13:48 -!- AndreasMadsen [~andreasma@87-60-97-138-dynamic.dk.customer.tdc.net] has quit [Remote host closed the connection]
+13:51 -!- addisonj [uid18502@gateway/web/irccloud.com/x-blokvpvveoyrgppr] has joined #stackvm
+14:01 -!- jiangplus [~jiang@122.13.132.225] has quit [Ping timeout: 268 seconds]
+14:04 < rowbit1> Hourly usage stats: [developer: 2, free: 29]
+14:08 -!- enjawork [~enjamini@50-1-123-12.dsl.dynamic.sonic.net] has quit [Ping timeout: 246 seconds]
+14:15 -!- pfraze [~unsafe@cpe-70-113-196-4.austin.res.rr.com] has quit [Ping timeout: 255 seconds]
+14:19 -!- jden is now known as jden_away
+14:47 -!- AndreasMadsen [~andreasma@87-60-97-138-dynamic.dk.customer.tdc.net] has joined #stackvm
+14:52 -!- AndreasMadsen [~andreasma@87-60-97-138-dynamic.dk.customer.tdc.net] has quit [Ping timeout: 252 seconds]
+15:04 < rowbit1> Hourly usage stats: [developer: 6, free: 21]
+15:04 -!- Maciek416 [~Maciek@c-50-139-70-246.hsd1.or.comcast.net] has quit [Remote host closed the connection]
+15:10 -!- naneau [~naneau@unaffiliated/naneau] has joined #stackvm
+15:11 -!- ednapiranha [~ednapiran@2601:7:780:520:dc31:fb81:e405:1934] has quit [Remote host closed the connection]
+15:18 -!- AndreasMadsen [~andreasma@87-60-97-138-dynamic.dk.customer.tdc.net] has joined #stackvm
+15:20 -!- pfraze [~unsafe@cpe-70-113-196-4.austin.res.rr.com] has joined #stackvm
+15:22 -!- AndreasMadsen [~andreasma@87-60-97-138-dynamic.dk.customer.tdc.net] has quit [Ping timeout: 255 seconds]
+15:24 -!- AndreasMadsen [~andreasma@87-60-97-138-dynamic.dk.customer.tdc.net] has joined #stackvm
+15:25 -!- AndreasMadsen [~andreasma@87-60-97-138-dynamic.dk.customer.tdc.net] has quit [Client Quit]
+15:39 < kriskowal> i am wondering what "spot 1 of 1 queuing for 0 matching servers means" in browserling.
+15:39 < kriskowal> it sounds like "sorry, please wait forever" :P
+15:45 < kriskowal> substack: ^
+15:47 < pkrumins> kriskowal: what browser did you choose?
+15:47 < pkrumins> kriskowal: i was just deploying so it restarted
+15:47 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout: 255 seconds]
+15:47 < pkrumins> explorer  10.0     free
+15:47 < pkrumins> kriskowal: free plans dont have ie 10
+15:48 < pkrumins> kriskowal: not sure how you were able to choose ie 10 :)
+15:48 < kriskowal> clicked the link in testling
+15:48 < pkrumins> that's why
+15:48 < kriskowal> pkrumins: (thanks for looking)
+15:48 < pkrumins> it should display a message that you need a paid plan
+15:48 < pkrumins> to use ie10
+15:49 < pkrumins> only ie9 is free
+15:49 < kriskowal> then this is a bug report
+15:49 < pkrumins> and other browsers
+15:49 < pkrumins> ok
+15:49 < kriskowal> would you like a screenie?
+15:49 < pkrumins> no i know this bug exactly
+15:49 < kriskowal> k
+15:49 < kriskowal> old friends often meet
+15:49 < pkrumins> anyway, just deployed onscreen keyboard for browserling
+15:50 < pkrumins> kriskowal: we're old friends?
+15:54 < kriskowal> pkrumins: i was referring to you and your bug, but i have read your blog, so maybe
+15:56 < pkrumins> ah
+15:57 < kriskowal> pkrumins: moving over to #browserling. don't want to clog this channel.
+16:04 < rowbit1> Hourly usage stats: [developer: 5, free: 8]
+16:10 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+16:10 < pkrumins> this channel is also about browserling :)
+16:10 < pkrumins> Unofficial browserling/testling mad science channel.
+16:15 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has quit [Ping timeout: 255 seconds]
+16:36 -!- kriskowal [~kriskowal@137.159.213.68] has quit [Quit: kriskowal]
+16:39 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+16:44 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has quit [Ping timeout: 240 seconds]
+16:52 -!- Maciek416 [~Maciek@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+16:55 -!- contrahax [~contrahax@ip24-251-13-101.ph.ph.cox.net] has quit [Quit: Sleeping]
+16:57 -!- Maciek416 [~Maciek@c-50-139-70-246.hsd1.or.comcast.net] has quit [Ping timeout: 252 seconds]
+16:58 -!- djcoin [~djcoin@ip-203.net-82-216-143.rev.numericable.fr] has quit [Quit: WeeChat 0.4.2]
+17:03 -!- mafintosh [~mafintosh@94.18.220.22] has quit [Quit: Computer has gone to sleep.]
+17:04 < rowbit1> Hourly usage stats: [developer: 0, free: 22]
+17:05 -!- mafintosh [~mafintosh@94.18.220.22] has joined #stackvm
+17:16 -!- kriskowal [~kriskowal@137.159.213.68] has joined #stackvm
+17:18 -!- jden_away is now known as jden
+17:24 -!- ins0mnia [~smuxi@81-234-249-46-no52.tbcn.telia.com] has quit [Ping timeout: 240 seconds]
+17:31 < pkrumins> kriskowal: where did you go
+17:31 < pkrumins> kriskowal: didnt get a chance to reply to you
+17:37 -!- Maciek416 [~Maciek@2601:7:780:520:5d8e:a2b3:cc29:7d54] has joined #stackvm
+17:39 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+17:41 -!- kriskowal [~kriskowal@137.159.213.68] has quit [Read error: Connection reset by peer]
+17:41 -!- kriskowal [~kriskowal@137.159.213.68] has joined #stackvm
+17:44 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has quit [Ping timeout: 240 seconds]
+17:46 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+18:04 < rowbit1> Hourly usage stats: [developer: 0, free: 22]
+18:10 -!- kriskowal [~kriskowal@137.159.213.68] has quit [Quit: kriskowal]
+18:17 -!- naneau [~naneau@unaffiliated/naneau] has quit [Quit: Part.]
+18:18 -!- naneau [~naneau@unaffiliated/naneau] has joined #stackvm
+18:22 -!- naneau [~naneau@unaffiliated/naneau] has quit [Client Quit]
+18:22 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+18:30 -!- addisonj [uid18502@gateway/web/irccloud.com/x-blokvpvveoyrgppr] has quit [Quit: Connection closed for inactivity]
+18:38 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has joined #stackvm
+18:46 -!- naneau [~naneau@unaffiliated/naneau] has joined #stackvm
+18:49 -!- pfraze [~unsafe@cpe-70-113-196-4.austin.res.rr.com] has quit [Ping timeout: 252 seconds]
+18:49 -!- heath [quassel@unaffiliated/ybit] has quit [Quit: No Ping reply in 180 seconds.]
+18:50 -!- heath [quassel@unaffiliated/ybit] has joined #stackvm
+18:51 -!- mafintosh [~mafintosh@94.18.220.22] has quit [Quit: Computer has gone to sleep.]
+18:53 -!- pfraze [~unsafe@cpe-70-113-196-4.austin.res.rr.com] has joined #stackvm
+19:01 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Remote host closed the connection]
+19:04 < rowbit1> Hourly usage stats: [developer: 0, free: 22]
+19:05 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has quit [Ping timeout: 240 seconds]
+19:43 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has joined #stackvm
+19:46 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has quit [Quit: Leaving...]
+19:55 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+19:57 -!- yorick [~yorick@oftn/member/yorick] has quit [Remote host closed the connection]
+19:58 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has quit [Ping timeout: 268 seconds]
+20:00 -!- ircretary [~ircretary@165.225.132.207] has quit [Remote host closed the connection]
+20:00 -!- ircretary [~ircretary@165.225.132.207] has joined #stackvm
+20:02 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Remote host closed the connection]
+20:04 < rowbit1> Daily usage stats: [developer: 5, free: 88]
+20:04 < rowbit1> Hourly usage stats: [developer: 0, free: 14]
+20:07 -!- stagas [~stagas@46-198-73-103.adsl.cyta.gr] has quit [Remote host closed the connection]
+20:14 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+20:15 -!- kriskowal [~kriskowal@66-215-92-194.dhcp.psdn.ca.charter.com] has joined #stackvm
+20:25 -!- contrahax [~contrahax@140.198.139.7] has joined #stackvm
+20:26 -!- contrahax [~contrahax@140.198.139.7] has quit [Read error: Connection reset by peer]
+20:26 -!- contrahax [~contrahax@140.198.139.7] has joined #stackvm
+20:27 -!- contrahax [~contrahax@140.198.139.7] has quit [Read error: Connection reset by peer]
+20:28 -!- contrahax [~contrahax@140.198.139.7] has joined #stackvm
+20:31 -!- contraha_ [~contrahax@140.198.139.7] has joined #stackvm
+20:35 -!- contrahax [~contrahax@140.198.139.7] has quit [Ping timeout: 268 seconds]
+20:47 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has joined #stackvm
+20:49 -!- contraha_ [~contrahax@140.198.139.7] has quit [Quit: Sleeping]
+21:00 -!- pfraze [~unsafe@cpe-70-113-196-4.austin.res.rr.com] has quit [Ping timeout: 268 seconds]
+21:04 < rowbit1> Hourly usage stats: [developer: 0, free: 18]
+21:05 -!- i_m_ca [~kdawes@216-197-138-60.sktn.hsdb.sasknet.sk.ca] has joined #stackvm
+21:10 -!- i_m_ca [~kdawes@216-197-138-60.sktn.hsdb.sasknet.sk.ca] has quit [Ping timeout: 255 seconds]
+21:15 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Remote host closed the connection]
+21:24 -!- i_m_ca [~kdawes@216-197-138-60.sktn.hsdb.sasknet.sk.ca] has joined #stackvm
+21:24 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has quit [Ping timeout: 255 seconds]
+21:35 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has joined #stackvm
+21:59 -!- i_m_ca [~kdawes@216-197-138-60.sktn.hsdb.sasknet.sk.ca] has quit [Ping timeout: 268 seconds]
+22:00 -!- jiangplus [~jiang@36.250.225.38] has joined #stackvm
+22:04 < rowbit1> Hourly usage stats: [developer: 0, free: 9]
+22:13 -!- calvinfo [~Adium@c-50-174-77-78.hsd1.ca.comcast.net] has joined #stackvm
+22:23 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+22:25 < ogd> groundwater: is lib-stream-series the same as https://www.npmjs.org/package/stream-combiner /
+22:26 -!- calvinfo [~Adium@c-50-174-77-78.hsd1.ca.comcast.net] has quit [Quit: Leaving.]
+22:27 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+22:27 < groundwater> ogd: oh nice, maybe
+22:27 < groundwater> I'll check it out later
+22:28 < groundwater>  I can add streams at any point, dunno if combiner does the same thing
+22:29 < groundwater> You can even read from the combiner before adding a source
+22:30 < substack> http://studio.substack.net/actionwave?time=1396743493702
+22:30 < groundwater> I actually looked for a combiner before writing it lol
+22:39 -!- trevnorris [~trevnorri@162.243.211.225] has quit [Ping timeout: 240 seconds]
+22:39 -!- trevnorris [~trevnorri@162.243.211.225] has joined #stackvm
+22:46 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has quit [Ping timeout: 268 seconds]
+22:47 -!- h0ke [~hoke@c-50-150-106-4.hsd1.ca.comcast.net] has quit [Quit: Konversation terminated!]
+22:48 < Raynos> hughsk: ping
+22:48 < Raynos> would love https://github.com/hughsk/replace-method to be recursive
+23:04 < rowbit1> Hourly usage stats: [developer: 0, free: 12]
+23:08 -!- trevnorris [~trevnorri@162.243.211.225] has quit [Ping timeout: 255 seconds]
+23:08 -!- jiangplus [~jiang@36.250.225.38] has quit [Quit: leaving]
+23:08 -!- trevnorris [~trevnorri@162.243.211.225] has joined #stackvm
+23:09 -!- jiangplus [~jiang@223.27.37.241] has joined #stackvm
+23:11 < jiangplus> \q
+23:11 -!- jiangplus [~jiang@223.27.37.241] has quit [Client Quit]
+23:12 -!- pfallenop [~pfallenop@unaffiliated/contempt] has quit [Ping timeout: 240 seconds]
+23:13 -!- jiangplus [~jiang@107.170.41.125] has joined #stackvm
+23:14 < substack> jiangplus: ahoy!
+23:14 -!- pfallenop [~pfallenop@unaffiliated/contempt] has joined #stackvm
+23:16 < jiangplus> ahoy!
+23:16 < jiangplus> we are having make fair today in shenzhen
+23:16 -!- naneau [~naneau@unaffiliated/naneau] has quit [Quit: Part.]
+23:17 < substack> I've heard about it!
+23:17 < substack> one of my friends from oakland is over there right now
+23:17 < jiangplus> who?
+23:18 < substack> the guy behind http://www.wikiseat.org/
+23:30 < jiangplus> looks cool
+23:34 -!- h0ke [~hoke@c-50-150-106-4.hsd1.ca.comcast.net] has joined #stackvm
+23:40 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Remote host closed the connection]
+23:40 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+23:45 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Ping timeout: 255 seconds]
+23:52 -!- h0ke [~hoke@c-50-150-106-4.hsd1.ca.comcast.net] has quit [Quit: Konversation terminated!]
+Day changed to 06 Apr 2014
+00:04 < rowbit1> Hourly usage stats: [free: 13]
+00:40 -!- contrahax [~contrahax@ip24-251-13-101.ph.ph.cox.net] has joined #stackvm
+01:04 < rowbit1> Hourly usage stats: [free: 4]
+01:16 < rowbit1> substack, pkrumins: Encoders down: 50.56.27.70 (dev-ie6-1)
+01:23 -!- AvianFlu [~avianflu@198.199.82.25] has quit [Remote host closed the connection]
+01:24 -!- AvianFlu [~avianflu@198.199.82.25] has joined #stackvm
+01:28 -!- AvianFlu [~avianflu@198.199.82.25] has quit [Ping timeout: 252 seconds]
+01:29 -!- ins0mnia [~smuxi@host-95-204-229-160.mobileonline.telia.com] has joined #stackvm
+01:50 -!- calvinfo [~Adium@c-50-174-77-78.hsd1.ca.comcast.net] has joined #stackvm
+02:04 < rowbit1> Hourly usage stats: [developer: 1, free: 9]
+02:12 -!- calvinfo [~Adium@c-50-174-77-78.hsd1.ca.comcast.net] has quit [Quit: Leaving.]
+02:57 -!- stagas [~stagas@46-198-73-103.adsl.cyta.gr] has joined #stackvm
+03:04 < rowbit1> Hourly usage stats: [developer: 0, free: 4]
+03:08 -!- Maciek416 [~Maciek@2601:7:780:520:5d8e:a2b3:cc29:7d54] has quit [Remote host closed the connection]
+03:16 -!- kriskowal [~kriskowal@66-215-92-194.dhcp.psdn.ca.charter.com] has quit [Quit: kriskowal]
+03:16 -!- kriskowal [~kriskowal@66-215-92-194.dhcp.psdn.ca.charter.com] has joined #stackvm
+03:17 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has quit [Quit: Leaving...]
+03:20 -!- navaru [~navaru@5-14-184-187.residential.rdsnet.ro] has quit [Quit: Leaving...]
+03:24 -!- ins0mnia [~smuxi@host-95-204-229-160.mobileonline.telia.com] has quit [Ping timeout: 252 seconds]
+03:30 -!- kriskowal [~kriskowal@66-215-92-194.dhcp.psdn.ca.charter.com] has quit [Quit: kriskowal]
+04:04 < rowbit1> Hourly usage stats: [developer: 0, free: 0]
+04:10 -!- stagas_ [~stagas@78-79-79.adsl.cyta.gr] has joined #stackvm
+04:11 -!- stagas [~stagas@46-198-73-103.adsl.cyta.gr] has quit [Ping timeout: 252 seconds]
+04:11 -!- stagas_ is now known as stagas
+04:32 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #stackvm
+04:47 -!- jesusabdullah [~jesusabdu@199.180.254.206] has quit [Ping timeout: 240 seconds]
+04:48 -!- dominictarr_ [6562b9fa@gateway/web/freenode/ip.101.98.185.250] has joined #stackvm
+04:50 < substack> dominictarr_: http://studio.substack.net/medical-drama?time=1396767418672
+04:51 < dominictarr_> substack: sounds good!
+04:52 < dominictarr_> drad guessed it was you because he could hear the sound of mathematics
+04:53 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has quit [Quit: thealphanerd]
+04:53 < substack> drad?
+04:54 < substack> oh disasteradio hah
+04:56 -!- Maciek416 [~Maciek@2601:7:780:520:1ae:9629:259:5c6e] has joined #stackvm
+04:59 -!- jesusabdullah [~jesusabdu@199.180.254.206] has joined #stackvm
+05:01 -!- Maciek416 [~Maciek@2601:7:780:520:1ae:9629:259:5c6e] has quit [Ping timeout: 265 seconds]
+05:04 < rowbit1> Hourly usage stats: [developer: 0, free: 0]
+05:05 < stagas> substack: got any resources for those dsp functions?
+05:06 -!- ins0mnia [~smuxi@81-234-249-46-no52.tbcn.telia.com] has joined #stackvm
+05:26 < substack> stagas:       + saw(a * 40 * 64) * 0.5
+05:26 < substack> http://studio.substack.net/-/help
+05:26 < substack> rather
+05:27 < substack> and https://www.youtube.com/watch?v=2oz_SwhBixs
+05:29 < substack> more: http://studio.substack.net/wavewave?time=1396776398754
+05:34 < stagas> thanks
+06:04 < rowbit1> Hourly usage stats: [developer: 0, free: 0]
+06:05 -!- stagas [~stagas@78-79-79.adsl.cyta.gr] has quit [Read error: Connection reset by peer]
+06:25 -!- fotoverite [~fotoverit@cpe-24-90-104-159.nyc.res.rr.com] has quit [Quit: fotoverite]
+06:26 -!- yorick [~yorick@oftn/member/yorick] has joined #stackvm
+06:45 -!- Maciek416 [~Maciek@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+06:48 < rook2pawn> so i am beginning to work on a stream-dsp (native js dsp). is there a stream based DSP already out there?
+06:50 -!- Maciek416 [~Maciek@c-50-139-70-246.hsd1.or.comcast.net] has quit [Ping timeout: 255 seconds]
+07:04 < rowbit1> Hourly usage stats: [developer: 0, free: 0]
+07:09 -!- kumavis_ [uid13576@gateway/web/irccloud.com/x-vzhnkeaeffbtdyuy] has quit [Quit: Connection closed for inactivity]
+07:11 < rowbit1> substack, pkrumins: These encoders are STILL down: 50.56.27.70(dev-ie6-1)
+07:12 -!- mafintosh [~mafintosh@109.57.238.157.mobile.3.dk] has joined #stackvm
+07:48 -!- dominictarr_ [6562b9fa@gateway/web/freenode/ip.101.98.185.250] has quit [Ping timeout: 245 seconds]
+08:03 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has joined #stackvm
+08:04 < rowbit1> Hourly usage stats: [developer: 0, free: 1]
+08:18 -!- djcoin [~djcoin@ip-203.net-82-216-143.rev.numericable.fr] has joined #stackvm
+08:34 -!- Maciek416 [~Maciek@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+08:39 -!- Maciek416 [~Maciek@c-50-139-70-246.hsd1.or.comcast.net] has quit [Ping timeout: 252 seconds]
+08:54 -!- nfroidure [~nfroidure@ALille-256-1-44-62.w90-18.abo.wanadoo.fr] has joined #stackvm
+09:03 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has quit [Ping timeout: 268 seconds]
+09:04 < rowbit1> Hourly usage stats: [developer: 0, free: 0]
+09:21 -!- mafintosh [~mafintosh@109.57.238.157.mobile.3.dk] has quit [Ping timeout: 240 seconds]
+09:30 -!- mafintosh [~mafintosh@109.57.238.157.mobile.3.dk] has joined #stackvm
+09:53 -!- djcoin [~djcoin@ip-203.net-82-216-143.rev.numericable.fr] has quit [Ping timeout: 252 seconds]
+10:02 -!- mafintosh [~mafintosh@109.57.238.157.mobile.3.dk] has quit [Quit: Computer has gone to sleep.]
+10:04 < rowbit1> Hourly usage stats: [developer: 0, free: 0]
+10:08 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+10:12 -!- collypops [~collypops@202.6.74.6] has quit [Ping timeout: 240 seconds]
+10:16 -!- AvianFlu [~avianflu@198.199.82.25] has joined #stackvm
+10:23 -!- Maciek416 [~Maciek@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+10:27 -!- Maciek416 [~Maciek@c-50-139-70-246.hsd1.or.comcast.net] has quit [Ping timeout: 252 seconds]
+10:34 -!- Maciek416 [~Maciek@2601:7:780:520:e8f1:9053:afdf:fb94] has joined #stackvm
+10:34 -!- i_m_ca [~kdawes@216-197-138-60.sktn.hsdb.sasknet.sk.ca] has joined #stackvm
+10:36 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+10:40 -!- dguttman [~david@cpe-142-129-79-131.socal.res.rr.com] has joined #stackvm
+10:49 -!- calvinfo [~Adium@c-50-174-77-78.hsd1.ca.comcast.net] has joined #stackvm
+10:57 -!- i_m_ca [~kdawes@216-197-138-60.sktn.hsdb.sasknet.sk.ca] has quit [Ping timeout: 240 seconds]
+11:04 < rowbit1> Hourly usage stats: [free: 23]
+11:06 -!- i_m_ca [~kdawes@216-197-138-60.sktn.hsdb.sasknet.sk.ca] has joined #stackvm
+11:12 -!- dguttman [~david@cpe-142-129-79-131.socal.res.rr.com] has quit [Quit: dguttman]
+11:16 -!- calvinfo [~Adium@c-50-174-77-78.hsd1.ca.comcast.net] has quit [Quit: Leaving.]
+11:38 -!- i_m_ca [~kdawes@216-197-138-60.sktn.hsdb.sasknet.sk.ca] has quit [Ping timeout: 255 seconds]
+11:52 < rowbit1> /!\ ATTENTION: (default-local) browserling@... successfully signed up for developer browserling plan ($20).
+                 Cash money! /!\
+11:52 < rowbit1> /!\ ATTENTION: (default-local) paid account successfully upgraded /!\
+12:01 -!- fotoverite [~fotoverit@cpe-24-90-104-159.nyc.res.rr.com] has joined #stackvm
+12:04 < rowbit1> Hourly usage stats: [developer: 5, free: 38]
+12:21 < rowbit1> substack, pkrumins: A developer is waiting in the queue for chrome/33.0
+12:27 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Remote host closed the connection]
+12:36 -!- cpup_ [~cpup@69-183-26-19.adsl.snet.net] has quit [Ping timeout: 240 seconds]
+12:56 -!- dguttman [~david@cpe-142-129-79-131.socal.res.rr.com] has joined #stackvm
+13:04 < rowbit1> Hourly usage stats: [developer: 5, free: 21]
+13:10 -!- rannmann [~rez@pdpc/supporter/student/rannmann] has joined #stackvm
+13:11 < rowbit1> substack, pkrumins: These encoders are STILL down: 50.56.27.70(dev-ie6-1)
+13:20 -!- stagas [~stagas@78-79-79.adsl.cyta.gr] has joined #stackvm
+13:37 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has quit [Remote host closed the connection]
+13:48 -!- kriskowal [~kriskowal@66-215-92-194.dhcp.psdn.ca.charter.com] has joined #stackvm
+13:56 -!- wolfeidau [~wolfeidau@2001:44b8:4101:f900:1029:64c4:a874:8cbd] has quit [Remote host closed the connection]
+13:56 -!- wolfeidau [~wolfeidau@2001:44b8:4101:f901:f10b:5787:e481:683c] has joined #stackvm
+14:04 < rowbit1> Hourly usage stats: [developer: 1, free: 23]
+14:07 -!- ednapiranha [~ednapiran@2601:7:780:520:ccdf:d51b:42de:b173] has joined #stackvm
+14:11 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+14:13 -!- ednapiranha [~ednapiran@2601:7:780:520:ccdf:d51b:42de:b173] has quit [Ping timeout: 265 seconds]
+14:34 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+14:34 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has joined #stackvm
+14:50 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #stackvm
+14:59 -!- ryan_ramage [~eckoit@couchdb/committer/ryanramage] has joined #stackvm
+15:02 -!- AvianFlu [~avianflu@198.199.82.25] has quit [Remote host closed the connection]
+15:03 -!- AvianFlu [~avianflu@198.199.82.25] has joined #stackvm
+15:03 -!- pfraze [~unsafe@cpe-70-113-196-4.austin.res.rr.com] has joined #stackvm
+15:03 -!- i_m_ca [~kdawes@216-197-138-60.sktn.hsdb.sasknet.sk.ca] has joined #stackvm
+15:04 < rowbit1> Hourly usage stats: [developer: 0, free: 15]
+15:07 -!- AvianFlu [~avianflu@198.199.82.25] has quit [Ping timeout: 240 seconds]
+15:08 -!- ednapiranha [~ednapiran@2601:7:780:520:ddaa:91a1:76b2:ddc8] has joined #stackvm
+15:10 -!- i_m_ca [~kdawes@216-197-138-60.sktn.hsdb.sasknet.sk.ca] has quit [Ping timeout: 246 seconds]
+15:14 -!- ednapiranha [~ednapiran@2601:7:780:520:ddaa:91a1:76b2:ddc8] has quit [Ping timeout: 265 seconds]
+15:28 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Remote host closed the connection]
+15:34 -!- jxson [~jxson@cpe-76-173-251-8.socal.res.rr.com] has joined #stackvm
+15:38 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+15:49 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+15:51 -!- occamshatchet [~occamshat@c-69-253-73-241.hsd1.nj.comcast.net] has quit [Ping timeout: 265 seconds]
+16:02 -!- occamshatchet [~occamshat@69.253.73.241] has joined #stackvm
+16:04 < rowbit1> Hourly usage stats: [developer: 1, free: 32]
+16:18 -!- occamshatchet [~occamshat@69.253.73.241] has quit [Ping timeout: 265 seconds]
+16:20 -!- jden is now known as jden_afk
+16:21 -!- occamshatchet [~occamshat@69.253.73.241] has joined #stackvm
+16:39 -!- jxson_ [~jxson@cpe-76-173-251-8.socal.res.rr.com] has joined #stackvm
+16:40 -!- rannmann [~rez@pdpc/supporter/student/rannmann] has quit [Disconnected by services]
+16:40 -!- dsfadf [~rez@c-73-53-122-194.hsd1.wa.comcast.net] has joined #stackvm
+16:44 -!- jesusabd1llah [~jesusabdu@199.180.254.206] has joined #stackvm
+16:45 -!- kenperkins_ [~textual@c-67-160-41-4.hsd1.wa.comcast.net] has joined #stackvm
+16:46 -!- i_m_ca [~kdawes@216-197-138-60.sktn.hsdb.sasknet.sk.ca] has joined #stackvm
+16:47 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has joined #stackvm
+16:47 -!- spader [~terinjoke@wikinews/Terinjokes] has joined #stackvm
+16:48 -!- Netsplit *.net <-> *.split quits: ins0mnia, kenperkins, jesusabdullah, ircretary, jxson, terinjokes
+16:48 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has quit [Quit: Leaving...]
+16:48 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+16:48 -!- jxson_ [~jxson@cpe-76-173-251-8.socal.res.rr.com] has quit [Remote host closed the connection]
+16:49 -!- Netsplit over, joins: jxson
+16:50 -!- ryan_ramage [~eckoit@couchdb/committer/ryanramage] has quit [Quit: ryan_ramage]
+16:51 -!- i_m_ca [~kdawes@216-197-138-60.sktn.hsdb.sasknet.sk.ca] has quit [Ping timeout: 252 seconds]
+16:52 -!- jesusabd1llah is now known as jesusabdullah
+16:56 -!- jxson [~jxson@cpe-76-173-251-8.socal.res.rr.com] has quit [Remote host closed the connection]
+16:59 -!- trevnorris [~trevnorri@162.243.211.225] has quit [Ping timeout: 240 seconds]
+17:01 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Remote host closed the connection]
+17:02 -!- kanzure [~kanzure@131.252.130.248] has quit [Ping timeout: 255 seconds]
+17:04 < rowbit1> Hourly usage stats: [developer: 3, free: 15]
+17:04 -!- trevnorris [~trevnorri@162.243.211.225] has joined #stackvm
+17:10 -!- i_m_ca [~kdawes@216-197-138-60.sktn.hsdb.sasknet.sk.ca] has joined #stackvm
+17:17 -!- kanzure [~kanzure@131.252.130.248] has joined #stackvm
+17:17 -!- jden_afk is now known as jden
+17:18 -!- kanzure [~kanzure@131.252.130.248] has quit [Client Quit]
+17:20 -!- Maciek416 [~Maciek@2601:7:780:520:e8f1:9053:afdf:fb94] has quit [Quit: Leaving...]
+17:30 -!- cpup [~cpup@69-183-26-19.adsl.snet.net] has joined #stackvm
+17:48 < ogd> juliangruber: just curious, is it segmentio policy to put open source projects under the /segmentio organization?
+17:49 < ogd> juliangruber: also did they ban you from putting client side stuff on npm? :P
+17:51 < stagas> substack: why did you build this, I'm gonna just waste my life here
+                http://studio.substack.net/polytropon?time=1396820977526
+17:55 < pfraze> wow, that's getting pretty involved
+17:57 < ogd> stagas: omg awesome
+17:57 < stagas> ogd: thanks! :D
+17:59 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout: 240 seconds]
+18:04 < rowbit1> Hourly usage stats: [developer: 1, free: 17]
+18:17 -!- kanzure [~kanzure@131.252.130.248] has joined #stackvm
+18:20 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has quit [Quit: Leaving.]
+18:24 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+18:32 -!- contrahax [~contrahax@ip24-251-13-101.ph.ph.cox.net] has quit [Quit: Sleeping]
+18:53 -!- AvianFlu [~avianflu@198.199.82.25] has joined #stackvm
+19:04 < rowbit1> Hourly usage stats: [developer: 7, free: 5]
+19:09 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has joined #stackvm
+19:11 < rowbit1> substack, pkrumins: These encoders are STILL down: 50.56.27.70(dev-ie6-1)
+19:19 -!- i_m_ca [~kdawes@216-197-138-60.sktn.hsdb.sasknet.sk.ca] has quit [Ping timeout: 268 seconds]
+19:19 -!- pfallenop [~pfallenop@unaffiliated/contempt] has quit [Ping timeout: 255 seconds]
+19:20 -!- pfallenop [~pfallenop@unaffiliated/contempt] has joined #stackvm
+19:26 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has quit [Quit: Leaving.]
+19:30 -!- feross [~feross@c-98-248-36-96.hsd1.ca.comcast.net] has joined #stackvm
+19:32 -!- contrahax [~contrahax@206.29.182.237] has joined #stackvm
+19:35 -!- feross_ [~feross@nat/yahoo/x-iwethtxfpftxoggv] has joined #stackvm
+19:35 -!- feross [~feross@c-98-248-36-96.hsd1.ca.comcast.net] has quit [Ping timeout: 255 seconds]
+19:35 -!- feross_ is now known as feross
+19:39 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has joined #stackvm
+19:46 -!- jdresume [~jdresume@195.34.78.75] has joined #stackvm
+19:52 -!- feross [~feross@nat/yahoo/x-iwethtxfpftxoggv] has quit [Ping timeout: 246 seconds]
+19:55 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has quit [Quit: Leaving.]
+19:56 -!- yorick [~yorick@oftn/member/yorick] has quit [Remote host closed the connection]
+20:00 -!- ircretary [~ircretary@165.225.132.207] has joined #stackvm
+20:01 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has quit [Remote host closed the connection]
+20:04 < rowbit1> Daily usage stats: [developer: 18, free: 115]
+20:04 < rowbit1> Hourly usage stats: [developer: 0, free: 14]
+20:09 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+20:09 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has quit [Ping timeout: 255 seconds]
+20:14 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Remote host closed the connection]
+20:20 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+20:21 -!- rta [~rta@2001:c08:3700:ffff::81] has quit [Ping timeout: 246 seconds]
+20:22 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has quit [Ping timeout: 255 seconds]
+20:25 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Remote host closed the connection]
+20:36 -!- rta [~rta@2001:c08:3700:ffff::24d9] has joined #stackvm
+20:36 -!- pfraze [~unsafe@cpe-70-113-196-4.austin.res.rr.com] has quit [Ping timeout: 255 seconds]
+20:36 -!- contrahax [~contrahax@206.29.182.237] has quit [Quit: Sleeping]
+20:38 -!- ednapiranha [~ednapiran@2601:7:780:520:5442:5baa:c143:62f9] has joined #stackvm
+20:43 -!- ednapiranha [~ednapiran@2601:7:780:520:5442:5baa:c143:62f9] has quit [Ping timeout: 265 seconds]
+20:50 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+20:53 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+20:56 -!- collypops [~collypops@202.6.74.6] has joined #stackvm
+20:58 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has quit [Ping timeout: 255 seconds]
+21:12 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has quit [Remote host closed the connection]
+21:14 -!- trevnorris [~trevnorri@162.243.211.225] has quit [Ping timeout: 255 seconds]
+21:17 -!- rta [~rta@2001:c08:3700:ffff::24d9] has quit [Ping timeout: 245 seconds]
+21:21 -!- Maciek416 [~Maciek@12.207.21.194] has joined #stackvm
+21:21 < rowbit1> Hourly usage stats: [developer: 1, free: 8]
+21:28 -!- pfraze [~unsafe@cpe-70-113-196-4.austin.res.rr.com] has joined #stackvm
+21:29 -!- trevnorris [~trevnorri@162.243.211.225] has joined #stackvm
+21:31 -!- rta [~rta@2001:c08:3700:ffff::1381] has joined #stackvm
+21:35 -!- ednapiranha [~ednapiran@2601:7:780:520:8465:d4c3:4815:e3b8] has joined #stackvm
+21:35 -!- stagas [~stagas@78-79-79.adsl.cyta.gr] has quit [Ping timeout: 252 seconds]
+21:37 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has joined #stackvm
+21:38 -!- pfallenop [~pfallenop@unaffiliated/contempt] has quit [Ping timeout: 240 seconds]
+21:40 -!- pfallenop [~pfallenop@unaffiliated/contempt] has joined #stackvm
+21:40 -!- ednapiranha [~ednapiran@2601:7:780:520:8465:d4c3:4815:e3b8] has quit [Ping timeout: 265 seconds]
+21:41 -!- mmckegg [uid28034@gateway/web/irccloud.com/x-mmbobreluvhqltwc] has quit [Quit: Connection closed for inactivity]
+21:43 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has joined #stackvm
+21:45 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has quit [Read error: Connection reset by peer]
+21:54 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has joined #stackvm
+21:59 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has quit [Ping timeout: 240 seconds]
+22:00 -!- contrahax [~contrahax@ip24-251-13-101.ph.ph.cox.net] has joined #stackvm
+22:02 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has quit [Ping timeout: 246 seconds]
+22:04 -!- jhizzle [~jhizzle@ool-2f12ca0f.dyn.optonline.net] has joined #stackvm
+17:49 < ogd> juliangruber: also did they ban you from putting client side stuff on npm? :P
+17:51 < stagas> substack: why did you build this, I'm gonna just waste my life here
+                http://studio.substack.net/polytropon?time=1396820977526
+17:55 < pfraze> wow, that's getting pretty involved
+17:57 < ogd> stagas: omg awesome
+17:57 < stagas> ogd: thanks! :D
+17:59 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout: 240 seconds]
+18:04 < rowbit1> Hourly usage stats: [developer: 1, free: 17]
+18:17 -!- kanzure [~kanzure@131.252.130.248] has joined #stackvm
+18:20 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has quit [Quit: Leaving.]
+18:24 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+18:32 -!- contrahax [~contrahax@ip24-251-13-101.ph.ph.cox.net] has quit [Quit: Sleeping]
+18:53 -!- AvianFlu [~avianflu@198.199.82.25] has joined #stackvm
+19:04 < rowbit1> Hourly usage stats: [developer: 7, free: 5]
+19:09 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has joined #stackvm
+19:11 < rowbit1> substack, pkrumins: These encoders are STILL down: 50.56.27.70(dev-ie6-1)
+19:19 -!- i_m_ca [~kdawes@216-197-138-60.sktn.hsdb.sasknet.sk.ca] has quit [Ping timeout: 268 seconds]
+19:19 -!- pfallenop [~pfallenop@unaffiliated/contempt] has quit [Ping timeout: 255 seconds]
+19:20 -!- pfallenop [~pfallenop@unaffiliated/contempt] has joined #stackvm
+19:26 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has quit [Quit: Leaving.]
+19:30 -!- feross [~feross@c-98-248-36-96.hsd1.ca.comcast.net] has joined #stackvm
+19:32 -!- contrahax [~contrahax@206.29.182.237] has joined #stackvm
+19:35 -!- feross_ [~feross@nat/yahoo/x-iwethtxfpftxoggv] has joined #stackvm
+19:35 -!- feross [~feross@c-98-248-36-96.hsd1.ca.comcast.net] has quit [Ping timeout: 255 seconds]
+19:35 -!- feross_ is now known as feross
+19:39 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has joined #stackvm
+19:46 -!- jdresume [~jdresume@195.34.78.75] has joined #stackvm
+19:52 -!- feross [~feross@nat/yahoo/x-iwethtxfpftxoggv] has quit [Ping timeout: 246 seconds]
+19:55 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has quit [Quit: Leaving.]
+19:56 -!- yorick [~yorick@oftn/member/yorick] has quit [Remote host closed the connection]
+20:00 -!- ircretary [~ircretary@165.225.132.207] has joined #stackvm
+20:01 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has quit [Remote host closed the connection]
+20:04 < rowbit1> Daily usage stats: [developer: 18, free: 115]
+20:04 < rowbit1> Hourly usage stats: [developer: 0, free: 14]
+20:09 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+20:09 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has quit [Ping timeout: 255 seconds]
+20:14 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Remote host closed the connection]
+20:20 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+20:21 -!- rta [~rta@2001:c08:3700:ffff::81] has quit [Ping timeout: 246 seconds]
+20:22 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has quit [Ping timeout: 255 seconds]
+20:25 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Remote host closed the connection]
+20:36 -!- rta [~rta@2001:c08:3700:ffff::24d9] has joined #stackvm
+20:36 -!- pfraze [~unsafe@cpe-70-113-196-4.austin.res.rr.com] has quit [Ping timeout: 255 seconds]
+20:36 -!- contrahax [~contrahax@206.29.182.237] has quit [Quit: Sleeping]
+20:38 -!- ednapiranha [~ednapiran@2601:7:780:520:5442:5baa:c143:62f9] has joined #stackvm
+20:43 -!- ednapiranha [~ednapiran@2601:7:780:520:5442:5baa:c143:62f9] has quit [Ping timeout: 265 seconds]
+20:50 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+20:53 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+20:56 -!- collypops [~collypops@202.6.74.6] has joined #stackvm
+20:58 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has quit [Ping timeout: 255 seconds]
+21:12 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has quit [Remote host closed the connection]
+21:14 -!- trevnorris [~trevnorri@162.243.211.225] has quit [Ping timeout: 255 seconds]
+21:17 -!- rta [~rta@2001:c08:3700:ffff::24d9] has quit [Ping timeout: 245 seconds]
+21:21 -!- Maciek416 [~Maciek@12.207.21.194] has joined #stackvm
+21:21 < rowbit1> Hourly usage stats: [developer: 1, free: 8]
+21:28 -!- pfraze [~unsafe@cpe-70-113-196-4.austin.res.rr.com] has joined #stackvm
+21:29 -!- trevnorris [~trevnorri@162.243.211.225] has joined #stackvm
+21:31 -!- rta [~rta@2001:c08:3700:ffff::1381] has joined #stackvm
+21:35 -!- ednapiranha [~ednapiran@2601:7:780:520:8465:d4c3:4815:e3b8] has joined #stackvm
+21:35 -!- stagas [~stagas@78-79-79.adsl.cyta.gr] has quit [Ping timeout: 252 seconds]
+21:37 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has joined #stackvm
+21:38 -!- pfallenop [~pfallenop@unaffiliated/contempt] has quit [Ping timeout: 240 seconds]
+21:40 -!- pfallenop [~pfallenop@unaffiliated/contempt] has joined #stackvm
+21:40 -!- ednapiranha [~ednapiran@2601:7:780:520:8465:d4c3:4815:e3b8] has quit [Ping timeout: 265 seconds]
+21:41 -!- mmckegg [uid28034@gateway/web/irccloud.com/x-mmbobreluvhqltwc] has quit [Quit: Connection closed for inactivity]
+21:43 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has joined #stackvm
+21:45 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has quit [Read error: Connection reset by peer]
+21:54 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has joined #stackvm
+21:59 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has quit [Ping timeout: 240 seconds]
+22:00 -!- contrahax [~contrahax@ip24-251-13-101.ph.ph.cox.net] has joined #stackvm
+22:02 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has quit [Ping timeout: 246 seconds]
+22:04 -!- jhizzle [~jhizzle@ool-2f12ca0f.dyn.optonline.net] has joined #stackvm
+21:23 < EionRobb> on what platform?
+21:24 < aaron1245> ios
+21:34 < aaron1245> i got the devices logs and this popped out at me
+21:34 < aaron1245> SpringBoard[33] <Warning>: Killing com.langrandco.sales for termination assertion
+21:38 -!- pasevin [~pasevin@host86-151-110-124.range86-151.btcentralplus.com] has quit [Quit: My MacBook Pro has gone to sleep.
+          ZZZzzz&]
+21:40 < aaron1245> randomly removing plugins fixed it.  I think it was the splash screen plugin
+21:40 < aaron1245> shooting in the dark for hours on end works sometimes i guess
+21:41 < aaron1245> i havent updated anything else&.it just stopped working.  strange, but oh well
+21:42 -!- Allyz [~Allyz@113x33x180x18.ap113.ftth.ucom.ne.jp] has joined #phonegap
+21:46 -!- torlanco [~torlanco@pppoe.202.195.netband.caribe.net] has joined #phonegap
+21:47 -!- djbutterchicken [~djbutterc@118-92-142-37.dsl.dyn.ihug.co.nz] has joined #phonegap
+21:51 -!- torlanco [~torlanco@pppoe.202.195.netband.caribe.net] has quit [Ping timeout: 255 seconds]
+21:56 -!- BorisKourt [~textual@75-119-226-115.dsl.teksavvy.com] has joined #phonegap
+22:02 -!- djbutterchicken [~djbutterc@118-92-142-37.dsl.dyn.ihug.co.nz] has quit [Ping timeout: 246 seconds]
+22:09 -!- visionary [~visionary@ppp-71-139-168-49.dsl.snfc21.pacbell.net] has joined #phonegap
+22:11 -!- the_dave [dave@unaffiliated/chemicalburn] has quit []
+22:13 < devgeeks> aaron1245: try safari remote debugging... set an alert() really early in the js... that will pause it long
+16:40 -!- rannmann [~rez@pdpc/supporter/student/rannmann] has quit [Disconnected by services]
+16:40 -!- dsfadf [~rez@c-73-53-122-194.hsd1.wa.comcast.net] has joined #stackvm
+16:44 -!- jesusabd1llah [~jesusabdu@199.180.254.206] has joined #stackvm
+16:45 -!- kenperkins_ [~textual@c-67-160-41-4.hsd1.wa.comcast.net] has joined #stackvm
+16:46 -!- i_m_ca [~kdawes@216-197-138-60.sktn.hsdb.sasknet.sk.ca] has joined #stackvm
+16:47 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has joined #stackvm
+16:47 -!- spader [~terinjoke@wikinews/Terinjokes] has joined #stackvm
+16:48 -!- Netsplit *.net <-> *.split quits: ins0mnia, kenperkins, jesusabdullah, ircretary, jxson, terinjokes
+16:48 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has quit [Quit: Leaving...]
+16:48 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+16:48 -!- jxson_ [~jxson@cpe-76-173-251-8.socal.res.rr.com] has quit [Remote host closed the connection]
+16:49 -!- Netsplit over, joins: jxson
+16:50 -!- ryan_ramage [~eckoit@couchdb/committer/ryanramage] has quit [Quit: ryan_ramage]
+16:51 -!- i_m_ca [~kdawes@216-197-138-60.sktn.hsdb.sasknet.sk.ca] has quit [Ping timeout: 252 seconds]
+16:52 -!- jesusabd1llah is now known as jesusabdullah
+16:56 -!- jxson [~jxson@cpe-76-173-251-8.socal.res.rr.com] has quit [Remote host closed the connection]
+16:59 -!- trevnorris [~trevnorri@162.243.211.225] has quit [Ping timeout: 240 seconds]
+17:01 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Remote host closed the connection]
+17:02 -!- kanzure [~kanzure@131.252.130.248] has quit [Ping timeout: 255 seconds]
+17:04 < rowbit1> Hourly usage stats: [developer: 3, free: 15]
+17:04 -!- trevnorris [~trevnorri@162.243.211.225] has joined #stackvm
+17:10 -!- i_m_ca [~kdawes@216-197-138-60.sktn.hsdb.sasknet.sk.ca] has joined #stackvm
+17:17 -!- kanzure [~kanzure@131.252.130.248] has joined #stackvm
+17:17 -!- jden_afk is now known as jden
+17:18 -!- kanzure [~kanzure@131.252.130.248] has quit [Client Quit]
+17:20 -!- Maciek416 [~Maciek@2601:7:780:520:e8f1:9053:afdf:fb94] has quit [Quit: Leaving...]
+17:30 -!- cpup [~cpup@69-183-26-19.adsl.snet.net] has joined #stackvm
+17:48 < ogd> juliangruber: just curious, is it segmentio policy to put open source projects under the /segmentio organization?
+17:49 < ogd> juliangruber: also did they ban you from putting client side stuff on npm? :P
+17:51 < stagas> substack: why did you build this, I'm gonna just waste my life here
+                http://studio.substack.net/polytropon?time=1396820977526
+17:55 < pfraze> wow, that's getting pretty involved
+17:57 < ogd> stagas: omg awesome
+17:57 < stagas> ogd: thanks! :D
+17:59 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout: 240 seconds]
+18:04 < rowbit1> Hourly usage stats: [developer: 1, free: 17]
+18:17 -!- kanzure [~kanzure@131.252.130.248] has joined #stackvm
+18:20 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has quit [Quit: Leaving.]
+18:24 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+18:32 -!- contrahax [~contrahax@ip24-251-13-101.ph.ph.cox.net] has quit [Quit: Sleeping]
+18:53 -!- AvianFlu [~avianflu@198.199.82.25] has joined #stackvm
+19:04 < rowbit1> Hourly usage stats: [developer: 7, free: 5]
+19:09 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has joined #stackvm
+19:11 < rowbit1> substack, pkrumins: These encoders are STILL down: 50.56.27.70(dev-ie6-1)
+19:19 -!- i_m_ca [~kdawes@216-197-138-60.sktn.hsdb.sasknet.sk.ca] has quit [Ping timeout: 268 seconds]
+19:19 -!- pfallenop [~pfallenop@unaffiliated/contempt] has quit [Ping timeout: 255 seconds]
+19:20 -!- pfallenop [~pfallenop@unaffiliated/contempt] has joined #stackvm
+19:26 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has quit [Quit: Leaving.]
+19:30 -!- feross [~feross@c-98-248-36-96.hsd1.ca.comcast.net] has joined #stackvm
+19:32 -!- contrahax [~contrahax@206.29.182.237] has joined #stackvm
+19:35 -!- feross_ [~feross@nat/yahoo/x-iwethtxfpftxoggv] has joined #stackvm
+19:35 -!- feross [~feross@c-98-248-36-96.hsd1.ca.comcast.net] has quit [Ping timeout: 255 seconds]
+19:35 -!- feross_ is now known as feross
+19:39 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has joined #stackvm
+19:46 -!- jdresume [~jdresume@195.34.78.75] has joined #stackvm
+19:52 -!- feross [~feross@nat/yahoo/x-iwethtxfpftxoggv] has quit [Ping timeout: 246 seconds]
+19:55 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has quit [Quit: Leaving.]
+19:56 -!- yorick [~yorick@oftn/member/yorick] has quit [Remote host closed the connection]
+20:00 -!- ircretary [~ircretary@165.225.132.207] has joined #stackvm
+20:01 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has quit [Remote host closed the connection]
+20:04 < rowbit1> Daily usage stats: [developer: 18, free: 115]
+20:04 < rowbit1> Hourly usage stats: [developer: 0, free: 14]
+20:09 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+20:09 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has quit [Ping timeout: 255 seconds]
+20:14 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Remote host closed the connection]
+20:20 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+20:21 -!- rta [~rta@2001:c08:3700:ffff::81] has quit [Ping timeout: 246 seconds]
+20:22 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has quit [Ping timeout: 255 seconds]
+20:25 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Remote host closed the connection]
+20:36 -!- rta [~rta@2001:c08:3700:ffff::24d9] has joined #stackvm
+20:36 -!- pfraze [~unsafe@cpe-70-113-196-4.austin.res.rr.com] has quit [Ping timeout: 255 seconds]
+20:36 -!- contrahax [~contrahax@206.29.182.237] has quit [Quit: Sleeping]
+20:38 -!- ednapiranha [~ednapiran@2601:7:780:520:5442:5baa:c143:62f9] has joined #stackvm
+20:43 -!- ednapiranha [~ednapiran@2601:7:780:520:5442:5baa:c143:62f9] has quit [Ping timeout: 265 seconds]
+20:50 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has joined #stackvm
+20:53 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+20:56 -!- collypops [~collypops@202.6.74.6] has joined #stackvm
+20:58 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has quit [Ping timeout: 255 seconds]
+21:12 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has quit [Remote host closed the connection]
+21:14 -!- trevnorris [~trevnorri@162.243.211.225] has quit [Ping timeout: 255 seconds]
+21:17 -!- rta [~rta@2001:c08:3700:ffff::24d9] has quit [Ping timeout: 245 seconds]
+21:21 -!- Maciek416 [~Maciek@12.207.21.194] has joined #stackvm
+21:21 < rowbit1> Hourly usage stats: [developer: 1, free: 8]
+21:28 -!- pfraze [~unsafe@cpe-70-113-196-4.austin.res.rr.com] has joined #stackvm
+21:29 -!- trevnorris [~trevnorri@162.243.211.225] has joined #stackvm
+21:31 -!- rta [~rta@2001:c08:3700:ffff::1381] has joined #stackvm
+21:35 -!- ednapiranha [~ednapiran@2601:7:780:520:8465:d4c3:4815:e3b8] has joined #stackvm
+21:35 -!- stagas [~stagas@78-79-79.adsl.cyta.gr] has quit [Ping timeout: 252 seconds]
+21:37 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has joined #stackvm
+21:38 -!- pfallenop [~pfallenop@unaffiliated/contempt] has quit [Ping timeout: 240 seconds]
+21:40 -!- pfallenop [~pfallenop@unaffiliated/contempt] has joined #stackvm
+21:40 -!- ednapiranha [~ednapiran@2601:7:780:520:8465:d4c3:4815:e3b8] has quit [Ping timeout: 265 seconds]
+21:41 -!- mmckegg [uid28034@gateway/web/irccloud.com/x-mmbobreluvhqltwc] has quit [Quit: Connection closed for inactivity]
+21:43 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has joined #stackvm
+21:45 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has quit [Read error: Connection reset by peer]
+21:54 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has joined #stackvm
+21:59 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has quit [Ping timeout: 240 seconds]
+22:00 -!- contrahax [~contrahax@ip24-251-13-101.ph.ph.cox.net] has joined #stackvm
+22:02 -!- mikolalysenko [~mikolalys@76-232-30-51.lightspeed.cicril.sbcglobal.net] has quit [Ping timeout: 246 seconds]
+22:04 -!- jhizzle [~jhizzle@ool-2f12ca0f.dyn.optonline.net] has joined #stackvm
+22:08 -!- ednapiranha [~ednapiran@2601:7:780:520:d18e:2a64:462f:185c] has joined #stackvm
+22:09 < jhizzle> Gg fjords
+22:13 -!- ednapiranha [~ednapiran@2601:7:780:520:d18e:2a64:462f:185c] has quit [Ping timeout: 265 seconds]
+22:14 -!- feross [~feross@c-98-248-36-96.hsd1.ca.comcast.net] has joined #stackvm
+22:18 -!- jhizzle [~jhizzle@ool-2f12ca0f.dyn.optonline.net] has quit [Remote host closed the connection]
+22:19 -!- ednapiranha [~ednapiran@2601:7:780:520:155:b6d:a59e:9034] has joined #stackvm
+22:21 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has joined #stackvm
+22:21 < rowbit1> Hourly usage stats: [developer: 0, free: 15]
+22:26 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has quit [Ping timeout: 252 seconds]
+22:35 -!- dsfadf is now known as rannmann
+22:35 -!- rannmann [~rez@c-73-53-122-194.hsd1.wa.comcast.net] has quit [Changing host]
+22:35 -!- rannmann [~rez@pdpc/supporter/student/rannmann] has joined #stackvm
+22:38 -!- occamshatchet [~occamshat@69.253.73.241] has quit [Quit: WeeChat 0.4.3]
+22:41 -!- Maciek416 [~Maciek@12.207.21.194] has quit [Remote host closed the connection]
+22:41 -!- thlorenz [~thlorenz@cpe-68-173-97-224.nyc.res.rr.com] has quit [Remote host closed the connection]
+23:01 -!- dguttman [~david@cpe-142-129-79-131.socal.res.rr.com] has quit [Quit: dguttman]
+23:12 -!- rta [~rta@2001:c08:3700:ffff::1381] has quit [Ping timeout: 245 seconds]
+23:21 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has joined #stackvm
+23:21 < rowbit1> Hourly usage stats: [developer: 1, free: 11]
+23:26 -!- rta [~rta@2001:c08:3700:ffff::436d] has joined #stackvm
+23:26 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has quit [Ping timeout: 246 seconds]
+23:35 -!- pfraze [~unsafe@cpe-70-113-196-4.austin.res.rr.com] has quit [Ping timeout: 255 seconds]
+23:36 -!- maksimlin [~chatzilla@ppp118-209-164-94.lns20.mel6.internode.on.net] has joined #stackvm
+23:53 -!- indexzero [~indexzero@cpe-67-244-20-250.nyc.res.rr.com] has joined #stackvm
+23:56 -!- contrahax [~contrahax@ip24-251-13-101.ph.ph.cox.net] has quit [Read error: Connection reset by peer]
+23:57 -!- contrahax [~contrahax@ip24-251-13-101.ph.ph.cox.net] has joined #stackvm
+Day changed to 07 Apr 2014
+00:01 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has joined #stackvm
+00:08 -!- Maciek416 [~Maciek@12.207.21.194] has joined #stackvm
+00:21 < rowbit1> Hourly usage stats: [developer: 3, free: 24]
+00:30 -!- indexzero [~indexzero@cpe-67-244-20-250.nyc.res.rr.com] has quit [Quit: indexzero]
+00:42 -!- indexzero [~indexzero@cpe-67-244-20-250.nyc.res.rr.com] has joined #stackvm
+00:45 -!- hoobdeebla [~hoobdeebl@ip70-190-42-239.ph.ph.cox.net] has quit []
+00:46 -!- indexzero [~indexzero@cpe-67-244-20-250.nyc.res.rr.com] has quit [Client Quit]
+00:50 -!- spader is now known as terinjokes
+01:00 -!- i_m_ca [~kdawes@216-197-138-60.sktn.hsdb.sasknet.sk.ca] has joined #stackvm
+01:07 -!- contrahax [~contrahax@ip24-251-13-101.ph.ph.cox.net] has quit [Quit: Sleeping]
+01:11 -!- i_m_ca [~kdawes@216-197-138-60.sktn.hsdb.sasknet.sk.ca] has quit [Ping timeout: 255 seconds]
+01:20 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+01:21 < rowbit1> Hourly usage stats: [developer: 0, free: 20]
+01:26 -!- ins0mnia [~smuxi@host-95-204-229-160.mobileonline.telia.com] has joined #stackvm
+01:28 -!- tim_smart [~tim_smart@2001:470:1:41:a800:ff:fe3e:bc7a] has quit [Ping timeout: 245 seconds]
+01:29 -!- tim_smart [~tim_smart@2001:470:1:41:a800:ff:fe3e:bc7a] has joined #stackvm
+01:31 -!- dlmanning [~david@c-24-22-14-106.hsd1.or.comcast.net] has quit [Ping timeout: 264 seconds]
+01:31 -!- dlmanning [~david@c-24-22-14-106.hsd1.or.comcast.net] has joined #stackvm
+01:36 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Remote host closed the connection]
+01:40 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+01:55 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Remote host closed the connection]
+18:26 <jjjohnny> i
+02:01 -!- feross [~feross@c-98-248-36-96.hsd1.ca.comcast.net] has quit [Quit: feross]
+02:16 -!- ednapiranha [~ednapiran@2601:7:780:520:155:b6d:a59e:9034] has quit [Quit: Leaving...]
+02:17 -!- feross [~feross@c-98-248-36-96.hsd1.ca.comcast.net] has joined #stackvm
+02:21 < rowbit1> Hourly usage stats: [developer: 0, free: 36]
+02:30 -!- feross [~feross@c-98-248-36-96.hsd1.ca.comcast.net] has quit [Quit: feross]
+02:34 -!- mmckegg [uid28034@gateway/web/irccloud.com/x-zilmrujpsnhorxtz] has joined #stackvm
+02:41 -!- feross [~feross@c-98-248-36-96.hsd1.ca.comcast.net] has joined #stackvm
+02:46 -!- Maciek416 [~Maciek@12.207.21.194] has quit [Remote host closed the connection]
+03:09 -!- contrahax [~contrahax@ip24-251-13-101.ph.ph.cox.net] has joined #stackvm
+03:10 -!- contraha_ [~contrahax@ip24-251-13-101.ph.ph.cox.net] has joined #stackvm
+03:10 -!- peutetre [~peutetre@24-134-25-128-dynip.superkabel.de] has joined #stackvm
+03:13 -!- contrahax [~contrahax@ip24-251-13-101.ph.ph.cox.net] has quit [Ping timeout: 240 seconds]
+03:14 -!- fotoverite [~fotoverit@cpe-24-90-104-159.nyc.res.rr.com] has quit [Quit: fotoverite]
+03:21 < rowbit1> Hourly usage stats: [developer: 1, free: 38]
+03:25 < jjjohnny_> the bitcoin kind of protocol is funadementally a distributed ledger
+03:26 < jjjohnny_> that is the only kind of API that is needed for build single-page (ledge) apps that are distributed
+03:28 < jjjohnny_> NEW APP SINGLES TMMMMMM
+03:28 < LOUDBOT> ACHIEVEMENT UNLOCKED: SARAH PALIN
+03:28 < jjjohnny_> "KUDOS!"
+ Unofficial browserling/testling mad science channel. For official help /join #browserling
+03:28 < jjjohnny_> "KUDOS!" BITCH
+03:28 < LOUDBOT> THAT'S PRETTY LEET GIVE OR TAKE 7.3 SECONDS
+03:28 -!- contraha_ is now known as contrahax
+03:29 < jjjohnny_> SUPLEX TO THE TIME DOMAIN
+03:29 < LOUDBOT> ACHIEVEMENT UNLOCKED: EMBEDDED JAVASCRIPT
+03:30 < jjjohnny_> WELCOME TO THE LIBRARY IT GETS NFINITE EVERY DAY
+03:30 < LOUDBOT> THESE ACHIEVEMENTS DO, INDEED, SUCK.
+03:31 < jjjohnny_> HAHA WHERE THOSE STOCKS LIKE A BADGE, CODE MONKEY
+03:31 < LOUDBOT> PUSH IT TO GITHUB LIKE SOME RUBYFAG
+03:32 < jjjohnny_> LOUDBOT SHOULD BE SMARTER THAN TO HNAG OUT IN CHANNELS OF DULL REPORT
+03:32 < LOUDBOT> I'M A STUPID ASSHOLE. IT'S A RECURSIVE FUNCTION AND IT THE HASH IS LOCAL.
+03:33 < jjjohnny_> +1 FOR THE RHYME THO
+03:33 < LOUDBOT> SWEET JESUS IT REEKS OF DURIAN
+03:33 < jjjohnny_> SAID THE INEBRIATED ELEPHANT TO THE DRUNKEN MONKEY
+03:34 < LOUDBOT> FATSUIT OR BUN IN THE OVEN? NEWS AT 11.
+03:34 < jjjohnny_> MAN COULD BE BOTH KNOWING PROGRAMMERS.  OR ALL THREE.
+03:34 < LOUDBOT> MISS PIGGY'S CLEAVAGE IS IN THE WRONG SPOT IT SHOULD BE CLOSER TO HER CROTCH
+03:36 < jjjohnny_> LOUDBOT whois
+03:36 < jjjohnny_> LOUDBOT who said
+03:37 < jjjohnny_> LOUDBOT REVEAL THE IDENTITY OF THE PIGFUCKER
+03:37 < LOUDBOT> WHERE THE HELL DID SWORD COME FROM?
+03:38 < jjjohnny_> IT BEGAN LIFE AS AN ONAMONAPIA, SPELLED FOR ONA MONA PIA :^*
+03:38 < LOUDBOT> * HAS BUGS? WHO WOULD HAVE THUNK THAT?
+03:39 < jjjohnny_> POSSIBLE WORMSHOLE DETECTED INNER GALAXY
+03:39 < LOUDBOT> YOU HATE YOUR OWN COMMON HUMANITY
+03:40 < jjjohnny_> HATERS DONT LOVE THEMSELVES
+03:40 < LOUDBOT> WHERE MY TORNADOES AT
+03:41 < jjjohnny_> A REMINDER THAT THERE ARE HACKERS IN OHIO
+03:41 < LOUDBOT> THAT REMINDS ME THAT MY FAVORITE SEX PODCAST IS OUT TODAY. BRB
+03:42 < jjjohnny_> THAT IS VERY REGRESSIVE, IF YOU THINK ABOUT IT
+03:42 < LOUDBOT> SPACE BALL THE BREAKFAST CEREAL
+03:44 < jjjohnny_> FACE PLANT THE MULTI INSTRUMENTAL ANIMLTRONIC AND PERSONIFIED CACTUS
+03:44 < LOUDBOT> PUT THEM IN A TIME DILATION FIELD
+03:45 -!- djcoin [~djcoin@glo44-4-82-239-70-48.fbx.proxad.net] has joined #stackvm
+03:47 < jjjohnny_> OTHERWISE KNOWN AS A CUBICLE GOOD NIGHT FOLKS
+03:47 < LOUDBOT> MY EDITOR IS BETTER THEN YOUR OS
+jjjohnny_> OH YEEES I AM A BEAUX OS USER
+03:56 < LOUDBOT> LAUNDRY PERA-QUIT THIS CHANNEL BECAUSE OF AZURE MENTIONING THE THINGS YOU MIGHT BE HARDWARE RELATED, WHEN I HAD 
+                 A PALM PRE :)
+
+ [03:48] [jjjohnny_(+i)] [2:freenode/#stackvm(+cnt)] [Act: 4,5]
+[#stackvm]

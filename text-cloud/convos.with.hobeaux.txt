@@ -1,0 +1,1048 @@
+          timeout: 255 seconds]
+14:58 -!- ednapiranha [~ednapiran@206.169.237.184] has quit [Quit: Leaving...]
+14:59 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+15:04 -!- ednapiranha [~ednapiran@206.169.237.184] has joined #stackvm
+15:10 < jjjohnny> FUCK U NUM LOCK
+15:10 < LOUDBOT> CERTIFICATE FAILED< LICK ABORTED
+15:18 -!- kessler [~kessler@APuteaux-116-1-0-225.w193-248.abo.wanadoo.fr] has
+          joined #stackvm
+15:20 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has quit
+          [Quit: peutetre]
+15:25 < jjjohnny> domanic: package.json got fukked with somehow, fixed and PRed
+15:25 < domanic> you added a memdb are you sure that is needed?
+15:25 < jjjohnny> im testing browser
+15:26 < jjjohnny> sorry, that could be left out
+15:26 < jjjohnny> did i fuck up the package?
+15:26 < jjjohnny> keyboard went all keyboard cat
+15:27 < jjjohnny> anyway, is it futile to test in browser?
+15:27 < jjjohnny> im getting a buffer instace error with package eccjs currently
+15:28 < domanic> jjjohnny, ah it should work in the browser
+15:28 -!- hoobdeebla [~hoobdeebl@ip68-3-14-138.ph.ph.cox.net] has joined
+          #stackvm
+15:29 < jjjohnny> domanic: error from node_modules/eccjs/index.js:16
+15:30 < domanic> jjjohnny, stacktrace?
+15:31 < jjjohnny> basically from default.js
+15:31 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has
+          joined #stackvm
+15:31 < domanic> oh I think it might have been from if(!module.parent) ...
+15:32 < domanic> jjjohnny, the actual stacktrace will be more helpful.
+                 default.js just wraps it
+15:34 < jjjohnny> domanic: oh yeah its from !module.parent
+15:34 < jjjohnny> its the second console.log
+15:34 < jjjohnny> is there a better way to deliver a stack trace from chrome
+                  dev tools?
+15:35 < domanic> than copy paste?
+15:36 -!- kessler [~kessler@APuteaux-116-1-0-225.w193-248.abo.wanadoo.fr] has
+          quit [Ping timeout: 245 seconds]
+15:36 -!- hoobdeebla [~hoobdeebl@ip68-3-14-138.ph.ph.cox.net] has quit []
+15:36 < jjjohnny> https://gist.github.com/NHQ/511b477e8009b04c71eb
+15:37 -!- anvaka [~anvaka@2601:8:ac80:3f9:8d2:ab7a:4560:25d8] has joined
+          #stackvm
+15:37 < jjjohnny> yeah, than copy paste
+15:38 < domanic> jjjohnny, are you just running this with testling cli?
+15:39 < jjjohnny> nope
+15:39 < domanic> jjjohnny, okay pushed an update - including to eccjs, should
+                 work now.
+15:39 < domanic> jjjohnny, how are you running the browser tests?
+15:39 < jjjohnny> i'll branch my efforts
+15:40 < domanic> sweet
+15:40 < jjjohnny> browserify
+15:41 -!- anvaka [~anvaka@2601:8:ac80:3f9:8d2:ab7a:4560:25d8] has quit [Ping
+          timeout: 240 seconds]
+15:46 -!- phated_ is now known as phated
+15:46 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          joined #stackvm
+15:48 < jjjohnny> domanic: error at validate.js:26,1 by way of index.js:24,5
+15:48 < jjjohnny> can't read property hash of undefined
+15:48 -!- domanic [~domanic@static-72-89-243-19.nycmny.fios.verizon.net] has
+          quit [Ping timeout: 250 seconds]
+15:50 < jjjohnny> https://github.com/NHQ/secure-scuttlebutt/blob/johnny/browser.
+js
+15:53 -!- shama [~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net] has
+          quit []
+15:58 < jcrugzz> domanic: finally responded to my PR again ;). Also let me know
+                 when you have some time, we should get together while you are
+                 still in new york
+16:23 < jjjohnny> nm
+16:26 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Remote host closed the connection]
+16:26 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+16:31 -!- domanic [~domanic@static-72-89-243-19.nycmny.fios.verizon.net] has
+          joined #stackvm
+16:34 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 244 seconds]
+16:42 < jjjohnny> domanic: but wait, what do i do when i don't want that one
+                  comment to be public record anymore?
+16:44 < domanic> jjjohnny, how do you delete a message you have posted to
+                 secure scuttlebutt?
+16:45 < jjjohnny> yes
+16:45 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has quit
+          [Quit: peutetre]
+16:46 < jjjohnny> in the kitchen we said this is application level stuff iirc
+16:47 < jjjohnny> but like the data is everywhere "u/\
+16:51 -!- hoobdeebla [~hoobdeebl@ip68-3-14-138.ph.ph.cox.net] has joined
+          #stackvm
+17:09 < jjjohnny> PASSING THE SECURITY PUCK TO WHERE THE PUCK IS GOING TO BE
+17:09 < LOUDBOT> THANKS A LOT ADOBE, YOUR SHIT USED TO BE A LOT EASIER TO PIRATE
+17:09 < jjjohnny> ADOBE WOULD BE NOTHING WITHOUT PIRATES
+17:09 < LOUDBOT> WTF, KLINGONS DON'T WEAR PLAID
+17:13 < jjjohnny> INVASION OF THE KLINGSTERONS!!!
+17:13 < LOUDBOT> AKAMAI IS NOT YOUR PERSONAL ARMY
+17:14 < jjjohnny> THAT SYNDROME WHERE YOU SYM-PATH-ISE WITH YOUR EMPLOYER
+17:14 < LOUDBOT> THE MAN READS ALL MY DESIGN DOCUMENTS
+17:20 -!- taterbase [uid17123@gateway/web/irccloud.com/x-udvmyovlypcoemth] has
+          quit [Quit: Connection closed for inactivity]
+17:26 -!- anvaka [~anvaka@2601:8:ac80:3f9:ec17:c451:4d89:4709] has joined
+          #stackvm
+17:30 -!- anvaka [~anvaka@2601:8:ac80:3f9:ec17:c451:4d89:4709] has quit [Ping
+          timeout: 240 seconds]
+17:33 < domanic> jjjohnny, once you have told someone a secret, you cannot
+                 untell it.
+17:34 < domanic> either think carefully before you speak, or collect all the
+                 secure-scuttlebutt replicas and throw them into a black hole
+17:40 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+17:45 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 260 seconds]
+17:45 -!- AvianPhone [~AvianPhon@2600:1001:b11e:a6b5:5c6d:e92a:ee92:4d4a] has
+          joined #stackvm
+17:45 -!- _contrahax is now known as contrahax
+17:54 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          quit [Quit: thealphanerd]
+17:54 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+17:58 -!- sww [~sww@198.199.97.80] has joined #stackvm
+17:58 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 240 seconds]
+17:58 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #stackvm
+17:59 -!- sww [~sww@198.199.97.80] has quit [Quit: leaving]
+18:03 < domanic> domanic, the best you can really do is post another message
+                 asking everyone to disregard the "deleted" message.
+18:05 -!- andrewdeandrade [~user@208.66.27.18] has joined #stackvm
+18:14 -!- brianloveswords
+          [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has quit
+          [Quit: Computer has gone to sleep.]
+18:18 -!- brianloveswords
+          [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has joined
+          #stackvm
+18:24 -!- kessler [~kessler@APuteaux-116-1-0-184.w193-248.abo.wanadoo.fr] has
+          joined #stackvm
+18:31 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+18:36 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 250 seconds]
+18:37 -!- hoobdeebla [~hoobdeebl@ip68-3-14-138.ph.ph.cox.net] has quit [Remote
+          host closed the connection]
+18:46 -!- kessler [~kessler@APuteaux-116-1-0-184.w193-248.abo.wanadoo.fr] has
+          quit [Ping timeout: 260 seconds]
+18:52 -!- DTrejo [~dtrejo@199.116.72.155] has joined #stackvm
+18:52 -!- hoobdeebla [~hoobdeebl@wsip-70-184-118-239.ph.ph.cox.net] has joined
+          #stackvm
+18:53 -!- DTrejo [~dtrejo@199.116.72.155] has quit [Read error: Connection
+          reset by peer]
+18:53 -!- DTrejo [~dtrejo@199.116.72.155] has joined #stackvm
+18:56 -!- hoobdeebla [~hoobdeebl@wsip-70-184-118-239.ph.ph.cox.net] has quit
+          [Remote host closed the connection]
+18:58 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+18:59 -!- ednapiranha [~ednapiran@206.169.237.184] has quit [Quit: Leaving...]
+19:02 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 250 seconds]
+19:04 -!- contrahax [~contrahax@ip24-251-13-101.ph.ph.cox.net] has left
+          #stackvm []
+19:20 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+19:24 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 256 seconds]
+19:31 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+19:36 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 264 seconds]
+19:53 -!- knownasilya [uid22190@gateway/web/irccloud.com/x-ditedvhnqhfskfnx]
+          has quit [Quit: Connection closed for inactivity]
+20:00 -!- ircretary [~ircretary@165.225.132.207] has quit [Remote host closed
+          the connection]
+20:00 -!- domanic [~domanic@static-72-89-243-19.nycmny.fios.verizon.net] has
+          quit [Ping timeout: 240 seconds]
+20:00 -!- ircretary [~ircretary@165.225.132.207] has joined #stackvm
+20:00 -!- yorick [~yorick@oftn/member/yorick] has quit [Remote host closed the
+          connection]
+20:03 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          quit [Ping timeout: 260 seconds]
+20:03 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          joined #stackvm
+20:12 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has quit
+          [Quit: fotoverite]
+20:15 -!- domanic [~domanic@pool-108-21-223-110.nycmny.fios.verizon.net] has
+          joined #stackvm
+20:22 -!- ceejbot_ [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          joined #stackvm
+20:24 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          quit [Ping timeout: 260 seconds]
+20:37 -!- DTrejo [~dtrejo@199.116.72.155] has quit [Remote host closed the
+          connection]
+20:40 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+20:50 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 264 seconds]
+20:53 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout:
+          272 seconds]
+20:59 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+21:01 -!- andrewdeandrade [~user@208.66.27.18] has quit [Ping timeout: 256
+          seconds]
+21:04 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 256 seconds]
+21:08 -!- knownasilya [uid22190@gateway/web/irccloud.com/x-sugclpymutkupvit]
+          timeout: 240 seconds]
+17:33 < domanic> jjjohnny, once you have told someone a secret, you cannot
+                 untell it.
+17:34 < domanic> either think carefully before you speak, or collect all the
+                 secure-scuttlebutt replicas and throw them into a black hole
+17:40 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+17:45 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 260 seconds]
+17:45 -!- AvianPhone [~AvianPhon@2600:1001:b11e:a6b5:5c6d:e92a:ee92:4d4a] has
+          joined #stackvm
+17:45 -!- _contrahax is now known as contrahax
+17:54 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          quit [Quit: thealphanerd]
+17:54 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+17:58 -!- sww [~sww@198.199.97.80] has joined #stackvm
+17:58 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 240 seconds]
+17:58 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #stackvm
+17:59 -!- sww [~sww@198.199.97.80] has quit [Quit: leaving]
+18:03 < domanic> domanic, the best you can really do is post another message
+                 asking everyone to disregard the "deleted" message.
+18:05 -!- andrewdeandrade [~user@208.66.27.18] has joined #stackvm
+18:14 -!- brianloveswords
+          [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has quit
+          [Quit: Computer has gone to sleep.]
+18:18 -!- brianloveswords
+          [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has joined
+          #stackvm
+18:24 -!- kessler [~kessler@APuteaux-116-1-0-184.w193-248.abo.wanadoo.fr] has
+          joined #stackvm
+18:31 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+18:36 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 250 seconds]
+18:37 -!- hoobdeebla [~hoobdeebl@ip68-3-14-138.ph.ph.cox.net] has quit [Remote
+          host closed the connection]
+18:46 -!- kessler [~kessler@APuteaux-116-1-0-184.w193-248.abo.wanadoo.fr] has
+          quit [Ping timeout: 260 seconds]
+18:52 -!- DTrejo [~dtrejo@199.116.72.155] has joined #stackvm
+18:52 -!- hoobdeebla [~hoobdeebl@wsip-70-184-118-239.ph.ph.cox.net] has joined
+          #stackvm
+18:53 -!- DTrejo [~dtrejo@199.116.72.155] has quit [Read error: Connection
+          reset by peer]
+18:53 -!- DTrejo [~dtrejo@199.116.72.155] has joined #stackvm
+18:56 -!- hoobdeebla [~hoobdeebl@wsip-70-184-118-239.ph.ph.cox.net] has quit
+          [Remote host closed the connection]
+18:58 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+18:59 -!- ednapiranha [~ednapiran@206.169.237.184] has quit [Quit: Leaving...]
+19:02 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 250 seconds]
+19:04 -!- contrahax [~contrahax@ip24-251-13-101.ph.ph.cox.net] has left
+          #stackvm []
+19:20 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+19:24 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 256 seconds]
+19:31 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+19:36 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 264 seconds]
+19:53 -!- knownasilya [uid22190@gateway/web/irccloud.com/x-ditedvhnqhfskfnx]
+          has quit [Quit: Connection closed for inactivity]
+20:00 -!- ircretary [~ircretary@165.225.132.207] has quit [Remote host closed
+          the connection]
+20:00 -!- domanic [~domanic@static-72-89-243-19.nycmny.fios.verizon.net] has
+          quit [Ping timeout: 240 seconds]
+20:00 -!- ircretary [~ircretary@165.225.132.207] has joined #stackvm
+20:00 -!- yorick [~yorick@oftn/member/yorick] has quit [Remote host closed the
+          connection]
+20:03 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          quit [Ping timeout: 260 seconds]
+20:03 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          joined #stackvm
+20:12 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has quit
+          [Quit: fotoverite]
+20:15 -!- domanic [~domanic@pool-108-21-223-110.nycmny.fios.verizon.net] has
+          joined #stackvm
+20:22 -!- ceejbot_ [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          joined #stackvm
+20:24 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          quit [Ping timeout: 260 seconds]
+20:37 -!- DTrejo [~dtrejo@199.116.72.155] has quit [Remote host closed the
+          connection]
+20:40 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+20:50 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 264 seconds]
+20:53 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout:
+          272 seconds]
+20:59 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+21:01 -!- andrewdeandrade [~user@208.66.27.18] has quit [Ping timeout: 256
+          seconds]
+21:04 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 256 seconds]
+21:08 -!- knownasilya [uid22190@gateway/web/irccloud.com/x-sugclpymutkupvit]
+          has joined #stackvm
+21:12 -!- ednapiranha [~ednapiran@c-73-37-104-233.hsd1.or.comcast.net] has
+          joined #stackvm
+21:21 -!- nickleefly [uid21582@gateway/web/irccloud.com/x-cfrtdbifseqoddfe] has
+          joined #stackvm
+21:31 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+21:36 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 244 seconds]
+21:39 -!- ednapiranha [~ednapiran@c-73-37-104-233.hsd1.or.comcast.net] has quit
+          []
+21:41 < mmckegg> substack: on my way to raglan roast!
+21:43 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+21:48 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 240 seconds]
+21:57 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          the connection]
+20:00 -!- domanic [~domanic@static-72-89-243-19.nycmny.fios.verizon.net] has
+          quit [Ping timeout: 240 seconds]
+20:00 -!- ircretary [~ircretary@165.225.132.207] has joined #stackvm
+20:00 -!- yorick [~yorick@oftn/member/yorick] has quit [Remote host closed the
+          connection]
+20:03 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          quit [Ping timeout: 260 seconds]
+20:03 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          joined #stackvm
+20:12 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has quit
+          [Quit: fotoverite]
+20:15 -!- domanic [~domanic@pool-108-21-223-110.nycmny.fios.verizon.net] has
+          joined #stackvm
+20:22 -!- ceejbot_ [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          joined #stackvm
+20:24 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          quit [Ping timeout: 260 seconds]
+20:37 -!- DTrejo [~dtrejo@199.116.72.155] has quit [Remote host closed the
+          connection]
+20:40 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+20:50 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 264 seconds]
+20:53 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout:
+          272 seconds]
+20:59 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+21:01 -!- andrewdeandrade [~user@208.66.27.18] has quit [Ping timeout: 256
+          seconds]
+21:04 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 256 seconds]
+21:08 -!- knownasilya [uid22190@gateway/web/irccloud.com/x-sugclpymutkupvit]
+          has joined #stackvm
+21:12 -!- ednapiranha [~ednapiran@c-73-37-104-233.hsd1.or.comcast.net] has
+          joined #stackvm
+21:21 -!- nickleefly [uid21582@gateway/web/irccloud.com/x-cfrtdbifseqoddfe] has
+          joined #stackvm
+21:31 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+21:36 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 244 seconds]
+21:39 -!- ednapiranha [~ednapiran@c-73-37-104-233.hsd1.or.comcast.net] has quit
+          []
+21:41 < mmckegg> substack: on my way to raglan roast!
+21:43 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+21:48 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 240 seconds]
+21:57 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+22:02 < ahdinosaur> mmckegg substack: i'll join you there, that's real close to
+                    where i am now.
+          245 seconds]
+09:34 -!- navaru_ [~navaru@5-14-160-25.residential.rdsnet.ro] has quit []
+09:43 -!- kessler [~kessler@7-97-190-109.dsl.ovh.fr] has joined #stackvm
+09:51 -!- kessler [~kessler@7-97-190-109.dsl.ovh.fr] has quit [Ping timeout:
+          245 seconds]
+09:51 -!- kevinswiber [~kevinswib@c-71-238-79-154.hsd1.mi.comcast.net] has
+          joined #stackvm
+09:54 -!- dguttman [~david@cpe-142-129-79-131.socal.res.rr.com] has joined
+          #stackvm
+09:57 -!- domanic [~domanic@broadway41tr10.b.subnet.rcn.com] has joined #stackvm
+07:43 -!- knownasilya [uid22190@gateway/web/irccloud.com/x-cynsqjtcstxtsnne]
+          has quit [Quit: Connection closed for inactivity]
+07:45 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 255 seconds]
+07:50 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+07:51 -!- yorick [~yorick@oftn/member/yorick] has joined #stackvm
+07:51 -!- yoshuawuyts [~yoshuawuy@50708B0D.static.ziggozakelijk.nl] has joined
+          #stackvm
+07:58 -!- kessler [~kessler@7-97-190-109.dsl.ovh.fr] has joined #stackvm
+00:46 -!- jxson [~jxson@c-98-210-181-134.hsd1.ca.comcast.net] has quit [Remote
+          host closed the connection]
+00:46 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+00:47 -!- jxson [~jxson@c-98-210-181-134.hsd1.ca.comcast.net] has joined
+          #stackvm
+00:49 -!- AvianPhone [~AvianPhon@2600:1001:b118:76d9:ec09:e8c3:7a94:c66] has
+          quit [Ping timeout: 240 seconds]
+00:51 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 250 seconds]
+00:51 -!- jxson [~jxson@c-98-210-181-134.hsd1.ca.comcast.net] has quit [Ping
+          timeout: 240 seconds]
+00:54 -!- jxson [~jxson@c-98-210-181-134.hsd1.ca.comcast.net] has joined
+          #stackvm
+00:58 -!- zu [~zu@ks387228.kimsufi.com] has quit [Ping timeout: 256 seconds]
+00:58 < ahdinosaur> domanic: yeah, multiple keys as one would be awesome. :)
+                    it's better if you communicate with holons / agents more or
+                    less the same regardless if they are actually made up of
+                    multiple members, but that's the ideal case.
+00:58 -!- zu [~zu@ks387228.kimsufi.com] has joined #stackvm
+01:00 -!- ryan_stevens [~Adium@c-50-174-131-239.hsd1.ca.comcast.net] has left
+          #stackvm []
+01:00 -!- domanic [~domanic@static-72-89-243-19.nycmny.fios.verizon.net] has
+          quit [Ping timeout: 256 seconds]
+01:01 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+01:01 < ahdinosaur> ircretary: tell domanic it's also ideal if you can mask the
+                    members' identity through the identity of the group
+01:01 < ircretary> ahdinosaur: I'll be sure to tell domanic
+01:03 -!- Maciek416 [~Maciek@2601:7:400:2cd:2d35:6bc0:ed44:4ae] has joined
+          #stackvm
+01:06 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 260 seconds]
+01:07 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+01:07 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          joined #stackvm
+01:08 -!- contrahax is now known as _contrahax
+01:13 -!- knownasilya [uid22190@gateway/web/irccloud.com/x-jjpblxnqwxkklwei]
+          has quit [Quit: Connection closed for inactivity]
+01:21 -!- kessler [~kessler@APuteaux-116-1-0-175.w193-248.abo.wanadoo.fr] has
+          quit [Ping timeout: 255 seconds]
+01:22 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 264 seconds]
+01:23 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+01:27 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 250 seconds]
+01:31 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+01:37 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 240 seconds]
+01:40 -!- jxson [~jxson@c-98-210-181-134.hsd1.ca.comcast.net] has quit [Remote
+          host closed the connection]
+01:43 < feross> defunctzombie: just sent a PR to fix a bug in zuul
+                https://github.com/defunctzombie/zuul/pull/67
+01:48 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+01:50 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          quit [Remote host closed the connection]
+01:53 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 245 seconds]
+02:19 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+02:21 -!- yoshuawuyts [~yoshuawuy@50708B0D.static.ziggozakelijk.nl] has joined
+          #stackvm
+02:24 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 240 seconds]
+02:25 -!- yoshuawuyts [~yoshuawuy@50708B0D.static.ziggozakelijk.nl] has quit
+          [Ping timeout: 256 seconds]
+02:28 -!- kessler [~kessler@lab75-5-88-166-113-191.fbx.proxad.net] has joined
+          #stackvm
+02:31 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+02:43 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 260 seconds]
+02:46 -!- warbrett [~warbrett@ip68-231-150-170.tc.ph.cox.net] has joined
+          #stackvm
+02:46 -!- warbrett [~warbrett@ip68-231-150-170.tc.ph.cox.net] has quit [Client
+          Quit]
+02:51 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+02:55 -!- Maciek416 [~Maciek@2601:7:400:2cd:2d35:6bc0:ed44:4ae] has quit
+          [Remote host closed the connection]
+02:58 < jjjohnny> ssb isn't published yet  <_<
+03:00 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 250 seconds]
+03:01 -!- _contrahax is now known as contrahax
+03:12 -!- kessler [~kessler@lab75-5-88-166-113-191.fbx.proxad.net] has quit
+          [Ping timeout: 264 seconds]
+03:17 -!- djcoin [~djcoin@128-79-237-66.hfc.dyn.abo.bbox.fr] has joined #stackvm
+03:38 -!- kessler [~kessler@7-97-190-109.dsl.ovh.fr] has joined #stackvm
+03:41 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+03:45 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 260 seconds]
+03:53 -!- contrahax is now known as _contrahax
+03:58 -!- rwaldron [rwaldron@gateway/shell/jquery.com/x-wcasyybcnvjzhwsk] has
+          quit [Ping timeout: 264 seconds]
+03:59 -!- rwaldron [rwaldron@gateway/shell/jquery.com/x-dgejxcjycyuvzbkw] has
+          joined #stackvm
+04:10 -!- peutetre [~peutetre@46.114.40.83] has joined #stackvm
+04:15 < mmckegg> yo substack, are you gonna be hacking around wellington
+                 tomorrow (thurs)? I was thinking of finding a nice spot for
+                 the afternoon (maybe raglan roast while it's open) then
+                 heading to enspiral at 6pm
+04:17 < substack> mmckegg: yep!
+04:17 < substack> raglan sounds good
+04:18 < mmckegg> excellent!
+04:43 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          joined #stackvm
+04:43 -!- peutetre [~peutetre@46.114.40.83] has quit [Quit: peutetre]
+04:44 -!- Maciek416 [~Maciek@c-73-37-104-233.hsd1.or.comcast.net] has joined
+          #stackvm
+04:48 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          quit [Ping timeout: 245 seconds]
+04:48 -!- Maciek416 [~Maciek@c-73-37-104-233.hsd1.or.comcast.net] has quit
+          [Ping timeout: 245 seconds]
+04:53 -!- trygve [~trygve@li302-189.members.linode.com] has quit [Ping timeout:
+          266 seconds]
+04:53 -!- rf [~russfrank@oftn/member/russfrank] has quit [Ping timeout: 266
+          seconds]
+04:53 -!- trygve [~trygve@li302-189.members.linode.com] has joined #stackvm
+04:53 -!- djcoin [~djcoin@128-79-237-66.hfc.dyn.abo.bbox.fr] has quit [Ping
+          timeout: 264 seconds]
+04:54 -!- rf [~russfrank@li322-226.members.linode.com] has joined #stackvm
+04:55 -!- djcoin [~djcoin@128-79-237-66.hfc.dyn.abo.bbox.fr] has joined #stackvm
+04:56 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+04:57 -!- peutetre [~peutetre@p57B99BEF.dip0.t-ipconnect.de] has joined #stackvm
+05:00 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 240 seconds]
+05:14 < jjjohnny> feross: are chrome and FF data streams interoperable yet?
+05:17 -!- kessler [~kessler@7-97-190-109.dsl.ovh.fr] has quit [Ping timeout:
+          255 seconds]
+05:18 -!- knownasilya [uid22190@gateway/web/irccloud.com/x-cynsqjtcstxtsnne]
+          has joined #stackvm
+05:25 -!- kessler [~kessler@7-97-190-109.dsl.ovh.fr] has joined #stackvm
+05:41 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+05:46 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 272 seconds]
+05:57 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+06:01 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 245 seconds]
+06:17 -!- peutetre [~peutetre@p57B99BEF.dip0.t-ipconnect.de] has quit [Quit:
+          peutetre]
+06:23 -!- kessler [~kessler@7-97-190-109.dsl.ovh.fr] has quit [Ping timeout:
+          245 seconds]
+06:26 -!- kessler [~kessler@7-97-190-109.dsl.ovh.fr] has joined #stackvm
+06:33 -!- Maciek416 [~Maciek@c-73-37-104-233.hsd1.or.comcast.net] has joined
+          #stackvm
+06:37 -!- Maciek416 [~Maciek@c-73-37-104-233.hsd1.or.comcast.net] has quit
+          [Ping timeout: 240 seconds]
+06:49 -!- kessler [~kessler@7-97-190-109.dsl.ovh.fr] has quit [Ping timeout:
+          264 seconds]
+07:06 -!- peutetre [~peutetre@p57B99BEF.dip0.t-ipconnect.de] has joined #stackvm
+07:11 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has quit
+          [Quit: fotoverite]
+07:26 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+07:30 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 272 seconds]
+07:31 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+07:35 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 240 seconds]
+07:40 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+07:43 -!- knownasilya [uid22190@gateway/web/irccloud.com/x-cynsqjtcstxtsnne]
+          has quit [Quit: Connection closed for inactivity]
+07:45 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 255 seconds]
+07:50 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+07:51 -!- yorick [~yorick@oftn/member/yorick] has joined #stackvm
+07:51 -!- yoshuawuyts [~yoshuawuy@50708B0D.static.ziggozakelijk.nl] has joined
+          #stackvm
+07:58 -!- kessler [~kessler@7-97-190-109.dsl.ovh.fr] has joined #stackvm
+08:22 -!- Maciek416 [~Maciek@2601:7:400:2cd:e49a:687b:1ef1:5673] has joined
+          #stackvm
+08:26 -!- Maciek416 [~Maciek@2601:7:400:2cd:e49a:687b:1ef1:5673] has quit [Ping
+          timeout: 240 seconds]
+08:43 -!- kessler [~kessler@7-97-190-109.dsl.ovh.fr] has quit [Ping timeout:
+          264 seconds]
+08:43 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has joined
+          #stackvm
+08:55 -!- yoshuawuyts [~yoshuawuy@50708B0D.static.ziggozakelijk.nl] has quit []
+08:57 -!- AvianPhone [~AvianPhon@2600:1001:b118:76d9:ec09:e8c3:7a94:c66] has
+          joined #stackvm
+09:03 < ahdinosaur> mmckegg: ah right, enspiral at 6pm. :) maybe i'll come to
+                    raglan too.
+09:04 -!- kessler [~kessler@7-97-190-109.dsl.ovh.fr] has joined #stackvm
+09:06 -!- yoshuawuyts [~yoshuawuy@50708B0D.static.ziggozakelijk.nl] has joined
+          #stackvm
+09:07 -!- guybrush [~guybrush@dev.buzzle.at] has quit [Excess Flood]
+09:07 -!- guybrush [~guybrush@dev.buzzle.at] has joined #stackvm
+09:08 -!- brianloveswords
+          [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has joined
+          #stackvm
+09:11 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          joined #stackvm
+09:14 -!- kessler [~kessler@7-97-190-109.dsl.ovh.fr] has quit [Ping timeout:
+          255 seconds]
+09:17 < mmckegg> ahdinosaur: haha yup, I have a few things to show based on
+                 what we talked about last thurs. hopefully you don't hate it :)
+09:25 -!- kessler [~kessler@7-97-190-109.dsl.ovh.fr] has joined #stackvm
+09:25 < ahdinosaur> mmckegg: sweet as :)
+09:34 -!- kessler [~kessler@7-97-190-109.dsl.ovh.fr] has quit [Ping timeout:
+          245 seconds]
+09:34 -!- navaru_ [~navaru@5-14-160-25.residential.rdsnet.ro] has quit []
+09:43 -!- kessler [~kessler@7-97-190-109.dsl.ovh.fr] has joined #stackvm
+09:51 -!- kessler [~kessler@7-97-190-109.dsl.ovh.fr] has quit [Ping timeout:
+          245 seconds]
+09:51 -!- kevinswiber [~kevinswib@c-71-238-79-154.hsd1.mi.comcast.net] has
+          joined #stackvm
+09:54 -!- dguttman [~david@cpe-142-129-79-131.socal.res.rr.com] has joined
+          #stackvm
+09:57 -!- domanic [~domanic@broadway41tr10.b.subnet.rcn.com] has joined #stackvm
+10:09 -!- kessler [~kessler@7-97-190-109.dsl.ovh.fr] has joined #stackvm
+10:10 -!- ceejbot_ [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          joined #stackvm
+10:11 -!- Maciek416 [~Maciek@2601:7:400:2cd:8599:aa36:e5c5:d7cf] has joined
+          #stackvm
+10:12 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          quit [Ping timeout: 260 seconds]
+10:15 -!- Maciek416 [~Maciek@2601:7:400:2cd:8599:aa36:e5c5:d7cf] has quit [Ping
+          timeout: 240 seconds]
+10:18 < domanic> ahdinosaur, masking individual identies is more complicated;
+                 you might have to help me figure that one out.
+10:20 < domanic> but you could probably use something like a multikey signature
+                 to represent the group acting as a whole... I don't know very
+                 much a about how this works exactly though
+10:20 -!- kevinswiber [~kevinswib@c-71-238-79-154.hsd1.mi.comcast.net] has quit
+          [Remote host closed the connection]
+10:20 -!- peutetre [~peutetre@p57B99BEF.dip0.t-ipconnect.de] has quit [Quit:
+          peutetre]
+10:20 -!- kevinswiber [~kevinswib@c-71-238-79-154.hsd1.mi.comcast.net] has
+          joined #stackvm
+10:25 -!- kevinswiber [~kevinswib@c-71-238-79-154.hsd1.mi.comcast.net] has quit
+          [Ping timeout: 255 seconds]
+10:29 -!- peutetre [~peutetre@p57B99BEF.dip0.t-ipconnect.de] has joined #stackvm
+10:33 -!- kessler [~kessler@7-97-190-109.dsl.ovh.fr] has quit [Ping timeout:
+          272 seconds]
+10:36 -!- Maciek416 [~Maciek@2601:7:400:2cd:60d9:75da:76c9:5fc1] has joined
+          #stackvm
+10:37 -!- brianloveswords
+          [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has quit
+          [Quit: Computer has gone to sleep.]
+10:38 -!- AvianPhone [~AvianPhon@2600:1001:b118:76d9:ec09:e8c3:7a94:c66] has
+          quit [Ping timeout: 240 seconds]
+10:39 -!- nickleefly [uid21582@gateway/web/irccloud.com/x-bqcwpywwjqnkloax] has
+          joined #stackvm
+10:45 -!- kevinswiber [~kevinswib@c-71-238-79-154.hsd1.mi.comcast.net] has
+          joined #stackvm
+10:48 -!- domanic [~domanic@broadway41tr10.b.subnet.rcn.com] has quit [Ping
+          timeout: 264 seconds]
+10:51 -!- brianloveswords
+          [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has joined
+          #stackvm
+10:53 -!- ceejbot_ [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          quit [Ping timeout: 240 seconds]
+10:53 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          joined #stackvm
+10:57 -!- kessler [~kessler@7-97-190-109.dsl.ovh.fr] has joined #stackvm
+10:59 -!- pfraze [~pfraze@mail.wlion.com] has joined #stackvm
+11:00 -!- knownasilya [uid22190@gateway/web/irccloud.com/x-ditedvhnqhfskfnx]
+          has joined #stackvm
+11:09 -!- taterbase [uid17123@gateway/web/irccloud.com/x-udvmyovlypcoemth] has
+          joined #stackvm
+11:14 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          quit [Remote host closed the connection]
+11:14 -!- kessler [~kessler@7-97-190-109.dsl.ovh.fr] has quit [Ping timeout:
+          264 seconds]
+11:17 -!- yoshuawuyts [~yoshuawuy@50708B0D.static.ziggozakelijk.nl] has quit []
+11:18 -!- stagas [~stagas@77-7-139.static.cyta.gr] has joined #stackvm
+11:22 -!- kenperkins [~textual@c-24-22-251-201.hsd1.wa.comcast.net] has joined
+          #stackvm
+11:24 -!- kessler [~kessler@7-97-190-109.dsl.ovh.fr] has joined #stackvm
+11:25 -!- brianloveswords
+          [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has quit
+          [Quit: Computer has gone to sleep.]
+11:25 -!- peutetre [~peutetre@p57B99BEF.dip0.t-ipconnect.de] has quit [Quit:
+          peutetre]
+11:28 -!- kessler [~kessler@7-97-190-109.dsl.ovh.fr] has quit [Ping timeout:
+          272 seconds]
+11:29 -!- brianloveswords
+          [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has joined
+          #stackvm
+11:33 -!- naneau [~naneau@unaffiliated/naneau] has joined #stackvm
+11:36 -!- naneau [~naneau@unaffiliated/naneau] has quit [Remote host closed the
+          connection]
+11:37 -!- naneau [~naneau@unaffiliated/naneau] has joined #stackvm
+11:40 -!- ednapiranha [~ednapiran@206.169.237.184] has joined #stackvm
+11:55 < Domenic> streams question for designing whatwg/streams: if you call
+                 (the equivalent of) `this.push('a')` after alreayd closing the
+                 stream via (the equivalent of) `this.push(null)`, what should
+                 happen? Error, or silent failure?
+11:56 -!- domanic [~domanic@static-72-89-243-19.nycmny.fios.verizon.net] has
+          joined #stackvm
+11:56 < Domenic> by "error" I mean "the call to `this.push` throws an error"
+                 instead of "the stream becomes errored", because before you
+                 did that stupid thing hte stream was on track to close
+                 successfully, and it'd be silly to move it to errored state
+                 just because you did a stupid
+11:57 -!- kevinswiber [~kevinswib@c-71-238-79-154.hsd1.mi.comcast.net] has quit
+          []
+12:00 < ogd> mafintosh: o/
+12:03 < othiym23> Domenic: silent failure is more "traditional JavaScript",
+                  throwing is probably more helpful for finding edge cases and
+                  subtle bugs
+12:03 < Domenic> ya, that is kind of what i figured
+12:03 < Domenic> i am more curious if people have experience with node streams
+                 that would point one way or another
+12:08 -!- jxson [~jxson@c-98-210-181-134.hsd1.ca.comcast.net] has joined
+          #stackvm
+12:10 -!- jxson [~jxson@c-98-210-181-134.hsd1.ca.comcast.net] has quit [Remote
+          host closed the connection]
+12:15 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          joined #stackvm
+12:19 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          quit [Ping timeout: 245 seconds]
+12:23 < mafintosh> Domenic: you should throw. you basically just use .push(...)
+                   when implementing your own stream i.e. you don't expose it
+                   to the module interface. therefore the convinience of having
+                   of it silenty error isn't really that useful.
+12:26 -!- djcoin [~djcoin@128-79-237-66.hfc.dyn.abo.bbox.fr] has quit [Quit:
+          WeeChat 0.4.3]
+12:27 -!- brianloveswords
+          [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has quit
+          [Quit: Computer has gone to sleep.]
+12:27 -!- brianloveswords
+          [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has joined
+          #stackvm
+12:27 -!- pfraze [~pfraze@mail.wlion.com] has quit [Ping timeout: 255 seconds]
+12:29 -!- stagas [~stagas@77-7-139.static.cyta.gr] has quit [Ping timeout: 250
+          seconds]
+12:30 -!- peutetre [~peutetre@46.115.180.252] has joined #stackvm
+12:33 < jjjohnny> domanic: i'm missing something about ssb add method
+12:34 < jjjohnny> the examples and tests show add('msg', 'text', cb), but the
+                  code reads otherwise
+12:34 < jjjohnny> the add method accepts one string and a cb...
+12:35 < domanic> oh right
+12:35 < domanic> there is ssb.add(msg, cb) and feed.add(msg, type, cb)
+12:36 < jjjohnny> a-ha
+12:36 < domanic> that isn't documented very well, fixing
+12:43 < domanic> jjjohnny, fixed.
+12:45 -!- peutetre [~peutetre@46.115.180.252] has quit [Quit: peutetre]
+12:48 -!- domanic [~domanic@static-72-89-243-19.nycmny.fios.verizon.net] has
+          quit [Ping timeout: 260 seconds]
+12:50 -!- pfraze [~pfraze@rrcs-71-41-4-194.sw.biz.rr.com] has joined #stackvm
+12:54 -!- AvianPhone [~AvianPhon@2600:1001:b11e:a6b5:5c6d:e92a:ee92:4d4a] has
+          joined #stackvm
+12:58 -!- pfraze_ [~pfraze@rrcs-71-41-4-194.sw.biz.rr.com] has joined #stackvm
+12:59 -!- nickleefly [uid21582@gateway/web/irccloud.com/x-bqcwpywwjqnkloax] has
+          quit [Quit: Connection closed for inactivity]
+13:02 -!- pfraze [~pfraze@rrcs-71-41-4-194.sw.biz.rr.com] has quit [Ping
+          timeout: 260 seconds]
+13:07 -!- jxson [jxson@nat/google/x-cxptetceqdjtqfho] has joined #stackvm
+13:13 -!- shama [~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net] has
+          joined #stackvm
+13:16 -!- ceejbot [~ceejbot@172.5.154.148] has joined #stackvm
+13:20 -!- ceejbot [~ceejbot@172.5.154.148] has quit [Ping timeout: 240 seconds]
+13:21 < defunctzombie> feross: I saw the PR
+13:22 < defunctzombie> didn't have my computer last night
+13:22 < defunctzombie> will merge
+13:23 -!- naneau [~naneau@unaffiliated/naneau] has quit [Quit: Quit.]
+13:28 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          joined #stackvm
+13:38 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          quit [Remote host closed the connection]
+13:44 -!- defunctzombie is now known as defunctzombie_zz
+13:49 -!- anvaka [~anvaka@2601:8:ac80:3f9:b1e6:8822:190f:60dd] has joined
+          #stackvm
+13:53 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has
+          joined #stackvm
+13:53 < chrisdickinson> Domenic: I think node streams do their best to throw an
+                        error in that case:
+https://github.com/joyent/node/blob/master/lib/_stream_readable.js#L144-L145
+13:53 -!- anvaka [~anvaka@2601:8:ac80:3f9:b1e6:8822:190f:60dd] has quit [Ping
+          timeout: 240 seconds]
+13:54 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #stackvm
+13:54 < chrisdickinson> though you can happily keep pushing EOFs forever and
+                        ever, and `unshift` still works.
+13:59 -!- phated [~phated@wsip-184-176-136-106.ph.ph.cox.net] has joined
+          #stackvm
+13:59 -!- AvianPhone [~AvianPhon@2600:1001:b11e:a6b5:5c6d:e92a:ee92:4d4a] has
+          quit [Ping timeout: 240 seconds]
+14:00 -!- guybrush [~guybrush@dev.buzzle.at] has quit [Excess Flood]
+14:01 -!- guybrush [~guybrush@dev.buzzle.at] has joined #stackvm
+14:09 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          joined #stackvm
+14:15 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          quit [Ping timeout: 260 seconds]
+14:18 -!- domanic [~domanic@static-72-89-243-19.nycmny.fios.verizon.net] has
+          joined #stackvm
+14:22 -!- AvianFlu
+          [~AvianFlu@207-38-246-118.c3-0.43d-ubr2.qens-43d.ny.cable.rcn.com]
+          has joined #stackvm
+14:23 -!- phated [~phated@wsip-184-176-136-106.ph.ph.cox.net] has quit [Remote
+          host closed the connection]
+14:23 -!- phated [~phated@wsip-184-176-136-106.ph.ph.cox.net] has joined
+          #stackvm
+14:27 -!- phated_ [~phated@wsip-184-176-136-106.ph.ph.cox.net] has joined
+          #stackvm
+14:28 -!- phated [~phated@wsip-184-176-136-106.ph.ph.cox.net] has quit [Read
+          error: Connection reset by peer]
+14:50 -!- JohnRolomo [~McJesus@butts.the-jesus.com] has quit [Quit: ZNC -
+          http://znc.in]
+14:56 -!- pfraze_ [~pfraze@rrcs-71-41-4-194.sw.biz.rr.com] has quit [Ping
+          timeout: 255 seconds]
+14:58 -!- ednapiranha [~ednapiran@206.169.237.184] has quit [Quit: Leaving...]
+14:59 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+15:04 -!- ednapiranha [~ednapiran@206.169.237.184] has joined #stackvm
+15:10 < jjjohnny> FUCK U NUM LOCK
+15:10 < LOUDBOT> CERTIFICATE FAILED< LICK ABORTED
+15:18 -!- kessler [~kessler@APuteaux-116-1-0-225.w193-248.abo.wanadoo.fr] has
+          joined #stackvm
+15:20 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has quit
+          [Quit: peutetre]
+15:25 < jjjohnny> domanic: package.json got fukked with somehow, fixed and PRed
+15:25 < domanic> you added a memdb are you sure that is needed?
+15:25 < jjjohnny> im testing browser
+15:26 < jjjohnny> sorry, that could be left out
+15:26 < jjjohnny> did i fuck up the package?
+15:26 < jjjohnny> keyboard went all keyboard cat
+15:27 < jjjohnny> anyway, is it futile to test in browser?
+15:27 < jjjohnny> im getting a buffer instace error with package eccjs currently
+15:28 < domanic> jjjohnny, ah it should work in the browser
+15:28 -!- hoobdeebla [~hoobdeebl@ip68-3-14-138.ph.ph.cox.net] has joined
+          #stackvm
+15:29 < jjjohnny> domanic: error from node_modules/eccjs/index.js:16
+15:30 < domanic> jjjohnny, stacktrace?
+15:31 < jjjohnny> basically from default.js
+15:31 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has
+          joined #stackvm
+15:31 < domanic> oh I think it might have been from if(!module.parent) ...
+15:32 < domanic> jjjohnny, the actual stacktrace will be more helpful.
+                 default.js just wraps it
+15:34 < jjjohnny> domanic: oh yeah its from !module.parent
+15:34 < jjjohnny> its the second console.log
+15:34 < jjjohnny> is there a better way to deliver a stack trace from chrome
+                  dev tools?
+15:35 < domanic> than copy paste?
+15:36 -!- kessler [~kessler@APuteaux-116-1-0-225.w193-248.abo.wanadoo.fr] has
+          quit [Ping timeout: 245 seconds]
+15:36 -!- hoobdeebla [~hoobdeebl@ip68-3-14-138.ph.ph.cox.net] has quit []
+15:36 < jjjohnny> https://gist.github.com/NHQ/511b477e8009b04c71eb
+15:37 -!- anvaka [~anvaka@2601:8:ac80:3f9:8d2:ab7a:4560:25d8] has joined
+          #stackvm
+15:37 < jjjohnny> yeah, than copy paste
+15:38 < domanic> jjjohnny, are you just running this with testling cli?
+15:39 < jjjohnny> nope
+15:39 < domanic> jjjohnny, okay pushed an update - including to eccjs, should
+                 work now.
+15:39 < domanic> jjjohnny, how are you running the browser tests?
+15:39 < jjjohnny> i'll branch my efforts
+15:40 < domanic> sweet
+15:40 < jjjohnny> browserify
+15:41 -!- anvaka [~anvaka@2601:8:ac80:3f9:8d2:ab7a:4560:25d8] has quit [Ping
+          timeout: 240 seconds]
+15:46 -!- phated_ is now known as phated
+15:46 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          joined #stackvm
+15:48 < jjjohnny> domanic: error at validate.js:26,1 by way of index.js:24,5
+15:48 < jjjohnny> can't read property hash of undefined
+15:48 -!- domanic [~domanic@static-72-89-243-19.nycmny.fios.verizon.net] has
+          quit [Ping timeout: 250 seconds]
+15:50 < jjjohnny> https://github.com/NHQ/secure-scuttlebutt/blob/johnny/browser.
+js
+15:53 -!- shama [~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net] has
+          quit []
+15:58 < jcrugzz> domanic: finally responded to my PR again ;). Also let me know
+                 when you have some time, we should get together while you are
+                 still in new york
+16:23 < jjjohnny> nm
+16:26 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Remote host closed the connection]
+16:26 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+16:31 -!- domanic [~domanic@static-72-89-243-19.nycmny.fios.verizon.net] has
+          joined #stackvm
+16:34 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 244 seconds]
+16:42 < jjjohnny> domanic: but wait, what do i do when i don't want that one
+                  comment to be public record anymore?
+16:44 < domanic> jjjohnny, how do you delete a message you have posted to
+                 secure scuttlebutt?
+16:45 < jjjohnny> yes
+16:45 -!- peutetre [~peutetre@ip18861980.dynamic.kabel-deutschland.de] has quit
+          [Quit: peutetre]
+16:46 < jjjohnny> in the kitchen we said this is application level stuff iirc
+16:47 < jjjohnny> but like the data is everywhere "u/\
+16:51 -!- hoobdeebla [~hoobdeebl@ip68-3-14-138.ph.ph.cox.net] has joined
+          #stackvm
+17:09 < jjjohnny> PASSING THE SECURITY PUCK TO WHERE THE PUCK IS GOING TO BE
+17:09 < LOUDBOT> THANKS A LOT ADOBE, YOUR SHIT USED TO BE A LOT EASIER TO PIRATE
+17:09 < jjjohnny> ADOBE WOULD BE NOTHING WITHOUT PIRATES
+17:09 < LOUDBOT> WTF, KLINGONS DON'T WEAR PLAID
+17:13 < jjjohnny> INVASION OF THE KLINGSTERONS!!!
+17:13 < LOUDBOT> AKAMAI IS NOT YOUR PERSONAL ARMY
+17:14 < jjjohnny> THAT SYNDROME WHERE YOU SYM-PATH-ISE WITH YOUR EMPLOYER
+17:14 < LOUDBOT> THE MAN READS ALL MY DESIGN DOCUMENTS
+17:20 -!- taterbase [uid17123@gateway/web/irccloud.com/x-udvmyovlypcoemth] has
+          quit [Quit: Connection closed for inactivity]
+17:26 -!- anvaka [~anvaka@2601:8:ac80:3f9:ec17:c451:4d89:4709] has joined
+          #stackvm
+17:30 -!- anvaka [~anvaka@2601:8:ac80:3f9:ec17:c451:4d89:4709] has quit [Ping
+          timeout: 240 seconds]
+17:33 < domanic> jjjohnny, once you have told someone a secret, you cannot
+                 untell it.
+17:34 < domanic> either think carefully before you speak, or collect all the
+                 secure-scuttlebutt replicas and throw them into a black hole
+17:40 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+17:45 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 260 seconds]
+17:45 -!- AvianPhone [~AvianPhon@2600:1001:b11e:a6b5:5c6d:e92a:ee92:4d4a] has
+          joined #stackvm
+17:45 -!- _contrahax is now known as contrahax
+17:54 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          quit [Quit: thealphanerd]
+17:54 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+17:58 -!- sww [~sww@198.199.97.80] has joined #stackvm
+17:58 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 240 seconds]
+17:58 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has
+          joined #stackvm
+17:59 -!- sww [~sww@198.199.97.80] has quit [Quit: leaving]
+18:03 < domanic> domanic, the best you can really do is post another message
+                 asking everyone to disregard the "deleted" message.
+18:05 -!- andrewdeandrade [~user@208.66.27.18] has joined #stackvm
+18:14 -!- brianloveswords
+          [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has quit
+          [Quit: Computer has gone to sleep.]
+18:18 -!- brianloveswords
+          [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has joined
+          #stackvm
+18:24 -!- kessler [~kessler@APuteaux-116-1-0-184.w193-248.abo.wanadoo.fr] has
+          joined #stackvm
+18:31 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+18:36 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 250 seconds]
+18:37 -!- hoobdeebla [~hoobdeebl@ip68-3-14-138.ph.ph.cox.net] has quit [Remote
+          host closed the connection]
+18:46 -!- kessler [~kessler@APuteaux-116-1-0-184.w193-248.abo.wanadoo.fr] has
+          quit [Ping timeout: 260 seconds]
+18:52 -!- DTrejo [~dtrejo@199.116.72.155] has joined #stackvm
+18:52 -!- hoobdeebla [~hoobdeebl@wsip-70-184-118-239.ph.ph.cox.net] has joined
+          #stackvm
+18:53 -!- DTrejo [~dtrejo@199.116.72.155] has quit [Read error: Connection
+          reset by peer]
+18:53 -!- DTrejo [~dtrejo@199.116.72.155] has joined #stackvm
+18:56 -!- hoobdeebla [~hoobdeebl@wsip-70-184-118-239.ph.ph.cox.net] has quit
+          [Remote host closed the connection]
+18:58 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+18:59 -!- ednapiranha [~ednapiran@206.169.237.184] has quit [Quit: Leaving...]
+19:02 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 250 seconds]
+19:04 -!- contrahax [~contrahax@ip24-251-13-101.ph.ph.cox.net] has left
+          #stackvm []
+19:20 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+19:24 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 256 seconds]
+19:31 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+19:36 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 264 seconds]
+19:53 -!- knownasilya [uid22190@gateway/web/irccloud.com/x-ditedvhnqhfskfnx]
+          has quit [Quit: Connection closed for inactivity]
+20:00 -!- ircretary [~ircretary@165.225.132.207] has quit [Remote host closed
+          the connection]
+20:00 -!- domanic [~domanic@static-72-89-243-19.nycmny.fios.verizon.net] has
+          quit [Ping timeout: 240 seconds]
+20:00 -!- ircretary [~ircretary@165.225.132.207] has joined #stackvm
+20:00 -!- yorick [~yorick@oftn/member/yorick] has quit [Remote host closed the
+          connection]
+20:03 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          quit [Ping timeout: 260 seconds]
+20:03 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          joined #stackvm
+20:12 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has quit
+          [Quit: fotoverite]
+20:15 -!- domanic [~domanic@pool-108-21-223-110.nycmny.fios.verizon.net] has
+          joined #stackvm
+20:22 -!- ceejbot_ [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          joined #stackvm
+20:24 -!- ceejbot [~ceejbot@172-5-154-148.lightspeed.sntcca.sbcglobal.net] has
+          quit [Ping timeout: 260 seconds]
+20:37 -!- DTrejo [~dtrejo@199.116.72.155] has quit [Remote host closed the
+          connection]
+20:40 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+20:50 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 264 seconds]
+20:53 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout:
+          272 seconds]
+20:59 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+21:01 -!- andrewdeandrade [~user@208.66.27.18] has quit [Ping timeout: 256
+          seconds]
+21:04 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 256 seconds]
+21:08 -!- knownasilya [uid22190@gateway/web/irccloud.com/x-sugclpymutkupvit]
+          has joined #stackvm
+21:12 -!- ednapiranha [~ednapiran@c-73-37-104-233.hsd1.or.comcast.net] has
+          joined #stackvm
+21:21 -!- nickleefly [uid21582@gateway/web/irccloud.com/x-cfrtdbifseqoddfe] has
+          joined #stackvm
+21:31 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+21:36 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 244 seconds]
+21:39 -!- ednapiranha [~ednapiran@c-73-37-104-233.hsd1.or.comcast.net] has quit
+          []
+21:41 < mmckegg> substack: on my way to raglan roast!
+21:43 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+21:48 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 240 seconds]
+21:57 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+22:02 < ahdinosaur> mmckegg substack: i'll join you there, that's real close to
+                    where i am now.
+22:02 < mmckegg> ahdinosaur: sweet!
+22:04 < mmckegg> bus is taking ages. nearly made it to courtney place.
+22:04 < substack> groovy
+22:04 -!- anvaka [~anvaka@2601:8:ac80:3f9:94da:1daf:60c:df86] has joined
+          #stackvm
+22:06 < ahdinosaur> domanic: a stop-gap solution would be for the groups to be
+ Unofficial browserling/testling mad science channel. For official help /join #b
+                    their own peers in the network and they forward to their
+                    members. because more than multi-keys, i'm not sure how the
+                    peers can know what address to connect to if they are
+                    sending to the members but don't know who they are.
+22:07 < jjjohnny> domanic, there is yet another way: if u can disappear your
+                  peers...
+22:07 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has quit [Ping timeout: 264 seconds]
+22:09 < domanic> ahdinosaur, that would require a central computer for the group
+22:09 < domanic> which is something I'd want to avoid
+22:09 < ahdinosaur> domanic: yeah
+22:09 < ahdinosaur> hence "stop-gap"
+22:10 < domanic> right.
+22:10 < domanic> to some degree you don't need to make a group a exact entity
+22:11 < domanic> like stackvm
+22:13 < ahdinosaur> depends on the group. some people may want to mask behind a
+                    collective identity, for all kinds of reasons.
+22:13 -!- therealkoopa [~therealko@pool-108-52-202-109.phlapa.fios.verizon.net]
+          has joined #stackvm
+22:13 < ahdinosaur> Anonymous comes to mind, but also nations and their flags,
+                    leaders, and stuff.
+ [22:14] [jjjohnny(+i)] [2:freenode/#stackvm(+cnt)] [Act: 4]
+[#stackvm]

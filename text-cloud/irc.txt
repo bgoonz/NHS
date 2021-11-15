@@ -1,0 +1,6 @@
+screen -S irc
+irssi
+/connect irc.freenode.net
+/nick ...
+/join ...
+/lastlog -window N jjjohnny_

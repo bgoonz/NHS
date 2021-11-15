@@ -1,0 +1,1063 @@
+08:23 -!- ogd [sid28033@gateway/web/irccloud.com/x-ozntmfcyjqtlvjtv] has joined #cyberwizard
+08:28 -!- rabbitface [sid29287@gateway/web/irccloud.com/x-qhfddpunartqzzpx] has quit []
+08:28 -!- rabbitface [sid29287@gateway/web/irccloud.com/x-ufgivtvkzmqtdrfd] has joined #cyberwizard
+09:46 -!- oak [~Thunderbi@c-67-180-33-167.hsd1.ca.comcast.net] has joined #cyberwizard
+12:04 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+12:42 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Quit: No Ping reply in 180 seconds.]
+12:42 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+12:53 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Quit: No Ping reply in 180 seconds.]
+12:55 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+13:22 -!- notconfusing [~notconfus@207.168.19.6] has joined #cyberwizard
+13:37 -!- captain_morgan [~morgan@104-13-209-202.lightspeed.sntcca.sbcglobal.net] has joined #cyberwizard
+13:55 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout: 255 seconds]
+14:20 -!- notconfusing [~notconfus@207.168.19.6] has quit [Quit: Ex-Chat]
+14:20 -!- notconfusing_ [~notconfus@207.168.19.6] has joined #cyberwizard
+15:16 -!- oak [~Thunderbi@c-67-180-33-167.hsd1.ca.comcast.net] has quit [Quit: oak]
+16:47 -!- notconfusing_ [~notconfus@207.168.19.6] has quit [Ping timeout: 255 seconds]
+16:54 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+18:04 -!- notconfusing_ [~notconfus@207.168.19.6] has joined #cyberwizard
+18:23 -!- treeherder [~hive_quee@veles.packetfire.org] has quit [Ping timeout: 264 seconds]
+18:24 -!- captain_morgan [~morgan@104-13-209-202.lightspeed.sntcca.sbcglobal.net] has quit [Ping timeout: 256 seconds]
+18:35 -!- oak1 [~Thunderbi@204.102.74.245] has joined #cyberwizard
+19:19 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Remote host closed the connection]
+19:51 -!- mafintosh_ [sid28509@gateway/web/irccloud.com/x-aofuwuhwudwqjcwu] has joined #cyberwizard
+19:54 -!- mafintosh [sid28509@gateway/web/irccloud.com/x-kfkqublyafscznqu] has quit [Ping timeout: 240 seconds]
+19:55 -!- mafintosh_ is now known as mafintosh
+20:47 -!- oak1 [~Thunderbi@204.102.74.245] has quit [Ping timeout: 265 seconds]
+21:02 -!- notconfusing_ [~notconfus@207.168.19.6] has quit [Ping timeout: 255 seconds]
+21:20 -!- oak [~Thunderbi@128.177.113.106] has joined #cyberwizard
+22:36 -!- oak1 [~Thunderbi@128.177.113.106] has joined #cyberwizard
+22:37 -!- oak [~Thunderbi@128.177.113.106] has quit [Read error: Connection reset by peer]
+22:37 -!- oak1 is now known as oak
+22:40 -!- treeherder [~hive_quee@64.188.52.101] has joined #cyberwizard
+22:41 -!- oak [~Thunderbi@128.177.113.106] has quit [Read error: Connection reset by peer]
+22:41 -!- oak1 [~Thunderbi@128.177.113.106] has joined #cyberwizard
+22:43 -!- oak1 is now known as oak
+22:46 -!- captain_morgan [~morgan@104-13-209-202.lightspeed.sntcca.sbcglobal.net] has joined #cyberwizard
+Day changed to 25 Jul 2015
+01:20 -!- captain_morgan [~morgan@104-13-209-202.lightspeed.sntcca.sbcglobal.net] has quit [Ping timeout: 264 seconds]
+01:46 -!- oak [~Thunderbi@128.177.113.106] has quit [Ping timeout: 265 seconds]
+02:44 -!- oak [~Thunderbi@c-67-180-33-167.hsd1.ca.comcast.net] has joined #cyberwizard
+04:31 -!- jameskyb1rz [~jameskybu@213-64-78-153-no57.tbcn.telia.com] has quit [Ping timeout: 246 seconds]
+04:33 -!- jameskyburz [~jameskybu@213-64-78-153-no57.tbcn.telia.com] has joined #cyberwizard
+07:47 -!- oak [~Thunderbi@c-67-180-33-167.hsd1.ca.comcast.net] has quit [Ping timeout: 246 seconds]
+10:25 -!- captain_morgan [~morgan@104-13-209-202.lightspeed.sntcca.sbcglobal.net] has joined #cyberwizard
+12:30 -!- oak [~Thunderbi@c-67-180-33-167.hsd1.ca.comcast.net] has joined #cyberwizard
+12:44 -!- oak [~Thunderbi@c-67-180-33-167.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+12:44 -!- oak [~Thunderbi@2601:645:8103:d500:6054:d647:bfb0:63] has joined #cyberwizard
+12:47 -!- oak [~Thunderbi@2601:645:8103:d500:6054:d647:bfb0:63] has quit [Remote host closed the connection]
+12:50 -!- oak [~Thunderbi@2601:645:8103:d500:6054:d647:bfb0:63] has joined #cyberwizard
+13:07 -!- captain_morgan [~morgan@104-13-209-202.lightspeed.sntcca.sbcglobal.net] has quit [Ping timeout: 250 seconds]
+14:11 -!- notconfusing_ [~notconfus@c-24-6-1-233.hsd1.ca.comcast.net] has joined #cyberwizard
+14:28 -!- captain_morgan [~morgan@76.14.80.224] has joined #cyberwizard
+14:34 -!- notconfusing_ [~notconfus@c-24-6-1-233.hsd1.ca.comcast.net] has quit [Quit: Ex-Chat]
+14:34 -!- notconfusing_ [~notconfus@c-24-6-1-233.hsd1.ca.comcast.net] has joined #cyberwizard
+15:04 -!- notconfusing_ [~notconfus@c-24-6-1-233.hsd1.ca.comcast.net] has quit [Ping timeout: 255 seconds]
+15:12 -!- notconfusing_ [~notconfus@c-24-6-1-233.hsd1.ca.comcast.net] has joined #cyberwizard
+15:17 -!- notconfusing__ [~notconfus@c-24-6-1-233.hsd1.ca.comcast.net] has joined #cyberwizard
+15:20 -!- notconfusing_ [~notconfus@c-24-6-1-233.hsd1.ca.comcast.net] has quit [Ping timeout: 255 seconds]
+16:07 -!- notconfusing__ [~notconfus@c-24-6-1-233.hsd1.ca.comcast.net] has quit [Ping timeout: 255 seconds]
+16:25 -!- oak [~Thunderbi@2601:645:8103:d500:6054:d647:bfb0:63] has quit [Quit: oak]
+18:51 -!- captain_morgan [~morgan@76.14.80.224] has quit [Ping timeout: 272 seconds]
+20:08 -!- stevegill_ [sid12010@gateway/web/irccloud.com/x-lejsnvvcjqtybypy] has quit []
+20:09 -!- stevegill_ [sid12010@gateway/web/irccloud.com/x-whbdgfjefnusffmx] has joined #cyberwizard
+20:11 -!- bret [sid12421@gateway/web/irccloud.com/x-zelqfszupxlsycck] has quit []
+20:12 -!- bret [sid12421@gateway/web/irccloud.com/x-gisyhzcdqrnedost] has joined #cyberwizard
+12:15 -!- AndreasMadsen [~andreasma@87-60-71-189-dynamic.dk.customer.tdc.net] has quit [Remote host closed the connection]
+12:57 -!- saintedlama [~saintedla@chello062178248161.1.15.vie.surfer.at] has joined #stackvm
+12:59 -!- saintedlama [~saintedla@chello062178248161.1.15.vie.surfer.at] has quit [Client Quit]
+12:59 -!- saintedlama [~saintedla@chello062178248161.1.15.vie.surfer.at] has joined #stackvm
+12:59 -!- saintedlama [~saintedla@chello062178248161.1.15.vie.surfer.at] has quit [Read error: Connection reset by peer]
+12:59 -!- saintedlama [~saintedla@chello062178248161.1.15.vie.surfer.at] has joined #stackvm
+13:15 -!- AndreasMadsen [~andreasma@82.211.219.202] has joined #stackvm
+13:33 < jjjohnny> domanic: live code editing instead I used my own module loader https://www.npmjs.com/package/es666
+13:33 < jjjohnny> *works in node
+13:34 < jjjohnny> i think npm should cache installed modules, but you local libs, if they are required again later in runtime, should get reloaded
+13:57 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has quit [Remote host closed the connection]
+14:01 < domanic> jjjohnny, hmm, although that would mean you'd always get different versions of the module
+14:01 < domanic> or would it check mtime before reloading it? i guess that would work too
+14:02 < jjjohnny> domanic: you can require non modules, but they are cached.  presumably then json files are as well.
+14:04 < domanic> jjjohnny, yes
+14:09 -!- saintedlama [~saintedla@chello062178248161.1.15.vie.surfer.at] has quit [Ping timeout: 265 seconds]
+14:10 < jjjohnny> caching should only happen to dependencies, call it a hot take
+14:12 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:95dc:22a7:395a:b185] has joined #stackvm
+14:21 -!- phated [~phated@ip72-201-17-75.ph.ph.cox.net] has joined #stackvm
+14:26 < ogd> substack: https://www.youtube.com/watch?v=YVEY24ieq08
+14:26 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:95dc:22a7:395a:b185] has quit [Ping timeout: 244 seconds]
+14:43 -!- phated [~phated@ip72-201-17-75.ph.ph.cox.net] has quit [Remote host closed the connection]
+14:43 -!- phated [~phated@ip72-201-17-75.ph.ph.cox.net] has joined #stackvm
+14:49 -!- phated [~phated@ip72-201-17-75.ph.ph.cox.net] has quit [Ping timeout: 264 seconds]
+15:07 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:cd46:f4c8:d84e:45fd] has joined #stackvm
+15:18 -!- AndreasMadsen [~andreasma@82.211.219.202] has quit []
+15:20 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:cd46:f4c8:d84e:45fd] has quit [Ping timeout: 246 seconds]
+15:52 -!- bin_005 [~ctlM@80.83.238.114] has joined #stackvm
+16:02 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:fc79:9586:e2c:90d7] has joined #stackvm
+16:10 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:fc79:9586:e2c:90d7] has quit [Remote host closed the connection]
+16:11 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:fc79:9586:e2c:90d7] has joined #stackvm
+16:13 < feross> i'm starting to think more and more that programmers need something like a hippocratic oath
+16:13 < feross> a pledge to never write software that hurts people, invades privacy, reduces human freedoms
+16:14 < substack> that's mostly what programmers do
+16:14 < noffle> wa7son: my long-since-promised geopkg PR for interactive map selection: https://github.com/watson/geopkg/pull/4
+16:14 < feross> substack: that's so sad :(
+16:14 < feross> maybe progressive CS programs would adopt it and ask/force graduates to take the oath
+16:15 < feross> maybe ethical companies would only hire programmers who have taken the oath / make new hires take it
+16:15 < feross> maybe that's a way to make it spread
+16:15 < noffle> feross: I've talked with friends about this as well: how there's no sense of moral questioning amongst programmers. :(
+16:15 < noffle> nobody asks 'what the implications of this?'
+16:15 < wa7son> noffle: sweet :)
+16:15 < noffle> it's like they don't need to care
+16:15 < noffle> not their problem, etc
+16:15 < feross> the main advantage to an oath is that when a company asks a programmer to build unethical software, they can point to the oath
+16:16 < noffle> "feross/standard-oath" ;)
+16:16 < feross> noffle: haha
+16:16 < noffle> feross: much like your other standard-* notions, I like the idea. You should start drafting something and get discussions going. :o
+16:17 < feross> when a company asks someone to violate the oath, they can refuse because it would violate the oath
+16:18 < feross> if companies persist in demanding unethical behavior, they can go public and the news media will have a concrete greivance to
+                point to
+16:18 < feross> X company asked programmer to violate Programmer Hippocratic Oath
+16:18 < noffle> feross: I was just reading this highly relevant post & comment thread on HN today: https://news.ycombinator.com/item?id=9948888
+16:18 < feross> 10 Engineers at Y resign due to Programmer Hippocratic Oath violations
+16:20 < noffle> feross: right. Just having something to point at would give people who grasp the ideas but not the lexicon and articulation
+                something to use. Also, the word 'oath' might come across as a little draconian.
+16:21 < feross> This is also relevant:
+16:21 < feross> First, Do No Harm: A Hippocratic Oath for Software Developers https://queue.acm.org/detail.cfm?id=1016991
+16:21 < feross> but it doesn't go far enough
+16:22 < pfraze> feross: +1
+16:23 < noffle> ha. I like "If you dont thoroughly understand the problem, youre not fixing the code", though maybe that's not quite the harm
+                you're thinking about.
+16:23 < noffle> This seems maybe less about the people the software affects?
+16:24 < noffle> (afk)
+16:26 < feross> noffle: yes, exactly
+16:28 < feross> it *is* a problem when programmers build critical systems using bloated frameworks they don't understand
+16:28 < feross> where the whole system is teetering on the edge of collapse under the weight of it's own layers of unnecessary, buggy, complexity
+16:29 < feross> and that's actually super relevant in security software, where simplicity matters a lot
+16:29 < feross> as you add more code, the probably of a security vulnerability goes to 1 very quickly
+16:30 < feross> i think code that is critical for security should not be longer than 1000 lines, whenever possible
+16:31 < feross> when you let random architecture astronauts add features like "heartbeat" to OpenSSL, you get Heartbleed
+16:31 < feross> i don't think people appreciate that this type of "add all the features" development style is exactly what the NSA wants
+16:32 < domanic> feross, It is my understanding that the hippocratic oath is actually legally binding for doctors
+16:32 < feross> OpenSSL had 4 volunteers working on it, part-time. the NSA likely has dozens of smart, highly motivated security folk scrutinizing
+                every change to the codebase
+16:32 < domanic> breaking it is malpractice and you'll loose the right to call your self a doctor
+16:33 < pfraze> domanic: https://en.wikipedia.org/wiki/Hippocratic_Oath#Breaking_the_Hippocratic_Oath
+16:33 < feross> Wikipedia says "There is no direct punishment for breaking the Hippocratic oath in modern times. It can be said that malpractice
+                is the same thing and it carries a wide range of punishments from legal action to civil penalties.[20] In antiquity, the
+                punishment for breaking the Hippocratic oath could range from a penalty to losing the right to practice
+16:33 < feross> medicine."
+16:34 < pfraze> programming teams practice an informal version of this, I think, between each other
+16:34 < pfraze> and they might write it out
+16:34 < pfraze> "we always write tests, we always document, we always ..."
+16:35 < feross> pfraze: but facebook engineers don't have "we will not invade user privacy, use Dark Patterns, etc."
+16:35 < domanic> feross, ah okay
+16:35 < pfraze> feross: right, which is why none of us are discussing the facebook oath
+16:35 < feross> domanic: i think you're right, but it's just called malpractice today :)
+16:36 < domanic> feross, you could implement this as a legal hack, like an open source license
+16:36 < domanic> for example, viral gpl version:
+16:36 < feross> Lawyers have an oath that's even more enforceable than the Hippocratic Oath for client confidentiality
+16:36 < domanic> you hire me, and i insist that the oath is in my contract
+16:37 < feross> "An attorney speaking publicly in regard to a client's personal business and private affairs can be reprimanded by the bar and/or
+                disbarred, regardless of the fact that he or she may be no longer representing the client. Discussing a client's or past client's
+                criminal history, or otherwise, is viewed as a breach of fiduciary responsibilities."
+16:37 < domanic> now, if you ask me to break the oath, i *must* leave, and you are obliged to pay me another year's salary etc
+16:38 < feross> domanic: i like that
+16:38 < domanic> also - if you hire *another* programmer, they must have the oath in their contract too
+16:38 < domanic> and viola! you've just hacked contract law!
+16:39 < pfraze> Im not sure I agree about making it a legal tool
+16:40 < domanic> pfraze, what about open source licenses? they are a legal tool? (of course it doesn't need to be as hardcore as i described, that
+                 is just an example)
+16:40 < domanic> feross, you could also have clauses for open source
+16:41 < domanic> of course, there are many interpretation problems then...
+16:41 < pfraze> domanic: right, but usually licenses are designed specifically to selectively neutralize legal control or liability. Viral
+                copyleft is the exception: it doesnt put the engineers in legal risk, and it's still a topic of heavy legal work
+16:42 < feross> domanic: this reminds me of how The Crock modified the MIT license:
+16:42 < feross> "The Software shall be used for Good, not Evil."
+16:42 < feross> https://en.wikipedia.org/wiki/JSLint#License
+16:42 < domanic> feross, difficult to interpret what "evil" is exactly, ask google
+16:42 < feross> "according to Crockford, IBM asked Crockford for a license to do evil, such that their customers could use it"
+16:43 < domanic> https://www.google.com/?gfe_rd=cr&ei=R0a1VZu8F-Pt8wfzsZuADw&gws_rd=cr#q=is+google+evil
+16:43 < pfraze> right, but that was messed up on crockford's part. His license didnt define what evil meant
+16:44 < pfraze> the only feasible thing to do was to legally define what evil meant, or just ask for an exception to do "evil," and that's just
+                mean-spirited
+16:44 -!- phated [~phated@ip72-201-17-75.ph.ph.cox.net] has joined #stackvm
+16:44 < domanic> so, if there was a dispute on whether something should be opensourced, that would be decided by the programmers guild or something
+16:45 < domanic> pfraze, feross probably, if that came up in court - and someone was using json for something, you'd still have to convince a
+                 court whether it was evil
+16:46 < domanic> every one agrees you shouldn't do evil, but don't agree on what evil is exactly
+16:47 < domanic> is dealing drugs evil? is the drug war evil? is killing people with flying robots evil?
+16:47 -!- simcop2387 [~simcop238@p3m/member/simcop2387] has quit [Excess Flood]
+16:47 < domanic> is advertising evil
+16:47 < pfraze> domanic: feross: yeah, I have no idea how that one play out. Regarding something like that in contract law, that'd be a pretty
+                risky thing to allow in an employee's contract, especially when there's no legal precedent on the meaning of the oath
+16:47 < pfraze> s/one/would
+16:48 < domanic> sure, that is why you'd need to study some law before writing it
+16:48 < domanic> and design something that would be defendable
+16:49 -!- phated [~phated@ip72-201-17-75.ph.ph.cox.net] has quit [Ping timeout: 244 seconds]
+16:49 < pfraze> yeah... the medical oath is still regarded as effective, and it's just ritual and culture. A non-legal programmer's oath still has
+                utility, in that you can leave a company and claim it was due to a violation
+16:50 < feross> pfraze: right
+16:50 < feross> i think something that's non-legal is a good first start
+16:50 < domanic> you could consider that enforced by "social means"
+16:50 < pfraze> yeah
+16:50 < domanic> or "social consequences"
+16:58 < rom1504> having people come to a consensus on that might be hard
+16:59 < domanic> although, people have managed to come to a selection of a few favored open source licenses
+17:02 -!- bin_005 [~ctlM@80.83.238.114] has quit [Ping timeout: 260 seconds]
+17:03 -!- bin_005 [~ctlM@80.83.238.41] has joined #stackvm
+17:33 < substack> domanic: http://sfist.com/2015/07/26/sfpd_quadski_mccovey_cove.php
+21:45 -!- mikolalysenko [sid34553@gateway/web/irccloud.com/x-tcxtsgrrjavcupyy] has quit []
+12:33 < domanic> i suspect that this is also due to improving prototypeing technology
+12:34 < domanic> ALSO, the apple 2 sold for like 5 years or something
+12:34 < pfraze> yeah
+12:35 < domanic> and the commodore 64 was the highest selling model ever,
+12:35 < domanic> because they didn't release a new version of it
+12:36 < pfraze> well thats the trick then
+13:34 -!- tictacjoe [~JohnDotAw@cpe-24-242-77-166.austin.res.rr.com] has joined #scuttlebutt
+14:55 -!- Mitar [mitar@common.tnode.com] has joined #scuttlebutt
+15:32 -!- rektide [~rektide@eldergods.com] has quit [Remote host closed the connection]
+17:03 < mafintosh> domanic: could you try installing sodium-prebuilt on linux and see if it works?
+17:04 < domanic> sure
+17:07 < domanic> mafintosh, it's still compiling it for some reason
+17:07 < domanic> maybe because i am on arch?
+17:07 < mafintosh> domanic: which version of libc do you have?
+17:07 < domanic> how do i find out?
+17:08 < mafintosh> ldd --version
+17:08 < domanic> pfraze, can i merge this: https://github.com/ssbc/muxrpc/pull/25
+17:09 < domanic> mafintosh, 2.21
+17:09 < pfraze> domanic: yeah go for it
+17:11 < mafintosh> domanic: hmm ok - using debian?
+17:11 < domanic> mafintosh, archlinux
+17:15 < mafintosh> domanic: and its fetching 1.1.1 ?
+17:19 < domanic> mafintosh, yes
+17:43 < domanic> pfraze, https://github.com/ssbc/secure-scuttlebutt/pull/125#issuecomment-125042235
+17:43 < pfraze> domanic: replied
+17:44 < pfraze> domanic: are you blocked by this? I can finish it up now
+17:46 < domanic> pfraze, not yet
+17:46 < pfraze> ok, let me know
+18:26 -!- tictacjoe [~JohnDotAw@cpe-24-242-77-166.austin.res.rr.com] has quit [Remote host closed the connection]
+19:16 -!- nathan7 [nathan@unaffiliated/nathan7] has quit [Ping timeout: 264 seconds]
+19:18 -!- nathan7 [nathan@unaffiliated/nathan7] has joined #scuttlebutt
+19:58 -!- rabbitface [sid29287@gateway/web/irccloud.com/x-ufgivtvkzmqtdrfd] has quit [Quit: Connection closed for inactivity]
+20:05 < domanic> pfraze, gonna merge block pr too
+18:03 -!- rxgx [uid22483@gateway/web/irccloud.com/x-pytppiwaryjorcip] has joined #stackvm
+18:11 < jjjohnny> "save hours by doing things for months!"
+18:14 < jjjohnny> "in fact you can save hours studying, by *doing* things for months!"
+18:17 < ogd> domanic: ugh why doesnt web audio api sound like that yet
+18:17 < domanic> ogd, that is the sound of analogue
+18:19 -!- bin_005 [~ctlM@80.83.238.41] has quit [Read error: Connection reset by peer]
+18:44 -!- phated [~phated@ip72-201-17-75.ph.ph.cox.net] has joined #stackvm
+18:48 -!- phated [~phated@ip72-201-17-75.ph.ph.cox.net] has quit [Ping timeout: 244 seconds]
+18:52 < jjjohnny> the html5 analogue API, of self constructing micro machines
+18:53 -!- collypops [~collypops@203.2.218.131] has joined #stackvm
+19:14 -!- harrow [~harrow@105.ip-167-114-152.net] has quit [Ping timeout: 264 seconds]
+19:16 -!- nathan7 [nathan@unaffiliated/nathan7] has quit [Ping timeout: 264 seconds]
+19:18 -!- nathan7 [nathan@unaffiliated/nathan7] has joined #stackvm
+19:21 -!- harrow [~harrow@105.ip-167-114-152.net] has joined #stackvm
+19:25 < jjjohnny> notice:  furnished rooms available @ hackistan in oakland
+20:00 -!- ircretary [~ircretary@165.225.132.207] has quit [Remote host closed the connection]
+20:00 -!- ircretary [~ircretary@165.225.132.207] has joined #stackvm
+20:03 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+20:12 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Remote host closed the connection]
+20:57 -!- rxgx [uid22483@gateway/web/irccloud.com/x-pytppiwaryjorcip] has quit [Quit: Connection closed for inactivity]
+22:13 -!- domanic [~domanic@175.229.207.77.rev.sfr.net] has quit [Ping timeout: 255 seconds]
+Day changed to 27 Jul 2015
+00:24 -!- phated [~phated@ip72-201-17-75.ph.ph.cox.net] has joined #stackvm
+00:28 -!- rxgx [uid22483@gateway/web/irccloud.com/x-enyibgvaratoeyib] has joined #stackvm
+00:37 -!- phated [~phated@ip72-201-17-75.ph.ph.cox.net] has quit [Remote host closed the connection]
+01:02 -!- phated [~phated@ip72-201-17-75.ph.ph.cox.net] has joined #stackvm
+01:38 -!- phated [~phated@ip72-201-17-75.ph.ph.cox.net] has quit [Remote host closed the connection]
+01:39 -!- phated [~phated@ip72-201-17-75.ph.ph.cox.net] has joined #stackvm
+01:43 -!- phated [~phated@ip72-201-17-75.ph.ph.cox.net] has quit [Ping timeout: 265 seconds]
+01:54 -!- rwaldron [rwaldron@gateway/shell/jquery.com/x-htsdxacjtilaqewg] has quit [Ping timeout: 246 seconds]
+01:55 -!- rwaldron [rwaldron@gateway/shell/jquery.com/x-jlhsutojwjunbjbv] has joined #stackvm
+02:35 -!- AndreasMadsen [~andreasma@82.211.219.202] has joined #stackvm
+02:41 -!- saintedlama [~saintedla@chello062178248161.1.15.vie.surfer.at] has joined #stackvm
+02:49 < noffle> jjjohnny: they have a website? I've heard of this place before, but still have no notion of what it is (nor does Google,
+                apparently).
+02:55 -!- pfraze [~pfraze@2605:6000:e900:d200:51dd:8bd2:a8ab:2542] has quit [Remote host closed the connection]
+02:57 -!- rxgx [uid22483@gateway/web/irccloud.com/x-enyibgvaratoeyib] has quit [Quit: Connection closed for inactivity]
+03:04 -!- AndreasM_ [~andreasma@167.160.116.231] has joined #stackvm
+03:05 -!- AndreasMadsen [~andreasma@82.211.219.202] has quit [Read error: Connection reset by peer]
+03:06 -!- AndreasMadsen [~andreasma@82.211.219.202] has joined #stackvm
+03:09 -!- AndreasM_ [~andreasma@167.160.116.231] has quit [Ping timeout: 260 seconds]
+03:39 -!- phated [~phated@ip72-201-17-75.ph.ph.cox.net] has joined #stackvm
+03:43 -!- phated [~phated@ip72-201-17-75.ph.ph.cox.net] has quit [Ping timeout: 244 seconds]
+04:04 -!- saintedlama [~saintedla@chello062178248161.1.15.vie.surfer.at] has quit [Ping timeout: 246 seconds]
+04:11 -!- Tristitia [~tristitia@178.18.241.185] has quit [Ping timeout: 256 seconds]
+04:14 -!- saintedlama [~saintedla@chello062178248161.1.15.vie.surfer.at] has joined #stackvm
+04:15 -!- Tristitia [~tristitia@178.18.241.185] has joined #stackvm
+04:20 -!- AndreasMadsen [~andreasma@82.211.219.202] has quit []
+05:10 -!- domanic [~domanic@175.229.207.77.rev.sfr.net] has joined #stackvm
+05:39 -!- phated [~phated@ip72-201-17-75.ph.ph.cox.net] has joined #stackvm
+05:43 -!- phated [~phated@ip72-201-17-75.ph.ph.cox.net] has quit [Ping timeout: 244 seconds]
+06:16 -!- fotoverite_ [~fotoverit@cpe-72-225-216-150.nyc.res.rr.com] has joined #stackvm
+06:19 -!- yoshuawuyts_ [sid53400@gateway/web/irccloud.com/x-fynqkusvvmgyknkx] has joined #stackvm
+06:20 -!- indexzero_ [sid1603@gateway/web/irccloud.com/x-pmngdlgvhoyaxqbt] has joined #stackvm
+06:20 -!- monteslu_ [sid26442@gateway/web/irccloud.com/x-lnfuctodfhnukccy] has joined #stackvm
+06:20 -!- ehd_ [sid1451@gateway/web/irccloud.com/x-gzagpdevuzayuiyd] has joined #stackvm
+06:20 -!- tobie_ [sid5692@gateway/web/irccloud.com/x-nleygbtqvjnbdmof] has joined #stackvm
+06:20 -!- mrb_bk_ [sid2099@gateway/web/irccloud.com/x-vpgqpjmlcyblrhxd] has joined #stackvm
+06:21 -!- monteslu [sid26442@gateway/web/irccloud.com/x-cyaktzaaabbljrmf] has quit [Ping timeout: 240 seconds]
+06:21 -!- tobie [sid5692@gateway/web/irccloud.com/x-xxycmthsfackclke] has quit [Ping timeout: 240 seconds]
+06:21 -!- yoshuawuyts [sid53400@gateway/web/irccloud.com/x-txllvvlcyndtjzmh] has quit [Ping timeout: 240 seconds]
+06:21 -!- mrb_bk [sid2099@gateway/web/irccloud.com/x-qshsnpzxqcnfabxp] has quit [Ping timeout: 240 seconds]
+06:21 -!- ehd [sid1451@gateway/web/irccloud.com/x-hyfpsylntwqlbxjn] has quit [Ping timeout: 240 seconds]
+06:21 -!- indexzero [sid1603@gateway/web/irccloud.com/x-ymejdurrcquvofrz] has quit [Ping timeout: 240 seconds]
+06:21 -!- fotoverite [~fotoverit@cpe-72-225-216-150.nyc.res.rr.com] has quit [Ping timeout: 240 seconds]
+06:21 -!- fotoverite_ is now known as fotoverite
+06:22 -!- monteslu_ is now known as monteslu
+06:22 -!- yoshuawuyts_ is now known as yoshuawuyts
+06:23 -!- ehd_ is now known as ehd
+06:23 -!- indexzero_ is now known as indexzero
+06:23 -!- tobie_ is now known as tobie
+06:23 -!- mrb_bk_ is now known as mrb_bk
+06:20 -!- monteslu_ [sid26442@gateway/web/irccloud.com/x-lnfuctodfhnukccy] has joined #stackvm
+06:20 -!- ehd_ [sid1451@gateway/web/irccloud.com/x-gzagpdevuzayuiyd] has joined #stackvm
+06:20 -!- tobie_ [sid5692@gateway/web/irccloud.com/x-nleygbtqvjnbdmof] has joined #stackvm
+06:20 -!- mrb_bk_ [sid2099@gateway/web/irccloud.com/x-vpgqpjmlcyblrhxd] has joined #stackvm
+06:21 -!- monteslu [sid26442@gateway/web/irccloud.com/x-cyaktzaaabbljrmf] has quit [Ping timeout: 240 seconds]
+06:21 -!- tobie [sid5692@gateway/web/irccloud.com/x-xxycmthsfackclke] has quit [Ping timeout: 240 seconds]
+06:21 -!- yoshuawuyts [sid53400@gateway/web/irccloud.com/x-txllvvlcyndtjzmh] has quit [Ping timeout: 240 seconds]
+06:21 -!- mrb_bk [sid2099@gateway/web/irccloud.com/x-qshsnpzxqcnfabxp] has quit [Ping timeout: 240 seconds]
+06:21 -!- ehd [sid1451@gateway/web/irccloud.com/x-hyfpsylntwqlbxjn] has quit [Ping timeout: 240 seconds]
+06:21 -!- indexzero [sid1603@gateway/web/irccloud.com/x-ymejdurrcquvofrz] has quit [Ping timeout: 240 seconds]
+06:21 -!- fotoverite [~fotoverit@cpe-72-225-216-150.nyc.res.rr.com] has quit [Ping timeout: 240 seconds]
+06:21 -!- fotoverite_ is now known as fotoverite
+06:22 -!- monteslu_ is now known as monteslu
+06:22 -!- yoshuawuyts_ is now known as yoshuawuyts
+06:23 -!- ehd_ is now known as ehd
+06:23 -!- indexzero_ is now known as indexzero
+06:23 -!- tobie_ is now known as tobie
+06:23 -!- mrb_bk_ is now known as mrb_bk
+06:50 -!- domanic [~domanic@175.229.207.77.rev.sfr.net] has quit [Ping timeout: 250 seconds]
+06:55 -!- domanic [~domanic@175.229.207.77.rev.sfr.net] has joined #stackvm
+07:24 -!- AndreasMadsen [~andreasma@82.211.219.202] has joined #stackvm
+08:10 -!- oncenull [~pose@190.19.245.13] has joined #stackvm
+08:11 -!- AndreasMadsen [~andreasma@82.211.219.202] has quit []
+08:25 -!- oncenull [~pose@190.19.245.13] has quit [Remote host closed the connection]
+08:27 -!- oncenull [~pose@190.19.245.13] has joined #stackvm
+Day changed to 25 Jul 2015
+10:23 -!- pfraze [~pfraze@2605:6000:e900:d200:2519:1dce:aa:1642] has joined #stackvm
+10:24 < yoshuawuyts> what I'm thinking of now is to have every single piece of application state live inside of a hyperlog / hyperlog-index db,
+                     allowing full rollbacks to arbitrary previous states in the application
+10:25 < yoshuawuyts> figured persisting to indexDB should be possible through something like -
+                     https://gist.github.com/yoshuawuyts/64d011b8c0460ddec0da If done well you'd be dropped into the last application state
+                     whenever you start the app.
+10:28 < yoshuawuyts> not sure how silly / possible all of this is. For the time being I'm fairly optimistic.
+10:31 < mafintosh> yoshuawuyts: seems like a good idea - i've done some smaller web apps where i store all my state in hyperlogs as well
+10:32 < yoshuawuyts> mafintosh: neat! do you have any code on github for that? Curious to see how you approached it.
+10:33 < mafintosh> yoshuawuyts: https://github.com/mafintosh/slides/blob/gh-pages/tng-2015/examples/index.js
+10:33 < mafintosh> yoshuawuyts: small site where you can drag-and-drop small files and share them with others using a hyperlog
+10:37 < yoshuawuyts> mafintosh: wow, so good
+11:25 -!- saintedlama [~saintedla@chello062178248161.1.15.vie.surfer.at] has quit [Ping timeout: 264 seconds]
+11:27 -!- shama [~shama@c-73-11-44-74.hsd1.or.comcast.net] has joined #stackvm
+11:34 -!- AndreasMadsen [~andreasma@82.211.219.202] has joined #stackvm
+11:35 -!- deerstep [~onur@nth.ninja] has joined #stackvm
+11:37 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+12:24 -!- saintedlama [~saintedla@chello062178248161.1.15.vie.surfer.at] has joined #stackvm
+12:26 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout: 240 seconds]
+12:38 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:fc79:9586:e2c:90d7] has quit [Remote host closed the connection]
+12:38 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:fc79:9586:e2c:90d7] has joined #stackvm
+12:42 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+12:42 < jjjohnny> noffle: its tha house I live in, that is all
+12:42 < jjjohnny> not a public house per se
+12:43 < jjjohnny> just a revolving crew of hackers and artists
+12:47 < jjjohnny> also, quiet, calm, chill
+12:47 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout: 244 seconds]
+12:47 < jjjohnny> until we start playing music,  that is
+12:52 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+12:57 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout: 255 seconds]
+13:09 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+13:45 -!- AndreasMadsen [~andreasma@82.211.219.202] has quit [Remote host closed the connection]
+13:46 -!- phated [~phated@wsip-70-184-120-71.ph.ph.cox.net] has joined #stackvm
+13:47 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:fc79:9586:e2c:90d7] has quit [Remote host closed the connection]
+13:47 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+13:47 < noffle> jjjohnny: sounds like a cool place to be. furnished only?
+13:48 < jjjohnny> noffle: nope
+14:05 -!- AndreasMadsen [~andreasma@82.211.219.202] has joined #stackvm
+14:36 -!- boennemann [~boenneman@p5B375D08.dip0.t-ipconnect.de] has joined #stackvm
+14:41 -!- creationix [~creationi@creationix.com] has quit [Read error: Connection reset by peer]
+14:43 -!- creationix [~creationi@li1053-89.members.linode.com] has joined #stackvm
+14:46 -!- bin_005 [~ctlM@80.83.238.11] has joined #stackvm
+15:22 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout: 250 seconds]
+15:28 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+15:30 -!- jfhbrook_ is now known as jfhbrook
+16:04 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has joined #stackvm
+16:28 -!- boennemann [~boenneman@p5B375D08.dip0.t-ipconnect.de] has quit []
+12:52 -!- notconfusing__ [~notconfus@c-50-136-156-155.hsd1.ca.comcast.net] has joined #cyberwizard
+13:20 -!- notconfusing__ [~notconfus@c-50-136-156-155.hsd1.ca.comcast.net] has quit [Ping timeout: 255 seconds]
+13:46 -!- oak [~Thunderbi@96.90.249.26] has quit [Quit: oak]
+15:22 -!- oak [~Thunderbi@2601:645:8103:d500:1c05:bee4:2a88:9063] has joined #cyberwizard
+16:11 -!- captain_morgan [~morgan@104-13-209-202.lightspeed.sntcca.sbcglobal.net] has joined #cyberwizard
+19:58 -!- rabbitface [sid29287@gateway/web/irccloud.com/x-ufgivtvkzmqtdrfd] has quit [Quit: Connection closed for inactivity]
+20:03 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+20:12 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Remote host closed the connection]
+20:33 < jjjohnny> jerkey: as ever, rooms available in hackistan
+23:05 -!- oak [~Thunderbi@2601:645:8103:d500:1c05:bee4:2a88:9063] has quit [Quit: oak]
+Day changed to 27 Jul 2015
+00:15 -!- oak [~Thunderbi@2601:645:8103:d500:3594:5821:a2fe:14df] has joined #cyberwizard
+00:35 -!- notconfusing__ [~notconfus@c-50-136-156-155.hsd1.ca.comcast.net] has joined #cyberwizard
+00:41 -!- captain_morgan [~morgan@104-13-209-202.lightspeed.sntcca.sbcglobal.net] has quit [Read error: Connection reset by peer]
+00:41 -!- oak [~Thunderbi@2601:645:8103:d500:3594:5821:a2fe:14df] has quit [Remote host closed the connection]
+00:43 -!- oak [~Thunderbi@96.90.249.26] has joined #cyberwizard
+01:37 -!- captain_morgan [~morgan@104-13-209-202.lightspeed.sntcca.sbcglobal.net] has joined #cyberwizard
+02:07 -!- notconfusing__ [~notconfus@c-50-136-156-155.hsd1.ca.comcast.net] has quit [Ping timeout: 255 seconds]
+02:07 -!- captain_morgan [~morgan@104-13-209-202.lightspeed.sntcca.sbcglobal.net] has quit [Ping timeout: 264 seconds]
+02:34 -!- jameskyb1rz [~jameskybu@213-64-78-153-no57.tbcn.telia.com] has joined #cyberwizard
+02:36 < tlevine> https://github.com/cyberwizardinstitute/discussion/issues/31
+02:37 -!- jameskyburz [~jameskybu@213-64-78-153-no57.tbcn.telia.com] has quit [Ping timeout: 272 seconds]
+02:39 < tlevine> also, is this on purpose? https://github.com/cyberwizardinstitute/freecodecamp
+04:08 -!- oak [~Thunderbi@96.90.249.26] has quit [Quit: oak]
+04:42 -!- oak [~Thunderbi@2601:645:8103:d500:3594:5821:a2fe:14df] has joined #cyberwizard
+08:55 -!- jameskyb1rz [~jameskybu@213-64-78-153-no57.tbcn.telia.com] has quit [Ping timeout: 255 seconds]
+09:02 -!- jameskyburz [~jameskybu@213-64-78-153-no57.tbcn.telia.com] has joined #cyberwizard
+11:37 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+12:26 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout: 240 seconds]
+12:31 -!- notconfusing__ [~notconfus@207.168.19.6] has joined #cyberwizard
+12:42 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+12:47 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout: 244 seconds]
+12:52 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+12:57 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout: 255 seconds]
+13:01 -!- captain_morgan [~morgan@104-13-209-202.lightspeed.sntcca.sbcglobal.net] has joined #cyberwizard
+13:09 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+13:46 -!- captain_morgan [~morgan@104-13-209-202.lightspeed.sntcca.sbcglobal.net] has quit [Ping timeout: 264 seconds]
+13:47 -!- captain_morgan [~morgan@104-13-209-202.lightspeed.sntcca.sbcglobal.net] has joined #cyberwizard
+14:24 -!- notconfusing__ [~notconfus@207.168.19.6] has quit [Ping timeout: 255 seconds]
+14:56 -!- notconfusing__ [~notconfus@207.168.19.6] has joined #cyberwizard
+15:18 < kaotikus_> tlevine: any more info on freecodecamp?
+15:22 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout: 250 seconds]
+15:28 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #cyberwizard
+15:33 -!- oak [~Thunderbi@2601:645:8103:d500:3594:5821:a2fe:14df] has quit [Ping timeout: 246 seconds]
+15:46 -!- oak [~Thunderbi@204.102.74.245] has joined #cyberwizard
+16:26 -!- notconfusing__ [~notconfus@207.168.19.6] has quit [Ping timeout: 255 seconds]
+16:27 -!- captain_morgan [~morgan@104-13-209-202.lightspeed.sntcca.sbcglobal.net] has quit [Ping timeout: 264 seconds]
+17:04 -!- oak [~Thunderbi@204.102.74.245] has quit [Quit: oak]
+17:09 -!- notconfusing__ [~notconfus@207.168.19.6] has joined #cyberwizard
+17:24 -!- oak [~Thunderbi@204.102.74.245] has joined #cyberwizard
+17:35 -!- captain_morgan [~morgan@adsl-76-195-252-202.dsl.pltn13.sbcglobal.net] has joined #cyberwizard
+17:43 < jerkey> jjjohnny: i'm on it
+18:12 -!- captain_morgan [~morgan@adsl-76-195-252-202.dsl.pltn13.sbcglobal.net] has quit [Ping timeout: 244 seconds]
+01:20 -!- steveoliver [~steveoliv@li88-167.members.linode.com] has joined #modulhaus
+17:56 < feross> https://twitter.com/flettre
+05:23 <jjjohnny> doesn't seem hard
+05:23 <jjjohnny> idk why he goes on about crazy databases, but w/e
+05:25 <jjjohnny> who knows tho, one can go crazy with graphs and queries
+05:25 <jjjohnny> and filters
+05:26 <jjjohnny> they basically want a general purpose data visualizing tool
+05:27 <jjjohnny> well, i have determnined they could use one, and it could be designed much like a graphics generating type of application
+05:28 <jjjohnny> which is to say, a few good ideas and it becomes a kind of plaything for discovery
+17:56 < feross> <3 open source
+05:29 <jjjohnny> which is why people read data like this
+05:30 <substack> the indexing very much depends on the kinds of queries they'll want to execute
+05:30 <substack> specifying the database too much up-front is not going to work
+05:30 <substack> classic waterfall mistake
+22:16 <jjjohnny> so they backpedaled to a position of eating technical debt for two more months and only want, for that brief time, a control
+                 panel, so it seems
+22:18 <jjjohnny> cuz they want a two month turnaround, db and graphing written off for the moment
+22:20 <jjjohnny> a front end interface componentry bricolage
+22:20 <jjjohnny> certainly I could use the work
+22:21 <jjjohnny> but I was thoroughly dropped out when these punks come popping in, asking me get on board all hella fast
+22:22 <jjjohnny> now i have consultatory debts
+22:23 <jjjohnny> i don't really feel like getting woke so fast and furious for less than 60 Gs
+22:31 <jjjohnny> damn it all to hell
+22:37 <jjjohnny> i mean, i really wanted to see 5x 60
+22:37 <jjjohnny> in total, for 3-6 months
+22:40 <jjjohnny> wake me up on some 2 months lil interface bullshit, and need consultation the whole way thru?!
+23:55 <substack> I've had the same thing happen with other consulting gigs
+23:56 <substack> people start in saying one thing, then get some different ideas pretty fast
+Day changed to 23 Jul 2015
+09:56 -!- adriangrigore [567987ea@gateway/web/cgi-irc/kiwiirc.com/ip.86.121.135.234] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC
+          client]
+11:51 -!- emil [~adrian@86.121.135.234] has joined #modulhaus
+11:51 -!- emil is now known as Guest37909
+11:53 -!- Guest37909 is now known as adriangrigore
+12:01 -!- mak`` [uid83936@gateway/web/irccloud.com/x-gadfcqkydivhpkon] has quit []
+12:01 -!- mak`` [uid83936@gateway/web/irccloud.com/x-wbstkotifdteovbu] has joined #modulhaus
+15:09 -!- adriangrigore [~adrian@86.121.135.234] has quit [Quit: adriangrigore]
+15:58 -!- emil [~adrian@86.121.135.234] has joined #modulhaus
+15:58 -!- emil is now known as adriangrigore
+16:21 -!- mak`` [uid83936@gateway/web/irccloud.com/x-wbstkotifdteovbu] has quit [Quit: Connection closed for inactivity]
+22:27 -!- adriangrigore [~adrian@86.121.135.234] has quit [Quit: adriangrigore]
+23:18 -!- steveoliver [~steveoliv@li88-167.members.linode.com] has joined #modulhaus
+Day changed to 25 Jul 2015
+00:59 -!- steveoliver [~steveoliv@li88-167.members.linode.com] has quit [Excess Flood]
+01:00 -!- steveoliver [~steveoliv@li88-167.members.linode.com] has joined #modulhaus
+01:19 -!- steveoliver [~steveoliv@li88-167.members.linode.com] has quit [Excess Flood]
+01:20 -!- steveoliver [~steveoliv@li88-167.members.linode.com] has joined #modulhaus
+Day changed to 24 Jul 2015
+Day changed to 25 Jul 2015
+Day changed to 26 Jul 2015
+03:02 <substack> finally works! https://github.com/substack/hyperlog-index
+03:22 <jjjohnny> dayum
+03:25 <jjjohnny> powerful shit
+03:25 <jjjohnny> hyperlog is good for user feeds, and what else?
+04:07 <substack> a whole website
+Day changed to 27 Jul 2015
+Day changed to 28 Jul 2015
+19:04 <jjjohnny> starting to think electron web apps and hosting your own data locallt are the way fwd
+19:04 <jjjohnny> it gets rid of the blob storage problem
+19:05 <jjjohnny> the new problems are then proxying from a public IP
+19:05 <jjjohnny> and backup / mirroring
+19:05 <jjjohnny> a friendly mirroring protocol
+19:05 <jjjohnny> your work with forkable DBs would make that a breeze
+19:08 <jjjohnny> maybe even use namecoin for DNS
+19:13 <jjjohnny> maybe not namecoin
+19:14 <substack> but how do we get USD to keep building this stuff? we have plenty of ideas for what we want to be building toward
+19:15 <substack> I think one huge problem is that many of those ideas are hostile to control and ownership, and that is how people usually make USD
+19:17 <substack> I started a web-based video editor a few weeks back, maybe there is something to that idea
+19:17 <substack> https://github.com/substack/videdit
+19:17 <jjjohnny> im still bonkers about merge conflict, but decided to wait till dominic arrives presumably in october
+19:18 <jjjohnny> to make the preview vid
+18:11 < feross> someone should debug it
+18:11 < feross> i haven't had time to :(
+18:11 < noffle> oh, for everyone?
+19:19 <jjjohnny> cuz he got interested suddenly.  I was all set to do it without him
+18:16 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:a820:7b82:862c:aa78] has joined #stackvm
+18:20 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:a820:7b82:862c:aa78] has quit [Ping timeout: 244 seconds]
+18:21 < feross> what do you guys think about this post? http://www.quirksmode.org/blog/archives/2015/07/stop_pushing_th.html
+18:22 < noffle> ha, I saw that this morning
+18:26 < noffle> he pushes for us focusing on "experience", but doesn't really seem to define what that means. Just working with the current
+                feature set and ignoring the future for a while, I guess? There are problems, but I'm not sure that the proposed solution will fix
+                them.
+19:24 <substack> software is such a dishonest line of work
+19:33 <jjjohnny> how about this
+19:34 <jjjohnny> the project is to collaborate with a crowd to design and develop free, open source software
+19:34 <jjjohnny> the crowd funds its, and votes on a pre determined list of applications
+                wanting to push it toward their own end goals that it's only reasonable that rate of features accelerates.
+18:44 -!- knownasilya [uid22190@gateway/web/irccloud.com/x-zwpdhoegognbiauy] has quit [Quit: Connection closed for inactivity]
+18:47 -!- pfraze [~pfraze@4.15.1.155] has quit [Remote host closed the connection]
+19:35 <jjjohnny> dexentralized this, decentralized that
+19:02 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit [Quit: Sleeping]
+19:11 < jjjohnny> anybody love them some namecoin?
+19:35 <jjjohnny> we build the winner
+19:39 <jjjohnny> my audio editor is ready for the next stage, which is publishing
+19:40 <jjjohnny> I really dont want to do it the old devopsy style
+19:53 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+19:56 < feross> noffle: i've always wished that the whole world would stop writing new features and spend 1 year fixing bugs in existing software
+19:56 < feross> also, check this out! https://webtorrent.io/
+19:57 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has quit [Ping timeout: 240 seconds]
+20:00 -!- ircretary [~ircretary@165.225.132.207] has quit [Remote host closed the connection]
+20:00 -!- ircretary [~ircretary@165.225.132.207] has joined #stackvm
+20:00 < noffle> pretty!
+20:00 -!- shama [~shama@2601:1c0:4d01:f044:504e:79d3:c4f:8602] has quit [Remote host closed the connection]
+20:00 < substack> where is a wacky idea: what if we build an app store for our html/electron apps and run that infrastructure as a cooperative
+                  endeavor
+20:01 < substack> I've got a few apps in the pipeline, jjjohnny has a few more, domanic and pfraze working on ssb things, mmckegg has loopdrop
+20:02 < mmckegg> Woah! sounds interesting :)
+20:02 < substack> we could build some common infrastructure for sign-on, storage, organizational membership and voting
+20:02 < substack> and get some nice economies of scale out of it
+20:03 < noffle> substack: what kind of infrastructure do you need that GH doesn't offer? or is this for running e.g. ssb or Friends nodes?
+20:03 < substack> yes, running nodes, torrent seeds, payment processing
+20:04 < substack> single sign-on, storage layers
+20:09 -!- contrahax [~contrahax@172.56.30.32] has joined #stackvm
+20:12 < substack> I think the hardest part will be to keep a stable flow of revenue coming in
+20:14 < jjjohnny> its a market
+20:14 < jjjohnny> its our market
+20:14 < jjjohnny> we'll start small, hustling web apps out of the trunk
+20:14 < jjjohnny> and build out our services like whoa billy
+20:15 < substack> but I think it's also different from a market, because we would have much more cooperation between different apps
+20:15 < substack> because everybody receives some benefit when an app does well
+20:17 < jjjohnny> yeah, interoperability is easily built it, for an auto mash up reality
+20:18 < jjjohnny> i could publish a transform stream app, with interface, like every day
+20:18 < feross> substack: i like this idea
+20:19 < feross> if it's lightweight enough and uses webrtc than volunteers can just stick a script on their blogs and websites to support the
+                network
+20:19 < feross> even if the website isn't using one of the p2p apps
+20:21 < substack> feross: it would be a real business, with real cashflow from app purchases and subscriptions
+20:21 < substack> so there would be money to run infrastructure
+20:23 -!- sz0 [~sz0@24.133.138.61] has quit [Quit: Bye.]
+20:23 < substack> but importantly, it would be an institution with a lasting sense of ownership more like open source
+20:24 < substack> and less like jobs that are fleeting and ephemeral
+20:26 < jjjohnny> and of course, a direct pipeline of our self operated FOSS crowd fund plantform, plus revolutionary publication for software
+                  architecture and design
+20:26 < substack> sure
+20:26 < substack> every successful movement needs a propaganda machine
+20:28 < jjjohnny> well, maybe it will be sticthed together from cyberwiz and etcetera
+20:29 < jjjohnny> would be sweet if people who wanted software, but needed some education on the matter, could come away with knowledge good
+                  enough to create a proposal for the crowd
+20:30 < karissa> Sounds lovely
+20:31 < karissa> Revenue sharing would be nice. It'd be great if there was a baseline for member-contributors. I'd actually like to explore this
+                 funding model http://arxiv.org/abs/1304.1067
+20:32 < substack> a dividend could work well for that
+20:33 < substack> alaska permanent fund dividend style, oil revenues get taxes at a fixed percent, goes into a pool of money that gets invested,
+                  the proceeds from that end up in the payouts
+20:34 < noffle> are you thinking we'd run/maintain the hardware, or pool e.g. VPSes?
+20:34 < substack> VPSes to start, but they are much more expensive for some things like disk than doing co-lo
+20:35 < substack> there are economies of scale at a certain level of operations
+20:35 < substack> and by pooling our resources, we can lower operations costs
+20:35 < karissa> Sounds good to me
+20:42  * substack drafting a proposal
+20:43 < karissa> substack: would we need to agree on a protocol for all the apps to use?
+20:43 < jjjohnny> i propose apps self host all data locally on user's machine, scale with webRTC, and mirror/backup any number of ways (ie.
+                  socially, or, as a service)
+20:44 < jjjohnny> and that we build a decentralized but hosted dynamic DNS to connect with hosts andor their mirrors
+20:44 < substack> karissa: not necessarily
+20:44 < jjjohnny> MY SANDCASTLE!
+20:45 < substack> karissa: most apps wouldn't need anything special, only the apps that need to coordinate
+20:45 < substack> like a storage application or a single sign-on app
+20:47 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:fd86:5d63:8d3e:c9ce] has joined #stackvm
+20:47 < karissa> Right
+20:47 < karissa> it'd be nice to get a prototype running
+20:47 < substack> agreed!
+20:48 < substack> karissa: are you headed back to oak after ccc?
+20:49 < substack> a bunch of us should meet up to flesh out this idea more in person
+20:49 < substack> and prototype
+20:49 < karissa> substack: I'll be in Europe till the end of August then back in Oakland sept 1
+20:49 < karissa> Would love to
+20:49 < substack> ok, early sept!
+20:50 < karissa> The revenue sharing model can be figured out I think. I'm excited about it and have ideas
+20:51 < substack> that would be great, I don't have as many ideas about how that part would work
+20:55 < jjjohnny> i do https://github.com/MODULHAUS/anarcho-source/blob/master/README.md#remuneration-patterns
+21:01 < jjjohnny> we could issue notes on the blockchain, you could sell you worked hours as shares
+21:01 < jjjohnny> we could accept investors at reasonable, perfectly equitable terms
+21:02 < substack> I would rather do away with investors entirely
+21:03 < substack> investment is another vehicle by which the rich get richer at the expense of people who create the value
+21:03 < substack> but that limitation will mean that we should build recurring revenue streams early
+21:04 < jjjohnny> are you saying I can
+21:04 < jjjohnny> are you saying I can't sell my revenue shares?
+21:04 < jjjohnny> i want my free country back
+21:05 < karissa> Rofl
+23:01 -!- jjjohnny [~root@li88-247.members.linode.com] has joined #atom-shell
+23:01 -!- Topic for #atom-shell: The Atom Shell application framework | https://github.com/atom/atom-shell | https://discuss.atom.io/
+23:01 -!- Topic set by thedanie1 [] [Thu Sep 11 14:20:19 2014]
+23:01 [Users #atom-shell]
+23:01 [@ChanServ      ] [ cschneid    ] [ jdivock      ] [ Kilo`byte      ] [ mapc_       ] [ steev        ]
+23:01 [ _jack_        ] [ danmactough_] [ jgornick     ] [ klobucar       ] [ mekwall     ] [ sverrej      ]
+23:01 [ _longines     ] [ drwin       ] [ jjjohnny     ] [ krainboltgreene] [ omnidan     ] [ tekacs       ]
+23:01 [ bobpattersonjr] [ Ephemeral   ] [ jorisd___    ] [ kyrre          ] [ rahat       ] [ thedaniel    ]
+23:01 [ boonkerz      ] [ FergusL     ] [ JSON_voorhees] [ lukas2511      ] [ rollingWolf ] [ therealklanni]
+23:01 [ bret          ] [ feross      ] [ Kaioshi      ] [ madjake45      ] [ Sail        ] [ tonyoy       ]
+23:01 [ brucem        ] [ GreenJello  ] [ Keavon       ] [ maggick        ] [ Scroll_Tro0L] [ ttilley      ]
+23:01 [ bytheway      ] [ groundwater ] [ kexplo       ] [ magikmw        ] [ sh4zzb0t    ] [ warptangent  ]
+23:01 [ cbednarski    ] [ hughsk      ] [ kgf          ] [ maio           ] [ somebody32  ] [ zz_r04r      ]
+23:01 -!- Irssi: #atom-shell: Total of 54 nicks [1 ops, 0 halfops, 0 voices, 53 normal]
+23:01 -!- Channel #atom-shell created Sun May 18 21:31:16 2014
+23:01 -!- Irssi: Join to #atom-shell was synced in 1 secs
+23:03 < jjjohnny> is there an app method to refresh the page?
+23:03 < jjjohnny> i noticed ctrl-r works if you have the dev tools open
+23:04 < jjjohnny> but a stock window, it does not
+23:15 -!- bytheway [~bytheway@162.246.122.112] has quit [Remote host closed the connection]
+23:31 -!- bytheway [~bytheway@162.246.122.112] has joined #atom-shell
+23:33 -!- bytheway [~bytheway@162.246.122.112] has quit [Remote host closed the connection]
+23:33 -!- bytheway [~bytheway@162.246.122.112] has joined #atom-shell
+Day changed to 29 Jul 2015
+00:03 -!- khebbie [~khebbie@x1-6-c0-ff-d4-8d-3b-2e.cpe.webspeed.dk] has joined #atom-shell
+00:08 -!- khebbie [~khebbie@x1-6-c0-ff-d4-8d-3b-2e.cpe.webspeed.dk] has quit [Ping timeout: 246 seconds]
+00:18 < kgf> jjjohnny: https://github.com/atom/electron/blob/master/docs/api/browser-window.md#webcontentsreload
+00:18 < kgf> (there's also an alias for that listed under BrowserWindow, but not for reloadIgnoringCache)
+01:02 < jjjohnny> kgf: thanks, where do I access the webcontents class ?
+01:08 -!- bytheway [~bytheway@162.246.122.112] has quit [Remote host closed the connection]
+01:27 -!- bytheway [~bytheway@162.246.122.112] has joined #atom-shell
+01:53 -!- bytheway [~bytheway@162.246.122.112] has quit [Remote host closed the connection]
+01:54 -!- bytheway [~bytheway@162.246.122.112] has joined #atom-shell
+01:55 -!- JayFK [~JayFK@p4FFA2F73.dip0.t-ipconnect.de] has joined #atom-shell
+01:58 -!- bytheway [~bytheway@162.246.122.112] has quit [Ping timeout: 246 seconds]
+02:00 -!- khebbie [~khebbie@x1-6-c0-ff-d4-8d-3b-2e.cpe.webspeed.dk] has joined #atom-shell
+02:25 -!- drwin [~drwin@88-103-255-166.jes.cz] has quit [Read error: Connection reset by peer]
+02:27 -!- drwin [~drwin@88-103-255-166.jes.cz] has joined #atom-shell
+02:33 -!- GreenJello [~GreenJell@unaffiliated/greenjello] has quit [Quit: (null)]
+02:51 -!- JayFK [~JayFK@p4FFA2F73.dip0.t-ipconnect.de] has quit [Quit: My MacBook Pro has gone to sleep. ZZZzzz&]
+02:55 -!- JayFK [~JayFK@p4FFA2F73.dip0.t-ipconnect.de] has joined #atom-shell
+03:02 -!- sh4zzb0t [~ohShazzbo@108-64-137-162.lightspeed.sndgca.sbcglobal.net] has quit [Read error: Connection reset by peer]
+03:22 -!- rmbl [57804a6f@gateway/web/freenode/ip.87.128.74.111] has joined #atom-shell
+03:32 -!- zz_r04r is now known as r04r
+04:11 -!- khebbie [~khebbie@x1-6-c0-ff-d4-8d-3b-2e.cpe.webspeed.dk] has quit [Remote host closed the connection]
+04:31 -!- ttilley [~ttilley@unaffiliated/lv] has quit [Quit: Leaving...]
+04:43 < rmbl> Hi, I got a problem implementing a minimize to tray function. I am listening for the minimize event and try to hide the window then.
+              But instead it gets minimized and when i open the window its all black. Using .show() restores the content of the window
+23:01 [ cbednarski    ] [ hughsk      ] [ kgf          ] [ maio           ] [ somebody32  ] [ zz_r04r      ]
+23:01 -!- Irssi: #atom-shell: Total of 54 nicks [1 ops, 0 halfops, 0 voices, 53 normal]
+23:01 -!- Channel #atom-shell created Sun May 18 21:31:16 2014
+23:01 -!- Irssi: Join to #atom-shell was synced in 1 secs
+23:03 < jjjohnny> is there an app method to refresh the page?
+23:03 < jjjohnny> i noticed ctrl-r works if you have the dev tools open
+23:04 < jjjohnny> but a stock window, it does not
+23:15 -!- bytheway [~bytheway@162.246.122.112] has quit [Remote host closed the connection]
+23:31 -!- bytheway [~bytheway@162.246.122.112] has joined #atom-shell
+23:33 -!- bytheway [~bytheway@162.246.122.112] has quit [Remote host closed the connection]
+23:33 -!- bytheway [~bytheway@162.246.122.112] has joined #atom-shell
+Day changed to 29 Jul 2015
+00:03 -!- khebbie [~khebbie@x1-6-c0-ff-d4-8d-3b-2e.cpe.webspeed.dk] has joined #atom-shell
+00:08 -!- khebbie [~khebbie@x1-6-c0-ff-d4-8d-3b-2e.cpe.webspeed.dk] has quit [Ping timeout: 246 seconds]
+00:18 < kgf> jjjohnny: https://github.com/atom/electron/blob/master/docs/api/browser-window.md#webcontentsreload
+00:18 < kgf> (there's also an alias for that listed under BrowserWindow, but not for reloadIgnoringCache)
+01:02 < jjjohnny> kgf: thanks, where do I access the webcontents class ?
+01:08 -!- bytheway [~bytheway@162.246.122.112] has quit [Remote host closed the connection]
+01:27 -!- bytheway [~bytheway@162.246.122.112] has joined #atom-shell
+01:53 -!- bytheway [~bytheway@162.246.122.112] has quit [Remote host closed the connection]
+01:54 -!- bytheway [~bytheway@162.246.122.112] has joined #atom-shell
+01:55 -!- JayFK [~JayFK@p4FFA2F73.dip0.t-ipconnect.de] has joined #atom-shell
+01:58 -!- bytheway [~bytheway@162.246.122.112] has quit [Ping timeout: 246 seconds]
+02:00 -!- khebbie [~khebbie@x1-6-c0-ff-d4-8d-3b-2e.cpe.webspeed.dk] has joined #atom-shell
+02:25 -!- drwin [~drwin@88-103-255-166.jes.cz] has quit [Read error: Connection reset by peer]
+02:27 -!- drwin [~drwin@88-103-255-166.jes.cz] has joined #atom-shell
+02:33 -!- GreenJello [~GreenJell@unaffiliated/greenjello] has quit [Quit: (null)]
+02:51 -!- JayFK [~JayFK@p4FFA2F73.dip0.t-ipconnect.de] has quit [Quit: My MacBook Pro has gone to sleep. ZZZzzz&]
+02:55 -!- JayFK [~JayFK@p4FFA2F73.dip0.t-ipconnect.de] has joined #atom-shell
+03:02 -!- sh4zzb0t [~ohShazzbo@108-64-137-162.lightspeed.sndgca.sbcglobal.net] has quit [Read error: Connection reset by peer]
+03:22 -!- rmbl [57804a6f@gateway/web/freenode/ip.87.128.74.111] has joined #atom-shell
+03:32 -!- zz_r04r is now known as r04r
+04:11 -!- khebbie [~khebbie@x1-6-c0-ff-d4-8d-3b-2e.cpe.webspeed.dk] has quit [Remote host closed the connection]
+04:31 -!- ttilley [~ttilley@unaffiliated/lv] has quit [Quit: Leaving...]
+04:43 < rmbl> Hi, I got a problem implementing a minimize to tray function. I am listening for the minimize event and try to hide the window then.
+              But instead it gets minimized and when i open the window its all black. Using .show() restores the content of the window
+21:18 < jjjohnny> its all make believe, i can do without it
+21:25 < noffle> I can't claim to be particularly knowledgable on these subjects, but I'd be interested in joining in and contributing where I can.
+21:26 < noffle> at the very least I'm really behind the idea and spirit :)
+21:38 -!- oncenull [~pose@190.19.245.13] has joined #stackvm
+21:42 -!- oncenull [~pose@190.19.245.13] has quit [Ping timeout: 244 seconds]
+21:48 -!- fotoverite [~fotoverit@cpe-72-225-216-150.nyc.res.rr.com] has quit [Quit: fotoverite]
+21:49 -!- fotoverite [~fotoverit@cpe-72-225-216-150.nyc.res.rr.com] has joined #stackvm
+21:51 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has joined #stackvm
+22:31 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:a08f:e7d5:eca0:e6e4] has quit [Remote host closed the connection]
+22:33 -!- pfraze [~pfraze@2605:6000:e900:d200:8093:8391:94d8:2a8] has joined #stackvm
+23:12 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:8127:84e8:b6de:7d2a] has joined #stackvm
+23:16 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:8127:84e8:b6de:7d2a] has quit [Ping timeout: 246 seconds]
+23:20 -!- collypops [~collypops@203.2.218.131] has quit [Ping timeout: 246 seconds]
+23:20 < jjjohnny> substack: https://github.com/MODULHAUS/electron-starter
+23:30 -!- oncenull [~pose@190.19.245.13] has joined #stackvm
+Day changed to 29 Jul 2015
+00:01 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout: 250 seconds]
+00:04 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit [Quit: Sleeping]
+00:06 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:c5af:be0d:c6d5:eccd] has joined #stackvm
+00:09 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has joined #stackvm
+00:10 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:c5af:be0d:c6d5:eccd] has quit [Ping timeout: 246 seconds]
+00:54 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit [Quit: Sleeping]
+00:54 -!- oncenull [~pose@190.19.245.13] has quit [Remote host closed the connection]
+01:29 -!- pfraze [~pfraze@2605:6000:e900:d200:8093:8391:94d8:2a8] has quit [Remote host closed the connection]
+02:07 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+03:12 -!- harrow [~harrow@2607:5300:100:200::160d] has quit [K-Lined]
+03:14 -!- harrow [~harrow@105.ip-167-114-152.net] has joined #stackvm
+03:27 -!- mk30 [~mk30@142-254-26-9.dsl.static.fusionbroadband.com] has quit [Remote host closed the connection]
+03:37 -!- fotoverite [~fotoverit@cpe-72-225-216-150.nyc.res.rr.com] has quit [Quit: fotoverite]
+03:40 -!- fotoverite [~fotoverit@cpe-72-225-216-150.nyc.res.rr.com] has joined #stackvm
+03:43 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:81f6:4ed0:d35e:f164] has joined #stackvm
+03:44 -!- fotoverite [~fotoverit@cpe-72-225-216-150.nyc.res.rr.com] has quit [Client Quit]
+03:47 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:81f6:4ed0:d35e:f164] has quit [Ping timeout: 244 seconds]
+04:37 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+04:41 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has quit [Ping timeout: 272 seconds]
+05:05 -!- AndreasMadsen [~andreasma@82.211.219.202] has joined #stackvm
+05:09 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has joined #stackvm
+05:50 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit [Quit: Sleeping]
+06:25 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:a058:56ee:3bb9:a1ef] has joined #stackvm
+06:29 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:a058:56ee:3bb9:a1ef] has quit [Ping timeout: 244 seconds]
+06:45 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has joined #stackvm
+06:49 -!- AndreasMadsen [~andreasma@82.211.219.202] has quit []
+07:15 -!- fotoverite [~fotoverit@cpe-72-225-216-150.nyc.res.rr.com] has joined #stackvm
+07:19 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:fccb:8e4e:282d:be71] has joined #stackvm
+07:24 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:fccb:8e4e:282d:be71] has quit [Ping timeout: 244 seconds]
+07:46 -!- anandtha1ker is now known as anandthakker
+08:05 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit [Quit: Sleeping]
+08:14 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:e912:59f9:8fb7:8d44] has joined #stackvm
+08:14 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has joined #stackvm
+08:18 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:e912:59f9:8fb7:8d44] has quit [Ping timeout: 244 seconds]
+09:07 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+09:12 -!- collypops [~collypops@pa49-199-142-84.pa.vic.optusnet.com.au] has joined #stackvm
+09:13 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has quit [Ping timeout: 264 seconds]
+09:13 -!- collypops [~collypops@pa49-199-142-84.pa.vic.optusnet.com.au] has quit [Client Quit]
+09:21 -!- oncenull [~pose@190.19.245.13] has joined #stackvm
+01:59 -!- steveoliver [~steveoliv@li88-167.members.linode.com] has quit [Excess Flood]
+02:00 -!- steveoliver [~steveoliv@li88-167.members.linode.com] has joined #modulhaus
+06:15 -!- adriangrigore [~adrian@86.121.135.234] has joined #modulhaus
+05:48 -!- Kilo`byte [~kilobyte@5.231.51.78] has quit [Quit: kilobyte22.de]
+06:05 -!- drwin [~drwin@88-103-255-166.jes.cz] has quit [Ping timeout: 240 seconds]
+06:05 -!- drwin [~drwin@88-103-255-166.jes.cz] has joined #atom-shell
+06:09 -!- Scroll_Tro0L [~scroll_tr@c-24-2-17-252.hsd1.mo.comcast.net] has quit [Ping timeout: 246 seconds]
+07:14 -!- maggick [~maggick@keller.lc] has quit [Ping timeout: 264 seconds]
+19:43 <jjjohnny> or host it all myself, a build the proxy and mirror system
+19:43 <substack> this is some infrastructure we should figure out
+19:44 <substack> a new kind of webapp that acts more like a traditional desktop app
+19:44 <substack> maybe we can make a little "app store" for it
+19:45 <substack> with all kinds of wacky funding options, like free after it makes $X in revenue
+19:45 <substack> or minecraft style where an app costs more over time
+19:48 <substack> the app store / homescreen thing could handle single-sign on keyboot style
+19:50 <substack> and backed up to ipfs + bittorrent
+19:51 <substack> and we build a few of these apps, like an audio app and a video editor to increase visibility of the app store
+19:52 <substack> after we do that we can probably convince mmckegg to list loopdrop on our store too
+19:53 <substack> how about this: the app store is 100% owned by the developers who publish apps on it
+19:53 <jjjohnny> how's that work?
+19:54 <substack> developers are invited into the system and then they can vote to change how the store is run
+21:51 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has joined #stackvm
+22:31 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:a08f:e7d5:eca0:e6e4] has quit [Remote host closed the connection]
+22:33 -!- pfraze [~pfraze@2605:6000:e900:d200:8093:8391:94d8:2a8] has joined #stackvm
+23:12 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:8127:84e8:b6de:7d2a] has joined #stackvm
+23:16 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:8127:84e8:b6de:7d2a] has quit [Ping timeout: 246 seconds]
+23:20 -!- collypops [~collypops@203.2.218.131] has quit [Ping timeout: 246 seconds]
+23:20 < jjjohnny> substack: https://github.com/MODULHAUS/electron-starter
+23:30 -!- oncenull [~pose@190.19.245.13] has joined #stackvm
+Day changed to 29 Jul 2015
+00:01 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout: 250 seconds]
+00:04 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit [Quit: Sleeping]
+00:06 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:c5af:be0d:c6d5:eccd] has joined #stackvm
+00:09 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has joined #stackvm
+00:10 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:c5af:be0d:c6d5:eccd] has quit [Ping timeout: 246 seconds]
+00:54 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit [Quit: Sleeping]
+00:54 -!- oncenull [~pose@190.19.245.13] has quit [Remote host closed the connection]
+01:29 -!- pfraze [~pfraze@2605:6000:e900:d200:8093:8391:94d8:2a8] has quit [Remote host closed the connection]
+02:07 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+03:12 -!- harrow [~harrow@2607:5300:100:200::160d] has quit [K-Lined]
+03:14 -!- harrow [~harrow@105.ip-167-114-152.net] has joined #stackvm
+03:27 -!- mk30 [~mk30@142-254-26-9.dsl.static.fusionbroadband.com] has quit [Remote host closed the connection]
+03:37 -!- fotoverite [~fotoverit@cpe-72-225-216-150.nyc.res.rr.com] has quit [Quit: fotoverite]
+03:40 -!- fotoverite [~fotoverit@cpe-72-225-216-150.nyc.res.rr.com] has joined #stackvm
+03:43 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:81f6:4ed0:d35e:f164] has joined #stackvm
+03:44 -!- fotoverite [~fotoverit@cpe-72-225-216-150.nyc.res.rr.com] has quit [Client Quit]
+03:47 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:81f6:4ed0:d35e:f164] has quit [Ping timeout: 244 seconds]
+04:37 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+04:41 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has quit [Ping timeout: 272 seconds]
+05:05 -!- AndreasMadsen [~andreasma@82.211.219.202] has joined #stackvm
+05:09 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has joined #stackvm
+05:50 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit [Quit: Sleeping]
+06:25 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:a058:56ee:3bb9:a1ef] has joined #stackvm
+06:29 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:a058:56ee:3bb9:a1ef] has quit [Ping timeout: 244 seconds]
+06:45 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has joined #stackvm
+06:49 -!- AndreasMadsen [~andreasma@82.211.219.202] has quit []
+07:15 -!- fotoverite [~fotoverit@cpe-72-225-216-150.nyc.res.rr.com] has joined #stackvm
+07:19 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:fccb:8e4e:282d:be71] has joined #stackvm
+07:24 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:fccb:8e4e:282d:be71] has quit [Ping timeout: 244 seconds]
+07:46 -!- anandtha1ker is now known as anandthakker
+08:05 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit [Quit: Sleeping]
+08:14 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:e912:59f9:8fb7:8d44] has joined #stackvm
+08:14 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has joined #stackvm
+08:18 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:e912:59f9:8fb7:8d44] has quit [Ping timeout: 244 seconds]
+09:07 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+09:12 -!- collypops [~collypops@pa49-199-142-84.pa.vic.optusnet.com.au] has joined #stackvm
+09:13 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has quit [Ping timeout: 264 seconds]
+09:13 -!- collypops [~collypops@pa49-199-142-84.pa.vic.optusnet.com.au] has quit [Client Quit]
+09:21 -!- oncenull [~pose@190.19.245.13] has joined #stackvm
+09:29 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:88be:9615:4f3f:41a8] has joined #stackvm
+09:33 -!- null_radix [Elite7851@gateway/shell/elitebnc/x-egchsbtcriwgvrzl] has quit [Excess Flood]
+09:34 -!- oncenull [~pose@190.19.245.13] has quit [Remote host closed the connection]
+09:34 -!- null_radix [Elite7851@gateway/shell/elitebnc/x-qtoeaweeikyzkakd] has joined #stackvm
+09:37 -!- oncenull [~pose@190.19.245.13] has joined #stackvm
+09:42 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit [Quit: Sleeping]
+09:43 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has joined #stackvm
+09:45 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit [Client Quit]
+09:47 -!- knownasilya [uid22190@gateway/web/irccloud.com/x-flrjtinzrjbjdkpc] has joined #stackvm
+09:56 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has joined #stackvm
+10:04 -!- rom1504 [rom1504@rom1504.fr] has quit [Ping timeout: 256 seconds]
+10:06 -!- nathan7 [nathan@unaffiliated/nathan7] has quit [Ping timeout: 256 seconds]
+10:10 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit [Quit: Sleeping]
+10:14 -!- nathan7 [nathan@unaffiliated/nathan7] has joined #stackvm
+10:23 -!- rom1504 [rom1504@rom1504.fr] has joined #stackvm
+11:02 -!- tobie [sid5692@gateway/web/irccloud.com/x-nleygbtqvjnbdmof] has quit [Remote host closed the connection]
+11:02 -!- jhiesey [sid88516@gateway/web/irccloud.com/x-efwvtnqjgximrefl] has quit [Remote host closed the connection]
+11:02 -!- jlord [sid35269@gateway/web/irccloud.com/x-jkixiwuchdwomobv] has quit [Remote host closed the connection]
+11:02 -!- dubroy__________ [sid2856@gateway/web/irccloud.com/x-frfdfuisdmzfsfko] has quit [Remote host closed the connection]
+11:02 -!- thisandagain [sid39659@gateway/web/irccloud.com/x-cufowrfmwtnoifur] has quit [Remote host closed the connection]
+11:02 -!- mafintosh [sid28509@gateway/web/irccloud.com/x-lejisfvzrclxqskt] has quit [Remote host closed the connection]
+11:02 -!- ELLIOTTCABLE [sid1544@gateway/web/irccloud.com/x-ijebzihjyjzcmscv] has quit [Remote host closed the connection]
+11:02 -!- Domenic [sid10976@gateway/web/irccloud.com/x-hyxfzlskfwqpkhpq] has quit [Remote host closed the connection]
+11:02 -!- machty [sid13535@gateway/web/irccloud.com/x-mpdpzmqrarbnesqs] has quit [Remote host closed the connection]
+11:02 -!- addisonj [sid18502@gateway/web/irccloud.com/x-euybxpgyrbtmjprk] has quit [Remote host closed the connection]
+11:02 -!- sindresorhus [sid7424@gateway/web/irccloud.com/x-zcflmxmtddojvfsv] has quit [Remote host closed the connection]
+11:02 -!- beaugunderson [sid6336@gateway/web/irccloud.com/x-xwxkqgcmnrnxdtcv] has quit [Remote host closed the connection]
+11:02 -!- ngoldman [sid25973@gateway/web/irccloud.com/x-pvxputmtdhxlyioc] has quit [Remote host closed the connection]
+11:21 -!- shama [~shama@2601:1c0:4d01:f044:2965:59cd:2f04:61fa] has joined #stackvm
+11:22 -!- ELLIOTTCABLE [sid1544@gateway/web/irccloud.com/x-peonpmxuutzzydwc] has joined #stackvm
+11:25 -!- pfraze [~pfraze@2605:6000:e900:d200:a8eb:d04e:3359:967e] has joined #stackvm
+11:27 -!- dubroy__________ [sid2856@gateway/web/irccloud.com/x-nhwqkdwdjejpfcqb] has joined #stackvm
+11:41 -!- tobie [sid5692@gateway/web/irccloud.com/x-purtmfhkudxcbtbk] has joined #stackvm
+11:43 -!- beaugunderson [sid6336@gateway/web/irccloud.com/x-lubrwfsqjhyjrefo] has joined #stackvm
+11:47 -!- sindresorhus [sid7424@gateway/web/irccloud.com/x-qsnmnelhxcclelyr] has joined #stackvm
+12:06 -!- Domenic [sid10976@gateway/web/irccloud.com/x-zorjbmgwgjcsyxtm] has joined #stackvm
+12:11 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:88be:9615:4f3f:41a8] has quit [Remote host closed the connection]
+12:12 -!- machty [sid13535@gateway/web/irccloud.com/x-rmsbbcenzosrhgsa] has joined #stackvm
+12:12 -!- addisonj [sid18502@gateway/web/irccloud.com/x-tmozqwhtnerlvbdk] has joined #stackvm
+12:13 -!- eugeneware [sid28140@gateway/web/irccloud.com/x-codobctmgogncqyy] has quit [Read error: Connection reset by peer]
+12:13 -!- terinjokes_ [sid65030@gateway/web/irccloud.com/x-joghxzcdjnqskflr] has quit [Remote host closed the connection]
+12:13 -!- karissa [sid46165@gateway/web/irccloud.com/x-zrlhofuuypyyndvw] has quit [Remote host closed the connection]
+12:13 -!- jbenet [sid17552@gateway/web/irccloud.com/x-niogvpibkadovdmk] has quit [Remote host closed the connection]
+12:13 -!- parshap [sid18846@gateway/web/irccloud.com/x-jnzmbdspijfkhsbj] has quit [Remote host closed the connection]
+12:13 -!- knownasilya [uid22190@gateway/web/irccloud.com/x-flrjtinzrjbjdkpc] has quit [Remote host closed the connection]
+12:13 -!- wangbus [sid51960@gateway/web/irccloud.com/x-xzbvmnxfaczecxmv] has quit [Remote host closed the connection]
+12:23 -!- ngoldman [sid25973@gateway/web/irccloud.com/x-zudjorqtxaljdarx] has joined #stackvm
+12:26 -!- mafintosh [sid28509@gateway/web/irccloud.com/x-sykxuairjengyqkh] has joined #stackvm
+12:27 -!- jbenet [sid17552@gateway/web/irccloud.com/x-aeektwtfrazzfgut] has joined #stackvm
+12:28 -!- parshap [sid18846@gateway/web/irccloud.com/x-bprvpuampvkfesxs] has joined #stackvm
+12:31 -!- jlord [sid35269@gateway/web/irccloud.com/x-kqqckjdrryeqztfy] has joined #stackvm
+12:35 -!- thisandagain [sid39659@gateway/web/irccloud.com/x-jjczekwxtvkeriuy] has joined #stackvm
+12:36 -!- knownasilya [uid22190@gateway/web/irccloud.com/x-xpurpyfsifpugdxj] has joined #stackvm
+12:37 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:ad27:3b42:8c8a:2f8e] has joined #stackvm
+20:47 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:fd86:5d63:8d3e:c9ce] has joined #stackvm
+20:47 < karissa> Right
+20:47 < karissa> it'd be nice to get a prototype running
+20:47 < substack> agreed!
+20:48 < substack> karissa: are you headed back to oak after ccc?
+20:49 < substack> a bunch of us should meet up to flesh out this idea more in person
+20:49 < substack> and prototype
+20:49 < karissa> substack: I'll be in Europe till the end of August then back in Oakland sept 1
+20:49 < karissa> Would love to
+20:49 < substack> ok, early sept!
+20:50 < karissa> The revenue sharing model can be figured out I think. I'm excited about it and have ideas
+20:51 < substack> that would be great, I don't have as many ideas about how that part would work
+20:55 < jjjohnny> i do https://github.com/MODULHAUS/anarcho-source/blob/master/README.md#remuneration-patterns
+21:01 < jjjohnny> we could issue notes on the blockchain, you could sell you worked hours as shares
+21:01 < jjjohnny> we could accept investors at reasonable, perfectly equitable terms
+21:02 < substack> I would rather do away with investors entirely
+21:03 < substack> investment is another vehicle by which the rich get richer at the expense of people who create the value
+21:03 < substack> but that limitation will mean that we should build recurring revenue streams early
+21:04 < jjjohnny> are you saying I can
+21:04 < jjjohnny> are you saying I can't sell my revenue shares?
+21:04 < jjjohnny> i want my free country back
+21:05 < karissa> Rofl
+21:07 < substack> if we let membership become another market commodity, a small number of people will end up owning the whole thing just like
+                  always happens
+21:07 < substack> and it will suck and we'll need to build everything all over again from scratch
+21:09 < karissa> It's a hard problem that we will solve eventually
+21:09 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:fd86:5d63:8d3e:c9ce] has quit [Remote host closed the connection]
+21:09 < karissa> Or mess up. But whatever it is will be better than what it is right now if we are intentional and inclusive
+21:11 -!- contrahax [~contrahax@172.56.30.32] has quit [Quit: Sleeping]
+21:11 < karissa> Most importantly it's about making things possible that people thought weren't, expanding possibilities and thought processes
+21:13 < substack> and if we document everything, we can encourage copycats
+21:15 < karissa> Yeah! And if it works, even better
+21:16 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:a08f:e7d5:eca0:e6e4] has joined #stackvm
+21:17 < jjjohnny> investors would not get to vote on anything
+21:17 < jjjohnny> in one copycat version that tries investors
+21:18 < jjjohnny> its all make believe, i can do without it
+21:25 < noffle> I can't claim to be particularly knowledgable on these subjects, but I'd be interested in joining in and contributing where I can.
+21:26 < noffle> at the very least I'm really behind the idea and spirit :)
+21:38 -!- oncenull [~pose@190.19.245.13] has joined #stackvm
+21:42 -!- oncenull [~pose@190.19.245.13] has quit [Ping timeout: 244 seconds]
+21:48 -!- fotoverite [~fotoverit@cpe-72-225-216-150.nyc.res.rr.com] has quit [Quit: fotoverite]
+21:49 -!- fotoverite [~fotoverit@cpe-72-225-216-150.nyc.res.rr.com] has joined #stackvm
+21:51 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has joined #stackvm
+22:31 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:a08f:e7d5:eca0:e6e4] has quit [Remote host closed the connection]
+22:33 -!- pfraze [~pfraze@2605:6000:e900:d200:8093:8391:94d8:2a8] has joined #stackvm
+23:12 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:8127:84e8:b6de:7d2a] has joined #stackvm
+23:16 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:8127:84e8:b6de:7d2a] has quit [Ping timeout: 246 seconds]
+23:20 -!- collypops [~collypops@203.2.218.131] has quit [Ping timeout: 246 seconds]
+23:20 < jjjohnny> substack: https://github.com/MODULHAUS/electron-starter
+23:30 -!- oncenull [~pose@190.19.245.13] has joined #stackvm
+Day changed to 29 Jul 2015
+00:01 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Ping timeout: 250 seconds]
+00:04 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit [Quit: Sleeping]
+00:06 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:c5af:be0d:c6d5:eccd] has joined #stackvm
+00:09 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has joined #stackvm
+00:10 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:c5af:be0d:c6d5:eccd] has quit [Ping timeout: 246 seconds]
+00:54 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit [Quit: Sleeping]
+00:54 -!- oncenull [~pose@190.19.245.13] has quit [Remote host closed the connection]
+01:29 -!- pfraze [~pfraze@2605:6000:e900:d200:8093:8391:94d8:2a8] has quit [Remote host closed the connection]
+02:07 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+03:12 -!- harrow [~harrow@2607:5300:100:200::160d] has quit [K-Lined]
+03:14 -!- harrow [~harrow@105.ip-167-114-152.net] has joined #stackvm
+03:27 -!- mk30 [~mk30@142-254-26-9.dsl.static.fusionbroadband.com] has quit [Remote host closed the connection]
+03:37 -!- fotoverite [~fotoverit@cpe-72-225-216-150.nyc.res.rr.com] has quit [Quit: fotoverite]
+03:40 -!- fotoverite [~fotoverit@cpe-72-225-216-150.nyc.res.rr.com] has joined #stackvm
+03:43 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:81f6:4ed0:d35e:f164] has joined #stackvm
+03:44 -!- fotoverite [~fotoverit@cpe-72-225-216-150.nyc.res.rr.com] has quit [Client Quit]
+03:47 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:81f6:4ed0:d35e:f164] has quit [Ping timeout: 244 seconds]
+04:37 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+04:41 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has quit [Ping timeout: 272 seconds]
+05:05 -!- AndreasMadsen [~andreasma@82.211.219.202] has joined #stackvm
+05:09 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has joined #stackvm
+05:50 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit [Quit: Sleeping]
+06:25 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:a058:56ee:3bb9:a1ef] has joined #stackvm
+06:29 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:a058:56ee:3bb9:a1ef] has quit [Ping timeout: 244 seconds]
+06:45 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has joined #stackvm
+06:49 -!- AndreasMadsen [~andreasma@82.211.219.202] has quit []
+07:15 -!- fotoverite [~fotoverit@cpe-72-225-216-150.nyc.res.rr.com] has joined #stackvm
+07:19 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:fccb:8e4e:282d:be71] has joined #stackvm
+07:24 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:fccb:8e4e:282d:be71] has quit [Ping timeout: 244 seconds]
+07:46 -!- anandtha1ker is now known as anandthakker
+08:05 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit [Quit: Sleeping]
+08:14 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:e912:59f9:8fb7:8d44] has joined #stackvm
+08:14 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has joined #stackvm
+08:18 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:e912:59f9:8fb7:8d44] has quit [Ping timeout: 244 seconds]
+09:07 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+09:12 -!- collypops [~collypops@pa49-199-142-84.pa.vic.optusnet.com.au] has joined #stackvm
+09:13 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has quit [Ping timeout: 264 seconds]
+09:13 -!- collypops [~collypops@pa49-199-142-84.pa.vic.optusnet.com.au] has quit [Client Quit]
+09:21 -!- oncenull [~pose@190.19.245.13] has joined #stackvm
+09:29 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:88be:9615:4f3f:41a8] has joined #stackvm
+09:33 -!- null_radix [Elite7851@gateway/shell/elitebnc/x-egchsbtcriwgvrzl] has quit [Excess Flood]
+09:34 -!- oncenull [~pose@190.19.245.13] has quit [Remote host closed the connection]
+09:34 -!- null_radix [Elite7851@gateway/shell/elitebnc/x-qtoeaweeikyzkakd] has joined #stackvm
+09:37 -!- oncenull [~pose@190.19.245.13] has joined #stackvm
+09:42 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit [Quit: Sleeping]
+09:43 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has joined #stackvm
+09:45 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit [Client Quit]
+09:47 -!- knownasilya [uid22190@gateway/web/irccloud.com/x-flrjtinzrjbjdkpc] has joined #stackvm
+09:56 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has joined #stackvm
+10:04 -!- rom1504 [rom1504@rom1504.fr] has quit [Ping timeout: 256 seconds]
+10:06 -!- nathan7 [nathan@unaffiliated/nathan7] has quit [Ping timeout: 256 seconds]
+10:10 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit [Quit: Sleeping]
+10:14 -!- nathan7 [nathan@unaffiliated/nathan7] has joined #stackvm
+10:23 -!- rom1504 [rom1504@rom1504.fr] has joined #stackvm
+11:02 -!- tobie [sid5692@gateway/web/irccloud.com/x-nleygbtqvjnbdmof] has quit [Remote host closed the connection]
+11:02 -!- jhiesey [sid88516@gateway/web/irccloud.com/x-efwvtnqjgximrefl] has quit [Remote host closed the connection]
+11:02 -!- jlord [sid35269@gateway/web/irccloud.com/x-jkixiwuchdwomobv] has quit [Remote host closed the connection]
+11:02 -!- dubroy__________ [sid2856@gateway/web/irccloud.com/x-frfdfuisdmzfsfko] has quit [Remote host closed the connection]
+11:02 -!- thisandagain [sid39659@gateway/web/irccloud.com/x-cufowrfmwtnoifur] has quit [Remote host closed the connection]
+11:02 -!- mafintosh [sid28509@gateway/web/irccloud.com/x-lejisfvzrclxqskt] has quit [Remote host closed the connection]
+11:02 -!- ELLIOTTCABLE [sid1544@gateway/web/irccloud.com/x-ijebzihjyjzcmscv] has quit [Remote host closed the connection]
+11:02 -!- Domenic [sid10976@gateway/web/irccloud.com/x-hyxfzlskfwqpkhpq] has quit [Remote host closed the connection]
+11:02 -!- machty [sid13535@gateway/web/irccloud.com/x-mpdpzmqrarbnesqs] has quit [Remote host closed the connection]
+11:02 -!- addisonj [sid18502@gateway/web/irccloud.com/x-euybxpgyrbtmjprk] has quit [Remote host closed the connection]
+11:02 -!- sindresorhus [sid7424@gateway/web/irccloud.com/x-zcflmxmtddojvfsv] has quit [Remote host closed the connection]
+11:02 -!- beaugunderson [sid6336@gateway/web/irccloud.com/x-xwxkqgcmnrnxdtcv] has quit [Remote host closed the connection]
+11:02 -!- ngoldman [sid25973@gateway/web/irccloud.com/x-pvxputmtdhxlyioc] has quit [Remote host closed the connection]
+11:21 -!- shama [~shama@2601:1c0:4d01:f044:2965:59cd:2f04:61fa] has joined #stackvm
+11:22 -!- ELLIOTTCABLE [sid1544@gateway/web/irccloud.com/x-peonpmxuutzzydwc] has joined #stackvm
+11:25 -!- pfraze [~pfraze@2605:6000:e900:d200:a8eb:d04e:3359:967e] has joined #stackvm
+11:27 -!- dubroy__________ [sid2856@gateway/web/irccloud.com/x-nhwqkdwdjejpfcqb] has joined #stackvm
+11:41 -!- tobie [sid5692@gateway/web/irccloud.com/x-purtmfhkudxcbtbk] has joined #stackvm
+11:43 -!- beaugunderson [sid6336@gateway/web/irccloud.com/x-lubrwfsqjhyjrefo] has joined #stackvm
+11:47 -!- sindresorhus [sid7424@gateway/web/irccloud.com/x-qsnmnelhxcclelyr] has joined #stackvm
+12:06 -!- Domenic [sid10976@gateway/web/irccloud.com/x-zorjbmgwgjcsyxtm] has joined #stackvm
+12:11 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:88be:9615:4f3f:41a8] has quit [Remote host closed the connection]
+12:12 -!- machty [sid13535@gateway/web/irccloud.com/x-rmsbbcenzosrhgsa] has joined #stackvm
+12:12 -!- addisonj [sid18502@gateway/web/irccloud.com/x-tmozqwhtnerlvbdk] has joined #stackvm
+12:13 -!- eugeneware [sid28140@gateway/web/irccloud.com/x-codobctmgogncqyy] has quit [Read error: Connection reset by peer]
+12:13 -!- terinjokes_ [sid65030@gateway/web/irccloud.com/x-joghxzcdjnqskflr] has quit [Remote host closed the connection]
+12:13 -!- karissa [sid46165@gateway/web/irccloud.com/x-zrlhofuuypyyndvw] has quit [Remote host closed the connection]
+12:13 -!- jbenet [sid17552@gateway/web/irccloud.com/x-niogvpibkadovdmk] has quit [Remote host closed the connection]
+12:13 -!- parshap [sid18846@gateway/web/irccloud.com/x-jnzmbdspijfkhsbj] has quit [Remote host closed the connection]
+12:13 -!- knownasilya [uid22190@gateway/web/irccloud.com/x-flrjtinzrjbjdkpc] has quit [Remote host closed the connection]
+12:13 -!- wangbus [sid51960@gateway/web/irccloud.com/x-xzbvmnxfaczecxmv] has quit [Remote host closed the connection]
+12:23 -!- ngoldman [sid25973@gateway/web/irccloud.com/x-zudjorqtxaljdarx] has joined #stackvm
+12:26 -!- mafintosh [sid28509@gateway/web/irccloud.com/x-sykxuairjengyqkh] has joined #stackvm
+12:27 -!- jbenet [sid17552@gateway/web/irccloud.com/x-aeektwtfrazzfgut] has joined #stackvm
+12:28 -!- parshap [sid18846@gateway/web/irccloud.com/x-bprvpuampvkfesxs] has joined #stackvm
+12:31 -!- jlord [sid35269@gateway/web/irccloud.com/x-kqqckjdrryeqztfy] has joined #stackvm
+12:35 -!- thisandagain [sid39659@gateway/web/irccloud.com/x-jjczekwxtvkeriuy] has joined #stackvm
+12:36 -!- knownasilya [uid22190@gateway/web/irccloud.com/x-xpurpyfsifpugdxj] has joined #stackvm
+12:37 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:ad27:3b42:8c8a:2f8e] has joined #stackvm
+ Unofficial browserling/testling mad science channel. For official help /join #browserling
+12:41 -!- eugeneware [sid28140@gateway/web/irccloud.com/x-nleiiwtrbxwbhumg] has joined #stackvm
+12:51 -!- karissa [sid46165@gateway/web/irccloud.com/x-fwubkaqjzjwqjljw] has joined #stackvm
+12:55 -!- wangbus [sid51960@gateway/web/irccloud.com/x-bvdcxuezdjhtwrct] has joined #stackvm
+12:56 -!- oncenull [~pose@190.19.245.13] has quit [Remote host closed the connection]
+12:58 -!- terinjokes_ [sid65030@gateway/web/irccloud.com/x-hwwcodipibgxyxxd] has joined #stackvm
+13:06 -!- pfraze [~pfraze@2605:6000:e900:d200:a8eb:d04e:3359:967e] has quit [Remote host closed the connection]
+13:07 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:ad27:3b42:8c8a:2f8e] has quit [Remote host closed the connection]
+13:07 -!- jhiesey [sid88516@gateway/web/irccloud.com/x-ehptnbnddbdtnpbh] has joined #stackvm
+13:07 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has joined #stackvm
+13:11 -!- oncenull [~pose@190.19.245.13] has joined #stackvm
+13:28 -!- pfraze [~pfraze@cpe-70-117-80-221.austin.res.rr.com] has joined #stackvm
+13:39 -!- null_radix [Elite7851@gateway/shell/elitebnc/x-qtoeaweeikyzkakd] has quit [Excess Flood]
+13:39 -!- null_radix [Elite7851@gateway/shell/elitebnc/x-xerqaqsdcfwqyyeq] has joined #stackvm
+13:45 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has joined #stackvm
+13:50 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit [Client Quit]
+14:00 -!- phated [~phated@wsip-70-184-120-71.ph.ph.cox.net] has joined #stackvm
+14:03 -!- thlorenz [~thlorenz@cpe-24-90-103-215.nyc.res.rr.com] has quit [Remote host closed the connection]
+14:04 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:ad27:3b42:8c8a:2f8e] has joined #stackvm
+14:15 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has joined #stackvm
+14:17 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has quit [Read error: Connection reset by peer]
+14:19 -!- contrahax [~contrahax@c-73-202-242-45.hsd1.ca.comcast.net] has joined #stackvm
+14:40 -!- mk30 [~mk30@142-254-26-9.dsl.static.fusionbroadband.com] has joined #stackvm
+14:53 < pfraze> ogd: fromUnicode is in https://github.com/pfraze/base-emoji
+14:56 < ogd> pfraze: WOOT!
+17:38 -!- saijanai_ [~lawsoneng@ip72-223-48-55.ph.ph.cox.net] has joined #stackvm
+17:44 < ogd> say i have a Buffer(1024), and an array [1,2,3,4,5,6], and i wanna write those values to the first 6 elements of my buffer, what
+             method do i use?
+17:44 < ogd> basically im looking for typedarray.prototype.set but for Buffer
+17:44 -!- pfraze [~pfraze@cpe-70-117-80-221.austin.res.rr.com] has quit [Remote host closed the connection]
+17:45 < ogd> do i have to do new Buffer([1,2,3,4,5,6]) and then use .copy?
+18:00 < mafintosh> ogd: if the array is small(ish) i'd just for (var i ... ) buf[i] = array[i]
+18:00 -!- thlorenz [~thlorenz@2604:2000:e1e0:c200:ad27:3b42:8c8a:2f8e] has quit [Remote host closed the connection]
+18:00 < mafintosh> to save the double alloc
+18:00 < jjjohnny> i wish feross's buffer module was core
+18:00 < jjjohnny> it uses int8 typed arrays
+18:01 < jjjohnny> then you can swap out or copy underlying array buffers
+ [18:06] [jjjohnny(+i)] [4:freenode/#stackVM(+cnt)] [Act: 5,6,7,9,11,15]
+[#stackVM]

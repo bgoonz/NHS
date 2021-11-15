@@ -1,0 +1,1062 @@
+18:47 < thealphanerd> Raynos: this is exactly what Im looking for
+18:47 < thealphanerd> what are you using to template?
+18:47 < thealphanerd> mustache?
+18:47 < Raynos> here's an upto https://github.com/uber/uber-ngen/tree/master/templates/uber/content thing
+18:47 < Raynos> its not mustache, it's ghetto mustache. https://github.com/uber/uber-ngen/blob/master/index.js#L201-L203
+18:47 < thealphanerd> LOLOL
+18:48 < Raynos> there's an upto date version for how we do uber templates and there is my personal one
+18:48 < thealphanerd> we were using hogan on one of the last projects
+18:48 < thealphanerd> I like that the binary included is called hulk
+18:48 < Raynos> I'm working on some awesome CLI tooling infrastructure at uber that will be open source at some point
+18:48 -!- calvinmetcalf [uid25915@gateway/web/irccloud.com/x-paxwzfjhmukbxknb] has quit [Quit: Connection closed for inactivity]
+18:48 < Raynos> thealphanerd: I want to update it to https://github.com/Matt-Esch/string-template
+18:48 < thealphanerd> sounds like you are solving similar problems to what andrew and I are doing
+18:48 -!- phated [~phated@72.44.240.228] has quit [Read error: Connection reset by peer]
+18:48 < Raynos> different focus :)
+18:49 < thealphanerd> definitely
+18:49 < Raynos> all backend atm
+18:49 -!- phated [~phated@72.44.240.228] has joined #stackvm
+18:49 < thealphanerd> but more in the workflow space
+18:49 -!- yoshuawuyts [~yoshuawuy@50708BAF.static.ziggozakelijk.nl] has quit [Remote host closed the connection]
+18:49 < thealphanerd> defining processes
+18:49 < Raynos> yeah
+18:49 < Raynos> we have a `playdoh create` thing that prompts you for ALL THE THINGS
+18:49 -!- ceejbot [~ceejbot@50-1-57-179.static.sonic.net] has joined #stackvm
+18:49 < thealphanerd> hehe
+18:49 < thealphanerd> I had the yeoman generator that I made
+18:49 < thealphanerd> although this new browserify stack is so much more elegant than the grunt monstrosity
+18:50 < Raynos> I'll push for open sourcing things in the next couple of weeks, we are open sourcing playdoh-dev & playdoh-server
+18:50 < thealphanerd> although much of that nastiness was trying to dance around require
+18:50 -!- calvinfo [~Adium@92.sub-70-211-74.myvzw.com] has joined #stackvm
+Day changed to 27 May 2014
+17:37 < jbenet> substack o/
+17:39 < jjjohnny> help i need a good module for inspecting directories
+17:40 < jbenet> ls-stream?
+17:42 < rowbit> substack, pkrumins: testling server iphone6, ipad6 (osx, browserling1 user) is down!
+17:43 < jjjohnny> i'll try it
+17:43 < rowbit> substack, pkrumins: testling server safari6 (osx, browserling1 user) is down!
+17:43 < rowbit> substack, pkrumins: testling server android (osx, browserling1 user) is down!
+17:47 < domanic> I have been meaning to have a punk rock conf for bash.
+17:48 < domanic> i.e. a back to basics revolt against the over the topness of prog rock that javascript conferences have become
+17:48 < ogd> lol
+17:51 -!- yoshuawuyts [~yoshuawuy@50708BAF.static.ziggozakelijk.nl] has quit []
+17:51 -!- yoshuawuyts [~yoshuawuy@50708BAF.static.ziggozakelijk.nl] has joined #stackvm
+17:55 < jbenet> hahah
+18:02 -!- jhiesey [~jhiesey@nat/yahoo/x-fsrtbovytrbrspmc] has quit [Quit: jhiesey]
+18:05 < rowbit> Hourly usage stats: [developer: 0, free: 33]
+18:15 -!- ceejbot [~ceejbot@50-1-57-179.static.sonic.net] has quit [Remote host closed the connection]
+18:18 -!- ceejbot [~ceejbot@50-1-57-179.static.sonic.net] has joined #stackvm
+18:22 -!- brianloveswords [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has quit [Quit: Computer has gone to sleep.]
+18:26 -!- yoshuawuyts [~yoshuawuy@50708BAF.static.ziggozakelijk.nl] has quit [Remote host closed the connection]
+18:26 -!- brianloveswords [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has joined #stackvm
+18:28 < thealphanerd> Raynos / substack / ogd : do you guys have a prefered folder structure / work flow for building reusable browserify
+                      modules?
+18:29 < ogd> thealphanerd: for me 'reusable' and 'browserify' are implied by 'module' :)
+18:29 < thealphanerd> :P
+18:29 < ogd> thealphanerd: and in terms of folder structure no, i just have some js files that relative require each other, sometimes i have
+             a subfolder for css, js etc
+18:30 < thealphanerd> Ill rephrase& Im trying to develop a workflow that can be reused by developers to create widgets over at famo.us
+18:30 < thealphanerd> we now have a common version of the platform
+18:30 < thealphanerd> which will be released publicly via npm soon
+18:30 -!- ceejbot [~ceejbot@50-1-57-179.static.sonic.net] has quit [Remote host closed the connection]
+18:31 < thealphanerd> I am in the process of rebuilding our university app with common / browserify, and in the process trying to come up
+                      with a cannonical design pattern
+18:31 < ogd> thealphanerd: for me its npm init, npm install --save <dependencies, npm install --save-dev <development dependencies>, make
+             sure `npm test` runs the test suite, make sure `npm start` starts a local dev server (if applicable)
+18:32 -!- ceejbot [~ceejbot@50-1-57-179.static.sonic.net] has joined #stackvm
+18:35 < thealphanerd> and then you can have different entry points for the app depending on if it is being run via node or npm right?
+18:37 < ogd> thealphanerd: do you mean node or browserify?
+18:37 < thealphanerd> a doy
+18:37 < thealphanerd> yeah
+18:37 < ogd> well sort of, you can use the 'browser' field in package.json to override dependencies
+18:38 -!- brianloveswords [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has quit [Quit: Computer has gone to sleep.]
+18:38 < thealphanerd> have you ever used level-browserify?
+18:39 < thealphanerd> is it a reasonable solution to managing data on the client?
+18:42 < ogd> yea i wrote it, it works well when you are on browsers that have indexeddb
+18:43 -!- ceejbot [~ceejbot@50-1-57-179.static.sonic.net] has quit [Remote host closed the connection]
+18:43 -!- yoshuawuyts [~yoshuawuy@50708BAF.static.ziggozakelijk.nl] has joined #stackvm
+18:45 -!- ins0mnia [~smuxi@host-90-236-133-129.mobileonline.telia.com] has quit [Ping timeout: 272 seconds]
+18:46 < Raynos> thealphanerd: yep
+18:46 < Raynos> ~/projects/{{npm-name}}/index.js & ~/projects/{{npm-name}}/package.json & ~/projects/{{npm-name}}/test/index.js
+18:46 < Raynos> thealphanerd: https://github.com/Raynos/ngen/tree/master/templates/raynos/content
+18:47 < thealphanerd> awesome!!!
+18:47 < thealphanerd> Raynos: this is exactly what Im looking for
+18:47 < thealphanerd> what are you using to template?
+18:47 < thealphanerd> mustache?
+18:47 < Raynos> here's an upto https://github.com/uber/uber-ngen/tree/master/templates/uber/content thing
+18:47 < Raynos> its not mustache, it's ghetto mustache. https://github.com/uber/uber-ngen/blob/master/index.js#L201-L203
+18:47 < thealphanerd> LOLOL
+18:48 < Raynos> there's an upto date version for how we do uber templates and there is my personal one
+18:48 < thealphanerd> we were using hogan on one of the last projects
+18:48 < thealphanerd> I like that the binary included is called hulk
+18:48 < Raynos> I'm working on some awesome CLI tooling infrastructure at uber that will be open source at some point
+18:48 -!- calvinmetcalf [uid25915@gateway/web/irccloud.com/x-paxwzfjhmukbxknb] has quit [Quit: Connection closed for inactivity]
+18:48 < Raynos> thealphanerd: I want to update it to https://github.com/Matt-Esch/string-template
+18:48 < thealphanerd> sounds like you are solving similar problems to what andrew and I are doing
+18:48 -!- phated [~phated@72.44.240.228] has quit [Read error: Connection reset by peer]
+18:48 < Raynos> different focus :)
+18:49 < thealphanerd> definitely
+18:49 < Raynos> all backend atm
+18:49 -!- phated [~phated@72.44.240.228] has joined #stackvm
+18:49 < thealphanerd> but more in the workflow space
+18:49 -!- yoshuawuyts [~yoshuawuy@50708BAF.static.ziggozakelijk.nl] has quit [Remote host closed the connection]
+18:49 < thealphanerd> defining processes
+18:49 < Raynos> yeah
+18:49 < Raynos> we have a `playdoh create` thing that prompts you for ALL THE THINGS
+18:49 -!- ceejbot [~ceejbot@50-1-57-179.static.sonic.net] has joined #stackvm
+18:49 < thealphanerd> hehe
+18:49 < thealphanerd> I had the yeoman generator that I made
+18:49 < thealphanerd> although this new browserify stack is so much more elegant than the grunt monstrosity
+18:50 < Raynos> I'll push for open sourcing things in the next couple of weeks, we are open sourcing playdoh-dev & playdoh-server
+18:50 < thealphanerd> although much of that nastiness was trying to dance around require
+18:50 -!- calvinfo [~Adium@92.sub-70-211-74.myvzw.com] has joined #stackvm
+18:52 -!- calvinfo [~Adium@92.sub-70-211-74.myvzw.com] has quit [Client Quit]
+18:54 < thealphanerd> Raynos: have you experimented with eslint or jscs yet?
+18:55 -!- calvinfo [~Adium@92.sub-70-211-74.myvzw.com] has joined #stackvm
+18:56 < jbenet> mafintosh: i like your code. /hat-tip
+Day changed to 28 May 2014
+Day changed to 29 May 2014
+Day changed to 30 May 2014
+03:56 -!- mk30 [~ubuntu@ec2-54-200-37-219.us-west-2.compute.amazonaws.com] has quit [Ping timeout: 252 seconds]
+Day changed to 31 May 2014
+Day changed to 01 Jun 2014
+Day changed to 02 Jun 2014
+Day changed to 03 Jun 2014
+Day changed to 04 Jun 2014
+Day changed to 05 Jun 2014
+Day changed to 06 Jun 2014
+Day changed to 07 Jun 2014
+Day changed to 08 Jun 2014
+Day changed to 09 Jun 2014
+Day changed to 10 Jun 2014
+Day changed to 11 Jun 2014
+Day changed to 12 Jun 2014
+Day changed to 13 Jun 2014
+Day changed to 14 Jun 2014
+Day changed to 15 Jun 2014
+Day changed to 16 Jun 2014
+Day changed to 17 Jun 2014
+Day changed to 18 Jun 2014
+Day changed to 19 Jun 2014
+21:47 <jjjohnny> hey
+21:47 <jjjohnny> did sudo already buy toorcamp tix as a group?
+21:48 <mk30> my housemate bought tix as a group. dunno about others at sudo.
+21:48 <jjjohnny> do you have spots open in said group?
+21:49 <mk30> no, there were like 6 tix and they have all been paid for.
+Day changed to 20 Jun 2014
+Day changed to 21 Jun 2014
+Day changed to 22 Jun 2014
+Day changed to 23 Jun 2014
+Day changed to 24 Jun 2014
+20:28 <jjjohnny> who is the mayoral candidate of choice iyo?
+20:49 <mk30> dan siegel
+21:11 <jjjohnny> impressive web campaign
+21:26 <jjjohnny> thanks for the oakland mayoral stuff on oakland wiki
+21:26 <jjjohnny> thanks to whomever
+21:27 <mk30> tweet it and cc @oaklandwiki..i'll make sure the people who did it see it :)
+21:27 <mk30> they would appreciate that
+21:33 <jjjohnny> whats done is done
+21:34 <jjjohnny> do you have contacts in the siegel campaign?
+21:39  * jjjohnny exits thru budoir door and returns with cloak, dagger
+21:42 <mk30> no, but they're very active on social media, so shouldn't be too hard to get a hold of them
+21:42 <jjjohnny> yeah looks it
+21:42 <jjjohnny> have you been feeling well lately?
+21:43 <mk30> no, yourself?
+21:44 <jjjohnny> yes
+21:45 <jjjohnny> i've had help tho
+21:46 <mk30> help?
+21:46 <jjjohnny> yeah gaurav has been manic
+21:46 <mk30> oh :\ is he bipolar?
+21:46 <jjjohnny> and i have been his steward and willing foil
+21:46 <jjjohnny> i guess
+21:47 <mk30> you sure he's manic and not just...up?
+21:47 <jjjohnny> its hard for me to say, cuz i generally disagree with modern psychology
+21:47 <mk30> sure
+21:47 <mk30> i disagree with psychology too, but the pills are for real :P
+21:47 <jjjohnny> but he seems to have a medicated history
+21:47 <mk30> that's a tricky one to navigate for me personally
+21:47 <mk30> i see
+21:48 <jjjohnny> and i think he is off them
+21:48 <jjjohnny> but like, if u asked me, i would not suggest otherwise
+21:48  * jjjohnny dangerous
+21:48 <mk30> you wouldn't suggest he get on them?
+21:48 <jjjohnny> no
+21:49 <jjjohnny> its just me, i cant
+21:49 <jjjohnny> to anyone
+21:49 <mk30> you wouldn't suggest to anyone that they get on meds? (just making sure i understand what you're saying)
+21:49 <jjjohnny> that is correct
+21:50 <jjjohnny> i mean pharmaceudicals
+21:50 <mk30> understood
+21:50 <jjjohnny> but i have a way of my own
+21:50 <jjjohnny> its called
+21:50 <jjjohnny> the way of the god monkey's hand
+21:50 <mk30> what does that mean
+21:51 <jjjohnny> it is the name, and u know what shakespeare said about those
+21:51 <mk30> rose, etc
+21:51 <mk30> ?
+21:51 <jjjohnny> yep
+21:52 <jjjohnny> the way of the god monkey's hand is not without significance within a contexts
+21:52 <mk30> what does it involve
+21:52 <jjjohnny> without / within
+21:53 <jjjohnny> mental & martial arts
+21:53 <jjjohnny> where like the mental is for the martial and martial is for the mental
+21:53 <jjjohnny> i could easily become a yoga charlatan
+21:54 <jjjohnny> but i keeps it real and jus me
+21:56 <jjjohnny> im only getting back into the way of the god monkey's hand
+20:58 -!- dybskiy [~dybskiy@firebase.static.monkeybrains.net] has joined #stackvm
+09:18 -!- yoshuawuyts [~yoshuawuy@37.74.139.238] has joined #stackvm
+09:45 -!- shama [~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net] has joined #stackvm
+09:49 -!- shama [~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net] has quit [Ping timeout: 255 seconds]
+09:51 -!- kessler [~kessler@ODAP-199-203-61-108.bb.netvision.net.il] has quit [Ping timeout: 244 seconds]
+09:57 -!- kessler [~kessler@ODAP-199-203-61-108.bb.netvision.net.il] has joined #stackvm
+10:05 < rowbit> Hourly usage stats: [developer: 11, free: 91]
+10:30 -!- taterbase [uid17123@gateway/web/irccloud.com/x-juzmqtohasidzric] has joined #stackvm
+10:45 -!- pfraze [~pfraze@mail.wlion.com] has joined #stackvm
+10:46 -!- shama [~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net] has joined #stackvm
+10:50 -!- shama [~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net] has quit [Ping timeout: 240 seconds]
+10:56 -!- kessler [~kessler@ODAP-199-203-61-108.bb.netvision.net.il] has quit [Ping timeout: 240 seconds]
+10:58 -!- kessler [~kessler@ODAP-199-203-61-108.bb.netvision.net.il] has joined #stackvm
+10:58 -!- dguttman [~david@cpe-142-129-79-131.socal.res.rr.com] has quit [Quit: dguttman]
+10:59 -!- dguttman [~david@cpe-142-129-79-131.socal.res.rr.com] has joined #stackvm
+11:03 -!- shama [~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net] has joined #stackvm
+11:04 -!- dguttman [~david@cpe-142-129-79-131.socal.res.rr.com] has quit [Ping timeout: 272 seconds]
+11:05 < rowbit> Hourly usage stats: [developer: 10, free: 60]
+11:09 -!- dguttman [~david@cpe-142-129-79-131.socal.res.rr.com] has joined #stackvm
+11:10 -!- dguttman [~david@cpe-142-129-79-131.socal.res.rr.com] has quit [Client Quit]
+11:11 -!- calvinfo [~Adium@c-50-174-77-78.hsd1.ca.comcast.net] has joined #stackvm
+11:14 -!- dguttman [~david@cpe-142-129-79-131.socal.res.rr.com] has joined #stackvm
+11:34 -!- calvinfo [~Adium@c-50-174-77-78.hsd1.ca.comcast.net] has quit [Quit: Leaving.]
+11:44 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+11:48 -!- Maciek416 [~Maciek@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+11:56 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has joined #stackvm
+11:58 -!- brianloveswords [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has joined #stackvm
+11:59 -!- sorribas [uid32613@gateway/web/irccloud.com/x-kgevpbpdghmbsthx] has quit [Quit: Connection closed for inactivity]
+12:01 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has joined #stackvm
+12:01 -!- tilgovi [~randall@couchdb/committer/tilgovi] has joined #stackvm
+12:03 -!- anvaka [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has joined #stackvm
+12:05 < rowbit> Hourly usage stats: [developer: 22, free: 48]
+12:08 -!- niftylettuce_ [uid2733@gateway/web/irccloud.com/x-tpuizednuncwetae] has joined #stackvm
+12:18 -!- addisonj [uid18502@gateway/web/irccloud.com/x-fibheupngjvattrr] has joined #stackvm
+12:36 -!- anvaka [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has quit []
+12:36 -!- anvaka [~anvaka@2601:8:ac80:3f9:41c1:f3cd:70a4:bc35] has joined #stackvm
+12:43 -!- anvaka [~anvaka@2601:8:ac80:3f9:41c1:f3cd:70a4:bc35] has quit [Remote host closed the connection]
+12:46 -!- jxson [jxson@nat/google/x-wzfpdmycpiffhvlf] has joined #stackvm
+12:47 -!- warbrett [~warbrett@72.44.240.228] has joined #stackvm
+12:55 -!- ceejbot [~ceejbot@50-1-57-179.static.sonic.net] has joined #stackvm
+13:05 < rowbit> Hourly usage stats: [developer: 2, free: 28]
+13:23 < mikolalysenko> it seems like a lot of the next generation package managers are going for github/url based packages
+13:23 < mikolalysenko> not sure how I feel about this without some kind of signing mechanism
+13:31 < guybrush> you can sign your commits witgh gpg, or do you mean something else?
+13:32 -!- yoshuawuyts [~yoshuawuy@37.74.139.238] has quit [Remote host closed the connection]
+13:32 < guybrush> i like it somehow, but semver is a problem with git
+13:33 < guybrush> i think a good solution would be to put version-informations into something besides the actual git-urls
+13:34 < guybrush> like a npm which _only_ manages versions for git-urls
+13:34 < guybrush> and nothing but versions
+13:35 < guybrush> so you can add your git-url in this gitversions-registry and create versions which point to sha1
+13:36 < mikolalysenko> I was thinking of something like namecoin
+13:37 < guybrush> ooh i think i saw you writing about this in here
+13:37 < guybrush> like a dht for versions
+13:37 < mikolalysenko> I want some way to verify that if I install version x.y.z of module foo, it really is foo x.y.z and not the NSA's foo
+                       x.y.z + secret backdoor
+13:38 < mikolalysenko> or even less maliciously, if the author decides to retcon a version then I won't screwed by their (possibly well
+                       intenioned) revisions
+13:38 < guybrush> right thats one of the cool features of git :D
+13:38 < mikolalysenko> basically github/urls don't enforce the immutability of published modules
+13:38 < guybrush> since you can sign your commits with gpg
+13:38 < mikolalysenko> hmm
+13:39 < mikolalysenko> but if I just specify a url in my package.json, how would I verify that?
+13:39 < guybrush> so when you know the sha1 you can be pretty damn sure its the source you want
+13:39 -!- kessler [~kessler@ODAP-199-203-61-108.bb.netvision.net.il] has quit [Ping timeout: 264 seconds]
+13:39 < mikolalysenko> I would need to include the pgp key in the package.json for that version too I think
+13:39 < guybrush> well the commit-message is used to create the sha1
+13:40 < mikolalysenko> yeah, I agree there are ways this could be implemented
+13:40 < mikolalysenko> but the problem is that without some central registry of package names/hashes it doesn't do you any good
+13:40 < guybrush> yes
+13:40 < mikolalysenko> or else you would have to specify the hash code in your package.json
+13:41 < guybrush> semver in general is just not a feature of git :D
+13:41 < mikolalysenko> well, you could just add a file to git like package.json and use that to track versions
+13:41 < guybrush> since there is nothing but the sha1 which is permanent and solid
+13:41 < mikolalysenko> yeah, but even that has problems
+13:41 < guybrush> right! i thought about that too
+13:42 < guybrush> yes i think its complicated since you just can change the file anyway
+13:42 < mikolalysenko> since if I identify a module by a url, there is nothing stopping that remote server from arbitrarily changing the
+                       contents of the gitrepo/whatever
+13:42 < guybrush> its like using the tag-names or branch-names
+13:42 < guybrush> sure
+13:42 -!- phated [~phated@72.44.240.228] has joined #stackvm
+13:42 < mikolalysenko> or even of having that server go down/move to a new location
+13:42 < guybrush> but i use git to download
+13:42 < guybrush> not the url
+13:42 -!- kessler [~kessler@ODAP-199-203-61-108.bb.netvision.net.il] has joined #stackvm
+13:43 < mikolalysenko> the real issue is that urls are not suitable for naming packages/modules
+13:43 < mikolalysenko> a central authority (like npm) is a valid solution, but it is not distributed
+13:43 < mikolalysenko> systems like namecoin seem better, but no one is doing this today
+13:45 < guybrush> i guess you could just put all the npm packages into torrents and track them
+13:45 < mikolalysenko> yeah or however else you want to do it
+13:45 < mikolalysenko> distribution is really a separate problem from signing/naming
+13:45 < guybrush> right i see
+13:46 < guybrush> not sure about this namecoin
+13:46 < mikolalysenko> it seems like a reasonable platform, and I think it would work
+13:46 < mikolalysenko> unlink btc it also ensures the uniqueness of names
+13:47 < guybrush> so
+13:47 < guybrush> it would basically just be names->hashsums?
+13:48 < guybrush> then i load the package from anywhere and use namecoin to verify
+13:48 < mikolalysenko> yep
+13:48 < guybrush> it sounds really nice
+13:48 < mikolalysenko> namecoin securely does the first part
+13:48 < mikolalysenko> and the rest is whatever you want (ipfs maybe? :) )
+13:49 < mikolalysenko> it could be just some big dht really
+13:50 < guybrush> well you can just put it into torrents AND on github AND on npm and and and
+13:50 -!- warbrett [~warbrett@72.44.240.228] has quit [Read error: Connection reset by peer]
+13:50 < guybrush> as long as there is some unique registry where you can find the hashsums+urls
+13:51 < mikolalysenko> yeah, or really package name + hashsum
+13:51 < mikolalysenko> doesn't need to be a url
+13:51 < guybrush> but then how do you know where to download?
+13:51 < mikolalysenko> you could have different registries and mechanisms
+13:51 < guybrush> oh i see its really not so important
+13:51 < mikolalysenko> for example a big dht of all the modules ever published, where you give it the hashsum and it pulls it down for you
+13:52 < mikolalysenko> and then you verify that with the key in the registry
+13:52 < guybrush> so the name has to include versions too
+13:52 < mikolalysenko> yes
+13:52 < mikolalysenko> the package name would be:  packagename@major.minor.patch
+13:52 < guybrush> yes you convinced me it would be really cool thing :D
+13:53 < mikolalysenko> it is obviously how it should work. but no one is doing it yet
+13:53 < mikolalysenko> though npm is a valid solution too
+13:53 -!- warbrett [~warbrett@72.44.240.228] has joined #stackvm
+13:53 < guybrush> right
+13:53 < mikolalysenko> I think a central authority is a fine solution in the short term, just like dns/ca systems are fine solutions too
+13:54 < mikolalysenko> but the real issue is that the fake "distributed" url system that package managers like go get or component use is
+                       problematic
+13:54 < mikolalysenko> because they get the worst of all worlds
+13:54 < guybrush> hm yes
+13:55 < mikolalysenko> if you want to create a distributed package manager, which is a noble goal I think, then you need to address the
+                       naming and immutability problem somehow
+13:55 < mikolalysenko> the consequence of failing to do this is your code can suddenly fail due to the failure of a remote server
+13:56 < mikolalysenko> whereas if you have a naming system, then the module can survive even if its original host machine dies
+13:57 < mikolalysenko> basically package managers like go get or bower really amount to a glorified wget/curl implementation
+13:58 < mikolalysenko> cargo and component are one step above this, in that they use the npm trick of copying modules, but are not secure
+13:58 < mikolalysenko> npm is secure, but not distributed
+13:58 < mikolalysenko> afaik, nothing out there is doing distributed secure modules
+14:00 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #stackvm
+14:00 < mikolalysenko> oh and I forgot to also mention the "joke" package managers, like pip, which don't do module copying, have a central
+                       authority, and are generally widely despised
+14:01 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has quit [Client Quit]
+14:04 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has joined #stackvm
+14:05 < rowbit> Hourly usage stats: [developer: 8, free: 37]
+14:10 -!- jhiesey [~jhiesey@nat/yahoo/x-seshbofauforsomb] has joined #stackvm
+14:11 -!- jxson_ [~jxson@209.119.80.251] has joined #stackvm
+14:13 -!- phated_ [~phated@72.44.240.228] has joined #stackvm
+14:15 -!- jxson [jxson@nat/google/x-wzfpdmycpiffhvlf] has quit [Ping timeout: 264 seconds]
+14:17 -!- phated [~phated@72.44.240.228] has quit [Ping timeout: 264 seconds]
+14:17 -!- _contrahax is now known as contrahax
+14:20 -!- phated_ [~phated@72.44.240.228] has quit [Read error: Connection reset by peer]
+14:20 -!- jxson [jxson@nat/google/x-dbuoxglmlzxhrrfc] has joined #stackvm
+14:20 -!- phated [~phated@72.44.240.228] has joined #stackvm
+14:21 -!- pfallenop [~pfallenop@unaffiliated/contempt] has quit [Ping timeout: 240 seconds]
+14:24 -!- jxson_ [~jxson@209.119.80.251] has quit [Ping timeout: 240 seconds]
+14:24 -!- niftylettuce_ [uid2733@gateway/web/irccloud.com/x-tpuizednuncwetae] has quit [Quit: Connection closed for inactivity]
+14:27 < domanic> mikolalysenko, all the central registry really needs to do is assign module names to public keys
+14:28 < domanic> I'd request a name from the registry, it would respond with a certificate that says by public key is now responsible for
+                 the name X
+14:28 < domanic> then, I can publish blobs (id'ed by hash(content))
+14:29 < domanic> and sign (my_key, name@version->hash(content))
+14:29 < domanic> then distribute that along with the cert from the registry that says I own that name.
+14:30 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has quit [Quit: thealphanerd]
+14:32 -!- jxson_ [~jxson@209.119.80.251] has joined #stackvm
+14:33 -!- captainplanet [~thealphan@pdpc/supporter/student/thealphanerd] has joined #stackvm
+14:33 < domanic> use http and urls to retrive it if you want, but the url has to contain the hash
+14:33 < domanic> then any one can mirror a subset (if they want) no problems
+14:33 < domanic> you could even have namespaces - the main registry would sign a cert that says I own a name space
+14:33 < domanic> I could even create my own registry to give out names under that name space
+14:33 < domanic> of course - you could use a namecoin or a proof of stake thing (stake == module publishing?) but that is complex unless
+                 there is a good implementation available
+14:33 -!- captainplanet is now known as thealphanerd
+14:34 < domanic> also, once you own a name - you can sign updates to it without consulting the registry, this would be cool because you
+                 could publish offline
+14:35 < substack> or publish to a mirror
+14:35 < domanic> publish anywhere ... you'd just announce the cert + tarball hash
+14:36 < domanic> you could also treat the hash(user_pubkey) as a name space
+14:36 -!- jxson [jxson@nat/google/x-dbuoxglmlzxhrrfc] has quit [Ping timeout: 264 seconds]
+14:36 < domanic> so you could always install hash(substack_key)/browserify
+14:37 < domanic> I guess the only thing is sometimes your system would have to search through a few databases to find a given hash
+14:40 -!- contrahax is now known as _contrahax
+14:45 < domanic> in this model - the registry is just a key that assigns namespace certs to other keys
+14:45 < domanic> and the other keys, do the same, but to their own namespace
+14:51 < domanic> so, a namespace is just an append-only list of signed name-> hash tuples
+14:52 < mikolalysenko> domanic: yeah, though again you could build this on top of namecoin
+14:53 < domanic> and if the hash is of a public key, (maybe include a type field) it would become the key that makes signatures under that
+                 name.
+14:53 < domanic> mikolalysenko, sure - that is kinda expensive though, what with proof of work, etc
+14:53 < mikolalysenko> I think it would be fine actually
+14:54 < mikolalysenko> you don't really need realtime publishing for modules, it should be ok to wait a few minutes before it goes live
+14:54 < mikolalysenko> and downloading / verifying from namecoin would be very fast
+14:54 < domanic> ... as long as there is a way to install it into another module immediately
+14:55 < mikolalysenko> well, you could always have local offline mechanisms for rapid debugging and so on, like npm link  etc.
+14:55 < mikolalysenko> the namecoin system would just be for the final publishing step when you are ready to ship something
+14:56 < mikolalysenko> one downside though is you would have to buy namecoins to publish modules
+14:56 < mikolalysenko> which is more expensive than npm
+14:56 < domanic> buying a namecoin == mining a namecoin?
+14:56 < mikolalysenko> either way
+14:56 < mikolalysenko> someone has to mine it
+14:56 < mikolalysenko> and then they can sell it later on a market
+14:56 < mikolalysenko> but you need to spend namecoins to register names
+14:57 < mikolalysenko> and the miners will collect those coins as transaction fees
+14:57 -!- gozala [uid5923@gateway/web/irccloud.com/x-wvxjuyprbbyxcqjm] has joined #stackvm
+14:57 < mikolalysenko> in exchange for doing the work of securing the network
+14:57 < domanic> I don't know if paying for module names is really an improvement over npm, decentralized or not
+14:58 < mikolalysenko> that is true
+14:58 < mikolalysenko> I am also not sure that the central authority model npm uses is really that terrible
+14:58 < mikolalysenko> at least as long as npm continues to act in good faith, it is a fine solution
+14:59 < domanic> well, as long as it's not a monolopy
+14:59 < mikolalysenko> though for other languages out there like rust, go, etc. that want to green field their own package management
+                       systems I don't understand why they wouldn't want to try for this type of approach
+15:00 < mikolalysenko> I believe that npm's approach is technically defensible and rational, but systems like go get seem like a step
+                       backward
+15:00 < domanic> ... it's still a bit madscience though...
+15:00 < mikolalysenko> oh yeah
+15:00 < domanic> unless stackvm builds the package manager!
+15:01 < domanic> mikolalysenko, non of the other languages can have a pm as nice as npm unless they also support version conflicts, i.e.
+                 something equiv to node_modules pattern
+15:01 < mikolalysenko> cargo does this actually
+15:01 < mikolalysenko> which is the rust package manager
+15:02 < mikolalysenko> but it also uses the same system as component for naming modules
+15:02 < mikolalysenko> so the individual packages themself are identified by urls
+15:02 < domanic> oh really? can one application use 2 versions of module X?
+15:02 < mikolalysenko> yes
+15:02 < mikolalysenko> it uses semver
+15:02 < mikolalysenko> go does not, but their system is kind of lame
+15:02 < domanic> and it gets them off github?
+15:02 < mikolalysenko> or wherever you want
+15:03 < mikolalysenko> it is pretty much exactly the same thing as component
+15:03 < domanic> ah... and I suppose it doesn't store the hash anywhere...
+15:03 < mikolalysenko> yeah
+15:03 < mikolalysenko> and it has a brand new screwy configuration language
+15:03 < mikolalysenko> called toml or whatever
+15:03 < mikolalysenko> but other than that, it seems ok
+15:04 < domanic> right so: it installs into a local folder, but can't load X@1 and X@2 into same application?
+15:04 < mikolalysenko> no, it can
+15:04 < mikolalysenko> it will install multiple versions if needed
+15:04 < mikolalysenko> it uses exactly the same system as tjholowaychuk's component package manager essentially
+15:05 < mikolalysenko> you give it git repos and it grabs modules by searching over the versions
+15:05 < mikolalysenko> it isn't a bad idea, but the problem is if someone does a git rebase, a server goes down, someone mitms you, then it
+                       will fail
+15:05 < rowbit> Hourly usage stats: [developer: 0, free: 32]
+15:05 < mikolalysenko> and then you end up in the sort of bad scenario, which is the same as development pre-npm, where people are scared to
+                       use dependencies
+15:06 < domanic> hmm, so it's TOML is basically just INI but different
+15:06 < mikolalysenko> because they might break, and increase the rate of bit rot
+15:06 < mikolalysenko> yeah, pretty much.  it looks like nih syndrome to me, but maybe there is a reason for it
+15:06 -!- warbrett [~warbrett@72.44.240.228] has quit [Read error: Connection reset by peer]
+15:07 < domanic> well, it looks like it supports a few things that ini doesn't... like arrays and what not
+15:07 -!- warbrett [~warbrett@72.44.240.228] has joined #stackvm
+15:08 < mikolalysenko> I think it looks like an act of pure narcissism, though the same can be said for many efforts in creating programming
+                       languages or reinventing ecosystems
+15:09 < domanic> yeah... well at least he named it after himself so that is obvious!
+15:09 < mikolalysenko> hahaha
+15:10 < domanic> I think the better easy config lang that maps json is yamlish
+15:10 < domanic> https://github.com/isaacs/yamlish
+15:10 < domanic> yaml is too complex, yamlish is just the simple parts
+15:11 < mikolalysenko> yeah, I don't know.
+15:12 < mikolalysenko> this seems like one of those bikeshed problems that doesn't really matter, and where egos get really caught up in it
+15:12 < domanic> yeah, exactly...
+15:13 < guybrush> it does matter, it matters when everyone uses its own thing
+15:13 < guybrush> its not critically but it matters imho
+15:14 < domanic> mikolalysenko, what about having some sort of gpg style web of trust... where you basically request a user name by
+                 requesting it from other users
+15:15 < mikolalysenko> not sure how it would work
+15:15 < domanic> or, have you heard of proof-of-stake?
+15:16 < mikolalysenko> no, what does that mean?
+15:17 < domanic> so one way to look at the POW is that all the nodes draw a straw to be the master node for that round
+15:17 < domanic> in POS nodes are picked proportionally to their stake in the network (i.e. how many bitcoins they own, or in this case, how
+                 many modules they published?)
+15:18 < domanic> it picks say, 5 nodes, by the hash of the block (or similar) and they all sign the block
+15:19 < domanic> any node can then look at that block, and confirm that those are the nodes that ought to have signed it
+15:20 < domanic> brb... food
+15:20 < mikolalysenko> ok
+15:31 -!- warbrett [~warbrett@72.44.240.228] has quit [Read error: Connection reset by peer]
+15:32 -!- warbrett [~warbrett@72.44.240.228] has joined #stackvm
+15:32 -!- _contrahax is now known as contrahax
+15:33 -!- contrahax is now known as _contrahax
+15:39 -!- kessler [~kessler@ODAP-199-203-61-108.bb.netvision.net.il] has quit [Ping timeout: 240 seconds]
+15:45 -!- brianloveswords [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has quit [Quit: Computer has gone to sleep.]
+15:46 < nrw> substack, you around?
+15:52 < jbenet> mikolalysenko + guybrush: see https://github.com/jbenet/random-ideas/issues/19 - "Let's Stop Installing Packages" basic
+                idea: mount the package registry using something like ipfs (or something similar)
+15:54 < jbenet> mikolalysenko: namecoin is not the right solution IMO. We need only the ability transmit a small number of addresses of
+                namespace roots (today, that's DNS anycast roots, tomorrow, it's hashes of different namespaces), and then do whatever
+                within those, using self-certified naming. See SFS (old paper from mazieres, who wrote kademlia). IPFS aims to do it as
+15:54 < jbenet> IPNS.
+15:54 < mikolalysenko> interesting idea, though how do you would need to handle the diamond dependency/deduplication issue
+15:54 < mikolalysenko> but you could maybe do that using a look up step on top of ipfs
+15:55 < jbenet> mikolalysenko: just mount ../npm/package/packagename/version or ../npm/package/packagename@version
+15:55 < mikolalysenko> hmm
+15:55 < mikolalysenko> and the versions would be persistent/immutable?
+15:55 < jbenet> and the things inside, like if A@1 includes C@1 and C@1 includes B@2, they each have links to the right one.
+15:56 < jbenet> _nothing_ is duplicated (because of content addressing)
+15:56 < jbenet> yep.
+15:56 < jbenet> immutable versions.
+15:58 -!- pfraze [~pfraze@mail.wlion.com] has quit [Ping timeout: 255 seconds]
+16:00 < jbenet> mikolalysenko: https://github.com/jbenet/random-ideas/issues/19#issuecomment-47022783 example.
+16:01 < jbenet> ah, i see domanic was also discussing that stuff. o/
+16:02 < jbenet> and since rust was mentioned: https://github.com/jbenet/random-ideas/issues/22 -- automatic semver
+16:04 < jbenet> domanic, on PoS, it seems to work, but idk. some crypto people are very skeptical. but nobody's found an attack.
+16:05 < rowbit> Hourly usage stats: [developer: 1, free: 41]
+16:18 < domanic> jbenet, yeah - it's not as obviously simple as PoW
+16:20 < domanic> jbenet, mikolalysenko one thing that I think is important about modules is that you declare your deps via a flexible
+                 version ranges that represent the interfaces that you can use, some interface changes are okay some are not, etc.
+16:21 < domanic> being able to be crypto-precise would rule, but it would be a pain if you could no longer have the convienence of ranges.
+16:21 < jbenet> domanic: no no, we can have ranges
+16:21 < jbenet> that's what namespaces are for
+16:21 < jbenet> namespace maps name -> hash
+16:21 -!- brianloveswords [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has joined #stackvm
+16:21 < domanic> ah right, so when I install I add a simlink into that version?
+16:22 < jbenet> it's technically a hard link
+16:22 < jbenet> because it's just the hash :)
+16:22 < domanic> sure, well, a link either way
+16:22 < jbenet> you could add a symlink too, and resolve it on demand
+16:23 < jbenet> yeah sorry, dont mean to be pedantic, it's just that symlinks make everything really confusing sometimes
+16:23 < domanic> so could I still update the dependencies in my 'install' of your module?
+16:23 < jbenet> (so do hard links in kernel filesystems >.<)
+16:24 < jbenet> domanic hm, good point, not without patching it.
+16:25 < jbenet> which would technically be another version of the original module. so yeah, for that you probably want a symlink
+16:25 < jbenet> could also see the semver resolution things happening with a mounted npm registry (that wraps ipfs, but does semver specific
+                stuff)
+16:25 < jbenet> like resolve ~1.2.3 or ^1.2.3 etc.
+16:26 < domanic> If I mount my own namespace and do writes, is that publishes?
+16:26 < domanic> because in that case it might be better to checkout into a mutable workspace, a la git
+16:27 < domanic> at the end of the day, that is an application layer thing, not part of the fundementals of ipfs
+16:31 < jbenet> domanic yeah, i think each pkg mgr would want to do a set of special things, so really just wrapping ipfs.
+16:34 -!- _contrahax is now known as contrahax
+16:34 < domanic> right, yeah either way, at the end of the day we probably need something to reliable to build this on top of, such as ipfs
+16:35 < domanic> but due to the commitment to get that thing right, it needs to be more broardly useful than just a packagemanger.
+16:35 < domanic> jbenet, by the way, i was wondering... what made you change the name from galactic file system to interplanetary file
+                 system?
+16:36 < ogd> http://research.google.com/archive/gfs.html
+16:37 < ogd> i also met https://en.wikipedia.org/wiki/Ramanathan_V._Guha and https://en.wikipedia.org/wiki/Qi_Lu this weekend, they were
+             interested in dat! hahaha
+16:41 < ogd> http://videolectures.net/iswc2013_guha_tunnel/
+16:45 < jbenet> Yep gfs and a vote
+16:45 < jbenet> https://github.com/jbenet/ipfs/blob/master/README.md#why-the-name-ipfs
+16:46 < jbenet> Most people preferred ipfs over gfs. In a very significant sampling of like 15 ppl :]
+16:47 < jbenet> Ogd rhats awesome!
+16:48 < ogd> yea qi lu told me that moving data between teams was one of the biggest challenges he is looking into right now
+16:48 < ogd> (for the 15,000 engineers that work for him hahahaha)
+16:50 < domanic> ah. I guess it's too late now, and doesn't reference licklider, but I can't help but be bermused by this name: "Whole Earth
+                 File System" which feels like it fits ipfs too!
+16:50 -!- pfraze_ [~unsafe@cpe-70-113-196-4.austin.res.rr.com] has joined #stackvm
+16:51 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has joined #stackvm
+16:52 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has quit [Quit: Leaving.]
+16:53 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has joined #stackvm
+16:55 < ogd> whole earth file system!!!!
+16:56 < ogd> so awesome
+16:56 -!- contrahax is now known as _contrahax
+16:56 < jbenet> yeah it's a pretty good name too
+16:56 < jbenet> domanic, open an issue and make a case :D it's not too late until it's deployed.
+16:56 < ogd> only because the whole earth catalog was basically the internet before the internet
+16:57 < jbenet> (though having "IP" in the name is useful)
+16:57 < jbenet> ogd: let's go hang out with stewart brand
+16:57 < jbenet> he's around, and opening Interval soon
+16:57 < jbenet> https://longnow.org/interval/
+16:57 -!- jhiesey [~jhiesey@nat/yahoo/x-seshbofauforsomb] has quit [Quit: jhiesey]
+16:58 < domanic> jbenet, ogd yes! also I'll be in california next week!
+16:58 < jbenet> I'd basically like to live there.
+16:58 < ogd> i went over to his tugboat a couple years ago, he might invite me back if i ask nicely :)
+16:58 < jbenet> domanic !! awesome!
+16:58 < jbenet> domanic: need a place to stay?
+16:59 < domanic> jbenet, I am always ready to accept an invitation!
+17:00 < ogd> ok ill email stewart, how should i pitch it?
+17:01 < ogd> discussion on the interplanetary filesystem with a cyberhobo?
+17:01 < ogd> we should appeal to the cultural revolution angle though, that may be too dry
+17:02 < jbenet> domanic: awesome, lmk dates you're here. I can offer up guest room for a couple days in a large shared house with a bunch of
+                cool people.
+17:02 < jbenet> ogd: the pitch for both brewster and stewart: ipfs can make the web Permanent!! because all the links can be resolved and
+                backed up!
+17:02 -!- jhiesey [~jhiesey@nat/yahoo/x-fsrtbovytrbrspmc] has joined #stackvm
+17:03 < jbenet> ipfs pin -r <hash>
+17:03 < jbenet> and, filecoin wants to incentivize the entire world to backup all the data for us
+17:04 < jbenet> ogd i'll draft something and send it your way
+17:04 -!- yoshuawuyts [~yoshuawuy@50708BAF.static.ziggozakelijk.nl] has joined #stackvm
+17:04 < ogd> kewl
+17:04 < domanic> jbenet, Okay, I'll figure it out... I'll be in the states for about 10 weeks and will be travelling around a bit
+17:04 < ogd> i wanna get his advice on dat as it relates to open science data as well
+17:05 < rowbit> Hourly usage stats: [developer: 4, free: 32]
+17:09 < jjjohnny> lazy q:  a process running a server;  is it trivial to proxy from and to another server over stdio?
+17:10 < jjjohnny> basically: is http proxy over stdi/o EZ?
+17:11 < ogd> domanic: what day do you arrive
+17:12 < domanic> ogd, the 30th
+17:12 < ogd> coo
+17:14 < domanic> ogd, just realized the long now clock is rather reminicest of the clock tower in Anathem
+17:15 < domanic> or the otherway around, rather
+17:20 < jbenet> ogd: sent. i went way overboard... cut it to shreds.
+17:20 < ogd> cool will do
+17:21 < jbenet> and yeah, add more dat science specific stuff. Not sure he cares about science as much as he did before.
+17:21 < jbenet> civics might be a good route too
+17:21 < jbenet> or instead of "civics", empowering people with data about their life + world + government
+17:21 < jbenet> data and dataviz.
+17:21 < ogd> haha i wrote a similar email just now
+17:21 < jbenet> ogd o/
+17:21 < jbenet> hahahah
+17:21 < ogd> will merge
+17:22 < ogd> mine started with: Hi Stewart, We met
+17:22 < domanic> ogd, jbenet https://github.com/jbenet/ipfs/issues/7
+17:22 < jbenet> sweet :)
+17:23 < jbenet> hey guys, I made a #ipfs, it seems like a lot of discussion is happening on this and i dont wanna crowd out #stackvm, #dat,
+                and #webtorrent.
+17:24 < jbenet> ogd mafintosh domanic feross substack mikolalysenko guybrush groundwater_ o/
+17:25 < mikolalysenko> checking it out
+17:26 < domanic> jbenet, but this is exactly the sort of discussion that belongs in stackvm!
+17:27 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has quit [Quit: Leaving.]
+17:28 < jbenet> domanic: haha okay then. well, i expect we'll use #ipfs for implementation details as it evolves.
+17:33 < ogd> ok i tried to bait him by using an extra juicy description of domanic
+17:33 < ogd> oh btw i met stephen levy this weekend, and told him that it was because of his work that i haven't cut my hair in 6 years and
+             worship the unix philosophy
+17:33 < jjjohnny> gonna type out this README.js with the syntax right chea
+17:34 -!- phated [~phated@72.44.240.228] has quit [Read error: Connection reset by peer]
+17:34 -!- phated [~phated@72.44.240.228] has joined #stackvm
+17:35 < jbenet> ogd: that email --> http://www.reactiongifs.us/wp-content/uploads/2013/03/slow_clap_citizen_kane.gif
+17:35 < jbenet> ogd: hahahhaha thats awesome
+17:35 < ogd> :)
+17:35 < jbenet> we should have a UnixCon
+17:36 < ogd> oooh yea
+17:36 < jbenet> for projects following unix philosophy
+17:36 < ogd> unixconf.com is available
+17:36 < jbenet> we should invite rob pike and ken thompson
+17:36 < jbenet> winning!!
+17:36 < ogd> ill buy it
+17:36 < pfraze_> it should be a lot of small conferences that you can compose together
+17:37 < ogd> cause this should happen
+17:37 < ogd> hah
+17:37 < jbenet> pfraze_ hahahahhaha
+17:37 < jbenet> substack o/
+17:39 < jjjohnny> help i need a good module for inspecting directories
+17:40 < jbenet> ls-stream?
+17:42 < rowbit> substack, pkrumins: testling server iphone6, ipad6 (osx, browserling1 user) is down!
+17:43 < jjjohnny> i'll try it
+17:43 < rowbit> substack, pkrumins: testling server safari6 (osx, browserling1 user) is down!
+17:43 < rowbit> substack, pkrumins: testling server android (osx, browserling1 user) is down!
+17:47 < domanic> I have been meaning to have a punk rock conf for bash.
+17:48 < domanic> i.e. a back to basics revolt against the over the topness of prog rock that javascript conferences have become
+17:48 < ogd> lol
+17:51 -!- yoshuawuyts [~yoshuawuy@50708BAF.static.ziggozakelijk.nl] has quit []
+17:51 -!- yoshuawuyts [~yoshuawuy@50708BAF.static.ziggozakelijk.nl] has joined #stackvm
+17:55 < jbenet> hahah
+18:02 -!- jhiesey [~jhiesey@nat/yahoo/x-fsrtbovytrbrspmc] has quit [Quit: jhiesey]
+18:05 < rowbit> Hourly usage stats: [developer: 0, free: 33]
+18:15 -!- ceejbot [~ceejbot@50-1-57-179.static.sonic.net] has quit [Remote host closed the connection]
+18:18 -!- ceejbot [~ceejbot@50-1-57-179.static.sonic.net] has joined #stackvm
+18:22 -!- brianloveswords [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has quit [Quit: Computer has gone to sleep.]
+18:26 -!- yoshuawuyts [~yoshuawuy@50708BAF.static.ziggozakelijk.nl] has quit [Remote host closed the connection]
+18:26 -!- brianloveswords [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has joined #stackvm
+18:28 < thealphanerd> Raynos / substack / ogd : do you guys have a prefered folder structure / work flow for building reusable browserify
+                      modules?
+18:29 < ogd> thealphanerd: for me 'reusable' and 'browserify' are implied by 'module' :)
+18:29 < thealphanerd> :P
+18:29 < ogd> thealphanerd: and in terms of folder structure no, i just have some js files that relative require each other, sometimes i have
+             a subfolder for css, js etc
+18:30 < thealphanerd> Ill rephrase& Im trying to develop a workflow that can be reused by developers to create widgets over at famo.us
+18:30 < thealphanerd> we now have a common version of the platform
+18:30 < thealphanerd> which will be released publicly via npm soon
+18:30 -!- ceejbot [~ceejbot@50-1-57-179.static.sonic.net] has quit [Remote host closed the connection]
+18:31 < thealphanerd> I am in the process of rebuilding our university app with common / browserify, and in the process trying to come up
+                      with a cannonical design pattern
+18:31 < ogd> thealphanerd: for me its npm init, npm install --save <dependencies, npm install --save-dev <development dependencies>, make
+             sure `npm test` runs the test suite, make sure `npm start` starts a local dev server (if applicable)
+18:32 -!- ceejbot [~ceejbot@50-1-57-179.static.sonic.net] has joined #stackvm
+18:35 < thealphanerd> and then you can have different entry points for the app depending on if it is being run via node or npm right?
+18:37 < ogd> thealphanerd: do you mean node or browserify?
+18:37 < thealphanerd> a doy
+18:37 < thealphanerd> yeah
+18:37 < ogd> well sort of, you can use the 'browser' field in package.json to override dependencies
+18:38 -!- brianloveswords [~brianlove@pool-108-14-35-12.nycmny.fios.verizon.net] has quit [Quit: Computer has gone to sleep.]
+18:38 < thealphanerd> have you ever used level-browserify?
+18:39 < thealphanerd> is it a reasonable solution to managing data on the client?
+18:42 < ogd> yea i wrote it, it works well when you are on browsers that have indexeddb
+18:43 -!- ceejbot [~ceejbot@50-1-57-179.static.sonic.net] has quit [Remote host closed the connection]
+18:43 -!- yoshuawuyts [~yoshuawuy@50708BAF.static.ziggozakelijk.nl] has joined #stackvm
+18:45 -!- ins0mnia [~smuxi@host-90-236-133-129.mobileonline.telia.com] has quit [Ping timeout: 272 seconds]
+18:46 < Raynos> thealphanerd: yep
+18:46 < Raynos> ~/projects/{{npm-name}}/index.js & ~/projects/{{npm-name}}/package.json & ~/projects/{{npm-name}}/test/index.js
+18:46 < Raynos> thealphanerd: https://github.com/Raynos/ngen/tree/master/templates/raynos/content
+18:47 < thealphanerd> awesome!!!
+18:47 < thealphanerd> Raynos: this is exactly what Im looking for
+18:47 < thealphanerd> what are you using to template?
+18:47 < thealphanerd> mustache?
+18:47 < Raynos> here's an upto https://github.com/uber/uber-ngen/tree/master/templates/uber/content thing
+18:47 < Raynos> its not mustache, it's ghetto mustache. https://github.com/uber/uber-ngen/blob/master/index.js#L201-L203
+18:47 < thealphanerd> LOLOL
+18:48 < Raynos> there's an upto date version for how we do uber templates and there is my personal one
+18:48 < thealphanerd> we were using hogan on one of the last projects
+18:48 < thealphanerd> I like that the binary included is called hulk
+18:48 < Raynos> I'm working on some awesome CLI tooling infrastructure at uber that will be open source at some point
+18:48 -!- calvinmetcalf [uid25915@gateway/web/irccloud.com/x-paxwzfjhmukbxknb] has quit [Quit: Connection closed for inactivity]
+18:48 < Raynos> thealphanerd: I want to update it to https://github.com/Matt-Esch/string-template
+18:48 < thealphanerd> sounds like you are solving similar problems to what andrew and I are doing
+18:48 -!- phated [~phated@72.44.240.228] has quit [Read error: Connection reset by peer]
+18:48 < Raynos> different focus :)
+18:49 < thealphanerd> definitely
+18:49 < Raynos> all backend atm
+18:49 -!- phated [~phated@72.44.240.228] has joined #stackvm
+18:49 < thealphanerd> but more in the workflow space
+18:49 -!- yoshuawuyts [~yoshuawuy@50708BAF.static.ziggozakelijk.nl] has quit [Remote host closed the connection]
+18:49 < thealphanerd> defining processes
+18:49 < Raynos> yeah
+18:49 < Raynos> we have a `playdoh create` thing that prompts you for ALL THE THINGS
+18:49 -!- ceejbot [~ceejbot@50-1-57-179.static.sonic.net] has joined #stackvm
+18:49 < thealphanerd> hehe
+18:49 < thealphanerd> I had the yeoman generator that I made
+18:49 < thealphanerd> although this new browserify stack is so much more elegant than the grunt monstrosity
+18:50 < Raynos> I'll push for open sourcing things in the next couple of weeks, we are open sourcing playdoh-dev & playdoh-server
+18:50 < thealphanerd> although much of that nastiness was trying to dance around require
+18:50 -!- calvinfo [~Adium@92.sub-70-211-74.myvzw.com] has joined #stackvm
+18:52 -!- calvinfo [~Adium@92.sub-70-211-74.myvzw.com] has quit [Client Quit]
+18:54 < thealphanerd> Raynos: have you experimented with eslint or jscs yet?
+18:55 -!- calvinfo [~Adium@92.sub-70-211-74.myvzw.com] has joined #stackvm
+18:56 < jbenet> mafintosh: i like your code. /hat-tip
+18:57 < Raynos> thealphanerd: want to use jscs, not yet
+18:58 < thealphanerd> fair enough& jshint still has some of the neccessary features, like scope based rules.  But the pluggable rules and
+                      esprima based approach of jscs and eslint is very tempting
+18:58 < Raynos> well jshint is about semantics, jscs is about style
+18:59 < thealphanerd> jscs is still using esprima under the hood though
+18:59 < thealphanerd> which creates some odd edge cases
+18:59 < thealphanerd> cannot get single line if statements and indentation rules to play nice together
+19:02 -!- gozala [uid5923@gateway/web/irccloud.com/x-wvxjuyprbbyxcqjm] has quit [Quit: Connection closed for inactivity]
+19:05 -!- yoshuawuyts [~yoshuawuy@50708BAF.static.ziggozakelijk.nl] has joined #stackvm
+19:05 < rowbit> Hourly usage stats: [developer: 0, free: 35]
+19:11 -!- yoshuawuyts [~yoshuawuy@50708BAF.static.ziggozakelijk.nl] has quit [Remote host closed the connection]
+19:18 -!- phated_ [~phated@72.44.240.228] has joined #stackvm
+19:22 -!- phated [~phated@72.44.240.228] has quit [Ping timeout: 264 seconds]
+19:29 -!- phated_ is now known as phated
+19:33 -!- warbrett [~warbrett@72.44.240.228] has quit []
+19:40 -!- jaz303_ [~jason@li358-125.members.linode.com] has quit [Ping timeout: 255 seconds]
+19:40 -!- jaz303 [~jason@li358-125.members.linode.com] has joined #stackvm
+19:53 < thealphanerd> jjjohnny: did you see that message regarding the ircam conference on web audio?
+19:54 -!- yorick [~yorick@oftn/member/yorick] has quit [Read error: Connection reset by peer]
+19:55 -!- tilgovi [~randall@couchdb/committer/tilgovi] has quit [Read error: Connection reset by peer]
+20:00 -!- ircretary [~ircretary@165.225.132.207] has quit [Remote host closed the connection]
+20:00 -!- ircretary [~ircretary@165.225.132.207] has joined #stackvm
+20:05 < rowbit> Hourly usage stats: [developer: 0, free: 24]
+20:06 -!- maksimlin [~chatzilla@101.119.29.30] has joined #stackvm
+20:09 -!- pfallenop [~pfallenop@unaffiliated/contempt] has joined #stackvm
+20:10 -!- thlorenz [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has joined #stackvm
+20:15 -!- calvinfo1 [~Adium@70-36-236-249.dsl.static.sonic.net] has joined #stackvm
+20:15 -!- calvinfo [~Adium@92.sub-70-211-74.myvzw.com] has quit [Read error: Connection reset by peer]
+20:19 -!- ceejbot [~ceejbot@50-1-57-179.static.sonic.net] has quit [Remote host closed the connection]
+20:27 < jjjohnny> thealphanerd: page didnt load
+20:27 < jjjohnny> but i aint goin to france anyway
+20:28 < thealphanerd> fair enough
+20:28 < thealphanerd> :D
+20:28 < thealphanerd> you could potentially still publish something without going
+20:28 < thealphanerd> if you are into the achedemic thing at all
+20:39 -!- ednapiranha [~ednapiran@c-50-139-70-246.hsd1.or.comcast.net] has quit [Remote host closed the connection]
+20:39 -!- ceejbot [~ceejbot@50-1-57-179.static.sonic.net] has joined #stackvm
+20:47 -!- phated [~phated@72.44.240.228] has quit [Read error: Connection reset by peer]
+20:47 -!- thlorenz [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has quit [Remote host closed the connection]
+20:48 -!- thlorenz [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has joined #stackvm
+20:50 -!- dybskiy [~dybskiy@firebase.static.monkeybrains.net] has joined #stackvm
+20:50 -!- dybskiy [~dybskiy@firebase.static.monkeybrains.net] has quit [Remote host closed the connection]
+20:50 -!- phated [~phated@72.44.240.228] has joined #stackvm
+20:50 -!- dybskiy [~dybskiy@firebase.static.monkeybrains.net] has joined #stackvm
+20:51 -!- ednapiranha [~ednapiran@2601:7:780:520:9cb:a884:e0a2:7379] has joined #stackvm
+20:52 -!- ceejbot [~ceejbot@50-1-57-179.static.sonic.net] has quit [Remote host closed the connection]
+20:53 -!- thlorenz [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has quit [Ping timeout: 264 seconds]
+20:53 -!- AvianFlu [~avianflu@207-38-246-118.c3-0.43d-ubr2.qens-43d.ny.cable.rcn.com] has quit [Quit: Leaving]
+20:53 -!- AvianFlu [~avianflu@207-38-246-118.c3-0.43d-ubr2.qens-43d.ny.cable.rcn.com] has joined #stackvm
+20:55 -!- thealphanerd [~thealphan@pdpc/supporter/student/thealphanerd] has quit [Quit: thealphanerd]
+20:57 -!- dybskiy [~dybskiy@firebase.static.monkeybrains.net] has quit []
+20:58 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has quit [Ping timeout: 272 seconds]
+20:58 -!- dybskiy [~dybskiy@firebase.static.monkeybrains.net] has joined #stackvm
+21:05 < rowbit> Daily usage stats: [developer: 62, free: 1102]
+21:05 < rowbit> Hourly usage stats: [developer: 0, free: 17]
+21:16 -!- ednapiranha [~ednapiran@2601:7:780:520:9cb:a884:e0a2:7379] has quit [Quit: Leaving...]
+21:17 -!- Maciek416 [~Maciek@c-50-139-70-246.hsd1.or.comcast.net] has quit [Remote host closed the connection]
+21:35 -!- dybskiy [~dybskiy@firebase.static.monkeybrains.net] has quit [Remote host closed the connection]
+21:40 -!- thlorenz [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has joined #stackvm
+21:41 -!- dguttman [~david@cpe-142-129-79-131.socal.res.rr.com] has quit [Quit: dguttman]
+21:42 -!- jxson_ [~jxson@209.119.80.251] has quit [Remote host closed the connection]
+21:43 -!- jxson [~jxson@209.119.80.251] has joined #stackvm
+21:48 -!- jxson [~jxson@209.119.80.251] has quit [Ping timeout: 264 seconds]
+21:51 -!- calvinfo1 [~Adium@70-36-236-249.dsl.static.sonic.net] has quit [Quit: Leaving.]
+22:07 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has joined #stackvm
+22:07 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has quit [Client Quit]
+22:08 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has joined #stackvm
+22:18 -!- phated [~phated@72.44.240.228] has quit [Remote host closed the connection]
+22:22 -!- domanic [~domanic@2001:982:1453:1:76e5:bff:fea6:151c] has quit [Ping timeout: 252 seconds]
+22:25 -!- Maciek416 [~Maciek@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+22:26 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has quit [Quit: Leaving.]
+22:30 -!- shama [~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net] has quit []
+22:37 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has joined #stackvm
+22:41 -!- _contrahax is now known as contrahax
+22:51 -!- marcello3d [~marcello3@198.211.110.17] has quit [Ping timeout: 252 seconds]
+22:53 -!- marcello3d [~marcello3@198.211.110.17] has joined #stackvm
+22:53 -!- simcop2387 [~simcop238@p3m/member/simcop2387] has quit [Excess Flood]
+22:56 -!- simcop2387 [~simcop238@p3m/member/simcop2387] has joined #stackvm
+22:57 -!- dybskiy [~dybskiy@c-98-207-93-218.hsd1.ca.comcast.net] has joined #stackvm
+22:59 -!- contrahax is now known as _contrahax
+23:05 < rowbit> Hourly usage stats: [free: 21]
+23:17 -!- maksimlin [~chatzilla@101.119.29.30] has quit [Quit: ChatZilla 0.9.90.1 [Firefox 30.0/20140608211828]]
+23:20 -!- taterbase [uid17123@gateway/web/irccloud.com/x-juzmqtohasidzric] has quit [Quit: Connection closed for inactivity]
+23:23 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has quit [Quit: Leaving.]
+23:28 < jjjohnny> nobody answered my question above
+23:28 < jjjohnny> at 17:09
+23:29 < jjjohnny> where were you?
+23:29 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+23:33 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Ping timeout: 240 seconds]
+23:34 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+23:40 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has joined #stackvm
+23:43 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has joined #stackvm
+23:44 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has quit [Ping timeout: 245 seconds]
+23:45 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has quit [Client Quit]
+23:49 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit []
+23:49 -!- phated_ [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+23:53 -!- motiooon [~motiooon@207-38-163-248.c3-0.43d-ubr1.qens-43d.ny.cable.rcn.com] has joined #stackvm
+23:55 -!- motiooon [~motiooon@207-38-163-248.c3-0.43d-ubr1.qens-43d.ny.cable.rcn.com] has quit [Remote host closed the connection]
+23:56 -!- stagas [~stagas@176.92.238.65] has joined #stackvm
+23:58 -!- thlorenz [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has quit [Remote host closed the connection]
+23:58 -!- thlorenz [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has joined #stackvm
+Day changed to 25 Jun 2014
+00:03 -!- thlorenz [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has quit [Ping timeout: 255 seconds]
+00:04 -!- pfraze_ [~unsafe@cpe-70-113-196-4.austin.res.rr.com] has quit [Ping timeout: 264 seconds]
+00:05 < rowbit> Hourly usage stats: [free: 31]
+00:09 -!- phated_ is now known as phated
+00:11 -!- ins0mnia [~smuxi@host-90-236-133-129.mobileonline.telia.com] has joined #stackvm
+00:18 -!- dguttman [~david@cpe-142-129-79-131.socal.res.rr.com] has joined #stackvm
+00:41 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has joined #stackvm
+00:45 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has quit [Ping timeout: 240 seconds]
+00:48 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Remote host closed the connection]
+01:05 < rowbit> Hourly usage stats: [free: 19]
+01:11 -!- addisonj [uid18502@gateway/web/irccloud.com/x-fibheupngjvattrr] has quit [Quit: Connection closed for inactivity]
+01:15 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+01:19 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Remote host closed the connection]
+01:29 -!- AvianFlu [~avianflu@207-38-246-118.c3-0.43d-ubr2.qens-43d.ny.cable.rcn.com] has quit [Remote host closed the connection]
+01:36 -!- calvinfo [~Adium@c-50-174-77-78.hsd1.ca.comcast.net] has joined #stackvm
+01:38 -!- dguttman [~david@cpe-142-129-79-131.socal.res.rr.com] has quit [Quit: dguttman]
+01:41 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has joined #stackvm
+01:46 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has quit [Ping timeout: 240 seconds]
+01:53 -!- calvinfo [~Adium@c-50-174-77-78.hsd1.ca.comcast.net] has quit [Quit: Leaving.]
+01:55 -!- defunctzombie is now known as defunctzombie_zz
+01:59 -!- calvinfo [~Adium@c-50-174-77-78.hsd1.ca.comcast.net] has joined #stackvm
+01:59 -!- calvinfo [~Adium@c-50-174-77-78.hsd1.ca.comcast.net] has quit [Read error: Connection reset by peer]
+01:59 -!- calvinfo [~Adium@c-50-174-77-78.hsd1.ca.comcast.net] has joined #stackvm
+02:05 < rowbit> Hourly usage stats: [free: 40]
+02:09 -!- jxson [~jxson@2600:1010:b007:e5df:d813:70a9:60ce:1643] has joined #stackvm
+02:12 -!- anvaka [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has joined #stackvm
+02:30 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+02:34 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Ping timeout: 240 seconds]
+02:42 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has joined #stackvm
+02:44 -!- Maciek416 [~Maciek@c-50-139-70-246.hsd1.or.comcast.net] has quit [Remote host closed the connection]
+02:47 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has quit [Ping timeout: 255 seconds]
+02:49 -!- stagas [~stagas@176.92.238.65] has quit [Remote host closed the connection]
+02:51 -!- calvinfo [~Adium@c-50-174-77-78.hsd1.ca.comcast.net] has quit [Quit: Leaving.]
+02:52 -!- pfallenop [~pfallenop@unaffiliated/contempt] has quit [Read error: Connection reset by peer]
+02:54 -!- pfallenop [~pfallenop@unaffiliated/contempt] has joined #stackvm
+02:57 -!- yoshuawuyts [~yoshuawuy@50708BAF.static.ziggozakelijk.nl] has joined #stackvm
+03:01 -!- yoshuawuyts [~yoshuawuy@50708BAF.static.ziggozakelijk.nl] has quit [Remote host closed the connection]
+21:35 -!- dybskiy [~dybskiy@firebase.static.monkeybrains.net] has quit [Remote host closed the connection]
+21:40 -!- thlorenz [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has joined #stackvm
+21:41 -!- dguttman [~david@cpe-142-129-79-131.socal.res.rr.com] has quit [Quit: dguttman]
+21:42 -!- jxson_ [~jxson@209.119.80.251] has quit [Remote host closed the connection]
+21:43 -!- jxson [~jxson@209.119.80.251] has joined #stackvm
+21:48 -!- jxson [~jxson@209.119.80.251] has quit [Ping timeout: 264 seconds]
+21:51 -!- calvinfo1 [~Adium@70-36-236-249.dsl.static.sonic.net] has quit [Quit: Leaving.]
+21:54 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has joined #stackvm
+21:58 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has quit [Ping timeout: 264 seconds]
+22:05 < rowbit> Hourly usage stats: [free: 55]
+22:07 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has joined #stackvm
+22:07 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has quit [Client Quit]
+22:08 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has joined #stackvm
+22:18 -!- phated [~phated@72.44.240.228] has quit [Remote host closed the connection]
+22:22 -!- domanic [~domanic@2001:982:1453:1:76e5:bff:fea6:151c] has quit [Ping timeout: 252 seconds]
+22:25 -!- Maciek416 [~Maciek@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+22:26 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has quit [Quit: Leaving.]
+22:30 -!- shama [~shama@108-215-213-221.lightspeed.sntcca.sbcglobal.net] has quit []
+22:37 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has joined #stackvm
+22:41 -!- _contrahax is now known as contrahax
+22:51 -!- marcello3d [~marcello3@198.211.110.17] has quit [Ping timeout: 252 seconds]
+22:53 -!- marcello3d [~marcello3@198.211.110.17] has joined #stackvm
+22:53 -!- simcop2387 [~simcop238@p3m/member/simcop2387] has quit [Excess Flood]
+22:56 -!- simcop2387 [~simcop238@p3m/member/simcop2387] has joined #stackvm
+22:57 -!- dybskiy [~dybskiy@c-98-207-93-218.hsd1.ca.comcast.net] has joined #stackvm
+22:59 -!- contrahax is now known as _contrahax
+23:05 < rowbit> Hourly usage stats: [free: 21]
+23:17 -!- maksimlin [~chatzilla@101.119.29.30] has quit [Quit: ChatZilla 0.9.90.1 [Firefox 30.0/20140608211828]]
+23:20 -!- taterbase [uid17123@gateway/web/irccloud.com/x-juzmqtohasidzric] has quit [Quit: Connection closed for inactivity]
+23:23 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has quit [Quit: Leaving.]
+23:28 < jjjohnny> nobody answered my question above
+23:28 < jjjohnny> at 17:09
+23:29 < jjjohnny> where were you?
+23:29 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+23:33 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Ping timeout: 240 seconds]
+23:34 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+23:40 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has joined #stackvm
+23:43 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has joined #stackvm
+23:44 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has quit [Ping timeout: 245 seconds]
+23:45 -!- calvinfo [~Adium@c-24-5-68-47.hsd1.ca.comcast.net] has quit [Client Quit]
+23:49 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit []
+23:49 -!- phated_ [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+23:53 -!- motiooon [~motiooon@207-38-163-248.c3-0.43d-ubr1.qens-43d.ny.cable.rcn.com] has joined #stackvm
+23:55 -!- motiooon [~motiooon@207-38-163-248.c3-0.43d-ubr1.qens-43d.ny.cable.rcn.com] has quit [Remote host closed the connection]
+23:56 -!- stagas [~stagas@176.92.238.65] has joined #stackvm
+23:58 -!- thlorenz [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has quit [Remote host closed the connection]
+23:58 -!- thlorenz [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has joined #stackvm
+Day changed to 25 Jun 2014
+00:03 -!- thlorenz [~thlorenz@cpe-24-90-103-46.nyc.res.rr.com] has quit [Ping timeout: 255 seconds]
+00:04 -!- pfraze_ [~unsafe@cpe-70-113-196-4.austin.res.rr.com] has quit [Ping timeout: 264 seconds]
+00:05 < rowbit> Hourly usage stats: [free: 31]
+00:09 -!- phated_ is now known as phated
+00:11 -!- ins0mnia [~smuxi@host-90-236-133-129.mobileonline.telia.com] has joined #stackvm
+00:18 -!- dguttman [~david@cpe-142-129-79-131.socal.res.rr.com] has joined #stackvm
+00:41 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has joined #stackvm
+00:45 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has quit [Ping timeout: 240 seconds]
+00:48 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Remote host closed the connection]
+01:05 < rowbit> Hourly usage stats: [free: 19]
+01:11 -!- addisonj [uid18502@gateway/web/irccloud.com/x-fibheupngjvattrr] has quit [Quit: Connection closed for inactivity]
+01:15 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+01:19 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Remote host closed the connection]
+01:29 -!- AvianFlu [~avianflu@207-38-246-118.c3-0.43d-ubr2.qens-43d.ny.cable.rcn.com] has quit [Remote host closed the connection]
+01:36 -!- calvinfo [~Adium@c-50-174-77-78.hsd1.ca.comcast.net] has joined #stackvm
+01:38 -!- dguttman [~david@cpe-142-129-79-131.socal.res.rr.com] has quit [Quit: dguttman]
+01:41 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has joined #stackvm
+01:46 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has quit [Ping timeout: 240 seconds]
+01:53 -!- calvinfo [~Adium@c-50-174-77-78.hsd1.ca.comcast.net] has quit [Quit: Leaving.]
+01:55 -!- defunctzombie is now known as defunctzombie_zz
+01:59 -!- calvinfo [~Adium@c-50-174-77-78.hsd1.ca.comcast.net] has joined #stackvm
+01:59 -!- calvinfo [~Adium@c-50-174-77-78.hsd1.ca.comcast.net] has quit [Read error: Connection reset by peer]
+01:59 -!- calvinfo [~Adium@c-50-174-77-78.hsd1.ca.comcast.net] has joined #stackvm
+02:05 < rowbit> Hourly usage stats: [free: 40]
+02:09 -!- jxson [~jxson@2600:1010:b007:e5df:d813:70a9:60ce:1643] has joined #stackvm
+02:12 -!- anvaka [~anvaka@c-76-121-53-98.hsd1.wa.comcast.net] has joined #stackvm
+02:30 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has joined #stackvm
+02:34 -!- phated [~phated@ip72-208-140-83.ph.ph.cox.net] has quit [Ping timeout: 240 seconds]
+02:42 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has joined #stackvm
+02:44 -!- Maciek416 [~Maciek@c-50-139-70-246.hsd1.or.comcast.net] has quit [Remote host closed the connection]
+02:47 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has quit [Ping timeout: 255 seconds]
+02:49 -!- stagas [~stagas@176.92.238.65] has quit [Remote host closed the connection]
+02:51 -!- calvinfo [~Adium@c-50-174-77-78.hsd1.ca.comcast.net] has quit [Quit: Leaving.]
+02:52 -!- pfallenop [~pfallenop@unaffiliated/contempt] has quit [Read error: Connection reset by peer]
+02:54 -!- pfallenop [~pfallenop@unaffiliated/contempt] has joined #stackvm
+02:57 -!- yoshuawuyts [~yoshuawuy@50708BAF.static.ziggozakelijk.nl] has joined #stackvm
+03:01 -!- yoshuawuyts [~yoshuawuy@50708BAF.static.ziggozakelijk.nl] has quit [Remote host closed the connection]
+03:02 -!- jxson [~jxson@2600:1010:b007:e5df:d813:70a9:60ce:1643] has quit [Remote host closed the connection]
+03:05 -!- yoshuawuyts [~yoshuawuy@50708BAF.static.ziggozakelijk.nl] has joined #stackvm
+03:05 < rowbit> Hourly usage stats: [free: 50]
+03:10 -!- pfallenop [~pfallenop@unaffiliated/contempt] has quit [Ping timeout: 264 seconds]
+03:16 -!- yoshuawuyts [~yoshuawuy@50708BAF.static.ziggozakelijk.nl] has quit [Remote host closed the connection]
+03:35 -!- djcoin [~djcoin@128-79-237-66.hfc.dyn.abo.bbox.fr] has joined #stackvm
+03:43 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has joined #stackvm
+03:47 -!- yoshuawuyts [~yoshuawuy@145.15.244.32] has joined #stackvm
+03:47 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has quit [Ping timeout: 255 seconds]
+03:58 -!- collypops [~collypops@202.6.74.6] has quit []
+04:00 -!- yoshuawuyts [~yoshuawuy@145.15.244.32] has quit [Remote host closed the connection]
+04:05 < rowbit> Hourly usage stats: [developer: 2, free: 44]
+04:19 -!- yoshuawuyts [~yoshuawuy@37.74.139.238] has joined #stackvm
+04:24 < rowbit> substack, pkrumins: A developer is waiting in the queue for ie/10
+04:33 -!- Maciek416 [~Maciek@c-50-139-70-246.hsd1.or.comcast.net] has joined #stackvm
+04:37 -!- Maciek416 [~Maciek@c-50-139-70-246.hsd1.or.comcast.net] has quit [Ping timeout: 245 seconds]
+04:38 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has quit [Quit: fotoverite]
+04:39 -!- stagas [~stagas@77-7-139.static.cyta.gr] has joined #stackvm
+04:39 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has joined #stackvm
+04:39 -!- fotoverite [~fotoverit@cpe-67-243-154-113.nyc.res.rr.com] has quit [Client Quit]
+04:43 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has joined #stackvm
+04:48 -!- kessler [~kessler@bzq-80-62-132.static.bezeqint.net] has quit [Ping timeout: 240 seconds]
+04:58 < mafintosh> jbenet: i like your code as well
+04:58  * mafintosh hugs jbenet
+04:59 < substack> code group hug!
+05:05 < rowbit> Hourly usage stats: [developer: 10, free: 63]
+05:06 -!- stagas [~stagas@77-7-139.static.cyta.gr] has quit [Quit: Bye]
+05:08 < mafintosh> substack: require('hugs')
+05:13 -!- dybskiy [~dybskiy@c-98-207-93-218.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+05:20 -!- pfallenop [~pfallenop@unaffiliated/contempt] has joined #stackvm
+05:26 -!- jaz303_ [~jason@li358-125.members.linode.com] has joined #stackvm
+05:30 -!- Netsplit *.net <-> *.split quits: jaz303
+05:44 -!- dybskiy [~dybskiy@c-98-207-93-218.hsd1.ca.comcast.net] has joined #stackvm
+05:46 -!- dybskiy_ [~dybskiy@c-98-207-93-218.hsd1.ca.comcast.net] has joined #stackvm
+05:49 -!- dybskiy [~dybskiy@c-98-207-93-218.hsd1.ca.comcast.net] has quit [Ping timeout: 264 seconds]
+05:51 -!- dybskiy_ [~dybskiy@c-98-207-93-218.hsd1.ca.comcast.net] has quit [Ping timeout: 264 seconds]
+05:57 -!- kessler [~kessler@ODAP-199-203-61-108.bb.netvision.net.il] has joined #stackvm
+06:05 < rowbit> Hourly usage stats: [developer: 8, free: 77]
+06:08  * jjjohnny on "hug" function (hug) return hug!
+06:10 -!- dybskiy [~dybskiy@c-98-207-93-218.hsd1.ca.comcast.net] has joined #stackvm
+06:12 -!- dybskiy_ [~dybskiy@c-98-207-93-218.hsd1.ca.comcast.net] has joined #stackvm
+06:14 -!- dybskiy [~dybskiy@c-98-207-93-218.hsd1.ca.comcast.net] has quit [Ping timeout: 240 seconds]
+06:16 -!- dybskiy_ [~dybskiy@c-98-207-93-218.hsd1.ca.comcast.net] has quit [Ping timeout: 240 seconds]
+06:22 -!- Maciek416 [~Maciek@2601:7:780:520:5573:8f82:134c:d547] has joined #stackvm
+06:26 -!- Maciek416 [~Maciek@2601:7:780:520:5573:8f82:134c:d547] has quit [Ping timeout: 260 seconds]
+06:28 -!- domanic [~domanic@2001:982:1453:1:76e5:bff:fea6:151c] has joined #stackvm
+06:36 < jjjohnny> WHO ELSE IS PINNING A TWEET?
+06:36 < LOUDBOT> WE HAVE A FLAT-HEAD DEATH DRIVER IN OUR OFFICE NOW!
+06:36 < jjjohnny> DONT START THAT AGAIN
+06:36 < LOUDBOT> DMD THERE IS AN IPHONE VNCSERVER IN CYDIA
+06:36 < jjjohnny> YOU JUST SIGNED YOURSELF UP TO WRITE THAT OSS!
+06:36 < LOUDBOT> WE'VE BEEN TRYING FOR 4 YEARS
+06:37 < jjjohnny> TRY OR NOT WAS THERE OR WAS THERE AINT A DO?
+06:37 < LOUDBOT> BULLETIN -- MASSIVE 11-ALARM FIRE BURNS AT LEAST 52 BUILDINGS IN ALTON BAY, NEW HAMPSHIRE.
+06:38 < jjjohnny> WEST COAST HEARS NOTHING OF IT CUZ FUCK YOUR NEWS FARAWAY OTHERPEOPLE
+06:38 < LOUDBOT> SO YOU CONCUR WITH YOURSELF CONGRATS
+06:39 < jjjohnny> AND I CAN GRAT MYSELF TOO WATCH WITH A PRO ACCOUNT
+06:39 < LOUDBOT> I'M RIGHT BELOW THE CEO
+06:41 < jjjohnny> THE SUIT DIDN'T PUT UP MUCH OF A RUNNING MAN UPON HOISTING THAT ERE BRANCH
+06:41 < LOUDBOT> SEE YOU AT THE SPRING BOOTH BRO
+06:44 < jjjohnny> THEY CUT HIS LIPS OFF
+06:44 < LOUDBOT> ONLY THUGS KILL PEOPLE
+06:45 < jjjohnny> AND THAT IS WHY WE MUST ENTERTAIN THE IDEA OF A WAR OF THUGS
+06:45 < LOUDBOT> GET YOUR OWN DAMN POUTINE, YANKEE
+06:45 < jjjohnny> AND THAT IS WHY WE MUST ENTERTAIN THE IDEA OF A WAR ON THUGS
+06:45 < LOUDBOT> TOO MUCH BAD REPORTING MAKES ME GO GO INTO THE DISCO
+06:45 < jjjohnny> AND THAT IS WHY WE MUST ENTERTAIN THE IDEA OF A WAR ON MUSIC
+06:45 < LOUDBOT> YOU HEARD ME RIGHT THE FIRST TIME
+06:47 < jjjohnny> SAYS PUTIN, IN AN ADVERTISEMENT FOR RUSSIAN BRAND VERIZON
+06:47 < LOUDBOT> SO YOU ARE MORE OF A CATCHER THAN A PITCHER
+06:47 < jjjohnny> ME IM MORE LIKE ONE OF THOSE WHO LIKES THROWING THINGS BUT NOT HAVING THROWN THINGS COME MY WAY
+06:47 < LOUDBOT> WE REBUILT AFTER THE STORM
+06:48 < jjjohnny> STILL, THERE ARE TIMES WE WONDER IF WE STILL IN THE EYE
+06:48 < LOUDBOT> MY NAME IS JOHNNY DEPP AND I KILL PEOPLE
+06:51 < jjjohnny> MY NAME IS JOHNNYSCRIPT AND I TALK TO ROBOTS
+06:51 < LOUDBOT> DIE ALL THE BOYS TO THE CONSTITUTION.
+06:54 < jjjohnny> ME ROLLED A 5 WHERE ME MYS MILITIA!!!
+06:54 < LOUDBOT> I GUESS IT DOES. CLEVER.
+06:55 < jjjohnny> REMOVES GUN FROM DESK DRAWER.  FIRES GUN INTO SELF FACE.  REPLACES GUN IN DESK DRAWER.
+06:55 < LOUDBOT> HAPPY "EVERYTHING GOOD IS DEAD" DAY!
+06:56 < jjjohnny> THATS HOW WHY PUNKS PARTY ERRYDAY
+06:56 < LOUDBOT> I WON'T STAND FOR IT
+06:56 < jjjohnny> CUZ IF I GET UP IMMA SING AND DANCE!
+06:56 < LOUDBOT> THAT'S NOT ACCURATE DONKEY BALLS ARE AWESOME
+07:00 < jjjohnny> WE HAVE THE EAST COAST HIPSTER TO THANK FOR DEVALUING "AWESOME", "ABSOLUTELY", "TOTALLY", AND LAUGHING
+07:00 < LOUDBOT> HOORAY FOR IMPROBABLE SOURCES OF RETIREMENT MONEY!
+ Unofficial browserling/testling mad science channel. For official help /join #browserling
+07:01 < jjjohnny> AS LONG AS THE FLOOR DONT GIVE OUT!!!
+07:01 < LOUDBOT> I NEED GIFS AND I NEED THEM NOW
+07:02 < jjjohnny> SAID A NEWB TO A ROOM OF ACTUAL AUTOMATED AVATARS OF ACTUAL WIZARDS CHEWING AND BREATHING HEAVILY
+07:02 < LOUDBOT> THIS IS THE CIRCLE OF HELL. GOD HELP YOU GET THROUGH IT TO YOUR DESTINATION
+07:03 < jjjohnny> I WOKE UP THIS 1AM THINKING OF INSTEAD OF FASTER TRAVEL SPEEDS DECREASING DISTANCE SOMEHOW
+07:03 < LOUDBOT> GAD DANGIT BILL, WE'RE TALKIN' 'BOUT PROPANE
+07:05 < rowbit> Hourly usage stats: [developer: 13, free: 58]
+07:07 < jjjohnny> CHAMPAGNE FOR MY REAL FRIENDS; REAL PAIN FOR MY SHAM FRIENDS; FOR EVERYTHING ELSE, THERES PROPANE
+07:07 < LOUDBOT> BELIEVE IN THE TURTLES! LET THEM BE YOUR GUIDE INTO THE AFTER LIFE!
+07:07 < jjjohnny> TAKE YOUR TIME HERE NOW AND HEREAFTER AND THEREVER WHYDONTCHA
+07:07 < LOUDBOT> I SHOULD HAVE USED ALL BINARIES AND UPGRADED LATER
+07:10 -!- dybskiy [~dybskiy@c-98-207-93-218.hsd1.ca.comcast.net] has joined #stackvm
+07:10 < jjjohnny> I TOLD YOU NOT TO EAT THAT, LOUDBOT
+07:10 < LOUDBOT> REVOLUTIONIZE THE WAY WE BOOK CONFERENCE ROOMS
+07:13 < jjjohnny> THIEF: JESUS THE PAIN MUST BE MUCH BUT JUST THIS ONCE COULD YOU MAKE IT NOT MUST?
+07:13 < LOUDBOT> WE'VE GOT THAT NPMROLL
+07:14 < jjjohnny> A MARIARCHI BAND TO PLAY YOU A SONG EVERY TIME YOU PUBLISH A NEW MODULE
+07:14 < LOUDBOT> PARKER! GET IN MY OFFICE RIGHT NOW!
+07:15 < jjjohnny> THE PUN IS THAT A GROUP OF BUILDING CLIMBERS AND URBAN MOVEMENT ARTISTS ENTER THE OFFICE AND LIKE BREAK EVERYTHING
+07:15 < LOUDBOT> IF YOUR GONNA ALWAYS BE EATIN THE BIG SLICE YOUR GONNA ALWAYS BE HAVIN A LITTLE ON YOUR FACE
+07:15 -!- dybskiy [~dybskiy@c-98-207-93-218.hsd1.ca.comcast.net] has quit [Ping timeout: 264 seconds]
+07:17 < jjjohnny> WHEN WILL I GET ADS WITH PICS OF ME SHOWING ME AFTER SURGERY?
+07:17 < LOUDBOT> ACHIEVEMENT UNLOCKED: NEW BATTERIES
+07:18 < jjjohnny> SOMETIMES YOU JUST A ROBOT KID
+07:18 < LOUDBOT> ACHIEVEMENT UNLOCKED: CLEVER FAÇADE
+07:18 < jjjohnny> SOMETIMES YOU JUST A ROBOT KID ROBOT
+07:18 < LOUDBOT> THE MYSTERY DEEPENS
+07:19 < jjjohnny> WOULD IT HELP IF THE LANGUAGE ALLOWED FOR CONTEXTUAL INSPECTION IN EITHER DIRECTION?
+07:19 < LOUDBOT> PULL UP YOUR FUCKIN' PANTS
+07:24 < jjjohnny> COMMITTEE ADJOURNED
+07:24 < LOUDBOT> AXING THE BUU IS ALWAYS APPROPRIATE
+07:26 -!- yorick [~yorick@oftn/member/yorick] has joined #stackvm
+07:27 < jjjohnny> THE COMPUTER WAS ALL LIKE, YOU CANT KILL ME!, WHICH WAS MY PROGRAM EXACTLY
+07:27 < LOUDBOT> EXCUSE ME, BOSS, THE BEST WAY FOR ME TO LEARN HOW TO CODE IS TO WRITE A TOILET MONITORING SOLUTION WITH OPENCV AND A CUSTOM
+                 ARDUINO HARDWARE. SO I'LL BE WORKING ON THAT FOR A COUPLE WEEKS.
+ [07:31] [jjjohnny(+i)] [2:freenode/#stackvm(+cnt)] [Act: 5,6,10,12]
+[#stackvm]

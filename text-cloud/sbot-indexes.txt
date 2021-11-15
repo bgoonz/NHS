@@ -1,0 +1,1063 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+22:33 -!- Irssi: Not connected to server
+22:34 -!- Irssi: Not connected to server
+22:37 -!- Irssi: Not connected to server
+22:56 -!- Irssi: Not connected to server
+23:46 -!- Irssi: Not connected to server
+23:47 -!- Irssi: Looking up irc.freenode.net
+23:47 -!- Irssi: Connecting to irc.freenode.net [94.125.182.252] port 6667
+23:47 -!- Irssi: Connection to irc.freenode.net established
+23:47 !adams.freenode.net *** Looking up your hostname...
+23:47 !adams.freenode.net *** Checking Ident
+23:47 !adams.freenode.net *** Found your hostname
+23:47 !adams.freenode.net *** No Ident response
+23:47 -!- Welcome to the freenode Internet Relay Chat Network root
+23:47 -!- Your host is adams.freenode.net[94.125.182.252/6667], running version
+          ircd-seven-1.1.3
+23:47 -!- This server was created Mon Jul 20 2015 at 16:58:36 UTC
+23:47 -!- adams.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz
+          CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+23:47 -!- CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz
+          CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4
+          NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g are supported by this
+          server
+23:47 -!- CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50
+          TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC
+TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: are
+          supported by this server
+23:47 -!- EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU are supported by
+          this server
+23:47 -!- There are 161 users and 80918 invisible on 25 servers
+23:47 -!- 24 IRC Operators online
+23:47 -!- 12 unknown connection(s)
+23:47 -!- 50900 channels formed
+23:47 -!- I have 5628 clients and 1 servers
+23:47 -!- 5628 12001 Current local users 5628, max 12001
+23:47 -!- 81079 98867 Current global users 81079, max 98867
+23:47 -!- Highest connection count: 12002 (12001 clients) (1997837 connections
+          received)
+23:47 -!- - adams.freenode.net Message of the Day -
+23:47 -!- - Welcome to adams.freenode.net. Thanks to ATW Internet Kft
+23:47 -!- - (http://www.atw.hu) for sponsoring this server!
+23:47 -!- -
+23:47 -!- - ADAMS, DOUGLAS (1952-2001).  Author of The Hitch Hikers Guide
+23:47 -!- - to the Galaxy and many other witty and humourous books,
+23:47 -!- - portrayed in his uniquely British irony. He is sorely missed
+23:47 -!- - by many millions of devoted fans. "So long and thanks for all
+23:47 -!- - the books!"
+23:47 -!- -
+23:47 -!- - Welcome to freenode - supporting the free and open source
+23:47 -!- - software communities since 1998.
+23:47 -!- -
+23:47 -!- - By connecting to freenode you indicate that you have read and
+23:47 -!- - accept our policies as set out on http://www.freenode.net
+23:47 -!- - freenode runs an open proxy scanner. Please join #freenode for
+23:47 -!- - any network-related questions or queries, where a number of
+23:47 -!- - volunteer staff and helpful users will be happy to assist you.
+23:47 -!- -
+23:47 -!- - You can meet us at FOSSCON (http://www.fosscon.org) where we get
+23:47 -!- - together with like-minded FOSS enthusiasts for talks and
+23:47 -!- - real-life collaboration.
+23:47 -!- -
+23:47 -!- - We would like to thank Private Internet Access
+23:47 -!- - (https://www.privateinternetaccess.com/) and the other
+23:47 -!- - organisations that help keep freenode and our other projects
+00:21 -!- jjjohnny [~root@li88-247.members.linode.com] has joined #cyberwizard
+00:21 -!- Topic for #cyberwizard:  http://cyber.wizard.institute on twitter
+          "#cyberwiz" - v2 August 1-15 2015
+00:21 -!- Topic set by substack [~substack@104.131.0.235] [Wed Jun 24 14:45:54
+          2015]
+00:21 [Users #cyberwizard]
+00:21 [ arduine_      ] [ jjjohnny     ] [ mk30        ] [ thealphanerd]
+00:21 [ bret          ] [ juliangruber_] [ noahphillips] [ tlevine     ]
+00:21 [ captain_morgan] [ kaotikus     ] [ ogd         ] [ treeherder  ]
+00:21 [ emilbayes     ] [ karissa      ] [ outdoorsole ] [ xiaonormie  ]
+00:21 [ FourFootYeti  ] [ kumavis      ] [ rabbitface3 ] [ yar         ]
+00:21 [ isomorph1smes ] [ mafintosh    ] [ rook2pawn   ]
+00:21 [ jameskyburz   ] [ mattl        ] [ seeb        ]
+00:21 [ jerkey        ] [ mikolalysenko] [ substack    ]
+00:21 -!- Irssi: #cyberwizard: Total of 29 nicks [0 ops, 0 halfops, 0 voices,
+          29 normal]
+00:21 -!- Channel #cyberwizard created Sat Sep 20 16:31:17 2014
+00:21 -!- Irssi: Join to #cyberwizard was synced in 1 secs
+00:22 < substack> kaotikus: in DC!
+02:15 -!- leptone [~leptone@c-73-158-255-39.hsd1.ca.comcast.net] has joined
+          #cyberwizard
+02:15 < leptone> when i log my doc i can clearly see it has a testList property
+                 but when i log doc.testList its undefine...anyone know whats
+                 goin on here?
+02:15 < leptone> https://gist.github.com/anonymous/77de7880bab15609f897#file-server-js-L74
+02:15 < leptone> https://gist.github.com/leptone/4dc0269769d838dd3fa4
+02:43 < substack> tlevine:
+                  http://www.iiisci.org/Journal/CV$/sci/pdfs/M306RQB.pdf
+02:44 < substack> the name of this journal is fantastic: "SYSTEMICS,
+                  CYBERNETICS AND INFORMATICS"
+02:45 < substack> leptone: doc is an array
+02:45 < substack> doc[0].testList
+02:45 < leptone> thx
+03:31 -!- leptone [~leptone@c-73-158-255-39.hsd1.ca.comcast.net] has quit
+          [Remote host closed the connection]
+12:33 < treeherder> o.
+12:33 < treeherder> ooops
+12:33 < treeherder> o/
+12:34 < treeherder> substack, i want to make a web interface for the yasnac
+16:50 < kaotikus> yes~~!!!!!! substack
+16:54 < substack> kaotikus: are there any cool hackerspaces in baltimore or dc?
+17:36 < kaotikus> substack: 2 i've heard of in BMore. Have not checked them
+                  out. baltimore node is one
+17:36 < kaotikus> then there is allocated space somewhere between Baltimore and
+                  DC
+17:37 < kaotikus> substack:
+20:51 < kaotikus> anyone using codepen and having issues with css compiling
+                  today, dec 17th?
+21:05 < kaotikus>  /away
+23:50 -!- leptone [~leptone@142-254-26-9.dsl.static.fusionbroadband.com] has
+          joined #cyberwizard
+23:51 < leptone> so im trying to deploy an app to heroku with not too much luck
+                 and i keep getting these two different logs when I heroku logs
+23:51 < leptone> https://gist.github.com/anonymous/3ac304dfa9a7c07840f5
+23:51 < leptone> https://gist.github.com/anonymous/d110e7749b9ee5e2dbef
+23:51 < leptone> its really weird bc I cant seem to reproducing one or the
+                 other as can be seem in all my commits of me doing and then
+                 undoing the same thing to try to change the error log and then
+                 change it back.
+                 https://github.com/leptone/hotSpot/commits/master
+23:51 < leptone> any one know why this could be?
+Day changed to 18 Dec 2015
+01:40 -!- captain_morgan [~morgan@104.236.136.56] has quit [Remote host closed
+          the connection]
+01:45 -!- leptone [~leptone@142-254-26-9.dsl.static.fusionbroadband.com] has
+          quit [Remote host closed the connection]
+03:56 -!- jameskyb1rz [~jameskybu@213-64-78-153-no57.tbcn.telia.com] has joined
+          #cyberwizard
+03:58 -!- jameskyburz [~jameskybu@213-64-78-153-no57.tbcn.telia.com] has quit
+          [Ping timeout: 246 seconds]
+11:07 -!- mafintosh [sid28509@gateway/web/irccloud.com/x-kebuqmineqgertgd] has
+          quit [Ping timeout: 272 seconds]
+11:11 -!- mafintosh [sid28509@gateway/web/irccloud.com/x-myywggfqwbblqepy] has
+          joined #cyberwizard
+12:29 -!- ralphtheninja
+          [~lms@c-a2d8e555.03-11-6c6b7012.cust.bredbandsbolaget.se] has joined
+23:30 -!- jjjohnny [~root@li88-247.members.linode.com] has joined #stackvm
+23:30 -!- Topic for #stackvm: Unofficial browserling/testling mad science
+          channel. For official help /join #browserling
+23:30 -!- Topic set by substack
+          [~substack@ec2-50-17-202-46.compute-1.amazonaws.com] [Wed Dec 12
+          18:05:13 2012]
+23:30 [Users #stackvm]
+23:30 [ addisonj        ] [ indexzero       ] [ parshap       ]
+23:30 [ anandthakker    ] [ isaacs          ] [ paul_irish    ]
+23:30 [ andreypopp      ] [ jan____         ] [ perlbot       ]
+23:30 [ beaugunderson   ] [ jbenet          ] [ pfallenop     ]
+23:30 [ bengl           ] [ jcrugzz         ] [ pfraze        ]
+23:30 [ bret            ] [ jden            ] [ pkrumins      ]
+23:30 [ brianloveswords ] [ jfhbrook        ] [ py1hon        ]
+23:30 [ brycebaril      ] [ jhiesey         ] [ ralphtheninja ]
+23:30 [ bytearcher      ] [ jjjohnny        ] [ Raynos        ]
+23:30 [ calvinmetcalf__ ] [ jlord_          ] [ robertkowalski]
+23:30 [ chapel          ] [ joepie91        ] [ rom1504       ]
+23:30 [ chrisdickinson_ ] [ JSON_voorhees   ] [ rom15042      ]
+23:30 [ cnd             ] [ juliangruber_   ] [ rook2pawn     ]
+23:30 [ creationix      ] [ kanzure         ] [ rvagg_        ]
+23:30 [ daleharvey      ] [ karissa         ] [ rwaldron      ]
+23:30 [ DamonOehlman__  ] [ kirjs___________] [ simalexan     ]
+23:30 [ darvon          ] [ kumavis         ] [ simcop2387    ]
+23:30 [ dlmanning       ] [ machty          ] [ sindresorhus  ]
+23:30 [ Domenic         ] [ mafintosh       ] [ sorribas_     ]
+23:30 [ dubroy__________] [ mappum          ] [ substack      ]
+23:30 [ ec              ] [ mawe-           ] [ tanepiper     ]
+23:30 [ ec\             ] [ McJesus         ] [ terinjokes    ]
+23:30 -!- jjjohnny [~root@li88-247.members.linode.com] has joined #scuttlebutt
+ https://github.com/ssbc/docs
+23:30 -!- Topic for #scuttlebutt: https://github.com/ssbc/docs
+23:30 -!- Topic set by pfraze
+          [~pfraze@99-19-21-63.lightspeed.hstntx.sbcglobal.net] [Thu Sep 24
+          22:33:02 2015]
+23:30 [Users #scuttlebutt]
+23:30 [ andreypopp    ] [ gorhgorh     ] [ mikolalysenko] [ rabbitface3  ]
+23:30 [ Aria          ] [ jbenet       ] [ Mitar        ] [ ralphtheninja]
+23:30 [ Bage1s        ] [ jden         ] [ mk30         ] [ Raynos       ]
+23:30 [ bengl         ] [ jjjohnny     ] [ mmckegg      ] [ rektide      ]
+23:30 [ bret          ] [ JSON_voorhees] [ myf          ] [ s1w-         ]
+23:30 [ cel           ] [ juul         ] [ nathan7      ] [ simalexan    ]
+23:30 [ cryptix       ] [ kaotikus     ] [ nicolagreco  ] [ sorribas_    ]
+23:30 [ DamonOehlman__] [ karissa      ] [ nrw          ] [ substack     ]
+23:30 [ dch           ] [ kumavis      ] [ null_radix   ] [ tanepiper    ]
+23:30 [ ehd           ] [ lachenmayer  ] [ owen1        ] [ yoshuawuyts  ]
+23:30 [ emilbayes     ] [ lohkey       ] [ parshap      ]
+23:30 [ feross        ] [ mafintosh    ] [ pfraze       ]
+23:30 -!- Irssi: #scuttlebutt: Total of 46 nicks [0 ops, 0 halfops, 0 voices,
+          46 normal]
+23:30 -!- Channel #scuttlebutt created Sun Oct  5 16:26:35 2014
+23:30 -!- Irssi: Join to #scuttlebutt was synced in 1 secs
+ [23:31] [jjjohnny(+i)] [7:freenode/#scuttlebutt(+ns)]
+[#scuttlebutt]
+00:21 [ jerkey        ] [ mikolalysenko] [ substack    ]
+00:21 -!- Irssi: #cyberwizard: Total of 29 nicks [0 ops, 0 halfops, 0 voices, 29 normal]
+00:21 -!- Channel #cyberwizard created Sat Sep 20 16:31:17 2014
+00:21 -!- Irssi: Join to #cyberwizard was synced in 1 secs
+00:22 < substack> kaotikus: in DC!
+02:15 -!- leptone [~leptone@c-73-158-255-39.hsd1.ca.comcast.net] has joined #cyberwizard
+02:15 < leptone> when i log my doc i can clearly see it has a testList property but when i log doc.testList its undefine...anyone know whats goin
+                 on here?
+02:15 < leptone> https://gist.github.com/anonymous/77de7880bab15609f897#file-server-js-L74
+02:15 < leptone> https://gist.github.com/leptone/4dc0269769d838dd3fa4
+02:43 < substack> tlevine: http://www.iiisci.org/Journal/CV$/sci/pdfs/M306RQB.pdf
+02:44 < substack> the name of this journal is fantastic: "SYSTEMICS, CYBERNETICS AND INFORMATICS"
+02:45 < substack> leptone: doc is an array
+02:45 < substack> doc[0].testList
+02:45 < leptone> thx
+03:31 -!- leptone [~leptone@c-73-158-255-39.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+12:33 < treeherder> o.
+12:33 < treeherder> ooops
+00:21 -!- jjjohnny [~root@li88-247.members.linode.com] has joined #cyberwizard
+00:21 -!- Topic for #cyberwizard:  http://cyber.wizard.institute on twitter "#cyberwiz" - v2 August 1-15 2015
+00:21 -!- Topic set by substack [~substack@104.131.0.235] [Wed Jun 24 14:45:54 2015]
+00:21 [Users #cyberwizard]
+00:21 [ arduine_      ] [ jjjohnny     ] [ mk30        ] [ thealphanerd]
+00:21 [ bret          ] [ juliangruber_] [ noahphillips] [ tlevine     ]
+00:21 [ captain_morgan] [ kaotikus     ] [ ogd         ] [ treeherder  ]
+00:21 [ emilbayes     ] [ karissa      ] [ outdoorsole ] [ xiaonormie  ]
+00:21 [ FourFootYeti  ] [ kumavis      ] [ rabbitface3 ] [ yar         ]
+00:21 [ isomorph1smes ] [ mafintosh    ] [ rook2pawn   ]
+00:21 [ jameskyburz   ] [ mattl        ] [ seeb        ]
+00:21 [ jerkey        ] [ mikolalysenko] [ substack    ]
+00:21 -!- Irssi: #cyberwizard: Total of 29 nicks [0 ops, 0 halfops, 0 voices, 29 normal]
+00:21 -!- Channel #cyberwizard created Sat Sep 20 16:31:17 2014
+00:21 -!- Irssi: Join to #cyberwizard was synced in 1 secs
+00:22 < substack> kaotikus: in DC!
+02:15 -!- leptone [~leptone@c-73-158-255-39.hsd1.ca.comcast.net] has joined #cyberwizard
+02:15 < leptone> when i log my doc i can clearly see it has a testList property but when i log doc.testList its undefine...anyone know whats goin
+                 on here?
+02:15 < leptone> https://gist.github.com/anonymous/77de7880bab15609f897#file-server-js-L74
+02:15 < leptone> https://gist.github.com/leptone/4dc0269769d838dd3fa4
+02:43 < substack> tlevine: http://www.iiisci.org/Journal/CV$/sci/pdfs/M306RQB.pdf
+02:44 < substack> the name of this journal is fantastic: "SYSTEMICS, CYBERNETICS AND INFORMATICS"
+02:45 < substack> leptone: doc is an array
+02:45 < substack> doc[0].testList
+02:45 < leptone> thx
+03:31 -!- leptone [~leptone@c-73-158-255-39.hsd1.ca.comcast.net] has quit [Remote host closed the connection]
+12:33 < treeherder> o.
+12:33 < treeherder> ooops
+23:30 -!- jjjohnny [~root@li88-247.members.linode.com] has joined #scuttlebutt
+23:30 -!- Topic for #scuttlebutt: https://github.com/ssbc/docs
+23:30 -!- Topic set by pfraze [~pfraze@99-19-21-63.lightspeed.hstntx.sbcglobal.net] [Thu Sep 24 22:33:02 2015]
+23:30 [Users #scuttlebutt]
+23:30 [ andreypopp    ] [ gorhgorh     ] [ mikolalysenko] [ rabbitface3  ]
+23:30 [ Aria          ] [ jbenet       ] [ Mitar        ] [ ralphtheninja]
+23:30 [ Bage1s        ] [ jden         ] [ mk30         ] [ Raynos       ]
+23:30 [ bengl         ] [ jjjohnny     ] [ mmckegg      ] [ rektide      ]
+23:30 [ bret          ] [ JSON_voorhees] [ myf          ] [ s1w-         ]
+23:30 [ cel           ] [ juul         ] [ nathan7      ] [ simalexan    ]
+23:30 [ cryptix       ] [ kaotikus     ] [ nicolagreco  ] [ sorribas_    ]
+23:30 [ DamonOehlman__] [ karissa      ] [ nrw          ] [ substack     ]
+23:30 [ dch           ] [ kumavis      ] [ null_radix   ] [ tanepiper    ]
+23:30 [ ehd           ] [ lachenmayer  ] [ owen1        ] [ yoshuawuyts  ]
+23:30 [ emilbayes     ] [ lohkey       ] [ parshap      ]
+ https://github.com/ssbc/docs
+23:30 [ feross        ] [ mafintosh    ] [ pfraze       ]
+23:30 -!- Irssi: #scuttlebutt: Total of 46 nicks [0 ops, 0 halfops, 0 voices, 46 normal]
+23:30 -!- Channel #scuttlebutt created Sun Oct  5 16:26:35 2014
+23:30 -!- Irssi: Join to #scuttlebutt was synced in 1 secs
+23:39 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has joined #scuttlebutt
+23:44 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has quit [Ping timeout: 265 seconds]
+23:52 < pfraze> "Agreeing to the Xcode/iOS license requires admin privileges, please re-run as root via sudo."
+23:53 < substack> it's a beautiful user experience designed by artists
+23:55 < substack> this art piece really says something about the technology haves and have-nots, and the role of ownership in the digital remix era
+Day changed to 20 Dec 2015
+00:26 -!- pfraze [~pfraze@2602:306:30bf:87e0:d163:f4cf:84db:5cff] has quit [Quit: pfraze has joined]
+00:27 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has joined #scuttlebutt
+00:55 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has joined #scuttlebutt
+00:58 < jjjohnny> haha damn
+00:59 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has quit [Ping timeout: 265 seconds]
+01:05 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has joined #scuttlebutt
+01:10 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has quit [Ping timeout: 255 seconds]
+02:06 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has joined #scuttlebutt
+02:11 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has quit [Ping timeout: 265 seconds]
+02:12 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has quit [Remote host closed the connection]
+02:22 -!- yoshuawuyts [sid53400@gateway/web/irccloud.com/x-osoibroviqhhwivb] has quit [Quit: Connection closed for inactivity]
+03:13 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has joined #scuttlebutt
+03:35 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has quit [Ping timeout: 240 seconds]
+05:48 -!- domanic [~dominic@118.148.172.136] has joined #scuttlebutt
+06:04 -!- domanic [~dominic@118.148.172.136] has quit [Ping timeout: 260 seconds]
+06:33 -!- pfraze [~pfraze@2602:306:30bf:87e0:c58a:b049:6668:5015] has joined #scuttlebutt
+06:38 -!- pfraze [~pfraze@2602:306:30bf:87e0:c58a:b049:6668:5015] has quit [Ping timeout: 260 seconds]
+08:07 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has joined #scuttlebutt
+08:12 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has quit [Ping timeout: 265 seconds]
+09:29 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has joined #scuttlebutt
+09:38 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has joined #scuttlebutt
+09:43 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has quit [Ping timeout: 255 seconds]
+11:20 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has quit [Remote host closed the connection]
+11:21 -!- pfraze [~pfraze@99.11.248.126] has joined #scuttlebutt
+11:29 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has joined #scuttlebutt
+12:32 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has quit [Remote host closed the connection]
+12:35 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has joined #scuttlebutt
+ [12:36] [jjjohnny(+i)] [7:freenode/#scuttlebutt(+ns)] [Act: 6]
+[#scuttlebutt]
+06:38 -!- pfraze [~pfraze@2602:306:30bf:87e0:c58a:b049:6668:5015] has quit [Ping timeout: 260 seconds]
+07:39 -!- therealkoopa [~therealko@pool-96-227-251-199.phlapa.fios.verizon.net] has joined #stackvm
+07:44 -!- therealkoopa [~therealko@pool-96-227-251-199.phlapa.fios.verizon.net] has quit [Ping timeout: 260 seconds]
+07:54 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+08:40 -!- therealkoopa [~therealko@pool-96-227-251-199.phlapa.fios.verizon.net] has joined #stackvm
+08:45 -!- therealkoopa [~therealko@pool-96-227-251-199.phlapa.fios.verizon.net] has quit [Ping timeout: 256 seconds]
+08:47 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has joined #stackvm
+09:29 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has joined #stackvm
+10:13 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+10:29 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has joined #stackvm
+10:47 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+10:48 -!- therealkoopa [~therealko@pool-96-227-251-199.phlapa.fios.verizon.net] has joined #stackvm
+10:48 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has joined #stackvm
+11:20 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has quit [Remote host closed the connection]
+11:20 -!- fotoverite [~fotoverit@cpe-67-244-109-181.nyc.res.rr.com] has joined #stackvm
+11:21 -!- pfraze [~pfraze@99.11.248.126] has joined #stackvm
+12:20 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+13:04 -!- contrahax [~contrahax@c-73-202-243-134.hsd1.ca.comcast.net] has joined #stackvm
+06:38 -!- pfraze [~pfraze@2602:306:30bf:87e0:c58a:b049:6668:5015] has quit [Ping timeout: 260 seconds]
+07:39 -!- therealkoopa [~therealko@pool-96-227-251-199.phlapa.fios.verizon.net] has joined #stackvm
+07:44 -!- therealkoopa [~therealko@pool-96-227-251-199.phlapa.fios.verizon.net] has quit [Ping timeout: 260 seconds]
+07:54 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+08:40 -!- therealkoopa [~therealko@pool-96-227-251-199.phlapa.fios.verizon.net] has joined #stackvm
+08:45 -!- therealkoopa [~therealko@pool-96-227-251-199.phlapa.fios.verizon.net] has quit [Ping timeout: 256 seconds]
+08:47 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has joined #stackvm
+09:29 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has joined #stackvm
+10:13 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+10:29 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has joined #stackvm
+10:47 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+10:48 -!- therealkoopa [~therealko@pool-96-227-251-199.phlapa.fios.verizon.net] has joined #stackvm
+10:48 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has joined #stackvm
+11:20 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has quit [Remote host closed the connection]
+11:20 -!- fotoverite [~fotoverit@cpe-67-244-109-181.nyc.res.rr.com] has joined #stackvm
+11:21 -!- pfraze [~pfraze@99.11.248.126] has joined #stackvm
+12:20 -!- peutetre [~peutetre@ip5b409e55.dynamic.kabel-deutschland.de] has quit [Quit: ...]
+13:04 -!- contrahax [~contrahax@c-73-202-243-134.hsd1.ca.comcast.net] has joined #stackvm
+13:45 -!- eyeforeigneye [~foreigney@echelon.c-base.org] has joined #stackvm
+14:21 -!- eyeforeigneye [~foreigney@echelon.c-base.org] has quit [Ping timeout: 265 seconds]
+15:05 -!- domanic [~dominic@118.148.196.191] has joined #stackvm
+15:10 -!- domanic [~dominic@118.148.196.191] has quit [Ping timeout: 260 seconds]
+15:13 -!- domanic [~dominic@118.148.196.191] has joined #stackvm
+15:25 -!- contrahax [~contrahax@c-73-202-243-134.hsd1.ca.comcast.net] has quit [Ping timeout: 255 seconds]
+15:56 -!- domanic [~dominic@118.148.196.191] has quit [Ping timeout: 256 seconds]
+16:07 -!- ralphtheninja [~lms@c-45dce555.03-11-6c6b7012.cust.bredbandsbolaget.se] has quit [Quit: leaving]
+16:07 -!- ralphtheninja [~lms@c-45dce555.03-11-6c6b7012.cust.bredbandsbolaget.se] has joined #stackvm
+16:08 -!- ralphtheninja [~lms@c-45dce555.03-11-6c6b7012.cust.bredbandsbolaget.se] has quit [Client Quit]
+16:09 -!- ralphtheninja [~lms@c-45dce555.03-11-6c6b7012.cust.bredbandsbolaget.se] has joined #stackvm
+16:42 -!- contrahax [~contrahax@c-73-202-243-134.hsd1.ca.comcast.net] has joined #stackvm
+16:43 -!- contraha_ [~contrahax@198.8.80.18] has joined #stackvm
+16:47 -!- contrahax [~contrahax@c-73-202-243-134.hsd1.ca.comcast.net] has quit [Ping timeout: 265 seconds]
+17:25 -!- pfraze [~pfraze@99.11.248.126] has quit [Ping timeout: 272 seconds]
+17:26 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has joined #stackvm
+17:32 -!- contraha_ [~contrahax@198.8.80.18] has quit [Ping timeout: 260 seconds]
+17:32 -!- ec is now known as vv
+17:32 -!- vv is now known as ELLIOTTCABLE
+17:34 < jjjohnny> feross: i am trying to use wbetorrent in a server project, along with bittoreent-tracker.  uploading files seems to work,
+                  tracker is updated, webtorrent says seeding, I get a magnetURI...  But when I try to DL with webtorent CLI or instant.io, I only
+                  see stalls
+17:36 -!- contrahax [~contrahax@c-73-202-243-134.hsd1.ca.comcast.net] has joined #stackvm
+17:37 -!- eyeforeigneye [~foreigney@p2003004607702FDA4824BA240A70D745.dip0.t-ipconnect.de] has joined #stackvm
+17:40 -!- eyeforeigneye [~foreigney@p2003004607702FDA4824BA240A70D745.dip0.t-ipconnect.de] has quit [Client Quit]
+17:43 -!- ELLIOTTCABLE is now known as }vv{
+17:44 -!- }vv{ is now known as ELLIOTTCABLE
+17:47 < jjjohnny> feross: switching to public trackers does not seem to help
+17:54 < jjjohnny> instant.io -> instant.io works, but not instant.io -> webtorrent CLI
+18:09 < jjjohnny> and not webtorrent in muh app to either
+18:58 -!- contraha_ [~contrahax@104.156.228.104] has joined #stackvm
+18:58 -!- contrahax [~contrahax@c-73-202-243-134.hsd1.ca.comcast.net] has quit [Ping timeout: 250 seconds]
+19:25 -!- ralphtheninja [~lms@c-45dce555.03-11-6c6b7012.cust.bredbandsbolaget.se] has quit [Ping timeout: 264 seconds]
+19:27 -!- ralphtheninja [~lms@c-a2d8e555.03-11-6c6b7012.cust.bredbandsbolaget.se] has joined #stackvm
+19:54 -!- ralphtheninja [~lms@c-a2d8e555.03-11-6c6b7012.cust.bredbandsbolaget.se] has quit [Ping timeout: 265 seconds]
+19:56 -!- ralphtheninja [~lms@c-45dce555.03-11-6c6b7012.cust.bredbandsbolaget.se] has joined #stackvm
+20:56 -!- pfraze_ [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has joined #stackvm
+20:56 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has quit [Ping timeout: 272 seconds]
+21:16 -!- pfraze_ [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has quit [Remote host closed the connection]
+21:55 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has joined #stackvm
+21:58 < rom1504> jjjohnny: instant.io seeds to webrtc, webtorrent cli download from tcp
+21:58 < rom1504> webtorrent cli to webtorrent cli should work though
+22:00 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has quit [Ping timeout: 264 seconds]
+22:04 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has joined #stackvm
+22:18 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has quit [Ping timeout: 250 seconds]
+22:35 -!- pfraze_ [~pfraze@2602:306:30bf:87e0:f829:213c:c3ca:52eb] has joined #stackvm
+23:52 -!- phated [~phated@ip68-0-180-121.tc.ph.cox.net] has joined #stackvm
+Day changed to 21 Dec 2015
+00:20 -!- phated [~phated@ip68-0-180-121.tc.ph.cox.net] has quit [Remote host closed the connection]
+01:39 -!- pfraze_ [~pfraze@2602:306:30bf:87e0:f829:213c:c3ca:52eb] has quit [Remote host closed the connection]
+01:45 -!- fotoverite [~fotoverit@cpe-67-244-109-181.nyc.res.rr.com] has quit [Quit: fotoverite]
+02:55 -!- pfraze [~pfraze@2602:306:30bf:87e0:d46d:ddfb:1030:ecfc] has joined #stackvm
+02:59 -!- pfraze [~pfraze@2602:306:30bf:87e0:d46d:ddfb:1030:ecfc] has quit [Ping timeout: 250 seconds]
+03:01 -!- contraha_ [~contrahax@104.156.228.104] has quit [Quit: Sleeping]
+04:13 -!- drptbl [~drptbl@213-241-25-178.static.ip.netia.com.pl] has joined #stackvm
+04:13 -!- drptbl [~drptbl@213-241-25-178.static.ip.netia.com.pl] has quit [Client Quit]
+04:18 -!- drptbl [~drptbl@213-241-25-178.static.ip.netia.com.pl] has joined #stackvm
+04:42 -!- tmpvar_ [sid36802@gateway/web/irccloud.com/x-ltkivstpdsdypjoy] has joined #stackvm
+04:45 -!- bytearch1r [ppitkama@kapsi.fi] has joined #stackvm
+04:45 -!- substack_ [~substack@104.131.0.235] has joined #stackvm
+04:48 -!- timoxley_ [~timoxley@128.199.65.199] has joined #stackvm
+04:48 -!- trevnorr1s [~trevnorri@162.243.211.225] has joined #stackvm
+04:50 -!- Netsplit *.net <-> *.split quits: tmpvar, substack, bytearcher, trevnorris, timoxley
+04:50 -!- tmpvar_ is now known as tmpvar
+05:00 -!- lepahc [~chapel@2607:f0d0:1103:106:21::12c] has joined #stackvm
+05:03 -!- contrahax [~contrahax@104.156.228.152] has joined #stackvm
+05:05 -!- brianlove_swords [brianloves@gateway/shell/bocoup/x-buzrlolakkdpmkni] has joined #stackvm
+05:08 -!- contrahax [~contrahax@104.156.228.152] has quit [Ping timeout: 272 seconds]
+05:09 -!- drptbl [~drptbl@213-241-25-178.static.ip.netia.com.pl] has quit [Quit: See you later!]
+05:10 -!- drptbl [~drptbl@213-241-25-178.static.ip.netia.com.pl] has joined #stackvm
+05:12 -!- Netsplit *.net <-> *.split quits: therealkoopa
+05:12 -!- Netsplit *.net <-> *.split quits: anandthakker, chapel, gildean, brianloveswords
+05:12 -!- brianlove_swords is now known as brianloveswords
+05:17 -!- Netsplit over, joins: gildean
+05:21 -!- anandthakker [~anandthak@192.241.179.251] has joined #stackvm
+06:04 -!- contrahax [~contrahax@104.156.228.152] has joined #stackvm
+06:08 -!- contrahax [~contrahax@104.156.228.152] has quit [Ping timeout: 240 seconds]
+07:28 -!- drptbl [~drptbl@213-241-25-178.static.ip.netia.com.pl] has quit [Quit: My MAC has gone to sleep. zZz..]
+07:51 -!- contrahax [~contrahax@104.156.228.152] has joined #stackvm
+07:55 -!- contrahax [~contrahax@104.156.228.152] has quit [Ping timeout: 246 seconds]
+17:44 -!- }vv{ is now known as ELLIOTTCABLE
+17:47 < jjjohnny> feross: switching to public trackers does not seem to help
+17:54 < jjjohnny> instant.io -> instant.io works, but not instant.io -> webtorrent CLI
+18:09 < jjjohnny> and not webtorrent in muh app to either
+18:58 -!- contraha_ [~contrahax@104.156.228.104] has joined #stackvm
+18:58 -!- contrahax [~contrahax@c-73-202-243-134.hsd1.ca.comcast.net] has quit [Ping timeout: 250 seconds]
+19:25 -!- ralphtheninja [~lms@c-45dce555.03-11-6c6b7012.cust.bredbandsbolaget.se] has quit [Ping timeout: 264 seconds]
+19:27 -!- ralphtheninja [~lms@c-a2d8e555.03-11-6c6b7012.cust.bredbandsbolaget.se] has joined #stackvm
+19:54 -!- ralphtheninja [~lms@c-a2d8e555.03-11-6c6b7012.cust.bredbandsbolaget.se] has quit [Ping timeout: 265 seconds]
+19:56 -!- ralphtheninja [~lms@c-45dce555.03-11-6c6b7012.cust.bredbandsbolaget.se] has joined #stackvm
+20:56 -!- pfraze_ [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has joined #stackvm
+20:56 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has quit [Ping timeout: 272 seconds]
+21:16 -!- pfraze_ [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has quit [Remote host closed the connection]
+21:55 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has joined #stackvm
+21:58 < rom1504> jjjohnny: instant.io seeds to webrtc, webtorrent cli download from tcp
+21:58 < rom1504> webtorrent cli to webtorrent cli should work though
+22:00 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has quit [Ping timeout: 264 seconds]
+22:04 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has joined #stackvm
+22:18 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has quit [Ping timeout: 250 seconds]
+22:35 -!- pfraze_ [~pfraze@2602:306:30bf:87e0:f829:213c:c3ca:52eb] has joined #stackvm
+23:52 -!- phated [~phated@ip68-0-180-121.tc.ph.cox.net] has joined #stackvm
+Day changed to 21 Dec 2015
+00:20 -!- phated [~phated@ip68-0-180-121.tc.ph.cox.net] has quit [Remote host closed the connection]
+01:39 -!- pfraze_ [~pfraze@2602:306:30bf:87e0:f829:213c:c3ca:52eb] has quit [Remote host closed the connection]
+01:45 -!- fotoverite [~fotoverit@cpe-67-244-109-181.nyc.res.rr.com] has quit [Quit: fotoverite]
+02:55 -!- pfraze [~pfraze@2602:306:30bf:87e0:d46d:ddfb:1030:ecfc] has joined #stackvm
+02:59 -!- pfraze [~pfraze@2602:306:30bf:87e0:d46d:ddfb:1030:ecfc] has quit [Ping timeout: 250 seconds]
+03:01 -!- contraha_ [~contrahax@104.156.228.104] has quit [Quit: Sleeping]
+04:13 -!- drptbl [~drptbl@213-241-25-178.static.ip.netia.com.pl] has joined #stackvm
+04:13 -!- drptbl [~drptbl@213-241-25-178.static.ip.netia.com.pl] has quit [Client Quit]
+04:18 -!- drptbl [~drptbl@213-241-25-178.static.ip.netia.com.pl] has joined #stackvm
+04:42 -!- tmpvar_ [sid36802@gateway/web/irccloud.com/x-ltkivstpdsdypjoy] has joined #stackvm
+04:45 -!- bytearch1r [ppitkama@kapsi.fi] has joined #stackvm
+04:45 -!- substack_ [~substack@104.131.0.235] has joined #stackvm
+04:48 -!- timoxley_ [~timoxley@128.199.65.199] has joined #stackvm
+04:48 -!- trevnorr1s [~trevnorri@162.243.211.225] has joined #stackvm
+04:50 -!- Netsplit *.net <-> *.split quits: tmpvar, substack, bytearcher, trevnorris, timoxley
+04:50 -!- tmpvar_ is now known as tmpvar
+05:00 -!- lepahc [~chapel@2607:f0d0:1103:106:21::12c] has joined #stackvm
+05:03 -!- contrahax [~contrahax@104.156.228.152] has joined #stackvm
+05:05 -!- brianlove_swords [brianloves@gateway/shell/bocoup/x-buzrlolakkdpmkni] has joined #stackvm
+05:08 -!- contrahax [~contrahax@104.156.228.152] has quit [Ping timeout: 272 seconds]
+05:09 -!- drptbl [~drptbl@213-241-25-178.static.ip.netia.com.pl] has quit [Quit: See you later!]
+05:10 -!- drptbl [~drptbl@213-241-25-178.static.ip.netia.com.pl] has joined #stackvm
+05:12 -!- Netsplit *.net <-> *.split quits: therealkoopa
+05:12 -!- Netsplit *.net <-> *.split quits: anandthakker, chapel, gildean, brianloveswords
+05:12 -!- brianlove_swords is now known as brianloveswords
+05:17 -!- Netsplit over, joins: gildean
+05:21 -!- anandthakker [~anandthak@192.241.179.251] has joined #stackvm
+06:04 -!- contrahax [~contrahax@104.156.228.152] has joined #stackvm
+06:08 -!- contrahax [~contrahax@104.156.228.152] has quit [Ping timeout: 240 seconds]
+07:28 -!- drptbl [~drptbl@213-241-25-178.static.ip.netia.com.pl] has quit [Quit: My MAC has gone to sleep. zZz..]
+07:51 -!- contrahax [~contrahax@104.156.228.152] has joined #stackvm
+07:55 -!- contrahax [~contrahax@104.156.228.152] has quit [Ping timeout: 246 seconds]
+17:44 -!- }vv{ is now known as ELLIOTTCABLE
+17:47 < jjjohnny> feross: switching to public trackers does not seem to help
+17:54 < jjjohnny> instant.io -> instant.io works, but not instant.io -> webtorrent CLI
+18:09 < jjjohnny> and not webtorrent in muh app to either
+18:58 -!- contraha_ [~contrahax@104.156.228.104] has joined #stackvm
+18:58 -!- contrahax [~contrahax@c-73-202-243-134.hsd1.ca.comcast.net] has quit [Ping timeout: 250 seconds]
+19:25 -!- ralphtheninja [~lms@c-45dce555.03-11-6c6b7012.cust.bredbandsbolaget.se] has quit [Ping timeout: 264 seconds]
+19:27 -!- ralphtheninja [~lms@c-a2d8e555.03-11-6c6b7012.cust.bredbandsbolaget.se] has joined #stackvm
+19:54 -!- ralphtheninja [~lms@c-a2d8e555.03-11-6c6b7012.cust.bredbandsbolaget.se] has quit [Ping timeout: 265 seconds]
+19:56 -!- ralphtheninja [~lms@c-45dce555.03-11-6c6b7012.cust.bredbandsbolaget.se] has joined #stackvm
+20:56 -!- pfraze_ [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has joined #stackvm
+20:56 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has quit [Ping timeout: 272 seconds]
+21:16 -!- pfraze_ [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has quit [Remote host closed the connection]
+21:55 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has joined #stackvm
+21:58 < rom1504> jjjohnny: instant.io seeds to webrtc, webtorrent cli download from tcp
+21:58 < rom1504> webtorrent cli to webtorrent cli should work though
+22:00 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has quit [Ping timeout: 264 seconds]
+22:04 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has joined #stackvm
+22:18 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has quit [Ping timeout: 250 seconds]
+22:35 -!- pfraze_ [~pfraze@2602:306:30bf:87e0:f829:213c:c3ca:52eb] has joined #stackvm
+23:52 -!- phated [~phated@ip68-0-180-121.tc.ph.cox.net] has joined #stackvm
+Day changed to 21 Dec 2015
+00:20 -!- phated [~phated@ip68-0-180-121.tc.ph.cox.net] has quit [Remote host closed the connection]
+01:39 -!- pfraze_ [~pfraze@2602:306:30bf:87e0:f829:213c:c3ca:52eb] has quit [Remote host closed the connection]
+01:45 -!- fotoverite [~fotoverit@cpe-67-244-109-181.nyc.res.rr.com] has quit [Quit: fotoverite]
+02:55 -!- pfraze [~pfraze@2602:306:30bf:87e0:d46d:ddfb:1030:ecfc] has joined #stackvm
+02:59 -!- pfraze [~pfraze@2602:306:30bf:87e0:d46d:ddfb:1030:ecfc] has quit [Ping timeout: 250 seconds]
+03:01 -!- contraha_ [~contrahax@104.156.228.104] has quit [Quit: Sleeping]
+04:13 -!- drptbl [~drptbl@213-241-25-178.static.ip.netia.com.pl] has joined #stackvm
+04:13 -!- drptbl [~drptbl@213-241-25-178.static.ip.netia.com.pl] has quit [Client Quit]
+04:18 -!- drptbl [~drptbl@213-241-25-178.static.ip.netia.com.pl] has joined #stackvm
+04:42 -!- tmpvar_ [sid36802@gateway/web/irccloud.com/x-ltkivstpdsdypjoy] has joined #stackvm
+04:45 -!- bytearch1r [ppitkama@kapsi.fi] has joined #stackvm
+04:45 -!- substack_ [~substack@104.131.0.235] has joined #stackvm
+04:48 -!- timoxley_ [~timoxley@128.199.65.199] has joined #stackvm
+04:48 -!- trevnorr1s [~trevnorri@162.243.211.225] has joined #stackvm
+04:50 -!- Netsplit *.net <-> *.split quits: tmpvar, substack, bytearcher, trevnorris, timoxley
+04:50 -!- tmpvar_ is now known as tmpvar
+05:00 -!- lepahc [~chapel@2607:f0d0:1103:106:21::12c] has joined #stackvm
+05:03 -!- contrahax [~contrahax@104.156.228.152] has joined #stackvm
+05:05 -!- brianlove_swords [brianloves@gateway/shell/bocoup/x-buzrlolakkdpmkni] has joined #stackvm
+05:08 -!- contrahax [~contrahax@104.156.228.152] has quit [Ping timeout: 272 seconds]
+05:09 -!- drptbl [~drptbl@213-241-25-178.static.ip.netia.com.pl] has quit [Quit: See you later!]
+05:10 -!- drptbl [~drptbl@213-241-25-178.static.ip.netia.com.pl] has joined #stackvm
+05:12 -!- Netsplit *.net <-> *.split quits: therealkoopa
+05:12 -!- Netsplit *.net <-> *.split quits: anandthakker, chapel, gildean, brianloveswords
+05:12 -!- brianlove_swords is now known as brianloveswords
+05:17 -!- Netsplit over, joins: gildean
+05:21 -!- anandthakker [~anandthak@192.241.179.251] has joined #stackvm
+06:04 -!- contrahax [~contrahax@104.156.228.152] has joined #stackvm
+06:08 -!- contrahax [~contrahax@104.156.228.152] has quit [Ping timeout: 240 seconds]
+07:28 -!- drptbl [~drptbl@213-241-25-178.static.ip.netia.com.pl] has quit [Quit: My MAC has gone to sleep. zZz..]
+07:51 -!- contrahax [~contrahax@104.156.228.152] has joined #stackvm
+07:55 -!- contrahax [~contrahax@104.156.228.152] has quit [Ping timeout: 246 seconds]
+08:06 -!- drptbl [~drptbl@213-241-25-178.static.ip.netia.com.pl] has joined #stackvm
+04:50 -!- M|tar is now known as Mitar
+04:50 -!- Bage1s_ is now known as Bage1s
+11:04 -!- contrahax [~contrahax@104.156.228.152] has joined #stackvm
+11:05 -!- substack_ is now known as substack
+11:09 -!- contrahax [~contrahax@104.156.228.152] has quit [Ping timeout: 255 seconds]
+11:17 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has quit [Remote host closed the connection]
+11:20 -!- fotoverite [~fotoverit@cpe-67-244-109-181.nyc.res.rr.com] has joined #stackvm
+11:22 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has joined #stackvm
+11:52 -!- mrb_bk_ [uid2099@gateway/web/irccloud.com/x-tsimguykrlobhift] has quit [Quit: Connection closed for inactivity]
+12:16 -!- drptbl [~drptbl@213-241-25-178.static.ip.netia.com.pl] has quit [Quit: My MAC has gone to sleep. zZz..]
+13:01 -!- drptbl [~drptbl@213-241-25-178.static.ip.netia.com.pl] has joined #stackvm
+13:09 -!- contrahax [~contrahax@104.156.228.152] has joined #stackvm
+13:09 -!- contrahax [~contrahax@104.156.228.152] has quit [Client Quit]
+13:12 -!- drptbl [~drptbl@213-241-25-178.static.ip.netia.com.pl] has quit [Quit: My MAC has gone to sleep. zZz..]
+13:30 -!- fotoverite [~fotoverit@cpe-67-244-109-181.nyc.res.rr.com] has quit [Quit: fotoverite]
+13:57 -!- contrahax [~contrahax@104.156.228.152] has joined #stackvm
+13:58 -!- contrahax [~contrahax@104.156.228.152] has quit [Client Quit]
+14:01 -!- phated [~phated@wsip-70-184-120-71.ph.ph.cox.net] has joined #stackvm
+14:03 -!- contrahax [~contrahax@104.156.228.152] has joined #stackvm
+16:55 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has quit [Remote host closed the connection]
+17:02 -!- contrahax [~contrahax@104.156.228.152] has quit [Quit: Sleeping]
+17:17 -!- contrahax [~contrahax@104.156.228.84] has joined #stackvm
+17:21 -!- farnsworth [~farnswort@simcop2387.info] has joined #stackvm
+17:21 -!- cubert_ [~cubert@simcop2387.info] has joined #stackvm
+05:23 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has quit [Ping timeout: 250 seconds]
+08:04 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has joined #scuttlebutt
+08:09 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has quit [Ping timeout: 260 seconds]
+09:37 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has joined #scuttlebutt
+09:42 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has quit [Ping timeout: 260 seconds]
+10:06 -!- tictacjoe [~tictacjoe@24.27.227.1] has joined #scuttlebutt
+10:13 -!- tictacjo_ [~tictacjoe@216.201.168.18] has joined #scuttlebutt
+10:18 -!- tictacjoe [~tictacjoe@24.27.227.1] has quit [Ping timeout: 272 seconds]
+10:20 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has joined #scuttlebutt
+10:41 -!- tictacjo_ [~tictacjoe@216.201.168.18] has quit [Remote host closed the connection]
+10:44 -!- tictacjoe [~tictacjoe@216.201.168.18] has joined #scuttlebutt
+11:05 -!- substack_ is now known as substack
+11:17 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has quit [Remote host closed the connection]
+11:22 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has joined #scuttlebutt
+12:52 -!- tictacjoe [~tictacjoe@216.201.168.18] has quit [Remote host closed the connection]
+13:01 < pfraze> substack: I just got the error you wrote in here https://gist.github.com/substack/b8c63ea2338edbf52d28
+13:01 < pfraze> how did you end up resolving it?
+13:07 -!- phpnode [~charles@host31-52-201-21.range31-52.btcentralplus.com] has joined #scuttlebutt
+13:21 < pfraze> substack: nm, solved by upgrading npm to 3.5.2
+13:28 -!- nicolagreco [~nicolagre@198.199.79.104] has joined #scuttlebutt
+13:29 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has joined #scuttlebutt
+13:29 -!- iancrowther [~iancrowth@62.232.185.218] has quit [Remote host closed the connection]
+13:31 -!- iancrowther [~iancrowth@62.232.185.218] has joined #scuttlebutt
+13:32 -!- iancrowther [~iancrowth@62.232.185.218] has quit [Remote host closed the connection]
+14:14 < substack> pfraze: I did `npm install history`
+14:15 < pfraze> substack: ok
+16:12 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has quit [Remote host closed the connection]
+16:55 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has quit [Remote host closed the connection]
+17:12 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has joined #scuttlebutt
+17:17 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has quit [Ping timeout: 265 seconds]
+17:51 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has joined #scuttlebutt
+18:13 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has joined #scuttlebutt
+18:18 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has quit [Ping timeout: 240 seconds]
+18:52 -!- bengl [~bengl@91.219.238.88] has quit [Ping timeout: 240 seconds]
+19:05 -!- domanic [~dominic@118.148.207.231] has joined #scuttlebutt
+19:30 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has joined #scuttlebutt
+19:50 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has quit []
+19:51 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has joined #scuttlebutt
+20:43 < pfraze> domanic: Im getting blockchain validation errors
+20:45 -!- domanic [~dominic@118.148.207.231] has quit [Ping timeout: 256 seconds]
+23:19 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has quit [Remote host closed the connection]
+23:20 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has joined #scuttlebutt
+23:24 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has quit [Ping timeout: 264 seconds]
+Day changed to 22 Dec 2015
+01:55 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has quit [Remote host closed the connection]
+05:47 -!- iancrowther [~iancrowth@62.232.185.218] has joined #scuttlebutt
+09:32 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has joined #scuttlebutt
+10:30 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has joined #scuttlebutt
+11:27 < pfraze> cryptix: sorry you got hit with the v5 change
+11:27 < cryptix> pfraze: np :) glad to drop nvm
+11:28 < pfraze> cryptix: yeah me too
+11:28 < pfraze> cryptix: hey about your music collections project, I bet you we could make that happen on ssb
+11:30 < cryptix> oh yes i see great potential overlap
+11:31 < pfraze> we need to develop our tooling a bit more, and sort out how non-patchwork apps integrate
+11:32 < pfraze> but keep us in mind if you start to embark on something, I can give you support
+11:40 < cryptix> pfraze: that's awesome - i sure will
+11:41 < pfraze> cryptix: ý
+12:06 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has quit [Remote host closed the connection]
+12:15 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has joined #scuttlebutt
+12:21 -!- mixmix [~kmix@101.98.215.87] has joined #scuttlebutt
+12:22 < mixmix> hey pfraze
+12:23 < pfraze> mixmix: hey
+12:23 < mixmix> I gots some baaad things going on in master
+12:23 < mixmix> just writing up an issue
+12:23 < pfraze> mixmix: I'm seeing your PR
+12:23 < pfraze> is it throwing an error, or just displaying a warning?
+12:24 < pfraze> ok yeah
+12:24 < pfraze> mixmix: hold up, youve got a mixup of issues
+12:25 < pfraze> mixmix: so the main issue is the recent electron version bump makes v5 work... but makes v4 break
+12:25 < pfraze> c'est la vie
+12:26 < pfraze> so master now requires v5
+12:27 < cryptix> might be a good time to start checking that in package.json? ;)
+12:27 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has quit [Remote host closed the connection]
+12:27 < mixmix> oh you mean node !
+12:28 < mixmix> sweet
+12:28 < pfraze> cryptix: yes you may be right
+12:28 < pfraze> mixmix: yeah
+12:29 < mixmix> cryptix we have .nvmrc which kinda does that
+12:29 < pfraze> mixmix: I never noticed that, what does it do?
+12:30 < mixmix> it signals preferred node version to nvm
+12:30 < mixmix> you can just go 'nvm use'  and it reads that file
+12:30 < pfraze> ohhhh nice
+12:31 < pfraze> yeah so I guess we should update that and our package.json to enforce v
+12:31 < pfraze> 5
+12:31 < mixmix> AND it's a record written somewhere which says the version programmatically ...
+12:32 < pfraze> yeah
+12:32 < pfraze> package.json can force v5 I think
+12:32 < pfraze> https://github.com/ssbc/patchwork/issues/221
+12:33 < pfraze> mixmix: so I finally got too fed up with manually building computed views and indexes that I started this experiment
+                https://github.com/ssbc/patchwork/pull/211
+12:39 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has joined #scuttlebutt
+12:40 < mixmix> that's pretty interesting. It looks like it will be an accessability boost
+12:41 < mixmix> interested to see what the performance looks like pfraze
+12:41 < pfraze> mixmix: me too. fingers crossed
+12:51 < mixmix> did you get replication back up and working for your computer ?
+12:52 < pfraze> mixmix: I did. Funny enough, it was just a problem with my local computer's sbot version. That error-logging I was searching for
+                in scuttlebot, last night, was just a leftover debug log
+13:06 < mixmix> hey pfraze can you post the actions from yesterdays retro/sprint in  that new channel I made : #patchwork-org
+13:06 < mixmix> (on patchwork)
+13:06 < pfraze> mixmix: I already did
+13:08 < mixmix> can has id ?  can't see anything in that patchwork channel except my 2 posts
+13:08 < pfraze> woah, really? what's the last message you have from me?
+13:09 < mixmix> it's an encrypted message : %x943bbO4m28mBKPTW1YfriGjfQYwR+NHX535oikqUyY=.sha256
+13:09 < pfraze> we do have a network isssue then
+13:10 < mixmix> last unecrypet was : SuEfd6vKZH63GrxDdAi2lEVE9t2mtCLAxQNuweXKG3Y=.sha256
+13:10 < mixmix> last unecrypet was : `SuEfd6vKZH63GrxDdAi2lEVE9t2mtCLAxQNuweXKG3Y=.sha256`
+13:10 < pfraze> wait... woah
+13:10 < pfraze> something *terrible* has happened here, 1 sec
+13:11 < pfraze> oh... no...
+13:11 < pfraze> my history forked 27 messages ago
+13:12 < mixmix> uh oh ... what does that mean and is it recoverable ?
+13:12 < mixmix> pfraze we've only just got to know each other, don't leave me for a parallel / fork universe
+13:12 < pfraze> mixmix: haha
+13:13 < pfraze> first thing we can conclude, there's a very bad bug somewhere that allowed my to split like this
+13:13 < pfraze> second thing, the system didnt notice that I forked
+13:14 < pfraze> this fork manifested as my sequence counter resetting to 1, which means all 27 messages since the fork have probably not been
+                replicated to anybody
+13:14 < pfraze> yeah
+13:15 < cryptix> pfraze: last msg from you is %x943bbO4m28mBKPTW1YfriGjfQYwR+NHX535oikqUyY=.sha256 on my side
+13:15 < pfraze> to roll it back, it'll probably be easiest to nuke my local db and refetch my messages from a pub, and then repost everything that
+                didnt get posted
+13:15 < mixmix> because they didn't look legit  ?
+13:15 < mixmix> yeah same as me cryptix
+13:16 < pfraze> mixmix: yeah, odds are that everybody connecting to me right how had my prior history, so when I started throwing out new versions
+                of sequence 1-27, they rejected them
+13:16 < mixmix> good thing we have a squishy social network with checks pfraze !
+13:16 < pfraze> yeah... but this is pretty disturbing
+13:16 < mixmix> pfraze : that at least is good
+13:16 < pfraze> yeah
+13:16 < mixmix> but it;s scary the idea that I might be in a glass box screaming and no-one could hear
+13:17 < mixmix> #drama
+13:17 < pfraze> yeah, silent failures really bother me
+13:17 < pfraze> we have a high chance of them, since we're eventually consistent
+13:17 < pfraze> and we're still figuring out when they can occur, and how to escalate them to the user
+13:18 < mixmix> or maybe escelate them to archtiects .. like sbot posts a 'bug'-type message
+13:18 < pfraze> maybe, though that wouldnt work if theyre not getting replicated
+13:18 < mixmix> how fucking cool would that be. We don't need to ask, the network breathes is bugs
+13:18 < mixmix> hah, true
+13:19 < mixmix> ok got to sleep, it's 7am here  (I got up at 5am)
+13:19 < pfraze> mixmix: whew, ok later
+13:23 < pfraze> hah my v5 breaking announcement didnt making it out to PW
+13:24 < pfraze> ok I figured out what happened. Ugly but it had to do with debugging on my system. The only issue we need to address is the lack
+                of escalation to the user
+13:25 < mixmix> do you need me to post anything out ?
+13:27 < pfraze> nah I should be able to recover soon
+13:27 < pfraze> important thing is, what happened to me was caused by me upgrading sbot, and then downgrading it
+13:27 < pfraze> which is something that shouldnt happen to other folks
+13:28 < mixmix> I'll post about version 5 node just as a precaution
+13:29 < pfraze> mixmix: yeah, let them know it just affects people on master
+13:40 < jjjohnny> how do i query for a channel?
+13:40 < pfraze> jjjohnny: can you be more specific?
+13:40 < jjjohnny> from the CLI
+13:41 < pfraze> you're wanting to get all messages in a channel?
+13:41 < jjjohnny> sbot link --dest "#" + channelHash?
+13:41 < jjjohnny> yeah
+13:41 < pfraze> no, channels arent links
+13:41 -!- mixmix [~kmix@101.98.215.87] has quit [Ping timeout: 250 seconds]
+13:41 < pfraze> patchwork does it by producing a custom index
+13:42 < pfraze> so if patchwork is running (and thus your sbot server) you can use ./bin.js patchwork.createChannelStream {channel}
+13:42 < jjjohnny> how would I do it in my program?
+13:42 < jjjohnny> oh createChannelStream(channel)
+13:43 < jjjohnny> or is that patchwork only?
+13:43 < pfraze> it is, at the moment you'll need to either import patchwork's api or recreate that functionality in your program
+13:43 < jjjohnny> where is it the codes?
+13:43 < pfraze> check inside patchwork ./api, specifically api/index.js and api/processor.js
+13:44 < pfraze> it's a bit difficult to use right now; Im working on a sqlite project atm that's meant to make it nicer
+13:44 < jjjohnny> sbot db gives you sublevels eh
+13:45 < jjjohnny> why not use mynosql module?
+13:45 < pfraze> I dont think mynosql is staying
+13:46 < jjjohnny> staying where?
+13:46 < pfraze> in scuttlebot
+13:47 < pfraze> we're fairly convinced we need a stronger query engine than we'll have the time to implement ourselves
+13:47 < pfraze> which is why Im experimenting with sqlite now
+13:47 < jjjohnny> fvck
+14:22 < pfraze> whew, there's an hour lost to corruption nonsense
+14:54 -!- iancrowther [~iancrowth@62.232.185.218] has quit [Remote host closed the connection]
+16:01 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has quit [Remote host closed the connection]
+17:07 -!- iancrowther [~iancrowth@90.192.237.184] has joined #scuttlebutt
+17:19 -!- iancrowther [~iancrowth@90.192.237.184] has quit []
+18:06 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has joined #scuttlebutt
+18:16 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has quit [Remote host closed the connection]
+18:34 -!- mixmix [~kmix@101.98.215.87] has joined #scuttlebutt
+18:41 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has joined #scuttlebutt
+19:18 -!- mixmix [~kmix@101.98.215.87] has quit [Quit: Konversation terminated!]
+19:22 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has quit [Remote host closed the connection]
+19:24 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has joined #scuttlebutt
+19:26 -!- domanic [~dominic@210.54.33.172] has joined #scuttlebutt
+19:32 -!- domanic [~dominic@210.54.33.172] has quit [Ping timeout: 265 seconds]
+19:36 -!- pfraze [~pfraze@99-11-248-126.lightspeed.austtx.sbcglobal.net] has quit [Read error: Connection reset by peer]
+19:36 -!- pfraze [~pfraze@2602:306:30bf:87e0:5b7:4c90:c282:b0bf] has joined #scuttlebutt
+19:49 < jjjohnny> i just made PRs for ssb-ref and secure-scuttlebutt, to add the tag sigil to the links index
+19:50 < jjjohnny> this file needs a few lines https://github.com/ssbc/scuttlebot/blob/master/lib/validators.js
+19:51 < pfraze> jjjohnny: what's the tag do?
+19:52 < jjjohnny> adds # to link message index
+19:52 < jjjohnny> perhaps ssb should have a "Add your own" sigil method
+19:53 < jjjohnny> it looks like adding a 4 line method to validors.js would finish the job
+19:54 < jjjohnny> then mentions of links with sigil type # get indexed
+19:54 < jjjohnny> hurray
+19:55 < pfraze> jjjohnny: in the past we've been pretty slow to add new link-types (which the sigils are). They refer to 3 object-types that are
+                inherent to the system, messages, feeds, and files
+19:55 < pfraze> jjjohnny: I think what you're trying to do is create new indexes, right?
+19:55 < jjjohnny> yes
+19:56 < jjjohnny> just the one, but frankly I am willing to go full declare your own
+19:57 < pfraze> yeah, we dont have any builtins to do that yet. I dont think adding sigils is the best way to do that, because there's only so
+                many characters in the world. The recommendation is to create your own sublevel or other db (like sqlite) and populate them with a
+                log-processor function
+20:00 < jjjohnny> by adding your own, sbots need only get better at indexing and p2p search protocols
+20:01 < jjjohnny> the indexes will already be there, or they wont
+20:01 < jjjohnny> the more apps support an index, the more indexed that search will be
+20:01 < pfraze> jjjohnny: we do need to make it more convenient to do
+20:02 < pfraze> jjjohnny: but sigils arent the right tool. We either need good external tooling (eg sqlite, or libraries to create indexes) or we
+                need some index-defining functions in ssb core
+20:02 < jjjohnny> yes, convenience over performance
+20:03 < jjjohnny> i am so against adding sqlite to sbots
+20:03 < pfraze> yeah it's not even a performance concern really, just a question of the quality of the API. We're still trying to understand the
+                requirements
+20:03 < substack> that's going to make it really hard to do sbot in browsers
+20:03 < pfraze> right
+20:05 < jjjohnny> ading a create your own should be easy as redoing my PRs, bling, bam, bloom
+20:06 < jjjohnny> thing is, apps need to do indexing with their secure social database
+20:06 < jjjohnny> yall invented the mentions.link as a index already
+20:06 < pfraze> well the mentions links are using the 3 existing sigils
+20:07 < pfraze> but, here's a thought - maybe it would be a good idea to have a fourth sigil, such as #, for non-ssb objects
+20:08 < pfraze> hah, which is what youre saying
+20:08 < pfraze> ok you may be onto something, I'll poke dominic about it
+20:10 < pfraze> jjjohnny: no matter what this is something that's bugging my dev too, so Im gonna try to get a solution sooner than later
+ https://github.com/ssbc/docs
+20:10 < jjjohnny> i didnt think of it that way, i just want user defined indexes, but together we just reinvented the hashtag
+20:12 < jjjohnny> i have faith in mynosql, or whatever pushes the bar for leveldb querying, the important thing being ease of use now, perf
+                  optimizatoons over time
+20:13 < jjjohnny> substack probably has some ldb indexing insight by now
+20:15 < jjjohnny> n-dimensional queries is probably not a bad approach for social search indexing
+20:18 < substack> I don't think sbot will need anything like n-dimensional indexes
+20:18 < substack> ordinary leveldb will probably be fine
+20:19 < substack> but probably the indexes should be completely generic so people can plug in different storage engines
+20:21 < jjjohnny> arbitray distances are relevent to importance, and trust networks
+20:22 < jjjohnny> maybe this is app territory stuff
+20:22 < substack> an index api: function (doc, next) {}
+20:22 < substack> then the index is responsible for hooking up its own index storage
+20:23 < substack> and an index should expose whichever kinds of queries it supports
+20:23 < pfraze> substack: yes that's the current design, plus a few baked-in indexes (by message type, by the 3 builtin link types)
+20:23 < substack> so maybe: exports.index = function (doc, next) {}; exports.query = function (query, cb) {}
+20:24 < jjjohnny> search queries need to be the homegenous so sbot can query p2p the entire mesh
+20:25 < jjjohnny> that is a guess
+20:25 < pfraze> jjjohnny: that's distributed live search querying, which is on my 2016 wishlist
+20:25 < jjjohnny> but if you think of sbot as a clever social graph database, it should provide particular queries, only the choicest, and the
+                  ability to index anything
+20:26 < jjjohnny> pfraze: xactly, im trynna set that up right
+20:27 < pfraze> jjjohnny: well, that's a slightly different question than producing application-specific indexes, which is not a part of
+                distributed search
+20:27 -!- tictacjoe [~tictacjoe@cpe-24-242-91-2.austin.res.rr.com] has quit [Remote host closed the connection]
+20:28 < pfraze> jjjohnny: app indexes are for fast accessing the local db, and we can put their creation inside sbot or inside the app, and both
+                can be convenient
+20:28 < pfraze> but we dont have good tools for it. Patchwork's /api directory is what that looks like right now
+20:30 < pfraze> https://github.com/ssbc/patchwork/pull/211 is what Im trying out now. I dont know if sqlite will be the right answer, but since
+                it's one of the most feature-complete solutions, it's useful to try it
+20:32 < jjjohnny> if we really wanna go full tag index, the primary 3 link types should add a sub-queryable link, which if I understand the
+                  current setup would improve performance over individual tag indexes, when you think about searching across terms ie. search
+                  posts WHERE tags are #abc #zyx
+20:33 < jjjohnny> ergo the tag sigil is a meta-metadata-data
+20:47 < jjjohnny> datum
+21:00 -!- mmckegg [sid28034@gateway/web/irccloud.com/x-ocjulvxyplmuoxxl] has quit [Ping timeout: 272 seconds]
+21:02 -!- mmckegg [sid28034@gateway/web/irccloud.com/x-irkrzqyvpellpkfc] has joined #scuttlebutt
+ [21:11] [jjjohnny(+i)] [7:freenode/#scuttlebutt(+ns)] [Act: 8]
+[#scuttlebutt]
