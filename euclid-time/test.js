@@ -1,0 +1,7 @@
+var eu = require('./')
+//console.log(eu(3, 8))
+console.log(eu(5, 8))
+//console.log(eu(5, 13))
+console.log(eu(4, 8))
+console.log(eu(4, 5))
+console.log(eu(4, 7))
