@@ -1,0 +1,259 @@
+body{
+    font-size:22px;
+    font-family:Helvetica;
+    overflow:auto;
+    background:#abaacc;
+    background-image:radial-gradient(rgba(255,255,255,.05) 0, rgba(25,255,55,.1) 100%);
+    
+}
+
+#compositor{
+    position:relative;
+    width:100%;
+}
+#frameDuration{
+    width:120px;
+    height:57px;
+    font-size:22px;
+    text-indent:3px;
+}
+.render{
+    height:480px;
+    width:1300px;
+    margin:10px auto 0;
+    position:relative;
+    background:rgba(171, 170, 204, 0);
+    overflow-x:auto;
+    overflow-y:hidden;
+    clear: both;
+    white-space: nowrap;
+}
+
+.redButtons{
+    height:60px;
+    width:1320px;
+    margin:0 auto;
+    position:relative;
+    background:#abaacc;
+    overflow-x:auto;
+    overflow-y:hidden;
+    clear: both;
+    white-space: nowrap; 
+}
+#exportGif{
+    background:rgba(200, 40, 85, 1);
+}
+
+
+#exposureShot{
+    background:rgba(200, 20, 65, 1);
+}
+
+#exportFrame{
+    background:rgba(200, 40, 85, 1);
+}
+#playFrames{
+    background:rgba(200, 20, 65, 1);
+}
+#snapShot{
+    background:rgba(239, 74, 51, 1);
+}
+
+
+.redButton{
+    height:100%;
+    width:20%;
+    float:left;
+}
+
+.snapShotButton, .exposureButton, .playButton, .exportFrameButton{
+    background: rgba(200, 20, 45, 1);
+    border:3px solid pink;
+
+}
+
+video, canvas{
+}
+
+#mirror{
+    display:none;
+}
+
+.renderCap{
+    width:640px;
+    height:480px;
+    display:inline;
+    float:left;
+    background:#fff;
+}
+
+.srcVid{
+    float:right;
+    width:640px;
+    height:480px;
+    display:inline;
+    z-index:3;
+}
+
+.topBar{
+    min-height:200px;
+    width:1320px;
+    margin:0 auto;
+    position:relative;
+    background:rgba(171, 170, 204, 0);
+    padding-left:10px;
+    padding-top:10px;
+    border-top:5px solid #333;
+    overflow-x:auto;
+    overflow-y:auto;
+}
+
+.exposureOpts{
+    margin:0 auto;
+    position:relative;
+    padding:0 66px;
+}
+
+
+.knob{
+    height:200px;
+    width:125px;
+    margin:0 20px;
+    display:inline;
+    float:left;
+}
+
+.knob label{
+    height:65px;
+    display:block;
+    font-weight:600;
+}
+
+.knob input{
+    height:40px;
+    width: 100%;
+    display:block;
+    margin:0 auto;
+}
+
+.knob p{
+    text-align:left;
+}
+
+.knob label, .knob p{
+    font-size: 14px;
+}
+.ppp{
+    margin:0;
+    padding:0;
+    width:125px;
+}
+#frames{
+    height:190px;
+    width:100%;
+    position:relative
+    top:690px;
+    left:0;
+    background: hsla(100, 5%, 35%, 1);
+    overflow-x:auto;
+    overflow-y:hidden;
+    
+    border-top:5px solid #333;
+}
+#frameset{
+    clear: both;
+    white-space: nowrap;
+    float: left;
+}
+
+
+.frame-cont{
+    margin:10px;
+    display:inline-block;
+    clear: both;
+    white-space: nowrap;
+    position:relative;
+    cursor:pointer;
+}
+
+.frame-cont img{
+    height:150px;
+    width:150px;
+    margin:0;
+    padding:0;
+}
+
+
+#compOpts{
+    min-width:640px;
+    top:0;
+    left:0;
+    margin-left:650px;
+    height:480px;
+    background:#abaacc;
+    display:none;
+}
+#superOverlay{
+    position:fixed;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    background:#ffffff;
+    display:none;
+    z-index:500;
+}
+input[type=checkbox]:checked + .chessradio{
+    border: 5px solid #fff;
+    background: #000;
+    
+}
+
+input[type=checkbox]:checked + .chessradio.invert:after{
+    content: 'inverted';
+    color: #fff;
+}
+
+input[type=checkbox] + .chessradio.invert:after{
+    content: 'normal';
+    color: #000;
+}
+
+input[type=checkbox]:checked + .chessradio.monitor:after{
+    content: 'show';
+    color: #fff;
+}
+
+input[type=checkbox] + .chessradio.monitor:after{
+    content: 'hide';
+    color: #000;
+}
+
+input[type=color]{
+    cursor:pointer;
+}
+
+input[type=number]{
+    cursor:ns-resize;
+}
+
+.chessradio
+{
+    text-align:center;
+    width: 100px;
+    height: 35px;
+    background: white;
+    float: left;
+    border-radius: 16px;
+    border: 5px solid #000;
+    margin:10px 7px;
+    padding:4px;
+    cursor:pointer;
+}
+
+.cameraLegend{
+    text-align:center;
+    padding:0;
+    margin:0;
+    font-size:18px;
+}
