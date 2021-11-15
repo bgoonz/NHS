@@ -1,0 +1,11 @@
+.git*
+test/
+examples/
+test/
+*.md
+.travis.yml
+LICENSE
+.gitignore
+paige.config
+docs/
+benchmarks/
