@@ -1,0 +1,17 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "3.0.0rc3",
+    "jade": "*",
+    "stylus": "*",
+    "socket.io": "0.9.10",
+    "hiredis": "0.1.14",
+    "redis": "0.7.2",
+    "connect-redis": "1.4.1"
+  }
+}

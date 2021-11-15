@@ -1,0 +1,11 @@
+.topBar {
+  width: 100%;
+  text-align: right;
+  background: rgba(20,25,65,0.8);
+}
+.topBar a {
+  font-size: 16px;
+  font-size: 1.6rem;
+  margin: 0 1.5em;
+  color: #ff0;
+}

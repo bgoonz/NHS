@@ -1,0 +1,23 @@
+<link href='stylesheets/textarea.css' rel='stylesheet'>
+
+<form class="wys" name="post" method="post" action="message">
+   <input type="text" class="textInput" id="subject" name="subject" placeholder="RE:" />
+   <br>
+   <textarea id="textarea" name="text" placeholder="Enter text ..."></textarea>
+   <br>
+   <input type="submit" value="POST">
+</form>
+
+<script src="javascripts/wysihtml5.advanced.parser.js"></script>
+<script src="javascripts/wysihtml5-v0.3.0.min.js"></script>
+<script>
+  var editor = new wysihtml5.Editor("textarea", {
+    toolbar:      "compositionTools",
+    stylesheets:  "stylesheets/wysihtml5.css",
+    parserRules:  wysihtml5ParserRules
+  });
+  var editor = new wysihtml5.Editor("subject", {
+    stylesheets:  "stylesheets/wysihtml5.css",
+    parserRules:  wysihtml5ParserRules
+  });
+</script>

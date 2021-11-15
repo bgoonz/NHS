@@ -1,0 +1,40 @@
+body {
+  padding: 10px;
+  font: 62.5% "Verdana", Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+a {
+  color: #00b7ff;
+}
+h1 {
+  font-size: 25px;
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 23px;
+  font-size: 2.3rem;
+}
+h3 {
+  font-size: 21px;
+  font-size: 2.1rem;
+}
+h4 {
+  font-size: 18px;
+  font-size: 1.8rem;
+}
+p {
+  letter-spacing: 0.2ex;
+}
+.box {
+  width: 420px;
+  height: 100%;
+  min-height: 600px;
+  border: 2px solid #f00;
+}
+.border {
+  max-width: 1280px;
+  height: 100%;
+  border: 1px solid #ff0;
+  margin: 0 auto;
+  position: relative;
+}

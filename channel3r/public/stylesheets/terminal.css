@@ -1,0 +1,10 @@
+.terminal {
+  width: 62%;
+  height: 100%;
+  background: #376464;
+}
+.compose {
+  min-height: 400px;
+  width: 73%;
+  margin-right: 10px;
+}

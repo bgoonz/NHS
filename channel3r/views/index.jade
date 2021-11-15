@@ -1,0 +1,28 @@
+doctype 5
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/reset.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/topBar.css')
+    link(rel='stylesheet', href='/stylesheets/sideBar.css')
+    link(rel='stylesheet', href='/stylesheets/terminal.css')
+  body
+    div.border
+      div.topBar
+        a(href='/auth') Sign In
+        a(href='/signout') Sign Out
+      include ./modules/sideBar.jade
+      div.terminal
+        div.compose
+          include ./modules/wysihtml5.html
+        div.posts
+          each msg in msgs
+            div.msg
+              div.subject
+                h4= msg.subject
+              div.body
+                p !{msg.text}
+  script(type="text/javscript", src="/javascripts/jquery-1.5.1.min.js")
+  script(type="text/javscript", src="/socket.io/socket.io.js")
+  script(type="text/javscript", src="/build/app.js")
