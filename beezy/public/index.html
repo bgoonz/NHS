@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>sans titre</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id=intro>
+      <h2>Bezier Curves, Polynomials and Gradient Descent</h2>
+      <p>
+        This demo uses machine learning to find the "control points" of a Bezier Curve.  
+        The curve on the left is described by the rainbow colored control points.  Modulate them, then click Train.
+        Given the curve, this module uses gradient descent to find those same control points (loss=.0001). 
+        <b>This will take 30 seconds or more, depending on your computer. A window alert will let you know it's done.</b>
+      </p>
+    </div>
+    <div class=row>
+      <div id="bezel" class=bez></div>
+      <button id=train>Train</button>
+      <div id="bezel2" class=bez></div>
+    </div>
+    <div id=outro>
+    </div>
+  </body>
+  <script type="text/javascript" src="bundle.js"></script>
+</html>

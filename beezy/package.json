@@ -1,0 +1,17 @@
+{
+  "name": "beezy",
+  "version": "1.1.1",
+  "description": "n scale bezier curve solver",
+  "main": "beezy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jsynth": "^2.8.0"
+  },
+  "dependencies": {
+    "binomial": "^0.2.0"
+  }
+}
